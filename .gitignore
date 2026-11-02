@@ -1,0 +1,13 @@
+# secrets
+.env
+# large / redistributable-elsewhere raw inputs (hashes kept in data/raw/manifest.csv)
+data/raw/**/*.pdf
+data/raw/manual/irdai_handbook_2024_25/
+data/raw/screener/cache/
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# os
+.DS_Store

@@ -1,0 +1,479 @@
+symbol,section,line_item,period,value
+HDFCBANK,quarters,Revenue,Sep 2023,67698.0
+HDFCBANK,quarters,Revenue,Dec 2023,70583.0
+HDFCBANK,quarters,Revenue,Mar 2024,71473.0
+HDFCBANK,quarters,Revenue,Jun 2024,73033.0
+HDFCBANK,quarters,Revenue,Sep 2024,74017.0
+HDFCBANK,quarters,Revenue,Dec 2024,76007.0
+HDFCBANK,quarters,Revenue,Mar 2025,77460.0
+HDFCBANK,quarters,Revenue,Jun 2025,77470.0
+HDFCBANK,quarters,Revenue,Sep 2025,76691.0
+HDFCBANK,quarters,Revenue,Dec 2025,76751.0
+HDFCBANK,quarters,Revenue,Mar 2026,76610.0
+HDFCBANK,quarters,Revenue,Jun 2026,79363.0
+HDFCBANK,quarters,Revenue,Sep 2026,83427.0
+HDFCBANK,quarters,Interest,Sep 2023,40313.0
+HDFCBANK,quarters,Interest,Dec 2023,42111.0
+HDFCBANK,quarters,Interest,Mar 2024,42396.0
+HDFCBANK,quarters,Interest,Jun 2024,43196.0
+HDFCBANK,quarters,Interest,Sep 2024,43903.0
+HDFCBANK,quarters,Interest,Dec 2024,45354.0
+HDFCBANK,quarters,Interest,Mar 2025,45394.0
+HDFCBANK,quarters,Interest,Jun 2025,46032.0
+HDFCBANK,quarters,Interest,Sep 2025,45139.0
+HDFCBANK,quarters,Interest,Dec 2025,44136.0
+HDFCBANK,quarters,Interest,Mar 2026,43528.0
+HDFCBANK,quarters,Interest,Jun 2026,45829.0
+HDFCBANK,quarters,Interest,Sep 2026,48807.0
+HDFCBANK,quarters,Expenses,Sep 2023,18303.0
+HDFCBANK,quarters,Expenses,Dec 2023,20178.0
+HDFCBANK,quarters,Expenses,Mar 2024,31480.0
+HDFCBANK,quarters,Expenses,Jun 2024,19223.0
+HDFCBANK,quarters,Expenses,Sep 2024,19591.0
+HDFCBANK,quarters,Expenses,Dec 2024,20260.0
+HDFCBANK,quarters,Expenses,Mar 2025,20750.0
+HDFCBANK,quarters,Expenses,Jun 2025,31875.0
+HDFCBANK,quarters,Expenses,Sep 2025,21478.0
+HDFCBANK,quarters,Expenses,Dec 2025,21609.0
+HDFCBANK,quarters,Expenses,Mar 2026,21087.0
+HDFCBANK,quarters,Expenses,Jun 2026,21247.0
+HDFCBANK,quarters,Expenses,Sep 2026,22540.0
+HDFCBANK,quarters,Financing Profit,Sep 2023,9082.0
+HDFCBANK,quarters,Financing Profit,Dec 2023,8294.0
+HDFCBANK,quarters,Financing Profit,Mar 2024,-2404.0
+HDFCBANK,quarters,Financing Profit,Jun 2024,10614.0
+HDFCBANK,quarters,Financing Profit,Sep 2024,10523.0
+HDFCBANK,quarters,Financing Profit,Dec 2024,10393.0
+HDFCBANK,quarters,Financing Profit,Mar 2025,11316.0
+HDFCBANK,quarters,Financing Profit,Jun 2025,-438.0
+HDFCBANK,quarters,Financing Profit,Sep 2025,10073.0
+HDFCBANK,quarters,Financing Profit,Dec 2025,11006.0
+HDFCBANK,quarters,Financing Profit,Mar 2026,11994.0
+HDFCBANK,quarters,Financing Profit,Jun 2026,12287.0
+HDFCBANK,quarters,Financing Profit,Sep 2026,12079.0
+HDFCBANK,quarters,Financing Margin %,Sep 2023,13.0
+HDFCBANK,quarters,Financing Margin %,Dec 2023,12.0
+HDFCBANK,quarters,Financing Margin %,Mar 2024,-3.0
+HDFCBANK,quarters,Financing Margin %,Jun 2024,15.0
+HDFCBANK,quarters,Financing Margin %,Sep 2024,14.0
+HDFCBANK,quarters,Financing Margin %,Dec 2024,14.0
+HDFCBANK,quarters,Financing Margin %,Mar 2025,15.0
+HDFCBANK,quarters,Financing Margin %,Jun 2025,-1.0
+HDFCBANK,quarters,Financing Margin %,Sep 2025,13.0
+HDFCBANK,quarters,Financing Margin %,Dec 2025,14.0
+HDFCBANK,quarters,Financing Margin %,Mar 2026,16.0
+HDFCBANK,quarters,Financing Margin %,Jun 2026,15.0
+HDFCBANK,quarters,Financing Margin %,Sep 2026,14.0
+HDFCBANK,quarters,Other Income,Sep 2023,10708.0
+HDFCBANK,quarters,Other Income,Dec 2023,11137.0
+HDFCBANK,quarters,Other Income,Mar 2024,18166.0
+HDFCBANK,quarters,Other Income,Jun 2024,10668.0
+HDFCBANK,quarters,Other Income,Sep 2024,11483.0
+HDFCBANK,quarters,Other Income,Dec 2024,11454.0
+HDFCBANK,quarters,Other Income,Mar 2025,12028.0
+HDFCBANK,quarters,Other Income,Jun 2025,21730.0
+HDFCBANK,quarters,Other Income,Sep 2025,14350.0
+HDFCBANK,quarters,Other Income,Dec 2025,13254.0
+HDFCBANK,quarters,Other Income,Mar 2026,13199.0
+HDFCBANK,quarters,Other Income,Jun 2026,12822.0
+HDFCBANK,quarters,Other Income,Sep 2026,13831.0
+HDFCBANK,quarters,Depreciation,Sep 2023,0.0
+HDFCBANK,quarters,Depreciation,Dec 2023,0.0
+HDFCBANK,quarters,Depreciation,Mar 2024,0.0
+HDFCBANK,quarters,Depreciation,Jun 2024,0.0
+HDFCBANK,quarters,Depreciation,Sep 2024,0.0
+HDFCBANK,quarters,Depreciation,Dec 2024,0.0
+HDFCBANK,quarters,Depreciation,Mar 2025,0.0
+HDFCBANK,quarters,Depreciation,Jun 2025,0.0
+HDFCBANK,quarters,Depreciation,Sep 2025,0.0
+HDFCBANK,quarters,Depreciation,Dec 2025,0.0
+HDFCBANK,quarters,Depreciation,Mar 2026,0.0
+HDFCBANK,quarters,Depreciation,Jun 2026,0.0
+HDFCBANK,quarters,Depreciation,Sep 2026,0.0
+HDFCBANK,quarters,Profit before tax,Sep 2023,19790.0
+HDFCBANK,quarters,Profit before tax,Dec 2023,19431.0
+HDFCBANK,quarters,Profit before tax,Mar 2024,15763.0
+HDFCBANK,quarters,Profit before tax,Jun 2024,21283.0
+HDFCBANK,quarters,Profit before tax,Sep 2024,22005.0
+HDFCBANK,quarters,Profit before tax,Dec 2024,21847.0
+HDFCBANK,quarters,Profit before tax,Mar 2025,23344.0
+HDFCBANK,quarters,Profit before tax,Jun 2025,21292.0
+HDFCBANK,quarters,Profit before tax,Sep 2025,24423.0
+HDFCBANK,quarters,Profit before tax,Dec 2025,24260.0
+HDFCBANK,quarters,Profit before tax,Mar 2026,25193.0
+HDFCBANK,quarters,Profit before tax,Jun 2026,25108.0
+HDFCBANK,quarters,Profit before tax,Sep 2026,25910.0
+HDFCBANK,quarters,Tax %,Sep 2023,19.0
+HDFCBANK,quarters,Tax %,Dec 2023,16.0
+HDFCBANK,quarters,Tax %,Mar 2024,-5.0
+HDFCBANK,quarters,Tax %,Jun 2024,24.0
+HDFCBANK,quarters,Tax %,Sep 2024,24.0
+HDFCBANK,quarters,Tax %,Dec 2024,23.0
+HDFCBANK,quarters,Tax %,Mar 2025,25.0
+HDFCBANK,quarters,Tax %,Jun 2025,15.0
+HDFCBANK,quarters,Tax %,Sep 2025,24.0
+HDFCBANK,quarters,Tax %,Dec 2025,23.0
+HDFCBANK,quarters,Tax %,Mar 2026,24.0
+HDFCBANK,quarters,Tax %,Jun 2026,24.0
+HDFCBANK,quarters,Tax %,Sep 2026,25.0
+HDFCBANK,quarters,Net Profit,Sep 2023,15976.0
+HDFCBANK,quarters,Net Profit,Dec 2023,16373.0
+HDFCBANK,quarters,Net Profit,Mar 2024,16512.0
+HDFCBANK,quarters,Net Profit,Jun 2024,16175.0
+HDFCBANK,quarters,Net Profit,Sep 2024,16821.0
+HDFCBANK,quarters,Net Profit,Dec 2024,16736.0
+HDFCBANK,quarters,Net Profit,Mar 2025,17616.0
+HDFCBANK,quarters,Net Profit,Jun 2025,18155.0
+HDFCBANK,quarters,Net Profit,Sep 2025,18641.0
+HDFCBANK,quarters,Net Profit,Dec 2025,18654.0
+HDFCBANK,quarters,Net Profit,Mar 2026,19221.0
+HDFCBANK,quarters,Net Profit,Jun 2026,19060.0
+HDFCBANK,quarters,Net Profit,Sep 2026,19510.0
+HDFCBANK,quarters,EPS in Rs,Sep 2023,10.54
+HDFCBANK,quarters,EPS in Rs,Dec 2023,10.78
+HDFCBANK,quarters,EPS in Rs,Mar 2024,10.87
+HDFCBANK,quarters,EPS in Rs,Jun 2024,10.63
+HDFCBANK,quarters,EPS in Rs,Sep 2024,11.02
+HDFCBANK,quarters,EPS in Rs,Dec 2024,10.94
+HDFCBANK,quarters,EPS in Rs,Mar 2025,11.51
+HDFCBANK,quarters,EPS in Rs,Jun 2025,11.84
+HDFCBANK,quarters,EPS in Rs,Sep 2025,12.13
+HDFCBANK,quarters,EPS in Rs,Dec 2025,12.12
+HDFCBANK,quarters,EPS in Rs,Mar 2026,12.49
+HDFCBANK,quarters,EPS in Rs,Jun 2026,12.38
+HDFCBANK,quarters,EPS in Rs,Sep 2026,12.65
+HDFCBANK,quarters,Gross NPA %,Sep 2023,1.34
+HDFCBANK,quarters,Gross NPA %,Dec 2023,1.26
+HDFCBANK,quarters,Gross NPA %,Mar 2024,1.24
+HDFCBANK,quarters,Gross NPA %,Jun 2024,1.33
+HDFCBANK,quarters,Gross NPA %,Sep 2024,1.36
+HDFCBANK,quarters,Gross NPA %,Dec 2024,1.42
+HDFCBANK,quarters,Gross NPA %,Mar 2025,1.33
+HDFCBANK,quarters,Gross NPA %,Jun 2025,1.4
+HDFCBANK,quarters,Gross NPA %,Sep 2025,1.24
+HDFCBANK,quarters,Gross NPA %,Dec 2025,1.24
+HDFCBANK,quarters,Gross NPA %,Mar 2026,1.15
+HDFCBANK,quarters,Gross NPA %,Jun 2026,1.17
+HDFCBANK,quarters,Gross NPA %,Sep 2026,1.11
+HDFCBANK,quarters,Net NPA %,Sep 2023,0.35
+HDFCBANK,quarters,Net NPA %,Dec 2023,0.31
+HDFCBANK,quarters,Net NPA %,Mar 2024,0.33
+HDFCBANK,quarters,Net NPA %,Jun 2024,0.39
+HDFCBANK,quarters,Net NPA %,Sep 2024,0.41
+HDFCBANK,quarters,Net NPA %,Dec 2024,0.46
+HDFCBANK,quarters,Net NPA %,Mar 2025,0.43
+HDFCBANK,quarters,Net NPA %,Jun 2025,0.47
+HDFCBANK,quarters,Net NPA %,Sep 2025,0.42
+HDFCBANK,quarters,Net NPA %,Dec 2025,0.42
+HDFCBANK,quarters,Net NPA %,Mar 2026,0.38
+HDFCBANK,quarters,Net NPA %,Jun 2026,0.41
+HDFCBANK,quarters,Net NPA %,Sep 2026,0.37
+HDFCBANK,profit-loss,Revenue,Mar 2015,48470.0
+HDFCBANK,profit-loss,Revenue,Mar 2016,60221.0
+HDFCBANK,profit-loss,Revenue,Mar 2017,69306.0
+HDFCBANK,profit-loss,Revenue,Mar 2018,80241.0
+HDFCBANK,profit-loss,Revenue,Mar 2019,98972.0
+HDFCBANK,profit-loss,Revenue,Mar 2020,114813.0
+HDFCBANK,profit-loss,Revenue,Mar 2021,120858.0
+HDFCBANK,profit-loss,Revenue,Mar 2022,127753.0
+HDFCBANK,profit-loss,Revenue,Mar 2023,161586.0
+HDFCBANK,profit-loss,Revenue,Mar 2024,258341.0
+HDFCBANK,profit-loss,Revenue,Mar 2025,300517.0
+HDFCBANK,profit-loss,Revenue,Mar 2026,307522.0
+HDFCBANK,profit-loss,Revenue,TTM,316151.0
+HDFCBANK,profit-loss,Interest,Mar 2015,26074.0
+HDFCBANK,profit-loss,Interest,Mar 2016,32630.0
+HDFCBANK,profit-loss,Interest,Mar 2017,36167.0
+HDFCBANK,profit-loss,Interest,Mar 2018,40146.0
+HDFCBANK,profit-loss,Interest,Mar 2019,50729.0
+HDFCBANK,profit-loss,Interest,Mar 2020,58626.0
+HDFCBANK,profit-loss,Interest,Mar 2021,55979.0
+HDFCBANK,profit-loss,Interest,Mar 2022,55744.0
+HDFCBANK,profit-loss,Interest,Mar 2023,74743.0
+HDFCBANK,profit-loss,Interest,Mar 2024,149808.0
+HDFCBANK,profit-loss,Interest,Mar 2025,177847.0
+HDFCBANK,profit-loss,Interest,Mar 2026,178836.0
+HDFCBANK,profit-loss,Interest,TTM,182301.0
+HDFCBANK,profit-loss,Expenses,Mar 2015,15407.0
+HDFCBANK,profit-loss,Expenses,Mar 2016,18999.0
+HDFCBANK,profit-loss,Expenses,Mar 2017,22464.0
+HDFCBANK,profit-loss,Expenses,Mar 2018,27712.0
+HDFCBANK,profit-loss,Expenses,Mar 2019,32529.0
+HDFCBANK,profit-loss,Expenses,Mar 2020,41644.0
+HDFCBANK,profit-loss,Expenses,Mar 2021,47123.0
+HDFCBANK,profit-loss,Expenses,Mar 2022,50904.0
+HDFCBANK,profit-loss,Expenses,Mar 2023,57329.0
+HDFCBANK,profit-loss,Expenses,Mar 2024,84068.0
+HDFCBANK,profit-loss,Expenses,Mar 2025,76445.0
+HDFCBANK,profit-loss,Expenses,Mar 2026,92392.0
+HDFCBANK,profit-loss,Expenses,TTM,86484.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2015,6989.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2016,8592.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2017,10676.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2018,12383.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2019,15714.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2020,14542.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2021,17757.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2022,21105.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2023,29513.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2024,24464.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2025,46225.0
+HDFCBANK,profit-loss,Financing Profit,Mar 2026,36294.0
+HDFCBANK,profit-loss,Financing Profit,TTM,47366.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2015,14.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2016,14.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2017,15.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2018,15.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2019,16.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2020,13.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2021,15.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2022,17.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2023,18.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2024,9.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2025,15.0
+HDFCBANK,profit-loss,Financing Margin %,Mar 2026,12.0
+HDFCBANK,profit-loss,Financing Margin %,TTM,15.0
+HDFCBANK,profit-loss,Other Income,Mar 2015,8996.0
+HDFCBANK,profit-loss,Other Income,Mar 2016,10752.0
+HDFCBANK,profit-loss,Other Income,Mar 2017,12296.0
+HDFCBANK,profit-loss,Other Income,Mar 2018,15220.0
+HDFCBANK,profit-loss,Other Income,Mar 2019,17626.0
+HDFCBANK,profit-loss,Other Income,Mar 2020,23261.0
+HDFCBANK,profit-loss,Other Income,Mar 2021,25205.0
+HDFCBANK,profit-loss,Other Income,Mar 2022,29510.0
+HDFCBANK,profit-loss,Other Income,Mar 2023,31215.0
+HDFCBANK,profit-loss,Other Income,Mar 2024,49241.0
+HDFCBANK,profit-loss,Other Income,Mar 2025,45632.0
+HDFCBANK,profit-loss,Other Income,Mar 2026,62533.0
+HDFCBANK,profit-loss,Other Income,TTM,53105.0
+HDFCBANK,profit-loss,Depreciation,Mar 2015,656.0
+HDFCBANK,profit-loss,Depreciation,Mar 2016,706.0
+HDFCBANK,profit-loss,Depreciation,Mar 2017,833.0
+HDFCBANK,profit-loss,Depreciation,Mar 2018,906.0
+HDFCBANK,profit-loss,Depreciation,Mar 2019,1140.0
+HDFCBANK,profit-loss,Depreciation,Mar 2020,1196.0
+HDFCBANK,profit-loss,Depreciation,Mar 2021,1302.0
+HDFCBANK,profit-loss,Depreciation,Mar 2022,1600.0
+HDFCBANK,profit-loss,Depreciation,Mar 2023,2242.0
+HDFCBANK,profit-loss,Depreciation,Mar 2024,2810.0
+HDFCBANK,profit-loss,Depreciation,Mar 2025,3379.0
+HDFCBANK,profit-loss,Depreciation,Mar 2026,3658.0
+HDFCBANK,profit-loss,Depreciation,TTM,0.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2015,15329.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2016,18638.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2017,22139.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2018,26697.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2019,32200.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2020,36607.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2021,41659.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2022,49015.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2023,58485.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2024,70895.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2025,88478.0
+HDFCBANK,profit-loss,Profit before tax,Mar 2026,95169.0
+HDFCBANK,profit-loss,Profit before tax,TTM,100471.0
+HDFCBANK,profit-loss,Tax %,Mar 2015,33.0
+HDFCBANK,profit-loss,Tax %,Mar 2016,34.0
+HDFCBANK,profit-loss,Tax %,Mar 2017,34.0
+HDFCBANK,profit-loss,Tax %,Mar 2018,34.0
+HDFCBANK,profit-loss,Tax %,Mar 2019,35.0
+HDFCBANK,profit-loss,Tax %,Mar 2020,28.0
+HDFCBANK,profit-loss,Tax %,Mar 2021,25.0
+HDFCBANK,profit-loss,Tax %,Mar 2022,25.0
+HDFCBANK,profit-loss,Tax %,Mar 2023,25.0
+HDFCBANK,profit-loss,Tax %,Mar 2024,14.0
+HDFCBANK,profit-loss,Tax %,Mar 2025,24.0
+HDFCBANK,profit-loss,Tax %,Mar 2026,22.0
+HDFCBANK,profit-loss,Net Profit,Mar 2015,10216.0
+HDFCBANK,profit-loss,Net Profit,Mar 2016,12296.0
+HDFCBANK,profit-loss,Net Profit,Mar 2017,14550.0
+HDFCBANK,profit-loss,Net Profit,Mar 2018,17487.0
+HDFCBANK,profit-loss,Net Profit,Mar 2019,21078.0
+HDFCBANK,profit-loss,Net Profit,Mar 2020,26257.0
+HDFCBANK,profit-loss,Net Profit,Mar 2021,31117.0
+HDFCBANK,profit-loss,Net Profit,Mar 2022,36961.0
+HDFCBANK,profit-loss,Net Profit,Mar 2023,44109.0
+HDFCBANK,profit-loss,Net Profit,Mar 2024,60812.0
+HDFCBANK,profit-loss,Net Profit,Mar 2025,67347.0
+HDFCBANK,profit-loss,Net Profit,Mar 2026,74671.0
+HDFCBANK,profit-loss,Net Profit,TTM,76444.0
+HDFCBANK,profit-loss,EPS in Rs,Mar 2015,10.19
+HDFCBANK,profit-loss,EPS in Rs,Mar 2016,12.16
+HDFCBANK,profit-loss,EPS in Rs,Mar 2017,14.19
+HDFCBANK,profit-loss,EPS in Rs,Mar 2018,16.85
+HDFCBANK,profit-loss,EPS in Rs,Mar 2019,19.35
+HDFCBANK,profit-loss,EPS in Rs,Mar 2020,23.94
+HDFCBANK,profit-loss,EPS in Rs,Mar 2021,28.22
+HDFCBANK,profit-loss,EPS in Rs,Mar 2022,33.33
+HDFCBANK,profit-loss,EPS in Rs,Mar 2023,39.53
+HDFCBANK,profit-loss,EPS in Rs,Mar 2024,40.02
+HDFCBANK,profit-loss,EPS in Rs,Mar 2025,44.01
+HDFCBANK,profit-loss,EPS in Rs,Mar 2026,48.51
+HDFCBANK,profit-loss,EPS in Rs,TTM,49.64
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2015,20.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2016,20.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2017,19.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2018,19.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2019,19.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2020,5.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2021,12.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2022,23.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2023,24.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2024,24.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2025,25.0
+HDFCBANK,profit-loss,Dividend Payout %,Mar 2026,32.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2015,501.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2016,506.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2017,513.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2018,519.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2019,545.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2020,548.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2021,551.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2022,555.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2023,558.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2024,760.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2025,765.0
+HDFCBANK,balance-sheet,Equity Capital,Mar 2026,1539.0
+HDFCBANK,balance-sheet,Equity Capital,Sep 2026,1542.0
+HDFCBANK,balance-sheet,Reserves,Mar 2015,61508.0
+HDFCBANK,balance-sheet,Reserves,Mar 2016,72172.0
+HDFCBANK,balance-sheet,Reserves,Mar 2017,88950.0
+HDFCBANK,balance-sheet,Reserves,Mar 2018,105776.0
+HDFCBANK,balance-sheet,Reserves,Mar 2019,148662.0
+HDFCBANK,balance-sheet,Reserves,Mar 2020,170438.0
+HDFCBANK,balance-sheet,Reserves,Mar 2021,203170.0
+HDFCBANK,balance-sheet,Reserves,Mar 2022,239538.0
+HDFCBANK,balance-sheet,Reserves,Mar 2023,279641.0
+HDFCBANK,balance-sheet,Reserves,Mar 2024,439486.0
+HDFCBANK,balance-sheet,Reserves,Mar 2025,500659.0
+HDFCBANK,balance-sheet,Reserves,Mar 2026,561362.0
+HDFCBANK,balance-sheet,Reserves,Sep 2026,577605.0
+HDFCBANK,balance-sheet,Deposits,Mar 2015,450796.0
+HDFCBANK,balance-sheet,Deposits,Mar 2016,546424.0
+HDFCBANK,balance-sheet,Deposits,Mar 2017,643640.0
+HDFCBANK,balance-sheet,Deposits,Mar 2018,788771.0
+HDFCBANK,balance-sheet,Deposits,Mar 2019,923141.0
+HDFCBANK,balance-sheet,Deposits,Mar 2020,1147502.0
+HDFCBANK,balance-sheet,Deposits,Mar 2021,1335060.0
+HDFCBANK,balance-sheet,Deposits,Mar 2022,1559217.0
+HDFCBANK,balance-sheet,Deposits,Mar 2023,1883395.0
+HDFCBANK,balance-sheet,Deposits,Mar 2024,2379786.0
+HDFCBANK,balance-sheet,Deposits,Mar 2025,2714715.0
+HDFCBANK,balance-sheet,Deposits,Mar 2026,3105250.0
+HDFCBANK,balance-sheet,Deposits,Sep 2026,3327449.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2015,45214.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2016,84969.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2017,74029.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2018,123105.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2019,117085.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2020,144629.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2021,135487.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2022,184817.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2023,206766.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2024,662153.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2025,547931.0
+HDFCBANK,balance-sheet,Borrowing,Mar 2026,489395.0
+HDFCBANK,balance-sheet,Borrowing,Sep 2026,489018.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2015,32484.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2016,36725.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2017,56709.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2018,45764.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2019,55108.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2020,67394.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2021,72602.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2022,84407.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2023,95722.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2024,135438.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2025,146129.0
+HDFCBANK,balance-sheet,Other Liabilities,Mar 2026,207340.0
+HDFCBANK,balance-sheet,Other Liabilities,Sep 2026,182147.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2015,590503.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2016,740796.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2017,863840.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2018,1063934.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2019,1244541.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2020,1530511.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2021,1746871.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2022,2068535.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2023,2466081.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2024,3617623.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2025,3910199.0
+HDFCBANK,balance-sheet,Total Liabilities,Mar 2026,4364886.0
+HDFCBANK,balance-sheet,Total Liabilities,Sep 2026,4577760.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2015,3122.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2016,3343.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2017,3627.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2018,3607.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2019,4030.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2020,4432.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2021,4909.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2022,6084.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2023,8017.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2024,11399.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2025,13655.0
+HDFCBANK,balance-sheet,Fixed Assets,Mar 2026,14725.0
+HDFCBANK,balance-sheet,Fixed Assets,Sep 2026,14645.0
+HDFCBANK,balance-sheet,CWIP,Mar 2015,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2016,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2017,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2018,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2019,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2020,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2021,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2022,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2023,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2024,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2025,0.0
+HDFCBANK,balance-sheet,CWIP,Mar 2026,0.0
+HDFCBANK,balance-sheet,CWIP,Sep 2026,0.0
+HDFCBANK,balance-sheet,Investments,Mar 2015,151642.0
+HDFCBANK,balance-sheet,Investments,Mar 2016,195836.0
+HDFCBANK,balance-sheet,Investments,Mar 2017,214463.0
+HDFCBANK,balance-sheet,Investments,Mar 2018,242200.0
+HDFCBANK,balance-sheet,Investments,Mar 2019,293116.0
+HDFCBANK,balance-sheet,Investments,Mar 2020,391827.0
+HDFCBANK,balance-sheet,Investments,Mar 2021,443728.0
+HDFCBANK,balance-sheet,Investments,Mar 2022,455536.0
+HDFCBANK,balance-sheet,Investments,Mar 2023,517001.0
+HDFCBANK,balance-sheet,Investments,Mar 2024,702415.0
+HDFCBANK,balance-sheet,Investments,Mar 2025,836360.0
+HDFCBANK,balance-sheet,Investments,Mar 2026,884201.0
+HDFCBANK,balance-sheet,Investments,Sep 2026,923997.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2015,435740.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2016,541617.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2017,645750.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2018,818127.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2019,947395.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2020,1134253.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2021,1298233.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2022,1606916.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2023,1941064.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2024,2903809.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2025,3060184.0
+HDFCBANK,balance-sheet,Other Assets,Mar 2026,3465960.0
+HDFCBANK,balance-sheet,Other Assets,Sep 2026,3639117.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2015,590503.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2016,740796.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2017,863840.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2018,1063934.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2019,1244541.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2020,1530511.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2021,1746871.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2022,2068535.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2023,2466081.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2024,3617623.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2025,3910199.0
+HDFCBANK,balance-sheet,Total Assets,Mar 2026,4364886.0
+HDFCBANK,balance-sheet,Total Assets,Sep 2026,4577760.0
+HDFCBANK,ratios,ROE %,Mar 2015,19.0
+HDFCBANK,ratios,ROE %,Mar 2016,18.0
+HDFCBANK,ratios,ROE %,Mar 2017,18.0
+HDFCBANK,ratios,ROE %,Mar 2018,18.0
+HDFCBANK,ratios,ROE %,Mar 2019,16.0
+HDFCBANK,ratios,ROE %,Mar 2020,16.0
+HDFCBANK,ratios,ROE %,Mar 2021,17.0
+HDFCBANK,ratios,ROE %,Mar 2022,17.0
+HDFCBANK,ratios,ROE %,Mar 2023,17.0
+HDFCBANK,ratios,ROE %,Mar 2024,17.0
+HDFCBANK,ratios,ROE %,Mar 2025,14.0
+HDFCBANK,ratios,ROE %,Mar 2026,14.0

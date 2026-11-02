@@ -1,0 +1,53 @@
+bank,period,metric,value,unit,source_file,page,note
+SBIN,FY26,provisions_ex_tax,17538,INR cr,SBIN_Q4FY26_ppt.pdf,24,Derived: Operating profit 123015 - PBT 105477 (Screener). SBI 'Total Provisions' 42983 includes tax
+SBIN,FY26,opex,123549,INR cr,SBIN_Q4FY26_ppt.pdf,24,
+SBIN,FY26,nim_reported,2.91,%,SBIN_Q4FY26_ppt.pdf,24,Whole bank; domestic 3.03
+SBIN,FY26,roa_reported,1.12,%,SBIN_Q4FY26_ppt.pdf,8,
+SBIN,FY26,cost_income_reported,50.11,%,SBIN_Q4FY26_ppt.pdf,24,
+SBIN,FY26,gnpa,1.49,%,SBIN_Q4FY26_ppt.pdf,6,
+SBIN,FY26,nnpa,0.39,%,SBIN_Q4FY26_ppt.pdf,6,
+SBIN,FY26,one_off_other_income,4593,INR cr,SBIN_Q4FY26_ppt.pdf,24,Yes Bank stake sale gain Q2FY26
+HDFCBANK,FY26,provisions_ex_tax,23390,INR cr,HDFCBANK_Q4FY26_ppt.pdf,32,233.9 bn
+HDFCBANK,FY26,opex,72660,INR cr,HDFCBANK_Q4FY26_ppt.pdf,32,726.6 bn
+HDFCBANK,FY26,nim_reported,3.38,%,HDFCBANK_Q4FY26_ppt.pdf,3,Q4 only; on total assets
+HDFCBANK,FY26,roa_reported,1.96,%,HDFCBANK_Q4FY26_ppt.pdf,3,Q4 annualised
+HDFCBANK,FY26,cost_income_reported,39.9,%,HDFCBANK_Q4FY26_ppt.pdf,3,Q4 core (ex transaction gains)
+HDFCBANK,FY26,gnpa,1.15,%,HDFCBANK_Q4FY26_ppt.pdf,3,Trap: secondary sites swap gross/net (0.38 is not GNPA)
+HDFCBANK,Q2FY27,ppop,29483,INR cr,NSE XBRL Integrated Filing (Banking) Q2FY27,,Parent OperatingProfitBeforeProvisionAndContingencies 294834.2 mn; https://nsearchives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_BANKING_1740913_17102026054812_WEB.xml
+HDFCBANK,Q2FY27,nim_reported,3.16,%,HDFCBANK_Q2FY27_ppt.pdf,3,On total assets; 3.32 on IEA
+HDFCBANK,Q2FY27,roa_reported,1.78,%,HDFCBANK_Q2FY27_ppt.pdf,3,
+HDFCBANK,Q2FY27,cost_income_reported,39.1,%,HDFCBANK_Q2FY27_ppt.pdf,3,Core
+HDFCBANK,Q2FY27,gnpa,1.11,%,HDFCBANK_Q2FY27_ppt.pdf,3,
+ICICIBANK,FY26,provisions_ex_tax,5380,INR cr,ICICIBANK_Q4FY26_ppt.pdf,8,53.80 bn
+ICICIBANK,FY26,opex,47234,INR cr,ICICIBANK_Q4FY26_ppt.pdf,8,472.34 bn
+ICICIBANK,FY26,nim_reported,4.32,%,ICICIBANK_Q4FY26_ppt.pdf,10,
+ICICIBANK,FY26,roa_reported,2.32,%,ICICIBANK_Q2FY27_ppt.pdf,10,FY26 column
+ICICIBANK,FY26,cost_income_reported,39.7,%,ICICIBANK_Q2FY27_ppt.pdf,10,FY26 column
+ICICIBANK,FY26,gnpa,1.40,%,ICICIBANK_Q4FY26_ppt.pdf,18,
+ICICIBANK,Q2FY27,provisions_ex_tax,851,INR cr,ICICIBANK_Q2FY27_ppt.pdf,9,8.51 bn
+ICICIBANK,Q2FY27,opex,12811,INR cr,ICICIBANK_Q2FY27_ppt.pdf,8,128.11 bn
+ICICIBANK,Q2FY27,nim_reported,4.18,%,ICICIBANK_Q2FY27_ppt.pdf,10,
+ICICIBANK,Q2FY27,roa_reported,2.26,%,ICICIBANK_Q2FY27_ppt.pdf,10,
+ICICIBANK,Q2FY27,cost_income_reported,38.4,%,ICICIBANK_Q2FY27_ppt.pdf,10,
+ICICIBANK,Q2FY27,gnpa,1.20,%,ICICIBANK_Q2FY27_ppt.pdf,18,
+AXISBANK,FY26,provisions_ex_tax,13263,INR cr,AXISBANK_Q4FY26_ppt.pdf,78,Includes one-time additional standard asset provision 2001 in Q4 (p21)
+AXISBANK,FY26,opex,39362,INR cr,AXISBANK_Q4FY26_ppt.pdf,78,
+AXISBANK,FY26,nim_reported,3.62,%,AXISBANK_Q4FY26_ppt.pdf,4,Q4 only
+AXISBANK,FY26,gnpa,1.23,%,AXISBANK_Q4FY26_ppt.pdf,2,
+AXISBANK,FY26,one_off_provision,2001,INR cr,AXISBANK_Q4FY26_ppt.pdf,21,Voluntary one-time standard asset provision
+AXISBANK,Q2FY27,provisions_ex_tax,1694,INR cr,AXISBANK_Q2FY27_ppt.pdf,56,
+AXISBANK,Q2FY27,nim_reported,3.36,%,AXISBANK_Q2FY27_ppt.pdf,3,3.47 ex FCNR(B)
+AXISBANK,Q2FY27,roa_reported,1.38,%,AXISBANK_Q2FY27_ppt.pdf,15,Standalone annualised
+AXISBANK,Q2FY27,gnpa,1.16,%,AXISBANK_Q2FY27_ppt.pdf,2,
+KOTAKBANK,FY26,provisions_ex_tax,3481,INR cr,KOTAKBANK_Q4FY26_ppt.pdf,10,
+KOTAKBANK,FY26,nim_reported,4.60,%,KOTAKBANK_Q4FY26_ppt.pdf,8,
+KOTAKBANK,FY26,roa_reported,1.97,%,KOTAKBANK_Q4FY26_ppt.pdf,8,
+KOTAKBANK,FY26,cost_income_reported,47.0,%,KOTAKBANK_Q4FY26_ppt.pdf,8,
+KOTAKBANK,FY26,gnpa,1.20,%,KOTAKBANK_Q4FY26_ppt.pdf,14,
+KOTAKBANK,FY26,casa,43.3,%,KOTAKBANK_Q4FY26_ppt.pdf,8,
+KOTAKBANK,Q2FY27,provisions_ex_tax,803,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,10,
+KOTAKBANK,Q2FY27,nim_reported,4.31,%,KOTAKBANK_Q2FY27_ppt.pdf,9,
+KOTAKBANK,Q2FY27,roa_reported,1.92,%,KOTAKBANK_Q2FY27_ppt.pdf,9,
+KOTAKBANK,Q2FY27,cost_income_reported,45.2,%,KOTAKBANK_Q2FY27_ppt.pdf,9,
+KOTAKBANK,Q2FY27,gnpa,1.04,%,KOTAKBANK_Q2FY27_ppt.pdf,15,
+KOTAKBANK,Q2FY27,casa,38.2,%,KOTAKBANK_Q2FY27_ppt.pdf,9,

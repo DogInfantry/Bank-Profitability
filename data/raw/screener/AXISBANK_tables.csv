@@ -1,0 +1,479 @@
+symbol,section,line_item,period,value
+AXISBANK,quarters,Revenue,Sep 2023,26626.0
+AXISBANK,quarters,Revenue,Dec 2023,27961.0
+AXISBANK,quarters,Revenue,Mar 2024,29225.0
+AXISBANK,quarters,Revenue,Jun 2024,30061.0
+AXISBANK,quarters,Revenue,Sep 2024,30420.0
+AXISBANK,quarters,Revenue,Dec 2024,30954.0
+AXISBANK,quarters,Revenue,Mar 2025,31243.0
+AXISBANK,quarters,Revenue,Jun 2025,31064.0
+AXISBANK,quarters,Revenue,Sep 2025,30970.0
+AXISBANK,quarters,Revenue,Dec 2025,32274.0
+AXISBANK,quarters,Revenue,Mar 2026,32724.0
+AXISBANK,quarters,Revenue,Jun 2026,33986.0
+AXISBANK,quarters,Revenue,Sep 2026,36419.0
+AXISBANK,quarters,Interest,Sep 2023,14312.0
+AXISBANK,quarters,Interest,Dec 2023,15429.0
+AXISBANK,quarters,Interest,Mar 2024,16136.0
+AXISBANK,quarters,Interest,Jun 2024,16612.0
+AXISBANK,quarters,Interest,Sep 2024,16937.0
+AXISBANK,quarters,Interest,Dec 2024,17348.0
+AXISBANK,quarters,Interest,Mar 2025,17432.0
+AXISBANK,quarters,Interest,Jun 2025,17504.0
+AXISBANK,quarters,Interest,Sep 2025,17226.0
+AXISBANK,quarters,Interest,Dec 2025,17988.0
+AXISBANK,quarters,Interest,Mar 2026,18267.0
+AXISBANK,quarters,Interest,Jun 2026,19340.0
+AXISBANK,quarters,Interest,Sep 2026,21047.0
+AXISBANK,quarters,Expenses,Sep 2023,9531.0
+AXISBANK,quarters,Expenses,Dec 2023,9974.0
+AXISBANK,quarters,Expenses,Mar 2024,10504.0
+AXISBANK,quarters,Expenses,Jun 2024,11165.0
+AXISBANK,quarters,Expenses,Sep 2024,11697.0
+AXISBANK,quarters,Expenses,Dec 2024,11200.0
+AXISBANK,quarters,Expenses,Mar 2025,11197.0
+AXISBANK,quarters,Expenses,Jun 2025,13250.0
+AXISBANK,quarters,Expenses,Sep 2025,13504.0
+AXISBANK,quarters,Expenses,Dec 2025,11882.0
+AXISBANK,quarters,Expenses,Mar 2026,13989.0
+AXISBANK,quarters,Expenses,Jun 2026,11945.0
+AXISBANK,quarters,Expenses,Sep 2026,12513.0
+AXISBANK,quarters,Financing Profit,Sep 2023,2783.0
+AXISBANK,quarters,Financing Profit,Dec 2023,2558.0
+AXISBANK,quarters,Financing Profit,Mar 2024,2585.0
+AXISBANK,quarters,Financing Profit,Jun 2024,2283.0
+AXISBANK,quarters,Financing Profit,Sep 2024,1787.0
+AXISBANK,quarters,Financing Profit,Dec 2024,2406.0
+AXISBANK,quarters,Financing Profit,Mar 2025,2614.0
+AXISBANK,quarters,Financing Profit,Jun 2025,309.0
+AXISBANK,quarters,Financing Profit,Sep 2025,241.0
+AXISBANK,quarters,Financing Profit,Dec 2025,2404.0
+AXISBANK,quarters,Financing Profit,Mar 2026,469.0
+AXISBANK,quarters,Financing Profit,Jun 2026,2701.0
+AXISBANK,quarters,Financing Profit,Sep 2026,2859.0
+AXISBANK,quarters,Financing Margin %,Sep 2023,10.0
+AXISBANK,quarters,Financing Margin %,Dec 2023,9.0
+AXISBANK,quarters,Financing Margin %,Mar 2024,9.0
+AXISBANK,quarters,Financing Margin %,Jun 2024,8.0
+AXISBANK,quarters,Financing Margin %,Sep 2024,6.0
+AXISBANK,quarters,Financing Margin %,Dec 2024,8.0
+AXISBANK,quarters,Financing Margin %,Mar 2025,8.0
+AXISBANK,quarters,Financing Margin %,Jun 2025,1.0
+AXISBANK,quarters,Financing Margin %,Sep 2025,1.0
+AXISBANK,quarters,Financing Margin %,Dec 2025,7.0
+AXISBANK,quarters,Financing Margin %,Mar 2026,1.0
+AXISBANK,quarters,Financing Margin %,Jun 2026,8.0
+AXISBANK,quarters,Financing Margin %,Sep 2026,8.0
+AXISBANK,quarters,Other Income,Sep 2023,5034.0
+AXISBANK,quarters,Other Income,Dec 2023,5555.0
+AXISBANK,quarters,Other Income,Mar 2024,6766.0
+AXISBANK,quarters,Other Income,Jun 2024,5783.0
+AXISBANK,quarters,Other Income,Sep 2024,6722.0
+AXISBANK,quarters,Other Income,Dec 2024,5972.0
+AXISBANK,quarters,Other Income,Mar 2025,6780.0
+AXISBANK,quarters,Other Income,Jun 2025,7258.0
+AXISBANK,quarters,Other Income,Sep 2025,6625.0
+AXISBANK,quarters,Other Income,Dec 2025,6226.0
+AXISBANK,quarters,Other Income,Mar 2026,6023.0
+AXISBANK,quarters,Other Income,Jun 2026,6735.0
+AXISBANK,quarters,Other Income,Sep 2026,6531.0
+AXISBANK,quarters,Depreciation,Sep 2023,0.0
+AXISBANK,quarters,Depreciation,Dec 2023,0.0
+AXISBANK,quarters,Depreciation,Mar 2024,0.0
+AXISBANK,quarters,Depreciation,Jun 2024,0.0
+AXISBANK,quarters,Depreciation,Sep 2024,0.0
+AXISBANK,quarters,Depreciation,Dec 2024,0.0
+AXISBANK,quarters,Depreciation,Mar 2025,0.0
+AXISBANK,quarters,Depreciation,Jun 2025,0.0
+AXISBANK,quarters,Depreciation,Sep 2025,0.0
+AXISBANK,quarters,Depreciation,Dec 2025,0.0
+AXISBANK,quarters,Depreciation,Mar 2026,0.0
+AXISBANK,quarters,Depreciation,Jun 2026,0.0
+AXISBANK,quarters,Depreciation,Sep 2026,0.0
+AXISBANK,quarters,Profit before tax,Sep 2023,7817.0
+AXISBANK,quarters,Profit before tax,Dec 2023,8113.0
+AXISBANK,quarters,Profit before tax,Mar 2024,9350.0
+AXISBANK,quarters,Profit before tax,Jun 2024,8067.0
+AXISBANK,quarters,Profit before tax,Sep 2024,8508.0
+AXISBANK,quarters,Profit before tax,Dec 2024,8378.0
+AXISBANK,quarters,Profit before tax,Mar 2025,9393.0
+AXISBANK,quarters,Profit before tax,Jun 2025,7568.0
+AXISBANK,quarters,Profit before tax,Sep 2025,6865.0
+AXISBANK,quarters,Profit before tax,Dec 2025,8630.0
+AXISBANK,quarters,Profit before tax,Mar 2026,6491.0
+AXISBANK,quarters,Profit before tax,Jun 2026,9437.0
+AXISBANK,quarters,Profit before tax,Sep 2026,9389.0
+AXISBANK,quarters,Tax %,Sep 2023,25.0
+AXISBANK,quarters,Tax %,Dec 2023,25.0
+AXISBANK,quarters,Tax %,Mar 2024,24.0
+AXISBANK,quarters,Tax %,Jun 2024,25.0
+AXISBANK,quarters,Tax %,Sep 2024,19.0
+AXISBANK,quarters,Tax %,Dec 2024,25.0
+AXISBANK,quarters,Tax %,Mar 2025,24.0
+AXISBANK,quarters,Tax %,Jun 2025,23.0
+AXISBANK,quarters,Tax %,Sep 2025,26.0
+AXISBANK,quarters,Tax %,Dec 2025,25.0
+AXISBANK,quarters,Tax %,Mar 2026,-9.0
+AXISBANK,quarters,Tax %,Jun 2026,25.0
+AXISBANK,quarters,Tax %,Sep 2026,25.0
+AXISBANK,quarters,Net Profit,Sep 2023,5864.0
+AXISBANK,quarters,Net Profit,Dec 2023,6071.0
+AXISBANK,quarters,Net Profit,Mar 2024,7130.0
+AXISBANK,quarters,Net Profit,Jun 2024,6035.0
+AXISBANK,quarters,Net Profit,Sep 2024,6918.0
+AXISBANK,quarters,Net Profit,Dec 2024,6304.0
+AXISBANK,quarters,Net Profit,Mar 2025,7118.0
+AXISBANK,quarters,Net Profit,Jun 2025,5806.0
+AXISBANK,quarters,Net Profit,Sep 2025,5090.0
+AXISBANK,quarters,Net Profit,Dec 2025,6490.0
+AXISBANK,quarters,Net Profit,Mar 2026,7071.0
+AXISBANK,quarters,Net Profit,Jun 2026,7114.0
+AXISBANK,quarters,Net Profit,Sep 2026,7003.0
+AXISBANK,quarters,EPS in Rs,Sep 2023,19.03
+AXISBANK,quarters,EPS in Rs,Dec 2023,19.69
+AXISBANK,quarters,EPS in Rs,Mar 2024,23.1
+AXISBANK,quarters,EPS in Rs,Jun 2024,19.53
+AXISBANK,quarters,EPS in Rs,Sep 2024,22.36
+AXISBANK,quarters,EPS in Rs,Dec 2024,20.37
+AXISBANK,quarters,EPS in Rs,Mar 2025,22.98
+AXISBANK,quarters,EPS in Rs,Jun 2025,18.72
+AXISBANK,quarters,EPS in Rs,Sep 2025,16.4
+AXISBANK,quarters,EPS in Rs,Dec 2025,20.9
+AXISBANK,quarters,EPS in Rs,Mar 2026,22.75
+AXISBANK,quarters,EPS in Rs,Jun 2026,22.87
+AXISBANK,quarters,EPS in Rs,Sep 2026,22.49
+AXISBANK,quarters,Gross NPA %,Sep 2023,1.73
+AXISBANK,quarters,Gross NPA %,Dec 2023,1.58
+AXISBANK,quarters,Gross NPA %,Mar 2024,1.43
+AXISBANK,quarters,Gross NPA %,Jun 2024,1.54
+AXISBANK,quarters,Gross NPA %,Sep 2024,1.44
+AXISBANK,quarters,Gross NPA %,Dec 2024,1.46
+AXISBANK,quarters,Gross NPA %,Mar 2025,1.28
+AXISBANK,quarters,Gross NPA %,Jun 2025,1.57
+AXISBANK,quarters,Gross NPA %,Sep 2025,1.46
+AXISBANK,quarters,Gross NPA %,Dec 2025,1.4
+AXISBANK,quarters,Gross NPA %,Mar 2026,1.23
+AXISBANK,quarters,Gross NPA %,Jun 2026,1.28
+AXISBANK,quarters,Gross NPA %,Sep 2026,1.16
+AXISBANK,quarters,Net NPA %,Sep 2023,0.36
+AXISBANK,quarters,Net NPA %,Dec 2023,0.36
+AXISBANK,quarters,Net NPA %,Mar 2024,0.31
+AXISBANK,quarters,Net NPA %,Jun 2024,0.34
+AXISBANK,quarters,Net NPA %,Sep 2024,0.34
+AXISBANK,quarters,Net NPA %,Dec 2024,0.35
+AXISBANK,quarters,Net NPA %,Mar 2025,0.33
+AXISBANK,quarters,Net NPA %,Jun 2025,0.45
+AXISBANK,quarters,Net NPA %,Sep 2025,0.44
+AXISBANK,quarters,Net NPA %,Dec 2025,0.42
+AXISBANK,quarters,Net NPA %,Mar 2026,0.37
+AXISBANK,quarters,Net NPA %,Jun 2026,0.39
+AXISBANK,quarters,Net NPA %,Sep 2026,0.35
+AXISBANK,profit-loss,Revenue,Mar 2015,35479.0
+AXISBANK,profit-loss,Revenue,Mar 2016,40988.0
+AXISBANK,profit-loss,Revenue,Mar 2017,44542.0
+AXISBANK,profit-loss,Revenue,Mar 2018,45780.0
+AXISBANK,profit-loss,Revenue,Mar 2019,54986.0
+AXISBANK,profit-loss,Revenue,Mar 2020,62635.0
+AXISBANK,profit-loss,Revenue,Mar 2021,63346.0
+AXISBANK,profit-loss,Revenue,Mar 2022,67377.0
+AXISBANK,profit-loss,Revenue,Mar 2023,85164.0
+AXISBANK,profit-loss,Revenue,Mar 2024,109369.0
+AXISBANK,profit-loss,Revenue,Mar 2025,122677.0
+AXISBANK,profit-loss,Revenue,Mar 2026,127032.0
+AXISBANK,profit-loss,Revenue,TTM,135403.0
+AXISBANK,profit-loss,Interest,Mar 2015,21254.0
+AXISBANK,profit-loss,Interest,Mar 2016,24155.0
+AXISBANK,profit-loss,Interest,Mar 2017,26449.0
+AXISBANK,profit-loss,Interest,Mar 2018,27163.0
+AXISBANK,profit-loss,Interest,Mar 2019,33278.0
+AXISBANK,profit-loss,Interest,Mar 2020,37429.0
+AXISBANK,profit-loss,Interest,Mar 2021,34107.0
+AXISBANK,profit-loss,Interest,Mar 2022,34245.0
+AXISBANK,profit-loss,Interest,Mar 2023,42218.0
+AXISBANK,profit-loss,Interest,Mar 2024,59474.0
+AXISBANK,profit-loss,Interest,Mar 2025,68329.0
+AXISBANK,profit-loss,Interest,Mar 2026,70984.0
+AXISBANK,profit-loss,Interest,TTM,76642.0
+AXISBANK,profit-loss,Expenses,Mar 2015,11127.0
+AXISBANK,profit-loss,Expenses,Mar 2016,13367.0
+AXISBANK,profit-loss,Expenses,Mar 2017,23808.0
+AXISBANK,profit-loss,Expenses,Mar 2018,28895.0
+AXISBANK,profit-loss,Expenses,Mar 2019,27155.0
+AXISBANK,profit-loss,Expenses,Mar 2020,35066.0
+AXISBANK,profit-loss,Expenses,Mar 2021,31749.0
+AXISBANK,profit-loss,Expenses,Mar 2022,29962.0
+AXISBANK,profit-loss,Expenses,Mar 2023,29089.0
+AXISBANK,profit-loss,Expenses,Mar 2024,37943.0
+AXISBANK,profit-loss,Expenses,Mar 2025,43559.0
+AXISBANK,profit-loss,Expenses,Mar 2026,50816.0
+AXISBANK,profit-loss,Expenses,TTM,50329.0
+AXISBANK,profit-loss,Financing Profit,Mar 2015,3097.0
+AXISBANK,profit-loss,Financing Profit,Mar 2016,3466.0
+AXISBANK,profit-loss,Financing Profit,Mar 2017,-5715.0
+AXISBANK,profit-loss,Financing Profit,Mar 2018,-10277.0
+AXISBANK,profit-loss,Financing Profit,Mar 2019,-5447.0
+AXISBANK,profit-loss,Financing Profit,Mar 2020,-9859.0
+AXISBANK,profit-loss,Financing Profit,Mar 2021,-2510.0
+AXISBANK,profit-loss,Financing Profit,Mar 2022,3170.0
+AXISBANK,profit-loss,Financing Profit,Mar 2023,13857.0
+AXISBANK,profit-loss,Financing Profit,Mar 2024,11952.0
+AXISBANK,profit-loss,Financing Profit,Mar 2025,10789.0
+AXISBANK,profit-loss,Financing Profit,Mar 2026,5232.0
+AXISBANK,profit-loss,Financing Profit,TTM,8433.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2015,9.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2016,8.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2017,-13.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2018,-22.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2019,-10.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2020,-16.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2021,-4.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2022,5.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2023,16.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2024,11.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2025,9.0
+AXISBANK,profit-loss,Financing Margin %,Mar 2026,4.0
+AXISBANK,profit-loss,Financing Margin %,TTM,6.0
+AXISBANK,profit-loss,Other Income,Mar 2015,8365.0
+AXISBANK,profit-loss,Other Income,Mar 2016,9371.0
+AXISBANK,profit-loss,Other Income,Mar 2017,11691.0
+AXISBANK,profit-loss,Other Income,Mar 2018,10967.0
+AXISBANK,profit-loss,Other Income,Mar 2019,13130.0
+AXISBANK,profit-loss,Other Income,Mar 2020,15537.0
+AXISBANK,profit-loss,Other Income,Mar 2021,12264.0
+AXISBANK,profit-loss,Other Income,Mar 2022,15221.0
+AXISBANK,profit-loss,Other Income,Mar 2023,16143.0
+AXISBANK,profit-loss,Other Income,Mar 2024,22442.0
+AXISBANK,profit-loss,Other Income,Mar 2025,25257.0
+AXISBANK,profit-loss,Other Income,Mar 2026,26131.0
+AXISBANK,profit-loss,Other Income,TTM,25514.0
+AXISBANK,profit-loss,Depreciation,Mar 2015,406.0
+AXISBANK,profit-loss,Depreciation,Mar 2016,444.0
+AXISBANK,profit-loss,Depreciation,Mar 2017,509.0
+AXISBANK,profit-loss,Depreciation,Mar 2018,568.0
+AXISBANK,profit-loss,Depreciation,Mar 2019,710.0
+AXISBANK,profit-loss,Depreciation,Mar 2020,773.0
+AXISBANK,profit-loss,Depreciation,Mar 2021,948.0
+AXISBANK,profit-loss,Depreciation,Mar 2022,1008.0
+AXISBANK,profit-loss,Depreciation,Mar 2023,13094.0
+AXISBANK,profit-loss,Depreciation,Mar 2024,1334.0
+AXISBANK,profit-loss,Depreciation,Mar 2025,1699.0
+AXISBANK,profit-loss,Depreciation,Mar 2026,1809.0
+AXISBANK,profit-loss,Depreciation,TTM,0.0
+AXISBANK,profit-loss,Profit before tax,Mar 2015,11057.0
+AXISBANK,profit-loss,Profit before tax,Mar 2016,12394.0
+AXISBANK,profit-loss,Profit before tax,Mar 2017,5468.0
+AXISBANK,profit-loss,Profit before tax,Mar 2018,122.0
+AXISBANK,profit-loss,Profit before tax,Mar 2019,6974.0
+AXISBANK,profit-loss,Profit before tax,Mar 2020,4904.0
+AXISBANK,profit-loss,Profit before tax,Mar 2021,8806.0
+AXISBANK,profit-loss,Profit before tax,Mar 2022,17383.0
+AXISBANK,profit-loss,Profit before tax,Mar 2023,16906.0
+AXISBANK,profit-loss,Profit before tax,Mar 2024,33060.0
+AXISBANK,profit-loss,Profit before tax,Mar 2025,34347.0
+AXISBANK,profit-loss,Profit before tax,Mar 2026,29554.0
+AXISBANK,profit-loss,Profit before tax,TTM,33947.0
+AXISBANK,profit-loss,Tax %,Mar 2015,33.0
+AXISBANK,profit-loss,Tax %,Mar 2016,34.0
+AXISBANK,profit-loss,Tax %,Mar 2017,33.0
+AXISBANK,profit-loss,Tax %,Mar 2018,-127.0
+AXISBANK,profit-loss,Tax %,Mar 2019,33.0
+AXISBANK,profit-loss,Tax %,Mar 2020,67.0
+AXISBANK,profit-loss,Tax %,Mar 2021,25.0
+AXISBANK,profit-loss,Tax %,Mar 2022,25.0
+AXISBANK,profit-loss,Tax %,Mar 2023,43.0
+AXISBANK,profit-loss,Tax %,Mar 2024,25.0
+AXISBANK,profit-loss,Tax %,Mar 2025,23.0
+AXISBANK,profit-loss,Tax %,Mar 2026,17.0
+AXISBANK,profit-loss,Net Profit,Mar 2015,7358.0
+AXISBANK,profit-loss,Net Profit,Mar 2016,8224.0
+AXISBANK,profit-loss,Net Profit,Mar 2017,3679.0
+AXISBANK,profit-loss,Net Profit,Mar 2018,276.0
+AXISBANK,profit-loss,Net Profit,Mar 2019,4677.0
+AXISBANK,profit-loss,Net Profit,Mar 2020,1627.0
+AXISBANK,profit-loss,Net Profit,Mar 2021,6588.0
+AXISBANK,profit-loss,Net Profit,Mar 2022,13025.0
+AXISBANK,profit-loss,Net Profit,Mar 2023,9580.0
+AXISBANK,profit-loss,Net Profit,Mar 2024,24861.0
+AXISBANK,profit-loss,Net Profit,Mar 2025,26373.0
+AXISBANK,profit-loss,Net Profit,Mar 2026,24457.0
+AXISBANK,profit-loss,Net Profit,TTM,27678.0
+AXISBANK,profit-loss,EPS in Rs,Mar 2015,31.04
+AXISBANK,profit-loss,EPS in Rs,Mar 2016,34.51
+AXISBANK,profit-loss,EPS in Rs,Mar 2017,15.36
+AXISBANK,profit-loss,EPS in Rs,Mar 2018,1.07
+AXISBANK,profit-loss,EPS in Rs,Mar 2019,18.19
+AXISBANK,profit-loss,EPS in Rs,Mar 2020,5.77
+AXISBANK,profit-loss,EPS in Rs,Mar 2021,21.5
+AXISBANK,profit-loss,EPS in Rs,Mar 2022,42.43
+AXISBANK,profit-loss,EPS in Rs,Mar 2023,31.13
+AXISBANK,profit-loss,EPS in Rs,Mar 2024,80.55
+AXISBANK,profit-loss,EPS in Rs,Mar 2025,85.15
+AXISBANK,profit-loss,EPS in Rs,Mar 2026,78.69
+AXISBANK,profit-loss,EPS in Rs,TTM,89.01
+AXISBANK,profit-loss,Dividend Payout %,Mar 2015,15.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2016,14.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2017,33.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2018,0.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2019,6.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2020,0.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2021,0.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2022,2.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2023,3.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2024,1.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2025,1.0
+AXISBANK,profit-loss,Dividend Payout %,Mar 2026,1.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2015,474.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2016,477.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2017,479.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2018,513.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2019,514.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2020,564.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2021,613.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2022,614.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2023,615.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2024,617.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2025,619.0
+AXISBANK,balance-sheet,Equity Capital,Mar 2026,622.0
+AXISBANK,balance-sheet,Equity Capital,Sep 2026,623.0
+AXISBANK,balance-sheet,Reserves,Mar 2015,44202.0
+AXISBANK,balance-sheet,Reserves,Mar 2016,52688.0
+AXISBANK,balance-sheet,Reserves,Mar 2017,55284.0
+AXISBANK,balance-sheet,Reserves,Mar 2018,62932.0
+AXISBANK,balance-sheet,Reserves,Mar 2019,66162.0
+AXISBANK,balance-sheet,Reserves,Mar 2020,84384.0
+AXISBANK,balance-sheet,Reserves,Mar 2021,100990.0
+AXISBANK,balance-sheet,Reserves,Mar 2022,114560.0
+AXISBANK,balance-sheet,Reserves,Mar 2023,124801.0
+AXISBANK,balance-sheet,Reserves,Mar 2024,150444.0
+AXISBANK,balance-sheet,Reserves,Mar 2025,179106.0
+AXISBANK,balance-sheet,Reserves,Mar 2026,204915.0
+AXISBANK,balance-sheet,Reserves,Sep 2026,218127.0
+AXISBANK,balance-sheet,Deposits,Mar 2015,322442.0
+AXISBANK,balance-sheet,Deposits,Mar 2016,357968.0
+AXISBANK,balance-sheet,Deposits,Mar 2017,414379.0
+AXISBANK,balance-sheet,Deposits,Mar 2018,453623.0
+AXISBANK,balance-sheet,Deposits,Mar 2019,548471.0
+AXISBANK,balance-sheet,Deposits,Mar 2020,640105.0
+AXISBANK,balance-sheet,Deposits,Mar 2021,697985.0
+AXISBANK,balance-sheet,Deposits,Mar 2022,821972.0
+AXISBANK,balance-sheet,Deposits,Mar 2023,946945.0
+AXISBANK,balance-sheet,Deposits,Mar 2024,1068641.0
+AXISBANK,balance-sheet,Deposits,Mar 2025,1172952.0
+AXISBANK,balance-sheet,Deposits,Mar 2026,1335834.0
+AXISBANK,balance-sheet,Deposits,Sep 2026,1452066.0
+AXISBANK,balance-sheet,Borrowing,Mar 2015,79758.0
+AXISBANK,balance-sheet,Borrowing,Mar 2016,108580.0
+AXISBANK,balance-sheet,Borrowing,Mar 2017,105031.0
+AXISBANK,balance-sheet,Borrowing,Mar 2018,148016.0
+AXISBANK,balance-sheet,Borrowing,Mar 2019,152776.0
+AXISBANK,balance-sheet,Borrowing,Mar 2020,147954.0
+AXISBANK,balance-sheet,Borrowing,Mar 2021,142873.0
+AXISBANK,balance-sheet,Borrowing,Mar 2022,185134.0
+AXISBANK,balance-sheet,Borrowing,Mar 2023,186300.0
+AXISBANK,balance-sheet,Borrowing,Mar 2024,196812.0
+AXISBANK,balance-sheet,Borrowing,Mar 2025,184147.0
+AXISBANK,balance-sheet,Borrowing,Mar 2026,235271.0
+AXISBANK,balance-sheet,Borrowing,Sep 2026,273086.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2015,15056.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2016,20108.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2017,26295.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2018,26245.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2019,33073.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2020,42158.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2021,44336.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2022,53149.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2023,58664.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2024,60694.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2025,73106.0
+AXISBANK,balance-sheet,Other Liabilities,Mar 2026,110209.0
+AXISBANK,balance-sheet,Other Liabilities,Sep 2026,102339.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2015,461932.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2016,539821.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2017,601468.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2018,691330.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2019,800997.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2020,915165.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2021,986798.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2022,1175429.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2023,1317326.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2024,1477209.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2025,1609930.0
+AXISBANK,balance-sheet,Total Liabilities,Mar 2026,1886850.0
+AXISBANK,balance-sheet,Total Liabilities,Sep 2026,2046240.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2015,2413.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2016,3316.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2017,3466.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2018,3626.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2019,3764.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2020,3839.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2021,4135.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2022,4363.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2023,4597.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2024,5442.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2025,6190.0
+AXISBANK,balance-sheet,Fixed Assets,Mar 2026,6289.0
+AXISBANK,balance-sheet,Fixed Assets,Sep 2026,6640.0
+AXISBANK,balance-sheet,CWIP,Mar 2015,101.0
+AXISBANK,balance-sheet,CWIP,Mar 2016,207.0
+AXISBANK,balance-sheet,CWIP,Mar 2017,281.0
+AXISBANK,balance-sheet,CWIP,Mar 2018,346.0
+AXISBANK,balance-sheet,CWIP,Mar 2019,273.0
+AXISBANK,balance-sheet,CWIP,Mar 2020,474.0
+AXISBANK,balance-sheet,CWIP,Mar 2021,110.0
+AXISBANK,balance-sheet,CWIP,Mar 2022,209.0
+AXISBANK,balance-sheet,CWIP,Mar 2023,136.0
+AXISBANK,balance-sheet,CWIP,Mar 2024,242.0
+AXISBANK,balance-sheet,CWIP,Mar 2025,101.0
+AXISBANK,balance-sheet,CWIP,Mar 2026,260.0
+AXISBANK,balance-sheet,CWIP,Sep 2026,0.0
+AXISBANK,balance-sheet,Investments,Mar 2015,117550.0
+AXISBANK,balance-sheet,Investments,Mar 2016,131524.0
+AXISBANK,balance-sheet,Investments,Mar 2017,128793.0
+AXISBANK,balance-sheet,Investments,Mar 2018,153876.0
+AXISBANK,balance-sheet,Investments,Mar 2019,174969.0
+AXISBANK,balance-sheet,Investments,Mar 2020,156734.0
+AXISBANK,balance-sheet,Investments,Mar 2021,226120.0
+AXISBANK,balance-sheet,Investments,Mar 2022,275597.0
+AXISBANK,balance-sheet,Investments,Mar 2023,288815.0
+AXISBANK,balance-sheet,Investments,Mar 2024,331527.0
+AXISBANK,balance-sheet,Investments,Mar 2025,396142.0
+AXISBANK,balance-sheet,Investments,Mar 2026,445033.0
+AXISBANK,balance-sheet,Investments,Sep 2026,453464.0
+AXISBANK,balance-sheet,Other Assets,Mar 2015,341868.0
+AXISBANK,balance-sheet,Other Assets,Mar 2016,404774.0
+AXISBANK,balance-sheet,Other Assets,Mar 2017,468927.0
+AXISBANK,balance-sheet,Other Assets,Mar 2018,533482.0
+AXISBANK,balance-sheet,Other Assets,Mar 2019,621991.0
+AXISBANK,balance-sheet,Other Assets,Mar 2020,754118.0
+AXISBANK,balance-sheet,Other Assets,Mar 2021,756433.0
+AXISBANK,balance-sheet,Other Assets,Mar 2022,895259.0
+AXISBANK,balance-sheet,Other Assets,Mar 2023,1023777.0
+AXISBANK,balance-sheet,Other Assets,Mar 2024,1139997.0
+AXISBANK,balance-sheet,Other Assets,Mar 2025,1207496.0
+AXISBANK,balance-sheet,Other Assets,Mar 2026,1435268.0
+AXISBANK,balance-sheet,Other Assets,Sep 2026,1586136.0
+AXISBANK,balance-sheet,Total Assets,Mar 2015,461932.0
+AXISBANK,balance-sheet,Total Assets,Mar 2016,539821.0
+AXISBANK,balance-sheet,Total Assets,Mar 2017,601468.0
+AXISBANK,balance-sheet,Total Assets,Mar 2018,691330.0
+AXISBANK,balance-sheet,Total Assets,Mar 2019,800997.0
+AXISBANK,balance-sheet,Total Assets,Mar 2020,915165.0
+AXISBANK,balance-sheet,Total Assets,Mar 2021,986798.0
+AXISBANK,balance-sheet,Total Assets,Mar 2022,1175429.0
+AXISBANK,balance-sheet,Total Assets,Mar 2023,1317326.0
+AXISBANK,balance-sheet,Total Assets,Mar 2024,1477209.0
+AXISBANK,balance-sheet,Total Assets,Mar 2025,1609930.0
+AXISBANK,balance-sheet,Total Assets,Mar 2026,1886850.0
+AXISBANK,balance-sheet,Total Assets,Sep 2026,2046240.0
+AXISBANK,ratios,ROE %,Mar 2015,18.0
+AXISBANK,ratios,ROE %,Mar 2016,17.0
+AXISBANK,ratios,ROE %,Mar 2017,7.0
+AXISBANK,ratios,ROE %,Mar 2018,0.0
+AXISBANK,ratios,ROE %,Mar 2019,7.0
+AXISBANK,ratios,ROE %,Mar 2020,2.0
+AXISBANK,ratios,ROE %,Mar 2021,7.0
+AXISBANK,ratios,ROE %,Mar 2022,12.0
+AXISBANK,ratios,ROE %,Mar 2023,8.0
+AXISBANK,ratios,ROE %,Mar 2024,18.0
+AXISBANK,ratios,ROE %,Mar 2025,16.0
+AXISBANK,ratios,ROE %,Mar 2026,13.0

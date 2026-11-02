@@ -1,0 +1,468 @@
+symbol,section,line_item,period,value
+SBIN,quarters,Revenue,Jun 2023,95975.0
+SBIN,quarters,Revenue,Sep 2023,101379.0
+SBIN,quarters,Revenue,Dec 2023,106734.0
+SBIN,quarters,Revenue,Mar 2024,111043.0
+SBIN,quarters,Revenue,Jun 2024,111526.0
+SBIN,quarters,Revenue,Sep 2024,113871.0
+SBIN,quarters,Revenue,Dec 2024,117427.0
+SBIN,quarters,Revenue,Mar 2025,119509.0
+SBIN,quarters,Revenue,Jun 2025,117996.0
+SBIN,quarters,Revenue,Sep 2025,119654.0
+SBIN,quarters,Revenue,Dec 2025,122352.0
+SBIN,quarters,Revenue,Mar 2026,123098.0
+SBIN,quarters,Revenue,Jun 2026,127896.0
+SBIN,quarters,Interest,Jun 2023,57070.0
+SBIN,quarters,Interest,Sep 2023,61879.0
+SBIN,quarters,Interest,Dec 2023,66918.0
+SBIN,quarters,Interest,Mar 2024,69387.0
+SBIN,quarters,Interest,Jun 2024,70401.0
+SBIN,quarters,Interest,Sep 2024,72251.0
+SBIN,quarters,Interest,Dec 2024,75981.0
+SBIN,quarters,Interest,Mar 2025,76892.0
+SBIN,quarters,Interest,Jun 2025,76923.0
+SBIN,quarters,Interest,Sep 2025,76670.0
+SBIN,quarters,Interest,Dec 2025,77366.0
+SBIN,quarters,Interest,Mar 2026,78718.0
+SBIN,quarters,Interest,Jun 2026,80904.0
+SBIN,quarters,Expenses,Jun 2023,28173.0
+SBIN,quarters,Expenses,Sep 2023,30989.0
+SBIN,quarters,Expenses,Dec 2023,31626.0
+SBIN,quarters,Expenses,Mar 2024,31887.0
+SBIN,quarters,Expenses,Jun 2024,29288.0
+SBIN,quarters,Expenses,Sep 2024,32102.0
+SBIN,quarters,Expenses,Dec 2024,29847.0
+SBIN,quarters,Expenses,Mar 2025,42140.0
+SBIN,quarters,Expenses,Jun 2025,32633.0
+SBIN,quarters,Expenses,Sep 2025,36399.0
+SBIN,quarters,Expenses,Dec 2025,35193.0
+SBIN,quarters,Expenses,Mar 2026,36862.0
+SBIN,quarters,Expenses,Jun 2026,34433.0
+SBIN,quarters,Financing Profit,Jun 2023,10732.0
+SBIN,quarters,Financing Profit,Sep 2023,8511.0
+SBIN,quarters,Financing Profit,Dec 2023,8189.0
+SBIN,quarters,Financing Profit,Mar 2024,9769.0
+SBIN,quarters,Financing Profit,Jun 2024,11837.0
+SBIN,quarters,Financing Profit,Sep 2024,9517.0
+SBIN,quarters,Financing Profit,Dec 2024,11599.0
+SBIN,quarters,Financing Profit,Mar 2025,478.0
+SBIN,quarters,Financing Profit,Jun 2025,8440.0
+SBIN,quarters,Financing Profit,Sep 2025,6585.0
+SBIN,quarters,Financing Profit,Dec 2025,9793.0
+SBIN,quarters,Financing Profit,Mar 2026,7518.0
+SBIN,quarters,Financing Profit,Jun 2026,12560.0
+SBIN,quarters,Financing Margin %,Jun 2023,11.0
+SBIN,quarters,Financing Margin %,Sep 2023,8.0
+SBIN,quarters,Financing Margin %,Dec 2023,8.0
+SBIN,quarters,Financing Margin %,Mar 2024,9.0
+SBIN,quarters,Financing Margin %,Jun 2024,11.0
+SBIN,quarters,Financing Margin %,Sep 2024,8.0
+SBIN,quarters,Financing Margin %,Dec 2024,10.0
+SBIN,quarters,Financing Margin %,Mar 2025,0.0
+SBIN,quarters,Financing Margin %,Jun 2025,7.0
+SBIN,quarters,Financing Margin %,Sep 2025,6.0
+SBIN,quarters,Financing Margin %,Dec 2025,8.0
+SBIN,quarters,Financing Margin %,Mar 2026,6.0
+SBIN,quarters,Financing Margin %,Jun 2026,10.0
+SBIN,quarters,Other Income,Jun 2023,12063.0
+SBIN,quarters,Other Income,Sep 2023,10791.0
+SBIN,quarters,Other Income,Dec 2023,4359.0
+SBIN,quarters,Other Income,Mar 2024,17369.0
+SBIN,quarters,Other Income,Jun 2024,11162.0
+SBIN,quarters,Other Income,Sep 2024,15271.0
+SBIN,quarters,Other Income,Dec 2024,11041.0
+SBIN,quarters,Other Income,Mar 2025,24367.0
+SBIN,quarters,Other Income,Jun 2025,17346.0
+SBIN,quarters,Other Income,Sep 2025,19919.0
+SBIN,quarters,Other Income,Dec 2025,18562.0
+SBIN,quarters,Other Income,Mar 2026,17314.0
+SBIN,quarters,Other Income,Jun 2026,15923.0
+SBIN,quarters,Depreciation,Jun 2023,0.0
+SBIN,quarters,Depreciation,Sep 2023,0.0
+SBIN,quarters,Depreciation,Dec 2023,0.0
+SBIN,quarters,Depreciation,Mar 2024,0.0
+SBIN,quarters,Depreciation,Jun 2024,0.0
+SBIN,quarters,Depreciation,Sep 2024,0.0
+SBIN,quarters,Depreciation,Dec 2024,0.0
+SBIN,quarters,Depreciation,Mar 2025,0.0
+SBIN,quarters,Depreciation,Jun 2025,0.0
+SBIN,quarters,Depreciation,Sep 2025,0.0
+SBIN,quarters,Depreciation,Dec 2025,0.0
+SBIN,quarters,Depreciation,Mar 2026,0.0
+SBIN,quarters,Depreciation,Jun 2026,0.0
+SBIN,quarters,Profit before tax,Jun 2023,22796.0
+SBIN,quarters,Profit before tax,Sep 2023,19301.0
+SBIN,quarters,Profit before tax,Dec 2023,12548.0
+SBIN,quarters,Profit before tax,Mar 2024,27138.0
+SBIN,quarters,Profit before tax,Jun 2024,22999.0
+SBIN,quarters,Profit before tax,Sep 2024,24788.0
+SBIN,quarters,Profit before tax,Dec 2024,22640.0
+SBIN,quarters,Profit before tax,Mar 2025,24844.0
+SBIN,quarters,Profit before tax,Jun 2025,25785.0
+SBIN,quarters,Profit before tax,Sep 2025,26504.0
+SBIN,quarters,Profit before tax,Dec 2025,28355.0
+SBIN,quarters,Profit before tax,Mar 2026,24832.0
+SBIN,quarters,Profit before tax,Jun 2026,28482.0
+SBIN,quarters,Tax %,Jun 2023,26.0
+SBIN,quarters,Tax %,Sep 2023,26.0
+SBIN,quarters,Tax %,Dec 2023,27.0
+SBIN,quarters,Tax %,Mar 2024,24.0
+SBIN,quarters,Tax %,Jun 2024,26.0
+SBIN,quarters,Tax %,Sep 2024,26.0
+SBIN,quarters,Tax %,Dec 2024,25.0
+SBIN,quarters,Tax %,Mar 2025,25.0
+SBIN,quarters,Tax %,Jun 2025,26.0
+SBIN,quarters,Tax %,Sep 2025,24.0
+SBIN,quarters,Tax %,Dec 2025,26.0
+SBIN,quarters,Tax %,Mar 2026,21.0
+SBIN,quarters,Tax %,Jun 2026,26.0
+SBIN,quarters,Net Profit,Jun 2023,16884.0
+SBIN,quarters,Net Profit,Sep 2023,14330.0
+SBIN,quarters,Net Profit,Dec 2023,9164.0
+SBIN,quarters,Net Profit,Mar 2024,20698.0
+SBIN,quarters,Net Profit,Jun 2024,17035.0
+SBIN,quarters,Net Profit,Sep 2024,18331.0
+SBIN,quarters,Net Profit,Dec 2024,16891.0
+SBIN,quarters,Net Profit,Mar 2025,18643.0
+SBIN,quarters,Net Profit,Jun 2025,19160.0
+SBIN,quarters,Net Profit,Sep 2025,20160.0
+SBIN,quarters,Net Profit,Dec 2025,21028.0
+SBIN,quarters,Net Profit,Mar 2026,19684.0
+SBIN,quarters,Net Profit,Jun 2026,21121.0
+SBIN,quarters,EPS in Rs,Jun 2023,18.92
+SBIN,quarters,EPS in Rs,Sep 2023,16.06
+SBIN,quarters,EPS in Rs,Dec 2023,10.27
+SBIN,quarters,EPS in Rs,Mar 2024,23.19
+SBIN,quarters,EPS in Rs,Jun 2024,19.09
+SBIN,quarters,EPS in Rs,Sep 2024,20.54
+SBIN,quarters,EPS in Rs,Dec 2024,18.93
+SBIN,quarters,EPS in Rs,Mar 2025,20.89
+SBIN,quarters,EPS in Rs,Jun 2025,21.47
+SBIN,quarters,EPS in Rs,Sep 2025,21.84
+SBIN,quarters,EPS in Rs,Dec 2025,22.78
+SBIN,quarters,EPS in Rs,Mar 2026,21.32
+SBIN,quarters,EPS in Rs,Jun 2026,22.88
+SBIN,quarters,Gross NPA %,Jun 2023,2.76
+SBIN,quarters,Gross NPA %,Sep 2023,2.55
+SBIN,quarters,Gross NPA %,Dec 2023,2.42
+SBIN,quarters,Gross NPA %,Mar 2024,2.24
+SBIN,quarters,Gross NPA %,Jun 2024,2.21
+SBIN,quarters,Gross NPA %,Sep 2024,2.13
+SBIN,quarters,Gross NPA %,Dec 2024,2.07
+SBIN,quarters,Gross NPA %,Mar 2025,1.82
+SBIN,quarters,Gross NPA %,Jun 2025,1.83
+SBIN,quarters,Gross NPA %,Sep 2025,1.73
+SBIN,quarters,Gross NPA %,Dec 2025,1.57
+SBIN,quarters,Gross NPA %,Mar 2026,1.49
+SBIN,quarters,Gross NPA %,Jun 2026,1.47
+SBIN,quarters,Net NPA %,Jun 2023,0.71
+SBIN,quarters,Net NPA %,Sep 2023,0.64
+SBIN,quarters,Net NPA %,Dec 2023,0.64
+SBIN,quarters,Net NPA %,Mar 2024,0.57
+SBIN,quarters,Net NPA %,Jun 2024,0.57
+SBIN,quarters,Net NPA %,Sep 2024,0.53
+SBIN,quarters,Net NPA %,Dec 2024,0.53
+SBIN,quarters,Net NPA %,Mar 2025,0.47
+SBIN,quarters,Net NPA %,Jun 2025,0.47
+SBIN,quarters,Net NPA %,Sep 2025,0.42
+SBIN,quarters,Net NPA %,Dec 2025,0.39
+SBIN,quarters,Net NPA %,Mar 2026,0.39
+SBIN,quarters,Net NPA %,Jun 2026,0.38
+SBIN,profit-loss,Revenue,Mar 2015,152397.0
+SBIN,profit-loss,Revenue,Mar 2016,163998.0
+SBIN,profit-loss,Revenue,Mar 2017,175518.0
+SBIN,profit-loss,Revenue,Mar 2018,220499.0
+SBIN,profit-loss,Revenue,Mar 2019,242869.0
+SBIN,profit-loss,Revenue,Mar 2020,257324.0
+SBIN,profit-loss,Revenue,Mar 2021,265151.0
+SBIN,profit-loss,Revenue,Mar 2022,275457.0
+SBIN,profit-loss,Revenue,Mar 2023,332103.0
+SBIN,profit-loss,Revenue,Mar 2024,415131.0
+SBIN,profit-loss,Revenue,Mar 2025,461864.0
+SBIN,profit-loss,Revenue,Mar 2026,482797.0
+SBIN,profit-loss,Revenue,TTM,493000.0
+SBIN,profit-loss,Interest,Mar 2015,97382.0
+SBIN,profit-loss,Interest,Mar 2016,106803.0
+SBIN,profit-loss,Interest,Mar 2017,113658.0
+SBIN,profit-loss,Interest,Mar 2018,145646.0
+SBIN,profit-loss,Interest,Mar 2019,154520.0
+SBIN,profit-loss,Interest,Mar 2020,159239.0
+SBIN,profit-loss,Interest,Mar 2021,154441.0
+SBIN,profit-loss,Interest,Mar 2022,154750.0
+SBIN,profit-loss,Interest,Mar 2023,187263.0
+SBIN,profit-loss,Interest,Mar 2024,255255.0
+SBIN,profit-loss,Interest,Mar 2025,295524.0
+SBIN,profit-loss,Interest,Mar 2026,309677.0
+SBIN,profit-loss,Interest,TTM,313657.0
+SBIN,profit-loss,Expenses,Mar 2015,57161.0
+SBIN,profit-loss,Expenses,Mar 2016,69566.0
+SBIN,profit-loss,Expenses,Mar 2017,80172.0
+SBIN,profit-loss,Expenses,Mar 2018,132063.0
+SBIN,profit-loss,Expenses,Mar 2019,120304.0
+SBIN,profit-loss,Expenses,Mar 2020,114940.0
+SBIN,profit-loss,Expenses,Mar 2021,123348.0
+SBIN,profit-loss,Expenses,Mar 2022,114601.0
+SBIN,profit-loss,Expenses,Mar 2023,110953.0
+SBIN,profit-loss,Expenses,Mar 2024,126423.0
+SBIN,profit-loss,Expenses,Mar 2025,129848.0
+SBIN,profit-loss,Expenses,Mar 2026,136817.0
+SBIN,profit-loss,Expenses,TTM,142887.0
+SBIN,profit-loss,Financing Profit,Mar 2015,-2145.0
+SBIN,profit-loss,Financing Profit,Mar 2016,-12371.0
+SBIN,profit-loss,Financing Profit,Mar 2017,-18312.0
+SBIN,profit-loss,Financing Profit,Mar 2018,-57209.0
+SBIN,profit-loss,Financing Profit,Mar 2019,-31955.0
+SBIN,profit-loss,Financing Profit,Mar 2020,-16855.0
+SBIN,profit-loss,Financing Profit,Mar 2021,-12638.0
+SBIN,profit-loss,Financing Profit,Mar 2022,6107.0
+SBIN,profit-loss,Financing Profit,Mar 2023,33887.0
+SBIN,profit-loss,Financing Profit,Mar 2024,33453.0
+SBIN,profit-loss,Financing Profit,Mar 2025,36492.0
+SBIN,profit-loss,Financing Profit,Mar 2026,36303.0
+SBIN,profit-loss,Financing Profit,TTM,36456.0
+SBIN,profit-loss,Financing Margin %,Mar 2015,-1.0
+SBIN,profit-loss,Financing Margin %,Mar 2016,-8.0
+SBIN,profit-loss,Financing Margin %,Mar 2017,-10.0
+SBIN,profit-loss,Financing Margin %,Mar 2018,-26.0
+SBIN,profit-loss,Financing Margin %,Mar 2019,-13.0
+SBIN,profit-loss,Financing Margin %,Mar 2020,-7.0
+SBIN,profit-loss,Financing Margin %,Mar 2021,-5.0
+SBIN,profit-loss,Financing Margin %,Mar 2022,2.0
+SBIN,profit-loss,Financing Margin %,Mar 2023,10.0
+SBIN,profit-loss,Financing Margin %,Mar 2024,8.0
+SBIN,profit-loss,Financing Margin %,Mar 2025,8.0
+SBIN,profit-loss,Financing Margin %,Mar 2026,8.0
+SBIN,profit-loss,Financing Margin %,TTM,7.0
+SBIN,profit-loss,Other Income,Mar 2015,22576.0
+SBIN,profit-loss,Other Income,Mar 2016,27845.0
+SBIN,profit-loss,Other Income,Mar 2017,35461.0
+SBIN,profit-loss,Other Income,Mar 2018,44601.0
+SBIN,profit-loss,Other Income,Mar 2019,36775.0
+SBIN,profit-loss,Other Income,Mar 2020,45221.0
+SBIN,profit-loss,Other Income,Mar 2021,43496.0
+SBIN,profit-loss,Other Income,Mar 2022,40564.0
+SBIN,profit-loss,Other Income,Mar 2023,36616.0
+SBIN,profit-loss,Other Income,Mar 2024,51682.0
+SBIN,profit-loss,Other Income,Mar 2025,62308.0
+SBIN,profit-loss,Other Income,Mar 2026,73444.0
+SBIN,profit-loss,Other Income,TTM,71718.0
+SBIN,profit-loss,Depreciation,Mar 2015,1116.0
+SBIN,profit-loss,Depreciation,Mar 2016,1700.0
+SBIN,profit-loss,Depreciation,Mar 2017,2293.0
+SBIN,profit-loss,Depreciation,Mar 2018,2919.0
+SBIN,profit-loss,Depreciation,Mar 2019,3212.0
+SBIN,profit-loss,Depreciation,Mar 2020,3304.0
+SBIN,profit-loss,Depreciation,Mar 2021,3318.0
+SBIN,profit-loss,Depreciation,Mar 2022,3249.0
+SBIN,profit-loss,Depreciation,Mar 2023,3297.0
+SBIN,profit-loss,Depreciation,Mar 2024,3352.0
+SBIN,profit-loss,Depreciation,Mar 2025,3529.0
+SBIN,profit-loss,Depreciation,Mar 2026,4270.0
+SBIN,profit-loss,Depreciation,TTM,0.0
+SBIN,profit-loss,Profit before tax,Mar 2015,19314.0
+SBIN,profit-loss,Profit before tax,Mar 2016,13774.0
+SBIN,profit-loss,Profit before tax,Mar 2017,14855.0
+SBIN,profit-loss,Profit before tax,Mar 2018,-15528.0
+SBIN,profit-loss,Profit before tax,Mar 2019,1607.0
+SBIN,profit-loss,Profit before tax,Mar 2020,25063.0
+SBIN,profit-loss,Profit before tax,Mar 2021,27541.0
+SBIN,profit-loss,Profit before tax,Mar 2022,43422.0
+SBIN,profit-loss,Profit before tax,Mar 2023,67206.0
+SBIN,profit-loss,Profit before tax,Mar 2024,81783.0
+SBIN,profit-loss,Profit before tax,Mar 2025,95271.0
+SBIN,profit-loss,Profit before tax,Mar 2026,105477.0
+SBIN,profit-loss,Profit before tax,TTM,108174.0
+SBIN,profit-loss,Tax %,Mar 2015,32.0
+SBIN,profit-loss,Tax %,Mar 2016,28.0
+SBIN,profit-loss,Tax %,Mar 2017,29.0
+SBIN,profit-loss,Tax %,Mar 2018,-58.0
+SBIN,profit-loss,Tax %,Mar 2019,46.0
+SBIN,profit-loss,Tax %,Mar 2020,42.0
+SBIN,profit-loss,Tax %,Mar 2021,26.0
+SBIN,profit-loss,Tax %,Mar 2022,27.0
+SBIN,profit-loss,Tax %,Mar 2023,25.0
+SBIN,profit-loss,Tax %,Mar 2024,25.0
+SBIN,profit-loss,Tax %,Mar 2025,26.0
+SBIN,profit-loss,Tax %,Mar 2026,24.0
+SBIN,profit-loss,Net Profit,Mar 2015,13102.0
+SBIN,profit-loss,Net Profit,Mar 2016,9951.0
+SBIN,profit-loss,Net Profit,Mar 2017,10484.0
+SBIN,profit-loss,Net Profit,Mar 2018,-6547.0
+SBIN,profit-loss,Net Profit,Mar 2019,862.0
+SBIN,profit-loss,Net Profit,Mar 2020,14488.0
+SBIN,profit-loss,Net Profit,Mar 2021,20410.0
+SBIN,profit-loss,Net Profit,Mar 2022,31676.0
+SBIN,profit-loss,Net Profit,Mar 2023,50232.0
+SBIN,profit-loss,Net Profit,Mar 2024,61077.0
+SBIN,profit-loss,Net Profit,Mar 2025,70901.0
+SBIN,profit-loss,Net Profit,Mar 2026,80032.0
+SBIN,profit-loss,Net Profit,TTM,81993.0
+SBIN,profit-loss,EPS in Rs,Mar 2015,17.55
+SBIN,profit-loss,EPS in Rs,Mar 2016,12.82
+SBIN,profit-loss,EPS in Rs,Mar 2017,13.15
+SBIN,profit-loss,EPS in Rs,Mar 2018,-7.34
+SBIN,profit-loss,EPS in Rs,Mar 2019,0.97
+SBIN,profit-loss,EPS in Rs,Mar 2020,16.23
+SBIN,profit-loss,EPS in Rs,Mar 2021,22.87
+SBIN,profit-loss,EPS in Rs,Mar 2022,35.49
+SBIN,profit-loss,EPS in Rs,Mar 2023,56.29
+SBIN,profit-loss,EPS in Rs,Mar 2024,68.44
+SBIN,profit-loss,EPS in Rs,Mar 2025,79.44
+SBIN,profit-loss,EPS in Rs,Mar 2026,86.7
+SBIN,profit-loss,EPS in Rs,TTM,88.82
+SBIN,profit-loss,Dividend Payout %,Mar 2015,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2016,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2017,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2018,0.0
+SBIN,profit-loss,Dividend Payout %,Mar 2019,0.0
+SBIN,profit-loss,Dividend Payout %,Mar 2020,0.0
+SBIN,profit-loss,Dividend Payout %,Mar 2021,17.0
+SBIN,profit-loss,Dividend Payout %,Mar 2022,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2023,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2024,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2025,20.0
+SBIN,profit-loss,Dividend Payout %,Mar 2026,20.0
+SBIN,balance-sheet,Equity Capital,Mar 2015,747.0
+SBIN,balance-sheet,Equity Capital,Mar 2016,776.0
+SBIN,balance-sheet,Equity Capital,Mar 2017,797.0
+SBIN,balance-sheet,Equity Capital,Mar 2018,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2019,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2020,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2021,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2022,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2023,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2024,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2025,892.0
+SBIN,balance-sheet,Equity Capital,Mar 2026,923.0
+SBIN,balance-sheet,Reserves,Mar 2015,127692.0
+SBIN,balance-sheet,Reserves,Mar 2016,143498.0
+SBIN,balance-sheet,Reserves,Mar 2017,187489.0
+SBIN,balance-sheet,Reserves,Mar 2018,218236.0
+SBIN,balance-sheet,Reserves,Mar 2019,220021.0
+SBIN,balance-sheet,Reserves,Mar 2020,231115.0
+SBIN,balance-sheet,Reserves,Mar 2021,252983.0
+SBIN,balance-sheet,Reserves,Mar 2022,279196.0
+SBIN,balance-sheet,Reserves,Mar 2023,326716.0
+SBIN,balance-sheet,Reserves,Mar 2024,376354.0
+SBIN,balance-sheet,Reserves,Mar 2025,440270.0
+SBIN,balance-sheet,Reserves,Mar 2026,543519.0
+SBIN,balance-sheet,Deposits,Mar 2015,1613265.0
+SBIN,balance-sheet,Deposits,Mar 2016,1730722.0
+SBIN,balance-sheet,Deposits,Mar 2017,2044751.0
+SBIN,balance-sheet,Deposits,Mar 2018,2706343.0
+SBIN,balance-sheet,Deposits,Mar 2019,2911386.0
+SBIN,balance-sheet,Deposits,Mar 2020,3241621.0
+SBIN,balance-sheet,Deposits,Mar 2021,3681277.0
+SBIN,balance-sheet,Deposits,Mar 2022,4051534.0
+SBIN,balance-sheet,Deposits,Mar 2023,4423778.0
+SBIN,balance-sheet,Deposits,Mar 2024,4916077.0
+SBIN,balance-sheet,Deposits,Mar 2025,5382190.0
+SBIN,balance-sheet,Deposits,Mar 2026,5975642.0
+SBIN,balance-sheet,Borrowing,Mar 2015,168679.0
+SBIN,balance-sheet,Borrowing,Mar 2016,323345.0
+SBIN,balance-sheet,Borrowing,Mar 2017,2362445.0
+SBIN,balance-sheet,Borrowing,Mar 2018,3068485.0
+SBIN,balance-sheet,Borrowing,Mar 2019,403017.0
+SBIN,balance-sheet,Borrowing,Mar 2020,314656.0
+SBIN,balance-sheet,Borrowing,Mar 2021,417298.0
+SBIN,balance-sheet,Borrowing,Mar 2022,426043.0
+SBIN,balance-sheet,Borrowing,Mar 2023,493135.0
+SBIN,balance-sheet,Borrowing,Mar 2024,597561.0
+SBIN,balance-sheet,Borrowing,Mar 2025,563573.0
+SBIN,balance-sheet,Borrowing,Mar 2026,731254.0
+SBIN,balance-sheet,Other Liabilities,Mar 2015,137332.0
+SBIN,balance-sheet,Other Liabilities,Mar 2016,158804.0
+SBIN,balance-sheet,Other Liabilities,Mar 2017,155235.0
+SBIN,balance-sheet,Other Liabilities,Mar 2018,178347.0
+SBIN,balance-sheet,Other Liabilities,Mar 2019,145595.0
+SBIN,balance-sheet,Other Liabilities,Mar 2020,163104.0
+SBIN,balance-sheet,Other Liabilities,Mar 2021,181977.0
+SBIN,balance-sheet,Other Liabilities,Mar 2022,229929.0
+SBIN,balance-sheet,Other Liabilities,Mar 2023,272457.0
+SBIN,balance-sheet,Other Liabilities,Mar 2024,288802.0
+SBIN,balance-sheet,Other Liabilities,Mar 2025,289074.0
+SBIN,balance-sheet,Other Liabilities,Mar 2026,371619.0
+SBIN,balance-sheet,Total Liabilities,Mar 2015,2047714.0
+SBIN,balance-sheet,Total Liabilities,Mar 2016,2357145.0
+SBIN,balance-sheet,Total Liabilities,Mar 2017,2705966.0
+SBIN,balance-sheet,Total Liabilities,Mar 2018,3465961.0
+SBIN,balance-sheet,Total Liabilities,Mar 2019,3680912.0
+SBIN,balance-sheet,Total Liabilities,Mar 2020,3951388.0
+SBIN,balance-sheet,Total Liabilities,Mar 2021,4534427.0
+SBIN,balance-sheet,Total Liabilities,Mar 2022,4987595.0
+SBIN,balance-sheet,Total Liabilities,Mar 2023,5516979.0
+SBIN,balance-sheet,Total Liabilities,Mar 2024,6179686.0
+SBIN,balance-sheet,Total Liabilities,Mar 2025,6675998.0
+SBIN,balance-sheet,Total Liabilities,Mar 2026,7622957.0
+SBIN,balance-sheet,Fixed Assets,Mar 2015,9042.0
+SBIN,balance-sheet,Fixed Assets,Mar 2016,9819.0
+SBIN,balance-sheet,Fixed Assets,Mar 2017,42345.0
+SBIN,balance-sheet,Fixed Assets,Mar 2018,39201.0
+SBIN,balance-sheet,Fixed Assets,Mar 2019,38509.0
+SBIN,balance-sheet,Fixed Assets,Mar 2020,38023.0
+SBIN,balance-sheet,Fixed Assets,Mar 2021,38067.0
+SBIN,balance-sheet,Fixed Assets,Mar 2022,37467.0
+SBIN,balance-sheet,Fixed Assets,Mar 2023,42101.0
+SBIN,balance-sheet,Fixed Assets,Mar 2024,42126.0
+SBIN,balance-sheet,Fixed Assets,Mar 2025,43685.0
+SBIN,balance-sheet,Fixed Assets,Mar 2026,54163.0
+SBIN,balance-sheet,CWIP,Mar 2015,287.0
+SBIN,balance-sheet,CWIP,Mar 2016,570.0
+SBIN,balance-sheet,CWIP,Mar 2017,574.0
+SBIN,balance-sheet,CWIP,Mar 2018,792.0
+SBIN,balance-sheet,CWIP,Mar 2019,689.0
+SBIN,balance-sheet,CWIP,Mar 2020,416.0
+SBIN,balance-sheet,CWIP,Mar 2021,352.0
+SBIN,balance-sheet,CWIP,Mar 2022,241.0
+SBIN,balance-sheet,CWIP,Mar 2023,281.0
+SBIN,balance-sheet,CWIP,Mar 2024,491.0
+SBIN,balance-sheet,CWIP,Mar 2025,423.0
+SBIN,balance-sheet,CWIP,Mar 2026,627.0
+SBIN,balance-sheet,Investments,Mar 2015,481759.0
+SBIN,balance-sheet,Investments,Mar 2016,575652.0
+SBIN,balance-sheet,Investments,Mar 2017,765990.0
+SBIN,balance-sheet,Investments,Mar 2018,1060987.0
+SBIN,balance-sheet,Investments,Mar 2019,967022.0
+SBIN,balance-sheet,Investments,Mar 2020,1046955.0
+SBIN,balance-sheet,Investments,Mar 2021,1351705.0
+SBIN,balance-sheet,Investments,Mar 2022,1481445.0
+SBIN,balance-sheet,Investments,Mar 2023,1570366.0
+SBIN,balance-sheet,Investments,Mar 2024,1671340.0
+SBIN,balance-sheet,Investments,Mar 2025,1690573.0
+SBIN,balance-sheet,Investments,Mar 2026,1801254.0
+SBIN,balance-sheet,Other Assets,Mar 2015,1556626.0
+SBIN,balance-sheet,Other Assets,Mar 2016,1771104.0
+SBIN,balance-sheet,Other Assets,Mar 2017,1897058.0
+SBIN,balance-sheet,Other Assets,Mar 2018,2364982.0
+SBIN,balance-sheet,Other Assets,Mar 2019,2674692.0
+SBIN,balance-sheet,Other Assets,Mar 2020,2865994.0
+SBIN,balance-sheet,Other Assets,Mar 2021,3144303.0
+SBIN,balance-sheet,Other Assets,Mar 2022,3468441.0
+SBIN,balance-sheet,Other Assets,Mar 2023,3904230.0
+SBIN,balance-sheet,Other Assets,Mar 2024,4465729.0
+SBIN,balance-sheet,Other Assets,Mar 2025,4941318.0
+SBIN,balance-sheet,Other Assets,Mar 2026,5766913.0
+SBIN,balance-sheet,Total Assets,Mar 2015,2047714.0
+SBIN,balance-sheet,Total Assets,Mar 2016,2357145.0
+SBIN,balance-sheet,Total Assets,Mar 2017,2705966.0
+SBIN,balance-sheet,Total Assets,Mar 2018,3465961.0
+SBIN,balance-sheet,Total Assets,Mar 2019,3680912.0
+SBIN,balance-sheet,Total Assets,Mar 2020,3951388.0
+SBIN,balance-sheet,Total Assets,Mar 2021,4534427.0
+SBIN,balance-sheet,Total Assets,Mar 2022,4987595.0
+SBIN,balance-sheet,Total Assets,Mar 2023,5516979.0
+SBIN,balance-sheet,Total Assets,Mar 2024,6179686.0
+SBIN,balance-sheet,Total Assets,Mar 2025,6675998.0
+SBIN,balance-sheet,Total Assets,Mar 2026,7622957.0
+SBIN,ratios,ROE %,Mar 2015,11.0
+SBIN,ratios,ROE %,Mar 2016,7.0
+SBIN,ratios,ROE %,Mar 2017,6.0
+SBIN,ratios,ROE %,Mar 2018,-3.0
+SBIN,ratios,ROE %,Mar 2019,0.0
+SBIN,ratios,ROE %,Mar 2020,6.0
+SBIN,ratios,ROE %,Mar 2021,8.0
+SBIN,ratios,ROE %,Mar 2022,12.0
+SBIN,ratios,ROE %,Mar 2023,17.0
+SBIN,ratios,ROE %,Mar 2024,17.0
+SBIN,ratios,ROE %,Mar 2025,17.0
+SBIN,ratios,ROE %,Mar 2026,16.0

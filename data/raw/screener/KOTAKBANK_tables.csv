@@ -1,0 +1,479 @@
+symbol,section,line_item,period,value
+KOTAKBANK,quarters,Revenue,Sep 2023,11193.0
+KOTAKBANK,quarters,Revenue,Dec 2023,11799.0
+KOTAKBANK,quarters,Revenue,Mar 2024,12307.0
+KOTAKBANK,quarters,Revenue,Jun 2024,12746.0
+KOTAKBANK,quarters,Revenue,Sep 2024,13216.0
+KOTAKBANK,quarters,Revenue,Dec 2024,13428.0
+KOTAKBANK,quarters,Revenue,Mar 2025,13530.0
+KOTAKBANK,quarters,Revenue,Jun 2025,13837.0
+KOTAKBANK,quarters,Revenue,Sep 2025,13649.0
+KOTAKBANK,quarters,Revenue,Dec 2025,13903.0
+KOTAKBANK,quarters,Revenue,Mar 2026,14175.0
+KOTAKBANK,quarters,Revenue,Jun 2026,14477.0
+KOTAKBANK,quarters,Revenue,Sep 2026,15948.0
+KOTAKBANK,quarters,Interest,Sep 2023,4896.0
+KOTAKBANK,quarters,Interest,Dec 2023,5246.0
+KOTAKBANK,quarters,Interest,Mar 2024,5398.0
+KOTAKBANK,quarters,Interest,Jun 2024,5904.0
+KOTAKBANK,quarters,Interest,Sep 2024,6197.0
+KOTAKBANK,quarters,Interest,Dec 2024,6231.0
+KOTAKBANK,quarters,Interest,Mar 2025,6246.0
+KOTAKBANK,quarters,Interest,Jun 2025,6577.0
+KOTAKBANK,quarters,Interest,Sep 2025,6339.0
+KOTAKBANK,quarters,Interest,Dec 2025,6339.0
+KOTAKBANK,quarters,Interest,Mar 2026,6299.0
+KOTAKBANK,quarters,Interest,Jun 2026,6549.0
+KOTAKBANK,quarters,Interest,Sep 2026,7489.0
+KOTAKBANK,quarters,Expenses,Sep 2023,4368.0
+KOTAKBANK,quarters,Expenses,Dec 2023,4863.0
+KOTAKBANK,quarters,Expenses,Mar 2024,4690.0
+KOTAKBANK,quarters,Expenses,Jun 2024,5096.0
+KOTAKBANK,quarters,Expenses,Sep 2024,5265.0
+KOTAKBANK,quarters,Expenses,Dec 2024,5432.0
+KOTAKBANK,quarters,Expenses,Mar 2025,5903.0
+KOTAKBANK,quarters,Expenses,Jun 2025,5983.0
+KOTAKBANK,quarters,Expenses,Sep 2025,5579.0
+KOTAKBANK,quarters,Expenses,Dec 2025,5832.0
+KOTAKBANK,quarters,Expenses,Mar 2026,5653.0
+KOTAKBANK,quarters,Expenses,Jun 2026,5803.0
+KOTAKBANK,quarters,Expenses,Sep 2026,6074.0
+KOTAKBANK,quarters,Financing Profit,Sep 2023,1929.0
+KOTAKBANK,quarters,Financing Profit,Dec 2023,1690.0
+KOTAKBANK,quarters,Financing Profit,Mar 2024,2220.0
+KOTAKBANK,quarters,Financing Profit,Jun 2024,1747.0
+KOTAKBANK,quarters,Financing Profit,Sep 2024,1755.0
+KOTAKBANK,quarters,Financing Profit,Dec 2024,1764.0
+KOTAKBANK,quarters,Financing Profit,Mar 2025,1380.0
+KOTAKBANK,quarters,Financing Profit,Jun 2025,1276.0
+KOTAKBANK,quarters,Financing Profit,Sep 2025,1732.0
+KOTAKBANK,quarters,Financing Profit,Dec 2025,1732.0
+KOTAKBANK,quarters,Financing Profit,Mar 2026,2222.0
+KOTAKBANK,quarters,Financing Profit,Jun 2026,2125.0
+KOTAKBANK,quarters,Financing Profit,Sep 2026,2385.0
+KOTAKBANK,quarters,Financing Margin %,Sep 2023,17.0
+KOTAKBANK,quarters,Financing Margin %,Dec 2023,14.0
+KOTAKBANK,quarters,Financing Margin %,Mar 2024,18.0
+KOTAKBANK,quarters,Financing Margin %,Jun 2024,14.0
+KOTAKBANK,quarters,Financing Margin %,Sep 2024,13.0
+KOTAKBANK,quarters,Financing Margin %,Dec 2024,13.0
+KOTAKBANK,quarters,Financing Margin %,Mar 2025,10.0
+KOTAKBANK,quarters,Financing Margin %,Jun 2025,9.0
+KOTAKBANK,quarters,Financing Margin %,Sep 2025,13.0
+KOTAKBANK,quarters,Financing Margin %,Dec 2025,12.0
+KOTAKBANK,quarters,Financing Margin %,Mar 2026,16.0
+KOTAKBANK,quarters,Financing Margin %,Jun 2026,15.0
+KOTAKBANK,quarters,Financing Margin %,Sep 2026,15.0
+KOTAKBANK,quarters,Other Income,Sep 2023,2315.0
+KOTAKBANK,quarters,Other Income,Dec 2023,2297.0
+KOTAKBANK,quarters,Other Income,Mar 2024,2978.0
+KOTAKBANK,quarters,Other Income,Jun 2024,6449.0
+KOTAKBANK,quarters,Other Income,Sep 2024,2684.0
+KOTAKBANK,quarters,Other Income,Dec 2024,2623.0
+KOTAKBANK,quarters,Other Income,Mar 2025,3182.0
+KOTAKBANK,quarters,Other Income,Jun 2025,3080.0
+KOTAKBANK,quarters,Other Income,Sep 2025,2589.0
+KOTAKBANK,quarters,Other Income,Dec 2025,2838.0
+KOTAKBANK,quarters,Other Income,Mar 2026,3116.0
+KOTAKBANK,quarters,Other Income,Jun 2026,3338.0
+KOTAKBANK,quarters,Other Income,Sep 2026,3194.0
+KOTAKBANK,quarters,Depreciation,Sep 2023,0.0
+KOTAKBANK,quarters,Depreciation,Dec 2023,0.0
+KOTAKBANK,quarters,Depreciation,Mar 2024,0.0
+KOTAKBANK,quarters,Depreciation,Jun 2024,0.0
+KOTAKBANK,quarters,Depreciation,Sep 2024,0.0
+KOTAKBANK,quarters,Depreciation,Dec 2024,0.0
+KOTAKBANK,quarters,Depreciation,Mar 2025,0.0
+KOTAKBANK,quarters,Depreciation,Jun 2025,0.0
+KOTAKBANK,quarters,Depreciation,Sep 2025,0.0
+KOTAKBANK,quarters,Depreciation,Dec 2025,0.0
+KOTAKBANK,quarters,Depreciation,Mar 2026,0.0
+KOTAKBANK,quarters,Depreciation,Jun 2026,0.0
+KOTAKBANK,quarters,Depreciation,Sep 2026,0.0
+KOTAKBANK,quarters,Profit before tax,Sep 2023,4244.0
+KOTAKBANK,quarters,Profit before tax,Dec 2023,3987.0
+KOTAKBANK,quarters,Profit before tax,Mar 2024,5198.0
+KOTAKBANK,quarters,Profit before tax,Jun 2024,8196.0
+KOTAKBANK,quarters,Profit before tax,Sep 2024,4439.0
+KOTAKBANK,quarters,Profit before tax,Dec 2024,4387.0
+KOTAKBANK,quarters,Profit before tax,Mar 2025,4563.0
+KOTAKBANK,quarters,Profit before tax,Jun 2025,4356.0
+KOTAKBANK,quarters,Profit before tax,Sep 2025,4321.0
+KOTAKBANK,quarters,Profit before tax,Dec 2025,4570.0
+KOTAKBANK,quarters,Profit before tax,Mar 2026,5339.0
+KOTAKBANK,quarters,Profit before tax,Jun 2026,5463.0
+KOTAKBANK,quarters,Profit before tax,Sep 2026,5579.0
+KOTAKBANK,quarters,Tax %,Sep 2023,25.0
+KOTAKBANK,quarters,Tax %,Dec 2023,25.0
+KOTAKBANK,quarters,Tax %,Mar 2024,20.0
+KOTAKBANK,quarters,Tax %,Jun 2024,24.0
+KOTAKBANK,quarters,Tax %,Sep 2024,25.0
+KOTAKBANK,quarters,Tax %,Dec 2024,25.0
+KOTAKBANK,quarters,Tax %,Mar 2025,22.0
+KOTAKBANK,quarters,Tax %,Jun 2025,25.0
+KOTAKBANK,quarters,Tax %,Sep 2025,25.0
+KOTAKBANK,quarters,Tax %,Dec 2025,25.0
+KOTAKBANK,quarters,Tax %,Mar 2026,25.0
+KOTAKBANK,quarters,Tax %,Jun 2026,25.0
+KOTAKBANK,quarters,Tax %,Sep 2026,24.0
+KOTAKBANK,quarters,Net Profit,Sep 2023,3191.0
+KOTAKBANK,quarters,Net Profit,Dec 2023,3005.0
+KOTAKBANK,quarters,Net Profit,Mar 2024,4133.0
+KOTAKBANK,quarters,Net Profit,Jun 2024,6250.0
+KOTAKBANK,quarters,Net Profit,Sep 2024,3344.0
+KOTAKBANK,quarters,Net Profit,Dec 2024,3305.0
+KOTAKBANK,quarters,Net Profit,Mar 2025,3552.0
+KOTAKBANK,quarters,Net Profit,Jun 2025,3282.0
+KOTAKBANK,quarters,Net Profit,Sep 2025,3253.0
+KOTAKBANK,quarters,Net Profit,Dec 2025,3446.0
+KOTAKBANK,quarters,Net Profit,Mar 2026,4027.0
+KOTAKBANK,quarters,Net Profit,Jun 2026,4123.0
+KOTAKBANK,quarters,Net Profit,Sep 2026,4212.0
+KOTAKBANK,quarters,EPS in Rs,Sep 2023,3.21
+KOTAKBANK,quarters,EPS in Rs,Dec 2023,3.02
+KOTAKBANK,quarters,EPS in Rs,Mar 2024,4.16
+KOTAKBANK,quarters,EPS in Rs,Jun 2024,6.29
+KOTAKBANK,quarters,EPS in Rs,Sep 2024,3.36
+KOTAKBANK,quarters,EPS in Rs,Dec 2024,3.32
+KOTAKBANK,quarters,EPS in Rs,Mar 2025,3.57
+KOTAKBANK,quarters,EPS in Rs,Jun 2025,3.3
+KOTAKBANK,quarters,EPS in Rs,Sep 2025,3.27
+KOTAKBANK,quarters,EPS in Rs,Dec 2025,3.47
+KOTAKBANK,quarters,EPS in Rs,Mar 2026,4.05
+KOTAKBANK,quarters,EPS in Rs,Jun 2026,4.15
+KOTAKBANK,quarters,EPS in Rs,Sep 2026,4.23
+KOTAKBANK,quarters,Gross NPA %,Sep 2023,1.72
+KOTAKBANK,quarters,Gross NPA %,Dec 2023,1.73
+KOTAKBANK,quarters,Gross NPA %,Mar 2024,1.39
+KOTAKBANK,quarters,Gross NPA %,Jun 2024,1.39
+KOTAKBANK,quarters,Gross NPA %,Sep 2024,1.49
+KOTAKBANK,quarters,Gross NPA %,Dec 2024,1.5
+KOTAKBANK,quarters,Gross NPA %,Mar 2025,1.42
+KOTAKBANK,quarters,Gross NPA %,Jun 2025,1.48
+KOTAKBANK,quarters,Gross NPA %,Sep 2025,1.39
+KOTAKBANK,quarters,Gross NPA %,Dec 2025,1.3
+KOTAKBANK,quarters,Gross NPA %,Mar 2026,1.2
+KOTAKBANK,quarters,Gross NPA %,Jun 2026,1.18
+KOTAKBANK,quarters,Gross NPA %,Sep 2026,1.04
+KOTAKBANK,quarters,Net NPA %,Sep 2023,0.37
+KOTAKBANK,quarters,Net NPA %,Dec 2023,0.34
+KOTAKBANK,quarters,Net NPA %,Mar 2024,0.34
+KOTAKBANK,quarters,Net NPA %,Jun 2024,0.35
+KOTAKBANK,quarters,Net NPA %,Sep 2024,0.43
+KOTAKBANK,quarters,Net NPA %,Dec 2024,0.41
+KOTAKBANK,quarters,Net NPA %,Mar 2025,0.31
+KOTAKBANK,quarters,Net NPA %,Jun 2025,0.34
+KOTAKBANK,quarters,Net NPA %,Sep 2025,0.32
+KOTAKBANK,quarters,Net NPA %,Dec 2025,0.31
+KOTAKBANK,quarters,Net NPA %,Mar 2026,0.25
+KOTAKBANK,quarters,Net NPA %,Jun 2026,0.27
+KOTAKBANK,quarters,Net NPA %,Sep 2026,0.24
+KOTAKBANK,profit-loss,Revenue,Mar 2015,9720.0
+KOTAKBANK,profit-loss,Revenue,Mar 2016,16384.0
+KOTAKBANK,profit-loss,Revenue,Mar 2017,17699.0
+KOTAKBANK,profit-loss,Revenue,Mar 2018,19748.0
+KOTAKBANK,profit-loss,Revenue,Mar 2019,23890.0
+KOTAKBANK,profit-loss,Revenue,Mar 2020,26930.0
+KOTAKBANK,profit-loss,Revenue,Mar 2021,26840.0
+KOTAKBANK,profit-loss,Revenue,Mar 2022,27039.0
+KOTAKBANK,profit-loss,Revenue,Mar 2023,34251.0
+KOTAKBANK,profit-loss,Revenue,Mar 2024,45799.0
+KOTAKBANK,profit-loss,Revenue,Mar 2025,52920.0
+KOTAKBANK,profit-loss,Revenue,Mar 2026,55564.0
+KOTAKBANK,profit-loss,Revenue,TTM,58503.0
+KOTAKBANK,profit-loss,Interest,Mar 2015,5496.0
+KOTAKBANK,profit-loss,Interest,Mar 2016,9484.0
+KOTAKBANK,profit-loss,Interest,Mar 2017,9573.0
+KOTAKBANK,profit-loss,Interest,Mar 2018,10217.0
+KOTAKBANK,profit-loss,Interest,Mar 2019,12684.0
+KOTAKBANK,profit-loss,Interest,Mar 2020,13430.0
+KOTAKBANK,profit-loss,Interest,Mar 2021,11501.0
+KOTAKBANK,profit-loss,Interest,Mar 2022,10221.0
+KOTAKBANK,profit-loss,Interest,Mar 2023,12699.0
+KOTAKBANK,profit-loss,Interest,Mar 2024,19806.0
+KOTAKBANK,profit-loss,Interest,Mar 2025,24578.0
+KOTAKBANK,profit-loss,Interest,Mar 2026,25554.0
+KOTAKBANK,profit-loss,Interest,TTM,26676.0
+KOTAKBANK,profit-loss,Expenses,Mar 2015,3226.0
+KOTAKBANK,profit-loss,Expenses,Mar 2016,6102.0
+KOTAKBANK,profit-loss,Expenses,Mar 2017,6165.0
+KOTAKBANK,profit-loss,Expenses,Mar 2018,7063.0
+KOTAKBANK,profit-loss,Expenses,Mar 2019,8110.0
+KOTAKBANK,profit-loss,Expenses,Mar 2020,10695.0
+KOTAKBANK,profit-loss,Expenses,Mar 2021,10676.0
+KOTAKBANK,profit-loss,Expenses,Mar 2022,11062.0
+KOTAKBANK,profit-loss,Expenses,Mar 2023,13782.0
+KOTAKBANK,profit-loss,Expenses,Mar 2024,17638.0
+KOTAKBANK,profit-loss,Expenses,Mar 2025,20990.0
+KOTAKBANK,profit-loss,Expenses,Mar 2026,22229.0
+KOTAKBANK,profit-loss,Expenses,TTM,23363.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2015,997.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2016,799.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2017,1962.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2018,2469.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2019,3096.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2020,2805.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2021,4663.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2022,5756.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2023,7770.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2024,8355.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2025,7352.0
+KOTAKBANK,profit-loss,Financing Profit,Mar 2026,7781.0
+KOTAKBANK,profit-loss,Financing Profit,TTM,8465.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2015,10.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2016,5.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2017,11.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2018,12.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2019,13.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2020,10.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2021,17.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2022,21.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2023,23.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2024,18.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2025,14.0
+KOTAKBANK,profit-loss,Financing Margin %,Mar 2026,14.0
+KOTAKBANK,profit-loss,Financing Margin %,TTM,14.0
+KOTAKBANK,profit-loss,Other Income,Mar 2015,2028.0
+KOTAKBANK,profit-loss,Other Income,Mar 2016,2612.0
+KOTAKBANK,profit-loss,Other Income,Mar 2017,3477.0
+KOTAKBANK,profit-loss,Other Income,Mar 2018,4052.0
+KOTAKBANK,profit-loss,Other Income,Mar 2019,4657.0
+KOTAKBANK,profit-loss,Other Income,Mar 2020,5372.0
+KOTAKBANK,profit-loss,Other Income,Mar 2021,5007.0
+KOTAKBANK,profit-loss,Other Income,Mar 2022,5986.0
+KOTAKBANK,profit-loss,Other Income,Mar 2023,7083.0
+KOTAKBANK,profit-loss,Other Income,Mar 2024,10273.0
+KOTAKBANK,profit-loss,Other Income,Mar 2025,14961.0
+KOTAKBANK,profit-loss,Other Income,Mar 2026,11623.0
+KOTAKBANK,profit-loss,Other Income,TTM,12486.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2015,193.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2016,287.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2017,291.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2018,303.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2019,367.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2020,372.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2021,367.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2022,381.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2023,462.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2024,615.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2025,729.0
+KOTAKBANK,profit-loss,Depreciation,Mar 2026,819.0
+KOTAKBANK,profit-loss,Depreciation,TTM,0.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2015,2833.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2016,3124.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2017,5148.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2018,6218.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2019,7386.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2020,7805.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2021,9303.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2022,11361.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2023,14391.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2024,18014.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2025,21584.0
+KOTAKBANK,profit-loss,Profit before tax,Mar 2026,18586.0
+KOTAKBANK,profit-loss,Profit before tax,TTM,20951.0
+KOTAKBANK,profit-loss,Tax %,Mar 2015,34.0
+KOTAKBANK,profit-loss,Tax %,Mar 2016,33.0
+KOTAKBANK,profit-loss,Tax %,Mar 2017,34.0
+KOTAKBANK,profit-loss,Tax %,Mar 2018,34.0
+KOTAKBANK,profit-loss,Tax %,Mar 2019,34.0
+KOTAKBANK,profit-loss,Tax %,Mar 2020,24.0
+KOTAKBANK,profit-loss,Tax %,Mar 2021,25.0
+KOTAKBANK,profit-loss,Tax %,Mar 2022,25.0
+KOTAKBANK,profit-loss,Tax %,Mar 2023,24.0
+KOTAKBANK,profit-loss,Tax %,Mar 2024,23.0
+KOTAKBANK,profit-loss,Tax %,Mar 2025,24.0
+KOTAKBANK,profit-loss,Tax %,Mar 2026,25.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2015,1866.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2016,2090.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2017,3412.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2018,4084.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2019,4865.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2020,5947.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2021,6965.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2022,8573.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2023,10939.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2024,13782.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2025,16450.0
+KOTAKBANK,profit-loss,Net Profit,Mar 2026,14008.0
+KOTAKBANK,profit-loss,Net Profit,TTM,15808.0
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2015,2.42
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2016,2.28
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2017,3.71
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2018,4.29
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2019,5.1
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2020,6.22
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2021,7.03
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2022,8.64
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2023,11.01
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2024,13.87
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2025,16.55
+KOTAKBANK,profit-loss,EPS in Rs,Mar 2026,14.08
+KOTAKBANK,profit-loss,EPS in Rs,TTM,15.9
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2015,4.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2016,4.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2017,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2018,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2019,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2020,0.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2021,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2022,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2023,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2024,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2025,3.0
+KOTAKBANK,profit-loss,Dividend Payout %,Mar 2026,5.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2015,386.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2016,917.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2017,920.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2018,953.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2019,954.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2020,957.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2021,991.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2022,992.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2023,993.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2024,994.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2025,994.0
+KOTAKBANK,balance-sheet,Equity Capital,Mar 2026,995.0
+KOTAKBANK,balance-sheet,Equity Capital,Sep 2026,995.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2015,13758.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2016,23045.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2017,26697.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2018,36531.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2019,41446.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2020,47562.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2021,62238.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2022,70995.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2023,82027.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2024,95725.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2025,116246.0
+KOTAKBANK,balance-sheet,Reserves,Mar 2026,134317.0
+KOTAKBANK,balance-sheet,Reserves,Sep 2026,144989.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2015,75760.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2016,138643.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2017,157426.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2018,192643.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2019,225880.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2020,262821.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2021,280100.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2022,311684.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2023,363096.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2024,448954.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2025,499055.0
+KOTAKBANK,balance-sheet,Deposits,Mar 2026,572456.0
+KOTAKBANK,balance-sheet,Deposits,Sep 2026,651491.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2015,11250.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2016,20975.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2017,21095.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2018,25154.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2019,32748.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2020,38493.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2021,24151.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2022,26467.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2023,23916.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2024,28368.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2025,48443.0
+KOTAKBANK,balance-sheet,Borrowing,Mar 2026,32475.0
+KOTAKBANK,balance-sheet,Borrowing,Sep 2026,55223.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2015,4858.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2016,8679.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2017,8451.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2018,9652.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2019,11143.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2020,10420.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2021,15990.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2022,19289.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2023,19830.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2024,26316.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2025,28886.0
+KOTAKBANK,balance-sheet,Other Liabilities,Mar 2026,42760.0
+KOTAKBANK,balance-sheet,Other Liabilities,Sep 2026,34059.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2015,106012.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2016,192260.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2017,214590.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2018,264933.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2019,312172.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2020,360252.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2021,383470.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2022,429428.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2023,489862.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2024,600357.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2025,693624.0
+KOTAKBANK,balance-sheet,Total Liabilities,Mar 2026,783003.0
+KOTAKBANK,balance-sheet,Total Liabilities,Sep 2026,886758.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2015,1207.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2016,1552.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2017,1538.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2018,1527.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2019,1652.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2020,1623.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2021,1535.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2022,1644.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2023,1920.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2024,2155.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2025,2359.0
+KOTAKBANK,balance-sheet,Fixed Assets,Mar 2026,2388.0
+KOTAKBANK,balance-sheet,Fixed Assets,Sep 2026,2392.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2015,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2016,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2017,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2018,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2019,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2020,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2021,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2022,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2023,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2024,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2025,0.0
+KOTAKBANK,balance-sheet,CWIP,Mar 2026,0.0
+KOTAKBANK,balance-sheet,CWIP,Sep 2026,0.0
+KOTAKBANK,balance-sheet,Investments,Mar 2015,28659.0
+KOTAKBANK,balance-sheet,Investments,Mar 2016,51260.0
+KOTAKBANK,balance-sheet,Investments,Mar 2017,45074.0
+KOTAKBANK,balance-sheet,Investments,Mar 2018,64562.0
+KOTAKBANK,balance-sheet,Investments,Mar 2019,71189.0
+KOTAKBANK,balance-sheet,Investments,Mar 2020,75052.0
+KOTAKBANK,balance-sheet,Investments,Mar 2021,105099.0
+KOTAKBANK,balance-sheet,Investments,Mar 2022,100580.0
+KOTAKBANK,balance-sheet,Investments,Mar 2023,121404.0
+KOTAKBANK,balance-sheet,Investments,Mar 2024,155404.0
+KOTAKBANK,balance-sheet,Investments,Mar 2025,181907.0
+KOTAKBANK,balance-sheet,Investments,Mar 2026,172535.0
+KOTAKBANK,balance-sheet,Investments,Sep 2026,202035.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2015,76146.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2016,139448.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2017,167978.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2018,198844.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2019,239331.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2020,283577.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2021,276836.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2022,327204.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2023,366538.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2024,442798.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2025,509358.0
+KOTAKBANK,balance-sheet,Other Assets,Mar 2026,608079.0
+KOTAKBANK,balance-sheet,Other Assets,Sep 2026,682332.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2015,106012.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2016,192260.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2017,214590.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2018,264933.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2019,312172.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2020,360252.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2021,383470.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2022,429428.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2023,489862.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2024,600357.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2025,693624.0
+KOTAKBANK,balance-sheet,Total Assets,Mar 2026,783003.0
+KOTAKBANK,balance-sheet,Total Assets,Sep 2026,886758.0
+KOTAKBANK,ratios,ROE %,Mar 2015,14.0
+KOTAKBANK,ratios,ROE %,Mar 2016,11.0
+KOTAKBANK,ratios,ROE %,Mar 2017,13.0
+KOTAKBANK,ratios,ROE %,Mar 2018,12.0
+KOTAKBANK,ratios,ROE %,Mar 2019,12.0
+KOTAKBANK,ratios,ROE %,Mar 2020,13.0
+KOTAKBANK,ratios,ROE %,Mar 2021,12.0
+KOTAKBANK,ratios,ROE %,Mar 2022,13.0
+KOTAKBANK,ratios,ROE %,Mar 2023,14.0
+KOTAKBANK,ratios,ROE %,Mar 2024,15.0
+KOTAKBANK,ratios,ROE %,Mar 2025,15.0
+KOTAKBANK,ratios,ROE %,Mar 2026,12.0

@@ -1,0 +1,352 @@
+row_id,entity,period,metric,value,unit,source,page,status
+B0001,SBIN,FY26,nii,173120.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0002,SBIN,FY26,other_income,73444.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0003,SBIN,FY26,pbt,105477.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0004,SBIN,FY26,pat,80032.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0005,SBIN,FY26,provisions,17538.0,INR cr,bank_reported.csv,,primary
+B0006,SBIN,FY26,opex,123549.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0007,SBIN,FY26,assets_open,6675998.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0008,SBIN,FY26,assets_close,7622957.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0009,SBIN,FY26,equity_open,441162.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0010,SBIN,FY26,equity_close,544442.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0011,SBIN,FY26,deposits,5975642.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0012,HDFCBANK,FY26,nii,128686.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0013,HDFCBANK,FY26,other_income,62533.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0014,HDFCBANK,FY26,pbt,95169.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0015,HDFCBANK,FY26,pat,74671.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0016,HDFCBANK,FY26,provisions,23390.0,INR cr,bank_reported.csv,,primary
+B0017,HDFCBANK,FY26,opex,72660.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0018,HDFCBANK,FY26,assets_open,3910199.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0019,HDFCBANK,FY26,assets_close,4364886.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0020,HDFCBANK,FY26,equity_open,501424.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0021,HDFCBANK,FY26,equity_close,562901.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0022,HDFCBANK,FY26,deposits,3105250.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0023,HDFCBANK,Q2FY27,nii,34620.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0024,HDFCBANK,Q2FY27,other_income,13831.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0025,HDFCBANK,Q2FY27,pbt,25910.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0026,HDFCBANK,Q2FY27,pat,19510.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0027,HDFCBANK,Q2FY27,provisions,3573.0,INR cr,bank_reported.csv,,primary
+B0028,HDFCBANK,Q2FY27,opex,18968.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0029,HDFCBANK,Q2FY27,assets_open,4364886.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0030,HDFCBANK,Q2FY27,assets_close,4577760.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0031,HDFCBANK,Q2FY27,equity_open,562901.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0032,HDFCBANK,Q2FY27,equity_close,579147.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0033,HDFCBANK,Q2FY27,deposits,3327449.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0034,ICICIBANK,FY26,nii,88075.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0035,ICICIBANK,FY26,other_income,30758.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0036,ICICIBANK,FY26,pbt,66218.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0037,ICICIBANK,FY26,pat,50147.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0038,ICICIBANK,FY26,provisions,5380.0,INR cr,bank_reported.csv,,primary
+B0039,ICICIBANK,FY26,opex,47234.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0040,ICICIBANK,FY26,assets_open,2118240.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0041,ICICIBANK,FY26,assets_close,2372531.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0042,ICICIBANK,FY26,equity_open,292077.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0043,ICICIBANK,FY26,equity_close,337371.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0044,ICICIBANK,FY26,deposits,1794625.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0045,ICICIBANK,Q2FY27,nii,25339.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0046,ICICIBANK,Q2FY27,other_income,8047.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0047,ICICIBANK,Q2FY27,pbt,19725.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0048,ICICIBANK,Q2FY27,pat,14843.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0049,ICICIBANK,Q2FY27,provisions,851.0,INR cr,bank_reported.csv,,primary
+B0050,ICICIBANK,Q2FY27,opex,12811.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0051,ICICIBANK,Q2FY27,assets_open,2372531.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0052,ICICIBANK,Q2FY27,assets_close,2725287.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0053,ICICIBANK,Q2FY27,equity_open,337371.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0054,ICICIBANK,Q2FY27,equity_close,357731.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0055,ICICIBANK,Q2FY27,deposits,2049874.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0056,AXISBANK,FY26,nii,56048.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0057,AXISBANK,FY26,other_income,26131.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0058,AXISBANK,FY26,pbt,29554.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0059,AXISBANK,FY26,pat,24457.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0060,AXISBANK,FY26,provisions,13263.0,INR cr,bank_reported.csv,,primary
+B0061,AXISBANK,FY26,opex,39362.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0062,AXISBANK,FY26,assets_open,1609930.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0063,AXISBANK,FY26,assets_close,1886850.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0064,AXISBANK,FY26,equity_open,179725.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0065,AXISBANK,FY26,equity_close,205537.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0066,AXISBANK,FY26,deposits,1335834.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0067,AXISBANK,Q2FY27,nii,15372.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0068,AXISBANK,Q2FY27,other_income,6531.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0069,AXISBANK,Q2FY27,pbt,9389.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0070,AXISBANK,Q2FY27,pat,7003.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0071,AXISBANK,Q2FY27,provisions,1694.0,INR cr,bank_reported.csv,,primary
+B0072,AXISBANK,Q2FY27,opex,10819.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0073,AXISBANK,Q2FY27,assets_open,1886850.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0074,AXISBANK,Q2FY27,assets_close,2046240.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0075,AXISBANK,Q2FY27,equity_open,205537.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0076,AXISBANK,Q2FY27,equity_close,218750.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0077,AXISBANK,Q2FY27,deposits,1452066.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0078,KOTAKBANK,FY26,nii,30010.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0079,KOTAKBANK,FY26,other_income,11623.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0080,KOTAKBANK,FY26,pbt,18586.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0081,KOTAKBANK,FY26,pat,14008.0,INR cr,Screener standalone profit-loss 'Mar 2026',,secondary-tied
+B0082,KOTAKBANK,FY26,provisions,3481.0,INR cr,bank_reported.csv,,primary
+B0083,KOTAKBANK,FY26,opex,19567.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0084,KOTAKBANK,FY26,assets_open,693624.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0085,KOTAKBANK,FY26,assets_close,783003.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0086,KOTAKBANK,FY26,equity_open,117240.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0087,KOTAKBANK,FY26,equity_close,135312.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0088,KOTAKBANK,FY26,deposits,572456.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0089,KOTAKBANK,Q2FY27,nii,8459.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0090,KOTAKBANK,Q2FY27,other_income,3194.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0091,KOTAKBANK,Q2FY27,pbt,5579.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0092,KOTAKBANK,Q2FY27,pat,4212.0,INR cr,Screener standalone quarters 'Sep 2026',,secondary-tied
+B0093,KOTAKBANK,Q2FY27,provisions,803.0,INR cr,bank_reported.csv,,primary
+B0094,KOTAKBANK,Q2FY27,opex,5271.0,INR cr,derived: (Expenses+Depreciation)-provisions,,derived
+B0095,KOTAKBANK,Q2FY27,assets_open,783003.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0096,KOTAKBANK,Q2FY27,assets_close,886758.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0097,KOTAKBANK,Q2FY27,equity_open,135312.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0098,KOTAKBANK,Q2FY27,equity_close,145984.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0099,KOTAKBANK,Q2FY27,deposits,651491.0,INR cr,Screener standalone balance-sheet,,secondary-tied
+B0100,SBIN,FY26,provisions_ex_tax,17538.0,INR cr,SBIN_Q4FY26_ppt.pdf,24.0,primary
+B0101,SBIN,FY26,opex,123549.0,INR cr,SBIN_Q4FY26_ppt.pdf,24.0,primary
+B0102,SBIN,FY26,nim_reported,2.91,%,SBIN_Q4FY26_ppt.pdf,24.0,primary
+B0103,SBIN,FY26,roa_reported,1.12,%,SBIN_Q4FY26_ppt.pdf,8.0,primary
+B0104,SBIN,FY26,cost_income_reported,50.11,%,SBIN_Q4FY26_ppt.pdf,24.0,primary
+B0105,SBIN,FY26,gnpa,1.49,%,SBIN_Q4FY26_ppt.pdf,6.0,primary
+B0106,SBIN,FY26,nnpa,0.39,%,SBIN_Q4FY26_ppt.pdf,6.0,primary
+B0107,SBIN,FY26,one_off_other_income,4593.0,INR cr,SBIN_Q4FY26_ppt.pdf,24.0,primary
+B0108,HDFCBANK,FY26,provisions_ex_tax,23390.0,INR cr,HDFCBANK_Q4FY26_ppt.pdf,32.0,primary
+B0109,HDFCBANK,FY26,opex,72660.0,INR cr,HDFCBANK_Q4FY26_ppt.pdf,32.0,primary
+B0110,HDFCBANK,FY26,nim_reported,3.38,%,HDFCBANK_Q4FY26_ppt.pdf,3.0,primary
+B0111,HDFCBANK,FY26,roa_reported,1.96,%,HDFCBANK_Q4FY26_ppt.pdf,3.0,primary
+B0112,HDFCBANK,FY26,cost_income_reported,39.9,%,HDFCBANK_Q4FY26_ppt.pdf,3.0,primary
+B0113,HDFCBANK,FY26,gnpa,1.15,%,HDFCBANK_Q4FY26_ppt.pdf,3.0,primary
+B0114,HDFCBANK,Q2FY27,ppop,29483.0,INR cr,NSE XBRL Integrated Filing (Banking) Q2FY27,,primary
+B0115,HDFCBANK,Q2FY27,nim_reported,3.16,%,HDFCBANK_Q2FY27_ppt.pdf,3.0,primary
+B0116,HDFCBANK,Q2FY27,roa_reported,1.78,%,HDFCBANK_Q2FY27_ppt.pdf,3.0,primary
+B0117,HDFCBANK,Q2FY27,cost_income_reported,39.1,%,HDFCBANK_Q2FY27_ppt.pdf,3.0,primary
+B0118,HDFCBANK,Q2FY27,gnpa,1.11,%,HDFCBANK_Q2FY27_ppt.pdf,3.0,primary
+B0119,ICICIBANK,FY26,provisions_ex_tax,5380.0,INR cr,ICICIBANK_Q4FY26_ppt.pdf,8.0,primary
+B0120,ICICIBANK,FY26,opex,47234.0,INR cr,ICICIBANK_Q4FY26_ppt.pdf,8.0,primary
+B0121,ICICIBANK,FY26,nim_reported,4.32,%,ICICIBANK_Q4FY26_ppt.pdf,10.0,primary
+B0122,ICICIBANK,FY26,roa_reported,2.32,%,ICICIBANK_Q2FY27_ppt.pdf,10.0,primary
+B0123,ICICIBANK,FY26,cost_income_reported,39.7,%,ICICIBANK_Q2FY27_ppt.pdf,10.0,primary
+B0124,ICICIBANK,FY26,gnpa,1.4,%,ICICIBANK_Q4FY26_ppt.pdf,18.0,primary
+B0125,ICICIBANK,Q2FY27,provisions_ex_tax,851.0,INR cr,ICICIBANK_Q2FY27_ppt.pdf,9.0,primary
+B0126,ICICIBANK,Q2FY27,opex,12811.0,INR cr,ICICIBANK_Q2FY27_ppt.pdf,8.0,primary
+B0127,ICICIBANK,Q2FY27,nim_reported,4.18,%,ICICIBANK_Q2FY27_ppt.pdf,10.0,primary
+B0128,ICICIBANK,Q2FY27,roa_reported,2.26,%,ICICIBANK_Q2FY27_ppt.pdf,10.0,primary
+B0129,ICICIBANK,Q2FY27,cost_income_reported,38.4,%,ICICIBANK_Q2FY27_ppt.pdf,10.0,primary
+B0130,ICICIBANK,Q2FY27,gnpa,1.2,%,ICICIBANK_Q2FY27_ppt.pdf,18.0,primary
+B0131,AXISBANK,FY26,provisions_ex_tax,13263.0,INR cr,AXISBANK_Q4FY26_ppt.pdf,78.0,primary
+B0132,AXISBANK,FY26,opex,39362.0,INR cr,AXISBANK_Q4FY26_ppt.pdf,78.0,primary
+B0133,AXISBANK,FY26,nim_reported,3.62,%,AXISBANK_Q4FY26_ppt.pdf,4.0,primary
+B0134,AXISBANK,FY26,gnpa,1.23,%,AXISBANK_Q4FY26_ppt.pdf,2.0,primary
+B0135,AXISBANK,FY26,one_off_provision,2001.0,INR cr,AXISBANK_Q4FY26_ppt.pdf,21.0,primary
+B0136,AXISBANK,Q2FY27,provisions_ex_tax,1694.0,INR cr,AXISBANK_Q2FY27_ppt.pdf,56.0,primary
+B0137,AXISBANK,Q2FY27,nim_reported,3.36,%,AXISBANK_Q2FY27_ppt.pdf,3.0,primary
+B0138,AXISBANK,Q2FY27,roa_reported,1.38,%,AXISBANK_Q2FY27_ppt.pdf,15.0,primary
+B0139,AXISBANK,Q2FY27,gnpa,1.16,%,AXISBANK_Q2FY27_ppt.pdf,2.0,primary
+B0140,KOTAKBANK,FY26,provisions_ex_tax,3481.0,INR cr,KOTAKBANK_Q4FY26_ppt.pdf,10.0,primary
+B0141,KOTAKBANK,FY26,nim_reported,4.6,%,KOTAKBANK_Q4FY26_ppt.pdf,8.0,primary
+B0142,KOTAKBANK,FY26,roa_reported,1.97,%,KOTAKBANK_Q4FY26_ppt.pdf,8.0,primary
+B0143,KOTAKBANK,FY26,cost_income_reported,47.0,%,KOTAKBANK_Q4FY26_ppt.pdf,8.0,primary
+B0144,KOTAKBANK,FY26,gnpa,1.2,%,KOTAKBANK_Q4FY26_ppt.pdf,14.0,primary
+B0145,KOTAKBANK,FY26,casa,43.3,%,KOTAKBANK_Q4FY26_ppt.pdf,8.0,primary
+B0146,KOTAKBANK,Q2FY27,provisions_ex_tax,803.0,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,10.0,primary
+B0147,KOTAKBANK,Q2FY27,nim_reported,4.31,%,KOTAKBANK_Q2FY27_ppt.pdf,9.0,primary
+B0148,KOTAKBANK,Q2FY27,roa_reported,1.92,%,KOTAKBANK_Q2FY27_ppt.pdf,9.0,primary
+B0149,KOTAKBANK,Q2FY27,cost_income_reported,45.2,%,KOTAKBANK_Q2FY27_ppt.pdf,9.0,primary
+B0150,KOTAKBANK,Q2FY27,gnpa,1.04,%,KOTAKBANK_Q2FY27_ppt.pdf,15.0,primary
+B0151,KOTAKBANK,Q2FY27,casa,38.2,%,KOTAKBANK_Q2FY27_ppt.pdf,9.0,primary
+B0152,SBIN,FY17,hist_nii_pct_assets,2.4436,% of avg assets,Screener standalone (computed),,derived
+B0153,SBIN,FY17,hist_oi_pct_assets,1.4008,% of avg assets,Screener standalone (computed),,derived
+B0154,SBIN,FY17,hist_cost_prov_pct_assets,3.2575,% of avg assets,Screener standalone (computed),,derived
+B0155,SBIN,FY17,hist_roa,0.4141,% of avg assets,Screener standalone (computed),,derived
+B0156,SBIN,FY18,hist_nii_pct_assets,2.4256,% of avg assets,Screener standalone (computed),,derived
+B0157,SBIN,FY18,hist_oi_pct_assets,1.4453,% of avg assets,Screener standalone (computed),,derived
+B0158,SBIN,FY18,hist_cost_prov_pct_assets,4.3741,% of avg assets,Screener standalone (computed),,derived
+B0159,SBIN,FY18,hist_roa,-0.2122,% of avg assets,Screener standalone (computed),,derived
+B0160,SBIN,FY19,hist_nii_pct_assets,2.4724,% of avg assets,Screener standalone (computed),,derived
+B0161,SBIN,FY19,hist_oi_pct_assets,1.0291,% of avg assets,Screener standalone (computed),,derived
+B0162,SBIN,FY19,hist_cost_prov_pct_assets,3.4565,% of avg assets,Screener standalone (computed),,derived
+B0163,SBIN,FY19,hist_roa,0.0241,% of avg assets,Screener standalone (computed),,derived
+B0164,SBIN,FY20,hist_nii_pct_assets,2.5703,% of avg assets,Screener standalone (computed),,derived
+B0165,SBIN,FY20,hist_oi_pct_assets,1.185,% of avg assets,Screener standalone (computed),,derived
+B0166,SBIN,FY20,hist_cost_prov_pct_assets,3.0985,% of avg assets,Screener standalone (computed),,derived
+B0167,SBIN,FY20,hist_roa,0.3796,% of avg assets,Screener standalone (computed),,derived
+B0168,SBIN,FY21,hist_nii_pct_assets,2.6093,% of avg assets,Screener standalone (computed),,derived
+B0169,SBIN,FY21,hist_oi_pct_assets,1.0251,% of avg assets,Screener standalone (computed),,derived
+B0170,SBIN,FY21,hist_cost_prov_pct_assets,2.9854,% of avg assets,Screener standalone (computed),,derived
+B0171,SBIN,FY21,hist_roa,0.481,% of avg assets,Screener standalone (computed),,derived
+B0172,SBIN,FY22,hist_nii_pct_assets,2.5353,% of avg assets,Screener standalone (computed),,derived
+B0173,SBIN,FY22,hist_oi_pct_assets,0.852,% of avg assets,Screener standalone (computed),,derived
+B0174,SBIN,FY22,hist_cost_prov_pct_assets,2.4753,% of avg assets,Screener standalone (computed),,derived
+B0175,SBIN,FY22,hist_roa,0.6653,% of avg assets,Screener standalone (computed),,derived
+B0176,SBIN,FY23,hist_nii_pct_assets,2.7577,% of avg assets,Screener standalone (computed),,derived
+B0177,SBIN,FY23,hist_oi_pct_assets,0.6971,% of avg assets,Screener standalone (computed),,derived
+B0178,SBIN,FY23,hist_cost_prov_pct_assets,2.1752,% of avg assets,Screener standalone (computed),,derived
+B0179,SBIN,FY23,hist_roa,0.9564,% of avg assets,Screener standalone (computed),,derived
+B0180,SBIN,FY24,hist_nii_pct_assets,2.7337,% of avg assets,Screener standalone (computed),,derived
+B0181,SBIN,FY24,hist_oi_pct_assets,0.8837,% of avg assets,Screener standalone (computed),,derived
+B0182,SBIN,FY24,hist_cost_prov_pct_assets,2.219,% of avg assets,Screener standalone (computed),,derived
+B0183,SBIN,FY24,hist_roa,1.0443,% of avg assets,Screener standalone (computed),,derived
+B0184,SBIN,FY25,hist_nii_pct_assets,2.5878,% of avg assets,Screener standalone (computed),,derived
+B0185,SBIN,FY25,hist_oi_pct_assets,0.9693,% of avg assets,Screener standalone (computed),,derived
+B0186,SBIN,FY25,hist_cost_prov_pct_assets,2.075,% of avg assets,Screener standalone (computed),,derived
+B0187,SBIN,FY25,hist_roa,1.103,% of avg assets,Screener standalone (computed),,derived
+B0188,SBIN,FY26,hist_nii_pct_assets,2.4214,% of avg assets,Screener standalone (computed),,derived
+B0189,SBIN,FY26,hist_oi_pct_assets,1.0273,% of avg assets,Screener standalone (computed),,derived
+B0190,SBIN,FY26,hist_cost_prov_pct_assets,1.9734,% of avg assets,Screener standalone (computed),,derived
+B0191,SBIN,FY26,hist_roa,1.1194,% of avg assets,Screener standalone (computed),,derived
+B0192,HDFCBANK,FY17,hist_nii_pct_assets,4.1304,% of avg assets,Screener standalone (computed),,derived
+B0193,HDFCBANK,FY17,hist_oi_pct_assets,1.5326,% of avg assets,Screener standalone (computed),,derived
+B0194,HDFCBANK,FY17,hist_cost_prov_pct_assets,2.9037,% of avg assets,Screener standalone (computed),,derived
+B0195,HDFCBANK,FY17,hist_roa,1.8135,% of avg assets,Screener standalone (computed),,derived
+B0196,HDFCBANK,FY18,hist_nii_pct_assets,4.1597,% of avg assets,Screener standalone (computed),,derived
+B0197,HDFCBANK,FY18,hist_oi_pct_assets,1.579,% of avg assets,Screener standalone (computed),,derived
+B0198,HDFCBANK,FY18,hist_cost_prov_pct_assets,2.969,% of avg assets,Screener standalone (computed),,derived
+B0199,HDFCBANK,FY18,hist_roa,1.8142,% of avg assets,Screener standalone (computed),,derived
+B0200,HDFCBANK,FY19,hist_nii_pct_assets,4.1796,% of avg assets,Screener standalone (computed),,derived
+B0201,HDFCBANK,FY19,hist_oi_pct_assets,1.5271,% of avg assets,Screener standalone (computed),,derived
+B0202,HDFCBANK,FY19,hist_cost_prov_pct_assets,2.917,% of avg assets,Screener standalone (computed),,derived
+B0203,HDFCBANK,FY19,hist_roa,1.8261,% of avg assets,Screener standalone (computed),,derived
+B0204,HDFCBANK,FY20,hist_nii_pct_assets,4.0494,% of avg assets,Screener standalone (computed),,derived
+B0205,HDFCBANK,FY20,hist_oi_pct_assets,1.6764,% of avg assets,Screener standalone (computed),,derived
+B0206,HDFCBANK,FY20,hist_cost_prov_pct_assets,3.0875,% of avg assets,Screener standalone (computed),,derived
+B0207,HDFCBANK,FY20,hist_roa,1.8924,% of avg assets,Screener standalone (computed),,derived
+B0208,HDFCBANK,FY21,hist_nii_pct_assets,3.9592,% of avg assets,Screener standalone (computed),,derived
+B0209,HDFCBANK,FY21,hist_oi_pct_assets,1.5381,% of avg assets,Screener standalone (computed),,derived
+B0210,HDFCBANK,FY21,hist_cost_prov_pct_assets,2.9551,% of avg assets,Screener standalone (computed),,derived
+B0211,HDFCBANK,FY21,hist_roa,1.8989,% of avg assets,Screener standalone (computed),,derived
+B0212,HDFCBANK,FY22,hist_nii_pct_assets,3.7746,% of avg assets,Screener standalone (computed),,derived
+B0213,HDFCBANK,FY22,hist_oi_pct_assets,1.5469,% of avg assets,Screener standalone (computed),,derived
+B0214,HDFCBANK,FY22,hist_cost_prov_pct_assets,2.7522,% of avg assets,Screener standalone (computed),,derived
+B0215,HDFCBANK,FY22,hist_roa,1.9375,% of avg assets,Screener standalone (computed),,derived
+B0216,HDFCBANK,FY23,hist_nii_pct_assets,3.8302,% of avg assets,Screener standalone (computed),,derived
+B0217,HDFCBANK,FY23,hist_oi_pct_assets,1.3767,% of avg assets,Screener standalone (computed),,derived
+B0218,HDFCBANK,FY23,hist_cost_prov_pct_assets,2.6274,% of avg assets,Screener standalone (computed),,derived
+B0219,HDFCBANK,FY23,hist_roa,1.9454,% of avg assets,Screener standalone (computed),,derived
+B0220,HDFCBANK,FY24,hist_nii_pct_assets,3.568,% of avg assets,Screener standalone (computed),,derived
+B0221,HDFCBANK,FY24,hist_oi_pct_assets,1.6188,% of avg assets,Screener standalone (computed),,derived
+B0222,HDFCBANK,FY24,hist_cost_prov_pct_assets,2.8561,% of avg assets,Screener standalone (computed),,derived
+B0223,HDFCBANK,FY24,hist_roa,1.9992,% of avg assets,Screener standalone (computed),,derived
+B0224,HDFCBANK,FY25,hist_nii_pct_assets,3.2591,% of avg assets,Screener standalone (computed),,derived
+B0225,HDFCBANK,FY25,hist_oi_pct_assets,1.2124,% of avg assets,Screener standalone (computed),,derived
+B0226,HDFCBANK,FY25,hist_cost_prov_pct_assets,2.1208,% of avg assets,Screener standalone (computed),,derived
+B0227,HDFCBANK,FY25,hist_roa,1.7893,% of avg assets,Screener standalone (computed),,derived
+B0228,HDFCBANK,FY26,hist_nii_pct_assets,3.1102,% of avg assets,Screener standalone (computed),,derived
+B0229,HDFCBANK,FY26,hist_oi_pct_assets,1.5114,% of avg assets,Screener standalone (computed),,derived
+B0230,HDFCBANK,FY26,hist_cost_prov_pct_assets,2.3214,% of avg assets,Screener standalone (computed),,derived
+B0231,HDFCBANK,FY26,hist_roa,1.8047,% of avg assets,Screener standalone (computed),,derived
+B0232,ICICIBANK,FY17,hist_nii_pct_assets,2.9129,% of avg assets,Screener standalone (computed),,derived
+B0233,ICICIBANK,FY17,hist_oi_pct_assets,2.6136,% of avg assets,Screener standalone (computed),,derived
+B0234,ICICIBANK,FY17,hist_cost_prov_pct_assets,4.0153,% of avg assets,Screener standalone (computed),,derived
+B0235,ICICIBANK,FY17,hist_roa,1.3134,% of avg assets,Screener standalone (computed),,derived
+B0236,ICICIBANK,FY18,hist_nii_pct_assets,2.7894,% of avg assets,Screener standalone (computed),,derived
+B0237,ICICIBANK,FY18,hist_oi_pct_assets,2.1103,% of avg assets,Screener standalone (computed),,derived
+B0238,ICICIBANK,FY18,hist_cost_prov_pct_assets,3.999,% of avg assets,Screener standalone (computed),,derived
+B0239,ICICIBANK,FY18,hist_roa,0.821,% of avg assets,Screener standalone (computed),,derived
+B0240,ICICIBANK,FY19,hist_nii_pct_assets,2.9306,% of avg assets,Screener standalone (computed),,derived
+B0241,ICICIBANK,FY19,hist_oi_pct_assets,1.5743,% of avg assets,Screener standalone (computed),,derived
+B0242,ICICIBANK,FY19,hist_cost_prov_pct_assets,4.0951,% of avg assets,Screener standalone (computed),,derived
+B0243,ICICIBANK,FY19,hist_roa,0.3648,% of avg assets,Screener standalone (computed),,derived
+B0244,ICICIBANK,FY20,hist_nii_pct_assets,3.2254,% of avg assets,Screener standalone (computed),,derived
+B0245,ICICIBANK,FY20,hist_oi_pct_assets,1.5948,% of avg assets,Screener standalone (computed),,derived
+B0246,ICICIBANK,FY20,hist_cost_prov_pct_assets,3.4582,% of avg assets,Screener standalone (computed),,derived
+B0247,ICICIBANK,FY20,hist_roa,0.7689,% of avg assets,Screener standalone (computed),,derived
+B0248,ICICIBANK,FY21,hist_nii_pct_assets,3.3484,% of avg assets,Screener standalone (computed),,derived
+B0249,ICICIBANK,FY21,hist_oi_pct_assets,1.6291,% of avg assets,Screener standalone (computed),,derived
+B0250,ICICIBANK,FY21,hist_cost_prov_pct_assets,3.2442,% of avg assets,Screener standalone (computed),,derived
+B0251,ICICIBANK,FY21,hist_roa,1.3907,% of avg assets,Screener standalone (computed),,derived
+B0252,ICICIBANK,FY22,hist_nii_pct_assets,3.5936,% of avg assets,Screener standalone (computed),,derived
+B0253,ICICIBANK,FY22,hist_oi_pct_assets,1.402,% of avg assets,Screener standalone (computed),,derived
+B0254,ICICIBANK,FY22,hist_cost_prov_pct_assets,2.6782,% of avg assets,Screener standalone (computed),,derived
+B0255,ICICIBANK,FY22,hist_roa,1.7669,% of avg assets,Screener standalone (computed),,derived
+B0256,ICICIBANK,FY23,hist_nii_pct_assets,4.1481,% of avg assets,Screener standalone (computed),,derived
+B0257,ICICIBANK,FY23,hist_oi_pct_assets,1.3241,% of avg assets,Screener standalone (computed),,derived
+B0258,ICICIBANK,FY23,hist_cost_prov_pct_assets,2.6399,% of avg assets,Screener standalone (computed),,derived
+B0259,ICICIBANK,FY23,hist_roa,2.1296,% of avg assets,Screener standalone (computed),,derived
+B0260,ICICIBANK,FY24,hist_nii_pct_assets,4.3005,% of avg assets,Screener standalone (computed),,derived
+B0261,ICICIBANK,FY24,hist_oi_pct_assets,1.3287,% of avg assets,Screener standalone (computed),,derived
+B0262,ICICIBANK,FY24,hist_cost_prov_pct_assets,2.4757,% of avg assets,Screener standalone (computed),,derived
+B0263,ICICIBANK,FY24,hist_roa,2.3664,% of avg assets,Screener standalone (computed),,derived
+B0264,ICICIBANK,FY25,hist_nii_pct_assets,4.0687,% of avg assets,Screener standalone (computed),,derived
+B0265,ICICIBANK,FY25,hist_oi_pct_assets,1.429,% of avg assets,Screener standalone (computed),,derived
+B0266,ICICIBANK,FY25,hist_cost_prov_pct_assets,2.3588,% of avg assets,Screener standalone (computed),,derived
+B0267,ICICIBANK,FY25,hist_roa,2.3674,% of avg assets,Screener standalone (computed),,derived
+B0268,ICICIBANK,FY26,hist_nii_pct_assets,3.9225,% of avg assets,Screener standalone (computed),,derived
+B0269,ICICIBANK,FY26,hist_oi_pct_assets,1.3698,% of avg assets,Screener standalone (computed),,derived
+B0270,ICICIBANK,FY26,hist_cost_prov_pct_assets,2.3432,% of avg assets,Screener standalone (computed),,derived
+B0271,ICICIBANK,FY26,hist_roa,2.2333,% of avg assets,Screener standalone (computed),,derived
+B0272,AXISBANK,FY17,hist_nii_pct_assets,3.1706,% of avg assets,Screener standalone (computed),,derived
+B0273,AXISBANK,FY17,hist_oi_pct_assets,2.0487,% of avg assets,Screener standalone (computed),,derived
+B0274,AXISBANK,FY17,hist_cost_prov_pct_assets,4.2613,% of avg assets,Screener standalone (computed),,derived
+B0275,AXISBANK,FY17,hist_roa,0.6447,% of avg assets,Screener standalone (computed),,derived
+B0276,AXISBANK,FY18,hist_nii_pct_assets,2.8801,% of avg assets,Screener standalone (computed),,derived
+B0277,AXISBANK,FY18,hist_oi_pct_assets,1.6966,% of avg assets,Screener standalone (computed),,derived
+B0278,AXISBANK,FY18,hist_cost_prov_pct_assets,4.558,% of avg assets,Screener standalone (computed),,derived
+B0279,AXISBANK,FY18,hist_roa,0.0427,% of avg assets,Screener standalone (computed),,derived
+B0280,AXISBANK,FY19,hist_nii_pct_assets,2.9093,% of avg assets,Screener standalone (computed),,derived
+B0281,AXISBANK,FY19,hist_oi_pct_assets,1.7597,% of avg assets,Screener standalone (computed),,derived
+B0282,AXISBANK,FY19,hist_cost_prov_pct_assets,3.7344,% of avg assets,Screener standalone (computed),,derived
+B0283,AXISBANK,FY19,hist_roa,0.6268,% of avg assets,Screener standalone (computed),,derived
+B0284,AXISBANK,FY20,hist_nii_pct_assets,2.9375,% of avg assets,Screener standalone (computed),,derived
+B0285,AXISBANK,FY20,hist_oi_pct_assets,1.8107,% of avg assets,Screener standalone (computed),,derived
+B0286,AXISBANK,FY20,hist_cost_prov_pct_assets,4.1766,% of avg assets,Screener standalone (computed),,derived
+B0287,AXISBANK,FY20,hist_roa,0.1896,% of avg assets,Screener standalone (computed),,derived
+B0288,AXISBANK,FY21,hist_nii_pct_assets,3.0746,% of avg assets,Screener standalone (computed),,derived
+B0289,AXISBANK,FY21,hist_oi_pct_assets,1.2896,% of avg assets,Screener standalone (computed),,derived
+B0290,AXISBANK,FY21,hist_cost_prov_pct_assets,3.4382,% of avg assets,Screener standalone (computed),,derived
+B0291,AXISBANK,FY21,hist_roa,0.6928,% of avg assets,Screener standalone (computed),,derived
+B0292,AXISBANK,FY22,hist_nii_pct_assets,3.0646,% of avg assets,Screener standalone (computed),,derived
+B0293,AXISBANK,FY22,hist_oi_pct_assets,1.4079,% of avg assets,Screener standalone (computed),,derived
+B0294,AXISBANK,FY22,hist_cost_prov_pct_assets,2.8646,% of avg assets,Screener standalone (computed),,derived
+B0295,AXISBANK,FY22,hist_roa,1.2048,% of avg assets,Screener standalone (computed),,derived
+B0296,AXISBANK,FY23,hist_nii_pct_assets,3.4457,% of avg assets,Screener standalone (computed),,derived
+B0297,AXISBANK,FY23,hist_oi_pct_assets,1.2952,% of avg assets,Screener standalone (computed),,derived
+B0298,AXISBANK,FY23,hist_cost_prov_pct_assets,3.3844,% of avg assets,Screener standalone (computed),,derived
+B0299,AXISBANK,FY23,hist_roa,0.7686,% of avg assets,Screener standalone (computed),,derived
+B0300,AXISBANK,FY24,hist_nii_pct_assets,3.5709,% of avg assets,Screener standalone (computed),,derived
+B0301,AXISBANK,FY24,hist_oi_pct_assets,1.6061,% of avg assets,Screener standalone (computed),,derived
+B0302,AXISBANK,FY24,hist_cost_prov_pct_assets,2.811,% of avg assets,Screener standalone (computed),,derived
+B0303,AXISBANK,FY24,hist_roa,1.7793,% of avg assets,Screener standalone (computed),,derived
+B0304,AXISBANK,FY25,hist_nii_pct_assets,3.5209,% of avg assets,Screener standalone (computed),,derived
+B0305,AXISBANK,FY25,hist_oi_pct_assets,1.6363,% of avg assets,Screener standalone (computed),,derived
+B0306,AXISBANK,FY25,hist_cost_prov_pct_assets,2.932,% of avg assets,Screener standalone (computed),,derived
+B0307,AXISBANK,FY25,hist_roa,1.7086,% of avg assets,Screener standalone (computed),,derived
+B0308,AXISBANK,FY26,hist_nii_pct_assets,3.2057,% of avg assets,Screener standalone (computed),,derived
+B0309,AXISBANK,FY26,hist_oi_pct_assets,1.4946,% of avg assets,Screener standalone (computed),,derived
+B0310,AXISBANK,FY26,hist_cost_prov_pct_assets,3.0099,% of avg assets,Screener standalone (computed),,derived
+B0311,AXISBANK,FY26,hist_roa,1.3988,% of avg assets,Screener standalone (computed),,derived
+B0312,KOTAKBANK,FY17,hist_nii_pct_assets,3.9946,% of avg assets,Screener standalone (computed),,derived
+B0313,KOTAKBANK,FY17,hist_oi_pct_assets,1.7092,% of avg assets,Screener standalone (computed),,derived
+B0314,KOTAKBANK,FY17,hist_cost_prov_pct_assets,3.1737,% of avg assets,Screener standalone (computed),,derived
+B0315,KOTAKBANK,FY17,hist_roa,1.6773,% of avg assets,Screener standalone (computed),,derived
+B0316,KOTAKBANK,FY18,hist_nii_pct_assets,3.9752,% of avg assets,Screener standalone (computed),,derived
+B0317,KOTAKBANK,FY18,hist_oi_pct_assets,1.69,% of avg assets,Screener standalone (computed),,derived
+B0318,KOTAKBANK,FY18,hist_cost_prov_pct_assets,3.0722,% of avg assets,Screener standalone (computed),,derived
+B0319,KOTAKBANK,FY18,hist_roa,1.7034,% of avg assets,Screener standalone (computed),,derived
+B0320,KOTAKBANK,FY19,hist_nii_pct_assets,3.8835,% of avg assets,Screener standalone (computed),,derived
+B0321,KOTAKBANK,FY19,hist_oi_pct_assets,1.6139,% of avg assets,Screener standalone (computed),,derived
+B0322,KOTAKBANK,FY19,hist_cost_prov_pct_assets,2.9378,% of avg assets,Screener standalone (computed),,derived
+B0323,KOTAKBANK,FY19,hist_roa,1.686,% of avg assets,Screener standalone (computed),,derived
+B0324,KOTAKBANK,FY20,hist_nii_pct_assets,4.0153,% of avg assets,Screener standalone (computed),,derived
+B0325,KOTAKBANK,FY20,hist_oi_pct_assets,1.5978,% of avg assets,Screener standalone (computed),,derived
+B0326,KOTAKBANK,FY20,hist_cost_prov_pct_assets,3.2917,% of avg assets,Screener standalone (computed),,derived
+B0327,KOTAKBANK,FY20,hist_roa,1.7688,% of avg assets,Screener standalone (computed),,derived
+B0328,KOTAKBANK,FY21,hist_nii_pct_assets,4.1249,% of avg assets,Screener standalone (computed),,derived
+B0329,KOTAKBANK,FY21,hist_oi_pct_assets,1.3465,% of avg assets,Screener standalone (computed),,derived
+B0330,KOTAKBANK,FY21,hist_cost_prov_pct_assets,2.9697,% of avg assets,Screener standalone (computed),,derived
+B0331,KOTAKBANK,FY21,hist_roa,1.873,% of avg assets,Screener standalone (computed),,derived
+B0332,KOTAKBANK,FY22,hist_nii_pct_assets,4.1378,% of avg assets,Screener standalone (computed),,derived
+B0333,KOTAKBANK,FY22,hist_oi_pct_assets,1.4728,% of avg assets,Screener standalone (computed),,derived
+B0334,KOTAKBANK,FY22,hist_cost_prov_pct_assets,2.8154,% of avg assets,Screener standalone (computed),,derived
+B0335,KOTAKBANK,FY22,hist_roa,2.1092,% of avg assets,Screener standalone (computed),,derived
+B0336,KOTAKBANK,FY23,hist_nii_pct_assets,4.6888,% of avg assets,Screener standalone (computed),,derived
+B0337,KOTAKBANK,FY23,hist_oi_pct_assets,1.541,% of avg assets,Screener standalone (computed),,derived
+B0338,KOTAKBANK,FY23,hist_cost_prov_pct_assets,3.0989,% of avg assets,Screener standalone (computed),,derived
+B0339,KOTAKBANK,FY23,hist_roa,2.3799,% of avg assets,Screener standalone (computed),,derived
+B0340,KOTAKBANK,FY24,hist_nii_pct_assets,4.7684,% of avg assets,Screener standalone (computed),,derived
+B0341,KOTAKBANK,FY24,hist_oi_pct_assets,1.8846,% of avg assets,Screener standalone (computed),,derived
+B0342,KOTAKBANK,FY24,hist_cost_prov_pct_assets,3.3485,% of avg assets,Screener standalone (computed),,derived
+B0343,KOTAKBANK,FY24,hist_roa,2.5283,% of avg assets,Screener standalone (computed),,derived
+B0344,KOTAKBANK,FY25,hist_nii_pct_assets,4.3806,% of avg assets,Screener standalone (computed),,derived
+B0345,KOTAKBANK,FY25,hist_oi_pct_assets,2.3124,% of avg assets,Screener standalone (computed),,derived
+B0346,KOTAKBANK,FY25,hist_cost_prov_pct_assets,3.3569,% of avg assets,Screener standalone (computed),,derived
+B0347,KOTAKBANK,FY25,hist_roa,2.5425,% of avg assets,Screener standalone (computed),,derived
+B0348,KOTAKBANK,FY26,hist_nii_pct_assets,4.0647,% of avg assets,Screener standalone (computed),,derived
+B0349,KOTAKBANK,FY26,hist_oi_pct_assets,1.5743,% of avg assets,Screener standalone (computed),,derived
+B0350,KOTAKBANK,FY26,hist_cost_prov_pct_assets,3.1217,% of avg assets,Screener standalone (computed),,derived
+B0351,KOTAKBANK,FY26,hist_roa,1.8973,% of avg assets,Screener standalone (computed),,derived

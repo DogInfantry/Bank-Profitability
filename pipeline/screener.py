@@ -116,4 +116,7 @@ def harvest(sym: str) -> None:
 
 if __name__ == "__main__":
     for s in sys.argv[1:] or PEERS:
-        harvest(s)
+        try:
+            harvest(s)
+        except Exception as e:  # noqa: BLE001 - keep going on renamed/delisted symbols
+            print(f"FAIL {s}: {e}")

@@ -1,0 +1,80 @@
+block,key,segment,value,unit,source,page,note
+sector,fy_premium,Public,37025.38,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,fy_premium,Private,88011.89,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,single_premium,Public,189760.10,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,single_premium,Private,82966.58,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,renewal_premium,Public,262063.44,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,renewal_premium,Private,225944.35,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,total_premium,Public,488848.92,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,total_premium,Private,396922.81,INR cr,IRDAI AR 2024-25 Table I.9,39,FY25
+sector,total_premium_PY,Public,475751.92,INR cr,IRDAI AR 2024-25 Table I.9,39,FY24
+sector,total_premium_PY,Private,354177.54,INR cr,IRDAI AR 2024-25 Table I.9,39,FY24
+sector,fy_commission,Public,9986.84,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,fy_commission,Private,23592.40,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,single_commission,Public,760.46,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,single_commission,Private,6485.24,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,renewal_commission,Public,14561.46,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,renewal_commission,Private,5413.51,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,total_commission,Public,25308.76,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,total_commission,Private,35491.15,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,total_commission_PY,Public,25959.12,INR cr,IRDAI AR 2024-25 Table I.10,41,FY24
+sector,total_commission_PY,Private,25564.93,INR cr,IRDAI AR 2024-25 Table I.10,41,FY24
+sector,opex,Public,35415.20,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25; LIC wage-revision provision reversal lowers FY25
+sector,opex,Private,41926.78,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,pat,Public,48151.17,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+sector,pat,Private,7855.07,INR cr,IRDAI AR 2024-25 Table I.10,41,FY25
+gi,gdpi,Total,307611,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25 within India
+gi,gdpi_motor,Total,99093,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25
+gi,gdpi_health,Total,127417,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25 incl. PA
+gi,gdpi_fire,Total,24242,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25
+gi,gdpi_marine,Total,5504,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25
+gi,gdpi_others,Total,51355,INR cr,IRDAI AR 2024-25 Table I.12,43,FY25
+gi,commission_motor,Total,23621,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,commission_health,Total,16270,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,commission_fire,Total,3474,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,commission_marine,Total,676,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,commission_others,Total,3225,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,commission_total,Total,47266,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,opex_total,Total,37811,INR cr,IRDAI AR 2024-25 Table I.13,45,FY25
+gi,icr_motor,Total,85.51,%,IRDAI AR 2024-25 Table I.14,46,FY25
+gi,icr_health,Total,85.34,%,IRDAI AR 2024-25 Table I.14,46,FY25
+gi,icr_fire,Total,72.93,%,IRDAI AR 2024-25 Table I.14,46,FY25
+gi,icr_marine,Total,73.63,%,IRDAI AR 2024-25 Table I.14,46,FY25
+gi,icr_others,Total,68.62,%,IRDAI AR 2024-25 Table I.14,46,FY25
+annex3,fyp_commission_avg,Pure term,51,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,FY25 industry average
+annex3,fyp_commission_avg,Participating,37,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_avg,Non-participating,25,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_avg,ULIP,14,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_avg,Credit life,8,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_max,Pure term,81,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,Outliers (5% of premium) excluded
+annex3,fyp_commission_max,Participating,63,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_max,Non-participating,60,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_max,ULIP,33,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,fyp_commission_max,Credit life,14,%,IRDAI Consultation Part 2 Annexure 3 Table 1,23,
+annex3,sp_commission_avg,Pure term,5,%,IRDAI Consultation Part 2 Annexure 3 Table 2,23,
+annex3,sp_commission_avg,Participating,2,%,IRDAI Consultation Part 2 Annexure 3 Table 2,23,
+annex3,sp_commission_avg,Non-participating,11,%,IRDAI Consultation Part 2 Annexure 3 Table 2,23,
+annex3,sp_commission_avg,ULIP,2,%,IRDAI Consultation Part 2 Annexure 3 Table 2,23,
+annex3,sp_commission_avg,Credit life,22,%,IRDAI Consultation Part 2 Annexure 3 Table 2,23,
+annex3,renewal_commission_avg,Pure term,4,%,IRDAI Consultation Part 2 Annexure 3 Table 3,23,
+annex3,renewal_commission_avg,Participating,6,%,IRDAI Consultation Part 2 Annexure 3 Table 3,23,
+annex3,renewal_commission_avg,Non-participating,3,%,IRDAI Consultation Part 2 Annexure 3 Table 3,23,
+annex3,renewal_commission_avg,ULIP,2,%,IRDAI Consultation Part 2 Annexure 3 Table 3,23,
+annex3,channel_fyp_commission_avg,Corporate agents - banks,27,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_avg,Corporate agents - NBFCs,42,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_avg,Corporate agents - others,61,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_avg,Brokers,43,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_avg,Agents,27,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_max,Corporate agents - banks,62,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_max,Corporate agents - NBFCs,67,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_max,Corporate agents - others,92,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_max,Brokers,92,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,channel_fyp_commission_max,Agents,34,%,IRDAI Consultation Part 2 Annexure 3 Table 4,24,
+annex3,promoter_bank_total_payout_range_hi,Bank promoters,42,%,IRDAI Consultation Part 2 Annexure 3 Table 8,25,New business total payout incl. rewards; range 9-42
+annex3,promoter_nbfc_total_payout_range_hi,Group NBFCs,55,%,IRDAI Consultation Part 2 Annexure 3 Table 8,25,Range 21-55
+annex3,sector_expense_ratio,All life insurers,16,%,IRDAI Consultation Part 2 Annexure 3 Table 13A,28,FY26 total expense / total premium
+cap,eom_life_y2,Life,15,%,IRDAI Consultation Part 1 Box 2,43,FY2027-28 = Year 1; % of premium
+cap,eom_life_y5,Life,12.5,%,IRDAI Consultation Part 1 Box 2,43,Those already below must reach 10% in 5 years
+cap,eom_life_floor_low,Life,10,%,IRDAI Consultation Part 1 Box 2,43,
+cap,eom_gi_y2,General,25,%,IRDAI Consultation Part 1 Box 2,43,% of GDPI
+cap,eom_gi_y5,General,20,%,IRDAI Consultation Part 1 Box 2,43,

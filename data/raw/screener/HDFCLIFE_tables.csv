@@ -1,0 +1,476 @@
+symbol,section,line_item,period,value
+HDFCLIFE,quarters,Sales,Sep 2023,23097.0
+HDFCLIFE,quarters,Sales,Dec 2023,26886.0
+HDFCLIFE,quarters,Sales,Mar 2024,27992.0
+HDFCLIFE,quarters,Sales,Jun 2024,26891.0
+HDFCLIFE,quarters,Sales,Sep 2024,28449.0
+HDFCLIFE,quarters,Sales,Dec 2024,17235.0
+HDFCLIFE,quarters,Sales,Mar 2025,24111.0
+HDFCLIFE,quarters,Sales,Jun 2025,29381.0
+HDFCLIFE,quarters,Sales,Sep 2025,20548.0
+HDFCLIFE,quarters,Sales,Dec 2025,29312.0
+HDFCLIFE,quarters,Sales,Mar 2026,19727.0
+HDFCLIFE,quarters,Sales,Jun 2026,33545.0
+HDFCLIFE,quarters,Sales,Sep 2026,24302.0
+HDFCLIFE,quarters,Expenses,Sep 2023,23503.0
+HDFCLIFE,quarters,Expenses,Dec 2023,26613.0
+HDFCLIFE,quarters,Expenses,Mar 2024,27699.0
+HDFCLIFE,quarters,Expenses,Jun 2024,26565.0
+HDFCLIFE,quarters,Expenses,Sep 2024,28742.0
+HDFCLIFE,quarters,Expenses,Dec 2024,16775.0
+HDFCLIFE,quarters,Expenses,Mar 2025,23710.0
+HDFCLIFE,quarters,Expenses,Jun 2025,28921.0
+HDFCLIFE,quarters,Expenses,Sep 2025,20207.0
+HDFCLIFE,quarters,Expenses,Dec 2025,29010.0
+HDFCLIFE,quarters,Expenses,Mar 2026,19577.0
+HDFCLIFE,quarters,Expenses,Jun 2026,32984.0
+HDFCLIFE,quarters,Expenses,Sep 2026,23931.0
+HDFCLIFE,quarters,Operating Profit,Sep 2023,-406.0
+HDFCLIFE,quarters,Operating Profit,Dec 2023,274.0
+HDFCLIFE,quarters,Operating Profit,Mar 2024,293.0
+HDFCLIFE,quarters,Operating Profit,Jun 2024,326.0
+HDFCLIFE,quarters,Operating Profit,Sep 2024,-293.0
+HDFCLIFE,quarters,Operating Profit,Dec 2024,460.0
+HDFCLIFE,quarters,Operating Profit,Mar 2025,401.0
+HDFCLIFE,quarters,Operating Profit,Jun 2025,460.0
+HDFCLIFE,quarters,Operating Profit,Sep 2025,341.0
+HDFCLIFE,quarters,Operating Profit,Dec 2025,302.0
+HDFCLIFE,quarters,Operating Profit,Mar 2026,150.0
+HDFCLIFE,quarters,Operating Profit,Jun 2026,561.0
+HDFCLIFE,quarters,Operating Profit,Sep 2026,371.0
+HDFCLIFE,quarters,OPM %,Sep 2023,-1.8
+HDFCLIFE,quarters,OPM %,Dec 2023,1.0
+HDFCLIFE,quarters,OPM %,Mar 2024,1.1
+HDFCLIFE,quarters,OPM %,Jun 2024,1.2
+HDFCLIFE,quarters,OPM %,Sep 2024,-1.0
+HDFCLIFE,quarters,OPM %,Dec 2024,2.7
+HDFCLIFE,quarters,OPM %,Mar 2025,1.7
+HDFCLIFE,quarters,OPM %,Jun 2025,1.6
+HDFCLIFE,quarters,OPM %,Sep 2025,1.7
+HDFCLIFE,quarters,OPM %,Dec 2025,1.0
+HDFCLIFE,quarters,OPM %,Mar 2026,0.8
+HDFCLIFE,quarters,OPM %,Jun 2026,1.7
+HDFCLIFE,quarters,OPM %,Sep 2026,1.5
+HDFCLIFE,quarters,Other Income,Sep 2023,125.0
+HDFCLIFE,quarters,Other Income,Dec 2023,91.0
+HDFCLIFE,quarters,Other Income,Mar 2024,156.0
+HDFCLIFE,quarters,Other Income,Jun 2024,73.0
+HDFCLIFE,quarters,Other Income,Sep 2024,260.0
+HDFCLIFE,quarters,Other Income,Dec 2024,-49.0
+HDFCLIFE,quarters,Other Income,Mar 2025,100.0
+HDFCLIFE,quarters,Other Income,Jun 2025,140.0
+HDFCLIFE,quarters,Other Income,Sep 2025,128.0
+HDFCLIFE,quarters,Other Income,Dec 2025,145.0
+HDFCLIFE,quarters,Other Income,Mar 2026,383.0
+HDFCLIFE,quarters,Other Income,Jun 2026,112.0
+HDFCLIFE,quarters,Other Income,Sep 2026,189.0
+HDFCLIFE,quarters,Interest,Sep 2023,0.0
+HDFCLIFE,quarters,Interest,Dec 2023,0.0
+HDFCLIFE,quarters,Interest,Mar 2024,0.0
+HDFCLIFE,quarters,Interest,Jun 2024,0.0
+HDFCLIFE,quarters,Interest,Sep 2024,0.0
+HDFCLIFE,quarters,Interest,Dec 2024,0.0
+HDFCLIFE,quarters,Interest,Mar 2025,0.0
+HDFCLIFE,quarters,Interest,Jun 2025,0.0
+HDFCLIFE,quarters,Interest,Sep 2025,0.0
+HDFCLIFE,quarters,Interest,Dec 2025,0.0
+HDFCLIFE,quarters,Interest,Mar 2026,0.0
+HDFCLIFE,quarters,Interest,Jun 2026,0.0
+HDFCLIFE,quarters,Interest,Sep 2026,0.0
+HDFCLIFE,quarters,Depreciation,Sep 2023,0.0
+HDFCLIFE,quarters,Depreciation,Dec 2023,0.0
+HDFCLIFE,quarters,Depreciation,Mar 2024,0.0
+HDFCLIFE,quarters,Depreciation,Jun 2024,0.0
+HDFCLIFE,quarters,Depreciation,Sep 2024,0.0
+HDFCLIFE,quarters,Depreciation,Dec 2024,0.0
+HDFCLIFE,quarters,Depreciation,Mar 2025,0.0
+HDFCLIFE,quarters,Depreciation,Jun 2025,0.0
+HDFCLIFE,quarters,Depreciation,Sep 2025,0.0
+HDFCLIFE,quarters,Depreciation,Dec 2025,0.0
+HDFCLIFE,quarters,Depreciation,Mar 2026,0.0
+HDFCLIFE,quarters,Depreciation,Jun 2026,0.0
+HDFCLIFE,quarters,Depreciation,Sep 2026,0.0
+HDFCLIFE,quarters,Profit before tax,Sep 2023,-281.0
+HDFCLIFE,quarters,Profit before tax,Dec 2023,364.0
+HDFCLIFE,quarters,Profit before tax,Mar 2024,449.0
+HDFCLIFE,quarters,Profit before tax,Jun 2024,399.0
+HDFCLIFE,quarters,Profit before tax,Sep 2024,-33.0
+HDFCLIFE,quarters,Profit before tax,Dec 2024,411.0
+HDFCLIFE,quarters,Profit before tax,Mar 2025,501.0
+HDFCLIFE,quarters,Profit before tax,Jun 2025,601.0
+HDFCLIFE,quarters,Profit before tax,Sep 2025,469.0
+HDFCLIFE,quarters,Profit before tax,Dec 2025,447.0
+HDFCLIFE,quarters,Profit before tax,Mar 2026,532.0
+HDFCLIFE,quarters,Profit before tax,Jun 2026,674.0
+HDFCLIFE,quarters,Profit before tax,Sep 2026,560.0
+HDFCLIFE,quarters,Tax %,Sep 2023,-234.0
+HDFCLIFE,quarters,Tax %,Dec 2023,-0.0
+HDFCLIFE,quarters,Tax %,Mar 2024,8.0
+HDFCLIFE,quarters,Tax %,Jun 2024,-20.0
+HDFCLIFE,quarters,Tax %,Sep 2024,-1408.0
+HDFCLIFE,quarters,Tax %,Dec 2024,-1.0
+HDFCLIFE,quarters,Tax %,Mar 2025,5.0
+HDFCLIFE,quarters,Tax %,Jun 2025,9.0
+HDFCLIFE,quarters,Tax %,Sep 2025,5.0
+HDFCLIFE,quarters,Tax %,Dec 2025,6.0
+HDFCLIFE,quarters,Tax %,Mar 2026,7.0
+HDFCLIFE,quarters,Tax %,Jun 2026,9.0
+HDFCLIFE,quarters,Tax %,Sep 2026,9.0
+HDFCLIFE,quarters,Net Profit,Sep 2023,377.0
+HDFCLIFE,quarters,Net Profit,Dec 2023,365.0
+HDFCLIFE,quarters,Net Profit,Mar 2024,412.0
+HDFCLIFE,quarters,Net Profit,Jun 2024,478.0
+HDFCLIFE,quarters,Net Profit,Sep 2024,433.0
+HDFCLIFE,quarters,Net Profit,Dec 2024,415.0
+HDFCLIFE,quarters,Net Profit,Mar 2025,477.0
+HDFCLIFE,quarters,Net Profit,Jun 2025,546.0
+HDFCLIFE,quarters,Net Profit,Sep 2025,447.0
+HDFCLIFE,quarters,Net Profit,Dec 2025,421.0
+HDFCLIFE,quarters,Net Profit,Mar 2026,496.0
+HDFCLIFE,quarters,Net Profit,Jun 2026,611.0
+HDFCLIFE,quarters,Net Profit,Sep 2026,508.0
+HDFCLIFE,quarters,EPS in Rs,Sep 2023,1.75
+HDFCLIFE,quarters,EPS in Rs,Dec 2023,1.7
+HDFCLIFE,quarters,EPS in Rs,Mar 2024,1.91
+HDFCLIFE,quarters,EPS in Rs,Jun 2024,2.22
+HDFCLIFE,quarters,EPS in Rs,Sep 2024,2.01
+HDFCLIFE,quarters,EPS in Rs,Dec 2024,1.93
+HDFCLIFE,quarters,EPS in Rs,Mar 2025,2.21
+HDFCLIFE,quarters,EPS in Rs,Jun 2025,2.54
+HDFCLIFE,quarters,EPS in Rs,Sep 2025,2.07
+HDFCLIFE,quarters,EPS in Rs,Dec 2025,1.95
+HDFCLIFE,quarters,EPS in Rs,Mar 2026,2.3
+HDFCLIFE,quarters,EPS in Rs,Jun 2026,2.81
+HDFCLIFE,quarters,EPS in Rs,Sep 2026,2.34
+HDFCLIFE,profit-loss,Sales,Mar 2015,27213.0
+HDFCLIFE,profit-loss,Sales,Mar 2016,18138.0
+HDFCLIFE,profit-loss,Sales,Mar 2017,30642.0
+HDFCLIFE,profit-loss,Sales,Mar 2018,32246.0
+HDFCLIFE,profit-loss,Sales,Mar 2019,38360.0
+HDFCLIFE,profit-loss,Sales,Mar 2020,29351.0
+HDFCLIFE,profit-loss,Sales,Mar 2021,71447.0
+HDFCLIFE,profit-loss,Sales,Mar 2022,65402.0
+HDFCLIFE,profit-loss,Sales,Mar 2023,70081.0
+HDFCLIFE,profit-loss,Sales,Mar 2024,101316.0
+HDFCLIFE,profit-loss,Sales,Mar 2025,96687.0
+HDFCLIFE,profit-loss,Sales,Mar 2026,98968.0
+HDFCLIFE,profit-loss,Sales,TTM,106886.0
+HDFCLIFE,profit-loss,Expenses,Mar 2015,26339.0
+HDFCLIFE,profit-loss,Expenses,Mar 2016,17473.0
+HDFCLIFE,profit-loss,Expenses,Mar 2017,29665.0
+HDFCLIFE,profit-loss,Expenses,Mar 2018,31170.0
+HDFCLIFE,profit-loss,Expenses,Mar 2019,37517.0
+HDFCLIFE,profit-loss,Expenses,Mar 2020,28211.0
+HDFCLIFE,profit-loss,Expenses,Mar 2021,70166.0
+HDFCLIFE,profit-loss,Expenses,Mar 2022,64731.0
+HDFCLIFE,profit-loss,Expenses,Mar 2023,69982.0
+HDFCLIFE,profit-loss,Expenses,Mar 2024,100630.0
+HDFCLIFE,profit-loss,Expenses,Mar 2025,95600.0
+HDFCLIFE,profit-loss,Expenses,Mar 2026,97123.0
+HDFCLIFE,profit-loss,Expenses,TTM,105502.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2015,874.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2016,665.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2017,977.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2018,1076.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2019,843.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2020,1140.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2021,1282.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2022,671.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2023,100.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2024,686.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2025,1087.0
+HDFCLIFE,profit-loss,Operating Profit,Mar 2026,1845.0
+HDFCLIFE,profit-loss,Operating Profit,TTM,1384.0
+HDFCLIFE,profit-loss,OPM %,Mar 2015,3.2
+HDFCLIFE,profit-loss,OPM %,Mar 2016,3.7
+HDFCLIFE,profit-loss,OPM %,Mar 2017,3.2
+HDFCLIFE,profit-loss,OPM %,Mar 2018,3.3
+HDFCLIFE,profit-loss,OPM %,Mar 2019,2.2
+HDFCLIFE,profit-loss,OPM %,Mar 2020,3.9
+HDFCLIFE,profit-loss,OPM %,Mar 2021,1.8
+HDFCLIFE,profit-loss,OPM %,Mar 2022,1.0
+HDFCLIFE,profit-loss,OPM %,Mar 2023,0.1
+HDFCLIFE,profit-loss,OPM %,Mar 2024,0.7
+HDFCLIFE,profit-loss,OPM %,Mar 2025,1.1
+HDFCLIFE,profit-loss,OPM %,Mar 2026,1.9
+HDFCLIFE,profit-loss,OPM %,TTM,1.3
+HDFCLIFE,profit-loss,Other Income,Mar 2015,79.0
+HDFCLIFE,profit-loss,Other Income,Mar 2016,398.0
+HDFCLIFE,profit-loss,Other Income,Mar 2017,139.0
+HDFCLIFE,profit-loss,Other Income,Mar 2018,281.0
+HDFCLIFE,profit-loss,Other Income,Mar 2019,506.0
+HDFCLIFE,profit-loss,Other Income,Mar 2020,367.0
+HDFCLIFE,profit-loss,Other Income,Mar 2021,442.0
+HDFCLIFE,profit-loss,Other Income,Mar 2022,746.0
+HDFCLIFE,profit-loss,Other Income,Mar 2023,1407.0
+HDFCLIFE,profit-loss,Other Income,Mar 2024,363.0
+HDFCLIFE,profit-loss,Other Income,Mar 2025,293.0
+HDFCLIFE,profit-loss,Other Income,Mar 2026,361.0
+HDFCLIFE,profit-loss,Other Income,TTM,830.0
+HDFCLIFE,profit-loss,Interest,Mar 2015,-14.0
+HDFCLIFE,profit-loss,Interest,Mar 2016,8.0
+HDFCLIFE,profit-loss,Interest,Mar 2017,9.0
+HDFCLIFE,profit-loss,Interest,Mar 2018,11.0
+HDFCLIFE,profit-loss,Interest,Mar 2019,14.0
+HDFCLIFE,profit-loss,Interest,Mar 2020,0.0
+HDFCLIFE,profit-loss,Interest,Mar 2021,45.0
+HDFCLIFE,profit-loss,Interest,Mar 2022,0.0
+HDFCLIFE,profit-loss,Interest,Mar 2023,0.0
+HDFCLIFE,profit-loss,Interest,Mar 2024,0.0
+HDFCLIFE,profit-loss,Interest,Mar 2025,0.0
+HDFCLIFE,profit-loss,Interest,Mar 2026,0.0
+HDFCLIFE,profit-loss,Interest,TTM,0.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2015,43.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2016,45.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2017,41.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2018,44.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2019,45.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2020,46.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2021,51.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2022,52.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2023,75.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2024,78.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2025,102.0
+HDFCLIFE,profit-loss,Depreciation,Mar 2026,158.0
+HDFCLIFE,profit-loss,Depreciation,TTM,0.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2015,924.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2016,1010.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2017,1066.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2018,1302.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2019,1290.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2020,1461.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2021,1628.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2022,1365.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2023,1432.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2024,971.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2025,1278.0
+HDFCLIFE,profit-loss,Profit before tax,Mar 2026,2049.0
+HDFCLIFE,profit-loss,Profit before tax,TTM,2213.0
+HDFCLIFE,profit-loss,Tax %,Mar 2015,15.0
+HDFCLIFE,profit-loss,Tax %,Mar 2016,19.0
+HDFCLIFE,profit-loss,Tax %,Mar 2017,16.0
+HDFCLIFE,profit-loss,Tax %,Mar 2018,15.0
+HDFCLIFE,profit-loss,Tax %,Mar 2019,1.0
+HDFCLIFE,profit-loss,Tax %,Mar 2020,11.0
+HDFCLIFE,profit-loss,Tax %,Mar 2021,16.0
+HDFCLIFE,profit-loss,Tax %,Mar 2022,12.0
+HDFCLIFE,profit-loss,Tax %,Mar 2023,5.0
+HDFCLIFE,profit-loss,Tax %,Mar 2024,-62.0
+HDFCLIFE,profit-loss,Tax %,Mar 2025,-41.0
+HDFCLIFE,profit-loss,Tax %,Mar 2026,7.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2015,786.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2016,818.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2017,892.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2018,1109.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2019,1277.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2020,1295.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2021,1360.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2022,1208.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2023,1360.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2024,1569.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2025,1802.0
+HDFCLIFE,profit-loss,Net Profit,Mar 2026,1910.0
+HDFCLIFE,profit-loss,Net Profit,TTM,2036.0
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2015,3.94
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2016,4.1
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2017,4.46
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2018,5.51
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2019,6.33
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2020,6.42
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2021,6.73
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2022,5.72
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2023,6.33
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2024,7.29
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2025,8.37
+HDFCLIFE,profit-loss,EPS in Rs,Mar 2026,8.85
+HDFCLIFE,profit-loss,EPS in Rs,TTM,9.4
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2015,18.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2016,22.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2017,25.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2018,25.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2019,26.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2020,0.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2021,30.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2022,30.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2023,30.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2024,27.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2025,25.0
+HDFCLIFE,profit-loss,Dividend Payout %,Mar 2026,24.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2015,1995.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2016,1995.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2017,1998.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2018,2012.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2019,2017.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2020,2019.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2021,2021.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2022,2113.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2023,2149.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2024,2151.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2025,2153.0
+HDFCLIFE,balance-sheet,Equity Capital,Mar 2026,2158.0
+HDFCLIFE,balance-sheet,Equity Capital,Sep 2026,2173.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2015,547.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2016,1113.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2017,1840.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2018,2707.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2019,3638.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2020,4781.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2021,6617.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2022,13373.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2023,10837.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2024,12501.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2025,13973.0
+HDFCLIFE,balance-sheet,Reserves,Mar 2026,15538.0
+HDFCLIFE,balance-sheet,Reserves,Sep 2026,17225.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2015,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2016,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2017,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2018,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2019,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2020,0.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2021,600.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2022,600.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2023,950.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2024,950.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2025,2950.0
+HDFCLIFE,balance-sheet,Borrowings,Mar 2026,3099.0
+HDFCLIFE,balance-sheet,Borrowings,Sep 2026,3099.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2015,66767.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2016,73440.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2017,91267.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2018,105762.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2019,124350.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2020,125362.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2021,170344.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2022,194303.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2023,233985.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2024,286905.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2025,330058.0
+HDFCLIFE,balance-sheet,Other Liabilities,Mar 2026,369224.0
+HDFCLIFE,balance-sheet,Other Liabilities,Sep 2026,400437.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2015,69309.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2016,76549.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2017,95106.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2018,110481.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2019,130005.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2020,132162.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2021,179582.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2022,210389.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2023,247922.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2024,302507.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2025,349133.0
+HDFCLIFE,balance-sheet,Total Liabilities,Mar 2026,390019.0
+HDFCLIFE,balance-sheet,Total Liabilities,Sep 2026,422934.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2015,345.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2016,334.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2017,337.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2018,336.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2019,323.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2020,322.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2021,584.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2022,964.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2023,996.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2024,1545.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2025,2135.0
+HDFCLIFE,balance-sheet,Fixed Assets,Mar 2026,2708.0
+HDFCLIFE,balance-sheet,Fixed Assets,Sep 2026,778.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2015,6.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2016,12.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2017,16.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2018,5.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2019,10.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2020,8.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2021,13.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2022,19.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2023,30.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2024,27.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2025,109.0
+HDFCLIFE,balance-sheet,CWIP,Mar 2026,138.0
+HDFCLIFE,balance-sheet,CWIP,Sep 2026,0.0
+HDFCLIFE,balance-sheet,Investments,Mar 2015,67025.0
+HDFCLIFE,balance-sheet,Investments,Mar 2016,74230.0
+HDFCLIFE,balance-sheet,Investments,Mar 2017,91738.0
+HDFCLIFE,balance-sheet,Investments,Mar 2018,106603.0
+HDFCLIFE,balance-sheet,Investments,Mar 2019,124972.0
+HDFCLIFE,balance-sheet,Investments,Mar 2020,127226.0
+HDFCLIFE,balance-sheet,Investments,Mar 2021,173582.0
+HDFCLIFE,balance-sheet,Investments,Mar 2022,203530.0
+HDFCLIFE,balance-sheet,Investments,Mar 2023,238136.0
+HDFCLIFE,balance-sheet,Investments,Mar 2024,291064.0
+HDFCLIFE,balance-sheet,Investments,Mar 2025,334638.0
+HDFCLIFE,balance-sheet,Investments,Mar 2026,373089.0
+HDFCLIFE,balance-sheet,Investments,Sep 2026,409673.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2015,1932.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2016,1972.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2017,3016.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2018,3537.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2019,4700.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2020,4606.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2021,5402.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2022,5876.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2023,8760.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2024,9871.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2025,12251.0
+HDFCLIFE,balance-sheet,Other Assets,Mar 2026,14084.0
+HDFCLIFE,balance-sheet,Other Assets,Sep 2026,12483.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2015,69309.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2016,76549.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2017,95106.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2018,110481.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2019,130005.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2020,132162.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2021,179582.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2022,210389.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2023,247922.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2024,302507.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2025,349133.0
+HDFCLIFE,balance-sheet,Total Assets,Mar 2026,390019.0
+HDFCLIFE,balance-sheet,Total Assets,Sep 2026,422934.0
+HDFCLIFE,ratios,Debtor Days,Mar 2015,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2016,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2017,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2018,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2019,2.0
+HDFCLIFE,ratios,Debtor Days,Mar 2020,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2021,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2022,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2023,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2024,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2025,0.0
+HDFCLIFE,ratios,Debtor Days,Mar 2026,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2015,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2016,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2017,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2018,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2019,2.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2020,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2021,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2022,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2023,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2024,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2025,0.0
+HDFCLIFE,ratios,Cash Conversion Cycle,Mar 2026,0.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2015,-11.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2016,-27.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2017,-20.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2018,-25.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2019,-17.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2020,-17.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2021,-13.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2022,-12.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2023,-12.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2024,-8.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2025,-6.0
+HDFCLIFE,ratios,Working Capital Days,Mar 2026,-6.0
+HDFCLIFE,ratios,ROCE %,Mar 2015,41.0
+HDFCLIFE,ratios,ROCE %,Mar 2016,36.0
+HDFCLIFE,ratios,ROCE %,Mar 2017,31.0
+HDFCLIFE,ratios,ROCE %,Mar 2018,31.0
+HDFCLIFE,ratios,ROCE %,Mar 2019,25.0
+HDFCLIFE,ratios,ROCE %,Mar 2020,23.0
+HDFCLIFE,ratios,ROCE %,Mar 2021,21.0
+HDFCLIFE,ratios,ROCE %,Mar 2022,11.0
+HDFCLIFE,ratios,ROCE %,Mar 2023,10.0
+HDFCLIFE,ratios,ROCE %,Mar 2024,5.0
+HDFCLIFE,ratios,ROCE %,Mar 2025,7.0
+HDFCLIFE,ratios,ROCE %,Mar 2026,10.0

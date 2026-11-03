@@ -183,10 +183,12 @@ def write_xlsx(m, c, cm, grid, v12, rec):
         s1.write(1 + i, 6, r.source)
     ch = wb.add_chart({"type": "column"})
     ch.add_series({"name": "Volume (mn)", "categories": f"='1_Monthly'!$A$2:$A${len(m)+1}", "values": f"='1_Monthly'!$B$2:$B${len(m)+1}", "fill": {"color": "#1D4ED8"}})
-    ln = wb.add_chart({"type": "line"})
-    ln.add_series({"name": "Avg ticket (Rs)", "categories": f"='1_Monthly'!$A$2:$A${len(m)+1}", "values": f"='1_Monthly'!$D$2:$D${len(m)+1}", "y2_axis": True, "line": {"color": "#F59E0B", "width": 2.25}})
-    ch.combine(ln); ch.set_title({"name": "Volume plateaued since Aug-26 record; ticket size keeps shrinking"}); ch.set_size({"width": 760, "height": 360})
+    ch.set_title({"name": "Volume plateaued after the Aug-26 record (mn transactions)"}); ch.set_size({"width": 760, "height": 340}); ch.set_legend({"none": True})
     s1.insert_chart("I2", ch)
+    ln = wb.add_chart({"type": "line"})  # separate chart: one y-axis per chart, never dual-axis
+    ln.add_series({"name": "Avg ticket (Rs)", "categories": f"='1_Monthly'!$A$2:$A${len(m)+1}", "values": f"='1_Monthly'!$D$2:$D${len(m)+1}", "line": {"color": "#2a78d6", "width": 2.25}, "marker": {"type": "circle", "size": 6}})
+    ln.set_title({"name": "Average ticket drifting down (Rs per transaction)"}); ln.set_size({"width": 760, "height": 300}); ln.set_legend({"none": True})
+    s1.insert_chart("I20", ln)
     s2 = wb.add_worksheet("2_Concentration"); s2.set_column("A:J", 13)
     cc = ["month", "hhi", "top2_share", "phonepe", "google_pay", "paytm", "navi", "bank_apps"]
     s2.write_row(0, 0, cc, H)

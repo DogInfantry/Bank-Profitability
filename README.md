@@ -6,6 +6,18 @@ An outside-in consulting case built on public data only. It answers one question
 
 **Open first:** `decks/pdf/HDFC_RoA_Steerco.pdf` (31 slides), `decks/pdf/HDFC_CEO_Memo.pdf` (2 pages), then `models/HDFC_RoA_Path_FY29.xlsx`. The cockpit is `viz/dashboard.html`: download it and open it in a browser.
 
+## Live site: The 2% Question
+`site/` holds an explorable front end. The FY27E-FY29E model is ported to the browser and tested against the Excel to within 0.1 bp. It has a scrollytelling diagnosis, a live metric tree, a workbench with shareable scenarios, a lever backlog, evidence charts, risks, a roadmap and a changelog. Stack: Svelte 5, Vite, D3, Observable Plot.
+
+**Deploy on Vercel (one time):**
+1. Add New → Project → import `DogInfantry/Bank-Profitability`.
+2. Root Directory: `site`.
+3. Click Deploy. `site/vercel.json` supplies the build settings.
+
+Every later push redeploys. Vercel treats branches other than the default as Preview. For a production URL, set Project Settings → Git → Production Branch to the branch you deploy, or promote the deployment.
+
+To run it locally: `make site`, then `cd site && npx vite preview`.
+
 ## The problem
 HDFC Bank delivered 1.8-2.0% RoA for a decade. Since the July 2023 merger with HDFC Ltd it has sat at the bottom of that range: 1.80% in FY26 and 1.75% annualised in Q2 FY27. Three things are moving at once:
 - margins absorbed the merger's mortgage book and its wholesale borrowings;

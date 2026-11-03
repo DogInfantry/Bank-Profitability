@@ -147,6 +147,10 @@ def main():
         history=ten_year(), maturity=pd.read_csv(I / "hdfc_borrowing_maturity_mar26.csv")[["bucket", "amount_cr"]].to_dict("records"),
         icici_gap=pd.read_csv(T / "bank_shapley_FY26.csv").query("metric == 'RoA' and bank == 'HDFCBANK' and benchmark == 'ICICIBANK'")
             .drop(columns=["metric", "bank", "benchmark", "leverage"]).iloc[0].to_dict(),
+        # Funding mix (closing balance sheet, ₹ cr): what the run-off does to the liability side, base case
+        funding_mix=[dict(fy=y, **{k: col(f"Model|{lab}", y) for k, lab in {
+            "dep": "Deposits", "bor": "Borrowings", "eq": "Net worth, closing", "ol": "Other liabilities and provisions"}.items()})
+            for y in ("FY23A", "FY26A", "FY29E")],
     )
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "model.json").write_text(json.dumps(model, default=clean))

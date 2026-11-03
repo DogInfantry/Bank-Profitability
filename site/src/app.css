@@ -87,3 +87,10 @@ button { font: inherit; color: inherit; }
 .tooltip { position: fixed; z-index: 50; pointer-events: none; background: var(--surface); border: 1px solid var(--hair); border-radius: 4px; padding: 8px 10px; font-size: 12.5px; color: var(--ink); box-shadow: 0 2px 10px rgba(15, 36, 64, .08); max-width: 280px; }
 .tooltip b { font-weight: 600; }
 .up { color: var(--good); } .down { color: var(--adverse); }
+
+/* Page-grid helpers (see App.svelte): two exhibits side by side across the full width, and a rail note. */
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+.pair .exhibit { margin: 28px 0; }
+.rnote { font: 400 13px/1.5 var(--sans); color: var(--muted); border-left: 2px solid var(--hair); padding-left: 12px; margin: 14px 0 0; }
+.rnote b { color: var(--ink-2); font-weight: 600; }
+@media (max-width: 1100px) { .pair { grid-template-columns: minmax(0, 1fr); gap: 0; } }

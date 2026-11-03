@@ -3,6 +3,7 @@
   import Icon from '../lib/Icon.svelte';
   const tex = (s: string) => katex.renderToString(s, { displayMode: true, throwOnError: false, output: 'html' });
   const releases = [
+    ['v2.1', '3 Nov 2026', 'One page grid with aligned edges; every argument paired with a visual: answer tiles, the rupee-of-assets strip, funding mix, credit cycle, the P/B equation, risk cards and a dated roadmap.'],
     ['v2.0', '3 Nov 2026', 'Rebuilt as an argued long-read: answer first, twelve numbered and annotated exhibits, the recommendation built move by move; the model moved to an appendix.'],
     ['v1.0', '3 Nov 2026', 'Explorable front end: browser engine tested against the Excel to 0.1 bp.'],
     ['Model 3', '3 Nov 2026', 'Tornado on the live workbook; RoA walk; funding-cost beta regression; peer anchors; call-topic tracker; DuckDB SQL layer; CI.'],

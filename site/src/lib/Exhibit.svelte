@@ -18,8 +18,8 @@
   {#if table && open}<div class="ex-table tbl-scroll">{@render table()}</div>{/if}
 </figure>
 <style>
-  .exhibit { margin: 36px 0; padding: 0; }
-  .exhibit.wide { margin-left: calc(-1 * var(--breakout)); margin-right: calc(-1 * var(--breakout)); }
+  .exhibit { margin: 36px 0; padding: 0; max-width: var(--main); }
+  .exhibit.wide, :global(.pair) .exhibit, :global(.row) .exhibit { max-width: none; }
   figcaption { display: flex; flex-direction: column; gap: 2px; border-top: 2px solid var(--ink); padding-top: 10px; margin-bottom: 14px; }
   .ex-n { font: 600 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--brand); }
   .ex-t { font: 600 19px/1.3 var(--sans); color: var(--ink); letter-spacing: -0.005em; margin-top: 6px; }
@@ -28,5 +28,4 @@
   .ex-src { font: 400 11.5px/1.45 var(--sans); color: var(--muted); }
   .ex-btn { flex: none; font: 500 11.5px var(--mono); color: var(--brand); background: none; border: 1px solid var(--hair); border-radius: 3px; padding: 2px 8px; cursor: pointer; }
   .ex-table { margin-top: 10px; }
-  @media (max-width: 1100px) { .exhibit.wide { margin-left: 0; margin-right: 0; } }
 </style>

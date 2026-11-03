@@ -1,0 +1,39 @@
+name: refresh
+# Re-runs the pipeline and the reconciliation checks. Manual inputs (NPCI, IRDAI handbook/consultation)
+# are user-supplied; when they are not in the runner the dependent steps reuse the committed tidy files.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"   # Mondays 03:17 UTC
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt
+      - run: sudo apt-get update && sudo apt-get install -y libreoffice-calc
+      - name: Fetch public sources and Screener
+        run: |
+          python -I pipeline/fetch.py
+          python -I pipeline/screener.py
+          python -I pipeline/fetch_docs.py
+      - name: Rebuild bank model
+        run: |
+          python -I pipeline/build_bank_facts.py
+          python -I pipeline/shapley.py
+          python -I pipeline/build_bank_xlsx.py
+      - name: Dashboard and decks
+        run: |
+          python -I viz/build_dashboard.py
+          python -I decks/build_decks.py
+      - name: Checks
+        run: python -I pipeline/checks.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: |
+            models/*.xlsx
+            viz/dashboard.html
+            decks/*.pptx

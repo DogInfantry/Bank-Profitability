@@ -1,0 +1,32 @@
+{
+  "name": "two-percent-question",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The 2% Question: an explorable, outside-in case on restoring HDFC Bank's RoA to 2% by FY29.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/eb-garamond": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "@observablehq/plot": "0.6.17",
+    "@primer/octicons": "19.42.0",
+    "d3": "7.9.1",
+    "katex": "0.16.47",
+    "scrollama": "3.2.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "5.1.1",
+    "@tsconfig/svelte": "5.0.8",
+    "@types/d3": "7.4.3",
+    "svelte": "5.57.3",
+    "typescript": "5.9.3",
+    "vite": "6.4.5",
+    "vitest": "3.2.7"
+  }
+}

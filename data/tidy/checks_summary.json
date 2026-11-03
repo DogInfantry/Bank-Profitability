@@ -1,0 +1,152 @@
+{
+ "total": 29,
+ "fail": 0,
+ "explained": 1,
+ "checks": [
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Model balance sheet balances, FY27E-FY29E (sum of absolute differences",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Hist balance sheet ties within Screener whole-crore rounding (sum of a",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Hist PAT rebuilt from components ties to reported (sum of absolute dif",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Borrowing maturities sum to FY26 borrowings (difference, INR cr)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: NII walk explains all of the change (sum of residuals, INR cr)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Scenario selector resolves to 1, 2 or 3",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Cost of equity exceeds long-term growth",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Lever bridge adds up (difference, bp)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: No error values in Model, Valuation and Levers",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC_RoA_Path_FY29.xlsx: Master check",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: HDFC FY26 GNPA = 1.15% (secondary sites show NNPA 0.38% as GNPA)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: SBI FY26 provisions exclude tax (must be < 'Total Provisions' 42,983)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: bank tolerance | PBT tie: NII + OI - opex - provisions - PBT (INR cr)",
+   "status": "PASS",
+   "detail": "worst 1.00 (limit 2)"
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: bank tolerance | Tree sum vs PAT/avg assets (bp)",
+   "status": "PASS",
+   "detail": "worst 0.02 (limit 0.5)"
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: bank tolerance | Computed RoA - reported RoA (bp)",
+   "status": "PASS",
+   "detail": "worst 15.53 (limit 20)"
+  },
+  {
+   "name": "01_Bank_RoA_Benchmark.xlsx: bank tolerance | Computed C/I - reported C/I (pp)",
+   "status": "PASS",
+   "detail": "worst 1.90 (limit 7)"
+  },
+  {
+   "name": "02_Insurance_Distribution.xlsx: Handbook T13 insurer commission sum = AR Table I.10 total (60,799.91)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "02_Insurance_Distribution.xlsx: AR FY+single+renewal premium = total premium (private)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "02_Insurance_Distribution.xlsx: AR commission components sum to total (private)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "02_Insurance_Distribution.xlsx: PPT mix sums to 100%",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "02_Insurance_Distribution.xlsx: GI segment commission sums to total",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "03_UPI_MDR_Cap.xlsx: Max |sum of app volumes / NPCI monthly total - 1| (%) over overlap mon",
+   "status": "EXPLAINED",
+   "detail": ""
+  },
+  {
+   "name": "03_UPI_MDR_Cap.xlsx: Months reconciled",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "03_UPI_MDR_Cap.xlsx: Latest HHI (Aug-26) within 150 of reference 3,211 (Sep-26, koushikxy d",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "03_UPI_MDR_Cap.xlsx: Value per txn in band Rs 1,000-1,500 (sanity)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "HDFC model passes IB-hygiene lint (Garamond, no italics, no hard-codes, row patterns, no errors)",
+   "status": "PASS",
+   "detail": "STRICT /home/user/Bank-Profitability/models/HDFC_RoA_Path_FY29.xlsx: 0 issue(s)"
+  },
+  {
+   "name": "bank_facts: every row has a source",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Shapley contributions sum to gap",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Handbook commission ties to AR 60,799.91",
+   "status": "PASS",
+   "detail": "60,799.91"
+  }
+ ]
+}

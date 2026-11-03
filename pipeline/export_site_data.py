@@ -1,0 +1,140 @@
+"""Write the data the front end (site/) needs, all read from existing outputs; nothing typed by hand.
+
+site/public/data/model.json     engine inputs: FY26 opening state, scenario driver tables, fee, lever and valuation inputs
+site/public/data/story.json     history, scenario outputs, walk, tornado, beta, peers, anchors, call topics, checks, sources
+The browser engine (site/src/lib/engine.ts) recomputes FY27E-FY29E from model.json; site/tests/engine.test.ts proves it
+matches data/tidy/hdfc_model_outputs.json (the recalculated Excel) for all three scenarios.
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+from pathlib import Path
+
+import openpyxl
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[1]
+T, I = ROOT / "data" / "tidy", ROOT / "data" / "inputs"
+OUT = ROOT / "site" / "public" / "data"
+XL = ROOT / "models" / "HDFC_RoA_Path_FY29.xlsx"
+YEARS = ["FY20A", "FY21A", "FY22A", "FY23A", "FY24A", "FY25A", "FY26A", "FY27E", "FY28E", "FY29E"]
+SCN = ["Base", "Upside", "Downside"]
+DRIVERS = {  # engine key: Inputs-tab label prefix
+    "repo": "Policy repo rate, fiscal-year average", "b_loan": "Yield beta: loans", "b_inv": "Yield beta: investments and liquidity",
+    "b_dep": "Cost beta: deposits", "b_bor": "Cost beta: borrowings", "g_loan": "Advances growth", "g_dep": "Deposit growth",
+    "casa": "CASA ratio, year end", "runoff": "Share of maturing borrowings retired", "g_fee": "Core fee income growth",
+    "oi_pct": "Treasury and other non-fee income", "irdai": "IRDAI cap severity on bank fees", "g_opex": "Operating expense growth",
+    "cc": "Credit cost",
+}
+FIXED = {"matur": "Borrowings maturing in year", "spread_td": "Term deposit cost premium over CASA", "tax": "Effective tax rate",
+         "payout": "Dividend payout (paid on prior-year PAT)"}
+
+
+def clean(x):
+    if isinstance(x, float):
+        return round(x, 10)
+    return x
+
+
+def main():
+    O = json.loads((T / "hdfc_model_outputs.json").read_text())
+    b = O["Base"]
+    col = lambda key, y, s="Base": O[s][key][2 + YEARS.index(y)]  # noqa: E731
+    sc = lambda key, s="Base": O[s][key][2]  # noqa: E731   column-E scalar
+
+    wb = openpyxl.load_workbook(XL)                 # inputs are hard-coded values, so formulas are not needed
+    ws = wb["Inputs"]
+    rows = {ws.cell(r, 2).value: r for r in range(1, ws.max_row + 1) if isinstance(ws.cell(r, 2).value, str)}
+    drivers = {}
+    for k, lab in DRIVERS.items():
+        drivers[k] = {s: [ws.cell(rows[f"{lab}: {s}"], c).value for c in (12, 13, 14)] for s in SCN}
+    fixed = {k: [ws.cell(rows[lab], c).value for c in (12, 13, 14)] for k, lab in FIXED.items()}
+    # FY26 repo: the live repo row's K column (FY26A); same value in every scenario
+    live = rows["Policy repo rate, fiscal-year average: live"]
+    repo_fy26 = ws.cell(live, 11).value
+    if isinstance(repo_fy26, str):  # live row in K may be a link formula; fall back to the Base row's K
+        repo_fy26 = ws.cell(rows["Policy repo rate, fiscal-year average: Base"], 11).value
+
+    lev_ws = wb["Levers"]
+    levers = []
+    for r in range(1, lev_ws.max_row + 1):
+        nm, size, unit, mech, feas, months = (lev_ws.cell(r, c).value for c in range(2, 8))
+        if isinstance(nm, str) and isinstance(size, (int, float)) and isinstance(feas, (int, float)) and isinstance(months, (int, float)):
+            levers.append(dict(name=nm, size=size, unit=unit, mechanism=mech, feasibility=feas, months=months))
+
+    fy26 = {k: col(f"Model|{lab}", "FY26A") for k, lab in {
+        "loans": "Advances", "fixed": "Fixed assets", "dep": "Deposits", "bor": "Borrowings", "ol": "Other liabilities and provisions",
+        "eq": "Net worth, closing", "liq": "Investments, liquidity and other assets", "ta": "Total assets",
+        "y_loan": "Yield on advances", "y_liq": "Yield on investments and liquidity", "casa": "CASA ratio, year end",
+        "c_dep": "Cost of deposits", "c_bor": "Cost of borrowings", "fee": "Core fee income", "opex": "Operating expenses",
+        "pat": "Profit after tax", "pat_core": "Profit after tax, core", "a_ta": "Average total assets"}.items()}
+    fy26["cash_ret"] = 0.0
+    fy26["roa_core_bp"] = b["Levers|RoA FY26A, core"][2]
+
+    fees = dict(hlife_bank_reset=sc("Fees|HDFC Life bank-channel first-year commission above proposed caps"),
+                other_ins_mult=sc("Fees|Uplift for other insurers distributed (HDFC ERGO, partners)"),
+                pool=sc("Fees|Annual MDR pool at current run-rate"), p2m_g=sc("Fees|P2M value growth, Apr-Oct 2026 vs Apr-Oct 2025"),
+                hd_share=sc("Fees|HDFC Bank share of payee volume"), acq_share=sc("Fees|Acquiring bank's share of MDR"),
+                mdr_frac=[col("Fees|Share of year MDR is live", y) for y in YEARS[7:]])
+    vk = {"rf": "Risk-free rate: 10-year G-sec", "beta": "Equity beta", "erp": "Equity risk premium, India", "g": "Long-term growth",
+          "subs_cost": "Investment in subsidiaries at cost", "hold_disc": "Holding-company discount", "ri_g": "Residual income growth after FY29",
+          "price": "Current share price", "life_m": "HDFC Life: market capitalisation", "life_s": "HDFC Life: HDFC Bank stake",
+          "hdb_m": "HDB Financial Services: market capitalisation", "hdb_s": "HDB Financial Services: HDFC Bank stake",
+          "amc_m": "HDFC AMC: market capitalisation", "amc_s": "HDFC AMC: HDFC Bank stake"}
+    val = {k: sc(f"Valuation|{lab}") for k, lab in vk.items()}
+    val["mcap"] = ws.cell(rows["Market capitalisation"], 5).value
+    val["shares"] = val["mcap"] / ws.cell(rows["Share price"], 5).value
+    val["target_bp"] = b["Levers|Target"][2]
+
+    model = dict(years=YEARS[7:], scenarios=SCN, fy26=fy26, repo_fy26=repo_fy26, drivers=drivers, fixed=fixed, fees=fees,
+                 levers=levers, valuation=val, model_sha256=hashlib.sha256(XL.read_bytes()).hexdigest())
+
+    # ------------------------------------------------------------- story
+    hist_keys = {"roa": "Model|Return on average assets", "roe": "Model|Return on average net worth", "nim": "Model|Net interest margin on interest-earning assets",
+                 "nii_a": "Model|NII / average assets", "oi_a": "Model|Other income / average assets", "opex_a": "Model|Opex / average assets",
+                 "prov_a": "Model|Provisions / average assets", "tax_a": "Model|Tax / average assets", "casa": "Model|CASA ratio, year end",
+                 "cc": "Model|Credit cost", "ci": "Model|Cost to income", "bor_share": "Margin|Borrowings / (deposits + borrowings), average"}
+    series = {s: {k: [clean(col(v, y, s)) for y in YEARS] for k, v in hist_keys.items()} for s in SCN}
+    outputs = {s: dict(before_bp=O[s]["Levers|RoA FY29E, scenario before levers"][2], levers_bp=O[s]["Levers|Levers"][2],
+                       with_bp=O[s]["Levers|RoA FY29E with levers"][2], drift_bp=O[s]["Levers|Scenario drift to FY29E (margin, fees, cost, credit, mix)"][2],
+                       sotp_ps=sc("Valuation|Sum of the parts per share", s), ri_ps=sc("Valuation|Residual income per share", s)) for s in SCN}
+    lev_out = [dict(name=k.split("|")[1], pretax=v[0], pat=v[1], bp=v[2], roe=v[3], value=v[4], per_share=v[5], score=v[6])
+               for k, v in b.items() if k.startswith("Levers|") and len(v) > 6 and isinstance(v[6], float)]
+    anchors = [dict(lever=k.split("|")[1], hdfc=v[0], bench=v[1], source=v[2], gap=v[3], closes=v[4], share=v[5])
+               for k, v in b.items() if k.startswith("Levers|") and len(v) > 5 and isinstance(v[2], str) and isinstance(v[5], float)]
+    peers = [dict(bank=k.split("|")[1], avg_assets=v[2], roa=v[4], roe=v[5], mcap=v[6], pb=v[7], fit=v[8])
+             for k, v in b.items() if k.startswith("Peers|") and len(v) >= 9 and isinstance(v[4], float) and isinstance(v[7], float)]
+    walk = pd.read_csv(T / "hdfc_roa_walk.csv").drop(columns="source").to_dict("records")
+    torn = pd.read_csv(T / "hdfc_tornado.csv").drop(columns="source").to_dict("records")
+    beta = pd.read_csv(T / "hdfc_deposit_beta.csv").set_index("term")
+    cof = pd.read_csv(T / "hdfc_cost_of_funds.csv")
+    topics = pd.read_csv(T / "hdfc_call_topics.csv").to_dict("records")
+    topics_latest = pd.read_csv(T / "hdfc_call_topics_latest.csv").fillna("").to_dict("records")
+    checks = json.loads((T / "checks_summary.json").read_text()) if (T / "checks_summary.json").exists() else {}
+    facts = pd.read_csv(T / "bank_facts.csv")
+    q = facts[(facts.entity == "HDFCBANK") & (facts.period == "Q2FY27")].set_index("metric").value
+    alm = dict(ear=sc("ALM|Earnings at risk, +100 bp"), ear_pct=sc("ALM|As % of FY26 NII"))
+    story = dict(
+        as_of="2026-11-03", years=YEARS, series=series, outputs=outputs, levers=lev_out, anchors=anchors, peers=peers,
+        q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
+        roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),
+        ttc_cc=sc("Opex_Credit|Through-the-cycle credit cost, FY21-FY26 average"), recent_cc=sc("Opex_Credit|Recent credit cost, FY24-FY26 average"),
+        irdai_fy29=col("Fees|Bank fee lost to caps", "FY29E"), mdr_fy29=col("Fees|HDFC Bank MDR revenue", "FY29E"), mdr_pool=fees["pool"],
+        dvnb=sc("Fees|Net change in annual VNB"), alm=alm, walk=walk, tornado=torn,
+        beta=dict(same_year=float(beta.loc["beta_same_year", "estimate"]), same_year_se=float(beta.loc["beta_same_year", "std_error"]),
+                  lag=float(beta.loc["beta_lag_1y", "estimate"]), long_run=float(beta.loc["long_run_beta", "estimate"]),
+                  long_run_se=float(beta.loc["long_run_beta", "std_error"]), r2=float(beta.loc["beta_same_year", "r_squared"]),
+                  n=int(beta.loc["beta_same_year", "observations"]),
+                  points=cof[["fy_end", "cost_of_funds_pct", "repo_avg_pct", "d_cof", "d_repo"]].dropna().to_dict("records")),
+        topics=topics, topics_latest=topics_latest, checks=dict(total=checks.get("total"), fail=checks.get("fail"), explained=checks.get("explained")),
+        model_sha=model["model_sha256"][:7],
+    )
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / "model.json").write_text(json.dumps(model, default=clean))
+    (OUT / "story.json").write_text(json.dumps(story, default=clean))
+    print(f"wrote {OUT.relative_to(ROOT)}/model.json ({len(levers)} levers, {len(drivers)} drivers) and story.json")
+
+
+if __name__ == "__main__":
+    main()

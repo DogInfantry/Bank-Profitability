@@ -16,3 +16,6 @@ data/raw/factiq/
 # local DuckDB warehouse (rebuilt by pipeline/warehouse.py)
 data/fs.duckdb
 .ci-local/
+# front end build output and dependencies
+site/node_modules/
+site/dist/

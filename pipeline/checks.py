@@ -2,6 +2,7 @@
 then runs data-asset checks (provenance, Shapley additivity). Exit code 1 on any FAIL.
 Usage: python -I pipeline/checks.py
 """
+import json
 import subprocess
 import sys
 import tempfile
@@ -47,5 +48,8 @@ w = max(len(r[0]) for r in results)
 for n, s, d in results:
     print(f"{s:9} {n:<{w}} {d}")
 fails = [r for r in results if r[1] == "FAIL"]
+(ROOT / "data" / "tidy" / "checks_summary.json").write_text(json.dumps(
+    {"total": len(results), "fail": len(fails), "explained": sum(r[1] == "EXPLAINED" for r in results),
+     "checks": [{"name": n, "status": s_, "detail": str(d)} for n, s_, d in results]}, indent=1))
 print(f"\n{len(results)} checks: {len(fails)} FAIL, {sum(r[1]=='EXPLAINED' for r in results)} EXPLAINED")
 sys.exit(1 if fails else 0)

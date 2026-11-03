@@ -1,6 +1,6 @@
 name: ci
 # On every push and pull request: rebuild the HDFC model and its outputs from committed data, then run the
-# reconciliation checks, the test suite and the code lint. No network fetch; the steerco deck is on hold.
+# reconciliation checks, the test suite, the code lint, then the site (engine parity test and build). No network fetch; the steerco deck is on hold.
 on:
   push:
   pull_request:
@@ -12,6 +12,8 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: { python-version: "3.12", cache: pip }
+      - uses: actions/setup-node@v5
+        with: { node-version: "22", cache: npm, cache-dependency-path: site/package-lock.json }
       - run: pip install -r requirements.txt
       - run: sudo apt-get update && sudo apt-get install -y libreoffice-calc
       - name: Model, outputs and tests
@@ -25,3 +27,4 @@ jobs:
             decks/HDFC_CEO_Memo.docx
             viz/dashboard.html
             data/tidy/sql_results/*.csv
+            site/dist

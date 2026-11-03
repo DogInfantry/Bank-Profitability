@@ -114,6 +114,8 @@ make all
 ```
 `make data sector` fetches public sources and rebuilds the sector modules; the NPCI app-wise files, the IRDAI Handbook and the consultation papers are user-supplied (see `docs/data_sources.md`). `make all` rebuilds the HDFC model (twice, so the Tornado tab carries the latest recalculation), the scenario export, the SQL warehouse and queries, the memo, the cockpit and the Tableau extracts. It then runs the checks, the tests and the lint. The steerco deck is built separately with `make deck`.
 
+Before pushing, run `make ci-local`. It clones the last commit into a temporary folder and runs `make all` on committed files only, which is exactly what CI sees. Gitignored caches, such as the FactIQ transcript searches in `data/raw/factiq/`, are absent there; the scripts that use them keep the committed outputs instead.
+
 ## Corrections to earlier versions
 - **UPI, October 2026.** An earlier version said Oct-26 was 23.83 bn transactions and that the 25.47 bn widely reported was wrong. That was our error: the NPCI file row was a 29-day partial. The full month is 25.47 bn transactions and ₹31.53 lakh cr, a record.
 - **Q2 FY27 margins.** An earlier version said every reported Q2 FY27 NIM fell. SBI's whole-bank NIM rose 13 bp to 2.94% (press release, 3 Nov 2026).

@@ -27,11 +27,16 @@ def label(fp: str) -> str:
 
 
 def main():
+    # The cache is gitignored, so a clean checkout (CI) has none: keep the committed tidy outputs rather than
+    # overwriting them. A partial cache is treated the same way, so the outputs are never a partial table.
+    missing = [k for k in TOPICS if not (RAW / f"hdfc_calls_{k}.json").exists()]
+    if missing:
+        print(f"call_topics: no cached FactIQ search for {', '.join(missing)}; keeping committed "
+              f"{T.relative_to(ROOT)}/hdfc_call_topics*.csv (re-run the queries in the docstring to refresh)")
+        return
     counts, latest = [], []
     for key, name in TOPICS.items():
         f = RAW / f"hdfc_calls_{key}.json"
-        if not f.exists():
-            print(f"skip {key}: no cached search (re-run the FactIQ query in the docstring)"); continue
         d = json.loads(f.read_text()); df = pd.DataFrame(d["results"], columns=d["columns"])
         df = df[df.fiscal_period.isin(CALLS)].copy(); df["relevance_score"] = df.relevance_score.astype(float)
         for fp in CALLS:

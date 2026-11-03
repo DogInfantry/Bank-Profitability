@@ -5,10 +5,11 @@
 # make outputs   SQL warehouse and queries, memo, cockpit, Tableau extracts
 # make test      reconciliation checks, pytest, code lint
 # make all       model + outputs + test (uses committed data; run `make data sector` first for a full refresh)
+# make ci-local  run `make all` in a fresh clone of the last commit (committed files only, as CI sees them)
 # The steerco deck is on hold: build it explicitly with `make deck`.
 PY := python3 -I
 
-.PHONY: all data sector model outputs deck test clean
+.PHONY: all data sector model outputs deck test ci-local clean
 
 all: model outputs test
 
@@ -50,6 +51,9 @@ test:
 	$(PY) pipeline/checks.py
 	python3 -m pytest -q -p no:cacheprovider tests
 	python3 -m ruff check .
+
+ci-local:
+	rm -rf .ci-local && git clone -q . .ci-local && $(MAKE) -C .ci-local all; status=$$?; rm -rf .ci-local; exit $$status
 
 clean:
 	rm -f data/fs.duckdb

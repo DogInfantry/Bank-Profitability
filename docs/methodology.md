@@ -45,6 +45,25 @@ Limits: IRDAI does not publish commission by PPT or by insurer x channel, so the
 - **30% cap:** the required monthly share loss = (share - 30) / months left, compared with an OLS trend over the last 13 months.
 - **MDR pool:** trailing-12-month value x 29% P2M share (PIB FY26) x share of P2M value above ₹2,000 x (1 - exempt share) x 0.4% x 0.95 haircut for the ₹300 cap. It is shown as a grid because the split of value above and below ₹2,000 is not published.
 
+## HDFC Bank: the path back to 2% RoA (integrated model)
+`models/HDFC_RoA_Path_FY29.xlsx`, built by `pipeline/build_hdfc_model.py` on the framework in `pipeline/xlmodel.py`.
+
+| Block | Method |
+|---|---|
+| Spreading | FY20-FY26 standalone P&L and balance sheet from IR26 schedules and ten-year highlights; one-offs isolated (FY26 ₹12,861 cr gain on sale of investments, ₹10,700 cr floating and contingent provisions). |
+| Projection | FY27E-FY29E. Advances and deposits grow at scenario rates; borrowings run off from the IR26 maturity schedule at a scenario retirement share. Investments and liquidity balance the sheet. In-year retained profit is held as cash and deployed the next year, and treasury income runs on average assets excluding it, so the model has no circular reference and needs no iteration switch. |
+| Rates | Yields and costs move with the fiscal-year average repo through betas (loans 0.55, deposits 0.35 base). Repo path from RBI actuals and the SPF round 102. |
+| Margin | NII walk: volume effect = change in average interest-earning assets x prior NIM; margin effect = change in NIM x current assets; residual zero by construction. |
+| ALM | Repricing gap from the IR26 maturity pattern; earnings at risk for +100 bp over 12 months, adding floating-rate advances beyond one year at an assumed 55% external-benchmark share (range 45-65%, not disclosed). Realised deposit beta = change in cost of deposits / change in average repo. |
+| Fees | IRDAI: HDFC Life bank-channel first-year commission above the proposed caps x 1.3 for other insurers distributed, phased by a scenario severity. HDFC Life: half the commission saving kept as margin, 15% of bancassurance APE lost; value at the market-implied VNB multiple x 50.2% stake. UPI: P2M value above ₹2,000 (NPCI bands, 67.7%) x (1 - 30% exempt) x 0.4% x 0.95, times HDFC's payee share and a 30% acquirer share. |
+| Credit | Through-the-cycle credit cost = FY21-FY26 average of loan-loss provisions / average advances (0.69%) vs FY24-FY26 (0.48%). |
+| Capital | Tier 1 proxy on implied RWA density; internal capital generation = RoE x (1 - payout). |
+| Valuation | Ke by CAPM (6.96% + 0.95 x 6.5% = 13.13%), g 8%. Justified P/B = (RoE - g)/(Ke - g) on FY29E RoE, applied to core book (book less subsidiaries at cost). Sum of the parts adds HDFC Life, HDB Financial and HDFC AMC at market value x stake less a 20% holding-company discount. Residual income FY27E-FY29E plus a terminal value growing at 5%. Market-implied RoE solves the justified P/B for the current P/B. Peer P/B-RoE regression is reported but not used (R-squared about 0.001 on the five clean private banks). |
+| Levers | Six driver changes on top of the selected scenario in FY29E, each converted to pre-tax, PAT, bp of RoA, RoE and equity value (at justified P/B). Priority score = RoA x feasibility / months to impact. |
+| Scenarios | Base, Upside, Downside on every driver, chosen with a single selector (Dashboard!E5, named `Scenario`). `pipeline/export_scenarios.py` flips the selector, recalculates headlessly and writes `data/tidy/hdfc_model_outputs.json`; the deck, memo and cockpit read only that file. |
+
+**Excel standard.** Garamond throughout, no italics; blue inputs, black formulas, green cross-sheet links, red checks; grey fill only on inputs and historical columns; no merged cells; one formula pattern per row per block; no numbers inside formulas other than 0, 1 and 2. `pipeline/xlsx_lint.py --strict` enforces all of these and runs inside `checks.py`.
+
 ## Visual standards
 - **Chart choice:** FT Visual Vocabulary.
 - **Bridges:** IBCS-style fixed variance colours.

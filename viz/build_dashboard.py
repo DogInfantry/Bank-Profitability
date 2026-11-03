@@ -80,19 +80,52 @@ def payload() -> dict:
     cb = pd.read_csv(T / "crunchbase_fs_landscape.csv").fillna("")
     cbd = [dict(co=x.company, seg=x.segment, usd=(r(x.total_funding_usd / 1e6, 0) if x.total_funding_usd != "" else None), last=x.last_round_type, date=x.last_round_date, url=x.crunchbase_url, why=x.relevance)
            for x in cb.itertuples()]
-    return dict(tree=tree, shap=shap, hist=hist, nim=nimt, say=sayd, kpi_bank=kpi_bank,
+    hd = hdfc_payload()
+    return dict(hd=hd, tree=tree, shap=shap, hist=hist, nim=nimt, say=sayd, kpi_bank=kpi_bank,
                 growth=growth, eom=eom, chan=chan, expo=expo, mc=dict(p10=r(mcs["10%"], 0), p50=r(mcs["50%"], 0), p90=r(mcs["90%"], 0)),
                 gi=gi, prom=prom, upi_m=upi_m, upi_c=upi_c,
                 cap=dict(pp=r(cm.loc["phonepe", "share_latest_pct"], 1), gp=r(cm.loc["google_pay", "share_latest_pct"], 1),
                          pp_need=r(cm.loc["phonepe", "required_pp_per_month"], 1), pp_trend=r(cm.loc["phonepe", "trend_pp_per_month"], 2),
                          gp_need=r(cm.loc["google_pay", "required_pp_per_month"], 1), gp_trend=r(cm.loc["google_pay", "trend_pp_per_month"], 2)),
                 mdr=mdr, mdr_range=[r(grid.pool_cr.min(), 0), r(grid.pool_cr.max(), 0)], cb=cbd,
-                q2_note=f"Q2 FY27 columns: {', '.join(BANK_NAME[b] for b in q2.index)}; SBI pending (results 3 Nov 2026).")
+                q2_note=f"Q2 FY27 P&L columns: {', '.join(BANK_NAME[b] for b in q2.index)}. SBI Q2 FY27 NIM is from its 3 Nov 2026 press release; its P&L columns fill when Screener updates.")
+
+
+def hdfc_payload() -> dict:
+    """Cockpit data: every value is read from the recalculated model export (pipeline/export_scenarios.py)."""
+    O = json.loads((T / "hdfc_model_outputs.json").read_text())
+    Y = ["FY20A", "FY21A", "FY22A", "FY23A", "FY24A", "FY25A", "FY26A", "FY27E", "FY28E", "FY29E"]
+    col = lambda k, s, y: O[s][k][2 + Y.index(y)]  # noqa: E731
+    sc = {}
+    for s in O:
+        sc[s] = dict(
+            roa=[r(100 * col("Model|Return on average assets", s, y), 3) for y in Y[1:]],
+            nim=[r(100 * col("Model|Net interest margin on interest-earning assets", s, y), 3) for y in Y[1:]],
+            roe=[r(100 * col("Model|Return on average net worth", s, y), 2) for y in Y[1:]],
+            casa=[r(100 * col("Model|CASA ratio, year end", s, y), 1) if col("Model|CASA ratio, year end", s, y) else None for y in Y[1:]],
+            cc=[r(100 * col("Model|Credit cost", s, y), 2) for y in Y[1:]],
+            bridge=dict(start=r(O[s]["Levers|RoA FY26A, core"][2], 1), drift=r(O[s]["Levers|Scenario drift to FY29E (margin, fees, cost, credit, mix)"][2], 1),
+                        levers={k.split("|")[1]: r(v[2], 2) for k, v in O[s].items() if k.startswith("Levers|") and isinstance(v[6] if len(v) > 6 else None, float)},
+                        end=r(O[s]["Levers|RoA FY29E with levers"][2], 1)),
+            sotp=r(O[s]["Valuation|Sum of the parts per share"][2], 0), ri=r(O[s]["Valuation|Residual income per share"][2], 0))
+    b = O["Base"]
+    lev = [dict(lever=k.split("|")[1], bp=r(v[2], 1), pat=r(v[1], 0), value=r(v[4], 0), ps=r(v[5], 1))
+           for k, v in b.items() if k.startswith("Levers|") and len(v) > 6 and isinstance(v[6], float)]
+    f = pd.read_csv(T / "bank_facts.csv")
+    q = f[(f.entity == "HDFCBANK") & (f.period == "Q2FY27")].set_index("metric").value
+    short = {"Rebuild CASA": "CASA", "Retire legacy borrowings faster": "Borrowings", "Re-mix advances to higher-yield retail and SME": "Re-mix",
+             "Branch and operations productivity": "Productivity", "Protect bancassurance and grow card fees": "Fees", "Win UPI merchant acquiring share": "UPI"}
+    return dict(years=[y[:4] for y in Y[1:]], sc=sc, lev=lev, short=short,
+                q2_roa=r(100 * q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2), 2),
+                price=r(b["Valuation|Current share price"][2], 0), roe_impl=r(100 * b["Valuation|RoE the market is pricing"][2], 1),
+                ke=r(100 * b["Valuation|Cost of equity"][2], 2), v10=r(b["Valuation|Value of +10 bp RoA (equity value)"][2], 0),
+                ear=r(b["ALM|Earnings at risk, +100 bp"][2], 0), irdai=r(b["Fees|Bank fee lost to caps"][2 + Y.index("FY29E")], 0),
+                mdr=r(b["Fees|HDFC Bank MDR revenue"][2 + Y.index("FY29E")], 0))
 
 
 HTML = r"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>India FS Profit Pools</title>
+<title>HDFC Bank RoA Cockpit</title>
 <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js" integrity="sha384-cCVCZkAjYNxaYKbM8lsArLznDF/SvMFr1jcZrvOpSTCa0W40ZAdLzHCEulnUa5i7" crossorigin="anonymous"></script>
 <style>
 :root{color-scheme:light;--surface-0:#f6f5f2;--surface-1:#fcfcfb;--border:#e2e0da;--text-primary:#0b0b0b;--text-secondary:#52514e;--text-muted:#6f6e69;--grid:#ebe9e4;
@@ -118,29 +151,51 @@ table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;p
 td.n{text-align:right;font-variant-numeric:tabular-nums}.wrap{overflow-x:auto}a{color:var(--accent)}
 .pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border)}
 .ok::before{content:"\2713  ";color:var(--good)}.no::before{content:"\2715  ";color:var(--critical)}.mid::before{content:"\25D0  ";color:var(--text-muted)}
+.seg{display:flex;gap:6px;align-items:center;margin:0 0 12px;flex-wrap:wrap}.seg span{color:var(--text-secondary);font-size:13px;margin-right:4px}
+.seg button{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
 footer{max-width:1240px;margin:auto;padding:8px 16px 40px;color:var(--text-muted);font-size:12px}
 </style></head><body>
-<header><h1>India FS profit pools: banks, insurance distribution, UPI</h1>
-<p class="sub">Standalone FY26 and Q2 FY27 benchmarks, IRDAI's proposed commission caps, NPCI's monthly data and the new MDR. Data as of 3 Nov 2026. Every figure traces to <code>data/tidy</code> with a source and page.</p></header>
+<header><h1>HDFC Bank: the path back to 2% RoA</h1>
+<p class="sub">CEO cockpit over the integrated model, with the sector modules behind it. Data as of 3 Nov 2026. Every figure traces to <code>models/HDFC_RoA_Path_FY29.xlsx</code> or <code>data/tidy</code>. Independent outside-in case study using public data only; not commissioned by, or affiliated with, HDFC Bank or Bain &amp; Company.</p></header>
 <nav><div class="in" role="tablist">
-<button role="tab" aria-selected="true" data-t="banks">Banks</button><button role="tab" aria-selected="false" data-t="ins">Insurance</button>
+<button role="tab" aria-selected="true" data-t="hdfc">HDFC cockpit</button><button role="tab" aria-selected="false" data-t="banks">Bank peers</button><button role="tab" aria-selected="false" data-t="ins">Insurance</button>
 <button role="tab" aria-selected="false" data-t="upi">UPI</button><button role="tab" aria-selected="false" data-t="say">Say vs do</button>
 <button role="tab" aria-selected="false" data-t="src">Sources &amp; method</button><button id="theme" aria-label="Toggle theme">Theme</button></div></nav>
 <main>
-<section id="banks" class="on">
+<section id="hdfc" class="on">
+ <div class="answer"><b>HDFC Bank can be back above 2% RoA by FY29, but only by pulling six levers; the share price already assumes it.</b>
+ The base case recovers to <span id="h_base"></span>% by FY29E as legacy borrowings run off. The levers add <span id="h_lev"></span> bp. The market price implies <span id="h_roeimpl"></span>% RoE; the base case gives <span id="h_roe"></span>%.</div>
+ <div class="seg" role="group" aria-label="Scenario"><span>Scenario</span><button data-s="Base" aria-pressed="true">Base</button><button data-s="Upside" aria-pressed="false">Upside</button><button data-s="Downside" aria-pressed="false">Downside</button></div>
+ <div class="tiles"><div class="tile"><div class="v" id="h_t1"></div><div class="l">RoA, Q2 FY27 annualised</div></div>
+ <div class="tile"><div class="v" id="h_t2"></div><div class="l">RoA FY29E, before levers</div></div>
+ <div class="tile"><div class="v" id="h_t3"></div><div class="l">RoA FY29E, with levers (target 2.00%)</div></div>
+ <div class="tile"><div class="v" id="h_t4"></div><div class="l">Value per share: residual income to sum of the parts (price ₹<span id="h_px"></span>)</div></div>
+ <div class="tile"><div class="v" id="h_t5"></div><div class="l">Equity value of +10 bp RoA, ₹ cr</div></div></div>
+ <div class="grid">
+  <div class="card"><h3>RoA path: the base case alone stops short of 2%</h3><p class="note">PAT / average total assets, %. FY27E-FY29E from the model; the selected scenario is highlighted.</p><div class="plot" id="p_hroa"></div><details><summary>Table</summary><div class="wrap" id="tb_hroa"></div></details></div>
+  <div class="card"><h3>FY26 to FY29E RoA bridge</h3><p class="note">bp of RoA. Drift = scenario drivers before levers; then six levers.</p><div class="plot" id="p_hbridge"></div></div>
+  <div class="card"><h3>Six levers, ranked by RoA uplift (base case)</h3><p class="note">FY29E, on top of the base case. Sizes and timing are judgements for discussion.</p><div class="plot" id="p_hlev"></div><details><summary>Table</summary><div class="wrap" id="tb_hlev"></div></details></div>
+  <div class="card"><h3>Drivers to watch: NIM, CASA and credit cost</h3><p class="note">%, selected scenario.</p><div class="plot" id="p_hdrv"></div></div>
+ </div>
+ <div class="tiles" style="margin-top:16px"><div class="tile"><div class="v" id="h_ear"></div><div class="l">NII earnings at risk, +100 bp, ₹ cr (asset-sensitive)</div></div>
+ <div class="tile"><div class="v" id="h_ir"></div><div class="l">IRDAI caps: bank fee lost, FY29E, ₹ cr</div></div>
+ <div class="tile"><div class="v" id="h_mdr"></div><div class="l">UPI MDR revenue, FY29E, ₹ cr</div></div></div>
+</section>
+<section id="banks">
  <div class="answer"><b>Indian bank RoA gaps have different root causes, so one playbook does not fit all.</b>
  ICICI earns the peer-best FY26 RoA. SBI trails by <span id="k_gap"></span> bp, and the margin gap alone (<span id="k_nii"></span> bp) is bigger than the whole gap: SBI's lower opex per rupee of assets claws some back. Axis's gap is margin plus credit cost; Kotak's is cost.</div>
  <div class="tiles"><div class="tile"><div class="v" id="t1"></div><div class="l">ICICI Bank FY26 RoA (best)</div></div>
- <div class="tile"><div class="v" id="t2"></div><div class="l">SBI FY26 RoA</div></div><div class="tile"><div class="v" id="t3"></div><div class="l">All four reporting banks: Q2 FY27 NIM below Q4 FY26</div></div></div>
+ <div class="tile"><div class="v" id="t2"></div><div class="l">SBI FY26 RoA</div></div><div class="tile"><div class="v" id="t3"></div><div class="l">Banks whose Q2 FY27 NIM is below Q4 FY26 (SBI's rose)</div></div></div>
  <div class="grid">
   <div class="card"><h3>RoA tree: margin builds returns, opex and provisions consume them</h3><p class="note">% of average assets, FY26 standalone. Diamond = RoA.</p><div class="plot" id="p_tree"></div><details><summary>Table</summary><div class="wrap" id="tb_tree"></div></details></div>
   <div class="card"><h3>Why each bank trails ICICI: Shapley attribution of the RoA gap</h3><p class="note">pp of RoA. Positive = factor widens the gap; negative = works in the bank's favour. Sums exactly to the gap.</p><div class="plot" id="p_shap"></div><details><summary>Table</summary><div class="wrap" id="tb_shap"></div></details></div>
   <div class="card"><h3>Ten-year RoA: SBI's recovery stalls below private peers</h3><p class="note">PAT / average assets, standalone (Screener history).</p><div class="plot" id="p_hist"></div></div>
-  <div class="card"><h3>Every reported Q2 FY27 NIM is below Q4 FY26</h3><p class="note">Reported NIM, %. Bases differ: HDFC on total assets, others on interest-earning assets.</p><div class="plot" id="p_nim"></div><details><summary>Table</summary><div class="wrap" id="tb_nim"></div></details></div>
+  <div class="card"><h3>Four of five Q2 FY27 NIMs fell; SBI's rose 13 bp</h3><p class="note">Reported NIM, %. Bases differ: HDFC on total assets, others on interest-earning assets.</p><div class="plot" id="p_nim"></div><details><summary>Table</summary><div class="wrap" id="tb_nim"></div></details></div>
  </div></section>
 <section id="ins">
  <div class="answer"><b>Commission caps would reset ~Rs <span id="k_reset"></span> cr a year of distributor income; relative to profit, bank-promoted private insurers are most exposed.</b>
- Private commission grew <span id="k_cg"></span>% vs premium <span id="k_pg"></span>% in FY25. Private expense of management is <span id="k_eom"></span>% of premium against a proposed 15% then 12.5%. The caps are a September 2026 <i>proposal</i>, not final.</div>
+ Private commission grew <span id="k_cg"></span>% vs premium <span id="k_pg"></span>% in FY25. Private expense of management is <span id="k_eom"></span>% of premium against a proposed 15% then 12.5%. The caps are a September 2026 proposal, not final.</div>
  <div class="grid">
   <div class="card"><h3>Distribution captured the growth</h3><p class="note">FY25 YoY growth, %. IRDAI Annual Report Tables I.9-I.10.</p><div class="plot" id="p_growth"></div></div>
   <div class="card"><h3>Every channel's first-year commission sits above its proposed cap</h3><p class="note">Average first-year commission (IRDAI Part 2, Annexure 3) vs blended cap at the base PPT mix (assumption). Lower bound: maxima reach 62-92%.</p><div class="plot" id="p_chan"></div><details><summary>Table</summary><div class="wrap" id="tb_chan"></div></details></div>
@@ -152,9 +207,9 @@ footer{max-width:1240px;margin:auto;padding:8px 16px 40px;color:var(--text-muted
 </section>
 <section id="upi">
  <div class="answer"><b>UPI's first fee is a value-driven pool, and the 30% app cap is out of reach by December 2026.</b>
- NPCI's own file puts the record at Aug-26; Oct-26 was <span id="k_oct"></span> bn transactions, not the 25.47 bn widely reported. PhonePe needs to shed <span id="k_ppn"></span> pp a month; its 12-month trend is <span id="k_ppt"></span> pp.</div>
+ October 2026 is the record month at <span id="k_oct"></span> bn transactions (full month, NPCI). PhonePe needs to shed <span id="k_ppn"></span> pp a month to meet the cap; its 12-month trend is <span id="k_ppt"></span> pp.</div>
  <div class="grid">
-  <div class="card"><h3>Monthly volume plateaued after the August record</h3><p class="note">Transactions, bn (NPCI product statistics).</p><div class="plot" id="p_vol"></div></div>
+  <div class="card"><h3>October 2026 set a new volume record</h3><p class="note">Transactions, bn (NPCI product statistics; Oct-26 is the full month from NPCI's P2P/P2M table).</p><div class="plot" id="p_vol"></div></div>
   <div class="card"><h3>Average ticket has drifted down about Rs 80 since early 2026</h3><p class="note">Rs per transaction = value / volume.</p><div class="plot" id="p_ticket"></div></div>
   <div class="card"><h3>Top-two apps stay far above the 30% cap</h3><p class="note">Share of UPI volume, % (NPCI app-wise). Dashed line = 30% cap.</p><div class="plot" id="p_share"></div></div>
   <div class="card"><h3>MDR pool: Rs <span id="k_mdr"></span> cr a year, depending on two unknowns</h3><p class="note">0.4% on P2M tickets above Rs 2,000 (DFS FAQ, 15 Sep 2026), on trailing-12-month value. Rows and columns are assumptions.</p><div class="plot" id="p_mdr"></div></div>
@@ -176,8 +231,36 @@ function base(extra={}){return Object.assign({paper_bgcolor:css('--surface-1'),p
  legend:{orientation:'h',y:-0.18,font:{color:css('--text-secondary')}},hoverlabel:{bgcolor:css('--surface-1'),bordercolor:css('--border'),font:{color:css('--text-primary')}},bargap:0.35},extra)}
 const cfg={displayModeBar:false,responsive:true};
 function table(el,cols,rows){$(el).innerHTML='<table><thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>{const v=c[1](r);return `<td class="${typeof v==='number'?'n':''}">${v??'-'}</td>`}).join('')+'</tr>').join('')+'</tbody></table>'}
+let SCN='Base';
+function drawH(){
+ const H=D.hd, S=H.sc[SCN], acc=css('--accent'), mut=css('--text-muted');
+ $('h_base').textContent=H.sc.Base.roa.at(-1).toFixed(2); $('h_lev').textContent=Object.values(H.sc.Base.bridge.levers).reduce((a,b)=>a+b,0).toFixed(1);
+ $('h_roeimpl').textContent=H.roe_impl; $('h_roe').textContent=H.sc.Base.roe.at(-1).toFixed(1);
+ $('h_t1').textContent=H.q2_roa.toFixed(2)+'%'; $('h_t2').textContent=S.roa.at(-1).toFixed(2)+'%'; $('h_t3').textContent=(S.bridge.end/100).toFixed(2)+'%';
+ $('h_t4').textContent='₹'+Math.min(S.ri,S.sotp)+'-'+Math.max(S.ri,S.sotp); $('h_px').textContent=H.price; $('h_t5').textContent=H.v10.toLocaleString('en-IN');
+ $('h_ear').textContent=H.ear.toLocaleString('en-IN'); $('h_ir').textContent=H.irdai.toLocaleString('en-IN'); $('h_mdr').textContent=H.mdr.toLocaleString('en-IN');
+ Plotly.react('p_hroa',[...Object.keys(H.sc).map(k=>({type:'scatter',mode:'lines+markers',name:k,x:H.years,y:H.sc[k].roa,line:{color:k===SCN?acc:mut,width:k===SCN?3:1.5,dash:k===SCN?'solid':'dot'},marker:{size:k===SCN?8:5,color:k===SCN?acc:mut},hovertemplate:k+' %{x}: %{y:.2f}%<extra></extra>'})),
+  {type:'scatter',mode:'lines',name:'2.00% target',x:[H.years[0],H.years.at(-1)],y:[2,2],line:{color:css('--text-secondary'),width:1,dash:'dash'},hoverinfo:'skip'}],
+  base({yaxis:{title:'RoA %',gridcolor:css('--grid')},shapes:[{type:'rect',xref:'x',yref:'paper',x0:'FY27',x1:'FY29',y0:0,y1:1,fillcolor:css('--grid'),opacity:.35,line:{width:0},layer:'below'}]}),cfg);
+ table('tb_hroa',[['Year',r=>r[0]],...Object.keys(H.sc).map(k=>[k,r=>r[1][k]])],H.years.map((y,i)=>[y,Object.fromEntries(Object.keys(H.sc).map(k=>[k,H.sc[k].roa[i]]))]));
+ const L=S.bridge.levers, ln=Object.keys(L);
+ Plotly.react('p_hbridge',[{type:'waterfall',orientation:'v',x:['FY26A','Drift',...ln.map(n=>H.short[n]||n),'FY29E'],y:[S.bridge.start,S.bridge.drift,...ln.map(n=>L[n]),0],
+  measure:['absolute','relative',...ln.map(()=>'relative'),'total'],text:[S.bridge.start,S.bridge.drift,...ln.map(n=>L[n]),S.bridge.end].map(v=>v.toFixed(1)),textposition:'outside',
+  increasing:{marker:{color:acc}},decreasing:{marker:{color:css('--critical')}},totals:{marker:{color:css('--text-secondary')}},connector:{line:{color:css('--border')}},hovertemplate:'%{x}: %{y:.1f} bp<extra></extra>'}],
+  base({showlegend:false,margin:{l:56,r:16,t:20,b:90},yaxis:{title:'bp of RoA',range:[Math.min(S.bridge.start,S.bridge.start+S.bridge.drift)-30,Math.max(S.bridge.end,S.bridge.start)+15],gridcolor:css('--grid')},
+  shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:200,y1:200,line:{color:css('--text-secondary'),dash:'dash',width:1}}]}),cfg);
+ const lv=[...H.lev].sort((a,b)=>a.bp-b.bp);
+ const nar=$('p_hlev').clientWidth<520;
+ Plotly.react('p_hlev',[{type:'bar',orientation:'h',x:lv.map(r=>r.bp),y:lv.map(r=>nar?(H.short[r.lever]||r.lever):r.lever),marker:{color:acc},text:lv.map(r=>r.bp.toFixed(1)),textposition:'outside',customdata:lv.map(r=>[r.pat,r.value]),
+  hovertemplate:'%{y}<br>%{x:.1f} bp RoA<br>PAT ₹%{customdata[0]:,} cr<br>value ₹%{customdata[1]:,} cr<extra></extra>'}],base({showlegend:false,margin:{l:nar?100:290,r:16,t:8,b:44},xaxis:{title:'bp of RoA, FY29E',range:[0,Math.max(...lv.map(r=>r.bp))*1.2],gridcolor:css('--grid')}}),cfg);
+ table('tb_hlev',[['Lever',r=>r.lever],['RoA bp',r=>r.bp],['PAT ₹ cr',r=>r.pat.toLocaleString('en-IN')],['Equity value ₹ cr',r=>r.value.toLocaleString('en-IN')],['₹ per share',r=>r.ps]],H.lev);
+ Plotly.react('p_hdrv',[['nim','NIM',css('--s1')],['casa','CASA ratio (right of chart is year end)',css('--s3')],['cc','Credit cost',css('--s2')]].map(([k,n,c])=>({type:'scatter',mode:'lines+markers',name:n.split(' (')[0],x:H.years,y:S[k],line:{color:c,width:2},marker:{size:7,color:c},hovertemplate:n.split(' (')[0]+' %{x}: %{y:.2f}%<extra></extra>',xaxis:k==='casa'?'x2':'x',yaxis:k==='casa'?'y2':'y'})),
+  base({grid:{rows:2,columns:1,pattern:'independent'},yaxis:{title:'NIM, credit cost %',gridcolor:css('--grid'),domain:[0,0.45]},yaxis2:{title:'CASA %',gridcolor:css('--grid'),domain:[0.58,1]},xaxis:{anchor:'y'},xaxis2:{anchor:'y2',matches:'x',showticklabels:false},hovermode:'x unified'}),cfg);
+}
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{SCN=b.dataset.s;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));drawH()});
 function draw(){
- const k=D.kpi_bank; $('k_gap').textContent=Math.round(k.sbi_gap_bp); $('k_nii').textContent=k.sbi_nii_share; $('t1').textContent=k.best.toFixed(2)+'%'; $('t2').textContent=k.sbi.toFixed(2)+'%'; $('t3').textContent=D.nim.length+' of '+D.nim.length;
+ drawH();
+ const k=D.kpi_bank; $('k_gap').textContent=Math.round(k.sbi_gap_bp); $('k_nii').textContent=k.sbi_nii_share; $('t1').textContent=k.best.toFixed(2)+'%'; $('t2').textContent=k.sbi.toFixed(2)+'%'; $('t3').textContent=D.nim.filter(r=>r.chg<0).length+' of '+D.nim.length;
  const comps=[['nii','NII',css('--s1')],['oi','Other income',css('--s3')],['opex','Opex',css('--s2')],['prov','Provisions',css('--s4')],['tax','Tax',css('--s5')]];
  const banks=D.tree.map(r=>r.bank);
  Plotly.react('p_tree',[...comps.map(([k,n,c])=>({type:'bar',name:n,x:banks,y:D.tree.map(r=>r[k]),marker:{color:c,line:{color:css('--surface-1'),width:2}},hovertemplate:'%{x}<br>'+n+': %{y:.2f}%<extra></extra>'})),
@@ -232,7 +315,7 @@ function draw(){
 $('srcbody').innerHTML=`<ul>
 <li><b>Banks:</b> standalone P&amp;L and balance sheet from Screener.in, tied out to each bank's Q4 FY26 / Q2 FY27 investor presentation (page-cited in <code>data/inputs/bank_reported.csv</code>); HDFC Q2 FY27 PPOP from NSE XBRL. SBI's 'Total Provisions' includes tax and is excluded here.</li>
 <li><b>Attribution:</b> Shapley values over RoA = (NII + OI - opex - provisions) x (1 - tax rate); order-independent, sums to the gap.</li>
-<li><b>Insurance:</b> IRDAI Annual Report 2024-25 (Tables I.9-I.14), IRDAI Handbook 2024-25 (T2, T3, T13, T99, T100), IRDAI consultation 'Recalibrating Economics of Insurance Distribution' Part 1 (Box 2, 4A, 4B) and Part 2 (Annexure 3). Caps are <i>proposed</i>. The premium-paying-term mix is an assumption, stress-tested by Monte Carlo.</li>
+<li><b>Insurance:</b> IRDAI Annual Report 2024-25 (Tables I.9-I.14), IRDAI Handbook 2024-25 (T2, T3, T13, T99, T100), IRDAI consultation 'Recalibrating Economics of Insurance Distribution' Part 1 (Box 2, 4A, 4B) and Part 2 (Annexure 3). Caps are proposed, not final. The premium-paying-term mix is an assumption, stress-tested by Monte Carlo.</li>
 <li><b>UPI:</b> NPCI product statistics and app-wise statistics (user-downloaded); DFS MDR FAQ (15 Sep 2026); PIB FY26 P2M/P2P split. App names normalised with our own rules; method credited to koushikxy/upi-payments-dashboard (no files copied).</li>
 <li><b>Market:</b> Crunchbase (request id logged in <code>data/tidy/crunchbase_fs_landscape.csv</code>); FactIQ earnings-call claim graph for management quotes.</li>
 <li><b>Checks:</b> each workbook has a checks tab: PBT tie, RoA vs reported, AR totals vs Handbook, NPCI app sum vs total, HHI vs reference.</li></ul>`;

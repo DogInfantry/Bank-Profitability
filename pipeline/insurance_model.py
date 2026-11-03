@@ -165,10 +165,10 @@ def main():
 
 def write_xlsx(ir, caps, t99, reset, mc, expo):
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    wb = xlsxwriter.Workbook(OUT)
+    wb = xlsxwriter.Workbook(OUT, {"default_format_properties": {"font_name": "Garamond"}})
     F = {
         "title": wb.add_format({"bold": True, "font_size": 15}),
-        "sub": wb.add_format({"italic": True, "font_color": "#6B7280", "text_wrap": True}),
+        "sub": wb.add_format({"font_color": "#6B7280", "text_wrap": True}),
         "hdr": wb.add_format({"bold": True, "bg_color": "#1F2937", "font_color": "white", "border": 1, "text_wrap": True}),
         "lbl": wb.add_format({"border": 1}),
         "inp": wb.add_format({"num_format": "#,##0.00", "font_color": "#1D4ED8", "bg_color": "#EFF6FF", "border": 1}),

@@ -64,6 +64,15 @@ def monthly() -> pd.DataFrame:
                 rows.append(dict(month=pd.to_datetime(r[0], format="%B-%Y"), volume_mn=float(r[1]),
                                  value_cr=float(r[3]), source=f"NPCI product statistics ({f})"))
     m = pd.DataFrame(rows).sort_values("month").reset_index(drop=True)
+    # NPCI's monthly file can carry a month-to-date row. Where FactIQ's NPCI P2P/P2M table has the full month and differs
+    # by more than 1%, use the full month (Oct-26: the file row was 29 days; full month 25,467 mn / Rs 31.53 lakh cr).
+    full = pd.read_csv(ROOT / "data" / "inputs" / "npci_p2m_monthly.csv")
+    full["month"] = pd.to_datetime(full.month + "-01")
+    for _, f in full.iterrows():
+        hit = m.month == f.month
+        if hit.any() and abs(m.loc[hit, "volume_mn"].iloc[0] / f.total_volume_mn - 1) > 0.01:
+            m.loc[hit, ["volume_mn", "value_cr", "source"]] = [f.total_volume_mn, f.p2m_value_cr + f.p2p_value_cr,
+                                                                "NPCI P2P/P2M full month via FactIQ (file row was month-to-date)"]
     m["avg_ticket_rs"] = m.value_cr * 1e7 / (m.volume_mn * 1e6)
     m["days"] = m.month.dt.days_in_month
     m["daily_volume_mn"] = m.volume_mn / m.days
@@ -153,9 +162,9 @@ def main():
 
 def write_xlsx(m, c, cm, grid, v12, rec):
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    wb = xlsxwriter.Workbook(OUT)
+    wb = xlsxwriter.Workbook(OUT, {"default_format_properties": {"font_name": "Garamond"}})
     H = wb.add_format({"bold": True, "bg_color": "#1F2937", "font_color": "white", "border": 1, "text_wrap": True})
-    T = wb.add_format({"bold": True, "font_size": 15}); S = wb.add_format({"italic": True, "font_color": "#6B7280", "text_wrap": True})
+    T = wb.add_format({"bold": True, "font_size": 15}); S = wb.add_format({"font_color": "#6B7280", "text_wrap": True})
     N = wb.add_format({"num_format": "#,##0", "border": 1}); P = wb.add_format({"num_format": "0.0%", "border": 1})
     D = wb.add_format({"num_format": "mmm-yy", "border": 1}); I = wb.add_format({"num_format": "#,##0.00", "font_color": "#1D4ED8", "bg_color": "#EFF6FF", "border": 1})
     A = wb.add_format({"num_format": "0%", "font_color": "#9A3412", "bg_color": "#FFEDD5", "border": 1}); F2 = wb.add_format({"num_format": "0.00", "border": 1})
@@ -164,7 +173,7 @@ def write_xlsx(m, c, cm, grid, v12, rec):
     a.write("B2", "UPI's first fee: a value-driven pool from a small slice of volume; the 30% cap is out of reach by Dec-26", T)
     pp = cm.set_index("app")
     lines = [
-        f"1. Record month is {peak.month:%b-%Y} ({peak.volume_mn/1e3:.2f} bn txns); Oct-26 was {m.iloc[-1].volume_mn/1e3:.2f} bn / Rs {m.iloc[-1].value_cr/1e5:.2f} lakh cr (NPCI). Secondary reports of 25.47 bn for Oct-26 do not match NPCI's file.",
+        f"1. Record month is {peak.month:%b-%Y} ({peak.volume_mn/1e3:.2f} bn txns, Rs {peak.value_cr/1e5:.2f} lakh cr, NPCI). An earlier draft read a 29-day partial row as the full month; corrected.",
         f"2. MDR applies to P2M tickets above Rs 2,000: under 5% of P2M volume but a large share of value. On trailing-12m value of Rs {v12/1e5:.0f} lakh cr the annual pool is Rs {grid.pool_cr.min():,.0f}-{grid.pool_cr.max():,.0f} cr across the sensitivity grid (assumption-driven; see 3_MDR_Pool).",
         f"3. PhonePe ({pp.loc['phonepe','share_latest_pct']:.1f}%) and Google Pay ({pp.loc['google_pay','share_latest_pct']:.1f}%) would need to lose {pp.loc['phonepe','required_pp_per_month']:.1f} pp and {pp.loc['google_pay','required_pp_per_month']:.1f} pp a month to reach 30% by 31 Dec 2026; the last-12-month trend is {pp.loc['phonepe','trend_pp_per_month']:+.2f} and {pp.loc['google_pay','trend_pp_per_month']:+.2f} pp a month.",
         f"4. Concentration is easing (HHI {c.iloc[-1].hhi:,.0f} in {c.iloc[-1].month:%b-%y}, down from {c.hhi.max():,.0f} peak) as Navi ({100*c.iloc[-1].navi:.1f}%) and super.money take share; bank apps carry only {100*c.iloc[-1].bank_apps:.1f}% of volume.",
@@ -183,7 +192,7 @@ def write_xlsx(m, c, cm, grid, v12, rec):
         s1.write(1 + i, 6, r.source)
     ch = wb.add_chart({"type": "column"})
     ch.add_series({"name": "Volume (mn)", "categories": f"='1_Monthly'!$A$2:$A${len(m)+1}", "values": f"='1_Monthly'!$B$2:$B${len(m)+1}", "fill": {"color": "#1D4ED8"}})
-    ch.set_title({"name": "Volume plateaued after the Aug-26 record (mn transactions)"}); ch.set_size({"width": 760, "height": 340}); ch.set_legend({"none": True})
+    ch.set_title({"name": f"UPI volume, mn transactions: record in {peak.month:%b-%y}"}); ch.set_size({"width": 760, "height": 340}); ch.set_legend({"none": True})
     s1.insert_chart("I2", ch)
     ln = wb.add_chart({"type": "line"})  # separate chart: one y-axis per chart, never dual-axis
     ln.add_series({"name": "Avg ticket (Rs)", "categories": f"='1_Monthly'!$A$2:$A${len(m)+1}", "values": f"='1_Monthly'!$D$2:$D${len(m)+1}", "line": {"color": "#2a78d6", "width": 2.25}, "marker": {"type": "circle", "size": 6}})

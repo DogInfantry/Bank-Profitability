@@ -46,7 +46,7 @@ class Deck:
             para = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
             para.text = line; para.alignment = align
             for r in para.runs:
-                r.font.size, r.font.bold, r.font.color.rgb, r.font.name = Pt(size), bold, color, "Calibri"
+                r.font.size, r.font.bold, r.font.color.rgb, r.font.name = Pt(size), bold, color, "Garamond"
         return tb
 
     def big(self, s, value, label, x, y, w=3.8, color=NAVY):
@@ -58,7 +58,7 @@ class Deck:
         for name, vals in series:
             cd.add_series(name, vals)
         gf = s.shapes.add_chart(kind, Inches(x), Inches(y), Inches(w), Inches(h), cd); ch = gf.chart
-        ch.font.size, ch.font.name = Pt(11), "Calibri"
+        ch.font.size, ch.font.name = Pt(11), "Garamond"
         ch.has_legend = legend and len(series) > 1
         if ch.has_legend:
             ch.legend.position, ch.legend.include_in_layout = XL_LEGEND_POSITION.BOTTOM, False
@@ -128,12 +128,13 @@ def bank_deck():
     d.big(s, f"{100*sh.loc['SBIN'].gap:.0f} bp", f"SBI's RoA gap to ICICI; net interest income alone explains {100*sh.loc['SBIN'].nii:.0f} bp. SBI's opex/assets is the lowest in the set", 0.6, 1.9)
     d.big(s, f"{100*sh.loc['AXISBANK'].gap:.0f} bp", f"Axis's gap: margin {100*sh.loc['AXISBANK'].nii:.0f} bp + credit cost {100*sh.loc['AXISBANK'].prov:.0f} bp (incl. Rs 2,001 cr one-off provision)", 4.8, 1.9, color=S[1])
     d.big(s, f"{100*sh.loc['KOTAKBANK'].gap:.0f} bp", f"Kotak's gap is cost: best NII margin, but opex absorbs {100*sh.loc['KOTAKBANK'].opex:.0f} bp", 9.0, 1.9, color=S[2])
-    d.text(s, "Margins are now compressing across the board (every reported Q2 FY27 NIM is below Q4 FY26), so the levers that matter for FY27 are deposit franchise (SBI, HDFC), credit discipline (Axis) and cost-to-serve (Kotak).", 0.6, 4.6, 12, 1.2, 15, INK)
+    d.text(s, "Four of five Q2 FY27 NIMs fell; SBI's rose 13 bp on its stronger CASA base. So the levers that matter for FY27 are deposit franchise (SBI, HDFC), credit discipline (Axis) and cost-to-serve (Kotak).", 0.6, 4.6, 12, 1.2, 15, INK)
     # 2 NIM
-    s = d.slide(f"Margins are compressing everywhere: reported NIM fell {abs(nim.change_bp.max()):.0f}-{abs(nim.change_bp.min()):.0f} bp between Q4 FY26 and Q2 FY27", "Bank investor presentations Q4 FY26 and Q2 FY27; HDFC NIM on total assets, others on interest-earning assets. SBI Q2 FY27 due 3 Nov 2026", "Context")
+    fell = nim[nim.change_bp < 0]
+    s = d.slide(f"Private-bank margins fell {abs(fell.change_bp.max()):.0f}-{abs(fell.change_bp.min()):.0f} bp between Q4 FY26 and Q2 FY27, while SBI's rose {nim[nim.bank == 'SBIN'].change_bp.iloc[0]:.0f} bp", "Bank investor presentations Q4 FY26 and Q2 FY27; SBI Q2 FY27 press release (3 Nov 2026). HDFC NIM on total assets, SBI whole bank, others on interest-earning assets", "Context")
     ch = d.chart(s, XL_CHART_TYPE.COLUMN_CLUSTERED, [BN[b] for b in nim.bank], [("Q4 FY26", nim.q4fy26_nim.tolist()), ("Q2 FY27", nim.q2fy27_nim.tolist())], 0.6, 1.7, 8.2, 5.0, colors=[GRAY, S[0]], labels=True, fmt="0.00")
     d.text(s, "\n".join(f"{BN[r.bank]}: {r.change_bp:+.0f} bp" for r in nim.itertuples()), 9.2, 2.0, 3.6, 2.5, 16, NAVY, bold=True)
-    d.text(s, "Asset yields reset faster than deposit costs in the down-rate cycle. NII, not asset quality, is the FY27 earnings swing factor.", 9.2, 4.4, 3.6, 2.0, 13, MUTED)
+    d.text(s, "Asset yields reset faster than deposit costs for the private banks. SBI's 38% CASA cushioned it: funding mix, not the cycle alone, drives margin.", 9.2, 4.4, 3.6, 2.0, 13, MUTED)
     # 3 scorecard
     s = d.slide("On the FY26 scorecard ICICI leads on RoA and RoE; SBI runs the leanest cost base but the thinnest margin", src_b + ". Ratios % of average assets; RoE on average net worth", "Peer scorecard")
     rows = [[BN[b], f"{x.nii_p:.2f}", f"{x.other_income_p:.2f}", f"{x.opex_p:.2f}", f"{x.provisions_p:.2f}", f"{x.pat_p:.2f}", f"{x.roe:.1f}", f"{x.ci:.1f}", f"{x.gnpa:.2f}"] for b, x in fy.iterrows()]
@@ -233,9 +234,9 @@ def upi_deck():
     peak = m.loc[m.volume_mn.idxmax()]; last = m.iloc[-1]
     d = Deck("03_UPI_MDR_and_Cap.pptx", "UPI hot take")
     src = "NPCI UPI product statistics and app-wise statistics; DFS FAQ on MDR (15 Sep 2026); PIB FY26 release (P2M share)"
-    s = d.slide(f"UPI peaked at {peak.volume_mn/1e3:.2f} bn transactions in {peak.month:%b-%y} and has plateaued since; Oct-26 was {last.volume_mn/1e3:.2f} bn, not the 25.47 bn widely reported", src, "Volume")
+    s = d.slide(f"UPI set a new record in {peak.month:%b-%y}: {peak.volume_mn/1e3:.2f} bn transactions worth Rs {peak.value_cr/1e5:.2f} lakh cr", src + "; Oct-26 full month from NPCI P2P/P2M table via FactIQ", "Volume")
     d.chart(s, XL_CHART_TYPE.COLUMN_CLUSTERED, m.month.dt.strftime("%b-%y").tolist(), [("bn transactions", (m.volume_mn / 1e3).round(2).tolist())], 0.6, 1.7, 9.0, 5.1, colors=[S[0]], legend=False, gap=40)
-    d.text(s, f"Avg ticket Rs {last.avg_ticket_rs:,.0f} (Oct-26)\nValue Rs {last.value_cr/1e5:.2f} lakh cr\n\nThe secondary-press figure for Oct-26 does not match NPCI's own file: always check against source.", 9.9, 2.0, 2.9, 4.0, 14, NAVY, bold=True)
+    d.text(s, f"Avg ticket Rs {last.avg_ticket_rs:,.0f} (Oct-26)\nValue Rs {last.value_cr/1e5:.2f} lakh cr\n\nCorrection: an earlier draft read a 29-day partial row as the October total.", 9.9, 2.0, 2.9, 4.0, 14, NAVY, bold=True)
     s = d.slide(f"The new MDR creates a Rs {grid.pool_cr.min()/1e3:.0f}k-{grid.pool_cr.max()/1e3:.0f}k cr annual pool from <5% of merchant volume; the range hinges on how much P2M value sits above Rs 2,000", src + ". Pool = trailing-12m value x 29% P2M x share above Rs 2,000 x (1 - exempt) x 0.4% x 0.95 cap haircut", "MDR pool")
     gz = grid.pivot(index="p2m_value_above_2000", columns="exempt_share", values="pool_cr")
     d.table(s, ["P2M value above Rs 2k \\ exempt share"] + [f"{int(100*x)}%" for x in gz.columns], [[f"{int(100*i)}%"] + [f"{v:,.0f}" for v in row] for i, row in zip(gz.index, gz.values)], 0.6, 1.9, 8.5, size=14)

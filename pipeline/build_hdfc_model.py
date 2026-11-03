@@ -497,7 +497,7 @@ def build():
     val.scalar("hold_disc", "Holding-company discount", 0.20, "%", "Assumption", num="pct1")
     val.scalar("subs_val", "Subsidiaries, after discount", f"=({val.a('v_life_m')}*{val.a('v_life_s')}+{val.a('v_hdb_m')}*{val.a('v_hdb_s')}+{val.a('v_amc_m')}*{val.a('v_amc_s')})*(1-{val.a('hold_disc')})", "INR cr", "", num="cr", kind="calc")
     val.scalar("sotp", "Sum of the parts equity value", f"={val.a('core_val')}+{val.a('subs_val')}", "INR cr", "", num="cr", kind="calc")
-    val.scalar("sotp_ps", "Per share", f"={val.a('sotp')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
+    val.scalar("sotp_ps", "Sum of the parts per share", f"={val.a('sotp')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
     val.section("Residual income (standalone, including subsidiaries at book)")
     val.scalar("ri_g", "Residual income growth after FY29", 0.05, "%", "Assumption: fade", num="pct2")
     for i, (y, c) in enumerate(zip(["FY27E", "FY28E", "FY29E"], PROJ)):
@@ -507,7 +507,7 @@ def build():
                f"={val.a('ri_L')}/(1+{val.a('ke')})^{val.a('n_L')}+{val.a('ri_M')}/(1+{val.a('ke')})^{val.a('n_M')}+{val.a('ri_N')}/(1+{val.a('ke')})^{val.a('n_N')}", "INR cr", "", num="cr", kind="calc")
     val.scalar("ri_tv", "Present value of terminal residual income", f"={val.a('ri_N')}*(1+{val.a('ri_g')})/({val.a('ke')}-{val.a('ri_g')})/(1+{val.a('ke')})^{val.a('n_N')}", "INR cr", "", num="cr", kind="calc")
     val.scalar("ri_val", "Residual income equity value", f"={md.x('eq', 'K')}+{val.a('ri_pv')}+{val.a('ri_tv')}", "INR cr", "", num="cr", kind="calc")
-    val.scalar("ri_ps", "Per share", f"={val.a('ri_val')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
+    val.scalar("ri_ps", "Residual income per share", f"={val.a('ri_val')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
     val.section("Market view")
     val.scalar("px", "Current share price", f"={inp.x('price')}", "INR", "", num="rs", kind="link")
     val.scalar("pb_now", "Current P/B (standalone)", f"={inp.x('mcap')}/{md.x('eq', 'K')}", "x", "", num="x", kind="calc")

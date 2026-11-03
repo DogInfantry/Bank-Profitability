@@ -16,11 +16,18 @@ Every raw file is hashed in `data/raw/manifest.csv` (url, sha256, bytes, fetch t
 | DFS FAQ on MDR (15 Sep 2026) | MDR rules, exemptions | `fetch.py` | primary |
 | PIB release (24 Aug 2026) | FY26 P2M/P2P split | cited | primary |
 | Crunchbase | Funding for UPI apps and insurance distributors | Crunchbase MCP, request id in CSV | secondary |
-| data.gov.in (OGD) | Optional extra series | `datagov.py`, run locally (API blocks cloud egress); key in gitignored `.env` | optional |
+| data.gov.in (OGD) | Not used. The same RBI and NPCI series come from FactIQ. `datagov.py` is kept for local use; any key lives only in a gitignored `.env` | not used |
+| HDFC Bank Integrated Annual Report 2025-26 | Schedules 3, 4, 8, 9, 13-16 (pp359-366); maturity pattern (p384); ten-year highlights (p234); stakes (p52); branches (p18); employees (p420) | `fetch_docs.py` (PDF gitignored); extracts in `data/inputs/hdfc_*.csv` | primary |
+| RBI via FactIQ | Policy repo path, 10-year G-sec, Survey of Professional Forecasters round 102 | FactIQ MCP -> `data/inputs/rbi_policy_path.csv` | primary |
+| NPCI via FactIQ | P2M value by ticket band (Apr-25 to Oct-26), payee-bank volumes (Sep-26) | FactIQ MCP -> `data/inputs/npci_p2m_monthly.csv`, `npci_payee_banks_sep26.csv` | primary |
+| HDFC Life public disclosures FY26, Q2 FY27 | VNB, APE, VNB margin, embedded value, bancassurance share | cited in `data/inputs/hdfc_group_valuation_inputs.csv` | primary |
+| Screener valuation block (12 banks + HDFC Life, HDFC AMC, HDB Financial) | Market cap, price, book value | `screener.py` -> `data/raw/screener/*_valuation.csv` | secondary |
+| SBI Q2 FY27 press release (3 Nov 2026) | NII, operating profit, PAT, NIM, CASA, credit cost | user upload | primary |
 | public-apis/public-apis | API discovery | `mine_public_apis.py` -> `public_apis_shortlist.md` (58 APIs) | reference |
 
 **Corrections to the original brief, found from primary data:**
-- **UPI, Oct-26:** 23.83 bn transactions / ₹29.25 lakh cr. The 25.47 bn in the secondary press does not match NPCI's file. The record month is Aug-26 at 24.51 bn.
+- **UPI, Oct-26 (our own error, corrected):** an earlier version read the NPCI file's Oct-26 row (23.83 bn) as the full month. It was a 29-day partial (821.7 mn a day x 29). The full month, from NPCI's P2P/P2M table via FactIQ, is 25.47 bn transactions / ₹31.53 lakh cr, so October 2026 is the record month. `upi_model.py` now replaces any month-to-date row with the full month.
+- **SBI Q2 FY27 NIM:** an earlier version said every reported Q2 FY27 NIM fell. SBI's press release (3 Nov 2026) shows whole-bank NIM up 13 bp to 2.94%.
 - **IRDAI EoM path:** general-insurance EoM falls from 25% of GDPI (year 2) to 20% (year 5). The life path is 15% then 12.5%, and insurers already below that must reach 10%.
 - **SBI provisions:** "Total Provisions" includes tax. Ex-tax provisions are ₹17,538 cr, not ₹42,983 cr.
 - **Corporate-agent remuneration:** +125% vs new-business premium +28% over FY23-25. Verified in consultation Part 1, p19.

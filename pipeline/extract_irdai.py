@@ -9,9 +9,8 @@ Output: data/tidy/ins_life_insurers_FY25.csv
 """
 from __future__ import annotations
 
-from pathlib import Path
-
 import difflib
+from pathlib import Path
 
 import openpyxl
 import pandas as pd

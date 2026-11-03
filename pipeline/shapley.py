@@ -50,8 +50,9 @@ def bank_vector(row: dict) -> dict:
 
 
 if __name__ == "__main__":
-    import pandas as pd
     from pathlib import Path
+
+    import pandas as pd
 
     root = Path(__file__).resolve().parents[1]
     w = pd.read_csv(root / "data" / "tidy" / "bank_model_inputs.csv")

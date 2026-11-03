@@ -1,0 +1,41 @@
+topic,call,fiscal_period,claims
+CASA,Q3 FY25,FY2025Q3,6
+CASA,Q4 FY25,FY2025Q4,4
+CASA,Q1 FY26,FY2026Q1,4
+CASA,Q2 FY26,FY2026Q2,0
+CASA,Q3 FY26,FY2026Q3,3
+CASA,Q4 FY26,FY2026Q4,1
+CASA,Q1 FY27,FY2027Q1,6
+CASA,Q2 FY27,FY2027Q2,5
+Deposits and cost of funds,Q3 FY25,FY2025Q3,1
+Deposits and cost of funds,Q4 FY25,FY2025Q4,5
+Deposits and cost of funds,Q1 FY26,FY2026Q1,3
+Deposits and cost of funds,Q2 FY26,FY2026Q2,6
+Deposits and cost of funds,Q3 FY26,FY2026Q3,3
+Deposits and cost of funds,Q4 FY26,FY2026Q4,5
+Deposits and cost of funds,Q1 FY27,FY2027Q1,7
+Deposits and cost of funds,Q2 FY27,FY2027Q2,6
+Borrowings,Q3 FY25,FY2025Q3,4
+Borrowings,Q4 FY25,FY2025Q4,5
+Borrowings,Q1 FY26,FY2026Q1,0
+Borrowings,Q2 FY26,FY2026Q2,0
+Borrowings,Q3 FY26,FY2026Q3,2
+Borrowings,Q4 FY26,FY2026Q4,4
+Borrowings,Q1 FY27,FY2027Q1,6
+Borrowings,Q2 FY27,FY2027Q2,1
+Margin / NIM,Q3 FY25,FY2025Q3,0
+Margin / NIM,Q4 FY25,FY2025Q4,8
+Margin / NIM,Q1 FY26,FY2026Q1,3
+Margin / NIM,Q2 FY26,FY2026Q2,5
+Margin / NIM,Q3 FY26,FY2026Q3,2
+Margin / NIM,Q4 FY26,FY2026Q4,7
+Margin / NIM,Q1 FY27,FY2027Q1,4
+Margin / NIM,Q2 FY27,FY2027Q2,3
+Credit cost,Q3 FY25,FY2025Q3,0
+Credit cost,Q4 FY25,FY2025Q4,3
+Credit cost,Q1 FY26,FY2026Q1,8
+Credit cost,Q2 FY26,FY2026Q2,0
+Credit cost,Q3 FY26,FY2026Q3,2
+Credit cost,Q4 FY26,FY2026Q4,1
+Credit cost,Q1 FY27,FY2027Q1,1
+Credit cost,Q2 FY27,FY2027Q2,2

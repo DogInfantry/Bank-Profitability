@@ -1,0 +1,6 @@
+term,estimate,std_error,observations,r_squared,fy_range,source
+intercept,-0.11197739033065363,0.09746339217637763,9,0.9448581384053456,FY18-FY26 (changes),Screener standalone (Interest; Deposits; Borrowing) tied to IR26; repo from RBI Bank Rate via FactIQ
+beta_same_year,0.3657371396055778,0.10541115691501665,9,0.9448581384053456,FY18-FY26 (changes),Screener standalone (Interest; Deposits; Borrowing) tied to IR26; repo from RBI Bank Rate via FactIQ
+beta_lag_1y,0.2504290931011345,0.13466929295686278,9,0.9448581384053456,FY18-FY26 (changes),Screener standalone (Interest; Deposits; Borrowing) tied to IR26; repo from RBI Bank Rate via FactIQ
+merger_FY24,1.3176033844253021,0.37160609545937895,9,0.9448581384053456,FY18-FY26 (changes),Screener standalone (Interest; Deposits; Borrowing) tied to IR26; repo from RBI Bank Rate via FactIQ
+long_run_beta,0.6161662327067123,0.1583052772732061,9,0.9448581384053456,FY18-FY26 (changes),Screener standalone (Interest; Deposits; Borrowing) tied to IR26; repo from RBI Bank Rate via FactIQ

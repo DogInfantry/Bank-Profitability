@@ -1,5 +1,6 @@
 """Flip the Dashboard scenario selector, recalculate headlessly and export every labelled output to JSON.
 Deck and memo numbers are read from this file, so each one traces to a model cell."""
+import hashlib
 import json
 import subprocess
 import sys
@@ -10,7 +11,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "models/HDFC_RoA_Path_FY29.xlsx"
-SHEETS = ["Model", "Levers", "Valuation", "Fees", "ALM", "Opex_Credit", "Peers", "Margin", "Capital", "Checks"]
+SHEETS = ["Model", "Levers", "Tornado", "Valuation", "Fees", "ALM", "Opex_Credit", "Peers", "Margin", "Capital", "Checks"]
 
 
 def main():
@@ -27,6 +28,8 @@ def main():
                     if isinstance(row[1], str) and any(isinstance(v, (int, float)) for v in row[2:14]):
                         d[f"{name}|{row[1]}"] = list(row[2:14])
             out[scn] = d
+    (ROOT / "data/tidy/hdfc_model_outputs.meta.json").write_text(json.dumps(
+        {"model": str(SRC.relative_to(ROOT)), "model_sha256": hashlib.sha256(SRC.read_bytes()).hexdigest()}, indent=1))
     (ROOT / "data/tidy/hdfc_model_outputs.json").write_text(json.dumps(out, indent=0, default=str))
     print("exported", {k: len(v) for k, v in out.items()})
 

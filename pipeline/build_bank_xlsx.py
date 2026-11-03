@@ -91,7 +91,7 @@ def main() -> None:
     best = shap[(shap.metric == "RoA") & (shap.benchmark == "ICICIBANK")].set_index("bank")
     lines = [
         "ANSWER",
-        f"1. ICICI Bank earns the highest FY26 RoA in the peer set. The four gaps to it have different causes, so there is no single fix.",
+        "1. ICICI Bank earns the highest FY26 RoA in the peer set. The four gaps to it have different causes, so there is no single fix.",
         f"2. SBI (gap {best.loc['SBIN','gap']:.2f} pp): almost entirely margin. NII explains {best.loc['SBIN','nii']:.2f} pp; SBI's opex per rupee of assets is LOWER than ICICI's ({best.loc['SBIN','opex']:+.2f} pp).",
         f"3. Axis (gap {best.loc['AXISBANK','gap']:.2f} pp): margin {best.loc['AXISBANK','nii']:.2f} pp plus credit cost {best.loc['AXISBANK','prov']:.2f} pp, which includes a one-off Rs 2,001 cr standard-asset provision in Q4.",
         f"4. Kotak (gap {best.loc['KOTAKBANK','gap']:.2f} pp): a cost problem. It has the best NII margin but opex absorbs {best.loc['KOTAKBANK','opex']:.2f} pp.",

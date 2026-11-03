@@ -62,6 +62,12 @@ Limits: IRDAI does not publish commission by PPT or by insurer x channel, so the
 | Levers | Six driver changes on top of the selected scenario in FY29E, each converted to pre-tax, PAT, bp of RoA, RoE and equity value (at justified P/B). Priority score = RoA x feasibility / months to impact. |
 | Scenarios | Base, Upside, Downside on every driver, chosen with a single selector (Dashboard!E5, named `Scenario`). `pipeline/export_scenarios.py` flips the selector, recalculates headlessly and writes `data/tidy/hdfc_model_outputs.json`; the deck, memo and cockpit read only that file. |
 
+| RoA walk | Shapley attribution of HDFC's own RoA change (FY23 to FY24, FY24 to FY26, FY26 to Q2 FY27 annualised) across NII, other income, opex, provisions and tax rate; reuses `pipeline/shapley.py`. |
+| Funding-cost beta | Annual cost of funds = interest expended / average (deposits + borrowings), FY16-FY26. Fiscal-year average repo is time-weighted from RBI Bank Rate change dates less the MSF spread (100 bp to Mar 2016, 50 bp to Mar 2017, 25 bp after). OLS of the change in cost of funds on the change in repo, same year and one-year lag, with a merger dummy for FY24. Nine observations, so it is used as a range-finder for the beta input. |
+| Tornado | One driver at a time, the Base input row (FY27E-FY29E) is set to the element-wise min and max of the three scenario rows. The deposit beta instead runs 0.25 to the regression long-run beta. The whole workbook is recalculated in LibreOffice and FY29E RoA is read back. |
+| Peer anchors | For CASA, borrowings share of funding, asset yield and UPI payee share, the share of the gap to a named benchmark (SBI, ICICI Bank, Axis Bank) that each lever closes. Lever sizes are unchanged. |
+| Call topics | FactIQ earnings-call claim search per topic over the last eight calls. Retrieval is lexical and capped at 50 claims, so counts indicate emphasis, not completeness. |
+
 **Excel standard.** Garamond throughout, no italics; blue inputs, black formulas, green cross-sheet links, red checks; grey fill only on inputs and historical columns; no merged cells; one formula pattern per row per block; no numbers inside formulas other than 0, 1 and 2. `pipeline/xlsx_lint.py --strict` enforces all of these and runs inside `checks.py`.
 
 ## Visual standards

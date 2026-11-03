@@ -23,6 +23,8 @@ Every raw file is hashed in `data/raw/manifest.csv` (url, sha256, bytes, fetch t
 | HDFC Life public disclosures FY26, Q2 FY27 | VNB, APE, VNB margin, embedded value, bancassurance share | cited in `data/inputs/hdfc_group_valuation_inputs.csv` | primary |
 | Screener valuation block (12 banks + HDFC Life, HDFC AMC, HDB Financial) | Market cap, price, book value | `screener.py` -> `data/raw/screener/*_valuation.csv` | secondary |
 | SBI Q2 FY27 press release (3 Nov 2026) | NII, operating profit, PAT, NIM, CASA, credit cost | user upload | primary |
+| RBI Bank Rate change dates via FactIQ (2012-2026) | Repo history for the funding-cost beta (Bank Rate less the MSF spread) | FactIQ MCP -> `data/inputs/rbi_repo_history.csv` | primary, derived |
+| HDFC Bank earnings-call claims via FactIQ (eight calls to Q2 FY27) | Topic counts and the latest claim per topic | FactIQ MCP, cached in gitignored `data/raw/factiq/` -> `data/tidy/hdfc_call_topics*.csv` | primary transcripts, structured by FactIQ |
 | public-apis/public-apis | API discovery | `mine_public_apis.py` -> `public_apis_shortlist.md` (58 APIs) | reference |
 
 **Corrections to the original brief, found from primary data:**

@@ -97,7 +97,7 @@ def hdfc_payload() -> dict:
     Y = ["FY20A", "FY21A", "FY22A", "FY23A", "FY24A", "FY25A", "FY26A", "FY27E", "FY28E", "FY29E"]
     col = lambda k, s, y: O[s][k][2 + Y.index(y)]  # noqa: E731
     sc = {}
-    for s in O:
+    for s in [k for k in O if not k.startswith("_")]:
         sc[s] = dict(
             roa=[r(100 * col("Model|Return on average assets", s, y), 3) for y in Y[1:]],
             nim=[r(100 * col("Model|Net interest margin on interest-earning assets", s, y), 3) for y in Y[1:]],
@@ -115,7 +115,22 @@ def hdfc_payload() -> dict:
     q = f[(f.entity == "HDFCBANK") & (f.period == "Q2FY27")].set_index("metric").value
     short = {"Rebuild CASA": "CASA", "Retire legacy borrowings faster": "Borrowings", "Re-mix advances to higher-yield retail and SME": "Re-mix",
              "Branch and operations productivity": "Productivity", "Protect bancassurance and grow card fees": "Fees", "Win UPI merchant acquiring share": "UPI"}
-    return dict(years=[y[:4] for y in Y[1:]], sc=sc, lev=lev, short=short,
+    walk = pd.read_csv(T / "hdfc_roa_walk.csv")
+    wk = [dict(step=x.step, chg=r(x.change_bp, 1), nii=r(x.nii_bp, 1), oi=r(x.oi_bp, 1), opex=r(x.opex_bp, 1), prov=r(x.prov_bp, 1), tax=r(x.tax_rate_bp, 1))
+          for x in walk.itertuples()]
+    td = pd.read_csv(T / "hdfc_tornado.csv")
+    torn = [dict(d=x.driver, lo=r(100 * (x.roa_low_input_pct - x.roa_base_pct), 1), hi=r(100 * (x.roa_high_input_pct - x.roa_base_pct), 1),
+                 lov=r(x.low_input_fy29, 4), hiv=r(x.high_input_fy29, 4), sw=r(x.swing_bp, 1)) for x in td.itertuples()]
+    anc = [dict(lever=k.split("|")[1], hdfc=v[0], bench=v[1], src=v[2], share=r(100 * v[5], 0)) for k, v in b.items()
+           if k.startswith("Levers|") and len(v) > 5 and isinstance(v[2], str) and isinstance(v[5], float)]
+    ct = pd.read_csv(T / "hdfc_call_topics.csv")
+    ctp = ct.pivot(index="topic", columns="call", values="claims")
+    calls = list(dict.fromkeys(ct.call))
+    ctl = pd.read_csv(T / "hdfc_call_topics_latest.csv").fillna("")
+    beta = pd.read_csv(T / "hdfc_deposit_beta.csv").set_index("term").estimate
+    return dict(walk=wk, torn=torn, anc=anc, topics=dict(calls=calls, topics=ctp.index.tolist(), z=[[int(ctp.loc[t, c]) for c in calls] for t in ctp.index]),
+                topic_latest=ctl.to_dict("records"), beta=dict(b0=r(beta["beta_same_year"], 2), lr=r(beta["long_run_beta"], 2)),
+                years=[y[:4] for y in Y[1:]], sc=sc, lev=lev, short=short,
                 q2_roa=r(100 * q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2), 2),
                 price=r(b["Valuation|Current share price"][2], 0), roe_impl=r(100 * b["Valuation|RoE the market is pricing"][2], 1),
                 ke=r(100 * b["Valuation|Cost of equity"][2], 2), v10=r(b["Valuation|Value of +10 bp RoA (equity value)"][2], 0),
@@ -178,7 +193,13 @@ footer{max-width:1240px;margin:auto;padding:8px 16px 40px;color:var(--text-muted
   <div class="card"><h3>Six levers, ranked by RoA uplift (base case)</h3><p class="note">FY29E, on top of the base case. Sizes and timing are judgements for discussion.</p><div class="plot" id="p_hlev"></div><details><summary>Table</summary><div class="wrap" id="tb_hlev"></div></details></div>
   <div class="card"><h3>Drivers to watch: NIM, CASA and credit cost</h3><p class="note">%, selected scenario.</p><div class="plot" id="p_hdrv"></div></div>
  </div>
- <div class="tiles" style="margin-top:16px"><div class="tile"><div class="v" id="h_ear"></div><div class="l">NII earnings at risk, +100 bp, ₹ cr (asset-sensitive)</div></div>
+ <div class="grid" style="margin-top:16px">
+  <div class="card"><h3>What the merger changed: HDFC Bank's own RoA walk</h3><p class="note">bp of RoA by factor, Shapley (order-independent); sums to the change. Positive = raised RoA.</p><div class="plot" id="p_hwalk"></div><details><summary>Table</summary><div class="wrap" id="tb_hwalk"></div></details></div>
+  <div class="card"><h3>What moves FY29E RoA most: one driver at a time</h3><p class="note">bp vs Base FY29E RoA, each driver at the low and high end of its scenario range (live model recalculated).</p><div class="plot" id="p_htorn"></div><details><summary>Table</summary><div class="wrap" id="tb_htorn"></div></details></div>
+  <div class="card"><h3>The levers close only part of the gap to named peers</h3><p class="note">Share of the gap to best demonstrated practice that each lever closes. Opex and fees have no peer gap: HDFC already leads.</p><div class="wrap" id="tb_hanc"></div></div>
+  <div class="card"><h3>What management talks about on calls</h3><p class="note">Claims retrieved per topic per call (FactIQ claim graph; lexical, capped, indicative of emphasis).</p><div class="plot" id="p_htop"></div><details><summary>Latest claim per topic (paraphrase)</summary><div class="wrap" id="tb_htop"></div></details></div>
+ </div>
+ <div class="tiles" style="margin-top:16px"><div class="tile"><div class="v" id="h_beta"></div><div class="l">Funding-cost beta: same year / long run (regression FY17-FY26)</div></div><div class="tile"><div class="v" id="h_ear"></div><div class="l">NII earnings at risk, +100 bp, ₹ cr (asset-sensitive)</div></div>
  <div class="tile"><div class="v" id="h_ir"></div><div class="l">IRDAI caps: bank fee lost, FY29E, ₹ cr</div></div>
  <div class="tile"><div class="v" id="h_mdr"></div><div class="l">UPI MDR revenue, FY29E, ₹ cr</div></div></div>
 </section>
@@ -257,9 +278,47 @@ function drawH(){
  Plotly.react('p_hdrv',[['nim','NIM',css('--s1')],['casa','CASA ratio (right of chart is year end)',css('--s3')],['cc','Credit cost',css('--s2')]].map(([k,n,c])=>({type:'scatter',mode:'lines+markers',name:n.split(' (')[0],x:H.years,y:S[k],line:{color:c,width:2},marker:{size:7,color:c},hovertemplate:n.split(' (')[0]+' %{x}: %{y:.2f}%<extra></extra>',xaxis:k==='casa'?'x2':'x',yaxis:k==='casa'?'y2':'y'})),
   base({grid:{rows:2,columns:1,pattern:'independent'},yaxis:{title:'NIM, credit cost %',gridcolor:css('--grid'),domain:[0,0.45]},yaxis2:{title:'CASA %',gridcolor:css('--grid'),domain:[0.58,1]},xaxis:{anchor:'y'},xaxis2:{anchor:'y2',matches:'x',showticklabels:false},hovermode:'x unified'}),cfg);
 }
-document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{SCN=b.dataset.s;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));drawH()});
+function drawH2(){
+ const H=D.hd, acc=css('--accent'), mut=css('--text-muted');
+ $('h_beta').textContent=H.beta.b0.toFixed(2)+' / '+H.beta.lr.toFixed(2);
+ const fk=[['nii','NII'],['oi','Other income'],['opex','Opex'],['prov','Provisions'],['tax','Tax']];
+ Plotly.react('p_hwalk',H.walk.map((w,i)=>({type:'bar',orientation:'h',name:w.step,y:fk.map(f=>f[1]),x:fk.map(f=>w[f[0]]),marker:{color:i===H.walk.length-1?acc:[css('--seq-lo'),css('--s3'),mut][i%3]},
+  hovertemplate:w.step+'<br>%{y}: %{x:+.1f} bp<extra></extra>',visible:i===H.walk.length-1||i<3?true:'legendonly'})),
+  base({barmode:'group',margin:{l:100,r:16,t:8,b:60},legend:{orientation:'h',y:-0.25},xaxis:{title:'bp of RoA',gridcolor:css('--grid'),zerolinecolor:css('--text-muted')},yaxis:{autorange:'reversed'}}),cfg);
+ table('tb_hwalk',[['Step',r=>r.step],['Change',r=>r.chg],...fk.map(f=>[f[1],r=>r[f[0]]])],H.walk);
+ const t=[...H.torn].reverse(), nar=$('p_htorn').clientWidth<520;
+ Plotly.react('p_htorn',[{type:'bar',orientation:'h',name:'Low input',y:t.map(r=>r.d),x:t.map(r=>r.lo),marker:{color:mut},hovertemplate:'%{y}<br>low input: %{x:+.1f} bp<extra></extra>'},
+  {type:'bar',orientation:'h',name:'High input',y:t.map(r=>r.d),x:t.map(r=>r.hi),marker:{color:acc},hovertemplate:'%{y}<br>high input: %{x:+.1f} bp<extra></extra>'}],
+  base({barmode:'overlay',margin:{l:nar?130:250,r:16,t:8,b:60},legend:{orientation:'h',y:-0.2},xaxis:{title:'bp vs Base FY29E RoA',gridcolor:css('--grid'),zerolinecolor:css('--text-primary')},yaxis:{tickfont:{size:nar?10:12}}}),cfg);
+ table('tb_htorn',[['Driver',r=>r.d],['Low input',r=>r.lov],['High input',r=>r.hiv],['Low, bp',r=>r.lo],['High, bp',r=>r.hi],['Swing, bp',r=>r.sw]],H.torn);
+ const pf=(v)=>typeof v==='number'?(v<1?(100*v).toFixed(v<0.1?2:1)+'%':v.toLocaleString('en-IN')):v;
+ table('tb_hanc',[['Lever',r=>r.lever],['HDFC Bank',r=>pf(r.hdfc)],['Benchmark',r=>pf(r.bench)],['Source',r=>r.src],['Share of gap closed',r=>r.share+'%']],H.anc);
+ Plotly.react('p_htop',[{type:'heatmap',x:H.topics.calls,y:H.topics.topics,z:H.topics.z,colorscale:[[0,css('--surface-1')],[1,css('--seq-hi')]],texttemplate:'%{z}',showscale:false,hovertemplate:'%{y}, %{x}: %{z} claims<extra></extra>'}],
+  base({margin:{l:170,r:16,t:8,b:44}}),cfg);
+ table('tb_htop',[['Topic',r=>r.topic],['Call',r=>r.call],['What was said (paraphrase)',r=>r.paraphrase+(r.verbatim_url?` <a href="${r.verbatim_url}" target="_blank" rel="noopener">source</a>`:'')]],H.topic_latest);
+}
+document.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{SCN=b.dataset.s;function drawH2(){
+ const H=D.hd, acc=css('--accent'), mut=css('--text-muted');
+ $('h_beta').textContent=H.beta.b0.toFixed(2)+' / '+H.beta.lr.toFixed(2);
+ const fk=[['nii','NII'],['oi','Other income'],['opex','Opex'],['prov','Provisions'],['tax','Tax']];
+ Plotly.react('p_hwalk',H.walk.map((w,i)=>({type:'bar',orientation:'h',name:w.step,y:fk.map(f=>f[1]),x:fk.map(f=>w[f[0]]),marker:{color:i===H.walk.length-1?acc:[css('--seq-lo'),css('--s3'),mut][i%3]},
+  hovertemplate:w.step+'<br>%{y}: %{x:+.1f} bp<extra></extra>',visible:i===H.walk.length-1||i<3?true:'legendonly'})),
+  base({barmode:'group',margin:{l:100,r:16,t:8,b:60},legend:{orientation:'h',y:-0.25},xaxis:{title:'bp of RoA',gridcolor:css('--grid'),zerolinecolor:css('--text-muted')},yaxis:{autorange:'reversed'}}),cfg);
+ table('tb_hwalk',[['Step',r=>r.step],['Change',r=>r.chg],...fk.map(f=>[f[1],r=>r[f[0]]])],H.walk);
+ const t=[...H.torn].reverse(), nar=$('p_htorn').clientWidth<520;
+ Plotly.react('p_htorn',[{type:'bar',orientation:'h',name:'Low input',y:t.map(r=>r.d),x:t.map(r=>r.lo),marker:{color:mut},hovertemplate:'%{y}<br>low input: %{x:+.1f} bp<extra></extra>'},
+  {type:'bar',orientation:'h',name:'High input',y:t.map(r=>r.d),x:t.map(r=>r.hi),marker:{color:acc},hovertemplate:'%{y}<br>high input: %{x:+.1f} bp<extra></extra>'}],
+  base({barmode:'overlay',margin:{l:nar?130:250,r:16,t:8,b:60},legend:{orientation:'h',y:-0.2},xaxis:{title:'bp vs Base FY29E RoA',gridcolor:css('--grid'),zerolinecolor:css('--text-primary')},yaxis:{tickfont:{size:nar?10:12}}}),cfg);
+ table('tb_htorn',[['Driver',r=>r.d],['Low input',r=>r.lov],['High input',r=>r.hiv],['Low, bp',r=>r.lo],['High, bp',r=>r.hi],['Swing, bp',r=>r.sw]],H.torn);
+ const pf=(v)=>typeof v==='number'?(v<1?(100*v).toFixed(v<0.1?2:1)+'%':v.toLocaleString('en-IN')):v;
+ table('tb_hanc',[['Lever',r=>r.lever],['HDFC Bank',r=>pf(r.hdfc)],['Benchmark',r=>pf(r.bench)],['Source',r=>r.src],['Share of gap closed',r=>r.share+'%']],H.anc);
+ Plotly.react('p_htop',[{type:'heatmap',x:H.topics.calls,y:H.topics.topics,z:H.topics.z,colorscale:[[0,css('--surface-1')],[1,css('--seq-hi')]],texttemplate:'%{z}',showscale:false,hovertemplate:'%{y}, %{x}: %{z} claims<extra></extra>'}],
+  base({margin:{l:170,r:16,t:8,b:44}}),cfg);
+ table('tb_htop',[['Topic',r=>r.topic],['Call',r=>r.call],['What was said (paraphrase)',r=>r.paraphrase+(r.verbatim_url?` <a href="${r.verbatim_url}" target="_blank" rel="noopener">source</a>`:'')]],H.topic_latest);
+}
+document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));drawH()});
 function draw(){
- drawH();
+ drawH(); drawH2();
  const k=D.kpi_bank; $('k_gap').textContent=Math.round(k.sbi_gap_bp); $('k_nii').textContent=k.sbi_nii_share; $('t1').textContent=k.best.toFixed(2)+'%'; $('t2').textContent=k.sbi.toFixed(2)+'%'; $('t3').textContent=D.nim.filter(r=>r.chg<0).length+' of '+D.nim.length;
  const comps=[['nii','NII',css('--s1')],['oi','Other income',css('--s3')],['opex','Opex',css('--s2')],['prov','Provisions',css('--s4')],['tax','Tax',css('--s5')]];
  const banks=D.tree.map(r=>r.bank);

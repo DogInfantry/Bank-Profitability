@@ -13,7 +13,7 @@ from pptx.chart.data import CategoryChartData
 from pptx.dml.color import RGBColor
 from pptx.enum.chart import XL_CHART_TYPE, XL_LEGEND_POSITION, XL_TICK_LABEL_POSITION
 from pptx.enum.text import PP_ALIGN
-from pptx.util import Emu, Inches, Pt
+from pptx.util import Inches, Pt
 
 ROOT = Path(__file__).resolve().parents[1]
 T, I = ROOT / "data" / "tidy", ROOT / "data" / "inputs"
@@ -132,7 +132,7 @@ def bank_deck():
     # 2 NIM
     fell = nim[nim.change_bp < 0]
     s = d.slide(f"Private-bank margins fell {abs(fell.change_bp.max()):.0f}-{abs(fell.change_bp.min()):.0f} bp between Q4 FY26 and Q2 FY27, while SBI's rose {nim[nim.bank == 'SBIN'].change_bp.iloc[0]:.0f} bp", "Bank investor presentations Q4 FY26 and Q2 FY27; SBI Q2 FY27 press release (3 Nov 2026). HDFC NIM on total assets, SBI whole bank, others on interest-earning assets", "Context")
-    ch = d.chart(s, XL_CHART_TYPE.COLUMN_CLUSTERED, [BN[b] for b in nim.bank], [("Q4 FY26", nim.q4fy26_nim.tolist()), ("Q2 FY27", nim.q2fy27_nim.tolist())], 0.6, 1.7, 8.2, 5.0, colors=[GRAY, S[0]], labels=True, fmt="0.00")
+    d.chart(s, XL_CHART_TYPE.COLUMN_CLUSTERED, [BN[b] for b in nim.bank], [("Q4 FY26", nim.q4fy26_nim.tolist()), ("Q2 FY27", nim.q2fy27_nim.tolist())], 0.6, 1.7, 8.2, 5.0, colors=[GRAY, S[0]], labels=True, fmt="0.00")
     d.text(s, "\n".join(f"{BN[r.bank]}: {r.change_bp:+.0f} bp" for r in nim.itertuples()), 9.2, 2.0, 3.6, 2.5, 16, NAVY, bold=True)
     d.text(s, "Asset yields reset faster than deposit costs for the private banks. SBI's 38% CASA cushioned it: funding mix, not the cycle alone, drives margin.", 9.2, 4.4, 3.6, 2.0, 13, MUTED)
     # 3 scorecard

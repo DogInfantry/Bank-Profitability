@@ -21,7 +21,6 @@ import numpy as np
 import openpyxl
 import pandas as pd
 import xlsxwriter
-from xlsxwriter.utility import xl_rowcol_to_cell
 
 ROOT = Path(__file__).resolve().parents[1]
 INP = ROOT / "data" / "inputs"
@@ -229,8 +228,6 @@ def write_xlsx(ir, caps, t99, reset, mc, expo):
         s2.write(3 + i, 0, lab, F["lbl"])
         for j, s in enumerate(["Public", "Private"]):
             s2.write_formula(3 + i, 1 + j, fn(s), F["pct1"])
-        ind = fn("Public").replace("=", "", 1)
-        both = fn("Private").replace("=", "", 1)
         # industry = sum-based recompute
         s2.write_formula(3 + i, 3, "=" + _industry(fn), F["pct1"])
     s2.write(12, 0, "Reading: private first-year commission (~27%) already exceeds the 20% entity cap for >=10y PPT before any rewards or 'other' payouts.", F["sub"])

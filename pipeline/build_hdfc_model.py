@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from xlmodel import BLACK, BLUE, COLS, GREEN, GREY, HIST, PROJ, RED, YEARS, Book, prev
+from xlmodel import BLACK, BLUE, GREEN, GREY, PROJ, RED, YEARS, Book, prev
 
 ROOT = Path(__file__).resolve().parents[1]
 I, T, S = ROOT / "data/inputs", ROOT / "data/tidy", ROOT / "data/raw/screener"
@@ -33,6 +33,11 @@ def load():
     promo = pd.read_csv(T / "ins_promoter_bank_hit.csv")
     expo = pd.read_csv(T / "ins_insurer_exposure.csv")
     return h, sch, bs, grp, mat, p2m, payee, promo, expo
+
+
+def scr_val(sym, section, item, period):
+    t = pd.read_csv(S / f"{sym}_tables.csv")
+    return float(t[(t.section == section) & (t.line_item == item) & (t.period == period)].value.iloc[0])
 
 
 def hist_series(h, metric):
@@ -80,6 +85,9 @@ def build():
     cap = B.sheet("Capital", "Capital and growth capacity", "Tier 1 proxy, risk-weight density and internal capital generation.")
     lev = B.sheet("Levers", "Value levers: FY29E impact on RoA, PAT and equity value", "Each lever is a driver change on top of the selected scenario.", timeline=False, widths=(2, 44, 12, 46))
     val = B.sheet("Valuation", "Valuation: justified P/B, residual income and sum of the parts", "Cost of equity by CAPM; terminal assumptions are inputs.", timeline=False, widths=(2, 44, 12, 46))
+    TORN = T / "hdfc_tornado.csv"
+    tor = B.sheet("Tornado", "Tornado: FY29E RoA sensitivity, one driver at a time", "Values from a Python recalculation of this workbook (pipeline/tornado.py), Base scenario; not live formulas.",
+                  timeline=False, widths=(2, 40, 14, 14)) if TORN.exists() else None
     sen = B.sheet("Sensitivities", "Sensitivities", "Explicit formula grids (no Data Tables), so they recalculate in any spreadsheet.", timeline=False, widths=(2, 30, 12, 12))
     peer = B.sheet("Peers", "Peer set: twelve listed banks, FY26 standalone", "P/B against RoE across the peer set gives the market's price for an extra point of return.", timeline=False, widths=(2, 26, 10, 12))
     chk = B.sheet("Checks", "Checks", "Any FAIL turns the master flag on the Cover red.", timeline=False, widths=(2, 70, 14, 12))
@@ -112,7 +120,7 @@ def build():
     driver("b_bor", "Cost beta: borrowings", "x", "Assumption: legacy bonds largely fixed-rate", [0.30] * 3, [0.30] * 3, [0.30] * 3, num="num")
     inp.section("Balance sheet")
     driver("g_loan", "Advances growth", "%", "S1 Q2 FY27 deck: average advances +14.1% YoY", [0.13, 0.14, 0.14], [0.15, 0.16, 0.16], [0.11, 0.11, 0.12])
-    driver("g_dep", "Deposit growth", "%", "S1 Q2 FY27 deck: deposits +18.8% YoY (Sep-26 vs Sep-25)", [0.15, 0.14, 0.14], [0.17, 0.16, 0.16], [0.12, 0.12, 0.12])
+    driver("g_dep", "Deposit growth", "%", "S1 Q2 FY27 deck: deposits +18.8% YoY. With advances growth it sets the CD ratio (an output; about 93% in all scenarios)", [0.15, 0.14, 0.14], [0.17, 0.16, 0.16], [0.12, 0.12, 0.12])
     driver("casa", "CASA ratio, year end", "%", "S1 Q2 FY27 deck: 32% (Sep-26) vs 38% pre-merger", [0.325, 0.33, 0.335], [0.33, 0.345, 0.36], [0.315, 0.315, 0.32])
     driver("runoff", "Share of maturing borrowings retired", "%", "Remainder is refinanced", [0.60] * 3, [0.80] * 3, [0.30] * 3)
     inp.line("matur", "Borrowings maturing in year", "INR cr", "S2 IR26 p384: <=1y 1,93,209; 1-3y 78,306 split evenly", proj=[193209.0, 39153.0, 39153.0])
@@ -223,7 +231,7 @@ def build():
             hist=lambda c: f"=({hs.xr('ii', c)}-{hs.xr('ii_adv', c)})/{md.a('a_liq', c)}" if c in ("J", "K") else None,
             proj=lambda c: f"={md.a('y_liq', prev(c))}+{inp.xr('b_inv', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})")
     md.line("casa", "CASA ratio, year end", "%", "", num="pct1", hist_kind="calc",
-            hist=lambda c: f"={hs.xr('casa_cr', c)}/{hs.xr('dep', c)}" if c in ("J", "K") else None, proj=lambda c: f"={inp.xr('casa', c)}")
+            hist=lambda c: f"={hs.xr('casa_cr', c)}/{hs.xr('dep', c)}" if c in ("J", "K") else None, proj=lambda c: f"={inp.xr('casa', c)}", proj_kind="link")
     md.line("c_dep", "Cost of deposits", "%", "Prior + beta x change in repo + CASA mix effect", num="pct2", hist_kind="calc",
             hist=lambda c: f"={hs.xr('ie_dep', c)}/{md.a('a_dep', c)}" if c in ("J", "K") else None,
             proj=lambda c: f"={md.a('c_dep', prev(c))}+{inp.xr('b_dep', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})+({md.a('casa', prev(c))}-{md.a('casa', c)})*{inp.xr('spread_td', c)}")
@@ -240,7 +248,7 @@ def build():
     md.line("fee", "Core fee income", "INR cr", "Commission, exchange and brokerage", hist=L("fee"), hist_kind="link",
             proj=lambda c: f"={md.a('fee', prev(c))}*(1+{inp.xr('g_fee', c)})")
     md.line("irdai", "IRDAI commission caps: bank fee lost", "INR cr", "Fees tab", proj=lambda c: f"=-{fee.xr('bank_hit', c)}")
-    md.line("mdr", "UPI MDR revenue", "INR cr", "Fees tab", proj=lambda c: f"={fee.xr('mdr_hdfc', c)}")
+    md.line("mdr", "UPI MDR revenue", "INR cr", "Fees tab", proj=lambda c: f"={fee.xr('mdr_hdfc', c)}", proj_kind="link")
     md.line("oth", "Treasury and other non-fee income", "INR cr", "Hist: other income less fees; projection: % of average assets",
             hist=lambda c: f"={hs.xr('oi', c)}-{hs.xr('fee', c)}" if c in ("J", "K") else None, hist_kind="link",
             proj=lambda c: f"={inp.xr('oi_pct', c)}*{md.a('a_ta_x', c)}")
@@ -306,6 +314,22 @@ def build():
             proj=lambda c: f"={md.xr('a_bor', c)}/({md.xr('a_dep', c)}+{md.xr('a_bor', c)})", num="pct1")
     mg.line("runoff_gain", "Run-off saving vs refinancing at borrowing cost", "INR cr", "Retired borrowings x (cost of borrowings - cost of deposits)",
             proj=lambda c: f"={inp.xr('matur', c)}*{inp.xr('runoff', c)}*({md.xr('c_bor', c)}-{md.xr('c_dep', c)})")
+    mg.skip()
+    mg.section("RoA walk over time: Shapley attribution by factor (bp of RoA)")
+    walk = pd.read_csv(T / "hdfc_roa_walk.csv")
+    hdr = ["Step", "RoA from", "RoA to", "Change", "NII", "Other income", "Opex", "Provisions", "Tax", "Unexplained"]
+    for j, t_ in enumerate(hdr):
+        mg.ws.write(mg.r, 1 + j, t_, B.f(bold=True, bottom=True, align="right" if j else None))
+    mg.r += 1
+    for _, w_ in walk.iterrows():
+        r = mg.r
+        mg.ws.write(r, 1, w_.step, B.f())
+        for j, (val_, nf) in enumerate(((w_.roa_from_pct / 100, "pct2"), (w_.roa_to_pct / 100, "pct2"), (w_.change_bp, "num"), (w_.nii_bp, "num"), (w_.oi_bp, "num"),
+                                        (w_.opex_bp, "num"), (w_.prov_bp, "num"), (w_.tax_rate_bp, "num"))):
+            mg.ws.write_number(r, 2 + j, float(val_), B.f(num=nf, color=BLUE, fill=True))
+        mg.ws.write_formula(r, 10, f"=E{r+1}-SUM(F{r+1}:J{r+1})", B.f(num="num", color=RED))
+        mg.r += 1
+    mg.note("Source: data/tidy/hdfc_roa_walk.csv (pipeline/hdfc_walk.py): IR26 p234 for FY23, FY24, FY26; Q2 FY27 annualised. Positive = factor raised RoA. FY24 tax effect reflects a one-off.")
 
     # ================================================================ ALM
     alm.section("Repricing gap, 31 March 2026 (INR cr)")
@@ -349,6 +373,15 @@ def build():
     alm.section("Deposit beta, realised FY25 to FY26")
     alm.scalar("beta_real", "Change in cost of deposits / change in average repo", f"=({md.x('c_dep', 'K')}-{md.x('c_dep', 'J')})/({inp.x('repo', 'K')}-{inp.x('repo', 'J')})", "x",
                "Two-point estimate; term deposits reprice with a lag", num="num", kind="calc")
+    alm.section("Funding-cost beta, regression FY17-FY26 (annual)")
+    bt = pd.read_csv(T / "hdfc_deposit_beta.csv").set_index("term")
+    src_b = "data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)"
+    alm.scalar("beta_b0", "Same-year beta: change in cost of funds per 1 pp change in average repo", float(bt.loc["beta_same_year", "estimate"]), "x", src_b, num="num")
+    alm.scalar("beta_b0_se", "  Standard error", float(bt.loc["beta_same_year", "std_error"]), "x", "OLS", num="num")
+    alm.scalar("beta_b1", "One-year-lag beta", float(bt.loc["beta_lag_1y", "estimate"]), "x", src_b, num="num")
+    alm.scalar("beta_lr", "Long-run beta (same year + lag)", f"={alm.a('beta_b0')}+{alm.a('beta_b1')}", "x", "Risk case: costs keep catching up in year two", num="num", kind="calc")
+    alm.scalar("beta_r2", "R-squared", float(bt.loc["beta_same_year", "r_squared"]), "x", f"{int(bt.loc['beta_same_year', 'observations'])} annual changes; merger dummy FY24", num="num")
+    alm.scalar("beta_vs_input", "Model base deposit beta less same-year estimate", f"={inp.x('b_dep', 'L')}-{alm.a('beta_b0')}", "x", "Near zero supports the base input", num="num", kind="calc")
 
     # ================================================================ Fees
     fee.section("IRDAI proposed caps: bank fee at risk")
@@ -577,6 +610,46 @@ def build():
     lev.scalar("b4", "RoA FY29E with levers", f"={lev.a('b2')}+{lev.a('b3')}", "bp", "", num="bp", kind="calc")
     lev.scalar("target", "Target", 200, "bp", "Problem statement: 2.0%", num="bp")
     lev.scalar("gap", "Shortfall (-) / headroom (+) to target", f"={lev.a('b4')}-{lev.a('target')}", "bp", "", num="bp", kind="calc")
+    lev.r += 1
+    lev.section("Peer anchors: share of the gap to best demonstrated practice that each lever closes")
+    hdr = ["Lever", "HDFC Bank", "Benchmark", "Benchmark source", "Gap", "Lever closes", "Share of gap"]
+    for j, t_ in enumerate(hdr):
+        lev.ws.write(lev.r, 1 + j, t_, B.f(bold=True, bottom=True, align="right" if j and j != 3 else None))
+    lev.r += 1
+    ic_avg = (scr_val("ICICIBANK", "balance-sheet", "Total Assets", "Mar 2026") + scr_val("ICICIBANK", "balance-sheet", "Total Assets", "Mar 2025")) / 2
+    ic_yield = scr_val("ICICIBANK", "profit-loss", "Revenue", "Mar 2026") / ic_avg
+    ic_bshare = scr_val("ICICIBANK", "balance-sheet", "Borrowing", "Mar 2026") / (scr_val("ICICIBANK", "balance-sheet", "Borrowing", "Mar 2026") + scr_val("ICICIBANK", "balance-sheet", "Deposits", "Mar 2026"))
+    pay = payee.set_index("bank").payee_volume_mn
+    axis_share = float(pay["Axis Bank"] / pay.sum())
+    anchors = [
+        ("a1", "Rebuild CASA (CASA ratio)", f"={md.x('casa', 'K')}", 0.3832, "SBI Q2 FY27 press release (38.32%); HDFC pre-merger 38% (Q2 FY27 deck)",
+         None, "pct1"),
+        ("a2", "Retire legacy borrowings (share of funding)", f"={md.x('bor', 'K')}/({md.x('bor', 'K')}+{md.x('dep', 'K')})", ic_bshare, "ICICI Bank, Mar 2026 (Screener balance sheet)",
+         None, "pct1"),
+        ("a3", "Re-mix advances (interest earned / average assets)", f"={md.x('ii', 'K')}/{md.x('a_ta', 'K')}", ic_yield, "ICICI Bank FY26 (Screener)", None, "pct2"),
+        ("a4", "Win UPI acquiring (payee share)", f"={fee.x('hd_share')}", axis_share, "Axis Bank, Sep 2026 (NPCI payee banks)", None, "pct1"),
+    ]
+    for k, nm, hd_f, bench, src_, _unused, nf in anchors:
+        r = lev.r
+        lev.ws.write(r, 1, nm, B.f())
+        lev.ws.write_formula(r, 2, hd_f, B.f(num=nf, color=GREEN))
+        lev.ws.write_number(r, 3, bench, B.f(num=nf, color=BLUE, fill=True))
+        lev.ws.write(r, 4, src_, B.f(color=GREY))
+        lev.rows[k] = r; lev.r += 1
+    ra = {k: lev.rows[k] + 1 for k in ("a1", "a2", "a3", "a4")}
+    # gap and lever in comparable units; share = lever / gap
+    lev.ws.write_formula(ra["a1"] - 1, 5, f"=D{ra['a1']}-C{ra['a1']}", B.f(num="pct1"))
+    lev.ws.write_formula(ra["a1"] - 1, 6, f"=C{lev.rows['l1']+1}", B.f(num="pct1", color=BLACK))
+    lev.ws.write_formula(ra["a2"] - 1, 5, f"=(C{ra['a2']}-D{ra['a2']})*({md.x('bor', 'K')}+{md.x('dep', 'K')})", B.f(num="cr"))
+    lev.ws.write_formula(ra["a2"] - 1, 6, f"=C{lev.rows['l2']+1}", B.f(num="cr"))
+    lev.ws.write_formula(ra["a3"] - 1, 5, f"=D{ra['a3']}-C{ra['a3']}", B.f(num="pct2"))
+    lev.ws.write_formula(ra["a3"] - 1, 6, f"=C{lev.rows['l3']+1}*{md.x('loans', 'K')}/{md.x('ta', 'K')}", B.f(num="pct2"))
+    lev.ws.write_formula(ra["a4"] - 1, 5, f"=D{ra['a4']}-C{ra['a4']}", B.f(num="pct1"))
+    lev.ws.write_formula(ra["a4"] - 1, 6, f"=C{lev.rows['l6']+1}-C{ra['a4']}", B.f(num="pct1"))
+    for k in ("a1", "a2", "a3", "a4"):
+        lev.ws.write_formula(ra[k] - 1, 7, f"=IF(F{ra[k]}>0,G{ra[k]}/F{ra[k]},0)", B.f(num="pct1"))
+    lev.note("Opex and fees have no peer gap: HDFC Bank already leads ICICI Bank on both (Shapley, Peers tab). Those levers are sized on HDFC's own operating leverage.")
+    lev.r += 1
     bc = wb.add_chart({"type": "bar"})
     bc.add_series({"name": "RoA uplift FY29E", "categories": ["Levers", out_first, 1, out_last, 1], "values": ["Levers", out_first, 4, out_last, 4],
                    "fill": {"color": "#1F3864"}, "gap": 80, "data_labels": {"value": True, "num_format": '0" bp"', "font": {"name": "Garamond"}}})
@@ -643,6 +716,42 @@ def build():
     ch.set_x_axis({"num_font": {"name": "Garamond"}}); ch.set_legend({"position": "bottom", "font": {"name": "Garamond"}}); ch.set_size({"width": 620, "height": 300})
     dash.ws.insert_chart(dash.r + 1, 1, ch)
 
+    # ================================================================ Tornado
+    if tor is not None:
+        td = pd.read_csv(TORN)
+        tor.section("FY29E RoA when each driver moves to the low and high end of its scenario range")
+        tor.scalar("t_base", "RoA FY29E, Base", float(td.roa_base_pct.iloc[0]) / 100, "%", "Same recalculation", num="pct2")
+        tor.r += 1
+        hdr = ["Driver", "Low input", "High input", "RoA, low input", "RoA, high input", "Low vs base, bp", "High vs base, bp", "Swing, bp"]
+        tor.ws.set_column(4, 9, 14)
+        for j, t_ in enumerate(hdr):
+            tor.ws.write(tor.r, 1 + j, t_, B.f(bold=True, bottom=True, align="right" if j else None))
+        tor.r += 1
+        first_t = tor.r
+        for _, x in td.iterrows():
+            r = tor.r
+            nf = "pct2" if x.high_input_fy29 < 1 else "num"
+            tor.ws.write(r, 1, x.driver, B.f())
+            tor.ws.write_number(r, 2, float(x.low_input_fy29), B.f(num=nf, color=BLUE, fill=True))
+            tor.ws.write_number(r, 3, float(x.high_input_fy29), B.f(num=nf, color=BLUE, fill=True))
+            tor.ws.write_number(r, 4, float(x.roa_low_input_pct) / 100, B.f(num="pct2", color=BLUE, fill=True))
+            tor.ws.write_number(r, 5, float(x.roa_high_input_pct) / 100, B.f(num="pct2", color=BLUE, fill=True))
+            tor.ws.write_formula(r, 6, f"=(E{r+1}-{tor.aa('t_base', 'E')})*{inp.x('bp')}", B.f(num="num"))
+            tor.ws.write_formula(r, 7, f"=(F{r+1}-{tor.aa('t_base', 'E')})*{inp.x('bp')}", B.f(num="num"))
+            tor.ws.write_formula(r, 8, f"=ABS(H{r+1}-G{r+1})", B.f(num="num"))
+            tor.r += 1
+        last_t = tor.r - 1
+        tor.note("Ranges: min and max of the Base, Upside and Downside inputs for FY29E; deposit beta runs 0.25 to the regression long-run beta (ALM tab).")
+        tc = wb.add_chart({"type": "bar"})
+        for col, nm, colr in ((6, "Low end of range", "#A6A6A6"), (7, "High end of range", "#1F3864")):
+            tc.add_series({"name": nm, "categories": ["Tornado", first_t, 1, last_t, 1], "values": ["Tornado", first_t, col, last_t, col],
+                           "fill": {"color": colr}, "overlap": 100, "gap": 40})
+        tc.set_title({"name": "Change in FY29E RoA vs Base, bp", "name_font": {"name": "Garamond", "size": 12, "bold": True}})
+        tc.set_x_axis({"num_font": {"name": "Garamond"}, "major_gridlines": {"visible": False}})
+        tc.set_y_axis({"num_font": {"name": "Garamond"}, "reverse": True, "label_position": "low"})
+        tc.set_legend({"position": "bottom", "font": {"name": "Garamond"}}); tc.set_size({"width": 680, "height": 380})
+        tor.ws.insert_chart(tor.r + 1, 1, tc)
+
     # ================================================================ Checks
     chk.ws.write(chk.r, 1, "Check", B.f(bold=True, bottom=True)); chk.ws.write(chk.r, 2, "Value", B.f(bold=True, bottom=True, align="right")); chk.ws.write(chk.r, 3, "Result", B.f(bold=True, bottom=True))
     chk.ws.write(chk.r, 4, "Tolerance", B.f(bold=True, bottom=True, align="right"))
@@ -656,7 +765,7 @@ def build():
         ("Scenario selector resolves to 1, 2 or 3", f"={inp.x('scn')}", "in"),
         ("Cost of equity exceeds long-term growth", f"={val.x('ke')}-{val.x('g')}", ">0"),
         ("Lever bridge adds up (difference, bp)", f"={lev.x('b4')}-{lev.x('b0')}-{lev.x('b1')}-{lev.x('b3')}", "<1"),
-        ("No error values in Model, Valuation and Levers", f"=SUMPRODUCT(--ISERROR('Model'!E5:N120))+SUMPRODUCT(--ISERROR('Valuation'!E5:E80))+SUMPRODUCT(--ISERROR('Levers'!C5:I40))", "=0"),
+        ("No error values in Model, Valuation and Levers", "=SUMPRODUCT(--ISERROR('Model'!E5:N120))+SUMPRODUCT(--ISERROR('Valuation'!E5:E80))+SUMPRODUCT(--ISERROR('Levers'!C5:I40))", "=0"),
     ]
     rows_chk = []
     for lab, f_, rule in tests:
@@ -706,7 +815,7 @@ def build():
            ("Margin", "NII volume/rate walk, spreads, legacy borrowing run-off"), ("ALM", "Repricing gap and earnings at risk"),
            ("Fees", "IRDAI caps (bank and HDFC Life) and UPI MDR"), ("Opex_Credit", "Cost-to-serve and credit normalisation"),
            ("Capital", "Tier 1 proxy and growth capacity"), ("Levers", "Six value levers and the FY29E RoA bridge"),
-           ("Valuation", "Justified P/B, sum of the parts, residual income"), ("Sensitivities", "Value per share grids"),
+           ("Valuation", "Justified P/B, sum of the parts, residual income"), ("Sensitivities", "Value per share grids"), ("Tornado", "FY29E RoA sensitivity by driver"),
            ("Peers", "Twelve-bank P/B vs RoE"), ("Checks", "Integrity tests and master flag"), ("Sources", "Source register")]
     for n_, d_ in toc:
         cv.write_url(cover.r, 1, f"internal:'{n_}'!A1", string=n_, cell_format=B.f(color=BLACK))

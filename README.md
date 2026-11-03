@@ -49,12 +49,32 @@ The share price was ₹700 on 2 Nov 2026.
    - retire ₹75,000 cr of borrowings ahead of plan;
    - re-price the HDFC Life partnership before the caps land.
 
+## What else the analysis shows
+- **What the merger changed.** HDFC's own RoA walk from FY23 to Q2 FY27 is -20 bp. Net interest income took 55 bp off, and lower opex gave 31 bp back (Shapley, `data/tidy/hdfc_roa_walk.csv`).
+- **What matters most for FY29.** A tornado on the live model, one driver at a time, ranks the swings:
+  - repo path: 20 bp;
+  - advances growth: 15 bp;
+  - credit cost: 13 bp;
+  - opex growth: 11 bp;
+  - every other driver: 10 bp or less.
+- **The levers are conservative against named peers.** Each one closes only 28-49% of the gap to best demonstrated practice:
+  - CASA vs SBI's 38.3%;
+  - borrowings share vs ICICI Bank's 6.5%;
+  - asset yield vs ICICI Bank;
+  - UPI payee share vs Axis Bank's 18.9%.
+  - HDFC already leads on opex and fees, so those two are sized on its own operating leverage.
+- **Funding-cost beta.** A regression over FY17-FY26 gives 0.37 in the same year, which supports the model's 0.35. It rises to 0.62 once the year-two catch-up is included, which is the risk case in the tornado.
+- **What management talks about.** In Q2 FY27, ₹1.3 of ₹1.57 lakh cr of new deposits were term deposits, the reason CASA is lever one. Topic counts over eight calls are in the cockpit.
+
 ## How the analysis is done
 | Layer | What | Where |
 |---|---|---|
 | Consulting | Issue tree with five hypotheses, lever tree, impact x feasibility x time prioritisation, 12-month roadmap, KPI tree, risk register | `decks/HDFC_RoA_Steerco.pptx` |
 | Bank model | IR26-schedule spreading, driver-based FY27E-FY29E projection on average balances, NII rate/volume walk, repricing gap and earnings at risk, legacy-borrowing run-off, fee pools (IRDAI, HDFC Life, UPI MDR), credit normalisation, Tier 1 capacity | `models/HDFC_RoA_Path_FY29.xlsx` |
 | Valuation | CAPM cost of equity, justified P/B, residual income, sum of the parts (listed stakes less a 20% holding discount), market-implied RoE, Ke x g and RoE x Ke grids, 12-bank P/B-RoE cross-check | same workbook, Valuation and Sensitivities tabs |
+| Sensitivity and evidence | Tornado (24 headless recalculations of the live model); HDFC RoA walk (Shapley); funding-cost beta regression with a one-year lag; peer anchors per lever; earnings-call topic tracker | `pipeline/tornado.py`, `hdfc_walk.py`, `deposit_beta.py`, `call_topics.py`; Tornado, Margin, ALM and Levers tabs |
+| SQL | DuckDB warehouse over every tidy and input file, the Screener harvest and the scenario export, plus six analyst queries (peer league, DuPont history, credit cycle, MDR pool, insurer exposure, scenario compare) | `pipeline/warehouse.py`, `sql/*.sql`, `data/tidy/sql_results/` |
+| Quality | Strict Excel lint, 29 reconciliation checks, 19 pytest tests (model invariants, traceability of every memo and cockpit headline to the export, SQL ties), ruff code lint, CI on every push, independent model audit | `tests/`, `.github/workflows/ci.yml`, `docs/model_audit.md` |
 | Sector modules | Shapley RoA attribution across banks; IRDAI cap model with Monte Carlo; NPCI UPI concentration and MDR pool; say-versus-do tracker of management guidance | `models/01-03_*.xlsx`, `decks/0*.pptx` |
 
 The Excel follows investment-banking hygiene:
@@ -77,8 +97,9 @@ The Excel follows investment-banking hygiene:
 | `viz/dashboard.html` | CEO cockpit with a scenario switch, plus sector tabs; light and dark, phone-width safe, a table behind every chart |
 | `data/inputs/` | Page-cited manual inputs (IR26 schedules, borrowing maturities, RBI rate path, NPCI bands and payee banks, valuation inputs) |
 | `data/tidy/` | Long facts table with source, page and status on every row; `hdfc_model_outputs.json` (all three scenarios, recalculated) |
-| `pipeline/` | Fetch, Screener harvest, model builders, `export_scenarios.py`, `xlsx_lint.py`, `checks.py` |
-| `docs/` | `methodology.md`, `data_sources.md`, `public_apis_shortlist.md` |
+| `pipeline/` | Fetch, Screener harvest, model builders, `export_scenarios.py`, `tornado.py`, `hdfc_walk.py`, `deposit_beta.py`, `call_topics.py`, `warehouse.py`, `run_sql.py`, `xlsx_lint.py`, `checks.py` |
+| `sql/`, `tests/`, `Makefile` | Analyst SQL queries; pytest suite; one entrypoint for the pipeline |
+| `docs/` | `methodology.md`, `data_sources.md`, `model_audit.md`, `public_apis_shortlist.md` |
 
 ## Reproduce
 LibreOffice is needed for headless recalculation.
@@ -86,24 +107,12 @@ LibreOffice is needed for headless recalculation.
 pip install -r requirements.txt
 ```
 ```bash
-python -I pipeline/fetch.py && python -I pipeline/screener.py && python -I pipeline/fetch_docs.py
+make data sector
 ```
 ```bash
-python -I pipeline/build_bank_facts.py && python -I pipeline/shapley.py && python -I pipeline/build_bank_xlsx.py
+make all
 ```
-```bash
-python -I pipeline/extract_irdai.py && python -I pipeline/insurance_model.py && python -I pipeline/upi_model.py
-```
-```bash
-python -I pipeline/build_hdfc_model.py && python -I pipeline/export_scenarios.py
-```
-```bash
-python -I decks/build_hdfc_deck.py && python -I decks/build_memo.py && python -I decks/build_decks.py && python -I viz/build_dashboard.py
-```
-```bash
-python -I pipeline/checks.py
-```
-`checks.py` recalculates every workbook, runs the lint and exits non-zero on any FAIL. The NPCI app-wise files, the IRDAI Handbook and the consultation papers block automated download, so they are user-supplied (see `docs/data_sources.md`).
+`make data sector` fetches public sources and rebuilds the sector modules; the NPCI app-wise files, the IRDAI Handbook and the consultation papers are user-supplied (see `docs/data_sources.md`). `make all` rebuilds the HDFC model (twice, so the Tornado tab carries the latest recalculation), the scenario export, the SQL warehouse and queries, the memo, the cockpit and the Tableau extracts. It then runs the checks, the tests and the lint. The steerco deck is built separately with `make deck`.
 
 ## Corrections to earlier versions
 - **UPI, October 2026.** An earlier version said Oct-26 was 23.83 bn transactions and that the 25.47 bn widely reported was wrong. That was our error: the NPCI file row was a 29-day partial. The full month is 25.47 bn transactions and ₹31.53 lakh cr, a record.
@@ -114,6 +123,7 @@ python -I pipeline/checks.py
 - Lever sizes, feasibility and timing are judgements for discussion, not forecasts. Each one is an explicit driver change in the model, so it can be challenged and re-run.
 - HDFC Bank does not disclose its external-benchmark (floating-rate) share of advances. The model assumes 55% (range 45-65%).
 - Screener.in is a secondary source, used only after tying to the bank's filings.
+- The steerco deck was built before the tornado, the RoA walk, the peer anchors and the beta regression. It is on hold and does not yet show them; its numbers still match the model.
 - The workbooks specify Garamond. If Garamond is not installed, the viewer substitutes a serif font.
 - No Bain engagement with HDFC Bank is known or implied. Bain publications are referenced for framing only; no Bain charts, data or wording are reproduced.
 

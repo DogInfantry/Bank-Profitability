@@ -1,0 +1,13 @@
+symbol,ownership,roa_pct,roe_pct,price_to_book,roa_rank,gap_to_best_bp
+ICICIBANK,private,2.23,15.9,2.96,1,0.0
+KOTAKBANK,private,1.9,11.1,3.37,2,34.0
+HDFCBANK,private,1.8,14.0,1.92,3,43.0
+AXISBANK,private,1.4,12.7,1.84,4,83.0
+SBIN,public,1.12,16.2,1.69,5,111.0
+FEDERALBNK,private,1.12,11.4,2.14,6,112.0
+CANBK,public,1.08,18.0,0.94,7,116.0
+BANKBARODA,public,1.06,13.8,0.82,8,118.0
+PNB,public,0.89,12.5,0.97,9,134.0
+YESBANK,private,0.78,7.0,0.95,10,145.0
+IDFCFIRSTB,private,0.44,3.8,1.33,11,179.0
+INDUSINDBK,private,0.17,1.4,1.02,12,206.0

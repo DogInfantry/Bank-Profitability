@@ -10,9 +10,8 @@ from __future__ import annotations
 import argparse
 import csv
 from datetime import datetime
-from pathlib import Path
 
-from fetch import RAW, ROOT, download, load_manifest, register, save_manifest
+from fetch import RAW, download, load_manifest, register, save_manifest
 
 MONTH_Q = {1: 3, 2: 3, 4: 4, 5: 4, 7: 1, 8: 1, 10: 2, 11: 2}
 

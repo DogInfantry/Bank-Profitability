@@ -13,7 +13,7 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from build_hdfc_deck import DISCLAIMER, I, O, ROOT, T, ind, pct, v  # noqa: E402
+from build_hdfc_deck import DISCLAIMER, ROOT, I, O, T, ind, pct, v  # noqa: E402
 
 ACCENT, MUTED = RGBColor(0x1F, 0x3A, 0x5F), RGBColor(0x6B, 0x6B, 0x6B)
 
@@ -90,7 +90,7 @@ def main():
     for t in [
         f"RoA held at 1.8-2.0% for a decade. The merger moved NII from {pct(nii23, 2)} of average assets (FY23) to {pct(nii26, 2)} (FY26); Q2 FY27 RoA is {pct(roa_q2, 2)} annualised.",
         f"The {shh.gap * 100:.0f} bp gap to ICICI Bank is {shh.nii * 100:.0f} bp of NII and {shh.prov * 100:.0f} bp of FY26's one-off provisions. HDFC Bank is already ahead on cost, other income and tax.",
-        f"Management missed its own 3.4-3.5% NIM range (3.16% on total assets in Q2 FY27). The CFO now calls the bottom; that should be tested at Q3 FY27.",
+        "Management missed its own 3.4-3.5% NIM range (3.16% on total assets in Q2 FY27). The CFO now calls the bottom; that should be tested at Q3 FY27.",
     ]:
         para(doc, [(t, False)], space_after=2, style="List Bullet")
 

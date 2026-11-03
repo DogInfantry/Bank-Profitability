@@ -1,0 +1,3511 @@
+scenario,sheet,line,period,value
+Base,ALM,  Standard error,E,0.105411156915017
+Base,ALM,1 day,C,0.03
+Base,ALM,1 day,D,7800.55
+Base,ALM,1 day,E,214529.94
+Base,ALM,1 day,F,48252.58
+Base,ALM,1 day,G,531.65
+Base,ALM,1 day,H,173546.26
+Base,ALM,1 day,I,173546.26
+Base,ALM,1-3 years,C,24.0
+Base,ALM,1-3 years,D,1273116.88
+Base,ALM,1-3 years,E,185640.79
+Base,ALM,1-3 years,F,1020875.68
+Base,ALM,1-3 years,G,78305.81
+Base,ALM,1-3 years,H,359576.18
+Base,ALM,1-3 years,I,252540.11
+Base,ALM,15-30 days,C,0.75
+Base,ALM,15-30 days,D,36080.58
+Base,ALM,15-30 days,E,42532.84
+Base,ALM,15-30 days,F,75417.69
+Base,ALM,15-30 days,G,20763.73
+Base,ALM,15-30 days,H,-17568.0
+Base,ALM,15-30 days,I,85788.12
+Base,ALM,2-3 months,C,2.5
+Base,ALM,2-3 months,D,83112.9
+Base,ALM,2-3 months,E,35880.28
+Base,ALM,2-3 months,F,103172.88
+Base,ALM,2-3 months,G,21464.57
+Base,ALM,2-3 months,H,-5644.27000000001
+Base,ALM,2-3 months,I,46737.7
+Base,ALM,2-7 days,C,0.15
+Base,ALM,2-7 days,D,33387.28
+Base,ALM,2-7 days,E,30256.65
+Base,ALM,2-7 days,F,103780.48
+Base,ALM,2-7 days,G,8488.09
+Base,ALM,2-7 days,H,-48624.64
+Base,ALM,2-7 days,I,124921.62
+Base,ALM,3-5 years,C,48.0
+Base,ALM,3-5 years,D,343567.27
+Base,ALM,3-5 years,E,19629.47
+Base,ALM,3-5 years,F,13319.97
+Base,ALM,3-5 years,G,67466.26
+Base,ALM,3-5 years,H,282410.51
+Base,ALM,3-5 years,I,534950.62
+Base,ALM,3-6 months,C,4.5
+Base,ALM,3-6 months,D,181193.01
+Base,ALM,3-6 months,E,31861.69
+Base,ALM,3-6 months,F,167281.93
+Base,ALM,3-6 months,G,51034.1
+Base,ALM,3-6 months,H,-5261.32999999998
+Base,ALM,3-6 months,I,41476.37
+Base,ALM,31 days-2 months,C,1.5
+Base,ALM,31 days-2 months,D,76238.56
+Base,ALM,31 days-2 months,E,34583.75
+Base,ALM,31 days-2 months,F,107134.36
+Base,ALM,31 days-2 months,G,37094.1
+Base,ALM,31 days-2 months,H,-33406.15
+Base,ALM,31 days-2 months,I,52381.97
+Base,ALM,6 months-1 year,C,9.0
+Base,ALM,6 months-1 year,D,240566.48
+Base,ALM,6 months-1 year,E,66410.65
+Base,ALM,6 months-1 year,F,403378.88
+Base,ALM,6 months-1 year,G,52110.69
+Base,ALM,6 months-1 year,H,-148512.44
+Base,ALM,6 months-1 year,I,-107036.07
+Base,ALM,8-14 days,C,0.35
+Base,ALM,8-14 days,D,18191.98
+Base,ALM,8-14 days,E,14524.74
+Base,ALM,8-14 days,F,52559.59
+Base,ALM,8-14 days,G,1722.63
+Base,ALM,8-14 days,H,-21565.5
+Base,ALM,8-14 days,I,103356.12
+Base,ALM,Add: floating advances beyond 1 year that reprice now,E,12433.272115
+Base,ALM,Advances on external benchmarks (reprice within a month),E,0.55
+Base,ALM,As % of FY26 NII,E,0.0976719123811134
+Base,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
+Base,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
+Base,ALM,Long-run beta (same year + lag),E,0.616166232706712
+Base,ALM,Model base deposit beta less same-year estimate,E,-0.0157371396055778
+Base,ALM,Months in horizon,E,12.0
+Base,ALM,NII change on contractual gaps,E,135.738531833333
+Base,ALM,One-year-lag beta,E,0.250429093101135
+Base,ALM,Over 5 years,C,84.0
+Base,ALM,Over 5 years,D,643910.78
+Base,ALM,Over 5 years,E,208350.67
+Base,ALM,Over 5 years,F,1010076.43
+Base,ALM,Over 5 years,G,150413.01
+Base,ALM,Over 5 years,H,-308227.99
+Base,ALM,Over 5 years,I,226722.63
+Base,ALM,R-squared,E,0.944858138405346
+Base,ALM,Rate shock,E,0.01
+Base,ALM,Same-year beta: change in cost of funds per 1 pp change in average repo,E,0.365737139605578
+Base,ALM,Total,D,2937166.27
+Base,ALM,Total,E,884201.47
+Base,ALM,Total,F,3105250.47
+Base,ALM,Total,G,489394.64
+Base,ALM,Total,H,226722.63
+Base,Capital,Asset growth fundable at constant Tier 1,FY27E,0.0911649730516002
+Base,Capital,Asset growth fundable at constant Tier 1,FY28E,0.0990592756062396
+Base,Capital,Asset growth fundable at constant Tier 1,FY29E,0.10231504466272
+Base,Capital,Internal capital generation,FY27E,0.0911649730516002
+Base,Capital,Internal capital generation,FY28E,0.0990592756062396
+Base,Capital,Internal capital generation,FY29E,0.10231504466272
+Base,Capital,Risk-weight density,FY20A,0.648393753601609
+Base,Capital,Risk-weight density,FY21A,0.664125582078723
+Base,Capital,Risk-weight density,FY22A,0.649519139530099
+Base,Capital,Risk-weight density,FY23A,0.663287501106693
+Base,Capital,Risk-weight density,FY24A,0.724805062727809
+Base,Capital,Risk-weight density,FY25A,0.724901477296418
+Base,Capital,Risk-weight density,FY26A,0.72736144498883
+Base,Capital,Risk-weight density,FY27E,0.72736144498883
+Base,Capital,Risk-weight density,FY28E,0.72736144498883
+Base,Capital,Risk-weight density,FY29E,0.72736144498883
+Base,Capital,"Risk-weighted assets, implied",FY20A,992373.940800929
+Base,Capital,"Risk-weighted assets, implied",FY21A,1160141.40091116
+Base,Capital,"Risk-weighted assets, implied",FY22A,1343553.10576385
+Base,Capital,"Risk-weighted assets, implied",FY23A,1635721.01576182
+Base,Capital,"Risk-weighted assets, implied",FY24A,2622071.53067302
+Base,Capital,"Risk-weighted assets, implied",FY25A,2834508.98812889
+Base,Capital,"Risk-weighted assets, implied",FY26A,3174850.02820079
+Base,Capital,"Risk-weighted assets, implied",FY27E,3491555.97363518
+Base,Capital,"Risk-weighted assets, implied",FY28E,3912726.70963755
+Base,Capital,"Risk-weighted assets, implied",FY29E,4394896.89665057
+Base,Capital,"Tier 1 capital ratio, reported",FY20A,0.1723
+Base,Capital,"Tier 1 capital ratio, reported",FY21A,0.1756
+Base,Capital,"Tier 1 capital ratio, reported",FY22A,0.1787
+Base,Capital,"Tier 1 capital ratio, reported",FY23A,0.1713
+Base,Capital,"Tier 1 capital ratio, reported",FY24A,0.1679
+Base,Capital,"Tier 1 capital ratio, reported",FY25A,0.1769
+Base,Capital,"Tier 1 capital ratio, reported",FY26A,0.1773
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY20A,0.1723
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY21A,0.1756
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY22A,0.1787
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY23A,0.1713
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY24A,0.1679
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY25A,0.1769
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY26A,0.1773
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY27E,0.176813791304851
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY28E,0.175468199383572
+Base,Capital,"Tier 1 ratio, projected (proxy)",FY29E,0.174056687839411
+Base,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",C,-0.35999999998603
+Base,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",E,1.0
+Base,Checks,Cost of equity exceeds long-term growth,C,0.05135
+Base,Checks,Cost of equity exceeds long-term growth,E,0.0
+Base,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),C,0.0
+Base,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),E,1.0
+Base,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",C,2.04000000003725
+Base,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",E,5.0
+Base,Checks,"Lever bridge adds up (difference, bp)",C,0.0
+Base,Checks,"Lever bridge adds up (difference, bp)",E,1.0
+Base,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",C,0.0
+Base,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",E,1.0
+Base,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",C,0.0
+Base,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",E,1.0
+Base,Checks,"No error values in Model, Valuation and Levers",C,0.0
+Base,Checks,"No error values in Model, Valuation and Levers",E,0.0
+Base,Checks,"Scenario selector resolves to 1, 2 or 3",C,1.0
+Base,Fees,2025-04,C,663561.79
+Base,Fees,2025-04,D,0.67
+Base,Fees,2025-05,C,696624.99
+Base,Fees,2025-05,D,0.66
+Base,Fees,2025-06,C,682872.22
+Base,Fees,2025-06,D,0.66
+Base,Fees,2025-07,C,734012.36
+Base,Fees,2025-07,D,0.67
+Base,Fees,2025-08,C,723797.42
+Base,Fees,2025-08,D,0.65
+Base,Fees,2025-09,C,719567.29
+Base,Fees,2025-09,D,0.67
+Base,Fees,2025-10,C,825742.2
+Base,Fees,2025-10,D,0.68
+Base,Fees,2025-11,C,764552.06
+Base,Fees,2025-12,C,807572.99
+Base,Fees,2025-12,D,0.67
+Base,Fees,2026-01,C,840825.83
+Base,Fees,2026-01,D,0.69
+Base,Fees,2026-02,C,772416.94
+Base,Fees,2026-02,D,0.68
+Base,Fees,2026-03,C,861483.05
+Base,Fees,2026-03,D,0.68
+Base,Fees,2026-04,C,851601.89
+Base,Fees,2026-04,D,0.68
+Base,Fees,2026-05,C,872458.05
+Base,Fees,2026-05,D,0.67
+Base,Fees,2026-06,C,860997.14
+Base,Fees,2026-06,D,0.68
+Base,Fees,2026-07,C,906613.19
+Base,Fees,2026-07,D,0.68
+Base,Fees,2026-08,C,895320.68
+Base,Fees,2026-08,D,0.67
+Base,Fees,2026-09,C,886987.14
+Base,Fees,2026-09,D,0.67
+Base,Fees,2026-10,C,970693.25
+Base,Fees,2026-10,D,0.68
+Base,Fees,Acquiring bank's share of MDR,E,0.3
+Base,Fees,Annual MDR pool at current run-rate,E,18540.6450577791
+Base,Fees,Bancassurance APE lost if bank distribution pulls back,E,0.15
+Base,Fees,Bancassurance share of individual APE,E,0.58
+Base,Fees,Bank fee lost to caps,FY27E,0.0
+Base,Fees,Bank fee lost to caps,FY28E,436.531178510728
+Base,Fees,Bank fee lost to caps,FY29E,873.062357021455
+Base,Fees,Exempt or flat-fee share of that value,E,0.3
+Base,Fees,HDFC Bank MDR revenue,FY27E,92.0911304767336
+Base,Fees,HDFC Bank MDR revenue,FY28E,455.852974180604
+Base,Fees,HDFC Bank MDR revenue,FY29E,564.120379980032
+Base,Fees,"HDFC Bank payee volume, Sep-26",E,1696.1
+Base,Fees,HDFC Bank share of payee volume,E,0.0662264843463254
+Base,Fees,HDFC Bank stake in HDFC Life,E,0.502
+Base,Fees,HDFC Life APE FY26,E,16641.0
+Base,Fees,HDFC Life VNB FY26,E,4034.0
+Base,Fees,HDFC Life bank-channel first-year commission above proposed caps,E,671.586428478042
+Base,Fees,"HDFC Life distributor commission above caps, all channels",E,1258.91963082091
+Base,Fees,HDFC Life embedded value Q2 FY27,E,66461.0
+Base,Fees,HDFC Life market capitalisation,E,113843.0
+Base,Fees,"Haircut for INR 300 cap on tickets of INR 75,000 and above",E,0.95
+Base,Fees,MDR,E,0.004
+Base,Fees,Market-implied VNB multiple,E,11.7456618740704
+Base,Fees,Net change in annual VNB,E,278.501815410454
+Base,Fees,"P2M value growth, Apr-Oct 2026 vs Apr-Oct 2025",E,0.237505099081646
+Base,Fees,"P2M value, trailing 12 months",E,10291522.21
+Base,Fees,"Payee volume, top twelve banks, Sep-26",E,25610.6
+Base,Fees,"Share of P2M value above INR 2,000",E,0.677272727272727
+Base,Fees,Share of commission saving kept as margin,E,0.5
+Base,Fees,Share of year MDR is live,FY27E,0.25
+Base,Fees,Share of year MDR is live,FY28E,1.0
+Base,Fees,Share of year MDR is live,FY29E,1.0
+Base,Fees,"Uplift for other insurers distributed (HDFC ERGO, partners)",E,1.3
+Base,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
+Base,Fees,Years after FY26,FY27E,1.0
+Base,Fees,Years after FY26,FY28E,2.0
+Base,Fees,Years after FY26,FY29E,3.0
+Base,Levers,All levers,C,13563.5301098704
+Base,Levers,All levers,D,10149.589581216
+Base,Levers,All levers,E,17.7726399117289
+Base,Levers,All levers,F,0.0139847710400558
+Base,Levers,All levers,G,149666.247933917
+Base,Levers,All levers,H,96.9411842221463
+Base,Levers,Branch and operations productivity,C,2901.3265776
+Base,Levers,Branch and operations productivity,D,2171.06267801808
+Base,Levers,Branch and operations productivity,E,3.80168231369866
+Base,Levers,Branch and operations productivity,F,0.002991432729643
+Base,Levers,Branch and operations productivity,G,32014.575806069
+Base,Levers,Branch and operations productivity,H,20.7363445924048
+Base,Levers,Branch and operations productivity,I,1.26722743789955
+Base,Levers,Levers,E,17.7726399117289
+Base,Levers,Protect bancassurance and grow card fees,C,1456.8210252288
+Base,Levers,Protect bancassurance and grow card fees,D,1090.13917317871
+Base,Levers,Protect bancassurance and grow card fees,E,1.90890979615885
+Base,Levers,Protect bancassurance and grow card fees,F,0.00150206534133309
+Base,Levers,Protect bancassurance and grow card fees,G,16075.2352072834
+Base,Levers,Protect bancassurance and grow card fees,H,10.4121828345136
+Base,Levers,Protect bancassurance and grow card fees,I,0.477227449039713
+Base,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
+Base,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
+Base,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
+Base,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
+Base,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
+Base,Levers,Re-mix advances to higher-yield retail and SME,C,4048.51362024498
+Base,Levers,Re-mix advances to higher-yield retail and SME,D,3029.50274202932
+Base,Levers,Re-mix advances to higher-yield retail and SME,E,5.30487079451261
+Base,Levers,Re-mix advances to higher-yield retail and SME,F,0.00417424782287849
+Base,Levers,Re-mix advances to higher-yield retail and SME,G,44673.166818901
+Base,Levers,Re-mix advances to higher-yield retail and SME,H,28.9355132113012
+Base,Levers,Re-mix advances to higher-yield retail and SME,I,1.76829026483754
+Base,Levers,Rebuild CASA,C,2613.57132108114
+Base,Levers,Rebuild CASA,D,1955.73541956502
+Base,Levers,Rebuild CASA,E,3.42462925189322
+Base,Levers,Rebuild CASA,F,0.00269474069258546
+Base,Levers,Rebuild CASA,G,28839.3515674249
+Base,Levers,Rebuild CASA,H,18.6797018816118
+Base,Levers,Rebuild CASA,I,0.570771541982203
+Base,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
+Base,Levers,Rebuild CASA (CASA ratio),D,0.3832
+Base,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
+Base,Levers,Rebuild CASA (CASA ratio),G,0.015
+Base,Levers,Rebuild CASA (CASA ratio),H,0.359307369990647
+Base,Levers,Retire legacy borrowings (share of funding),C,0.136145554293008
+Base,Levers,Retire legacy borrowings (share of funding),D,0.0651139627186436
+Base,Levers,Retire legacy borrowings (share of funding),F,255333.388879679
+Base,Levers,Retire legacy borrowings (share of funding),G,75000.0
+Base,Levers,Retire legacy borrowings (share of funding),H,0.293733617562028
+Base,Levers,Retire legacy borrowings faster,C,2255.61313445109
+Base,Levers,Retire legacy borrowings faster,D,1687.87530850975
+Base,Levers,Retire legacy borrowings faster,E,2.95558749779989
+Base,Levers,Retire legacy borrowings faster,F,0.00232566544142412
+Base,Levers,Retire legacy borrowings faster,G,24889.4758141236
+Base,Levers,Retire legacy borrowings faster,H,16.1213051933723
+Base,Levers,Retire legacy borrowings faster,I,0.985195832599962
+Base,Levers,"RoA FY26A, core",E,180.222819069513
+Base,Levers,RoA FY29E with levers,E,203.526582144893
+Base,Levers,"RoA FY29E, scenario before levers",E,185.753942233164
+Base,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,5.53112316365116
+Base,Levers,Shortfall (-) / headroom (+) to target,E,3.52658214489276
+Base,Levers,Target,E,200.0
+Base,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
+Base,Levers,Win UPI acquiring (payee share),D,0.189031104308372
+Base,Levers,Win UPI acquiring (payee share),F,0.122804619962047
+Base,Levers,Win UPI acquiring (payee share),G,0.0337735156536747
+Base,Levers,Win UPI acquiring (payee share),H,0.275018282407555
+Base,Levers,Win UPI merchant acquiring share,C,287.684431264388
+Base,Levers,Win UPI merchant acquiring share,D,215.274259915141
+Base,Levers,Win UPI merchant acquiring share,E,0.376960257665645
+Base,Levers,Win UPI merchant acquiring share,F,0.000296619012191626
+Base,Levers,Win UPI merchant acquiring share,G,3174.44272011538
+Base,Levers,Win UPI merchant acquiring share,H,2.05613650894243
+Base,Levers,Win UPI merchant acquiring share,I,0.0418844730739606
+Base,Margin,  Margin effect,FY22A,-3518.43068895691
+Base,Margin,  Margin effect,FY23A,1278.29568990951
+Base,Margin,  Margin effect,FY24A,-7966.68451807764
+Base,Margin,  Margin effect,FY25A,-11606.8351667362
+Base,Margin,  Margin effect,FY26A,-6147.41728630429
+Base,Margin,  Margin effect,FY27E,3792.20774186987
+Base,Margin,  Margin effect,FY28E,11113.3491033965
+Base,Margin,  Margin effect,FY29E,4769.94808531211
+Base,Margin,  Unexplained,FY22A,0.0
+Base,Margin,  Unexplained,FY23A,0.0
+Base,Margin,  Unexplained,FY24A,0.0
+Base,Margin,  Unexplained,FY25A,0.0
+Base,Margin,  Unexplained,FY26A,0.0
+Base,Margin,  Unexplained,FY27E,0.0
+Base,Margin,  Unexplained,FY28E,0.0
+Base,Margin,  Unexplained,FY29E,0.0
+Base,Margin,  Volume effect,FY22A,10648.4506889569
+Base,Margin,  Volume effect,FY23A,13554.3343100905
+Base,Margin,  Volume effect,FY24A,29656.9445180776
+Base,Margin,  Volume effect,FY25A,25744.4451667362
+Base,Margin,  Volume effect,FY26A,12163.3572863043
+Base,Margin,  Volume effect,FY27E,12650.7042436675
+Base,Margin,  Volume effect,FY28E,15958.4836279149
+Base,Margin,  Volume effect,FY29E,20977.8304531995
+Base,Margin,Average interest-earning assets,FY21A,1634020.39
+Base,Margin,Average interest-earning assets,FY22A,1902206.285
+Base,Margin,Average interest-earning assets,FY23A,2260257.76
+Base,Margin,Average interest-earning assets,FY24A,3032144.28
+Base,Margin,Average interest-earning assets,FY25A,3751384.015
+Base,Margin,Average interest-earning assets,FY26A,4123352.635
+Base,Margin,Average interest-earning assets,FY27E,4528705.99525
+Base,Margin,Average interest-earning assets,FY28E,5026685.78819881
+Base,Margin,Average interest-earning assets,FY29E,5639046.34453041
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY21A,0.101392905104981
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY22A,0.0996409591909387
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY23A,0.102129127706958
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY24A,0.169310615898315
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY25A,0.191937132333265
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY26A,0.151273432034433
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY27E,0.114451130963007
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY28E,0.0864801981477926
+Base,Margin,"Borrowings / (deposits + borrowings), average",FY29E,0.0720533947252233
+Base,Margin,Change in NII,FY22A,7130.02
+Base,Margin,Change in NII,FY23A,14832.63
+Base,Margin,Change in NII,FY24A,21690.26
+Base,Margin,Change in NII,FY25A,14137.61
+Base,Margin,Change in NII,FY26A,6015.94000000003
+Base,Margin,Change in NII,FY27E,16442.9119855374
+Base,Margin,Change in NII,FY28E,27071.8327313114
+Base,Margin,Change in NII,FY29E,25747.7785385116
+Base,Margin,Cost of borrowings,FY25A,0.0868970088026947
+Base,Margin,Cost of borrowings,FY26A,0.0780098638229448
+Base,Margin,Cost of borrowings,FY27E,0.0777698638229448
+Base,Margin,Cost of borrowings,FY28E,0.0788498638229448
+Base,Margin,Cost of borrowings,FY29E,0.0787598638229448
+Base,Margin,Cost of deposits,FY25A,0.0491787539442674
+Base,Margin,Cost of deposits,FY26A,0.0475519014986854
+Base,Margin,Cost of deposits,FY27E,0.0479300220302636
+Base,Margin,Cost of deposits,FY28E,0.0489900220302636
+Base,Margin,Cost of deposits,FY29E,0.0486850220302636
+Base,Margin,FY23 to FY24,FY20A,5.3764001270799
+Base,Margin,FY23 to FY24,FY21A,-21.1341573084726
+Base,Margin,FY23 to FY24,FY22A,19.5086072154067
+Base,Margin,FY23 to FY24,FY23A,1.44318501161592
+Base,Margin,FY23 to FY24,FY24A,-19.8737755291935
+Base,Margin,FY23 to FY24,FY25A,25.4325407377234
+Base,Margin,FY23 to FY24,FY26A,0.0
+Base,Margin,FY23 to Q2 FY27,FY20A,-20.0077114549182
+Base,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
+Base,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
+Base,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
+Base,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
+Base,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Base,Margin,FY23 to Q2 FY27,FY26A,0.0
+Base,Margin,FY24 to FY26,FY20A,-19.4460024154472
+Base,Margin,FY24 to FY26,FY21A,-37.591907603877
+Base,Margin,FY24 to FY26,FY22A,-8.82276922370851
+Base,Margin,FY24 to FY26,FY23A,26.9085434641887
+Base,Margin,FY24 to FY26,FY24A,16.9984950248016
+Base,Margin,FY24 to FY26,FY25A,-16.938364076852
+Base,Margin,FY24 to FY26,FY26A,0.0
+Base,Margin,FY26 to Q2 FY27,FY20A,-5.93810916655084
+Base,Margin,FY26 to Q2 FY27,FY21A,-1.00978004626788
+Base,Margin,FY26 to Q2 FY27,FY22A,-21.0682346857868
+Base,Margin,FY26 to Q2 FY27,FY23A,4.55629756698585
+Base,Margin,FY26 to Q2 FY27,FY24A,18.886812835742
+Base,Margin,FY26 to Q2 FY27,FY25A,-7.30320483722403
+Base,Margin,FY26 to Q2 FY27,FY26A,0.0
+Base,Margin,Loan-deposit spread,FY25A,0.0442469781925455
+Base,Margin,Loan-deposit spread,FY26A,0.0387436439377431
+Base,Margin,Loan-deposit spread,FY27E,0.0379255234061649
+Base,Margin,Loan-deposit spread,FY28E,0.0388455234061649
+Base,Margin,Loan-deposit spread,FY29E,0.0389855234061649
+Base,Margin,Net interest margin,FY21A,0.0397054837241046
+Base,Margin,Net interest margin,FY22A,0.0378558259258406
+Base,Margin,Net interest margin,FY23A,0.0384213789846694
+Base,Margin,Net interest margin,FY24A,0.0357939695402621
+Base,Margin,Net interest margin,FY25A,0.0326999554056585
+Base,Margin,Net interest margin,FY26A,0.0312090770281645
+Base,Margin,Net interest margin,FY27E,0.0320464481769755
+Base,Margin,Net interest margin,FY28E,0.0342573182356307
+Base,Margin,Net interest margin,FY29E,0.0351031967395268
+Base,Margin,Run-off saving vs refinancing at borrowing cost,FY27E,3459.19559575328
+Base,Margin,Run-off saving vs refinancing at borrowing cost,FY28E,701.461431425308
+Base,Margin,Run-off saving vs refinancing at borrowing cost,FY29E,706.512168425308
+Base,Margin,Yield on advances,FY25A,0.0934257321368129
+Base,Margin,Yield on advances,FY26A,0.0862955454364285
+Base,Margin,Yield on advances,FY27E,0.0858555454364285
+Base,Margin,Yield on advances,FY28E,0.0878355454364285
+Base,Margin,Yield on advances,FY29E,0.0876705454364285
+Base,Margin,Yield on investments and liquidity,FY25A,0.0517638865954221
+Base,Margin,Yield on investments and liquidity,FY26A,0.0503801960852236
+Base,Margin,Yield on investments and liquidity,FY27E,0.0500601960852236
+Base,Margin,Yield on investments and liquidity,FY28E,0.0515001960852236
+Base,Margin,Yield on investments and liquidity,FY29E,0.0513801960852236
+Base,Model,Advances,FY20A,993702.88
+Base,Model,Advances,FY21A,1132836.63
+Base,Model,Advances,FY22A,1368820.93
+Base,Model,Advances,FY23A,1600585.9
+Base,Model,Advances,FY24A,2484861.52
+Base,Model,Advances,FY25A,2619608.62
+Base,Model,Advances,FY26A,2937166.27
+Base,Model,Advances,FY27E,3318997.8851
+Base,Model,Advances,FY28E,3783657.589014
+Base,Model,Advances,FY29E,4313369.65147596
+Base,Model,Average advances,FY21A,1063269.755
+Base,Model,Average advances,FY22A,1250828.78
+Base,Model,Average advances,FY23A,1484703.415
+Base,Model,Average advances,FY24A,2042723.71
+Base,Model,Average advances,FY25A,2552235.07
+Base,Model,Average advances,FY26A,2778387.445
+Base,Model,Average advances,FY27E,3128082.07755
+Base,Model,Average advances,FY28E,3551327.737057
+Base,Model,Average advances,FY29E,4048513.62024498
+Base,Model,Average assets before in-year retained profit,FY21A,1638690.89
+Base,Model,Average assets before in-year retained profit,FY22A,1907702.785
+Base,Model,Average assets before in-year retained profit,FY23A,2267308.26
+Base,Model,Average assets before in-year retained profit,FY24A,3041852.28
+Base,Model,Average assets before in-year retained profit,FY25A,3763911.015
+Base,Model,Average assets before in-year retained profit,FY26A,4137542.635
+Base,Model,Average assets before in-year retained profit,FY27E,4544167.24525
+Base,Model,Average assets before in-year retained profit,FY28E,5043693.16319881
+Base,Model,Average assets before in-year retained profit,FY29E,5657754.4570304
+Base,Model,Average borrowings,FY21A,140058.0
+Base,Model,Average borrowings,FY22A,160152.0
+Base,Model,Average borrowings,FY23A,195791.5
+Base,Model,Average borrowings,FY24A,434459.5
+Base,Model,Average borrowings,FY25A,605042.0
+Base,Model,Average borrowings,FY26A,518663.0
+Base,Model,Average borrowings,FY27E,431432.3
+Base,Model,Average borrowings,FY28E,361723.7
+Base,Model,Average borrowings,FY29E,338231.9
+Base,Model,Average deposits,FY21A,1241281.255
+Base,Model,Average deposits,FY22A,1447138.83
+Base,Model,Average deposits,FY23A,1721306.045
+Base,Model,Average deposits,FY24A,2131590.465
+Base,Model,Average deposits,FY25A,2547250.59
+Base,Model,Average deposits,FY26A,2909982.685
+Base,Model,Average deposits,FY27E,3338144.25525
+Base,Model,Average deposits,FY28E,3821010.703335
+Base,Model,Average deposits,FY29E,4355952.2018019
+Base,Model,"Average investments, liquidity and other assets",FY21A,570750.635
+Base,Model,"Average investments, liquidity and other assets",FY22A,651377.505
+Base,Model,"Average investments, liquidity and other assets",FY23A,775554.345
+Base,Model,"Average investments, liquidity and other assets",FY24A,989420.57
+Base,Model,"Average investments, liquidity and other assets",FY25A,1199148.945
+Base,Model,"Average investments, liquidity and other assets",FY26A,1344965.19
+Base,Model,"Average investments, liquidity and other assets",FY27E,1400623.9177
+Base,Model,"Average investments, liquidity and other assets",FY28E,1475358.05114181
+Base,Model,"Average investments, liquidity and other assets",FY29E,1590532.72428543
+Base,Model,Average net worth,FY21A,187353.43
+Base,Model,Average net worth,FY22A,221906.885
+Base,Model,Average net worth,FY23A,260145.975
+Base,Model,Average net worth,FY24A,360222.41
+Base,Model,Average net worth,FY25A,470835.225
+Base,Model,Average net worth,FY26A,532162.775
+Base,Model,Average net worth,FY27E,590128.079625768
+Base,Model,Average net worth,FY28E,651957.179835823
+Base,Model,Average net worth,FY29E,725760.153823408
+Base,Model,Average total assets,FY21A,1638690.89
+Base,Model,Average total assets,FY22A,1907702.785
+Base,Model,Average total assets,FY23A,2267308.26
+Base,Model,Average total assets,FY24A,3041852.28
+Base,Model,Average total assets,FY25A,3763911.015
+Base,Model,Average total assets,FY26A,4137542.635
+Base,Model,Average total assets,FY27E,4582595.10987577
+Base,Model,Average total assets,FY28E,5089823.45317082
+Base,Model,Average total assets,FY29E,5710794.58742531
+Base,Model,Book value per share,FY20A,110.75034259536
+Base,Model,Book value per share,FY21A,131.953187733004
+Base,Model,Book value per share,FY22A,155.51197580134
+Base,Model,Book value per share,FY23A,181.489308526437
+Base,Model,Book value per share,FY24A,285.154139690077
+Base,Model,Book value per share,FY25A,324.780630708573
+Base,Model,Book value per share,FY26A,364.599778296156
+Base,Model,Book value per share,FY27E,399.870710827379
+Base,Model,Book value per share,FY28E,444.695140831053
+Base,Model,Book value per share,FY29E,495.477406341409
+Base,Model,Borrowings,FY20A,144629.0
+Base,Model,Borrowings,FY21A,135487.0
+Base,Model,Borrowings,FY22A,184817.0
+Base,Model,Borrowings,FY23A,206766.0
+Base,Model,Borrowings,FY24A,662153.0
+Base,Model,Borrowings,FY25A,547931.0
+Base,Model,Borrowings,FY26A,489395.0
+Base,Model,Borrowings,FY27E,373469.6
+Base,Model,Borrowings,FY28E,349977.8
+Base,Model,Borrowings,FY29E,326486.0
+Base,Model,"CASA ratio, year end",FY25A,0.347940864803151
+Base,Model,"CASA ratio, year end",FY26A,0.341453013289456
+Base,Model,"CASA ratio, year end",FY27E,0.325
+Base,Model,"CASA ratio, year end",FY28E,0.33
+Base,Model,"CASA ratio, year end",FY29E,0.335
+Base,Model,Core fee income,FY20A,0.0
+Base,Model,Core fee income,FY21A,0.0
+Base,Model,Core fee income,FY22A,0.0
+Base,Model,Core fee income,FY23A,0.0
+Base,Model,Core fee income,FY24A,0.0
+Base,Model,Core fee income,FY25A,31898.55
+Base,Model,Core fee income,FY26A,34875.94
+Base,Model,Core fee income,FY27E,38712.2934
+Base,Model,Core fee income,FY28E,43357.768608
+Base,Model,Core fee income,FY29E,48560.70084096
+Base,Model,Cost of borrowings,FY25A,0.0868970088026947
+Base,Model,Cost of borrowings,FY26A,0.0780098638229448
+Base,Model,Cost of borrowings,FY27E,0.0777698638229448
+Base,Model,Cost of borrowings,FY28E,0.0788498638229448
+Base,Model,Cost of borrowings,FY29E,0.0787598638229448
+Base,Model,Cost of deposits,FY25A,0.0491787539442674
+Base,Model,Cost of deposits,FY26A,0.0475519014986854
+Base,Model,Cost of deposits,FY27E,0.0479300220302636
+Base,Model,Cost of deposits,FY28E,0.0489900220302636
+Base,Model,Cost of deposits,FY29E,0.0486850220302636
+Base,Model,Cost to income,FY20A,0.386389705750004
+Base,Model,Cost to income,FY21A,0.363243893563884
+Base,Model,Cost to income,FY22A,0.368817751153005
+Base,Model,Cost to income,FY23A,0.40363603867791
+Base,Model,Cost to income,FY24A,0.401753323815891
+Base,Model,Cost to income,FY25A,0.405073796643506
+Base,Model,Cost to income,FY26A,0.379985629013077
+Base,Model,Cost to income,FY27E,0.399955900511204
+Base,Model,Cost to income,FY28E,0.376961321233658
+Base,Model,Cost to income,FY29E,0.363571406697536
+Base,Model,Credit cost,FY21A,0.0107688476476978
+Base,Model,Credit cost,FY22A,0.00809014004298814
+Base,Model,Credit cost,FY23A,0.00793643355363334
+Base,Model,Credit cost,FY24A,0.00526975818966727
+Base,Model,Credit cost,FY25A,0.00501643055943119
+Base,Model,Credit cost,FY26A,0.00410480547647306
+Base,Model,Credit cost,FY27E,0.0055
+Base,Model,Credit cost,FY28E,0.0062
+Base,Model,Credit cost,FY29E,0.0068
+Base,Model,Credit-deposit ratio,FY20A,0.865970280547327
+Base,Model,Credit-deposit ratio,FY21A,0.848528488100709
+Base,Model,Credit-deposit ratio,FY22A,0.877889699591867
+Base,Model,Credit-deposit ratio,FY23A,0.849840950753471
+Base,Model,Credit-deposit ratio,FY24A,1.04415322538963
+Base,Model,Credit-deposit ratio,FY25A,0.964966383762803
+Base,Model,Credit-deposit ratio,FY26A,0.945870968662956
+Base,Model,Credit-deposit ratio,FY27E,0.929421038773166
+Base,Model,Credit-deposit ratio,FY28E,0.929421038773165
+Base,Model,Credit-deposit ratio,FY29E,0.929421038773166
+Base,Model,Deposits,FY20A,1147502.29
+Base,Model,Deposits,FY21A,1335060.22
+Base,Model,Deposits,FY22A,1559217.44
+Base,Model,Deposits,FY23A,1883394.65
+Base,Model,Deposits,FY24A,2379786.28
+Base,Model,Deposits,FY25A,2714714.9
+Base,Model,Deposits,FY26A,3105250.47
+Base,Model,Deposits,FY27E,3571038.0405
+Base,Model,Deposits,FY28E,4070983.36617
+Base,Model,Deposits,FY29E,4640921.0374338
+Base,Model,Dividends paid in year,FY27E,22401.39
+Base,Model,Dividends paid in year,FY28E,23056.718775461
+Base,Model,Dividends paid in year,FY29E,27678.1739832101
+Base,Model,Earnings per share,FY20A,17.0072729224286
+Base,Model,Earnings per share,FY21A,20.154659713284
+Base,Model,Earnings per share,FY22A,23.9404480897475
+Base,Model,Earnings per share,FY23A,28.5699056463232
+Base,Model,Earnings per share,FY24A,39.3890708147616
+Base,Model,Earnings per share,FY25A,43.621944979324
+Base,Model,Earnings per share,FY26A,48.3657761809015
+Base,Model,Earnings per share,FY27E,49.7806653854933
+Base,Model,Earnings per share,FY28E,59.7586296193222
+Base,Model,Earnings per share,FY29E,68.7098543961528
+Base,Model,Fixed assets,FY20A,4432.0
+Base,Model,Fixed assets,FY21A,4909.0
+Base,Model,Fixed assets,FY22A,6084.0
+Base,Model,Fixed assets,FY23A,8017.0
+Base,Model,Fixed assets,FY24A,11399.0
+Base,Model,Fixed assets,FY25A,13655.0
+Base,Model,Fixed assets,FY26A,14725.0
+Base,Model,Fixed assets,FY27E,16197.5
+Base,Model,Fixed assets,FY28E,17817.25
+Base,Model,Fixed assets,FY29E,19598.975
+Base,Model,IRDAI commission caps: bank fee lost,FY27E,0.0
+Base,Model,IRDAI commission caps: bank fee lost,FY28E,-436.531178510728
+Base,Model,IRDAI commission caps: bank fee lost,FY29E,-873.062357021455
+Base,Model,In-year retained profit held as cash,FY20A,0.0
+Base,Model,In-year retained profit held as cash,FY21A,0.0
+Base,Model,In-year retained profit held as cash,FY22A,0.0
+Base,Model,In-year retained profit held as cash,FY23A,0.0
+Base,Model,In-year retained profit held as cash,FY24A,0.0
+Base,Model,In-year retained profit held as cash,FY25A,0.0
+Base,Model,In-year retained profit held as cash,FY26A,0.0
+Base,Model,In-year retained profit held as cash,FY27E,76855.7292515367
+Base,Model,In-year retained profit held as cash,FY28E,92260.5799440335
+Base,Model,In-year retained profit held as cash,FY29E,106080.260789807
+Base,Model,Interest earned,FY20A,114812.65
+Base,Model,Interest earned,FY21A,120858.23
+Base,Model,Interest earned,FY22A,127753.12
+Base,Model,Interest earned,FY23A,161585.54
+Base,Model,Interest earned,FY24A,258340.58
+Base,Model,Interest earned,FY25A,300517.04
+Base,Model,Interest earned,FY26A,307522.07
+Base,Model,Interest earned,FY27E,338678.700899688
+Base,Model,Interest earned,FY28E,387914.037737635
+Base,Model,Interest earned,FY29E,436657.280547437
+Base,Model,Interest expended,FY20A,58626.4
+Base,Model,Interest expended,FY21A,55978.66
+Base,Model,Interest expended,FY22A,55743.53
+Base,Model,Interest expended,FY23A,74743.32
+Base,Model,Interest expended,FY24A,149808.1
+Base,Model,Interest expended,FY25A,177846.95
+Base,Model,Interest expended,FY26A,178836.04
+Base,Model,Interest expended,FY27E,193549.75891415
+Base,Model,Interest expended,FY28E,215713.263020786
+Base,Model,Interest expended,FY29E,238708.727292077
+Base,Model,"Investments, liquidity and other assets",FY20A,532376.38
+Base,Model,"Investments, liquidity and other assets",FY21A,609124.89
+Base,Model,"Investments, liquidity and other assets",FY22A,693630.12
+Base,Model,"Investments, liquidity and other assets",FY23A,857478.57
+Base,Model,"Investments, liquidity and other assets",FY24A,1121362.57
+Base,Model,"Investments, liquidity and other assets",FY25A,1276935.32
+Base,Model,"Investments, liquidity and other assets",FY26A,1412995.06
+Base,Model,"Investments, liquidity and other assets",FY27E,1388252.7754
+Base,Model,"Investments, liquidity and other assets",FY28E,1485607.59763208
+Base,Model,"Investments, liquidity and other assets",FY29E,1603197.27099474
+Base,Model,NII / average assets,FY21A,0.0395923174992448
+Base,Model,NII / average assets,FY22A,0.0377467551896455
+Base,Model,NII / average assets,FY23A,0.0383019025388281
+Base,Model,NII / average assets,FY24A,0.0356797339284339
+Base,Model,NII / average assets,FY25A,0.0325911238366511
+Base,Model,NII / average assets,FY26A,0.0311020432542322
+Base,Model,NII / average assets,FY27E,0.0316695973582252
+Base,Model,NII / average assets,FY28E,0.0338323669379087
+Base,Model,NII / average assets,FY29E,0.034662173577601
+Base,Model,Net interest income,FY20A,56186.25
+Base,Model,Net interest income,FY21A,64879.57
+Base,Model,Net interest income,FY22A,72009.59
+Base,Model,Net interest income,FY23A,86842.22
+Base,Model,Net interest income,FY24A,108532.48
+Base,Model,Net interest income,FY25A,122670.09
+Base,Model,Net interest income,FY26A,128686.03
+Base,Model,Net interest income,FY27E,145128.941985537
+Base,Model,Net interest income,FY28E,172200.774716849
+Base,Model,Net interest income,FY29E,197948.55325536
+Base,Model,Net interest margin on interest-earning assets,FY21A,0.0397054837241046
+Base,Model,Net interest margin on interest-earning assets,FY22A,0.0378558259258406
+Base,Model,Net interest margin on interest-earning assets,FY23A,0.0384213789846694
+Base,Model,Net interest margin on interest-earning assets,FY24A,0.0357939695402621
+Base,Model,Net interest margin on interest-earning assets,FY25A,0.0326999554056585
+Base,Model,Net interest margin on interest-earning assets,FY26A,0.0312090770281645
+Base,Model,Net interest margin on interest-earning assets,FY27E,0.0320464481769755
+Base,Model,Net interest margin on interest-earning assets,FY28E,0.0342573182356307
+Base,Model,Net interest margin on interest-earning assets,FY29E,0.0351031967395268
+Base,Model,Net revenue,FY20A,79447.07
+Base,Model,Net revenue,FY21A,90084.46
+Base,Model,Net revenue,FY22A,101519.49
+Base,Model,Net revenue,FY23A,118057.05
+Base,Model,Net revenue,FY24A,157773.48
+Base,Model,Net revenue,FY25A,168302.37
+Base,Model,Net revenue,FY26A,191218.6
+Base,Model,Net revenue,FY27E,199837.911874389
+Base,Model,Net revenue,FY28E,233230.791191715
+Base,Model,Net revenue,FY29E,266002.452718885
+Base,Model,"Net worth, closing",FY20A,170986.03
+Base,Model,"Net worth, closing",FY21A,203720.83
+Base,Model,"Net worth, closing",FY22A,240092.94
+Base,Model,"Net worth, closing",FY23A,280199.01
+Base,Model,"Net worth, closing",FY24A,440245.81
+Base,Model,"Net worth, closing",FY25A,501424.64
+Base,Model,"Net worth, closing",FY26A,562900.91
+Base,Model,"Net worth, closing",FY27E,617355.249251537
+Base,Model,"Net worth, closing",FY28E,686559.110420109
+Base,Model,"Net worth, closing",FY29E,764961.197226706
+Base,Model,Operating expenses,FY20A,30697.53
+Base,Model,Operating expenses,FY21A,32722.63
+Base,Model,Operating expenses,FY22A,37442.19
+Base,Model,Operating expenses,FY23A,47652.08
+Base,Model,Operating expenses,FY24A,63386.02
+Base,Model,Operating expenses,FY25A,68174.88
+Base,Model,Operating expenses,FY26A,72660.32
+Base,Model,Operating expenses,FY27E,79926.352
+Base,Model,Operating expenses,FY28E,87918.9872
+Base,Model,Operating expenses,FY29E,96710.88592
+Base,Model,Opex / average assets,FY21A,0.0199687629922688
+Base,Model,Opex / average assets,FY22A,0.0196268466421513
+Base,Model,Opex / average assets,FY23A,0.0210170274773312
+Base,Model,Opex / average assets,FY24A,0.0208379678450395
+Base,Model,Opex / average assets,FY25A,0.0181127767708398
+Base,Model,Opex / average assets,FY26A,0.0175612256863185
+Base,Model,Opex / average assets,FY27E,0.0174412860145017
+Base,Model,Opex / average assets,FY28E,0.0172734846324049
+Base,Model,Opex / average assets,FY29E,0.0169347512748838
+Base,Model,Other income,FY20A,23260.82
+Base,Model,Other income,FY21A,25204.89
+Base,Model,Other income,FY22A,29509.9
+Base,Model,Other income,FY23A,31214.83
+Base,Model,Other income,FY24A,49241.0
+Base,Model,Other income,FY25A,45632.28
+Base,Model,Other income,FY26A,62532.57
+Base,Model,Other income,FY27E,54708.9698888517
+Base,Model,Other income,FY28E,61030.0164748657
+Base,Model,Other income,FY29E,68053.899463525
+Base,Model,Other income / average assets,FY21A,0.0153811131518526
+Base,Model,Other income / average assets,FY22A,0.0154688142366999
+Base,Model,Other income / average assets,FY23A,0.0137673515995571
+Base,Model,Other income / average assets,FY24A,0.0161878340785174
+Base,Model,Other income / average assets,FY25A,0.0121236341183799
+Base,Model,Other income / average assets,FY26A,0.0151134563475018
+Base,Model,Other income / average assets,FY27E,0.0119384254068073
+Base,Model,Other income / average assets,FY28E,0.0119905959482437
+Base,Model,Other income / average assets,FY29E,0.0119167128884961
+Base,Model,Other liabilities and provisions,FY20A,67394.0
+Base,Model,Other liabilities and provisions,FY21A,72602.0
+Base,Model,Other liabilities and provisions,FY22A,84407.0
+Base,Model,Other liabilities and provisions,FY23A,95722.0
+Base,Model,Other liabilities and provisions,FY24A,135438.0
+Base,Model,Other liabilities and provisions,FY25A,146129.0
+Base,Model,Other liabilities and provisions,FY26A,207340.0
+Base,Model,Other liabilities and provisions,FY27E,238441.0
+Base,Model,Other liabilities and provisions,FY28E,271822.74
+Base,Model,Other liabilities and provisions,FY29E,309877.9236
+Base,Model,Pre-provision operating profit,FY20A,48749.54
+Base,Model,Pre-provision operating profit,FY21A,57361.83
+Base,Model,Pre-provision operating profit,FY22A,64077.3
+Base,Model,Pre-provision operating profit,FY23A,70404.97
+Base,Model,Pre-provision operating profit,FY24A,94387.46
+Base,Model,Pre-provision operating profit,FY25A,100127.49
+Base,Model,Pre-provision operating profit,FY26A,118558.28
+Base,Model,Pre-provision operating profit,FY27E,119911.559874389
+Base,Model,Pre-provision operating profit,FY28E,145311.803991715
+Base,Model,Pre-provision operating profit,FY29E,169291.566798885
+Base,Model,Profit after tax,FY20A,26257.31
+Base,Model,Profit after tax,FY21A,31116.52
+Base,Model,Profit after tax,FY22A,36961.35
+Base,Model,Profit after tax,FY23A,44108.71
+Base,Model,Profit after tax,FY24A,60812.28
+Base,Model,Profit after tax,FY25A,67347.36
+Base,Model,Profit after tax,FY26A,74671.3
+Base,Model,Profit after tax,FY27E,76855.7292515367
+Base,Model,Profit after tax,FY28E,92260.5799440335
+Base,Model,Profit after tax,FY29E,106080.260789807
+Base,Model,"Profit after tax, core",FY20A,26257.31
+Base,Model,"Profit after tax, core",FY21A,31116.52
+Base,Model,"Profit after tax, core",FY22A,36961.35
+Base,Model,"Profit after tax, core",FY23A,44108.71
+Base,Model,"Profit after tax, core",FY24A,60812.28
+Base,Model,"Profit after tax, core",FY25A,67347.36
+Base,Model,"Profit after tax, core",FY26A,74567.95977
+Base,Model,"Profit after tax, core",FY27E,76855.7292515367
+Base,Model,"Profit after tax, core",FY28E,92260.5799440335
+Base,Model,"Profit after tax, core",FY29E,106080.260789807
+Base,Model,Profit before tax,FY20A,36607.15
+Base,Model,Profit before tax,FY21A,41658.98
+Base,Model,Profit before tax,FY22A,49015.47
+Base,Model,Profit before tax,FY23A,58485.31
+Base,Model,Profit before tax,FY24A,70895.31
+Base,Model,Profit before tax,FY25A,88478.06
+Base,Model,Profit before tax,FY26A,95168.7
+Base,Model,Profit before tax,FY27E,102707.108447864
+Base,Model,Profit before tax,FY28E,123293.572021961
+Base,Model,Profit before tax,FY29E,141761.67418122
+Base,Model,Provisions / average assets,FY21A,0.00958255769640606
+Base,Model,Provisions / average assets,FY22A,0.00789527075099385
+Base,Model,Provisions / average assets,FY23A,0.00525718545214491
+Base,Model,Provisions / average assets,FY24A,0.00772297529188367
+Base,Model,Provisions / average assets,FY25A,0.00309503331868753
+Base,Model,Provisions / average assets,FY26A,0.005653012443218
+Base,Model,Provisions / average assets,FY27E,0.00375430318717191
+Base,Model,Provisions / average assets,FY28E,0.00432593235744486
+Base,Model,Provisions / average assets,FY29E,0.00482067638683492
+Base,Model,Provisions and contingencies,FY20A,12142.39
+Base,Model,Provisions and contingencies,FY21A,15702.85
+Base,Model,Provisions and contingencies,FY22A,15061.83
+Base,Model,Provisions and contingencies,FY23A,11919.66
+Base,Model,Provisions and contingencies,FY24A,23492.15
+Base,Model,Provisions and contingencies,FY25A,11649.43
+Base,Model,Provisions and contingencies,FY26A,23389.58
+Base,Model,Provisions and contingencies,FY27E,17204.451426525
+Base,Model,Provisions and contingencies,FY28E,22018.2319697534
+Base,Model,Provisions and contingencies,FY29E,27529.8926176659
+Base,Model,Return on average assets,FY21A,0.0189886452593875
+Base,Model,Return on average assets,FY22A,0.0193747948006481
+Base,Model,Return on average assets,FY23A,0.0194542183690541
+Base,Model,Return on average assets,FY24A,0.019991858381762
+Base,Model,Return on average assets,FY25A,0.0178929203510939
+Base,Model,Return on average assets,FY26A,0.0180472581402173
+Base,Model,Return on average assets,FY27E,0.0167712240354615
+Base,Model,Return on average assets,FY28E,0.0181264793942033
+Base,Model,Return on average assets,FY29E,0.0185753942233164
+Base,Model,"Return on average assets, core",FY21A,0.0189886452593875
+Base,Model,"Return on average assets, core",FY22A,0.0193747948006481
+Base,Model,"Return on average assets, core",FY23A,0.0194542183690541
+Base,Model,"Return on average assets, core",FY24A,0.019991858381762
+Base,Model,"Return on average assets, core",FY25A,0.0178929203510939
+Base,Model,"Return on average assets, core",FY26A,0.0180222819069513
+Base,Model,"Return on average assets, core",FY27E,0.0167712240354615
+Base,Model,"Return on average assets, core",FY28E,0.0181264793942033
+Base,Model,"Return on average assets, core",FY29E,0.0185753942233164
+Base,Model,Return on average net worth,FY21A,0.166084602774553
+Base,Model,Return on average net worth,FY22A,0.166562430003017
+Base,Model,Return on average net worth,FY23A,0.169553690000393
+Base,Model,Return on average net worth,FY24A,0.168818702867487
+Base,Model,Return on average net worth,FY25A,0.143038066024053
+Base,Model,Return on average net worth,FY26A,0.140316654053828
+Base,Model,Return on average net worth,FY27E,0.130235675788
+Base,Model,Return on average net worth,FY28E,0.141513250866057
+Base,Model,Return on average net worth,FY29E,0.146164349518172
+Base,Model,Tax,FY20A,10349.84
+Base,Model,Tax,FY21A,10542.46
+Base,Model,Tax,FY22A,12054.12
+Base,Model,Tax,FY23A,14376.6
+Base,Model,Tax,FY24A,10083.03
+Base,Model,Tax,FY25A,21130.7
+Base,Model,Tax,FY26A,20497.4
+Base,Model,Tax,FY27E,25851.3791963274
+Base,Model,Tax,FY28E,31032.9920779276
+Base,Model,Tax,FY29E,35681.413391413
+Base,Model,Tax / average assets,FY21A,0.00643346470303499
+Base,Model,Tax / average assets,FY22A,0.00631865723255208
+Base,Model,Tax / average assets,FY23A,0.00634082283985504
+Base,Model,Tax / average assets,FY24A,0.00331476648826616
+Base,Model,Tax / average assets,FY25A,0.00561402751440977
+Base,Model,Tax / average assets,FY26A,0.00495400333198017
+Base,Model,Tax / average assets,FY27E,0.00564120952789744
+Base,Model,Tax / average assets,FY28E,0.00609706650209938
+Base,Model,Tax / average assets,FY29E,0.00624806458106206
+Base,Model,Total assets,FY20A,1530511.26
+Base,Model,Total assets,FY21A,1746870.52
+Base,Model,Total assets,FY22A,2068535.05
+Base,Model,Total assets,FY23A,2466081.47
+Base,Model,Total assets,FY24A,3617623.09
+Base,Model,Total assets,FY25A,3910198.94
+Base,Model,Total assets,FY26A,4364886.33
+Base,Model,Total assets,FY27E,4800303.88975154
+Base,Model,Total assets,FY28E,5379343.01659011
+Base,Model,Total assets,FY29E,6042246.15826051
+Base,Model,Total liabilities and net worth,FY20A,1530511.32
+Base,Model,Total liabilities and net worth,FY21A,1746870.05
+Base,Model,Total liabilities and net worth,FY22A,2068534.38
+Base,Model,Total liabilities and net worth,FY23A,2466081.66
+Base,Model,Total liabilities and net worth,FY24A,3617623.09
+Base,Model,Total liabilities and net worth,FY25A,3910199.54
+Base,Model,Total liabilities and net worth,FY26A,4364886.38
+Base,Model,Total liabilities and net worth,FY27E,4800303.88975154
+Base,Model,Total liabilities and net worth,FY28E,5379343.01659011
+Base,Model,Total liabilities and net worth,FY29E,6042246.15826051
+Base,Model,Treasury and other non-fee income,FY25A,13733.73
+Base,Model,Treasury and other non-fee income,FY26A,27656.63
+Base,Model,Treasury and other non-fee income,FY27E,15904.585358375
+Base,Model,Treasury and other non-fee income,FY28E,17652.9260711958
+Base,Model,Treasury and other non-fee income,FY29E,19802.1405996064
+Base,Model,UPI MDR revenue,FY27E,92.0911304767336
+Base,Model,UPI MDR revenue,FY28E,455.852974180604
+Base,Model,UPI MDR revenue,FY29E,564.120379980032
+Base,Model,Yield on advances,FY25A,0.0934257321368129
+Base,Model,Yield on advances,FY26A,0.0862955454364285
+Base,Model,Yield on advances,FY27E,0.0858555454364285
+Base,Model,Yield on advances,FY28E,0.0878355454364285
+Base,Model,Yield on advances,FY29E,0.0876705454364285
+Base,Model,Yield on investments and liquidity,FY25A,0.0517638865954221
+Base,Model,Yield on investments and liquidity,FY26A,0.0503801960852236
+Base,Model,Yield on investments and liquidity,FY27E,0.0500601960852236
+Base,Model,Yield on investments and liquidity,FY28E,0.0515001960852236
+Base,Model,Yield on investments and liquidity,FY29E,0.0513801960852236
+Base,Opex_Credit,Cost to income,FY20A,0.386389705750004
+Base,Opex_Credit,Cost to income,FY21A,0.363243893563884
+Base,Opex_Credit,Cost to income,FY22A,0.368817751153005
+Base,Opex_Credit,Cost to income,FY23A,0.40363603867791
+Base,Opex_Credit,Cost to income,FY24A,0.401753323815891
+Base,Opex_Credit,Cost to income,FY25A,0.405073796643506
+Base,Opex_Credit,Cost to income,FY26A,0.379985629013077
+Base,Opex_Credit,Cost to income,FY27E,0.399955900511204
+Base,Opex_Credit,Cost to income,FY28E,0.376961321233658
+Base,Opex_Credit,Cost to income,FY29E,0.363571406697536
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY21A,0.0107688476476978
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY22A,0.00809014004298814
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY23A,0.00793643355363334
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY24A,0.00526975818966727
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY25A,0.00501643055943119
+Base,Opex_Credit,Credit cost (loan loss provisions / average advances),FY26A,0.00410480547647306
+Base,Opex_Credit,Employee cost / opex,FY25A,0.350576781359938
+Base,Opex_Credit,Employee cost / opex,FY26A,0.358519615658175
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY21A,0.0679233147438259
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY22A,-0.0172924725115364
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY23A,-0.109783757607183
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY24A,0.00623356788682727
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY25A,-0.00881650948281831
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY26A,0.0703679169051095
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY27E,-0.0549243019539463
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY28E,0.0670998210705631
+Base,Opex_Credit,Jaws: revenue growth less cost growth,FY29E,0.0405117281458463
+Base,Opex_Credit,Net revenue per branch,FY26A,19.7356383527712
+Base,Opex_Credit,Net revenue per employee,FY26A,0.906382454294233
+Base,Opex_Credit,Normalisation gap,E,20.6740450312463
+Base,Opex_Credit,Opex / average assets,FY21A,0.0199687629922688
+Base,Opex_Credit,Opex / average assets,FY22A,0.0196268466421513
+Base,Opex_Credit,Opex / average assets,FY23A,0.0210170274773312
+Base,Opex_Credit,Opex / average assets,FY24A,0.0208379678450395
+Base,Opex_Credit,Opex / average assets,FY25A,0.0181127767708398
+Base,Opex_Credit,Opex / average assets,FY26A,0.0175612256863185
+Base,Opex_Credit,Opex / average assets,FY27E,0.0174412860145017
+Base,Opex_Credit,Opex / average assets,FY28E,0.0172734846324049
+Base,Opex_Credit,Opex / average assets,FY29E,0.0169347512748838
+Base,Opex_Credit,"Recent credit cost, FY24-FY26 average",E,0.00479699807519051
+Base,Opex_Credit,RoA at risk if credit cost normalises,E,10.3884685412978
+Base,Opex_Credit,"Through-the-cycle credit cost, FY21-FY26 average",E,0.00686440257831514
+Base,Peers,Axis Bank,D,24457.0
+Base,Peers,Axis Bank,E,1748390.0
+Base,Peers,Axis Bank,F,192631.0
+Base,Peers,Axis Bank,G,0.0139882978054095
+Base,Peers,Axis Bank,H,0.126962949888647
+Base,Peers,Axis Bank,I,377205.0
+Base,Peers,Axis Bank,J,1.83521701688747
+Base,Peers,Axis Bank,K,1.0
+Base,Peers,Axis Bank,L,205537.0
+Base,Peers,Axis Bank,M,0.126962949888647
+Base,Peers,Axis Bank,N,1.83521701688747
+Base,Peers,Bank of Baroda,D,20021.0
+Base,Peers,Bank of Baroda,E,1895205.5
+Base,Peers,Bank of Baroda,F,145067.5
+Base,Peers,Bank of Baroda,G,0.0105640259064255
+Base,Peers,Bank of Baroda,H,0.138011615282541
+Base,Peers,Bank of Baroda,I,125645.0
+Base,Peers,Bank of Baroda,J,0.820088898171778
+Base,Peers,Bank of Baroda,K,0.0
+Base,Peers,Bank of Baroda,L,153209.0
+Base,Peers,Banks in fit,E,5.0
+Base,Peers,Canara Bank,D,19187.0
+Base,Peers,Canara Bank,E,1783944.0
+Base,Peers,Canara Bank,F,106641.0
+Base,Peers,Canara Bank,G,0.0107553824559515
+Base,Peers,Canara Bank,H,0.179921418591349
+Base,Peers,Canara Bank,I,106706.0
+Base,Peers,Canara Bank,J,0.941119401668695
+Base,Peers,Canara Bank,K,0.0
+Base,Peers,Canara Bank,L,113382.0
+Base,Peers,Federal Bank,D,4117.0
+Base,Peers,Federal Bank,E,368263.0
+Base,Peers,Federal Bank,F,36062.5
+Base,Peers,Federal Bank,G,0.0111795102956311
+Base,Peers,Federal Bank,H,0.114162911611785
+Base,Peers,Federal Bank,I,82880.0
+Base,Peers,Federal Bank,J,2.14132541015373
+Base,Peers,Federal Bank,K,1.0
+Base,Peers,Federal Bank,L,38705.0
+Base,Peers,Federal Bank,M,0.114162911611785
+Base,Peers,Federal Bank,N,2.14132541015373
+Base,Peers,HDFC Bank,D,74671.0
+Base,Peers,HDFC Bank,E,4137542.5
+Base,Peers,HDFC Bank,F,532162.5
+Base,Peers,HDFC Bank,G,0.0180471862222563
+Base,Peers,HDFC Bank,H,0.140316162826204
+Base,Peers,HDFC Bank,I,1080721.0
+Base,Peers,HDFC Bank,J,1.9199130930661
+Base,Peers,HDFC Bank,K,1.0
+Base,Peers,HDFC Bank,L,562901.0
+Base,Peers,HDFC Bank,M,0.140316162826204
+Base,Peers,HDFC Bank,N,1.9199130930661
+Base,Peers,ICICI Bank,D,50147.0
+Base,Peers,ICICI Bank,E,2245385.5
+Base,Peers,ICICI Bank,F,314724.0
+Base,Peers,ICICI Bank,G,0.0223333587929556
+Base,Peers,ICICI Bank,H,0.159336434463212
+Base,Peers,ICICI Bank,I,999148.0
+Base,Peers,ICICI Bank,J,2.96157049657499
+Base,Peers,ICICI Bank,K,1.0
+Base,Peers,ICICI Bank,L,337371.0
+Base,Peers,ICICI Bank,M,0.159336434463212
+Base,Peers,ICICI Bank,N,2.96157049657499
+Base,Peers,IDFC First Bank,D,1636.0
+Base,Peers,IDFC First Bank,E,371799.5
+Base,Peers,IDFC First Bank,F,42715.0
+Base,Peers,IDFC First Bank,G,0.00440022108690302
+Base,Peers,IDFC First Bank,H,0.0383003628701861
+Base,Peers,IDFC First Bank,I,63185.0
+Base,Peers,IDFC First Bank,J,1.33436813650955
+Base,Peers,IDFC First Bank,K,0.0
+Base,Peers,IDFC First Bank,L,47352.0
+Base,Peers,IndusInd Bank,D,933.0
+Base,Peers,IndusInd Bank,E,548718.5
+Base,Peers,IndusInd Bank,F,64966.5
+Base,Peers,IndusInd Bank,G,0.0017003253945329
+Base,Peers,IndusInd Bank,H,0.0143612477199788
+Base,Peers,IndusInd Bank,I,66925.0
+Base,Peers,IndusInd Bank,J,1.02269254278729
+Base,Peers,IndusInd Bank,K,0.0
+Base,Peers,IndusInd Bank,L,65440.0
+Base,Peers,Intercept,E,2.55462355837718
+Base,Peers,Kotak Mahindra Bank,D,14008.0
+Base,Peers,Kotak Mahindra Bank,E,738313.5
+Base,Peers,Kotak Mahindra Bank,F,126276.0
+Base,Peers,Kotak Mahindra Bank,G,0.0189729701542773
+Base,Peers,Kotak Mahindra Bank,H,0.110931610123856
+Base,Peers,Kotak Mahindra Bank,I,456555.0
+Base,Peers,Kotak Mahindra Bank,J,3.37409098971266
+Base,Peers,Kotak Mahindra Bank,K,1.0
+Base,Peers,Kotak Mahindra Bank,L,135312.0
+Base,Peers,Kotak Mahindra Bank,M,0.110931610123856
+Base,Peers,Kotak Mahindra Bank,N,3.37409098971266
+Base,Peers,Punjab National Bank,D,16904.0
+Base,Peers,Punjab National Bank,E,1902031.5
+Base,Peers,Punjab National Bank,F,135006.5
+Base,Peers,Punjab National Bank,G,0.00888733966813904
+Base,Peers,Punjab National Bank,H,0.125208786243625
+Base,Peers,Punjab National Bank,I,138929.0
+Base,Peers,Punjab National Bank,J,0.97391517700666
+Base,Peers,Punjab National Bank,K,0.0
+Base,Peers,Punjab National Bank,L,142650.0
+Base,Peers,R-squared,E,0.000586022390067019
+Base,Peers,Slope: P/B per unit of RoE,E,-0.830124945580012
+Base,Peers,State Bank of India,D,80032.0
+Base,Peers,State Bank of India,E,7149477.5
+Base,Peers,State Bank of India,F,492802.0
+Base,Peers,State Bank of India,G,0.011194104744018
+Base,Peers,State Bank of India,H,0.162401938303822
+Base,Peers,State Bank of India,I,919754.0
+Base,Peers,State Bank of India,J,1.68935166647687
+Base,Peers,State Bank of India,K,0.0
+Base,Peers,State Bank of India,L,544442.0
+Base,Peers,Yes Bank,D,3476.0
+Base,Peers,Yes Bank,E,446263.5
+Base,Peers,Yes Bank,F,49421.0
+Base,Peers,Yes Bank,G,0.00778912010505004
+Base,Peers,Yes Bank,H,0.070334473199652
+Base,Peers,Yes Bank,I,48277.0
+Base,Peers,Yes Bank,J,0.945458462261564
+Base,Peers,Yes Bank,K,0.0
+Base,Peers,Yes Bank,L,51062.0
+Base,Tornado,Advances growth,C,0.12
+Base,Tornado,Advances growth,D,0.16
+Base,Tornado,Advances growth,E,0.017750985839944
+Base,Tornado,Advances growth,F,0.0192849406973657
+Base,Tornado,Advances growth,G,-8.24408383372399
+Base,Tornado,Advances growth,H,7.09546474049302
+Base,Tornado,Advances growth,I,15.339548574217
+Base,Tornado,"CASA ratio, year end",C,0.32
+Base,Tornado,"CASA ratio, year end",D,0.36
+Base,Tornado,"CASA ratio, year end",E,0.0182274477860297
+Base,Tornado,"CASA ratio, year end",F,0.0191475720955726
+Base,Tornado,"CASA ratio, year end",G,-3.47946437286698
+Base,Tornado,"CASA ratio, year end",H,5.72177872256201
+Base,Tornado,"CASA ratio, year end",I,9.201243095429
+Base,Tornado,Core fee income growth,C,0.09
+Base,Tornado,Core fee income growth,D,0.14
+Base,Tornado,Core fee income growth,E,0.0180726461159709
+Base,Tornado,Core fee income growth,F,0.0189254144164599
+Base,Tornado,Core fee income growth,G,-5.02748107345498
+Base,Tornado,Core fee income growth,H,3.50020193143501
+Base,Tornado,Core fee income growth,I,8.52768300488999
+Base,Tornado,Cost beta: deposits,C,0.25
+Base,Tornado,Cost beta: deposits,D,0.62
+Base,Tornado,Cost beta: deposits,E,0.0187188079565948
+Base,Tornado,Cost beta: deposits,F,0.0181879379250383
+Base,Tornado,Cost beta: deposits,G,1.43413733278402
+Base,Tornado,Cost beta: deposits,H,-3.87456298278098
+Base,Tornado,Cost beta: deposits,I,5.308700315565
+Base,Tornado,Credit cost,C,0.006
+Base,Tornado,Credit cost,D,0.0085
+Base,Tornado,Credit cost,E,0.0190049925390538
+Base,Tornado,Credit cost,F,0.0176618783428527
+Base,Tornado,Credit cost,G,4.29598315737401
+Base,Tornado,Credit cost,H,-9.13515880463699
+Base,Tornado,Credit cost,I,13.431141962011
+Base,Tornado,Deposit growth,C,0.12
+Base,Tornado,Deposit growth,D,0.16
+Base,Tornado,Deposit growth,E,0.0190904393879868
+Base,Tornado,Deposit growth,F,0.0181650939405551
+Base,Tornado,Deposit growth,G,5.15045164670401
+Base,Tornado,Deposit growth,H,-4.10300282761299
+Base,Tornado,Deposit growth,I,9.253454474317
+Base,Tornado,IRDAI cap severity on bank fees,C,0.5
+Base,Tornado,IRDAI cap severity on bank fees,D,1.5
+Base,Tornado,IRDAI cap severity on bank fees,E,0.0186325972021487
+Base,Tornado,IRDAI cap severity on bank fees,F,0.0185181851338526
+Base,Tornado,IRDAI cap severity on bank fees,G,0.572029788323027
+Base,Tornado,IRDAI cap severity on bank fees,H,-0.572090894638
+Base,Tornado,IRDAI cap severity on bank fees,I,1.14412068296103
+Base,Tornado,Operating expense growth,C,0.09
+Base,Tornado,Operating expense growth,D,0.12
+Base,Tornado,Operating expense growth,E,0.0189228746510233
+Base,Tornado,Operating expense growth,F,0.0178605497821083
+Base,Tornado,Operating expense growth,G,3.47480427706902
+Base,Tornado,Operating expense growth,H,-7.14844441208097
+Base,Tornado,Operating expense growth,I,10.62324868915
+Base,Tornado,"Policy repo rate, fiscal-year average",C,0.05
+Base,Tornado,"Policy repo rate, fiscal-year average",D,0.0625
+Base,Tornado,"Policy repo rate, fiscal-year average",E,0.0173558613416485
+Base,Tornado,"Policy repo rate, fiscal-year average",F,0.0193939423700285
+Base,Tornado,"Policy repo rate, fiscal-year average",G,-12.195328816679
+Base,Tornado,"Policy repo rate, fiscal-year average",H,8.18548146712103
+Base,Tornado,"Policy repo rate, fiscal-year average",I,20.3808102838
+Base,Tornado,"RoA FY29E, Base",E,0.0185753942233164
+Base,Tornado,Share of maturing borrowings retired,C,0.3
+Base,Tornado,Share of maturing borrowings retired,D,0.8
+Base,Tornado,Share of maturing borrowings retired,E,0.01809618962591
+Base,Tornado,Share of maturing borrowings retired,F,0.018901778643791
+Base,Tornado,Share of maturing borrowings retired,G,-4.79204597406399
+Base,Tornado,Share of maturing borrowings retired,H,3.26384420474602
+Base,Tornado,Share of maturing borrowings retired,I,8.05589017881001
+Base,Tornado,Treasury and other non-fee income,C,0.003
+Base,Tornado,Treasury and other non-fee income,D,0.004
+Base,Tornado,Treasury and other non-fee income,E,0.0181970722325042
+Base,Tornado,Treasury and other non-fee income,F,0.0189535642862144
+Base,Tornado,Treasury and other non-fee income,G,-3.78321990812197
+Base,Tornado,Treasury and other non-fee income,H,3.78170062898
+Base,Tornado,Treasury and other non-fee income,I,7.56492053710197
+Base,Tornado,Yield beta: loans,C,0.55
+Base,Tornado,Yield beta: loans,D,0.6
+Base,Tornado,Yield beta: loans,E,0.0185753942233164
+Base,Tornado,Yield beta: loans,F,0.0186420438942302
+Base,Tornado,Yield beta: loans,G,0.0
+Base,Tornado,Yield beta: loans,H,0.666496709138022
+Base,Tornado,Yield beta: loans,I,0.666496709138022
+Base,Valuation,Core bank value,E,708096.679667453
+Base,Valuation,"Core book value, FY26",E,549552.21
+Base,Valuation,Cost of equity,E,0.13135
+Base,Valuation,Current P/B (standalone),E,1.91991340003341
+Base,Valuation,Current share price,E,700.0
+Base,Valuation,Discount periods to FY27E,E,1.0
+Base,Valuation,Discount periods to FY28E,E,2.0
+Base,Valuation,Discount periods to FY29E,E,3.0
+Base,Valuation,Equity beta,E,0.95
+Base,Valuation,"Equity risk premium, India",E,0.065
+Base,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
+Base,Valuation,HDB Financial Services: market capitalisation,E,41774.0
+Base,Valuation,HDFC AMC: HDFC Bank stake,E,0.524
+Base,Valuation,HDFC AMC: market capitalisation,E,105276.0
+Base,Valuation,HDFC Life: HDFC Bank stake,E,0.502
+Base,Valuation,HDFC Life: market capitalisation,E,113843.0
+Base,Valuation,Holding-company discount,E,0.2
+Base,Valuation,Investment in subsidiaries at cost,E,13348.7
+Base,Valuation,Justified P/B,E,1.28849755634219
+Base,Valuation,Long-term growth,E,0.08
+Base,Valuation,P/B implied by peer regression at FY29E RoE,E,2.43328888568767
+Base,Valuation,Present value of FY27E-FY29E residual income,E,22288.0694178415
+Base,Valuation,Present value of terminal residual income,E,141728.644313427
+Base,Valuation,Residual income FY27E,E,2918.69472303674
+Base,Valuation,Residual income FY28E,E,11170.9679548442
+Base,Valuation,Residual income FY29E,E,15900.7216361252
+Base,Valuation,Residual income equity value,E,726917.623731268
+Base,Valuation,Residual income growth after FY29,E,0.05
+Base,Valuation,Residual income per share,E,470.835985061721
+Base,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Base,Valuation,RoA increment for value test,E,10.0
+Base,Valuation,RoE the market is pricing,E,0.178587553091716
+Base,Valuation,"Subsidiaries, after discount",E,114614.6752
+Base,Valuation,Sum of the parts equity value,E,822711.354867453
+Base,Valuation,Sum of the parts per share,E,532.883092312648
+Base,Valuation,Sustainable RoE: FY29E,E,0.146164349518172
+Base,Valuation,Upside to residual income,E,-0.327377164197542
+Base,Valuation,Upside to sum of the parts,E,-0.238738439553361
+Base,Valuation,Value of +10 bp RoA (equity value),E,84211.6020339481
+Downside,ALM,  Standard error,E,0.105411156915017
+Downside,ALM,1 day,C,0.03
+Downside,ALM,1 day,D,7800.55
+Downside,ALM,1 day,E,214529.94
+Downside,ALM,1 day,F,48252.58
+Downside,ALM,1 day,G,531.65
+Downside,ALM,1 day,H,173546.26
+Downside,ALM,1 day,I,173546.26
+Downside,ALM,1-3 years,C,24.0
+Downside,ALM,1-3 years,D,1273116.88
+Downside,ALM,1-3 years,E,185640.79
+Downside,ALM,1-3 years,F,1020875.68
+Downside,ALM,1-3 years,G,78305.81
+Downside,ALM,1-3 years,H,359576.18
+Downside,ALM,1-3 years,I,252540.11
+Downside,ALM,15-30 days,C,0.75
+Downside,ALM,15-30 days,D,36080.58
+Downside,ALM,15-30 days,E,42532.84
+Downside,ALM,15-30 days,F,75417.69
+Downside,ALM,15-30 days,G,20763.73
+Downside,ALM,15-30 days,H,-17568.0
+Downside,ALM,15-30 days,I,85788.12
+Downside,ALM,2-3 months,C,2.5
+Downside,ALM,2-3 months,D,83112.9
+Downside,ALM,2-3 months,E,35880.28
+Downside,ALM,2-3 months,F,103172.88
+Downside,ALM,2-3 months,G,21464.57
+Downside,ALM,2-3 months,H,-5644.27000000001
+Downside,ALM,2-3 months,I,46737.7
+Downside,ALM,2-7 days,C,0.15
+Downside,ALM,2-7 days,D,33387.28
+Downside,ALM,2-7 days,E,30256.65
+Downside,ALM,2-7 days,F,103780.48
+Downside,ALM,2-7 days,G,8488.09
+Downside,ALM,2-7 days,H,-48624.64
+Downside,ALM,2-7 days,I,124921.62
+Downside,ALM,3-5 years,C,48.0
+Downside,ALM,3-5 years,D,343567.27
+Downside,ALM,3-5 years,E,19629.47
+Downside,ALM,3-5 years,F,13319.97
+Downside,ALM,3-5 years,G,67466.26
+Downside,ALM,3-5 years,H,282410.51
+Downside,ALM,3-5 years,I,534950.62
+Downside,ALM,3-6 months,C,4.5
+Downside,ALM,3-6 months,D,181193.01
+Downside,ALM,3-6 months,E,31861.69
+Downside,ALM,3-6 months,F,167281.93
+Downside,ALM,3-6 months,G,51034.1
+Downside,ALM,3-6 months,H,-5261.32999999998
+Downside,ALM,3-6 months,I,41476.37
+Downside,ALM,31 days-2 months,C,1.5
+Downside,ALM,31 days-2 months,D,76238.56
+Downside,ALM,31 days-2 months,E,34583.75
+Downside,ALM,31 days-2 months,F,107134.36
+Downside,ALM,31 days-2 months,G,37094.1
+Downside,ALM,31 days-2 months,H,-33406.15
+Downside,ALM,31 days-2 months,I,52381.97
+Downside,ALM,6 months-1 year,C,9.0
+Downside,ALM,6 months-1 year,D,240566.48
+Downside,ALM,6 months-1 year,E,66410.65
+Downside,ALM,6 months-1 year,F,403378.88
+Downside,ALM,6 months-1 year,G,52110.69
+Downside,ALM,6 months-1 year,H,-148512.44
+Downside,ALM,6 months-1 year,I,-107036.07
+Downside,ALM,8-14 days,C,0.35
+Downside,ALM,8-14 days,D,18191.98
+Downside,ALM,8-14 days,E,14524.74
+Downside,ALM,8-14 days,F,52559.59
+Downside,ALM,8-14 days,G,1722.63
+Downside,ALM,8-14 days,H,-21565.5
+Downside,ALM,8-14 days,I,103356.12
+Downside,ALM,Add: floating advances beyond 1 year that reprice now,E,12433.272115
+Downside,ALM,Advances on external benchmarks (reprice within a month),E,0.55
+Downside,ALM,As % of FY26 NII,E,0.0976719123811134
+Downside,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
+Downside,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
+Downside,ALM,Long-run beta (same year + lag),E,0.616166232706712
+Downside,ALM,Model base deposit beta less same-year estimate,E,-0.115737139605578
+Downside,ALM,Months in horizon,E,12.0
+Downside,ALM,NII change on contractual gaps,E,135.738531833333
+Downside,ALM,One-year-lag beta,E,0.250429093101135
+Downside,ALM,Over 5 years,C,84.0
+Downside,ALM,Over 5 years,D,643910.78
+Downside,ALM,Over 5 years,E,208350.67
+Downside,ALM,Over 5 years,F,1010076.43
+Downside,ALM,Over 5 years,G,150413.01
+Downside,ALM,Over 5 years,H,-308227.99
+Downside,ALM,Over 5 years,I,226722.63
+Downside,ALM,R-squared,E,0.944858138405346
+Downside,ALM,Rate shock,E,0.01
+Downside,ALM,Same-year beta: change in cost of funds per 1 pp change in average repo,E,0.365737139605578
+Downside,ALM,Total,D,2937166.27
+Downside,ALM,Total,E,884201.47
+Downside,ALM,Total,F,3105250.47
+Downside,ALM,Total,G,489394.64
+Downside,ALM,Total,H,226722.63
+Downside,Capital,Asset growth fundable at constant Tier 1,FY27E,0.0809206762936004
+Downside,Capital,Asset growth fundable at constant Tier 1,FY28E,0.0780378307681607
+Downside,Capital,Asset growth fundable at constant Tier 1,FY29E,0.0741068538131724
+Downside,Capital,Internal capital generation,FY27E,0.0809206762936004
+Downside,Capital,Internal capital generation,FY28E,0.0780378307681607
+Downside,Capital,Internal capital generation,FY29E,0.0741068538131724
+Downside,Capital,Risk-weight density,FY20A,0.648393753601609
+Downside,Capital,Risk-weight density,FY21A,0.664125582078723
+Downside,Capital,Risk-weight density,FY22A,0.649519139530099
+Downside,Capital,Risk-weight density,FY23A,0.663287501106693
+Downside,Capital,Risk-weight density,FY24A,0.724805062727809
+Downside,Capital,Risk-weight density,FY25A,0.724901477296418
+Downside,Capital,Risk-weight density,FY26A,0.72736144498883
+Downside,Capital,Risk-weight density,FY27E,0.72736144498883
+Downside,Capital,Risk-weight density,FY28E,0.72736144498883
+Downside,Capital,Risk-weight density,FY29E,0.72736144498883
+Downside,Capital,"Risk-weighted assets, implied",FY20A,992373.940800929
+Downside,Capital,"Risk-weighted assets, implied",FY21A,1160141.40091116
+Downside,Capital,"Risk-weighted assets, implied",FY22A,1343553.10576385
+Downside,Capital,"Risk-weighted assets, implied",FY23A,1635721.01576182
+Downside,Capital,"Risk-weighted assets, implied",FY24A,2622071.53067302
+Downside,Capital,"Risk-weighted assets, implied",FY25A,2834508.98812889
+Downside,Capital,"Risk-weighted assets, implied",FY26A,3174850.02820079
+Downside,Capital,"Risk-weighted assets, implied",FY27E,3454765.17653281
+Downside,Capital,"Risk-weighted assets, implied",FY28E,3806637.66094578
+Downside,Capital,"Risk-weighted assets, implied",FY29E,4198055.91293838
+Downside,Capital,"Tier 1 capital ratio, reported",FY20A,0.1723
+Downside,Capital,"Tier 1 capital ratio, reported",FY21A,0.1756
+Downside,Capital,"Tier 1 capital ratio, reported",FY22A,0.1787
+Downside,Capital,"Tier 1 capital ratio, reported",FY23A,0.1713
+Downside,Capital,"Tier 1 capital ratio, reported",FY24A,0.1679
+Downside,Capital,"Tier 1 capital ratio, reported",FY25A,0.1769
+Downside,Capital,"Tier 1 capital ratio, reported",FY26A,0.1773
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY20A,0.1723
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY21A,0.1756
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY22A,0.1787
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY23A,0.1713
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY24A,0.1679
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY25A,0.1769
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY26A,0.1773
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY27E,0.176043538850577
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY28E,0.172984281687054
+Downside,Capital,"Tier 1 ratio, projected (proxy)",FY29E,0.169061877457159
+Downside,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",C,-0.35999999998603
+Downside,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",E,1.0
+Downside,Checks,Cost of equity exceeds long-term growth,C,0.05135
+Downside,Checks,Cost of equity exceeds long-term growth,E,0.0
+Downside,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),C,0.0
+Downside,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),E,1.0
+Downside,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",C,2.04000000003725
+Downside,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",E,5.0
+Downside,Checks,"Lever bridge adds up (difference, bp)",C,0.0
+Downside,Checks,"Lever bridge adds up (difference, bp)",E,1.0
+Downside,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",C,0.0
+Downside,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",E,1.0
+Downside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",C,1.74296133081953e-11
+Downside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",E,1.0
+Downside,Checks,"No error values in Model, Valuation and Levers",C,0.0
+Downside,Checks,"No error values in Model, Valuation and Levers",E,0.0
+Downside,Checks,"Scenario selector resolves to 1, 2 or 3",C,3.0
+Downside,Fees,2025-04,C,663561.79
+Downside,Fees,2025-04,D,0.67
+Downside,Fees,2025-05,C,696624.99
+Downside,Fees,2025-05,D,0.66
+Downside,Fees,2025-06,C,682872.22
+Downside,Fees,2025-06,D,0.66
+Downside,Fees,2025-07,C,734012.36
+Downside,Fees,2025-07,D,0.67
+Downside,Fees,2025-08,C,723797.42
+Downside,Fees,2025-08,D,0.65
+Downside,Fees,2025-09,C,719567.29
+Downside,Fees,2025-09,D,0.67
+Downside,Fees,2025-10,C,825742.2
+Downside,Fees,2025-10,D,0.68
+Downside,Fees,2025-11,C,764552.06
+Downside,Fees,2025-12,C,807572.99
+Downside,Fees,2025-12,D,0.67
+Downside,Fees,2026-01,C,840825.83
+Downside,Fees,2026-01,D,0.69
+Downside,Fees,2026-02,C,772416.94
+Downside,Fees,2026-02,D,0.68
+Downside,Fees,2026-03,C,861483.05
+Downside,Fees,2026-03,D,0.68
+Downside,Fees,2026-04,C,851601.89
+Downside,Fees,2026-04,D,0.68
+Downside,Fees,2026-05,C,872458.05
+Downside,Fees,2026-05,D,0.67
+Downside,Fees,2026-06,C,860997.14
+Downside,Fees,2026-06,D,0.68
+Downside,Fees,2026-07,C,906613.19
+Downside,Fees,2026-07,D,0.68
+Downside,Fees,2026-08,C,895320.68
+Downside,Fees,2026-08,D,0.67
+Downside,Fees,2026-09,C,886987.14
+Downside,Fees,2026-09,D,0.67
+Downside,Fees,2026-10,C,970693.25
+Downside,Fees,2026-10,D,0.68
+Downside,Fees,Acquiring bank's share of MDR,E,0.3
+Downside,Fees,Annual MDR pool at current run-rate,E,18540.6450577791
+Downside,Fees,Bancassurance APE lost if bank distribution pulls back,E,0.15
+Downside,Fees,Bancassurance share of individual APE,E,0.58
+Downside,Fees,Bank fee lost to caps,FY27E,0.0
+Downside,Fees,Bank fee lost to caps,FY28E,654.796767766091
+Downside,Fees,Bank fee lost to caps,FY29E,1309.59353553218
+Downside,Fees,Exempt or flat-fee share of that value,E,0.3
+Downside,Fees,HDFC Bank MDR revenue,FY27E,92.0911304767336
+Downside,Fees,HDFC Bank MDR revenue,FY28E,455.852974180604
+Downside,Fees,HDFC Bank MDR revenue,FY29E,564.120379980032
+Downside,Fees,"HDFC Bank payee volume, Sep-26",E,1696.1
+Downside,Fees,HDFC Bank share of payee volume,E,0.0662264843463254
+Downside,Fees,HDFC Bank stake in HDFC Life,E,0.502
+Downside,Fees,HDFC Life APE FY26,E,16641.0
+Downside,Fees,HDFC Life VNB FY26,E,4034.0
+Downside,Fees,HDFC Life bank-channel first-year commission above proposed caps,E,671.586428478042
+Downside,Fees,"HDFC Life distributor commission above caps, all channels",E,1258.91963082091
+Downside,Fees,HDFC Life embedded value Q2 FY27,E,66461.0
+Downside,Fees,HDFC Life market capitalisation,E,113843.0
+Downside,Fees,"Haircut for INR 300 cap on tickets of INR 75,000 and above",E,0.95
+Downside,Fees,MDR,E,0.004
+Downside,Fees,Market-implied VNB multiple,E,11.7456618740704
+Downside,Fees,Net change in annual VNB,E,278.501815410454
+Downside,Fees,"P2M value growth, Apr-Oct 2026 vs Apr-Oct 2025",E,0.237505099081646
+Downside,Fees,"P2M value, trailing 12 months",E,10291522.21
+Downside,Fees,"Payee volume, top twelve banks, Sep-26",E,25610.6
+Downside,Fees,"Share of P2M value above INR 2,000",E,0.677272727272727
+Downside,Fees,Share of commission saving kept as margin,E,0.5
+Downside,Fees,Share of year MDR is live,FY27E,0.25
+Downside,Fees,Share of year MDR is live,FY28E,1.0
+Downside,Fees,Share of year MDR is live,FY29E,1.0
+Downside,Fees,"Uplift for other insurers distributed (HDFC ERGO, partners)",E,1.3
+Downside,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
+Downside,Fees,Years after FY26,FY27E,1.0
+Downside,Fees,Years after FY26,FY28E,2.0
+Downside,Fees,Years after FY26,FY29E,3.0
+Downside,Levers,All levers,C,13207.3072587061
+Downside,Levers,All levers,D,9883.02802168981
+Downside,Levers,All levers,E,17.9607963162374
+Downside,Levers,All levers,F,0.0144465513141068
+Downside,Levers,All levers,G,154608.260984339
+Downside,Levers,All levers,H,100.142203851908
+Downside,Levers,Branch and operations productivity,C,3062.4755417088
+Downside,Levers,Branch and operations productivity,D,2291.6504478607
+Downside,Levers,Branch and operations productivity,E,4.1647020358243
+Downside,Levers,Branch and operations productivity,F,0.0033498281818445
+Downside,Levers,Branch and operations productivity,G,35850.15541291
+Downside,Levers,Branch and operations productivity,H,23.2207098677985
+Downside,Levers,Branch and operations productivity,I,1.38823401194144
+Downside,Levers,Levers,E,17.9607963162374
+Downside,Levers,Protect bancassurance and grow card fees,C,1342.5297797736
+Downside,Levers,Protect bancassurance and grow card fees,D,1004.61503420458
+Downside,Levers,Protect bancassurance and grow card fees,E,1.82572446076029
+Downside,Levers,Protect bancassurance and grow card fees,F,0.00146849959452794
+Downside,Levers,Protect bancassurance and grow card fees,G,15716.0116369412
+Downside,Levers,Protect bancassurance and grow card fees,H,10.1795080745714
+Downside,Levers,Protect bancassurance and grow card fees,I,0.456431115190072
+Downside,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
+Downside,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
+Downside,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
+Downside,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
+Downside,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
+Downside,Levers,Re-mix advances to higher-yield retail and SME,C,3836.01551494302
+Downside,Levers,Re-mix advances to higher-yield retail and SME,D,2870.49040983186
+Downside,Levers,Re-mix advances to higher-yield retail and SME,E,5.2166495395495
+Downside,Levers,Re-mix advances to higher-yield retail and SME,F,0.00419594955223017
+Downside,Levers,Re-mix advances to higher-yield retail and SME,G,44905.4206324557
+Downside,Levers,Re-mix advances to higher-yield retail and SME,H,29.0859476615324
+Downside,Levers,Re-mix advances to higher-yield retail and SME,I,1.73888317984983
+Downside,Levers,Rebuild CASA,C,2477.36385656525
+Downside,Levers,Rebuild CASA,D,1853.81137386778
+Downside,Levers,Rebuild CASA,E,3.36900071736014
+Downside,Levers,Rebuild CASA,F,0.00270981536028031
+Downside,Levers,Rebuild CASA,G,29000.6819850825
+Downside,Levers,Rebuild CASA,H,18.7841981321338
+Downside,Levers,Rebuild CASA,I,0.561500119560024
+Downside,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
+Downside,Levers,Rebuild CASA (CASA ratio),D,0.3832
+Downside,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
+Downside,Levers,Rebuild CASA (CASA ratio),G,0.015
+Downside,Levers,Rebuild CASA (CASA ratio),H,0.359307369990647
+Downside,Levers,Retire legacy borrowings (share of funding),C,0.136145554293008
+Downside,Levers,Retire legacy borrowings (share of funding),D,0.0651139627186436
+Downside,Levers,Retire legacy borrowings (share of funding),F,255333.388879679
+Downside,Levers,Retire legacy borrowings (share of funding),G,75000.0
+Downside,Levers,Retire legacy borrowings (share of funding),H,0.293733617562028
+Downside,Levers,Retire legacy borrowings faster,C,2201.23813445109
+Downside,Levers,Retire legacy borrowings faster,D,1647.18649600975
+Downside,Levers,Retire legacy borrowings faster,E,2.99349360183535
+Downside,Levers,Retire legacy borrowings faster,F,0.00240778071116306
+Downside,Levers,Retire legacy borrowings faster,G,25768.2806429412
+Downside,Levers,Retire legacy borrowings faster,H,16.690520911557
+Downside,Levers,Retire legacy borrowings faster,I,0.997831200611783
+Downside,Levers,"RoA FY26A, core",E,180.222819069513
+Downside,Levers,RoA FY29E with levers,E,149.580751639401
+Downside,Levers,"RoA FY29E, scenario before levers",E,131.619955323163
+Downside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,-48.6028637463492
+Downside,Levers,Shortfall (-) / headroom (+) to target,E,-50.4192483605991
+Downside,Levers,Target,E,200.0
+Downside,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
+Downside,Levers,Win UPI acquiring (payee share),D,0.189031104308372
+Downside,Levers,Win UPI acquiring (payee share),F,0.122804619962047
+Downside,Levers,Win UPI acquiring (payee share),G,0.0337735156536747
+Downside,Levers,Win UPI acquiring (payee share),H,0.275018282407555
+Downside,Levers,Win UPI merchant acquiring share,C,287.684431264388
+Downside,Levers,Win UPI merchant acquiring share,D,215.274259915141
+Downside,Levers,Win UPI merchant acquiring share,E,0.39122596090783
+Downside,Levers,Win UPI merchant acquiring share,F,0.000314677914060869
+Downside,Levers,Win UPI merchant acquiring share,G,3367.71067400858
+Downside,Levers,Win UPI merchant acquiring share,H,2.18131920431453
+Downside,Levers,Win UPI merchant acquiring share,I,0.0434695512119811
+Downside,Margin,  Margin effect,FY22A,-3518.43068895691
+Downside,Margin,  Margin effect,FY23A,1278.29568990951
+Downside,Margin,  Margin effect,FY24A,-7966.68451807764
+Downside,Margin,  Margin effect,FY25A,-11606.8351667362
+Downside,Margin,  Margin effect,FY26A,-6147.41728630429
+Downside,Margin,  Margin effect,FY27E,-35.3915395591836
+Downside,Margin,  Margin effect,FY28E,1818.19814424814
+Downside,Margin,  Margin effect,FY29E,-881.277537313351
+Downside,Margin,  Unexplained,FY22A,0.0
+Downside,Margin,  Unexplained,FY23A,0.0
+Downside,Margin,  Unexplained,FY24A,0.0
+Downside,Margin,  Unexplained,FY25A,0.0
+Downside,Margin,  Unexplained,FY26A,0.0
+Downside,Margin,  Unexplained,FY27E,6.03961325396085e-13
+Downside,Margin,  Unexplained,FY28E,0.0
+Downside,Margin,  Unexplained,FY29E,-1.68256519827992e-11
+Downside,Margin,  Volume effect,FY22A,10648.4506889569
+Downside,Margin,  Volume effect,FY23A,13554.3343100905
+Downside,Margin,  Volume effect,FY24A,29656.9445180776
+Downside,Margin,  Volume effect,FY25A,25744.4451667362
+Downside,Margin,  Volume effect,FY26A,12163.3572863043
+Downside,Margin,  Volume effect,FY27E,11999.8465244905
+Downside,Margin,  Volume effect,FY28E,13446.781429675
+Downside,Margin,  Volume effect,FY29E,16035.4435850445
+Downside,Margin,Average interest-earning assets,FY21A,1634020.39
+Downside,Margin,Average interest-earning assets,FY22A,1902206.285
+Downside,Margin,Average interest-earning assets,FY23A,2260257.76
+Downside,Margin,Average interest-earning assets,FY24A,3032144.28
+Downside,Margin,Average interest-earning assets,FY25A,3751384.015
+Downside,Margin,Average interest-earning assets,FY26A,4123352.635
+Downside,Margin,Average interest-earning assets,FY27E,4507851.2382
+Downside,Margin,Average interest-earning assets,FY28E,4938820.88842239
+Downside,Margin,Average interest-earning assets,FY29E,5446763.98410577
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY21A,0.101392905104981
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY22A,0.0996409591909387
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY23A,0.102129127706958
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY24A,0.169310615898315
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY25A,0.191937132333265
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY26A,0.151273432034433
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY27E,0.122712209160566
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY28E,0.103489223234018
+Downside,Margin,"Borrowings / (deposits + borrowings), average",FY29E,0.0910930950427269
+Downside,Margin,Change in NII,FY22A,7130.02
+Downside,Margin,Change in NII,FY23A,14832.63
+Downside,Margin,Change in NII,FY24A,21690.26
+Downside,Margin,Change in NII,FY25A,14137.61
+Downside,Margin,Change in NII,FY26A,6015.94000000003
+Downside,Margin,Change in NII,FY27E,11964.4549849313
+Downside,Margin,Change in NII,FY28E,15264.9795739232
+Downside,Margin,Change in NII,FY29E,15154.1660477311
+Downside,Margin,Cost of borrowings,FY25A,0.0868970088026947
+Downside,Margin,Cost of borrowings,FY26A,0.0780098638229448
+Downside,Margin,Cost of borrowings,FY27E,0.0776348638229448
+Downside,Margin,Cost of borrowings,FY28E,0.0772598638229448
+Downside,Margin,Cost of borrowings,FY29E,0.0765098638229448
+Downside,Margin,Cost of deposits,FY25A,0.0491787539442674
+Downside,Margin,Cost of deposits,FY26A,0.0475519014986854
+Downside,Margin,Cost of deposits,FY27E,0.0482975220302636
+Downside,Margin,Cost of deposits,FY28E,0.0479850220302636
+Downside,Margin,Cost of deposits,FY29E,0.0471600220302636
+Downside,Margin,FY23 to FY24,FY20A,5.3764001270799
+Downside,Margin,FY23 to FY24,FY21A,-21.1341573084726
+Downside,Margin,FY23 to FY24,FY22A,19.5086072154067
+Downside,Margin,FY23 to FY24,FY23A,1.44318501161592
+Downside,Margin,FY23 to FY24,FY24A,-19.8737755291935
+Downside,Margin,FY23 to FY24,FY25A,25.4325407377234
+Downside,Margin,FY23 to FY24,FY26A,0.0
+Downside,Margin,FY23 to Q2 FY27,FY20A,-20.0077114549182
+Downside,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
+Downside,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
+Downside,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
+Downside,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
+Downside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Downside,Margin,FY23 to Q2 FY27,FY26A,0.0
+Downside,Margin,FY24 to FY26,FY20A,-19.4460024154472
+Downside,Margin,FY24 to FY26,FY21A,-37.591907603877
+Downside,Margin,FY24 to FY26,FY22A,-8.82276922370851
+Downside,Margin,FY24 to FY26,FY23A,26.9085434641887
+Downside,Margin,FY24 to FY26,FY24A,16.9984950248016
+Downside,Margin,FY24 to FY26,FY25A,-16.938364076852
+Downside,Margin,FY24 to FY26,FY26A,0.0
+Downside,Margin,FY26 to Q2 FY27,FY20A,-5.93810916655084
+Downside,Margin,FY26 to Q2 FY27,FY21A,-1.00978004626788
+Downside,Margin,FY26 to Q2 FY27,FY22A,-21.0682346857868
+Downside,Margin,FY26 to Q2 FY27,FY23A,4.55629756698585
+Downside,Margin,FY26 to Q2 FY27,FY24A,18.886812835742
+Downside,Margin,FY26 to Q2 FY27,FY25A,-7.30320483722403
+Downside,Margin,FY26 to Q2 FY27,FY26A,0.0
+Downside,Margin,Loan-deposit spread,FY25A,0.0442469781925455
+Downside,Margin,Loan-deposit spread,FY26A,0.0387436439377431
+Downside,Margin,Loan-deposit spread,FY27E,0.0372480234061649
+Downside,Margin,Loan-deposit spread,FY28E,0.0368105234061649
+Downside,Margin,Loan-deposit spread,FY29E,0.0361355234061649
+Downside,Margin,Net interest margin,FY21A,0.0397054837241046
+Downside,Margin,Net interest margin,FY22A,0.0378558259258406
+Downside,Margin,Net interest margin,FY23A,0.0384213789846694
+Downside,Margin,Net interest margin,FY24A,0.0357939695402621
+Downside,Margin,Net interest margin,FY25A,0.0326999554056585
+Downside,Margin,Net interest margin,FY26A,0.0312090770281645
+Downside,Margin,Net interest margin,FY27E,0.031201225939544
+Downside,Margin,Net interest margin,FY28E,0.0315693701151124
+Downside,Margin,Net interest margin,FY29E,0.031407571744578
+Downside,Margin,Run-off saving vs refinancing at borrowing cost,FY27E,1700.47154112664
+Downside,Margin,Run-off saving vs refinancing at borrowing cost,FY28E,343.859364212654
+Downside,Margin,Run-off saving vs refinancing at borrowing cost,FY29E,344.740306712654
+Downside,Margin,Yield on advances,FY25A,0.0934257321368129
+Downside,Margin,Yield on advances,FY26A,0.0862955454364285
+Downside,Margin,Yield on advances,FY27E,0.0855455454364285
+Downside,Margin,Yield on advances,FY28E,0.0847955454364285
+Downside,Margin,Yield on advances,FY29E,0.0832955454364285
+Downside,Margin,Yield on investments and liquidity,FY25A,0.0517638865954221
+Downside,Margin,Yield on investments and liquidity,FY26A,0.0503801960852236
+Downside,Margin,Yield on investments and liquidity,FY27E,0.0498801960852236
+Downside,Margin,Yield on investments and liquidity,FY28E,0.0493801960852236
+Downside,Margin,Yield on investments and liquidity,FY29E,0.0483801960852236
+Downside,Model,Advances,FY20A,993702.88
+Downside,Model,Advances,FY21A,1132836.63
+Downside,Model,Advances,FY22A,1368820.93
+Downside,Model,Advances,FY23A,1600585.9
+Downside,Model,Advances,FY24A,2484861.52
+Downside,Model,Advances,FY25A,2619608.62
+Downside,Model,Advances,FY26A,2937166.27
+Downside,Model,Advances,FY27E,3260254.5597
+Downside,Model,Advances,FY28E,3618882.561267
+Downside,Model,Advances,FY29E,4053148.46861904
+Downside,Model,Average advances,FY21A,1063269.755
+Downside,Model,Average advances,FY22A,1250828.78
+Downside,Model,Average advances,FY23A,1484703.415
+Downside,Model,Average advances,FY24A,2042723.71
+Downside,Model,Average advances,FY25A,2552235.07
+Downside,Model,Average advances,FY26A,2778387.445
+Downside,Model,Average advances,FY27E,3098710.41485
+Downside,Model,Average advances,FY28E,3439568.5604835
+Downside,Model,Average advances,FY29E,3836015.51494302
+Downside,Model,Average assets before in-year retained profit,FY21A,1638690.89
+Downside,Model,Average assets before in-year retained profit,FY22A,1907702.785
+Downside,Model,Average assets before in-year retained profit,FY23A,2267308.26
+Downside,Model,Average assets before in-year retained profit,FY24A,3041852.28
+Downside,Model,Average assets before in-year retained profit,FY25A,3763911.015
+Downside,Model,Average assets before in-year retained profit,FY26A,4137542.635
+Downside,Model,Average assets before in-year retained profit,FY27E,4523459.7382
+Downside,Model,Average assets before in-year retained profit,FY28E,4956302.40842239
+Downside,Model,Average assets before in-year retained profit,FY29E,5466343.28650577
+Downside,Model,Average borrowings,FY21A,140058.0
+Downside,Model,Average borrowings,FY22A,160152.0
+Downside,Model,Average borrowings,FY23A,195791.5
+Downside,Model,Average borrowings,FY24A,434459.5
+Downside,Model,Average borrowings,FY25A,605042.0
+Downside,Model,Average borrowings,FY26A,518663.0
+Downside,Model,Average borrowings,FY27E,460413.65
+Downside,Model,Average borrowings,FY28E,425559.35
+Downside,Model,Average borrowings,FY29E,413813.45
+Downside,Model,Average deposits,FY21A,1241281.255
+Downside,Model,Average deposits,FY22A,1447138.83
+Downside,Model,Average deposits,FY23A,1721306.045
+Downside,Model,Average deposits,FY24A,2131590.465
+Downside,Model,Average deposits,FY25A,2547250.59
+Downside,Model,Average deposits,FY26A,2909982.685
+Downside,Model,Average deposits,FY27E,3291565.4982
+Downside,Model,Average deposits,FY28E,3686553.357984
+Downside,Model,Average deposits,FY29E,4128939.76094208
+Downside,Model,"Average investments, liquidity and other assets",FY21A,570750.635
+Downside,Model,"Average investments, liquidity and other assets",FY22A,651377.505
+Downside,Model,"Average investments, liquidity and other assets",FY23A,775554.345
+Downside,Model,"Average investments, liquidity and other assets",FY24A,989420.57
+Downside,Model,"Average investments, liquidity and other assets",FY25A,1199148.945
+Downside,Model,"Average investments, liquidity and other assets",FY26A,1344965.19
+Downside,Model,"Average investments, liquidity and other assets",FY27E,1409140.82335
+Downside,Model,"Average investments, liquidity and other assets",FY28E,1499252.32793889
+Downside,Model,"Average investments, liquidity and other assets",FY29E,1610748.46916275
+Downside,Model,Average net worth,FY21A,187353.43
+Downside,Model,Average net worth,FY22A,221906.885
+Downside,Model,Average net worth,FY23A,260145.975
+Downside,Model,Average net worth,FY24A,360222.41
+Downside,Model,Average net worth,FY25A,470835.225
+Downside,Model,Average net worth,FY26A,532162.775
+Downside,Model,Average net worth,FY27E,585544.998787288
+Downside,Model,Average net worth,FY28E,633338.784498085
+Downside,Model,Average net worth,FY29E,684109.847866541
+Downside,Model,Average total assets,FY21A,1638690.89
+Downside,Model,Average total assets,FY22A,1907702.785
+Downside,Model,Average total assets,FY23A,2267308.26
+Downside,Model,Average total assets,FY24A,3041852.28
+Downside,Model,Average total assets,FY25A,3763911.015
+Downside,Model,Average total assets,FY26A,4137542.635
+Downside,Model,Average total assets,FY27E,4557304.52198729
+Downside,Model,Average total assets,FY28E,4991605.54048209
+Downside,Model,Average total assets,FY29E,5502555.59256862
+Downside,Model,Book value per share,FY20A,110.75034259536
+Downside,Model,Book value per share,FY21A,131.953187733004
+Downside,Model,Book value per share,FY22A,155.51197580134
+Downside,Model,Book value per share,FY23A,181.489308526437
+Downside,Model,Book value per share,FY24A,285.154139690077
+Downside,Model,Book value per share,FY25A,324.780630708573
+Downside,Model,Book value per share,FY26A,364.599778296156
+Downside,Model,Book value per share,FY27E,393.933643652897
+Downside,Model,Book value per share,FY28E,426.513352655418
+Downside,Model,Book value per share,FY29E,459.704077202202
+Downside,Model,Borrowings,FY20A,144629.0
+Downside,Model,Borrowings,FY21A,135487.0
+Downside,Model,Borrowings,FY22A,184817.0
+Downside,Model,Borrowings,FY23A,206766.0
+Downside,Model,Borrowings,FY24A,662153.0
+Downside,Model,Borrowings,FY25A,547931.0
+Downside,Model,Borrowings,FY26A,489395.0
+Downside,Model,Borrowings,FY27E,431432.3
+Downside,Model,Borrowings,FY28E,419686.4
+Downside,Model,Borrowings,FY29E,407940.5
+Downside,Model,"CASA ratio, year end",FY25A,0.347940864803151
+Downside,Model,"CASA ratio, year end",FY26A,0.341453013289456
+Downside,Model,"CASA ratio, year end",FY27E,0.315
+Downside,Model,"CASA ratio, year end",FY28E,0.315
+Downside,Model,"CASA ratio, year end",FY29E,0.32
+Downside,Model,Core fee income,FY20A,0.0
+Downside,Model,Core fee income,FY21A,0.0
+Downside,Model,Core fee income,FY22A,0.0
+Downside,Model,Core fee income,FY23A,0.0
+Downside,Model,Core fee income,FY24A,0.0
+Downside,Model,Core fee income,FY25A,31898.55
+Downside,Model,Core fee income,FY26A,34875.94
+Downside,Model,Core fee income,FY27E,37666.0152
+Downside,Model,Core fee income,FY28E,41055.956568
+Downside,Model,Core fee income,FY29E,44750.99265912
+Downside,Model,Cost of borrowings,FY25A,0.0868970088026947
+Downside,Model,Cost of borrowings,FY26A,0.0780098638229448
+Downside,Model,Cost of borrowings,FY27E,0.0776348638229448
+Downside,Model,Cost of borrowings,FY28E,0.0772598638229448
+Downside,Model,Cost of borrowings,FY29E,0.0765098638229448
+Downside,Model,Cost of deposits,FY25A,0.0491787539442674
+Downside,Model,Cost of deposits,FY26A,0.0475519014986854
+Downside,Model,Cost of deposits,FY27E,0.0482975220302636
+Downside,Model,Cost of deposits,FY28E,0.0479850220302636
+Downside,Model,Cost of deposits,FY29E,0.0471600220302636
+Downside,Model,Cost to income,FY20A,0.386389705750004
+Downside,Model,Cost to income,FY21A,0.363243893563884
+Downside,Model,Cost to income,FY22A,0.368817751153005
+Downside,Model,Cost to income,FY23A,0.40363603867791
+Downside,Model,Cost to income,FY24A,0.401753323815891
+Downside,Model,Cost to income,FY25A,0.405073796643506
+Downside,Model,Cost to income,FY26A,0.379985629013077
+Downside,Model,Cost to income,FY27E,0.423898295606704
+Downside,Model,Cost to income,FY28E,0.430658236328023
+Downside,Model,Cost to income,FY29E,0.441010388589931
+Downside,Model,Credit cost,FY21A,0.0107688476476978
+Downside,Model,Credit cost,FY22A,0.00809014004298814
+Downside,Model,Credit cost,FY23A,0.00793643355363334
+Downside,Model,Credit cost,FY24A,0.00526975818966727
+Downside,Model,Credit cost,FY25A,0.00501643055943119
+Downside,Model,Credit cost,FY26A,0.00410480547647306
+Downside,Model,Credit cost,FY27E,0.0065
+Downside,Model,Credit cost,FY28E,0.0076
+Downside,Model,Credit cost,FY29E,0.0085
+Downside,Model,Credit-deposit ratio,FY20A,0.865970280547327
+Downside,Model,Credit-deposit ratio,FY21A,0.848528488100709
+Downside,Model,Credit-deposit ratio,FY22A,0.877889699591867
+Downside,Model,Credit-deposit ratio,FY23A,0.849840950753471
+Downside,Model,Credit-deposit ratio,FY24A,1.04415322538963
+Downside,Model,Credit-deposit ratio,FY25A,0.964966383762803
+Downside,Model,Credit-deposit ratio,FY26A,0.945870968662956
+Downside,Model,Credit-deposit ratio,FY27E,0.937425692157037
+Downside,Model,Credit-deposit ratio,FY28E,0.929055819905635
+Downside,Model,Credit-deposit ratio,FY29E,0.929055819905635
+Downside,Model,Deposits,FY20A,1147502.29
+Downside,Model,Deposits,FY21A,1335060.22
+Downside,Model,Deposits,FY22A,1559217.44
+Downside,Model,Deposits,FY23A,1883394.65
+Downside,Model,Deposits,FY24A,2379786.28
+Downside,Model,Deposits,FY25A,2714714.9
+Downside,Model,Deposits,FY26A,3105250.47
+Downside,Model,Deposits,FY27E,3477880.5264
+Downside,Model,Deposits,FY28E,3895226.189568
+Downside,Model,Deposits,FY29E,4362653.33231616
+Downside,Model,Dividends paid in year,FY27E,22401.39
+Downside,Model,Dividends paid in year,FY28E,20306.8702723726
+Downside,Model,Dividends paid in year,FY29E,21181.8792358175
+Downside,Model,Earnings per share,FY20A,17.0072729224286
+Downside,Model,Earnings per share,FY21A,20.154659713284
+Downside,Model,Earnings per share,FY22A,23.9404480897475
+Downside,Model,Earnings per share,FY23A,28.5699056463232
+Downside,Model,Earnings per share,FY24A,39.3890708147616
+Downside,Model,Earnings per share,FY25A,43.621944979324
+Downside,Model,Earnings per share,FY26A,48.3657761809015
+Downside,Model,Earnings per share,FY27E,43.8435982110117
+Downside,Model,Earnings per share,FY28E,45.7327884658244
+Downside,Model,Earnings per share,FY29E,46.9105610865315
+Downside,Model,Fixed assets,FY20A,4432.0
+Downside,Model,Fixed assets,FY21A,4909.0
+Downside,Model,Fixed assets,FY22A,6084.0
+Downside,Model,Fixed assets,FY23A,8017.0
+Downside,Model,Fixed assets,FY24A,11399.0
+Downside,Model,Fixed assets,FY25A,13655.0
+Downside,Model,Fixed assets,FY26A,14725.0
+Downside,Model,Fixed assets,FY27E,16492.0
+Downside,Model,Fixed assets,FY28E,18471.04
+Downside,Model,Fixed assets,FY29E,20687.5648
+Downside,Model,IRDAI commission caps: bank fee lost,FY27E,0.0
+Downside,Model,IRDAI commission caps: bank fee lost,FY28E,-654.796767766091
+Downside,Model,IRDAI commission caps: bank fee lost,FY29E,-1309.59353553218
+Downside,Model,In-year retained profit held as cash,FY20A,0.0
+Downside,Model,In-year retained profit held as cash,FY21A,0.0
+Downside,Model,In-year retained profit held as cash,FY22A,0.0
+Downside,Model,In-year retained profit held as cash,FY23A,0.0
+Downside,Model,In-year retained profit held as cash,FY24A,0.0
+Downside,Model,In-year retained profit held as cash,FY25A,0.0
+Downside,Model,In-year retained profit held as cash,FY26A,0.0
+Downside,Model,In-year retained profit held as cash,FY27E,67689.5675745753
+Downside,Model,In-year retained profit held as cash,FY28E,70606.2641193917
+Downside,Model,In-year retained profit held as cash,FY29E,72424.6121257106
+Downside,Model,Interest earned,FY20A,114812.65
+Downside,Model,Interest earned,FY21A,120858.23
+Downside,Model,Interest earned,FY22A,127753.12
+Downside,Model,Interest earned,FY23A,161585.54
+Downside,Model,Interest earned,FY24A,258340.58
+Downside,Model,Interest earned,FY25A,300517.04
+Downside,Model,Interest earned,FY26A,307522.07
+Downside,Model,Interest earned,FY27E,335369.093168276
+Downside,Model,Interest earned,FY28E,365693.46608704
+Downside,Model,Interest earned,FY29E,397451.331401848
+Downside,Model,Interest expended,FY20A,58626.4
+Downside,Model,Interest expended,FY21A,55978.66
+Downside,Model,Interest expended,FY22A,55743.53
+Downside,Model,Interest expended,FY23A,74743.32
+Downside,Model,Interest expended,FY24A,149808.1
+Downside,Model,Interest expended,FY25A,177846.95
+Downside,Model,Interest expended,FY26A,178836.04
+Downside,Model,Interest expended,FY27E,194718.608183345
+Downside,Model,Interest expended,FY28E,209778.001528185
+Downside,Model,Interest expended,FY29E,226381.700795263
+Downside,Model,"Investments, liquidity and other assets",FY20A,532376.38
+Downside,Model,"Investments, liquidity and other assets",FY21A,609124.89
+Downside,Model,"Investments, liquidity and other assets",FY22A,693630.12
+Downside,Model,"Investments, liquidity and other assets",FY23A,857478.57
+Downside,Model,"Investments, liquidity and other assets",FY24A,1121362.57
+Downside,Model,"Investments, liquidity and other assets",FY25A,1276935.32
+Downside,Model,"Investments, liquidity and other assets",FY26A,1412995.06
+Downside,Model,"Investments, liquidity and other assets",FY27E,1405286.5867
+Downside,Model,"Investments, liquidity and other assets",FY28E,1525528.5016032
+Downside,Model,"Investments, liquidity and other assets",FY29E,1625362.1726029
+Downside,Model,NII / average assets,FY21A,0.0395923174992448
+Downside,Model,NII / average assets,FY22A,0.0377467551896455
+Downside,Model,NII / average assets,FY23A,0.0383019025388281
+Downside,Model,NII / average assets,FY24A,0.0356797339284339
+Downside,Model,NII / average assets,FY25A,0.0325911238366511
+Downside,Model,NII / average assets,FY26A,0.0311020432542322
+Downside,Model,NII / average assets,FY27E,0.0308626479328615
+Downside,Model,NII / average assets,FY28E,0.0312355339969024
+Downside,Model,NII / average assets,FY29E,0.0310891235406364
+Downside,Model,Net interest income,FY20A,56186.25
+Downside,Model,Net interest income,FY21A,64879.57
+Downside,Model,Net interest income,FY22A,72009.59
+Downside,Model,Net interest income,FY23A,86842.22
+Downside,Model,Net interest income,FY24A,108532.48
+Downside,Model,Net interest income,FY25A,122670.09
+Downside,Model,Net interest income,FY26A,128686.03
+Downside,Model,Net interest income,FY27E,140650.484984931
+Downside,Model,Net interest income,FY28E,155915.464558854
+Downside,Model,Net interest income,FY29E,171069.630606586
+Downside,Model,Net interest margin on interest-earning assets,FY21A,0.0397054837241046
+Downside,Model,Net interest margin on interest-earning assets,FY22A,0.0378558259258406
+Downside,Model,Net interest margin on interest-earning assets,FY23A,0.0384213789846694
+Downside,Model,Net interest margin on interest-earning assets,FY24A,0.0357939695402621
+Downside,Model,Net interest margin on interest-earning assets,FY25A,0.0326999554056585
+Downside,Model,Net interest margin on interest-earning assets,FY26A,0.0312090770281645
+Downside,Model,Net interest margin on interest-earning assets,FY27E,0.031201225939544
+Downside,Model,Net interest margin on interest-earning assets,FY28E,0.0315693701151124
+Downside,Model,Net interest margin on interest-earning assets,FY29E,0.031407571744578
+Downside,Model,Net revenue,FY20A,79447.07
+Downside,Model,Net revenue,FY21A,90084.46
+Downside,Model,Net revenue,FY22A,101519.49
+Downside,Model,Net revenue,FY23A,118057.05
+Downside,Model,Net revenue,FY24A,157773.48
+Downside,Model,Net revenue,FY25A,168302.37
+Downside,Model,Net revenue,FY26A,191218.6
+Downside,Model,Net revenue,FY27E,191978.970530008
+Downside,Model,Net revenue,FY28E,211641.384558536
+Downside,Model,Net revenue,FY29E,231474.179969671
+Downside,Model,"Net worth, closing",FY20A,170986.03
+Downside,Model,"Net worth, closing",FY21A,203720.83
+Downside,Model,"Net worth, closing",FY22A,240092.94
+Downside,Model,"Net worth, closing",FY23A,280199.01
+Downside,Model,"Net worth, closing",FY24A,440245.81
+Downside,Model,"Net worth, closing",FY25A,501424.64
+Downside,Model,"Net worth, closing",FY26A,562900.91
+Downside,Model,"Net worth, closing",FY27E,608189.087574575
+Downside,Model,"Net worth, closing",FY28E,658488.481421594
+Downside,Model,"Net worth, closing",FY29E,709731.214311488
+Downside,Model,Operating expenses,FY20A,30697.53
+Downside,Model,Operating expenses,FY21A,32722.63
+Downside,Model,Operating expenses,FY22A,37442.19
+Downside,Model,Operating expenses,FY23A,47652.08
+Downside,Model,Operating expenses,FY24A,63386.02
+Downside,Model,Operating expenses,FY25A,68174.88
+Downside,Model,Operating expenses,FY26A,72660.32
+Downside,Model,Operating expenses,FY27E,81379.5584
+Downside,Model,Operating expenses,FY28E,91145.105408
+Downside,Model,Operating expenses,FY29E,102082.51805696
+Downside,Model,Opex / average assets,FY21A,0.0199687629922688
+Downside,Model,Opex / average assets,FY22A,0.0196268466421513
+Downside,Model,Opex / average assets,FY23A,0.0210170274773312
+Downside,Model,Opex / average assets,FY24A,0.0208379678450395
+Downside,Model,Opex / average assets,FY25A,0.0181127767708398
+Downside,Model,Opex / average assets,FY26A,0.0175612256863185
+Downside,Model,Opex / average assets,FY27E,0.0178569498718758
+Downside,Model,Opex / average assets,FY28E,0.0182596771056547
+Downside,Model,Opex / average assets,FY29E,0.0185518376579104
+Downside,Model,Other income,FY20A,23260.82
+Downside,Model,Other income,FY21A,25204.89
+Downside,Model,Other income,FY22A,29509.9
+Downside,Model,Other income,FY23A,31214.83
+Downside,Model,Other income,FY24A,49241.0
+Downside,Model,Other income,FY25A,45632.28
+Downside,Model,Other income,FY26A,62532.57
+Downside,Model,Other income,FY27E,51328.4855450767
+Downside,Model,Other income,FY28E,55725.9199996817
+Downside,Model,Other income,FY29E,60404.5493630852
+Downside,Model,Other income / average assets,FY21A,0.0153811131518526
+Downside,Model,Other income / average assets,FY22A,0.0154688142366999
+Downside,Model,Other income / average assets,FY23A,0.0137673515995571
+Downside,Model,Other income / average assets,FY24A,0.0161878340785174
+Downside,Model,Other income / average assets,FY25A,0.0121236341183799
+Downside,Model,Other income / average assets,FY26A,0.0151134563475018
+Downside,Model,Other income / average assets,FY27E,0.0112629044860698
+Downside,Model,Other income / average assets,FY28E,0.0111639270266335
+Downside,Model,Other income / average assets,FY29E,0.0109775445875846
+Downside,Model,Other liabilities and provisions,FY20A,67394.0
+Downside,Model,Other liabilities and provisions,FY21A,72602.0
+Downside,Model,Other liabilities and provisions,FY22A,84407.0
+Downside,Model,Other liabilities and provisions,FY23A,95722.0
+Downside,Model,Other liabilities and provisions,FY24A,135438.0
+Downside,Model,Other liabilities and provisions,FY25A,146129.0
+Downside,Model,Other liabilities and provisions,FY26A,207340.0
+Downside,Model,Other liabilities and provisions,FY27E,232220.8
+Downside,Model,Other liabilities and provisions,FY28E,260087.296
+Downside,Model,Other liabilities and provisions,FY29E,291297.77152
+Downside,Model,Pre-provision operating profit,FY20A,48749.54
+Downside,Model,Pre-provision operating profit,FY21A,57361.83
+Downside,Model,Pre-provision operating profit,FY22A,64077.3
+Downside,Model,Pre-provision operating profit,FY23A,70404.97
+Downside,Model,Pre-provision operating profit,FY24A,94387.46
+Downside,Model,Pre-provision operating profit,FY25A,100127.49
+Downside,Model,Pre-provision operating profit,FY26A,118558.28
+Downside,Model,Pre-provision operating profit,FY27E,110599.412130008
+Downside,Model,Pre-provision operating profit,FY28E,120496.279150536
+Downside,Model,Pre-provision operating profit,FY29E,129391.661912711
+Downside,Model,Profit after tax,FY20A,26257.31
+Downside,Model,Profit after tax,FY21A,31116.52
+Downside,Model,Profit after tax,FY22A,36961.35
+Downside,Model,Profit after tax,FY23A,44108.71
+Downside,Model,Profit after tax,FY24A,60812.28
+Downside,Model,Profit after tax,FY25A,67347.36
+Downside,Model,Profit after tax,FY26A,74671.3
+Downside,Model,Profit after tax,FY27E,67689.5675745753
+Downside,Model,Profit after tax,FY28E,70606.2641193917
+Downside,Model,Profit after tax,FY29E,72424.6121257106
+Downside,Model,"Profit after tax, core",FY20A,26257.31
+Downside,Model,"Profit after tax, core",FY21A,31116.52
+Downside,Model,"Profit after tax, core",FY22A,36961.35
+Downside,Model,"Profit after tax, core",FY23A,44108.71
+Downside,Model,"Profit after tax, core",FY24A,60812.28
+Downside,Model,"Profit after tax, core",FY25A,67347.36
+Downside,Model,"Profit after tax, core",FY26A,74567.95977
+Downside,Model,"Profit after tax, core",FY27E,67689.5675745753
+Downside,Model,"Profit after tax, core",FY28E,70606.2641193917
+Downside,Model,"Profit after tax, core",FY29E,72424.6121257106
+Downside,Model,Profit before tax,FY20A,36607.15
+Downside,Model,Profit before tax,FY21A,41658.98
+Downside,Model,Profit before tax,FY22A,49015.47
+Downside,Model,Profit before tax,FY23A,58485.31
+Downside,Model,Profit before tax,FY24A,70895.31
+Downside,Model,Profit before tax,FY25A,88478.06
+Downside,Model,Profit before tax,FY26A,95168.7
+Downside,Model,Profit before tax,FY27E,90457.794433483
+Downside,Model,Profit before tax,FY28E,94355.5580908615
+Downside,Model,Profit before tax,FY29E,96785.530035695
+Downside,Model,Provisions / average assets,FY21A,0.00958255769640606
+Downside,Model,Provisions / average assets,FY22A,0.00789527075099385
+Downside,Model,Provisions / average assets,FY23A,0.00525718545214491
+Downside,Model,Provisions / average assets,FY24A,0.00772297529188367
+Downside,Model,Provisions / average assets,FY25A,0.00309503331868753
+Downside,Model,Provisions / average assets,FY26A,0.005653012443218
+Downside,Model,Provisions / average assets,FY27E,0.00441963393039663
+Downside,Model,Provisions / average assets,FY28E,0.00523693646216082
+Downside,Model,Provisions / average assets,FY29E,0.00592563424912077
+Downside,Model,Provisions and contingencies,FY20A,12142.39
+Downside,Model,Provisions and contingencies,FY21A,15702.85
+Downside,Model,Provisions and contingencies,FY22A,15061.83
+Downside,Model,Provisions and contingencies,FY23A,11919.66
+Downside,Model,Provisions and contingencies,FY24A,23492.15
+Downside,Model,Provisions and contingencies,FY25A,11649.43
+Downside,Model,Provisions and contingencies,FY26A,23389.58
+Downside,Model,Provisions and contingencies,FY27E,20141.617696525
+Downside,Model,Provisions and contingencies,FY28E,26140.7210596746
+Downside,Model,Provisions and contingencies,FY29E,32606.1318770157
+Downside,Model,Return on average assets,FY21A,0.0189886452593875
+Downside,Model,Return on average assets,FY22A,0.0193747948006481
+Downside,Model,Return on average assets,FY23A,0.0194542183690541
+Downside,Model,Return on average assets,FY24A,0.019991858381762
+Downside,Model,Return on average assets,FY25A,0.0178929203510939
+Downside,Model,Return on average assets,FY26A,0.0180472581402173
+Downside,Model,Return on average assets,FY27E,0.0148529832158458
+Downside,Model,Return on average assets,FY28E,0.0141450007511156
+Downside,Model,Return on average assets,FY29E,0.0131619955323163
+Downside,Model,"Return on average assets, core",FY21A,0.0189886452593875
+Downside,Model,"Return on average assets, core",FY22A,0.0193747948006481
+Downside,Model,"Return on average assets, core",FY23A,0.0194542183690541
+Downside,Model,"Return on average assets, core",FY24A,0.019991858381762
+Downside,Model,"Return on average assets, core",FY25A,0.0178929203510939
+Downside,Model,"Return on average assets, core",FY26A,0.0180222819069513
+Downside,Model,"Return on average assets, core",FY27E,0.0148529832158458
+Downside,Model,"Return on average assets, core",FY28E,0.0141450007511156
+Downside,Model,"Return on average assets, core",FY29E,0.0131619955323163
+Downside,Model,Return on average net worth,FY21A,0.166084602774553
+Downside,Model,Return on average net worth,FY22A,0.166562430003017
+Downside,Model,Return on average net worth,FY23A,0.169553690000393
+Downside,Model,Return on average net worth,FY24A,0.168818702867487
+Downside,Model,Return on average net worth,FY25A,0.143038066024053
+Downside,Model,Return on average net worth,FY26A,0.140316654053828
+Downside,Model,Return on average net worth,FY27E,0.115600966133715
+Downside,Model,Return on average net worth,FY28E,0.111482615383087
+Downside,Model,Return on average net worth,FY29E,0.105866934018818
+Downside,Model,Tax,FY20A,10349.84
+Downside,Model,Tax,FY21A,10542.46
+Downside,Model,Tax,FY22A,12054.12
+Downside,Model,Tax,FY23A,14376.6
+Downside,Model,Tax,FY24A,10083.03
+Downside,Model,Tax,FY25A,21130.7
+Downside,Model,Tax,FY26A,20497.4
+Downside,Model,Tax,FY27E,22768.2268589077
+Downside,Model,Tax,FY28E,23749.2939714698
+Downside,Model,Tax,FY29E,24360.9179099844
+Downside,Model,Tax / average assets,FY21A,0.00643346470303499
+Downside,Model,Tax / average assets,FY22A,0.00631865723255208
+Downside,Model,Tax / average assets,FY23A,0.00634082283985504
+Downside,Model,Tax / average assets,FY24A,0.00331476648826616
+Downside,Model,Tax / average assets,FY25A,0.00561402751440977
+Downside,Model,Tax / average assets,FY26A,0.00495400333198017
+Downside,Model,Tax / average assets,FY27E,0.00499598540081302
+Downside,Model,Tax / average assets,FY28E,0.00475784670460482
+Downside,Model,Tax / average assets,FY29E,0.00442720068887348
+Downside,Model,Total assets,FY20A,1530511.26
+Downside,Model,Total assets,FY21A,1746870.52
+Downside,Model,Total assets,FY22A,2068535.05
+Downside,Model,Total assets,FY23A,2466081.47
+Downside,Model,Total assets,FY24A,3617623.09
+Downside,Model,Total assets,FY25A,3910198.94
+Downside,Model,Total assets,FY26A,4364886.33
+Downside,Model,Total assets,FY27E,4749722.71397458
+Downside,Model,Total assets,FY28E,5233488.3669896
+Downside,Model,Total assets,FY29E,5771622.81814765
+Downside,Model,Total liabilities and net worth,FY20A,1530511.32
+Downside,Model,Total liabilities and net worth,FY21A,1746870.05
+Downside,Model,Total liabilities and net worth,FY22A,2068534.38
+Downside,Model,Total liabilities and net worth,FY23A,2466081.66
+Downside,Model,Total liabilities and net worth,FY24A,3617623.09
+Downside,Model,Total liabilities and net worth,FY25A,3910199.54
+Downside,Model,Total liabilities and net worth,FY26A,4364886.38
+Downside,Model,Total liabilities and net worth,FY27E,4749722.71397458
+Downside,Model,Total liabilities and net worth,FY28E,5233488.3669896
+Downside,Model,Total liabilities and net worth,FY29E,5771622.81814765
+Downside,Model,Treasury and other non-fee income,FY25A,13733.73
+Downside,Model,Treasury and other non-fee income,FY26A,27656.63
+Downside,Model,Treasury and other non-fee income,FY27E,13570.3792146
+Downside,Model,Treasury and other non-fee income,FY28E,14868.9072252672
+Downside,Model,Treasury and other non-fee income,FY29E,16399.0298595173
+Downside,Model,UPI MDR revenue,FY27E,92.0911304767336
+Downside,Model,UPI MDR revenue,FY28E,455.852974180604
+Downside,Model,UPI MDR revenue,FY29E,564.120379980032
+Downside,Model,Yield on advances,FY25A,0.0934257321368129
+Downside,Model,Yield on advances,FY26A,0.0862955454364285
+Downside,Model,Yield on advances,FY27E,0.0855455454364285
+Downside,Model,Yield on advances,FY28E,0.0847955454364285
+Downside,Model,Yield on advances,FY29E,0.0832955454364285
+Downside,Model,Yield on investments and liquidity,FY25A,0.0517638865954221
+Downside,Model,Yield on investments and liquidity,FY26A,0.0503801960852236
+Downside,Model,Yield on investments and liquidity,FY27E,0.0498801960852236
+Downside,Model,Yield on investments and liquidity,FY28E,0.0493801960852236
+Downside,Model,Yield on investments and liquidity,FY29E,0.0483801960852236
+Downside,Opex_Credit,Cost to income,FY20A,0.386389705750004
+Downside,Opex_Credit,Cost to income,FY21A,0.363243893563884
+Downside,Opex_Credit,Cost to income,FY22A,0.368817751153005
+Downside,Opex_Credit,Cost to income,FY23A,0.40363603867791
+Downside,Opex_Credit,Cost to income,FY24A,0.401753323815891
+Downside,Opex_Credit,Cost to income,FY25A,0.405073796643506
+Downside,Opex_Credit,Cost to income,FY26A,0.379985629013077
+Downside,Opex_Credit,Cost to income,FY27E,0.423898295606704
+Downside,Opex_Credit,Cost to income,FY28E,0.430658236328023
+Downside,Opex_Credit,Cost to income,FY29E,0.441010388589931
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY21A,0.0107688476476978
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY22A,0.00809014004298814
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY23A,0.00793643355363334
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY24A,0.00526975818966727
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY25A,0.00501643055943119
+Downside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY26A,0.00410480547647306
+Downside,Opex_Credit,Employee cost / opex,FY25A,0.350576781359938
+Downside,Opex_Credit,Employee cost / opex,FY26A,0.358519615658175
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY21A,0.0679233147438259
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY22A,-0.0172924725115364
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY23A,-0.109783757607183
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY24A,0.00623356788682727
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY25A,-0.00881650948281831
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY26A,0.0703679169051095
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY27E,-0.116023553514104
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY28E,-0.0175803757346711
+Downside,Opex_Credit,Jaws: revenue growth less cost growth,FY29E,-0.0262905610237625
+Downside,Opex_Credit,Net revenue per branch,FY26A,19.7356383527712
+Downside,Opex_Credit,Net revenue per employee,FY26A,0.906382454294233
+Downside,Opex_Credit,Normalisation gap,E,20.6740450312463
+Downside,Opex_Credit,Opex / average assets,FY21A,0.0199687629922688
+Downside,Opex_Credit,Opex / average assets,FY22A,0.0196268466421513
+Downside,Opex_Credit,Opex / average assets,FY23A,0.0210170274773312
+Downside,Opex_Credit,Opex / average assets,FY24A,0.0208379678450395
+Downside,Opex_Credit,Opex / average assets,FY25A,0.0181127767708398
+Downside,Opex_Credit,Opex / average assets,FY26A,0.0175612256863185
+Downside,Opex_Credit,Opex / average assets,FY27E,0.0178569498718758
+Downside,Opex_Credit,Opex / average assets,FY28E,0.0182596771056547
+Downside,Opex_Credit,Opex / average assets,FY29E,0.0185518376579104
+Downside,Opex_Credit,"Recent credit cost, FY24-FY26 average",E,0.00479699807519051
+Downside,Opex_Credit,RoA at risk if credit cost normalises,E,10.3884685412978
+Downside,Opex_Credit,"Through-the-cycle credit cost, FY21-FY26 average",E,0.00686440257831514
+Downside,Peers,Axis Bank,D,24457.0
+Downside,Peers,Axis Bank,E,1748390.0
+Downside,Peers,Axis Bank,F,192631.0
+Downside,Peers,Axis Bank,G,0.0139882978054095
+Downside,Peers,Axis Bank,H,0.126962949888647
+Downside,Peers,Axis Bank,I,377205.0
+Downside,Peers,Axis Bank,J,1.83521701688747
+Downside,Peers,Axis Bank,K,1.0
+Downside,Peers,Axis Bank,L,205537.0
+Downside,Peers,Axis Bank,M,0.126962949888647
+Downside,Peers,Axis Bank,N,1.83521701688747
+Downside,Peers,Bank of Baroda,D,20021.0
+Downside,Peers,Bank of Baroda,E,1895205.5
+Downside,Peers,Bank of Baroda,F,145067.5
+Downside,Peers,Bank of Baroda,G,0.0105640259064255
+Downside,Peers,Bank of Baroda,H,0.138011615282541
+Downside,Peers,Bank of Baroda,I,125645.0
+Downside,Peers,Bank of Baroda,J,0.820088898171778
+Downside,Peers,Bank of Baroda,K,0.0
+Downside,Peers,Bank of Baroda,L,153209.0
+Downside,Peers,Banks in fit,E,5.0
+Downside,Peers,Canara Bank,D,19187.0
+Downside,Peers,Canara Bank,E,1783944.0
+Downside,Peers,Canara Bank,F,106641.0
+Downside,Peers,Canara Bank,G,0.0107553824559515
+Downside,Peers,Canara Bank,H,0.179921418591349
+Downside,Peers,Canara Bank,I,106706.0
+Downside,Peers,Canara Bank,J,0.941119401668695
+Downside,Peers,Canara Bank,K,0.0
+Downside,Peers,Canara Bank,L,113382.0
+Downside,Peers,Federal Bank,D,4117.0
+Downside,Peers,Federal Bank,E,368263.0
+Downside,Peers,Federal Bank,F,36062.5
+Downside,Peers,Federal Bank,G,0.0111795102956311
+Downside,Peers,Federal Bank,H,0.114162911611785
+Downside,Peers,Federal Bank,I,82880.0
+Downside,Peers,Federal Bank,J,2.14132541015373
+Downside,Peers,Federal Bank,K,1.0
+Downside,Peers,Federal Bank,L,38705.0
+Downside,Peers,Federal Bank,M,0.114162911611785
+Downside,Peers,Federal Bank,N,2.14132541015373
+Downside,Peers,HDFC Bank,D,74671.0
+Downside,Peers,HDFC Bank,E,4137542.5
+Downside,Peers,HDFC Bank,F,532162.5
+Downside,Peers,HDFC Bank,G,0.0180471862222563
+Downside,Peers,HDFC Bank,H,0.140316162826204
+Downside,Peers,HDFC Bank,I,1080721.0
+Downside,Peers,HDFC Bank,J,1.9199130930661
+Downside,Peers,HDFC Bank,K,1.0
+Downside,Peers,HDFC Bank,L,562901.0
+Downside,Peers,HDFC Bank,M,0.140316162826204
+Downside,Peers,HDFC Bank,N,1.9199130930661
+Downside,Peers,ICICI Bank,D,50147.0
+Downside,Peers,ICICI Bank,E,2245385.5
+Downside,Peers,ICICI Bank,F,314724.0
+Downside,Peers,ICICI Bank,G,0.0223333587929556
+Downside,Peers,ICICI Bank,H,0.159336434463212
+Downside,Peers,ICICI Bank,I,999148.0
+Downside,Peers,ICICI Bank,J,2.96157049657499
+Downside,Peers,ICICI Bank,K,1.0
+Downside,Peers,ICICI Bank,L,337371.0
+Downside,Peers,ICICI Bank,M,0.159336434463212
+Downside,Peers,ICICI Bank,N,2.96157049657499
+Downside,Peers,IDFC First Bank,D,1636.0
+Downside,Peers,IDFC First Bank,E,371799.5
+Downside,Peers,IDFC First Bank,F,42715.0
+Downside,Peers,IDFC First Bank,G,0.00440022108690302
+Downside,Peers,IDFC First Bank,H,0.0383003628701861
+Downside,Peers,IDFC First Bank,I,63185.0
+Downside,Peers,IDFC First Bank,J,1.33436813650955
+Downside,Peers,IDFC First Bank,K,0.0
+Downside,Peers,IDFC First Bank,L,47352.0
+Downside,Peers,IndusInd Bank,D,933.0
+Downside,Peers,IndusInd Bank,E,548718.5
+Downside,Peers,IndusInd Bank,F,64966.5
+Downside,Peers,IndusInd Bank,G,0.0017003253945329
+Downside,Peers,IndusInd Bank,H,0.0143612477199788
+Downside,Peers,IndusInd Bank,I,66925.0
+Downside,Peers,IndusInd Bank,J,1.02269254278729
+Downside,Peers,IndusInd Bank,K,0.0
+Downside,Peers,IndusInd Bank,L,65440.0
+Downside,Peers,Intercept,E,2.55462355837718
+Downside,Peers,Kotak Mahindra Bank,D,14008.0
+Downside,Peers,Kotak Mahindra Bank,E,738313.5
+Downside,Peers,Kotak Mahindra Bank,F,126276.0
+Downside,Peers,Kotak Mahindra Bank,G,0.0189729701542773
+Downside,Peers,Kotak Mahindra Bank,H,0.110931610123856
+Downside,Peers,Kotak Mahindra Bank,I,456555.0
+Downside,Peers,Kotak Mahindra Bank,J,3.37409098971266
+Downside,Peers,Kotak Mahindra Bank,K,1.0
+Downside,Peers,Kotak Mahindra Bank,L,135312.0
+Downside,Peers,Kotak Mahindra Bank,M,0.110931610123856
+Downside,Peers,Kotak Mahindra Bank,N,3.37409098971266
+Downside,Peers,Punjab National Bank,D,16904.0
+Downside,Peers,Punjab National Bank,E,1902031.5
+Downside,Peers,Punjab National Bank,F,135006.5
+Downside,Peers,Punjab National Bank,G,0.00888733966813904
+Downside,Peers,Punjab National Bank,H,0.125208786243625
+Downside,Peers,Punjab National Bank,I,138929.0
+Downside,Peers,Punjab National Bank,J,0.97391517700666
+Downside,Peers,Punjab National Bank,K,0.0
+Downside,Peers,Punjab National Bank,L,142650.0
+Downside,Peers,R-squared,E,0.000586022390067019
+Downside,Peers,Slope: P/B per unit of RoE,E,-0.830124945580012
+Downside,Peers,State Bank of India,D,80032.0
+Downside,Peers,State Bank of India,E,7149477.5
+Downside,Peers,State Bank of India,F,492802.0
+Downside,Peers,State Bank of India,G,0.011194104744018
+Downside,Peers,State Bank of India,H,0.162401938303822
+Downside,Peers,State Bank of India,I,919754.0
+Downside,Peers,State Bank of India,J,1.68935166647687
+Downside,Peers,State Bank of India,K,0.0
+Downside,Peers,State Bank of India,L,544442.0
+Downside,Peers,Yes Bank,D,3476.0
+Downside,Peers,Yes Bank,E,446263.5
+Downside,Peers,Yes Bank,F,49421.0
+Downside,Peers,Yes Bank,G,0.00778912010505004
+Downside,Peers,Yes Bank,H,0.070334473199652
+Downside,Peers,Yes Bank,I,48277.0
+Downside,Peers,Yes Bank,J,0.945458462261564
+Downside,Peers,Yes Bank,K,0.0
+Downside,Peers,Yes Bank,L,51062.0
+Downside,Tornado,Advances growth,C,0.12
+Downside,Tornado,Advances growth,D,0.16
+Downside,Tornado,Advances growth,E,0.017750985839944
+Downside,Tornado,Advances growth,F,0.0192849406973657
+Downside,Tornado,Advances growth,G,-8.24408383372399
+Downside,Tornado,Advances growth,H,7.09546474049302
+Downside,Tornado,Advances growth,I,15.339548574217
+Downside,Tornado,"CASA ratio, year end",C,0.32
+Downside,Tornado,"CASA ratio, year end",D,0.36
+Downside,Tornado,"CASA ratio, year end",E,0.0182274477860297
+Downside,Tornado,"CASA ratio, year end",F,0.0191475720955726
+Downside,Tornado,"CASA ratio, year end",G,-3.47946437286698
+Downside,Tornado,"CASA ratio, year end",H,5.72177872256201
+Downside,Tornado,"CASA ratio, year end",I,9.201243095429
+Downside,Tornado,Core fee income growth,C,0.09
+Downside,Tornado,Core fee income growth,D,0.14
+Downside,Tornado,Core fee income growth,E,0.0180726461159709
+Downside,Tornado,Core fee income growth,F,0.0189254144164599
+Downside,Tornado,Core fee income growth,G,-5.02748107345498
+Downside,Tornado,Core fee income growth,H,3.50020193143501
+Downside,Tornado,Core fee income growth,I,8.52768300488999
+Downside,Tornado,Cost beta: deposits,C,0.25
+Downside,Tornado,Cost beta: deposits,D,0.62
+Downside,Tornado,Cost beta: deposits,E,0.0187188079565948
+Downside,Tornado,Cost beta: deposits,F,0.0181879379250383
+Downside,Tornado,Cost beta: deposits,G,1.43413733278402
+Downside,Tornado,Cost beta: deposits,H,-3.87456298278098
+Downside,Tornado,Cost beta: deposits,I,5.308700315565
+Downside,Tornado,Credit cost,C,0.006
+Downside,Tornado,Credit cost,D,0.0085
+Downside,Tornado,Credit cost,E,0.0190049925390538
+Downside,Tornado,Credit cost,F,0.0176618783428527
+Downside,Tornado,Credit cost,G,4.29598315737401
+Downside,Tornado,Credit cost,H,-9.13515880463699
+Downside,Tornado,Credit cost,I,13.431141962011
+Downside,Tornado,Deposit growth,C,0.12
+Downside,Tornado,Deposit growth,D,0.16
+Downside,Tornado,Deposit growth,E,0.0190904393879868
+Downside,Tornado,Deposit growth,F,0.0181650939405551
+Downside,Tornado,Deposit growth,G,5.15045164670401
+Downside,Tornado,Deposit growth,H,-4.10300282761299
+Downside,Tornado,Deposit growth,I,9.253454474317
+Downside,Tornado,IRDAI cap severity on bank fees,C,0.5
+Downside,Tornado,IRDAI cap severity on bank fees,D,1.5
+Downside,Tornado,IRDAI cap severity on bank fees,E,0.0186325972021487
+Downside,Tornado,IRDAI cap severity on bank fees,F,0.0185181851338526
+Downside,Tornado,IRDAI cap severity on bank fees,G,0.572029788323027
+Downside,Tornado,IRDAI cap severity on bank fees,H,-0.572090894638
+Downside,Tornado,IRDAI cap severity on bank fees,I,1.14412068296103
+Downside,Tornado,Operating expense growth,C,0.09
+Downside,Tornado,Operating expense growth,D,0.12
+Downside,Tornado,Operating expense growth,E,0.0189228746510233
+Downside,Tornado,Operating expense growth,F,0.0178605497821083
+Downside,Tornado,Operating expense growth,G,3.47480427706902
+Downside,Tornado,Operating expense growth,H,-7.14844441208097
+Downside,Tornado,Operating expense growth,I,10.62324868915
+Downside,Tornado,"Policy repo rate, fiscal-year average",C,0.05
+Downside,Tornado,"Policy repo rate, fiscal-year average",D,0.0625
+Downside,Tornado,"Policy repo rate, fiscal-year average",E,0.0173558613416485
+Downside,Tornado,"Policy repo rate, fiscal-year average",F,0.0193939423700285
+Downside,Tornado,"Policy repo rate, fiscal-year average",G,-12.195328816679
+Downside,Tornado,"Policy repo rate, fiscal-year average",H,8.18548146712103
+Downside,Tornado,"Policy repo rate, fiscal-year average",I,20.3808102838
+Downside,Tornado,"RoA FY29E, Base",E,0.0185753942233164
+Downside,Tornado,Share of maturing borrowings retired,C,0.3
+Downside,Tornado,Share of maturing borrowings retired,D,0.8
+Downside,Tornado,Share of maturing borrowings retired,E,0.01809618962591
+Downside,Tornado,Share of maturing borrowings retired,F,0.018901778643791
+Downside,Tornado,Share of maturing borrowings retired,G,-4.79204597406399
+Downside,Tornado,Share of maturing borrowings retired,H,3.26384420474602
+Downside,Tornado,Share of maturing borrowings retired,I,8.05589017881001
+Downside,Tornado,Treasury and other non-fee income,C,0.003
+Downside,Tornado,Treasury and other non-fee income,D,0.004
+Downside,Tornado,Treasury and other non-fee income,E,0.0181970722325042
+Downside,Tornado,Treasury and other non-fee income,F,0.0189535642862144
+Downside,Tornado,Treasury and other non-fee income,G,-3.78321990812197
+Downside,Tornado,Treasury and other non-fee income,H,3.78170062898
+Downside,Tornado,Treasury and other non-fee income,I,7.56492053710197
+Downside,Tornado,Yield beta: loans,C,0.55
+Downside,Tornado,Yield beta: loans,D,0.6
+Downside,Tornado,Yield beta: loans,E,0.0185753942233164
+Downside,Tornado,Yield beta: loans,F,0.0186420438942302
+Downside,Tornado,Yield beta: loans,G,0.0
+Downside,Tornado,Yield beta: loans,H,0.666496709138022
+Downside,Tornado,Yield beta: loans,I,0.666496709138022
+Downside,Valuation,Core bank value,E,276830.199726689
+Downside,Valuation,"Core book value, FY26",E,549552.21
+Downside,Valuation,Cost of equity,E,0.13135
+Downside,Valuation,Current P/B (standalone),E,1.91991340003341
+Downside,Valuation,Current share price,E,700.0
+Downside,Valuation,Discount periods to FY27E,E,1.0
+Downside,Valuation,Discount periods to FY28E,E,2.0
+Downside,Valuation,Discount periods to FY29E,E,3.0
+Downside,Valuation,Equity beta,E,0.95
+Downside,Valuation,"Equity risk premium, India",E,0.065
+Downside,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
+Downside,Valuation,HDB Financial Services: market capitalisation,E,41774.0
+Downside,Valuation,HDFC AMC: HDFC Bank stake,E,0.524
+Downside,Valuation,HDFC AMC: market capitalisation,E,105276.0
+Downside,Valuation,HDFC Life: HDFC Bank stake,E,0.502
+Downside,Valuation,HDFC Life: market capitalisation,E,113843.0
+Downside,Valuation,Holding-company discount,E,0.2
+Downside,Valuation,Investment in subsidiaries at cost,E,13348.7
+Downside,Valuation,Justified P/B,E,0.503737760833842
+Downside,Valuation,Long-term growth,E,0.08
+Downside,Valuation,P/B implied by peer regression at FY29E RoE,E,2.46674077553608
+Downside,Valuation,Present value of FY27E-FY29E residual income,E,-22486.7768603008
+Downside,Valuation,Present value of terminal residual income,E,-125391.623200282
+Downside,Valuation,Residual income FY27E,E,-6247.46695392467
+Downside,Valuation,Residual income FY28E,E,-9279.37253352882
+Downside,Valuation,Residual income FY29E,E,-14067.8499090159
+Downside,Valuation,Residual income equity value,E,415022.509939418
+Downside,Valuation,Residual income growth after FY29,E,0.05
+Downside,Valuation,Residual income per share,E,268.816611278575
+Downside,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Downside,Valuation,RoA increment for value test,E,10.0
+Downside,Valuation,RoE the market is pricing,E,0.178587553091716
+Downside,Valuation,"Subsidiaries, after discount",E,114614.6752
+Downside,Valuation,Sum of the parts equity value,E,391444.874926689
+Downside,Valuation,Sum of the parts per share,E,253.545006017911
+Downside,Valuation,Sustainable RoE: FY29E,E,0.105866934018818
+Downside,Valuation,Upside to residual income,E,-0.615976269602036
+Downside,Valuation,Upside to sum of the parts,E,-0.637792848545842
+Downside,Valuation,Value of +10 bp RoA (equity value),E,86080.9611456737
+Upside,ALM,  Standard error,E,0.105411156915017
+Upside,ALM,1 day,C,0.03
+Upside,ALM,1 day,D,7800.55
+Upside,ALM,1 day,E,214529.94
+Upside,ALM,1 day,F,48252.58
+Upside,ALM,1 day,G,531.65
+Upside,ALM,1 day,H,173546.26
+Upside,ALM,1 day,I,173546.26
+Upside,ALM,1-3 years,C,24.0
+Upside,ALM,1-3 years,D,1273116.88
+Upside,ALM,1-3 years,E,185640.79
+Upside,ALM,1-3 years,F,1020875.68
+Upside,ALM,1-3 years,G,78305.81
+Upside,ALM,1-3 years,H,359576.18
+Upside,ALM,1-3 years,I,252540.11
+Upside,ALM,15-30 days,C,0.75
+Upside,ALM,15-30 days,D,36080.58
+Upside,ALM,15-30 days,E,42532.84
+Upside,ALM,15-30 days,F,75417.69
+Upside,ALM,15-30 days,G,20763.73
+Upside,ALM,15-30 days,H,-17568.0
+Upside,ALM,15-30 days,I,85788.12
+Upside,ALM,2-3 months,C,2.5
+Upside,ALM,2-3 months,D,83112.9
+Upside,ALM,2-3 months,E,35880.28
+Upside,ALM,2-3 months,F,103172.88
+Upside,ALM,2-3 months,G,21464.57
+Upside,ALM,2-3 months,H,-5644.27000000001
+Upside,ALM,2-3 months,I,46737.7
+Upside,ALM,2-7 days,C,0.15
+Upside,ALM,2-7 days,D,33387.28
+Upside,ALM,2-7 days,E,30256.65
+Upside,ALM,2-7 days,F,103780.48
+Upside,ALM,2-7 days,G,8488.09
+Upside,ALM,2-7 days,H,-48624.64
+Upside,ALM,2-7 days,I,124921.62
+Upside,ALM,3-5 years,C,48.0
+Upside,ALM,3-5 years,D,343567.27
+Upside,ALM,3-5 years,E,19629.47
+Upside,ALM,3-5 years,F,13319.97
+Upside,ALM,3-5 years,G,67466.26
+Upside,ALM,3-5 years,H,282410.51
+Upside,ALM,3-5 years,I,534950.62
+Upside,ALM,3-6 months,C,4.5
+Upside,ALM,3-6 months,D,181193.01
+Upside,ALM,3-6 months,E,31861.69
+Upside,ALM,3-6 months,F,167281.93
+Upside,ALM,3-6 months,G,51034.1
+Upside,ALM,3-6 months,H,-5261.32999999998
+Upside,ALM,3-6 months,I,41476.37
+Upside,ALM,31 days-2 months,C,1.5
+Upside,ALM,31 days-2 months,D,76238.56
+Upside,ALM,31 days-2 months,E,34583.75
+Upside,ALM,31 days-2 months,F,107134.36
+Upside,ALM,31 days-2 months,G,37094.1
+Upside,ALM,31 days-2 months,H,-33406.15
+Upside,ALM,31 days-2 months,I,52381.97
+Upside,ALM,6 months-1 year,C,9.0
+Upside,ALM,6 months-1 year,D,240566.48
+Upside,ALM,6 months-1 year,E,66410.65
+Upside,ALM,6 months-1 year,F,403378.88
+Upside,ALM,6 months-1 year,G,52110.69
+Upside,ALM,6 months-1 year,H,-148512.44
+Upside,ALM,6 months-1 year,I,-107036.07
+Upside,ALM,8-14 days,C,0.35
+Upside,ALM,8-14 days,D,18191.98
+Upside,ALM,8-14 days,E,14524.74
+Upside,ALM,8-14 days,F,52559.59
+Upside,ALM,8-14 days,G,1722.63
+Upside,ALM,8-14 days,H,-21565.5
+Upside,ALM,8-14 days,I,103356.12
+Upside,ALM,Add: floating advances beyond 1 year that reprice now,E,12433.272115
+Upside,ALM,Advances on external benchmarks (reprice within a month),E,0.55
+Upside,ALM,As % of FY26 NII,E,0.0976719123811134
+Upside,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
+Upside,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
+Upside,ALM,Long-run beta (same year + lag),E,0.616166232706712
+Upside,ALM,Model base deposit beta less same-year estimate,E,-0.0657371396055778
+Upside,ALM,Months in horizon,E,12.0
+Upside,ALM,NII change on contractual gaps,E,135.738531833333
+Upside,ALM,One-year-lag beta,E,0.250429093101135
+Upside,ALM,Over 5 years,C,84.0
+Upside,ALM,Over 5 years,D,643910.78
+Upside,ALM,Over 5 years,E,208350.67
+Upside,ALM,Over 5 years,F,1010076.43
+Upside,ALM,Over 5 years,G,150413.01
+Upside,ALM,Over 5 years,H,-308227.99
+Upside,ALM,Over 5 years,I,226722.63
+Upside,ALM,R-squared,E,0.944858138405346
+Upside,ALM,Rate shock,E,0.01
+Upside,ALM,Same-year beta: change in cost of funds per 1 pp change in average repo,E,0.365737139605578
+Upside,ALM,Total,D,2937166.27
+Upside,ALM,Total,E,884201.47
+Upside,ALM,Total,F,3105250.47
+Upside,ALM,Total,G,489394.64
+Upside,ALM,Total,H,226722.63
+Upside,Capital,Asset growth fundable at constant Tier 1,FY27E,0.0987399107799698
+Upside,Capital,Asset growth fundable at constant Tier 1,FY28E,0.115852116718092
+Upside,Capital,Asset growth fundable at constant Tier 1,FY29E,0.122566276086197
+Upside,Capital,Internal capital generation,FY27E,0.0987399107799698
+Upside,Capital,Internal capital generation,FY28E,0.115852116718092
+Upside,Capital,Internal capital generation,FY29E,0.122566276086197
+Upside,Capital,Risk-weight density,FY20A,0.648393753601609
+Upside,Capital,Risk-weight density,FY21A,0.664125582078723
+Upside,Capital,Risk-weight density,FY22A,0.649519139530099
+Upside,Capital,Risk-weight density,FY23A,0.663287501106693
+Upside,Capital,Risk-weight density,FY24A,0.724805062727809
+Upside,Capital,Risk-weight density,FY25A,0.724901477296418
+Upside,Capital,Risk-weight density,FY26A,0.72736144498883
+Upside,Capital,Risk-weight density,FY27E,0.72736144498883
+Upside,Capital,Risk-weight density,FY28E,0.72736144498883
+Upside,Capital,Risk-weight density,FY29E,0.72736144498883
+Upside,Capital,"Risk-weighted assets, implied",FY20A,992373.940800929
+Upside,Capital,"Risk-weighted assets, implied",FY21A,1160141.40091116
+Upside,Capital,"Risk-weighted assets, implied",FY22A,1343553.10576385
+Upside,Capital,"Risk-weighted assets, implied",FY23A,1635721.01576182
+Upside,Capital,"Risk-weighted assets, implied",FY24A,2622071.53067302
+Upside,Capital,"Risk-weighted assets, implied",FY25A,2834508.98812889
+Upside,Capital,"Risk-weighted assets, implied",FY26A,3174850.02820079
+Upside,Capital,"Risk-weighted assets, implied",FY27E,3516635.80001633
+Upside,Capital,"Risk-weighted assets, implied",FY28E,4006908.17459615
+Upside,Capital,"Risk-weighted assets, implied",FY29E,4579975.06762822
+Upside,Capital,"Tier 1 capital ratio, reported",FY20A,0.1723
+Upside,Capital,"Tier 1 capital ratio, reported",FY21A,0.1756
+Upside,Capital,"Tier 1 capital ratio, reported",FY22A,0.1787
+Upside,Capital,"Tier 1 capital ratio, reported",FY23A,0.1713
+Upside,Capital,"Tier 1 capital ratio, reported",FY24A,0.1679
+Upside,Capital,"Tier 1 capital ratio, reported",FY25A,0.1769
+Upside,Capital,"Tier 1 capital ratio, reported",FY26A,0.1773
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY20A,0.1723
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY21A,0.1756
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY22A,0.1787
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY23A,0.1713
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY24A,0.1679
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY25A,0.1769
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY26A,0.1773
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY27E,0.177506523407425
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY28E,0.177062592601946
+Upside,Capital,"Tier 1 ratio, projected (proxy)",FY29E,0.17671082485078
+Upside,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",C,-0.35999999998603
+Upside,Checks,"Borrowing maturities sum to FY26 borrowings (difference, INR cr)",E,1.0
+Upside,Checks,Cost of equity exceeds long-term growth,C,0.05135
+Upside,Checks,Cost of equity exceeds long-term growth,E,0.0
+Upside,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),C,0.0
+Upside,Checks,Hist PAT rebuilt from components ties to reported (sum of absolute differences),E,1.0
+Upside,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",C,2.04000000003725
+Upside,Checks,"Hist balance sheet ties within Screener whole-crore rounding (sum of absolute differences, INR cr)",E,5.0
+Upside,Checks,"Lever bridge adds up (difference, bp)",C,0.0
+Upside,Checks,"Lever bridge adds up (difference, bp)",E,1.0
+Upside,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",C,0.0
+Upside,Checks,"Model balance sheet balances, FY27E-FY29E (sum of absolute differences, INR cr)",E,1.0
+Upside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",C,0.0
+Upside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",E,1.0
+Upside,Checks,"No error values in Model, Valuation and Levers",C,0.0
+Upside,Checks,"No error values in Model, Valuation and Levers",E,0.0
+Upside,Checks,"Scenario selector resolves to 1, 2 or 3",C,2.0
+Upside,Fees,2025-04,C,663561.79
+Upside,Fees,2025-04,D,0.67
+Upside,Fees,2025-05,C,696624.99
+Upside,Fees,2025-05,D,0.66
+Upside,Fees,2025-06,C,682872.22
+Upside,Fees,2025-06,D,0.66
+Upside,Fees,2025-07,C,734012.36
+Upside,Fees,2025-07,D,0.67
+Upside,Fees,2025-08,C,723797.42
+Upside,Fees,2025-08,D,0.65
+Upside,Fees,2025-09,C,719567.29
+Upside,Fees,2025-09,D,0.67
+Upside,Fees,2025-10,C,825742.2
+Upside,Fees,2025-10,D,0.68
+Upside,Fees,2025-11,C,764552.06
+Upside,Fees,2025-12,C,807572.99
+Upside,Fees,2025-12,D,0.67
+Upside,Fees,2026-01,C,840825.83
+Upside,Fees,2026-01,D,0.69
+Upside,Fees,2026-02,C,772416.94
+Upside,Fees,2026-02,D,0.68
+Upside,Fees,2026-03,C,861483.05
+Upside,Fees,2026-03,D,0.68
+Upside,Fees,2026-04,C,851601.89
+Upside,Fees,2026-04,D,0.68
+Upside,Fees,2026-05,C,872458.05
+Upside,Fees,2026-05,D,0.67
+Upside,Fees,2026-06,C,860997.14
+Upside,Fees,2026-06,D,0.68
+Upside,Fees,2026-07,C,906613.19
+Upside,Fees,2026-07,D,0.68
+Upside,Fees,2026-08,C,895320.68
+Upside,Fees,2026-08,D,0.67
+Upside,Fees,2026-09,C,886987.14
+Upside,Fees,2026-09,D,0.67
+Upside,Fees,2026-10,C,970693.25
+Upside,Fees,2026-10,D,0.68
+Upside,Fees,Acquiring bank's share of MDR,E,0.3
+Upside,Fees,Annual MDR pool at current run-rate,E,18540.6450577791
+Upside,Fees,Bancassurance APE lost if bank distribution pulls back,E,0.15
+Upside,Fees,Bancassurance share of individual APE,E,0.58
+Upside,Fees,Bank fee lost to caps,FY27E,0.0
+Upside,Fees,Bank fee lost to caps,FY28E,218.265589255364
+Upside,Fees,Bank fee lost to caps,FY29E,436.531178510728
+Upside,Fees,Exempt or flat-fee share of that value,E,0.3
+Upside,Fees,HDFC Bank MDR revenue,FY27E,92.0911304767336
+Upside,Fees,HDFC Bank MDR revenue,FY28E,455.852974180604
+Upside,Fees,HDFC Bank MDR revenue,FY29E,564.120379980032
+Upside,Fees,"HDFC Bank payee volume, Sep-26",E,1696.1
+Upside,Fees,HDFC Bank share of payee volume,E,0.0662264843463254
+Upside,Fees,HDFC Bank stake in HDFC Life,E,0.502
+Upside,Fees,HDFC Life APE FY26,E,16641.0
+Upside,Fees,HDFC Life VNB FY26,E,4034.0
+Upside,Fees,HDFC Life bank-channel first-year commission above proposed caps,E,671.586428478042
+Upside,Fees,"HDFC Life distributor commission above caps, all channels",E,1258.91963082091
+Upside,Fees,HDFC Life embedded value Q2 FY27,E,66461.0
+Upside,Fees,HDFC Life market capitalisation,E,113843.0
+Upside,Fees,"Haircut for INR 300 cap on tickets of INR 75,000 and above",E,0.95
+Upside,Fees,MDR,E,0.004
+Upside,Fees,Market-implied VNB multiple,E,11.7456618740704
+Upside,Fees,Net change in annual VNB,E,278.501815410454
+Upside,Fees,"P2M value growth, Apr-Oct 2026 vs Apr-Oct 2025",E,0.237505099081646
+Upside,Fees,"P2M value, trailing 12 months",E,10291522.21
+Upside,Fees,"Payee volume, top twelve banks, Sep-26",E,25610.6
+Upside,Fees,"Share of P2M value above INR 2,000",E,0.677272727272727
+Upside,Fees,Share of commission saving kept as margin,E,0.5
+Upside,Fees,Share of year MDR is live,FY27E,0.25
+Upside,Fees,Share of year MDR is live,FY28E,1.0
+Upside,Fees,Share of year MDR is live,FY29E,1.0
+Upside,Fees,"Uplift for other insurers distributed (HDFC ERGO, partners)",E,1.3
+Upside,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
+Upside,Fees,Years after FY26,FY27E,1.0
+Upside,Fees,Years after FY26,FY28E,2.0
+Upside,Fees,Years after FY26,FY29E,3.0
+Upside,Levers,All levers,C,13949.6941265107
+Upside,Levers,All levers,D,10438.556114868
+Upside,Levers,All levers,E,17.6841888846751
+Upside,Levers,All levers,F,0.013745751465831
+Upside,Levers,All levers,G,147108.239457803
+Upside,Levers,All levers,H,95.2843218744359
+Upside,Levers,Branch and operations productivity,C,2822.9166464784
+Upside,Levers,Branch and operations productivity,D,2112.38852655979
+Upside,Levers,Branch and operations productivity,E,3.57864414296692
+Upside,Levers,Branch and operations productivity,F,0.00278164598301162
+Upside,Levers,Branch and operations productivity,G,29769.4196183381
+Upside,Levers,Branch and operations productivity,H,19.2821215955243
+Upside,Levers,Branch and operations productivity,I,1.19288138098897
+Upside,Levers,Levers,E,17.6841888846751
+Upside,Levers,Protect bancassurance and grow card fees,C,1536.5097580536
+Upside,Levers,Protect bancassurance and grow card fees,D,1149.77025195151
+Upside,Levers,Protect bancassurance and grow card fees,E,1.94785122441698
+Upside,Levers,Protect bancassurance and grow card fees,F,0.0015140461910839
+Upside,Levers,Protect bancassurance and grow card fees,G,16203.4553135782
+Upside,Levers,Protect bancassurance and grow card fees,H,10.4952330152784
+Upside,Levers,Protect bancassurance and grow card fees,I,0.486962806104246
+Upside,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
+Upside,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
+Upside,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
+Upside,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
+Upside,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
+Upside,Levers,Re-mix advances to higher-yield retail and SME,C,4231.6341885144
+Upside,Levers,Re-mix advances to higher-yield retail and SME,D,3166.53186326532
+Upside,Levers,Re-mix advances to higher-yield retail and SME,E,5.36449169436059
+Upside,Levers,Re-mix advances to higher-yield retail and SME,F,0.00416976826316851
+Upside,Levers,Re-mix advances to higher-yield retail and SME,G,44625.2261774512
+Upside,Levers,Re-mix advances to higher-yield retail and SME,H,28.9044613033483
+Upside,Levers,Re-mix advances to higher-yield retail and SME,I,1.7881638981202
+Upside,Levers,Rebuild CASA,C,2730.96096774883
+Upside,Levers,Rebuild CASA,D,2043.57809216645
+Upside,Levers,Rebuild CASA,E,3.46207086351545
+Upside,Levers,Rebuild CASA,F,0.00269103468399494
+Upside,Levers,Rebuild CASA,G,28799.6895379956
+Upside,Levers,Rebuild CASA,H,18.6540121609527
+Upside,Levers,Rebuild CASA,I,0.577011810585909
+Upside,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
+Upside,Levers,Rebuild CASA (CASA ratio),D,0.3832
+Upside,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
+Upside,Levers,Rebuild CASA (CASA ratio),G,0.015
+Upside,Levers,Rebuild CASA (CASA ratio),H,0.359307369990647
+Upside,Levers,Retire legacy borrowings (share of funding),C,0.136145554293008
+Upside,Levers,Retire legacy borrowings (share of funding),D,0.0651139627186436
+Upside,Levers,Retire legacy borrowings (share of funding),F,255333.388879679
+Upside,Levers,Retire legacy borrowings (share of funding),G,75000.0
+Upside,Levers,Retire legacy borrowings (share of funding),H,0.293733617562028
+Upside,Levers,Retire legacy borrowings faster,C,2339.98813445109
+Upside,Levers,Retire legacy borrowings faster,D,1751.01312100975
+Upside,Levers,Retire legacy borrowings faster,E,2.96643007239057
+Upside,Levers,Retire legacy borrowings faster,F,0.00230577782118036
+Upside,Levers,Retire legacy borrowings faster,G,24676.6367555726
+Upside,Levers,Retire legacy borrowings faster,H,15.9834459855049
+Upside,Levers,Retire legacy borrowings faster,I,0.988810024130191
+Upside,Levers,"RoA FY26A, core",E,180.222819069513
+Upside,Levers,RoA FY29E with levers,E,242.947056738524
+Upside,Levers,"RoA FY29E, scenario before levers",E,225.262867853849
+Upside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,45.0400487843365
+Upside,Levers,Shortfall (-) / headroom (+) to target,E,42.9470567385243
+Upside,Levers,Target,E,200.0
+Upside,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
+Upside,Levers,Win UPI acquiring (payee share),D,0.189031104308372
+Upside,Levers,Win UPI acquiring (payee share),F,0.122804619962047
+Upside,Levers,Win UPI acquiring (payee share),G,0.0337735156536747
+Upside,Levers,Win UPI acquiring (payee share),H,0.275018282407555
+Upside,Levers,Win UPI merchant acquiring share,C,287.684431264388
+Upside,Levers,Win UPI merchant acquiring share,D,215.274259915141
+Upside,Levers,Win UPI merchant acquiring share,E,0.364700887024561
+Upside,Levers,Win UPI merchant acquiring share,F,0.000283478523391707
+Upside,Levers,Win UPI merchant acquiring share,G,3033.81205486757
+Upside,Levers,Win UPI merchant acquiring share,H,1.96504781382734
+Upside,Levers,Win UPI merchant acquiring share,I,0.0405223207805068
+Upside,Margin,  Margin effect,FY22A,-3518.43068895691
+Upside,Margin,  Margin effect,FY23A,1278.29568990951
+Upside,Margin,  Margin effect,FY24A,-7966.68451807764
+Upside,Margin,  Margin effect,FY25A,-11606.8351667362
+Upside,Margin,  Margin effect,FY26A,-6147.41728630429
+Upside,Margin,  Margin effect,FY27E,7371.99923968152
+Upside,Margin,  Margin effect,FY28E,20810.7493893459
+Upside,Margin,  Margin effect,FY29E,7732.47335745811
+Upside,Margin,  Unexplained,FY22A,0.0
+Upside,Margin,  Unexplained,FY23A,0.0
+Upside,Margin,  Unexplained,FY24A,0.0
+Upside,Margin,  Unexplained,FY25A,0.0
+Upside,Margin,  Unexplained,FY26A,0.0
+Upside,Margin,  Unexplained,FY27E,0.0
+Upside,Margin,  Unexplained,FY28E,0.0
+Upside,Margin,  Unexplained,FY29E,0.0
+Upside,Margin,  Volume effect,FY22A,10648.4506889569
+Upside,Margin,  Volume effect,FY23A,13554.3343100905
+Upside,Margin,  Volume effect,FY24A,29656.9445180776
+Upside,Margin,  Volume effect,FY25A,25744.4451667362
+Upside,Margin,  Volume effect,FY26A,12163.3572863043
+Upside,Margin,  Volume effect,FY27E,13083.8434670202
+Upside,Margin,  Volume effect,FY28E,18296.1127465206
+Upside,Margin,  Volume effect,FY29E,26508.6442845247
+Upside,Margin,Average interest-earning assets,FY21A,1634020.39
+Upside,Margin,Average interest-earning assets,FY22A,1902206.285
+Upside,Margin,Average interest-earning assets,FY23A,2260257.76
+Upside,Margin,Average interest-earning assets,FY24A,3032144.28
+Upside,Margin,Average interest-earning assets,FY25A,3751384.015
+Upside,Margin,Average interest-earning assets,FY26A,4123352.635
+Upside,Margin,Average interest-earning assets,FY27E,4542584.62495
+Upside,Margin,Average interest-earning assets,FY28E,5099850.26035034
+Upside,Margin,Average interest-earning assets,FY29E,5817996.47561721
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY21A,0.101392905104981
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY22A,0.0996409591909387
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY23A,0.102129127706958
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY24A,0.169310615898315
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY25A,0.191937132333265
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY26A,0.151273432034433
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY27E,0.108986462506523
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY28E,0.0752226082062029
+Upside,Margin,"Borrowings / (deposits + borrowings), average",FY29E,0.0594787525529986
+Upside,Margin,Change in NII,FY22A,7130.02
+Upside,Margin,Change in NII,FY23A,14832.63
+Upside,Margin,Change in NII,FY24A,21690.26
+Upside,Margin,Change in NII,FY25A,14137.61
+Upside,Margin,Change in NII,FY26A,6015.94000000003
+Upside,Margin,Change in NII,FY27E,20455.8427067017
+Upside,Margin,Change in NII,FY28E,39106.8621358665
+Upside,Margin,Change in NII,FY29E,34241.1176419828
+Upside,Margin,Cost of borrowings,FY25A,0.0868970088026947
+Upside,Margin,Cost of borrowings,FY26A,0.0780098638229448
+Upside,Margin,Cost of borrowings,FY27E,0.0781898638229448
+Upside,Margin,Cost of borrowings,FY28E,0.0802598638229448
+Upside,Margin,Cost of borrowings,FY29E,0.0802598638229448
+Upside,Margin,Cost of deposits,FY25A,0.0491787539442674
+Upside,Margin,Cost of deposits,FY26A,0.0475519014986854
+Upside,Margin,Cost of deposits,FY27E,0.0481900220302636
+Upside,Margin,Cost of deposits,FY28E,0.0496600220302636
+Upside,Margin,Cost of deposits,FY29E,0.0490600220302636
+Upside,Margin,FY23 to FY24,FY20A,5.3764001270799
+Upside,Margin,FY23 to FY24,FY21A,-21.1341573084726
+Upside,Margin,FY23 to FY24,FY22A,19.5086072154067
+Upside,Margin,FY23 to FY24,FY23A,1.44318501161592
+Upside,Margin,FY23 to FY24,FY24A,-19.8737755291935
+Upside,Margin,FY23 to FY24,FY25A,25.4325407377234
+Upside,Margin,FY23 to FY24,FY26A,0.0
+Upside,Margin,FY23 to Q2 FY27,FY20A,-20.0077114549182
+Upside,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
+Upside,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
+Upside,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
+Upside,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
+Upside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Upside,Margin,FY23 to Q2 FY27,FY26A,0.0
+Upside,Margin,FY24 to FY26,FY20A,-19.4460024154472
+Upside,Margin,FY24 to FY26,FY21A,-37.591907603877
+Upside,Margin,FY24 to FY26,FY22A,-8.82276922370851
+Upside,Margin,FY24 to FY26,FY23A,26.9085434641887
+Upside,Margin,FY24 to FY26,FY24A,16.9984950248016
+Upside,Margin,FY24 to FY26,FY25A,-16.938364076852
+Upside,Margin,FY24 to FY26,FY26A,0.0
+Upside,Margin,FY26 to Q2 FY27,FY20A,-5.93810916655084
+Upside,Margin,FY26 to Q2 FY27,FY21A,-1.00978004626788
+Upside,Margin,FY26 to Q2 FY27,FY22A,-21.0682346857868
+Upside,Margin,FY26 to Q2 FY27,FY23A,4.55629756698585
+Upside,Margin,FY26 to Q2 FY27,FY24A,18.886812835742
+Upside,Margin,FY26 to Q2 FY27,FY25A,-7.30320483722403
+Upside,Margin,FY26 to Q2 FY27,FY26A,0.0
+Upside,Margin,Loan-deposit spread,FY25A,0.0442469781925455
+Upside,Margin,Loan-deposit spread,FY26A,0.0387436439377431
+Upside,Margin,Loan-deposit spread,FY27E,0.0384655234061649
+Upside,Margin,Loan-deposit spread,FY28E,0.0411355234061649
+Upside,Margin,Loan-deposit spread,FY29E,0.0417355234061649
+Upside,Margin,Net interest margin,FY21A,0.0397054837241046
+Upside,Margin,Net interest margin,FY22A,0.0378558259258406
+Upside,Margin,Net interest margin,FY23A,0.0384213789846694
+Upside,Margin,Net interest margin,FY24A,0.0357939695402621
+Upside,Margin,Net interest margin,FY25A,0.0326999554056585
+Upside,Margin,Net interest margin,FY26A,0.0312090770281645
+Upside,Margin,Net interest margin,FY27E,0.0328319415091454
+Upside,Margin,Net interest margin,FY28E,0.0369126004161613
+Upside,Margin,Net interest margin,FY29E,0.03824166161272
+Upside,Margin,Run-off saving vs refinancing at borrowing cost,FY27E,4636.99154633771
+Upside,Margin,Run-off saving vs refinancing at borrowing cost,FY28E,958.460484567077
+Upside,Margin,Run-off saving vs refinancing at borrowing cost,FY29E,977.253924567077
+Upside,Margin,Yield on advances,FY25A,0.0934257321368129
+Upside,Margin,Yield on advances,FY26A,0.0862955454364285
+Upside,Margin,Yield on advances,FY27E,0.0866555454364285
+Upside,Margin,Yield on advances,FY28E,0.0907955454364285
+Upside,Margin,Yield on advances,FY29E,0.0907955454364285
+Upside,Margin,Yield on investments and liquidity,FY25A,0.0517638865954221
+Upside,Margin,Yield on investments and liquidity,FY26A,0.0503801960852236
+Upside,Margin,Yield on investments and liquidity,FY27E,0.0506201960852236
+Upside,Margin,Yield on investments and liquidity,FY28E,0.0533801960852236
+Upside,Margin,Yield on investments and liquidity,FY29E,0.0533801960852236
+Upside,Model,Advances,FY20A,993702.88
+Upside,Model,Advances,FY21A,1132836.63
+Upside,Model,Advances,FY22A,1368820.93
+Upside,Model,Advances,FY23A,1600585.9
+Upside,Model,Advances,FY24A,2484861.52
+Upside,Model,Advances,FY25A,2619608.62
+Upside,Model,Advances,FY26A,2937166.27
+Upside,Model,Advances,FY27E,3377741.2105
+Upside,Model,Advances,FY28E,3918179.80418
+Upside,Model,Advances,FY29E,4545088.5728488
+Upside,Model,Average advances,FY21A,1063269.755
+Upside,Model,Average advances,FY22A,1250828.78
+Upside,Model,Average advances,FY23A,1484703.415
+Upside,Model,Average advances,FY24A,2042723.71
+Upside,Model,Average advances,FY25A,2552235.07
+Upside,Model,Average advances,FY26A,2778387.445
+Upside,Model,Average advances,FY27E,3157453.74025
+Upside,Model,Average advances,FY28E,3647960.50734
+Upside,Model,Average advances,FY29E,4231634.1885144
+Upside,Model,Average assets before in-year retained profit,FY21A,1638690.89
+Upside,Model,Average assets before in-year retained profit,FY22A,1907702.785
+Upside,Model,Average assets before in-year retained profit,FY23A,2267308.26
+Upside,Model,Average assets before in-year retained profit,FY24A,3041852.28
+Upside,Model,Average assets before in-year retained profit,FY25A,3763911.015
+Upside,Model,Average assets before in-year retained profit,FY26A,4137542.635
+Upside,Model,Average assets before in-year retained profit,FY27E,4557972.24995
+Upside,Model,Average assets before in-year retained profit,FY28E,5116622.77160034
+Upside,Model,Average assets before in-year retained profit,FY29E,5836278.51287971
+Upside,Model,Average borrowings,FY21A,140058.0
+Upside,Model,Average borrowings,FY22A,160152.0
+Upside,Model,Average borrowings,FY23A,195791.5
+Upside,Model,Average borrowings,FY24A,434459.5
+Upside,Model,Average borrowings,FY25A,605042.0
+Upside,Model,Average borrowings,FY26A,518663.0
+Upside,Model,Average borrowings,FY27E,412111.4
+Upside,Model,Average borrowings,FY28E,319166.6
+Upside,Model,Average borrowings,FY29E,287844.2
+Upside,Model,Average deposits,FY21A,1241281.255
+Upside,Model,Average deposits,FY22A,1447138.83
+Upside,Model,Average deposits,FY23A,1721306.045
+Upside,Model,Average deposits,FY24A,2131590.465
+Upside,Model,Average deposits,FY25A,2547250.59
+Upside,Model,Average deposits,FY26A,2909982.685
+Upside,Model,Average deposits,FY27E,3369196.75995
+Upside,Model,Average deposits,FY28E,3923794.493892
+Upside,Model,Average deposits,FY29E,4551601.61291472
+Upside,Model,"Average investments, liquidity and other assets",FY21A,570750.635
+Upside,Model,"Average investments, liquidity and other assets",FY22A,651377.505
+Upside,Model,"Average investments, liquidity and other assets",FY23A,775554.345
+Upside,Model,"Average investments, liquidity and other assets",FY24A,989420.57
+Upside,Model,"Average investments, liquidity and other assets",FY25A,1199148.945
+Upside,Model,"Average investments, liquidity and other assets",FY26A,1344965.19
+Upside,Model,"Average investments, liquidity and other assets",FY27E,1385130.8847
+Upside,Model,"Average investments, liquidity and other assets",FY28E,1451889.75301034
+Upside,Model,"Average investments, liquidity and other assets",FY29E,1586362.28710281
+Upside,Model,Average net worth,FY21A,187353.43
+Upside,Model,Average net worth,FY22A,221906.885
+Upside,Model,Average net worth,FY23A,260145.975
+Upside,Model,Average net worth,FY24A,360222.41
+Upside,Model,Average net worth,FY25A,470835.225
+Upside,Model,Average net worth,FY26A,532162.775
+Upside,Model,Average net worth,FY27E,593563.352475493
+Upside,Model,Average net worth,FY28E,666849.672331456
+Upside,Model,Average net worth,FY29E,759402.360854257
+Upside,Model,Average total assets,FY21A,1638690.89
+Upside,Model,Average total assets,FY22A,1907702.785
+Upside,Model,Average total assets,FY23A,2267308.26
+Upside,Model,Average total assets,FY24A,3041852.28
+Upside,Model,Average total assets,FY25A,3763911.015
+Upside,Model,Average total assets,FY26A,4137542.635
+Upside,Model,Average total assets,FY27E,4599835.38742549
+Upside,Model,Average total assets,FY28E,5171805.59022346
+Upside,Model,Average total assets,FY29E,5902762.16960898
+Upside,Model,Book value per share,FY20A,110.75034259536
+Upside,Model,Book value per share,FY21A,131.953187733004
+Upside,Model,Book value per share,FY22A,155.51197580134
+Upside,Model,Book value per share,FY23A,181.489308526437
+Upside,Model,Book value per share,FY24A,285.154139690077
+Upside,Model,Book value per share,FY25A,324.780630708573
+Upside,Model,Book value per share,FY26A,364.599778296156
+Upside,Model,Book value per share,FY27E,404.320871405006
+Upside,Model,Book value per share,FY28E,459.537183785962
+Upside,Model,Book value per share,FY29E,524.216537290949
+Upside,Model,Borrowings,FY20A,144629.0
+Upside,Model,Borrowings,FY21A,135487.0
+Upside,Model,Borrowings,FY22A,184817.0
+Upside,Model,Borrowings,FY23A,206766.0
+Upside,Model,Borrowings,FY24A,662153.0
+Upside,Model,Borrowings,FY25A,547931.0
+Upside,Model,Borrowings,FY26A,489395.0
+Upside,Model,Borrowings,FY27E,334827.8
+Upside,Model,Borrowings,FY28E,303505.4
+Upside,Model,Borrowings,FY29E,272183.0
+Upside,Model,"CASA ratio, year end",FY25A,0.347940864803151
+Upside,Model,"CASA ratio, year end",FY26A,0.341453013289456
+Upside,Model,"CASA ratio, year end",FY27E,0.33
+Upside,Model,"CASA ratio, year end",FY28E,0.345
+Upside,Model,"CASA ratio, year end",FY29E,0.36
+Upside,Model,Core fee income,FY20A,0.0
+Upside,Model,Core fee income,FY21A,0.0
+Upside,Model,Core fee income,FY22A,0.0
+Upside,Model,Core fee income,FY23A,0.0
+Upside,Model,Core fee income,FY24A,0.0
+Upside,Model,Core fee income,FY25A,31898.55
+Upside,Model,Core fee income,FY26A,34875.94
+Upside,Model,Core fee income,FY27E,39409.8122
+Upside,Model,Core fee income,FY28E,44927.185908
+Upside,Model,Core fee income,FY29E,51216.99193512
+Upside,Model,Cost of borrowings,FY25A,0.0868970088026947
+Upside,Model,Cost of borrowings,FY26A,0.0780098638229448
+Upside,Model,Cost of borrowings,FY27E,0.0781898638229448
+Upside,Model,Cost of borrowings,FY28E,0.0802598638229448
+Upside,Model,Cost of borrowings,FY29E,0.0802598638229448
+Upside,Model,Cost of deposits,FY25A,0.0491787539442674
+Upside,Model,Cost of deposits,FY26A,0.0475519014986854
+Upside,Model,Cost of deposits,FY27E,0.0481900220302636
+Upside,Model,Cost of deposits,FY28E,0.0496600220302636
+Upside,Model,Cost of deposits,FY29E,0.0490600220302636
+Upside,Model,Cost to income,FY20A,0.386389705750004
+Upside,Model,Cost to income,FY21A,0.363243893563884
+Upside,Model,Cost to income,FY22A,0.368817751153005
+Upside,Model,Cost to income,FY23A,0.40363603867791
+Upside,Model,Cost to income,FY24A,0.401753323815891
+Upside,Model,Cost to income,FY25A,0.405073796643506
+Upside,Model,Cost to income,FY26A,0.379985629013077
+Upside,Model,Cost to income,FY27E,0.382837434194318
+Upside,Model,Cost to income,FY28E,0.340033584593437
+Upside,Model,Cost to income,FY29E,0.316634244470038
+Upside,Model,Credit cost,FY21A,0.0107688476476978
+Upside,Model,Credit cost,FY22A,0.00809014004298814
+Upside,Model,Credit cost,FY23A,0.00793643355363334
+Upside,Model,Credit cost,FY24A,0.00526975818966727
+Upside,Model,Credit cost,FY25A,0.00501643055943119
+Upside,Model,Credit cost,FY26A,0.00410480547647306
+Upside,Model,Credit cost,FY27E,0.005
+Upside,Model,Credit cost,FY28E,0.0055
+Upside,Model,Credit cost,FY29E,0.006
+Upside,Model,Credit-deposit ratio,FY20A,0.865970280547327
+Upside,Model,Credit-deposit ratio,FY21A,0.848528488100709
+Upside,Model,Credit-deposit ratio,FY22A,0.877889699591867
+Upside,Model,Credit-deposit ratio,FY23A,0.849840950753471
+Upside,Model,Credit-deposit ratio,FY24A,1.04415322538963
+Upside,Model,Credit-deposit ratio,FY25A,0.964966383762803
+Upside,Model,Credit-deposit ratio,FY26A,0.945870968662956
+Upside,Model,Credit-deposit ratio,FY27E,0.929702234155897
+Upside,Model,Credit-deposit ratio,FY28E,0.929702234155897
+Upside,Model,Credit-deposit ratio,FY29E,0.929702234155897
+Upside,Model,Deposits,FY20A,1147502.29
+Upside,Model,Deposits,FY21A,1335060.22
+Upside,Model,Deposits,FY22A,1559217.44
+Upside,Model,Deposits,FY23A,1883394.65
+Upside,Model,Deposits,FY24A,2379786.28
+Upside,Model,Deposits,FY25A,2714714.9
+Upside,Model,Deposits,FY26A,3105250.47
+Upside,Model,Deposits,FY27E,3633143.0499
+Upside,Model,Deposits,FY28E,4214445.937884
+Upside,Model,Deposits,FY29E,4888757.28794544
+Upside,Model,Dividends paid in year,FY27E,22401.39
+Upside,Model,Dividends paid in year,FY28E,25117.8824852957
+Upside,Model,Dividends paid in year,FY29E,33109.6911738709
+Upside,Model,Earnings per share,FY20A,17.0072729224286
+Upside,Model,Earnings per share,FY21A,20.154659713284
+Upside,Model,Earnings per share,FY22A,23.9404480897475
+Upside,Model,Earnings per share,FY23A,28.5699056463232
+Upside,Model,Earnings per share,FY24A,39.3890708147616
+Upside,Model,Earnings per share,FY25A,43.621944979324
+Upside,Model,Earnings per share,FY26A,48.3657761809015
+Upside,Model,Earnings per share,FY27E,54.2308259631209
+Upside,Model,Earnings per share,FY28E,71.4855601698917
+Upside,Model,Earnings per share,FY29E,86.1250215559547
+Upside,Model,Fixed assets,FY20A,4432.0
+Upside,Model,Fixed assets,FY21A,4909.0
+Upside,Model,Fixed assets,FY22A,6084.0
+Upside,Model,Fixed assets,FY23A,8017.0
+Upside,Model,Fixed assets,FY24A,11399.0
+Upside,Model,Fixed assets,FY25A,13655.0
+Upside,Model,Fixed assets,FY26A,14725.0
+Upside,Model,Fixed assets,FY27E,16050.25
+Upside,Model,Fixed assets,FY28E,17494.7725
+Upside,Model,Fixed assets,FY29E,19069.302025
+Upside,Model,IRDAI commission caps: bank fee lost,FY27E,0.0
+Upside,Model,IRDAI commission caps: bank fee lost,FY28E,-218.265589255364
+Upside,Model,IRDAI commission caps: bank fee lost,FY29E,-436.531178510728
+Upside,Model,In-year retained profit held as cash,FY20A,0.0
+Upside,Model,In-year retained profit held as cash,FY21A,0.0
+Upside,Model,In-year retained profit held as cash,FY22A,0.0
+Upside,Model,In-year retained profit held as cash,FY23A,0.0
+Upside,Model,In-year retained profit held as cash,FY24A,0.0
+Upside,Model,In-year retained profit held as cash,FY25A,0.0
+Upside,Model,In-year retained profit held as cash,FY26A,0.0
+Upside,Model,In-year retained profit held as cash,FY27E,83726.2749509856
+Upside,Model,In-year retained profit held as cash,FY28E,110365.637246236
+Upside,Model,In-year retained profit held as cash,FY29E,132967.313458533
+Upside,Model,Interest earned,FY20A,114812.65
+Upside,Model,Interest earned,FY21A,120858.23
+Upside,Model,Interest earned,FY22A,127753.12
+Upside,Model,Interest earned,FY23A,161585.54
+Upside,Model,Interest earned,FY24A,258340.58
+Upside,Model,Interest earned,FY25A,300517.04
+Upside,Model,Interest earned,FY26A,307522.07
+Upside,Model,Interest earned,FY27E,343726.473038868
+Upside,Model,Interest earned,FY28E,408720.723704304
+Upside,Model,Interest earned,FY29E,468893.864181355
+Upside,Model,Interest expended,FY20A,58626.4
+Upside,Model,Interest expended,FY21A,55978.66
+Upside,Model,Interest expended,FY22A,55743.53
+Upside,Model,Interest expended,FY23A,74743.32
+Upside,Model,Interest expended,FY24A,149808.1
+Upside,Model,Interest expended,FY25A,177846.95
+Upside,Model,Interest expended,FY26A,178836.04
+Upside,Model,Interest expended,FY27E,194584.600332166
+Upside,Model,Interest expended,FY28E,220471.988861736
+Upside,Model,Interest expended,FY29E,246404.011696804
+Upside,Model,"Investments, liquidity and other assets",FY20A,532376.38
+Upside,Model,"Investments, liquidity and other assets",FY21A,609124.89
+Upside,Model,"Investments, liquidity and other assets",FY22A,693630.12
+Upside,Model,"Investments, liquidity and other assets",FY23A,857478.57
+Upside,Model,"Investments, liquidity and other assets",FY24A,1121362.57
+Upside,Model,"Investments, liquidity and other assets",FY25A,1276935.32
+Upside,Model,"Investments, liquidity and other assets",FY26A,1412995.06
+Upside,Model,"Investments, liquidity and other assets",FY27E,1357266.7094
+Upside,Model,"Investments, liquidity and other assets",FY28E,1462786.52166969
+Upside,Model,"Investments, liquidity and other assets",FY29E,1599572.4152897
+Upside,Model,NII / average assets,FY21A,0.0395923174992448
+Upside,Model,NII / average assets,FY22A,0.0377467551896455
+Upside,Model,NII / average assets,FY23A,0.0383019025388281
+Upside,Model,NII / average assets,FY24A,0.0356797339284339
+Upside,Model,NII / average assets,FY25A,0.0325911238366511
+Upside,Model,NII / average assets,FY26A,0.0311020432542322
+Upside,Model,NII / average assets,FY27E,0.0324233065197091
+Upside,Model,NII / average assets,FY28E,0.0363990354158758
+Upside,Model,NII / average assets,FY29E,0.0376924982053427
+Upside,Model,Net interest income,FY20A,56186.25
+Upside,Model,Net interest income,FY21A,64879.57
+Upside,Model,Net interest income,FY22A,72009.59
+Upside,Model,Net interest income,FY23A,86842.22
+Upside,Model,Net interest income,FY24A,108532.48
+Upside,Model,Net interest income,FY25A,122670.09
+Upside,Model,Net interest income,FY26A,128686.03
+Upside,Model,Net interest income,FY27E,149141.872706702
+Upside,Model,Net interest income,FY28E,188248.734842568
+Upside,Model,Net interest income,FY29E,222489.852484551
+Upside,Model,Net interest margin on interest-earning assets,FY21A,0.0397054837241046
+Upside,Model,Net interest margin on interest-earning assets,FY22A,0.0378558259258406
+Upside,Model,Net interest margin on interest-earning assets,FY23A,0.0384213789846694
+Upside,Model,Net interest margin on interest-earning assets,FY24A,0.0357939695402621
+Upside,Model,Net interest margin on interest-earning assets,FY25A,0.0326999554056585
+Upside,Model,Net interest margin on interest-earning assets,FY26A,0.0312090770281645
+Upside,Model,Net interest margin on interest-earning assets,FY27E,0.0328319415091454
+Upside,Model,Net interest margin on interest-earning assets,FY28E,0.0369126004161613
+Upside,Model,Net interest margin on interest-earning assets,FY29E,0.03824166161272
+Upside,Model,Net revenue,FY20A,79447.07
+Upside,Model,Net revenue,FY21A,90084.46
+Upside,Model,Net revenue,FY22A,101519.49
+Upside,Model,Net revenue,FY23A,118057.05
+Upside,Model,Net revenue,FY24A,157773.48
+Upside,Model,Net revenue,FY25A,168302.37
+Upside,Model,Net revenue,FY26A,191218.6
+Upside,Model,Net revenue,FY27E,206875.665036979
+Upside,Model,Net revenue,FY28E,253879.999221895
+Upside,Model,Net revenue,FY29E,297179.547672659
+Upside,Model,"Net worth, closing",FY20A,170986.03
+Upside,Model,"Net worth, closing",FY21A,203720.83
+Upside,Model,"Net worth, closing",FY22A,240092.94
+Upside,Model,"Net worth, closing",FY23A,280199.01
+Upside,Model,"Net worth, closing",FY24A,440245.81
+Upside,Model,"Net worth, closing",FY25A,501424.64
+Upside,Model,"Net worth, closing",FY26A,562900.91
+Upside,Model,"Net worth, closing",FY27E,624225.794950986
+Upside,Model,"Net worth, closing",FY28E,709473.549711927
+Upside,Model,"Net worth, closing",FY29E,809331.171996588
+Upside,Model,Operating expenses,FY20A,30697.53
+Upside,Model,Operating expenses,FY21A,32722.63
+Upside,Model,Operating expenses,FY22A,37442.19
+Upside,Model,Operating expenses,FY23A,47652.08
+Upside,Model,Operating expenses,FY24A,63386.02
+Upside,Model,Operating expenses,FY25A,68174.88
+Upside,Model,Operating expenses,FY26A,72660.32
+Upside,Model,Operating expenses,FY27E,79199.7488
+Upside,Model,Operating expenses,FY28E,86327.726192
+Upside,Model,Operating expenses,FY29E,94097.22154928
+Upside,Model,Opex / average assets,FY21A,0.0199687629922688
+Upside,Model,Opex / average assets,FY22A,0.0196268466421513
+Upside,Model,Opex / average assets,FY23A,0.0210170274773312
+Upside,Model,Opex / average assets,FY24A,0.0208379678450395
+Upside,Model,Opex / average assets,FY25A,0.0181127767708398
+Upside,Model,Opex / average assets,FY26A,0.0175612256863185
+Upside,Model,Opex / average assets,FY27E,0.0172179528459882
+Upside,Model,Opex / average assets,FY28E,0.0166919898062661
+Upside,Model,Opex / average assets,FY29E,0.0159412185084722
+Upside,Model,Other income,FY20A,23260.82
+Upside,Model,Other income,FY21A,25204.89
+Upside,Model,Other income,FY22A,29509.9
+Upside,Model,Other income,FY23A,31214.83
+Upside,Model,Other income,FY24A,49241.0
+Upside,Model,Other income,FY25A,45632.28
+Upside,Model,Other income,FY26A,62532.57
+Upside,Model,Other income,FY27E,57733.7923302767
+Upside,Model,Other income,FY28E,65631.2643793266
+Upside,Model,Other income,FY29E,74689.6951881082
+Upside,Model,Other income / average assets,FY21A,0.0153811131518526
+Upside,Model,Other income / average assets,FY22A,0.0154688142366999
+Upside,Model,Other income / average assets,FY23A,0.0137673515995571
+Upside,Model,Other income / average assets,FY24A,0.0161878340785174
+Upside,Model,Other income / average assets,FY25A,0.0121236341183799
+Upside,Model,Other income / average assets,FY26A,0.0151134563475018
+Upside,Model,Other income / average assets,FY27E,0.0125512735712462
+Upside,Model,Other income / average assets,FY28E,0.0126902033021877
+Upside,Model,Other income / average assets,FY29E,0.0126533465252346
+Upside,Model,Other liabilities and provisions,FY20A,67394.0
+Upside,Model,Other liabilities and provisions,FY21A,72602.0
+Upside,Model,Other liabilities and provisions,FY22A,84407.0
+Upside,Model,Other liabilities and provisions,FY23A,95722.0
+Upside,Model,Other liabilities and provisions,FY24A,135438.0
+Upside,Model,Other liabilities and provisions,FY25A,146129.0
+Upside,Model,Other liabilities and provisions,FY26A,207340.0
+Upside,Model,Other liabilities and provisions,FY27E,242587.8
+Upside,Model,Other liabilities and provisions,FY28E,281401.848
+Upside,Model,Other liabilities and provisions,FY29E,326426.14368
+Upside,Model,Pre-provision operating profit,FY20A,48749.54
+Upside,Model,Pre-provision operating profit,FY21A,57361.83
+Upside,Model,Pre-provision operating profit,FY22A,64077.3
+Upside,Model,Pre-provision operating profit,FY23A,70404.97
+Upside,Model,Pre-provision operating profit,FY24A,94387.46
+Upside,Model,Pre-provision operating profit,FY25A,100127.49
+Upside,Model,Pre-provision operating profit,FY26A,118558.28
+Upside,Model,Pre-provision operating profit,FY27E,127675.916236978
+Upside,Model,Pre-provision operating profit,FY28E,167552.273029895
+Upside,Model,Pre-provision operating profit,FY29E,203082.326123379
+Upside,Model,Profit after tax,FY20A,26257.31
+Upside,Model,Profit after tax,FY21A,31116.52
+Upside,Model,Profit after tax,FY22A,36961.35
+Upside,Model,Profit after tax,FY23A,44108.71
+Upside,Model,Profit after tax,FY24A,60812.28
+Upside,Model,Profit after tax,FY25A,67347.36
+Upside,Model,Profit after tax,FY26A,74671.3
+Upside,Model,Profit after tax,FY27E,83726.2749509856
+Upside,Model,Profit after tax,FY28E,110365.637246236
+Upside,Model,Profit after tax,FY29E,132967.313458533
+Upside,Model,"Profit after tax, core",FY20A,26257.31
+Upside,Model,"Profit after tax, core",FY21A,31116.52
+Upside,Model,"Profit after tax, core",FY22A,36961.35
+Upside,Model,"Profit after tax, core",FY23A,44108.71
+Upside,Model,"Profit after tax, core",FY24A,60812.28
+Upside,Model,"Profit after tax, core",FY25A,67347.36
+Upside,Model,"Profit after tax, core",FY26A,74567.95977
+Upside,Model,"Profit after tax, core",FY27E,83726.2749509856
+Upside,Model,"Profit after tax, core",FY28E,110365.637246236
+Upside,Model,"Profit after tax, core",FY29E,132967.313458533
+Upside,Model,Profit before tax,FY20A,36607.15
+Upside,Model,Profit before tax,FY21A,41658.98
+Upside,Model,Profit before tax,FY22A,49015.47
+Upside,Model,Profit before tax,FY23A,58485.31
+Upside,Model,Profit before tax,FY24A,70895.31
+Upside,Model,Profit before tax,FY25A,88478.06
+Upside,Model,Profit before tax,FY26A,95168.7
+Upside,Model,Profit before tax,FY27E,111888.647535728
+Upside,Model,Profit before tax,FY28E,147488.490239525
+Upside,Model,Profit before tax,FY29E,177692.520992293
+Upside,Model,Provisions / average assets,FY21A,0.00958255769640606
+Upside,Model,Provisions / average assets,FY22A,0.00789527075099385
+Upside,Model,Provisions / average assets,FY23A,0.00525718545214491
+Upside,Model,Provisions / average assets,FY24A,0.00772297529188367
+Upside,Model,Provisions / average assets,FY25A,0.00309503331868753
+Upside,Model,Provisions / average assets,FY26A,0.005653012443218
+Upside,Model,Provisions / average assets,FY27E,0.00343213775527869
+Upside,Model,Provisions / average assets,FY28E,0.00387945417521062
+Upside,Model,Provisions / average assets,FY29E,0.00430134306643907
+Upside,Model,Provisions and contingencies,FY20A,12142.39
+Upside,Model,Provisions and contingencies,FY21A,15702.85
+Upside,Model,Provisions and contingencies,FY22A,15061.83
+Upside,Model,Provisions and contingencies,FY23A,11919.66
+Upside,Model,Provisions and contingencies,FY24A,23492.15
+Upside,Model,Provisions and contingencies,FY25A,11649.43
+Upside,Model,Provisions and contingencies,FY26A,23389.58
+Upside,Model,Provisions and contingencies,FY27E,15787.26870125
+Upside,Model,Provisions and contingencies,FY28E,20063.78279037
+Upside,Model,Provisions and contingencies,FY29E,25389.8051310864
+Upside,Model,Return on average assets,FY21A,0.0189886452593875
+Upside,Model,Return on average assets,FY22A,0.0193747948006481
+Upside,Model,Return on average assets,FY23A,0.0194542183690541
+Upside,Model,Return on average assets,FY24A,0.019991858381762
+Upside,Model,Return on average assets,FY25A,0.0178929203510939
+Upside,Model,Return on average assets,FY26A,0.0180472581402173
+Upside,Model,Return on average assets,FY27E,0.0182020154851339
+Upside,Model,Return on average assets,FY28E,0.0213398658013879
+Upside,Model,Return on average assets,FY29E,0.0225262867853849
+Upside,Model,"Return on average assets, core",FY21A,0.0189886452593875
+Upside,Model,"Return on average assets, core",FY22A,0.0193747948006481
+Upside,Model,"Return on average assets, core",FY23A,0.0194542183690541
+Upside,Model,"Return on average assets, core",FY24A,0.019991858381762
+Upside,Model,"Return on average assets, core",FY25A,0.0178929203510939
+Upside,Model,"Return on average assets, core",FY26A,0.0180222819069513
+Upside,Model,"Return on average assets, core",FY27E,0.0182020154851339
+Upside,Model,"Return on average assets, core",FY28E,0.0213398658013879
+Upside,Model,"Return on average assets, core",FY29E,0.0225262867853849
+Upside,Model,Return on average net worth,FY21A,0.166084602774553
+Upside,Model,Return on average net worth,FY22A,0.166562430003017
+Upside,Model,Return on average net worth,FY23A,0.169553690000393
+Upside,Model,Return on average net worth,FY24A,0.168818702867487
+Upside,Model,Return on average net worth,FY25A,0.143038066024053
+Upside,Model,Return on average net worth,FY26A,0.140316654053828
+Upside,Model,Return on average net worth,FY27E,0.141057015399957
+Upside,Model,Return on average net worth,FY28E,0.165503023882989
+Upside,Model,Return on average net worth,FY29E,0.175094680123139
+Upside,Model,Tax,FY20A,10349.84
+Upside,Model,Tax,FY21A,10542.46
+Upside,Model,Tax,FY22A,12054.12
+Upside,Model,Tax,FY23A,14376.6
+Upside,Model,Tax,FY24A,10083.03
+Upside,Model,Tax,FY25A,21130.7
+Upside,Model,Tax,FY26A,20497.4
+Upside,Model,Tax,FY27E,28162.3725847429
+Upside,Model,Tax,FY28E,37122.8529932884
+Upside,Model,Tax,FY29E,44725.2075337601
+Upside,Model,Tax / average assets,FY21A,0.00643346470303499
+Upside,Model,Tax / average assets,FY22A,0.00631865723255208
+Upside,Model,Tax / average assets,FY23A,0.00634082283985504
+Upside,Model,Tax / average assets,FY24A,0.00331476648826616
+Upside,Model,Tax / average assets,FY25A,0.00561402751440977
+Upside,Model,Tax / average assets,FY26A,0.00495400333198017
+Upside,Model,Tax / average assets,FY27E,0.00612247400455459
+Upside,Model,Tax / average assets,FY28E,0.00717792893519891
+Upside,Model,Tax / average assets,FY29E,0.00757699637028115
+Upside,Model,Total assets,FY20A,1530511.26
+Upside,Model,Total assets,FY21A,1746870.52
+Upside,Model,Total assets,FY22A,2068535.05
+Upside,Model,Total assets,FY23A,2466081.47
+Upside,Model,Total assets,FY24A,3617623.09
+Upside,Model,Total assets,FY25A,3910198.94
+Upside,Model,Total assets,FY26A,4364886.33
+Upside,Model,Total assets,FY27E,4834784.44485099
+Upside,Model,Total assets,FY28E,5508826.73559593
+Upside,Model,Total assets,FY29E,6296697.60362203
+Upside,Model,Total liabilities and net worth,FY20A,1530511.32
+Upside,Model,Total liabilities and net worth,FY21A,1746870.05
+Upside,Model,Total liabilities and net worth,FY22A,2068534.38
+Upside,Model,Total liabilities and net worth,FY23A,2466081.66
+Upside,Model,Total liabilities and net worth,FY24A,3617623.09
+Upside,Model,Total liabilities and net worth,FY25A,3910199.54
+Upside,Model,Total liabilities and net worth,FY26A,4364886.38
+Upside,Model,Total liabilities and net worth,FY27E,4834784.44485099
+Upside,Model,Total liabilities and net worth,FY28E,5508826.73559593
+Upside,Model,Total liabilities and net worth,FY29E,6296697.60362203
+Upside,Model,Treasury and other non-fee income,FY25A,13733.73
+Upside,Model,Treasury and other non-fee income,FY26A,27656.63
+Upside,Model,Treasury and other non-fee income,FY27E,18231.8889998
+Upside,Model,Treasury and other non-fee income,FY28E,20466.4910864014
+Upside,Model,Treasury and other non-fee income,FY29E,23345.1140515188
+Upside,Model,UPI MDR revenue,FY27E,92.0911304767336
+Upside,Model,UPI MDR revenue,FY28E,455.852974180604
+Upside,Model,UPI MDR revenue,FY29E,564.120379980032
+Upside,Model,Yield on advances,FY25A,0.0934257321368129
+Upside,Model,Yield on advances,FY26A,0.0862955454364285
+Upside,Model,Yield on advances,FY27E,0.0866555454364285
+Upside,Model,Yield on advances,FY28E,0.0907955454364285
+Upside,Model,Yield on advances,FY29E,0.0907955454364285
+Upside,Model,Yield on investments and liquidity,FY25A,0.0517638865954221
+Upside,Model,Yield on investments and liquidity,FY26A,0.0503801960852236
+Upside,Model,Yield on investments and liquidity,FY27E,0.0506201960852236
+Upside,Model,Yield on investments and liquidity,FY28E,0.0533801960852236
+Upside,Model,Yield on investments and liquidity,FY29E,0.0533801960852236
+Upside,Opex_Credit,Cost to income,FY20A,0.386389705750004
+Upside,Opex_Credit,Cost to income,FY21A,0.363243893563884
+Upside,Opex_Credit,Cost to income,FY22A,0.368817751153005
+Upside,Opex_Credit,Cost to income,FY23A,0.40363603867791
+Upside,Opex_Credit,Cost to income,FY24A,0.401753323815891
+Upside,Opex_Credit,Cost to income,FY25A,0.405073796643506
+Upside,Opex_Credit,Cost to income,FY26A,0.379985629013077
+Upside,Opex_Credit,Cost to income,FY27E,0.382837434194318
+Upside,Opex_Credit,Cost to income,FY28E,0.340033584593437
+Upside,Opex_Credit,Cost to income,FY29E,0.316634244470038
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY21A,0.0107688476476978
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY22A,0.00809014004298814
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY23A,0.00793643355363334
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY24A,0.00526975818966727
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY25A,0.00501643055943119
+Upside,Opex_Credit,Credit cost (loan loss provisions / average advances),FY26A,0.00410480547647306
+Upside,Opex_Credit,Employee cost / opex,FY25A,0.350576781359938
+Upside,Opex_Credit,Employee cost / opex,FY26A,0.358519615658175
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY21A,0.0679233147438259
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY22A,-0.0172924725115364
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY23A,-0.109783757607183
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY24A,0.00623356788682727
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY25A,-0.00881650948281831
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY26A,0.0703679169051095
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY27E,-0.00811954989222552
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY28E,0.137210552659804
+Upside,Opex_Credit,Jaws: revenue growth less cost growth,FY29E,0.0805512391030059
+Upside,Opex_Credit,Net revenue per branch,FY26A,19.7356383527712
+Upside,Opex_Credit,Net revenue per employee,FY26A,0.906382454294233
+Upside,Opex_Credit,Normalisation gap,E,20.6740450312463
+Upside,Opex_Credit,Opex / average assets,FY21A,0.0199687629922688
+Upside,Opex_Credit,Opex / average assets,FY22A,0.0196268466421513
+Upside,Opex_Credit,Opex / average assets,FY23A,0.0210170274773312
+Upside,Opex_Credit,Opex / average assets,FY24A,0.0208379678450395
+Upside,Opex_Credit,Opex / average assets,FY25A,0.0181127767708398
+Upside,Opex_Credit,Opex / average assets,FY26A,0.0175612256863185
+Upside,Opex_Credit,Opex / average assets,FY27E,0.0172179528459882
+Upside,Opex_Credit,Opex / average assets,FY28E,0.0166919898062661
+Upside,Opex_Credit,Opex / average assets,FY29E,0.0159412185084722
+Upside,Opex_Credit,"Recent credit cost, FY24-FY26 average",E,0.00479699807519051
+Upside,Opex_Credit,RoA at risk if credit cost normalises,E,10.3884685412978
+Upside,Opex_Credit,"Through-the-cycle credit cost, FY21-FY26 average",E,0.00686440257831514
+Upside,Peers,Axis Bank,D,24457.0
+Upside,Peers,Axis Bank,E,1748390.0
+Upside,Peers,Axis Bank,F,192631.0
+Upside,Peers,Axis Bank,G,0.0139882978054095
+Upside,Peers,Axis Bank,H,0.126962949888647
+Upside,Peers,Axis Bank,I,377205.0
+Upside,Peers,Axis Bank,J,1.83521701688747
+Upside,Peers,Axis Bank,K,1.0
+Upside,Peers,Axis Bank,L,205537.0
+Upside,Peers,Axis Bank,M,0.126962949888647
+Upside,Peers,Axis Bank,N,1.83521701688747
+Upside,Peers,Bank of Baroda,D,20021.0
+Upside,Peers,Bank of Baroda,E,1895205.5
+Upside,Peers,Bank of Baroda,F,145067.5
+Upside,Peers,Bank of Baroda,G,0.0105640259064255
+Upside,Peers,Bank of Baroda,H,0.138011615282541
+Upside,Peers,Bank of Baroda,I,125645.0
+Upside,Peers,Bank of Baroda,J,0.820088898171778
+Upside,Peers,Bank of Baroda,K,0.0
+Upside,Peers,Bank of Baroda,L,153209.0
+Upside,Peers,Banks in fit,E,5.0
+Upside,Peers,Canara Bank,D,19187.0
+Upside,Peers,Canara Bank,E,1783944.0
+Upside,Peers,Canara Bank,F,106641.0
+Upside,Peers,Canara Bank,G,0.0107553824559515
+Upside,Peers,Canara Bank,H,0.179921418591349
+Upside,Peers,Canara Bank,I,106706.0
+Upside,Peers,Canara Bank,J,0.941119401668695
+Upside,Peers,Canara Bank,K,0.0
+Upside,Peers,Canara Bank,L,113382.0
+Upside,Peers,Federal Bank,D,4117.0
+Upside,Peers,Federal Bank,E,368263.0
+Upside,Peers,Federal Bank,F,36062.5
+Upside,Peers,Federal Bank,G,0.0111795102956311
+Upside,Peers,Federal Bank,H,0.114162911611785
+Upside,Peers,Federal Bank,I,82880.0
+Upside,Peers,Federal Bank,J,2.14132541015373
+Upside,Peers,Federal Bank,K,1.0
+Upside,Peers,Federal Bank,L,38705.0
+Upside,Peers,Federal Bank,M,0.114162911611785
+Upside,Peers,Federal Bank,N,2.14132541015373
+Upside,Peers,HDFC Bank,D,74671.0
+Upside,Peers,HDFC Bank,E,4137542.5
+Upside,Peers,HDFC Bank,F,532162.5
+Upside,Peers,HDFC Bank,G,0.0180471862222563
+Upside,Peers,HDFC Bank,H,0.140316162826204
+Upside,Peers,HDFC Bank,I,1080721.0
+Upside,Peers,HDFC Bank,J,1.9199130930661
+Upside,Peers,HDFC Bank,K,1.0
+Upside,Peers,HDFC Bank,L,562901.0
+Upside,Peers,HDFC Bank,M,0.140316162826204
+Upside,Peers,HDFC Bank,N,1.9199130930661
+Upside,Peers,ICICI Bank,D,50147.0
+Upside,Peers,ICICI Bank,E,2245385.5
+Upside,Peers,ICICI Bank,F,314724.0
+Upside,Peers,ICICI Bank,G,0.0223333587929556
+Upside,Peers,ICICI Bank,H,0.159336434463212
+Upside,Peers,ICICI Bank,I,999148.0
+Upside,Peers,ICICI Bank,J,2.96157049657499
+Upside,Peers,ICICI Bank,K,1.0
+Upside,Peers,ICICI Bank,L,337371.0
+Upside,Peers,ICICI Bank,M,0.159336434463212
+Upside,Peers,ICICI Bank,N,2.96157049657499
+Upside,Peers,IDFC First Bank,D,1636.0
+Upside,Peers,IDFC First Bank,E,371799.5
+Upside,Peers,IDFC First Bank,F,42715.0
+Upside,Peers,IDFC First Bank,G,0.00440022108690302
+Upside,Peers,IDFC First Bank,H,0.0383003628701861
+Upside,Peers,IDFC First Bank,I,63185.0
+Upside,Peers,IDFC First Bank,J,1.33436813650955
+Upside,Peers,IDFC First Bank,K,0.0
+Upside,Peers,IDFC First Bank,L,47352.0
+Upside,Peers,IndusInd Bank,D,933.0
+Upside,Peers,IndusInd Bank,E,548718.5
+Upside,Peers,IndusInd Bank,F,64966.5
+Upside,Peers,IndusInd Bank,G,0.0017003253945329
+Upside,Peers,IndusInd Bank,H,0.0143612477199788
+Upside,Peers,IndusInd Bank,I,66925.0
+Upside,Peers,IndusInd Bank,J,1.02269254278729
+Upside,Peers,IndusInd Bank,K,0.0
+Upside,Peers,IndusInd Bank,L,65440.0
+Upside,Peers,Intercept,E,2.55462355837718
+Upside,Peers,Kotak Mahindra Bank,D,14008.0
+Upside,Peers,Kotak Mahindra Bank,E,738313.5
+Upside,Peers,Kotak Mahindra Bank,F,126276.0
+Upside,Peers,Kotak Mahindra Bank,G,0.0189729701542773
+Upside,Peers,Kotak Mahindra Bank,H,0.110931610123856
+Upside,Peers,Kotak Mahindra Bank,I,456555.0
+Upside,Peers,Kotak Mahindra Bank,J,3.37409098971266
+Upside,Peers,Kotak Mahindra Bank,K,1.0
+Upside,Peers,Kotak Mahindra Bank,L,135312.0
+Upside,Peers,Kotak Mahindra Bank,M,0.110931610123856
+Upside,Peers,Kotak Mahindra Bank,N,3.37409098971266
+Upside,Peers,Punjab National Bank,D,16904.0
+Upside,Peers,Punjab National Bank,E,1902031.5
+Upside,Peers,Punjab National Bank,F,135006.5
+Upside,Peers,Punjab National Bank,G,0.00888733966813904
+Upside,Peers,Punjab National Bank,H,0.125208786243625
+Upside,Peers,Punjab National Bank,I,138929.0
+Upside,Peers,Punjab National Bank,J,0.97391517700666
+Upside,Peers,Punjab National Bank,K,0.0
+Upside,Peers,Punjab National Bank,L,142650.0
+Upside,Peers,R-squared,E,0.000586022390067019
+Upside,Peers,Slope: P/B per unit of RoE,E,-0.830124945580012
+Upside,Peers,State Bank of India,D,80032.0
+Upside,Peers,State Bank of India,E,7149477.5
+Upside,Peers,State Bank of India,F,492802.0
+Upside,Peers,State Bank of India,G,0.011194104744018
+Upside,Peers,State Bank of India,H,0.162401938303822
+Upside,Peers,State Bank of India,I,919754.0
+Upside,Peers,State Bank of India,J,1.68935166647687
+Upside,Peers,State Bank of India,K,0.0
+Upside,Peers,State Bank of India,L,544442.0
+Upside,Peers,Yes Bank,D,3476.0
+Upside,Peers,Yes Bank,E,446263.5
+Upside,Peers,Yes Bank,F,49421.0
+Upside,Peers,Yes Bank,G,0.00778912010505004
+Upside,Peers,Yes Bank,H,0.070334473199652
+Upside,Peers,Yes Bank,I,48277.0
+Upside,Peers,Yes Bank,J,0.945458462261564
+Upside,Peers,Yes Bank,K,0.0
+Upside,Peers,Yes Bank,L,51062.0
+Upside,Tornado,Advances growth,C,0.12
+Upside,Tornado,Advances growth,D,0.16
+Upside,Tornado,Advances growth,E,0.017750985839944
+Upside,Tornado,Advances growth,F,0.0192849406973657
+Upside,Tornado,Advances growth,G,-8.24408383372399
+Upside,Tornado,Advances growth,H,7.09546474049302
+Upside,Tornado,Advances growth,I,15.339548574217
+Upside,Tornado,"CASA ratio, year end",C,0.32
+Upside,Tornado,"CASA ratio, year end",D,0.36
+Upside,Tornado,"CASA ratio, year end",E,0.0182274477860297
+Upside,Tornado,"CASA ratio, year end",F,0.0191475720955726
+Upside,Tornado,"CASA ratio, year end",G,-3.47946437286698
+Upside,Tornado,"CASA ratio, year end",H,5.72177872256201
+Upside,Tornado,"CASA ratio, year end",I,9.201243095429
+Upside,Tornado,Core fee income growth,C,0.09
+Upside,Tornado,Core fee income growth,D,0.14
+Upside,Tornado,Core fee income growth,E,0.0180726461159709
+Upside,Tornado,Core fee income growth,F,0.0189254144164599
+Upside,Tornado,Core fee income growth,G,-5.02748107345498
+Upside,Tornado,Core fee income growth,H,3.50020193143501
+Upside,Tornado,Core fee income growth,I,8.52768300488999
+Upside,Tornado,Cost beta: deposits,C,0.25
+Upside,Tornado,Cost beta: deposits,D,0.62
+Upside,Tornado,Cost beta: deposits,E,0.0187188079565948
+Upside,Tornado,Cost beta: deposits,F,0.0181879379250383
+Upside,Tornado,Cost beta: deposits,G,1.43413733278402
+Upside,Tornado,Cost beta: deposits,H,-3.87456298278098
+Upside,Tornado,Cost beta: deposits,I,5.308700315565
+Upside,Tornado,Credit cost,C,0.006
+Upside,Tornado,Credit cost,D,0.0085
+Upside,Tornado,Credit cost,E,0.0190049925390538
+Upside,Tornado,Credit cost,F,0.0176618783428527
+Upside,Tornado,Credit cost,G,4.29598315737401
+Upside,Tornado,Credit cost,H,-9.13515880463699
+Upside,Tornado,Credit cost,I,13.431141962011
+Upside,Tornado,Deposit growth,C,0.12
+Upside,Tornado,Deposit growth,D,0.16
+Upside,Tornado,Deposit growth,E,0.0190904393879868
+Upside,Tornado,Deposit growth,F,0.0181650939405551
+Upside,Tornado,Deposit growth,G,5.15045164670401
+Upside,Tornado,Deposit growth,H,-4.10300282761299
+Upside,Tornado,Deposit growth,I,9.253454474317
+Upside,Tornado,IRDAI cap severity on bank fees,C,0.5
+Upside,Tornado,IRDAI cap severity on bank fees,D,1.5
+Upside,Tornado,IRDAI cap severity on bank fees,E,0.0186325972021487
+Upside,Tornado,IRDAI cap severity on bank fees,F,0.0185181851338526
+Upside,Tornado,IRDAI cap severity on bank fees,G,0.572029788323027
+Upside,Tornado,IRDAI cap severity on bank fees,H,-0.572090894638
+Upside,Tornado,IRDAI cap severity on bank fees,I,1.14412068296103
+Upside,Tornado,Operating expense growth,C,0.09
+Upside,Tornado,Operating expense growth,D,0.12
+Upside,Tornado,Operating expense growth,E,0.0189228746510233
+Upside,Tornado,Operating expense growth,F,0.0178605497821083
+Upside,Tornado,Operating expense growth,G,3.47480427706902
+Upside,Tornado,Operating expense growth,H,-7.14844441208097
+Upside,Tornado,Operating expense growth,I,10.62324868915
+Upside,Tornado,"Policy repo rate, fiscal-year average",C,0.05
+Upside,Tornado,"Policy repo rate, fiscal-year average",D,0.0625
+Upside,Tornado,"Policy repo rate, fiscal-year average",E,0.0173558613416485
+Upside,Tornado,"Policy repo rate, fiscal-year average",F,0.0193939423700285
+Upside,Tornado,"Policy repo rate, fiscal-year average",G,-12.195328816679
+Upside,Tornado,"Policy repo rate, fiscal-year average",H,8.18548146712103
+Upside,Tornado,"Policy repo rate, fiscal-year average",I,20.3808102838
+Upside,Tornado,"RoA FY29E, Base",E,0.0185753942233164
+Upside,Tornado,Share of maturing borrowings retired,C,0.3
+Upside,Tornado,Share of maturing borrowings retired,D,0.8
+Upside,Tornado,Share of maturing borrowings retired,E,0.01809618962591
+Upside,Tornado,Share of maturing borrowings retired,F,0.018901778643791
+Upside,Tornado,Share of maturing borrowings retired,G,-4.79204597406399
+Upside,Tornado,Share of maturing borrowings retired,H,3.26384420474602
+Upside,Tornado,Share of maturing borrowings retired,I,8.05589017881001
+Upside,Tornado,Treasury and other non-fee income,C,0.003
+Upside,Tornado,Treasury and other non-fee income,D,0.004
+Upside,Tornado,Treasury and other non-fee income,E,0.0181970722325042
+Upside,Tornado,Treasury and other non-fee income,F,0.0189535642862144
+Upside,Tornado,Treasury and other non-fee income,G,-3.78321990812197
+Upside,Tornado,Treasury and other non-fee income,H,3.78170062898
+Upside,Tornado,Treasury and other non-fee income,I,7.56492053710197
+Upside,Tornado,Yield beta: loans,C,0.55
+Upside,Tornado,Yield beta: loans,D,0.6
+Upside,Tornado,Yield beta: loans,E,0.0185753942233164
+Upside,Tornado,Yield beta: loans,F,0.0186420438942302
+Upside,Tornado,Yield beta: loans,G,0.0
+Upside,Tornado,Yield beta: loans,H,0.666496709138022
+Upside,Tornado,Yield beta: loans,I,0.666496709138022
+Upside,Valuation,Core bank value,E,1017711.61871303
+Upside,Valuation,"Core book value, FY26",E,549552.21
+Upside,Valuation,Cost of equity,E,0.13135
+Upside,Valuation,Current P/B (standalone),E,1.91991340003341
+Upside,Valuation,Current share price,E,700.0
+Upside,Valuation,Discount periods to FY27E,E,1.0
+Upside,Valuation,Discount periods to FY28E,E,2.0
+Upside,Valuation,Discount periods to FY29E,E,3.0
+Upside,Valuation,Equity beta,E,0.95
+Upside,Valuation,"Equity risk premium, India",E,0.065
+Upside,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
+Upside,Valuation,HDB Financial Services: market capitalisation,E,41774.0
+Upside,Valuation,HDFC AMC: HDFC Bank stake,E,0.524
+Upside,Valuation,HDFC AMC: market capitalisation,E,105276.0
+Upside,Valuation,HDFC Life: HDFC Bank stake,E,0.502
+Upside,Valuation,HDFC Life: market capitalisation,E,113843.0
+Upside,Valuation,Holding-company discount,E,0.2
+Upside,Valuation,Investment in subsidiaries at cost,E,13348.7
+Upside,Valuation,Justified P/B,E,1.85189250483231
+Upside,Valuation,Long-term growth,E,0.08
+Upside,Valuation,P/B implied by peer regression at FY29E RoE,E,2.40927309656861
+Upside,Valuation,Present value of FY27E-FY29E residual income,E,58289.936032409
+Upside,Valuation,Present value of terminal residual income,E,354554.771574727
+Upside,Valuation,Residual income FY27E,E,9789.24042248562
+Upside,Valuation,Residual income FY28E,E,28373.5790794245
+Upside,Valuation,Residual income FY29E,E,39777.9627038712
+Upside,Valuation,Residual income equity value,E,975745.617607137
+Upside,Valuation,Residual income growth after FY29,E,0.05
+Upside,Valuation,Residual income per share,E,632.005792730034
+Upside,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Upside,Valuation,RoA increment for value test,E,10.0
+Upside,Valuation,RoE the market is pricing,E,0.178587553091716
+Upside,Valuation,"Subsidiaries, after discount",E,114614.6752
+Upside,Valuation,Sum of the parts equity value,E,1132326.29391303
+Upside,Valuation,Sum of the parts per share,E,733.425561027426
+Upside,Valuation,Sustainable RoE: FY29E,E,0.175094680123139
+Upside,Valuation,Upside to residual income,E,-0.0971345818142366
+Upside,Valuation,Upside to sum of the parts,E,0.0477508014677515
+Upside,Valuation,Value of +10 bp RoA (equity value),E,83186.3086382692

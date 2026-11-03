@@ -1,10 +1,13 @@
 # Tableau-ready extracts (long format)
 
+Regenerate with `python -I viz/tableau/build_extracts.py` after the pipeline runs (needs `data/fs.duckdb` from `pipeline/warehouse.py`).
+
 | File | Grain | Key fields |
 |---|---|---|
 | banks_long.csv | bank x period x metric | row_id, entity (NSE symbol), period (FY26, Q2FY27, FYxx), metric, value, unit, source, page, status (primary / secondary-tied / derived) |
 | upi_app_share_long.csv | month x app | month, app (normalised), app_type (Bank app / Third-party app), volume (count), value_rs, volume_share |
 | upi_monthly.csv | month | volume_mn, value_cr, avg_ticket_rs, daily_volume_mn, mom_volume_pct, source |
+| hdfc_scenarios_long.csv | scenario x sheet x line x period | scenario (Base / Upside / Downside), sheet and line from models/HDFC_RoA_Path_FY29.xlsx, period (FY20A-FY29E for timeline rows; a column letter for table rows), value |
 | insurers_exposure.csv | insurer (FY25) | total_premium, indiv_nb_<channel> premium, bank_ca_share, blended_gap_pp, reset_cr, reset_pct_total_premium, pat_fy25, reset_pct_pat |
 
 Units: INR crore unless stated; ratios in %. `status=derived` rows are computed in `pipeline/`; trace them through `docs/methodology.md`.

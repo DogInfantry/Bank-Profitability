@@ -868,6 +868,159 @@ null,
 null,
 null
 ],
+"Levers|Rebuild CASA (CASA ratio)": [
+0.341453013289456,
+0.3832,
+"SBI Q2 FY27 press release (38.32%); HDFC pre-merger 38% (Q2 FY27 deck)",
+0.0417469867105439,
+0.015,
+0.359307369990647,
+null
+],
+"Levers|Retire legacy borrowings (share of funding)": [
+0.136145554293008,
+0.0651139627186436,
+"ICICI Bank, Mar 2026 (Screener balance sheet)",
+255333.388879679,
+75000,
+0.293733617562028,
+null
+],
+"Levers|Re-mix advances (interest earned / average assets)": [
+0.0743248099484539,
+0.075686780733197,
+"ICICI Bank FY26 (Screener)",
+0.00136197078474318,
+0.000672907848667848,
+0.494069223955297,
+null
+],
+"Levers|Win UPI acquiring (payee share)": [
+0.0662264843463254,
+0.189031104308372,
+"Axis Bank, Sep 2026 (NPCI payee banks)",
+0.122804619962047,
+0.0337735156536747,
+0.275018282407555,
+null
+],
+"Tornado|RoA FY29E, Base": [
+"%",
+"Same recalculation",
+0.0185753942233164,
+null,
+null,
+null,
+null
+],
+"Tornado|Policy repo rate, fiscal-year average": [
+0.05,
+0.0625,
+0.0173558613416485,
+0.0193939423700285,
+-12.195328816679,
+8.18548146712103,
+20.3808102838
+],
+"Tornado|Advances growth": [
+0.12,
+0.16,
+0.017750985839944,
+0.0192849406973657,
+-8.24408383372399,
+7.09546474049302,
+15.339548574217
+],
+"Tornado|Credit cost": [
+0.006,
+0.0085,
+0.0190049925390538,
+0.0176618783428527,
+4.29598315737401,
+-9.13515880463699,
+13.431141962011
+],
+"Tornado|Operating expense growth": [
+0.09,
+0.12,
+0.0189228746510233,
+0.0178605497821083,
+3.47480427706902,
+-7.14844441208097,
+10.62324868915
+],
+"Tornado|Deposit growth": [
+0.12,
+0.16,
+0.0190904393879868,
+0.0181650939405551,
+5.15045164670401,
+-4.10300282761299,
+9.253454474317
+],
+"Tornado|CASA ratio, year end": [
+0.32,
+0.36,
+0.0182274477860297,
+0.0191475720955726,
+-3.47946437286698,
+5.72177872256201,
+9.201243095429
+],
+"Tornado|Core fee income growth": [
+0.09,
+0.14,
+0.0180726461159709,
+0.0189254144164599,
+-5.02748107345498,
+3.50020193143501,
+8.52768300488999
+],
+"Tornado|Share of maturing borrowings retired": [
+0.3,
+0.8,
+0.01809618962591,
+0.018901778643791,
+-4.79204597406399,
+3.26384420474602,
+8.05589017881001
+],
+"Tornado|Treasury and other non-fee income": [
+0.003,
+0.004,
+0.0181970722325042,
+0.0189535642862144,
+-3.78321990812197,
+3.78170062898,
+7.56492053710197
+],
+"Tornado|Cost beta: deposits": [
+0.25,
+0.62,
+0.0187188079565948,
+0.0181879379250383,
+1.43413733278402,
+-3.87456298278098,
+5.308700315565
+],
+"Tornado|IRDAI cap severity on bank fees": [
+0.5,
+1.5,
+0.0186325972021487,
+0.0185181851338526,
+0.572029788323027,
+-0.572090894638,
+1.14412068296103
+],
+"Tornado|Yield beta: loans": [
+0.55,
+0.6,
+0.0185753942233164,
+0.0186420438942302,
+0,
+0.666496709138022,
+0.666496709138022
+],
 "Valuation|Risk-free rate: 10-year G-sec": [
 "%",
 "S9 RBI via FactIQ, Aug-26",
@@ -1915,6 +2068,60 @@ null,
 null,
 null
 ],
+"ALM|Same-year beta: change in cost of funds per 1 pp change in average repo": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.365737139605578,
+null,
+null,
+null,
+null
+],
+"ALM|  Standard error": [
+"x",
+"OLS",
+0.105411156915017,
+null,
+null,
+null,
+null
+],
+"ALM|One-year-lag beta": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.250429093101135,
+null,
+null,
+null,
+null
+],
+"ALM|Long-run beta (same year + lag)": [
+"x",
+"Risk case: costs keep catching up in year two",
+0.616166232706712,
+null,
+null,
+null,
+null
+],
+"ALM|R-squared": [
+"x",
+"9 annual changes; merger dummy FY24",
+0.944858138405346,
+null,
+null,
+null,
+null
+],
+"ALM|Model base deposit beta less same-year estimate": [
+"x",
+"Near zero supports the base input",
+-0.0157371396055778,
+null,
+null,
+null,
+null
+],
 "Opex_Credit|Credit cost (loan loss provisions / average advances)": [
 "%",
 null,
@@ -2474,6 +2681,62 @@ null,
 3459.19559575328,
 701.461431425308,
 706.512168425308
+],
+"Margin|FY23 to FY24": [
+0.0194542183690541,
+0.0199918583817621,
+5.3764001270799,
+-21.1341573084726,
+19.5086072154067,
+1.44318501161592,
+-19.8737755291935,
+25.4325407377234,
+0,
+null,
+null,
+null
+],
+"Margin|FY24 to FY26": [
+0.0199918583817621,
+0.0180472581402173,
+-19.4460024154472,
+-37.591907603877,
+-8.82276922370851,
+26.9085434641887,
+16.9984950248016,
+-16.938364076852,
+0,
+null,
+null,
+null
+],
+"Margin|FY26 to Q2 FY27": [
+0.0180472581402173,
+0.0174534472235622,
+-5.93810916655084,
+-1.00978004626788,
+-21.0682346857868,
+4.55629756698585,
+18.886812835742,
+-7.30320483722403,
+0,
+null,
+null,
+null
+],
+"Margin|FY23 to Q2 FY27": [
+0.0194542183690541,
+0.0174534472235622,
+-20.0077114549182,
+-55.2470515450643,
+-10.5071229947419,
+30.5086086888882,
+15.5300578584161,
+-0.292203462416161,
+0,
+null,
+null,
+null
 ],
 "Capital|Tier 1 capital ratio, reported": [
 "%",
@@ -3473,6 +3736,159 @@ null,
 null,
 null,
 null
+],
+"Levers|Rebuild CASA (CASA ratio)": [
+0.341453013289456,
+0.3832,
+"SBI Q2 FY27 press release (38.32%); HDFC pre-merger 38% (Q2 FY27 deck)",
+0.0417469867105439,
+0.015,
+0.359307369990647,
+null
+],
+"Levers|Retire legacy borrowings (share of funding)": [
+0.136145554293008,
+0.0651139627186436,
+"ICICI Bank, Mar 2026 (Screener balance sheet)",
+255333.388879679,
+75000,
+0.293733617562028,
+null
+],
+"Levers|Re-mix advances (interest earned / average assets)": [
+0.0743248099484539,
+0.075686780733197,
+"ICICI Bank FY26 (Screener)",
+0.00136197078474318,
+0.000672907848667848,
+0.494069223955297,
+null
+],
+"Levers|Win UPI acquiring (payee share)": [
+0.0662264843463254,
+0.189031104308372,
+"Axis Bank, Sep 2026 (NPCI payee banks)",
+0.122804619962047,
+0.0337735156536747,
+0.275018282407555,
+null
+],
+"Tornado|RoA FY29E, Base": [
+"%",
+"Same recalculation",
+0.0185753942233164,
+null,
+null,
+null,
+null
+],
+"Tornado|Policy repo rate, fiscal-year average": [
+0.05,
+0.0625,
+0.0173558613416485,
+0.0193939423700285,
+-12.195328816679,
+8.18548146712103,
+20.3808102838
+],
+"Tornado|Advances growth": [
+0.12,
+0.16,
+0.017750985839944,
+0.0192849406973657,
+-8.24408383372399,
+7.09546474049302,
+15.339548574217
+],
+"Tornado|Credit cost": [
+0.006,
+0.0085,
+0.0190049925390538,
+0.0176618783428527,
+4.29598315737401,
+-9.13515880463699,
+13.431141962011
+],
+"Tornado|Operating expense growth": [
+0.09,
+0.12,
+0.0189228746510233,
+0.0178605497821083,
+3.47480427706902,
+-7.14844441208097,
+10.62324868915
+],
+"Tornado|Deposit growth": [
+0.12,
+0.16,
+0.0190904393879868,
+0.0181650939405551,
+5.15045164670401,
+-4.10300282761299,
+9.253454474317
+],
+"Tornado|CASA ratio, year end": [
+0.32,
+0.36,
+0.0182274477860297,
+0.0191475720955726,
+-3.47946437286698,
+5.72177872256201,
+9.201243095429
+],
+"Tornado|Core fee income growth": [
+0.09,
+0.14,
+0.0180726461159709,
+0.0189254144164599,
+-5.02748107345498,
+3.50020193143501,
+8.52768300488999
+],
+"Tornado|Share of maturing borrowings retired": [
+0.3,
+0.8,
+0.01809618962591,
+0.018901778643791,
+-4.79204597406399,
+3.26384420474602,
+8.05589017881001
+],
+"Tornado|Treasury and other non-fee income": [
+0.003,
+0.004,
+0.0181970722325042,
+0.0189535642862144,
+-3.78321990812197,
+3.78170062898,
+7.56492053710197
+],
+"Tornado|Cost beta: deposits": [
+0.25,
+0.62,
+0.0187188079565948,
+0.0181879379250383,
+1.43413733278402,
+-3.87456298278098,
+5.308700315565
+],
+"Tornado|IRDAI cap severity on bank fees": [
+0.5,
+1.5,
+0.0186325972021487,
+0.0185181851338526,
+0.572029788323027,
+-0.572090894638,
+1.14412068296103
+],
+"Tornado|Yield beta: loans": [
+0.55,
+0.6,
+0.0185753942233164,
+0.0186420438942302,
+0,
+0.666496709138022,
+0.666496709138022
 ],
 "Valuation|Risk-free rate: 10-year G-sec": [
 "%",
@@ -4521,6 +4937,60 @@ null,
 null,
 null
 ],
+"ALM|Same-year beta: change in cost of funds per 1 pp change in average repo": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.365737139605578,
+null,
+null,
+null,
+null
+],
+"ALM|  Standard error": [
+"x",
+"OLS",
+0.105411156915017,
+null,
+null,
+null,
+null
+],
+"ALM|One-year-lag beta": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.250429093101135,
+null,
+null,
+null,
+null
+],
+"ALM|Long-run beta (same year + lag)": [
+"x",
+"Risk case: costs keep catching up in year two",
+0.616166232706712,
+null,
+null,
+null,
+null
+],
+"ALM|R-squared": [
+"x",
+"9 annual changes; merger dummy FY24",
+0.944858138405346,
+null,
+null,
+null,
+null
+],
+"ALM|Model base deposit beta less same-year estimate": [
+"x",
+"Near zero supports the base input",
+-0.0657371396055778,
+null,
+null,
+null,
+null
+],
 "Opex_Credit|Credit cost (loan loss provisions / average advances)": [
 "%",
 null,
@@ -5080,6 +5550,62 @@ null,
 4636.99154633771,
 958.460484567077,
 977.253924567077
+],
+"Margin|FY23 to FY24": [
+0.0194542183690541,
+0.0199918583817621,
+5.3764001270799,
+-21.1341573084726,
+19.5086072154067,
+1.44318501161592,
+-19.8737755291935,
+25.4325407377234,
+0,
+null,
+null,
+null
+],
+"Margin|FY24 to FY26": [
+0.0199918583817621,
+0.0180472581402173,
+-19.4460024154472,
+-37.591907603877,
+-8.82276922370851,
+26.9085434641887,
+16.9984950248016,
+-16.938364076852,
+0,
+null,
+null,
+null
+],
+"Margin|FY26 to Q2 FY27": [
+0.0180472581402173,
+0.0174534472235622,
+-5.93810916655084,
+-1.00978004626788,
+-21.0682346857868,
+4.55629756698585,
+18.886812835742,
+-7.30320483722403,
+0,
+null,
+null,
+null
+],
+"Margin|FY23 to Q2 FY27": [
+0.0194542183690541,
+0.0174534472235622,
+-20.0077114549182,
+-55.2470515450643,
+-10.5071229947419,
+30.5086086888882,
+15.5300578584161,
+-0.292203462416161,
+0,
+null,
+null,
+null
 ],
 "Capital|Tier 1 capital ratio, reported": [
 "%",
@@ -6079,6 +6605,159 @@ null,
 null,
 null,
 null
+],
+"Levers|Rebuild CASA (CASA ratio)": [
+0.341453013289456,
+0.3832,
+"SBI Q2 FY27 press release (38.32%); HDFC pre-merger 38% (Q2 FY27 deck)",
+0.0417469867105439,
+0.015,
+0.359307369990647,
+null
+],
+"Levers|Retire legacy borrowings (share of funding)": [
+0.136145554293008,
+0.0651139627186436,
+"ICICI Bank, Mar 2026 (Screener balance sheet)",
+255333.388879679,
+75000,
+0.293733617562028,
+null
+],
+"Levers|Re-mix advances (interest earned / average assets)": [
+0.0743248099484539,
+0.075686780733197,
+"ICICI Bank FY26 (Screener)",
+0.00136197078474318,
+0.000672907848667848,
+0.494069223955297,
+null
+],
+"Levers|Win UPI acquiring (payee share)": [
+0.0662264843463254,
+0.189031104308372,
+"Axis Bank, Sep 2026 (NPCI payee banks)",
+0.122804619962047,
+0.0337735156536747,
+0.275018282407555,
+null
+],
+"Tornado|RoA FY29E, Base": [
+"%",
+"Same recalculation",
+0.0185753942233164,
+null,
+null,
+null,
+null
+],
+"Tornado|Policy repo rate, fiscal-year average": [
+0.05,
+0.0625,
+0.0173558613416485,
+0.0193939423700285,
+-12.195328816679,
+8.18548146712103,
+20.3808102838
+],
+"Tornado|Advances growth": [
+0.12,
+0.16,
+0.017750985839944,
+0.0192849406973657,
+-8.24408383372399,
+7.09546474049302,
+15.339548574217
+],
+"Tornado|Credit cost": [
+0.006,
+0.0085,
+0.0190049925390538,
+0.0176618783428527,
+4.29598315737401,
+-9.13515880463699,
+13.431141962011
+],
+"Tornado|Operating expense growth": [
+0.09,
+0.12,
+0.0189228746510233,
+0.0178605497821083,
+3.47480427706902,
+-7.14844441208097,
+10.62324868915
+],
+"Tornado|Deposit growth": [
+0.12,
+0.16,
+0.0190904393879868,
+0.0181650939405551,
+5.15045164670401,
+-4.10300282761299,
+9.253454474317
+],
+"Tornado|CASA ratio, year end": [
+0.32,
+0.36,
+0.0182274477860297,
+0.0191475720955726,
+-3.47946437286698,
+5.72177872256201,
+9.201243095429
+],
+"Tornado|Core fee income growth": [
+0.09,
+0.14,
+0.0180726461159709,
+0.0189254144164599,
+-5.02748107345498,
+3.50020193143501,
+8.52768300488999
+],
+"Tornado|Share of maturing borrowings retired": [
+0.3,
+0.8,
+0.01809618962591,
+0.018901778643791,
+-4.79204597406399,
+3.26384420474602,
+8.05589017881001
+],
+"Tornado|Treasury and other non-fee income": [
+0.003,
+0.004,
+0.0181970722325042,
+0.0189535642862144,
+-3.78321990812197,
+3.78170062898,
+7.56492053710197
+],
+"Tornado|Cost beta: deposits": [
+0.25,
+0.62,
+0.0187188079565948,
+0.0181879379250383,
+1.43413733278402,
+-3.87456298278098,
+5.308700315565
+],
+"Tornado|IRDAI cap severity on bank fees": [
+0.5,
+1.5,
+0.0186325972021487,
+0.0185181851338526,
+0.572029788323027,
+-0.572090894638,
+1.14412068296103
+],
+"Tornado|Yield beta: loans": [
+0.55,
+0.6,
+0.0185753942233164,
+0.0186420438942302,
+0,
+0.666496709138022,
+0.666496709138022
 ],
 "Valuation|Risk-free rate: 10-year G-sec": [
 "%",
@@ -7127,6 +7806,60 @@ null,
 null,
 null
 ],
+"ALM|Same-year beta: change in cost of funds per 1 pp change in average repo": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.365737139605578,
+null,
+null,
+null,
+null
+],
+"ALM|  Standard error": [
+"x",
+"OLS",
+0.105411156915017,
+null,
+null,
+null,
+null
+],
+"ALM|One-year-lag beta": [
+"x",
+"data/tidy/hdfc_deposit_beta.csv (pipeline/deposit_beta.py)",
+0.250429093101135,
+null,
+null,
+null,
+null
+],
+"ALM|Long-run beta (same year + lag)": [
+"x",
+"Risk case: costs keep catching up in year two",
+0.616166232706712,
+null,
+null,
+null,
+null
+],
+"ALM|R-squared": [
+"x",
+"9 annual changes; merger dummy FY24",
+0.944858138405346,
+null,
+null,
+null,
+null
+],
+"ALM|Model base deposit beta less same-year estimate": [
+"x",
+"Near zero supports the base input",
+-0.115737139605578,
+null,
+null,
+null,
+null
+],
 "Opex_Credit|Credit cost (loan loss provisions / average advances)": [
 "%",
 null,
@@ -7686,6 +8419,62 @@ null,
 1700.47154112664,
 343.859364212654,
 344.740306712654
+],
+"Margin|FY23 to FY24": [
+0.0194542183690541,
+0.0199918583817621,
+5.3764001270799,
+-21.1341573084726,
+19.5086072154067,
+1.44318501161592,
+-19.8737755291935,
+25.4325407377234,
+0,
+null,
+null,
+null
+],
+"Margin|FY24 to FY26": [
+0.0199918583817621,
+0.0180472581402173,
+-19.4460024154472,
+-37.591907603877,
+-8.82276922370851,
+26.9085434641887,
+16.9984950248016,
+-16.938364076852,
+0,
+null,
+null,
+null
+],
+"Margin|FY26 to Q2 FY27": [
+0.0180472581402173,
+0.0174534472235622,
+-5.93810916655084,
+-1.00978004626788,
+-21.0682346857868,
+4.55629756698585,
+18.886812835742,
+-7.30320483722403,
+0,
+null,
+null,
+null
+],
+"Margin|FY23 to Q2 FY27": [
+0.0194542183690541,
+0.0174534472235622,
+-20.0077114549182,
+-55.2470515450643,
+-10.5071229947419,
+30.5086086888882,
+15.5300578584161,
+-0.292203462416161,
+0,
+null,
+null,
+null
 ],
 "Capital|Tier 1 capital ratio, reported": [
 "%",

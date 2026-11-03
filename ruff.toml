@@ -1,0 +1,16 @@
+# Code lint for the pipeline (python -m ruff check .). Rules: pyflakes (F), syntax errors (E9), likely bugs (B), import order (I).
+# Long lines are allowed: model formulas are easier to audit on one line. Single-letter path constants (I, O, T) are house style.
+line-length = 200
+target-version = "py312"
+
+[lint]
+select = ["E9", "F", "B", "I"]
+# B023: closures are always called inside the same loop iteration (reviewed). B905/B007: style only.
+ignore = ["B023", "B905", "B007"]
+
+[lint.per-file-ignores]
+# Steerco deck builder is on hold at the user's request: no edits until it is reopened.
+"decks/build_hdfc_deck.py" = ["F841", "F541", "I001"]
+
+[lint.isort]
+known-first-party = ["shapley", "xlmodel", "build_hdfc_deck", "conftest", "fetch"]

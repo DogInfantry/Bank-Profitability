@@ -1,0 +1,13 @@
+bank,payee_volume_mn,month,source,note
+Yes Bank,14098.3,2026-09,FactIQ rbi-npci_upi payee,PSP bank for PhonePe/Paytm merchant flows
+Axis Bank,4841.2,2026-09,FactIQ rbi-npci_upi payee,
+ICICI Bank,1798.7,2026-09,FactIQ rbi-npci_upi payee,
+HDFC Bank,1696.1,2026-09,FactIQ rbi-npci_upi payee,
+State Bank of India,1357.9,2026-09,FactIQ rbi-npci_upi payee,
+Unity SFB,433.1,2026-09,FactIQ rbi-npci_upi payee,
+Airtel Payments Bank,381.6,2026-09,FactIQ rbi-npci_upi payee,
+NSDL Payments Bank,323.0,2026-09,FactIQ rbi-npci_upi payee,
+Federal Bank,246.8,2026-09,FactIQ rbi-npci_upi payee,
+Kotak Mahindra Bank,200.9,2026-09,FactIQ rbi-npci_upi payee,
+IndusInd Bank,126.8,2026-09,FactIQ rbi-npci_upi payee,
+Canara Bank,106.2,2026-09,FactIQ rbi-npci_upi payee,

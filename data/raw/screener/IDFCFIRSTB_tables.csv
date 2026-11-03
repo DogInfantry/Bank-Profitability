@@ -1,0 +1,500 @@
+symbol,section,line_item,period,value
+IDFCFIRSTB,quarters,Revenue,Sep 2023,7356.0
+IDFCFIRSTB,quarters,Revenue,Dec 2023,7879.0
+IDFCFIRSTB,quarters,Revenue,Mar 2024,8219.0
+IDFCFIRSTB,quarters,Revenue,Jun 2024,8789.0
+IDFCFIRSTB,quarters,Revenue,Sep 2024,8957.0
+IDFCFIRSTB,quarters,Revenue,Dec 2024,9343.0
+IDFCFIRSTB,quarters,Revenue,Mar 2025,9413.0
+IDFCFIRSTB,quarters,Revenue,Jun 2025,9642.0
+IDFCFIRSTB,quarters,Revenue,Sep 2025,9937.0
+IDFCFIRSTB,quarters,Revenue,Dec 2025,10417.0
+IDFCFIRSTB,quarters,Revenue,Mar 2026,10553.0
+IDFCFIRSTB,quarters,Revenue,Jun 2026,11051.0
+IDFCFIRSTB,quarters,Revenue,Sep 2026,11922.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Sep 2023,34.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Dec 2023,33.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Mar 2024,28.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Jun 2024,28.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Sep 2024,22.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Dec 2024,19.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Mar 2025,15.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Jun 2025,10.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Sep 2025,11.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Dec 2025,12.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Mar 2026,12.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Jun 2026,15.0
+IDFCFIRSTB,quarters,YoY Revenue growth,Sep 2026,20.0
+IDFCFIRSTB,quarters,Interest,Sep 2023,3406.0
+IDFCFIRSTB,quarters,Interest,Dec 2023,3593.0
+IDFCFIRSTB,quarters,Interest,Mar 2024,3750.0
+IDFCFIRSTB,quarters,Interest,Jun 2024,4094.0
+IDFCFIRSTB,quarters,Interest,Sep 2024,4169.0
+IDFCFIRSTB,quarters,Interest,Dec 2024,4441.0
+IDFCFIRSTB,quarters,Interest,Mar 2025,4506.0
+IDFCFIRSTB,quarters,Interest,Jun 2025,4709.0
+IDFCFIRSTB,quarters,Interest,Sep 2025,4824.0
+IDFCFIRSTB,quarters,Interest,Dec 2025,4925.0
+IDFCFIRSTB,quarters,Interest,Mar 2026,4876.0
+IDFCFIRSTB,quarters,Interest,Jun 2026,5079.0
+IDFCFIRSTB,quarters,Interest,Sep 2026,5737.0
+IDFCFIRSTB,quarters,Expenses,Sep 2023,4398.0
+IDFCFIRSTB,quarters,Expenses,Dec 2023,4895.0
+IDFCFIRSTB,quarters,Expenses,Mar 2024,5169.0
+IDFCFIRSTB,quarters,Expenses,Jun 2024,5426.0
+IDFCFIRSTB,quarters,Expenses,Sep 2024,6285.0
+IDFCFIRSTB,quarters,Expenses,Dec 2024,6261.0
+IDFCFIRSTB,quarters,Expenses,Mar 2025,6441.0
+IDFCFIRSTB,quarters,Expenses,Jun 2025,6580.0
+IDFCFIRSTB,quarters,Expenses,Sep 2025,6576.0
+IDFCFIRSTB,quarters,Expenses,Dec 2025,6982.0
+IDFCFIRSTB,quarters,Expenses,Mar 2026,7118.0
+IDFCFIRSTB,quarters,Expenses,Jun 2026,6873.0
+IDFCFIRSTB,quarters,Expenses,Sep 2026,7079.0
+IDFCFIRSTB,quarters,Financing Profit,Sep 2023,-448.0
+IDFCFIRSTB,quarters,Financing Profit,Dec 2023,-609.0
+IDFCFIRSTB,quarters,Financing Profit,Mar 2024,-700.0
+IDFCFIRSTB,quarters,Financing Profit,Jun 2024,-731.0
+IDFCFIRSTB,quarters,Financing Profit,Sep 2024,-1497.0
+IDFCFIRSTB,quarters,Financing Profit,Dec 2024,-1359.0
+IDFCFIRSTB,quarters,Financing Profit,Mar 2025,-1534.0
+IDFCFIRSTB,quarters,Financing Profit,Jun 2025,-1647.0
+IDFCFIRSTB,quarters,Financing Profit,Sep 2025,-1463.0
+IDFCFIRSTB,quarters,Financing Profit,Dec 2025,-1490.0
+IDFCFIRSTB,quarters,Financing Profit,Mar 2026,-1441.0
+IDFCFIRSTB,quarters,Financing Profit,Jun 2026,-901.0
+IDFCFIRSTB,quarters,Financing Profit,Sep 2026,-894.0
+IDFCFIRSTB,quarters,Financing Margin %,Sep 2023,-6.0
+IDFCFIRSTB,quarters,Financing Margin %,Dec 2023,-8.0
+IDFCFIRSTB,quarters,Financing Margin %,Mar 2024,-9.0
+IDFCFIRSTB,quarters,Financing Margin %,Jun 2024,-8.0
+IDFCFIRSTB,quarters,Financing Margin %,Sep 2024,-17.0
+IDFCFIRSTB,quarters,Financing Margin %,Dec 2024,-15.0
+IDFCFIRSTB,quarters,Financing Margin %,Mar 2025,-16.0
+IDFCFIRSTB,quarters,Financing Margin %,Jun 2025,-17.0
+IDFCFIRSTB,quarters,Financing Margin %,Sep 2025,-15.0
+IDFCFIRSTB,quarters,Financing Margin %,Dec 2025,-14.0
+IDFCFIRSTB,quarters,Financing Margin %,Mar 2026,-14.0
+IDFCFIRSTB,quarters,Financing Margin %,Jun 2026,-8.0
+IDFCFIRSTB,quarters,Financing Margin %,Sep 2026,-8.0
+IDFCFIRSTB,quarters,Other Income,Sep 2023,1430.0
+IDFCFIRSTB,quarters,Other Income,Dec 2023,1517.0
+IDFCFIRSTB,quarters,Other Income,Mar 2024,1642.0
+IDFCFIRSTB,quarters,Other Income,Jun 2024,1619.0
+IDFCFIRSTB,quarters,Other Income,Sep 2024,1727.0
+IDFCFIRSTB,quarters,Other Income,Dec 2024,1780.0
+IDFCFIRSTB,quarters,Other Income,Mar 2025,1895.0
+IDFCFIRSTB,quarters,Other Income,Jun 2025,2227.0
+IDFCFIRSTB,quarters,Other Income,Sep 2025,1891.0
+IDFCFIRSTB,quarters,Other Income,Dec 2025,2125.0
+IDFCFIRSTB,quarters,Other Income,Mar 2026,1630.0
+IDFCFIRSTB,quarters,Other Income,Jun 2026,2309.0
+IDFCFIRSTB,quarters,Other Income,Sep 2026,2296.0
+IDFCFIRSTB,quarters,Depreciation,Sep 2023,0.0
+IDFCFIRSTB,quarters,Depreciation,Dec 2023,0.0
+IDFCFIRSTB,quarters,Depreciation,Mar 2024,0.0
+IDFCFIRSTB,quarters,Depreciation,Jun 2024,0.0
+IDFCFIRSTB,quarters,Depreciation,Sep 2024,0.0
+IDFCFIRSTB,quarters,Depreciation,Dec 2024,0.0
+IDFCFIRSTB,quarters,Depreciation,Mar 2025,0.0
+IDFCFIRSTB,quarters,Depreciation,Jun 2025,0.0
+IDFCFIRSTB,quarters,Depreciation,Sep 2025,0.0
+IDFCFIRSTB,quarters,Depreciation,Dec 2025,0.0
+IDFCFIRSTB,quarters,Depreciation,Mar 2026,0.0
+IDFCFIRSTB,quarters,Depreciation,Jun 2026,0.0
+IDFCFIRSTB,quarters,Depreciation,Sep 2026,0.0
+IDFCFIRSTB,quarters,Profit before tax,Sep 2023,982.0
+IDFCFIRSTB,quarters,Profit before tax,Dec 2023,908.0
+IDFCFIRSTB,quarters,Profit before tax,Mar 2024,942.0
+IDFCFIRSTB,quarters,Profit before tax,Jun 2024,888.0
+IDFCFIRSTB,quarters,Profit before tax,Sep 2024,230.0
+IDFCFIRSTB,quarters,Profit before tax,Dec 2024,421.0
+IDFCFIRSTB,quarters,Profit before tax,Mar 2025,361.0
+IDFCFIRSTB,quarters,Profit before tax,Jun 2025,580.0
+IDFCFIRSTB,quarters,Profit before tax,Sep 2025,428.0
+IDFCFIRSTB,quarters,Profit before tax,Dec 2025,635.0
+IDFCFIRSTB,quarters,Profit before tax,Mar 2026,189.0
+IDFCFIRSTB,quarters,Profit before tax,Jun 2026,1409.0
+IDFCFIRSTB,quarters,Profit before tax,Sep 2026,1402.0
+IDFCFIRSTB,quarters,Tax %,Sep 2023,23.0
+IDFCFIRSTB,quarters,Tax %,Dec 2023,21.0
+IDFCFIRSTB,quarters,Tax %,Mar 2024,23.0
+IDFCFIRSTB,quarters,Tax %,Jun 2024,23.0
+IDFCFIRSTB,quarters,Tax %,Sep 2024,13.0
+IDFCFIRSTB,quarters,Tax %,Dec 2024,19.0
+IDFCFIRSTB,quarters,Tax %,Mar 2025,16.0
+IDFCFIRSTB,quarters,Tax %,Jun 2025,20.0
+IDFCFIRSTB,quarters,Tax %,Sep 2025,18.0
+IDFCFIRSTB,quarters,Tax %,Dec 2025,21.0
+IDFCFIRSTB,quarters,Tax %,Mar 2026,-68.0
+IDFCFIRSTB,quarters,Tax %,Jun 2026,24.0
+IDFCFIRSTB,quarters,Tax %,Sep 2026,25.0
+IDFCFIRSTB,quarters,Net Profit,Sep 2023,751.0
+IDFCFIRSTB,quarters,Net Profit,Dec 2023,716.0
+IDFCFIRSTB,quarters,Net Profit,Mar 2024,724.0
+IDFCFIRSTB,quarters,Net Profit,Jun 2024,681.0
+IDFCFIRSTB,quarters,Net Profit,Sep 2024,201.0
+IDFCFIRSTB,quarters,Net Profit,Dec 2024,339.0
+IDFCFIRSTB,quarters,Net Profit,Mar 2025,304.0
+IDFCFIRSTB,quarters,Net Profit,Jun 2025,463.0
+IDFCFIRSTB,quarters,Net Profit,Sep 2025,352.0
+IDFCFIRSTB,quarters,Net Profit,Dec 2025,503.0
+IDFCFIRSTB,quarters,Net Profit,Mar 2026,319.0
+IDFCFIRSTB,quarters,Net Profit,Jun 2026,1075.0
+IDFCFIRSTB,quarters,Net Profit,Sep 2026,1045.0
+IDFCFIRSTB,quarters,EPS in Rs,Sep 2023,1.12
+IDFCFIRSTB,quarters,EPS in Rs,Dec 2023,1.01
+IDFCFIRSTB,quarters,EPS in Rs,Mar 2024,1.02
+IDFCFIRSTB,quarters,EPS in Rs,Jun 2024,0.96
+IDFCFIRSTB,quarters,EPS in Rs,Sep 2024,0.27
+IDFCFIRSTB,quarters,EPS in Rs,Dec 2024,0.46
+IDFCFIRSTB,quarters,EPS in Rs,Mar 2025,0.42
+IDFCFIRSTB,quarters,EPS in Rs,Jun 2025,0.63
+IDFCFIRSTB,quarters,EPS in Rs,Sep 2025,0.48
+IDFCFIRSTB,quarters,EPS in Rs,Dec 2025,0.58
+IDFCFIRSTB,quarters,EPS in Rs,Mar 2026,0.37
+IDFCFIRSTB,quarters,EPS in Rs,Jun 2026,1.25
+IDFCFIRSTB,quarters,EPS in Rs,Sep 2026,1.21
+IDFCFIRSTB,quarters,Gross NPA %,Sep 2023,2.11
+IDFCFIRSTB,quarters,Gross NPA %,Dec 2023,2.04
+IDFCFIRSTB,quarters,Gross NPA %,Mar 2024,1.88
+IDFCFIRSTB,quarters,Gross NPA %,Jun 2024,1.9
+IDFCFIRSTB,quarters,Gross NPA %,Sep 2024,1.92
+IDFCFIRSTB,quarters,Gross NPA %,Dec 2024,1.94
+IDFCFIRSTB,quarters,Gross NPA %,Mar 2025,1.87
+IDFCFIRSTB,quarters,Gross NPA %,Jun 2025,1.97
+IDFCFIRSTB,quarters,Gross NPA %,Sep 2025,1.86
+IDFCFIRSTB,quarters,Gross NPA %,Dec 2025,1.69
+IDFCFIRSTB,quarters,Gross NPA %,Mar 2026,1.61
+IDFCFIRSTB,quarters,Gross NPA %,Jun 2026,1.51
+IDFCFIRSTB,quarters,Gross NPA %,Sep 2026,1.32
+IDFCFIRSTB,quarters,Net NPA %,Sep 2023,0.68
+IDFCFIRSTB,quarters,Net NPA %,Dec 2023,0.68
+IDFCFIRSTB,quarters,Net NPA %,Mar 2024,0.6
+IDFCFIRSTB,quarters,Net NPA %,Jun 2024,0.59
+IDFCFIRSTB,quarters,Net NPA %,Sep 2024,0.48
+IDFCFIRSTB,quarters,Net NPA %,Dec 2024,0.52
+IDFCFIRSTB,quarters,Net NPA %,Mar 2025,0.53
+IDFCFIRSTB,quarters,Net NPA %,Jun 2025,0.55
+IDFCFIRSTB,quarters,Net NPA %,Sep 2025,0.52
+IDFCFIRSTB,quarters,Net NPA %,Dec 2025,0.53
+IDFCFIRSTB,quarters,Net NPA %,Mar 2026,0.48
+IDFCFIRSTB,quarters,Net NPA %,Jun 2026,0.44
+IDFCFIRSTB,quarters,Net NPA %,Sep 2026,0.4
+IDFCFIRSTB,profit-loss,Revenue,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2016,3649.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2017,8533.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2018,8930.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2019,11948.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2020,16308.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2021,15968.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2022,17173.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2023,22728.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2024,30322.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2025,36501.0
+IDFCFIRSTB,profit-loss,Revenue,Mar 2026,40549.0
+IDFCFIRSTB,profit-loss,Revenue,TTM,43943.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2017,134.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2018,5.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2019,34.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2020,36.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2021,-2.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2022,8.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2023,32.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2024,33.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2025,20.0
+IDFCFIRSTB,profit-loss,Revenue growth,Mar 2026,11.0
+IDFCFIRSTB,profit-loss,Revenue growth,TTM,15.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2016,2802.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2017,6515.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2018,7132.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2019,8749.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2020,10232.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2021,8588.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2022,7467.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2023,10092.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2024,13872.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2025,17210.0
+IDFCFIRSTB,profit-loss,Interest,Mar 2026,19334.0
+IDFCFIRSTB,profit-loss,Interest,TTM,20616.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2015 6m,3.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2016,494.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2017,1425.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2018,1725.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2019,4534.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2020,9871.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2021,8786.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2022,12380.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2023,13410.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2024,17979.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2025,23593.0
+IDFCFIRSTB,profit-loss,Expenses,Mar 2026,26412.0
+IDFCFIRSTB,profit-loss,Expenses,TTM,28052.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2015 6m,-3.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2016,353.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2017,592.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2018,73.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2019,-1335.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2020,-3795.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2021,-1406.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2022,-2674.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2023,-775.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2024,-1528.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2025,-4301.0
+IDFCFIRSTB,profit-loss,Financing Profit,Mar 2026,-5197.0
+IDFCFIRSTB,profit-loss,Financing Profit,TTM,-4726.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2016,10.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2017,7.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2018,1.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2019,-11.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2020,-23.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2021,-9.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2022,-16.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2023,-3.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2024,-5.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2025,-12.0
+IDFCFIRSTB,profit-loss,Financing Margin %,Mar 2026,-13.0
+IDFCFIRSTB,profit-loss,Financing Margin %,TTM,-11.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2016,403.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2017,1013.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2018,1118.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2019,852.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2020,1722.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2021,2211.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2022,3222.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2023,4467.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2024,6002.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2025,7022.0
+IDFCFIRSTB,profit-loss,Other Income,Mar 2026,7873.0
+IDFCFIRSTB,profit-loss,Other Income,TTM,8360.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2016,41.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2017,134.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2018,163.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2019,2813.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2020,305.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2021,329.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2022,373.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2023,425.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2024,618.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2025,820.0
+IDFCFIRSTB,profit-loss,Depreciation,Mar 2026,844.0
+IDFCFIRSTB,profit-loss,Depreciation,TTM,0.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2015 6m,-3.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2016,716.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2017,1471.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2018,1027.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2019,-3295.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2020,-2379.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2021,476.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2022,175.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2023,3267.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2024,3855.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2025,1900.0
+IDFCFIRSTB,profit-loss,Profit before tax,Mar 2026,1833.0
+IDFCFIRSTB,profit-loss,Profit before tax,TTM,3635.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2016,35.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2017,31.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2018,16.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2019,-41.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2020,20.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2021,5.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2022,17.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2023,25.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2024,23.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2025,20.0
+IDFCFIRSTB,profit-loss,Tax %,Mar 2026,11.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2015 6m,-3.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2016,467.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2017,1020.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2018,859.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2019,-1944.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2020,-2864.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2021,452.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2022,145.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2023,2437.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2024,2957.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2025,1525.0
+IDFCFIRSTB,profit-loss,Net Profit,Mar 2026,1636.0
+IDFCFIRSTB,profit-loss,Net Profit,TTM,2941.0
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2015 6m,-516.0
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2016,1.38
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2017,3.0
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2018,2.52
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2019,-4.07
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2020,-5.95
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2021,0.8
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2022,0.23
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2023,3.68
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2024,4.18
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2025,2.08
+IDFCFIRSTB,profit-loss,EPS in Rs,Mar 2026,1.9
+IDFCFIRSTB,profit-loss,EPS in Rs,TTM,3.41
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2015 6m,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2016,18.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2017,25.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2018,30.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2019,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2020,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2021,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2022,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2023,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2024,0.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2025,12.0
+IDFCFIRSTB,profit-loss,Dividend Payout %,Mar 2026,13.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2015,0.05
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2016,3393.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2017,3399.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2018,3404.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2019,4782.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2020,4810.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2021,5676.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2022,6218.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2023,6618.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2024,7070.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2025,7322.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Mar 2026,8602.0
+IDFCFIRSTB,balance-sheet,Equity Capital,Sep 2026,8623.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2015,-3.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2016,10240.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2017,11279.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2018,11852.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2019,13378.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2020,10533.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2021,12132.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2022,14786.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2023,19103.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2024,25091.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2025,30756.0
+IDFCFIRSTB,balance-sheet,Reserves,Mar 2026,38750.0
+IDFCFIRSTB,balance-sheet,Reserves,Sep 2026,40483.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2016,8219.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2017,40208.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2018,48198.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2019,70479.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2020,65108.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2021,88688.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2022,105634.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2023,144637.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2024,200576.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2025,252065.0
+IDFCFIRSTB,balance-sheet,Deposits,Mar 2026,294475.0
+IDFCFIRSTB,balance-sheet,Deposits,Sep 2026,348583.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2016,57160.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2017,50262.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2018,57287.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2019,69983.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2020,57397.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2021,45786.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2022,52963.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2023,57212.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2024,50936.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2025,38975.0
+IDFCFIRSTB,balance-sheet,Borrowing,Mar 2026,36621.0
+IDFCFIRSTB,balance-sheet,Borrowing,Sep 2026,53956.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2015,3.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2016,4204.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2017,7011.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2018,5778.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2019,8563.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2020,11353.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2021,10861.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2022,10581.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2023,12371.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2024,12442.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2025,14701.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Mar 2026,21333.0
+IDFCFIRSTB,balance-sheet,Other Liabilities,Sep 2026,18903.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2016,83216.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2017,112160.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2018,126520.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2019,167185.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2020,149200.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2021,163144.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2022,190182.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2023,239942.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2024,296115.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2025,343819.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Mar 2026,399780.0
+IDFCFIRSTB,balance-sheet,Total Liabilities,Sep 2026,470548.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2016,644.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2017,781.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2018,781.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2019,917.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2020,965.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2021,1201.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2022,1282.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2023,1876.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2024,2525.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2025,2596.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Mar 2026,2444.0
+IDFCFIRSTB,balance-sheet,Fixed Assets,Sep 2026,2581.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2016,29.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2017,5.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2018,3.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2019,34.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2020,73.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2021,65.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2022,79.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2023,214.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2024,95.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2025,67.0
+IDFCFIRSTB,balance-sheet,CWIP,Mar 2026,113.0
+IDFCFIRSTB,balance-sheet,CWIP,Sep 2026,0.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2016,29729.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2017,50472.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2018,61202.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2019,58475.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2020,45405.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2021,45412.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2022,46145.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2023,61124.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2024,74710.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2025,80716.0
+IDFCFIRSTB,balance-sheet,Investments,Mar 2026,85966.0
+IDFCFIRSTB,balance-sheet,Investments,Sep 2026,102593.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2016,52814.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2017,60901.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2018,64535.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2019,107759.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2020,102758.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2021,116466.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2022,142676.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2023,176728.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2024,218785.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2025,260440.0
+IDFCFIRSTB,balance-sheet,Other Assets,Mar 2026,311257.0
+IDFCFIRSTB,balance-sheet,Other Assets,Sep 2026,365374.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2015,0.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2016,83216.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2017,112160.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2018,126520.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2019,167185.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2020,149200.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2021,163144.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2022,190182.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2023,239942.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2024,296115.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2025,343819.0
+IDFCFIRSTB,balance-sheet,Total Assets,Mar 2026,399780.0
+IDFCFIRSTB,balance-sheet,Total Assets,Sep 2026,470548.0
+IDFCFIRSTB,ratios,ROE %,Mar 2016,7.0
+IDFCFIRSTB,ratios,ROE %,Mar 2017,7.0
+IDFCFIRSTB,ratios,ROE %,Mar 2018,6.0
+IDFCFIRSTB,ratios,ROE %,Mar 2019,-12.0
+IDFCFIRSTB,ratios,ROE %,Mar 2020,-17.0
+IDFCFIRSTB,ratios,ROE %,Mar 2021,3.0
+IDFCFIRSTB,ratios,ROE %,Mar 2022,1.0
+IDFCFIRSTB,ratios,ROE %,Mar 2023,10.0
+IDFCFIRSTB,ratios,ROE %,Mar 2024,10.0
+IDFCFIRSTB,ratios,ROE %,Mar 2025,4.0
+IDFCFIRSTB,ratios,ROE %,Mar 2026,4.0

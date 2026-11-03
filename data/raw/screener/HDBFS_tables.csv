@@ -1,0 +1,308 @@
+symbol,section,line_item,period,value
+HDBFS,quarters,Revenue,Mar 2024,3667.0
+HDBFS,quarters,Revenue,Jun 2024,3884.0
+HDBFS,quarters,Revenue,Sep 2024,4007.0
+HDBFS,quarters,Revenue,Dec 2024,4144.0
+HDBFS,quarters,Revenue,Mar 2025,4266.0
+HDBFS,quarters,Revenue,Jun 2025,4465.0
+HDBFS,quarters,Revenue,Sep 2025,4545.0
+HDBFS,quarters,Revenue,Dec 2025,4674.0
+HDBFS,quarters,Revenue,Mar 2026,4745.0
+HDBFS,quarters,Revenue,Jun 2026,4938.0
+HDBFS,quarters,Revenue,Sep 2026,5005.0
+HDBFS,quarters,YoY Revenue growth,Mar 2025,16.0
+HDBFS,quarters,YoY Revenue growth,Jun 2025,15.0
+HDBFS,quarters,YoY Revenue growth,Sep 2025,13.0
+HDBFS,quarters,YoY Revenue growth,Dec 2025,13.0
+HDBFS,quarters,YoY Revenue growth,Mar 2026,11.0
+HDBFS,quarters,YoY Revenue growth,Jun 2026,11.0
+HDBFS,quarters,YoY Revenue growth,Sep 2026,10.0
+HDBFS,quarters,Interest,Mar 2024,1377.0
+HDBFS,quarters,Interest,Jun 2024,1496.0
+HDBFS,quarters,Interest,Sep 2024,1598.0
+HDBFS,quarters,Interest,Dec 2024,1645.0
+HDBFS,quarters,Interest,Mar 2025,1650.0
+HDBFS,quarters,Interest,Jun 2025,1740.0
+HDBFS,quarters,Interest,Sep 2025,1694.0
+HDBFS,quarters,Interest,Dec 2025,1704.0
+HDBFS,quarters,Interest,Mar 2026,1682.0
+HDBFS,quarters,Interest,Jun 2026,1753.0
+HDBFS,quarters,Interest,Sep 2026,1817.0
+HDBFS,quarters,Expenses,Mar 2024,1368.0
+HDBFS,quarters,Expenses,Jun 2024,1560.0
+HDBFS,quarters,Expenses,Sep 2024,1561.0
+HDBFS,quarters,Expenses,Dec 2024,1809.0
+HDBFS,quarters,Expenses,Mar 2025,1858.0
+HDBFS,quarters,Expenses,Jun 2025,1942.0
+HDBFS,quarters,Expenses,Sep 2025,2017.0
+HDBFS,quarters,Expenses,Dec 2025,2058.0
+HDBFS,quarters,Expenses,Mar 2026,1997.0
+HDBFS,quarters,Expenses,Jun 2026,2075.0
+HDBFS,quarters,Expenses,Sep 2026,2087.0
+HDBFS,quarters,Financing Profit,Mar 2024,922.0
+HDBFS,quarters,Financing Profit,Jun 2024,828.0
+HDBFS,quarters,Financing Profit,Sep 2024,847.0
+HDBFS,quarters,Financing Profit,Dec 2024,689.0
+HDBFS,quarters,Financing Profit,Mar 2025,758.0
+HDBFS,quarters,Financing Profit,Jun 2025,784.0
+HDBFS,quarters,Financing Profit,Sep 2025,835.0
+HDBFS,quarters,Financing Profit,Dec 2025,912.0
+HDBFS,quarters,Financing Profit,Mar 2026,1066.0
+HDBFS,quarters,Financing Profit,Jun 2026,1110.0
+HDBFS,quarters,Financing Profit,Sep 2026,1101.0
+HDBFS,quarters,Financing Margin %,Mar 2024,25.0
+HDBFS,quarters,Financing Margin %,Jun 2024,21.0
+HDBFS,quarters,Financing Margin %,Sep 2024,21.0
+HDBFS,quarters,Financing Margin %,Dec 2024,17.0
+HDBFS,quarters,Financing Margin %,Mar 2025,18.0
+HDBFS,quarters,Financing Margin %,Jun 2025,18.0
+HDBFS,quarters,Financing Margin %,Sep 2025,18.0
+HDBFS,quarters,Financing Margin %,Dec 2025,20.0
+HDBFS,quarters,Financing Margin %,Mar 2026,22.0
+HDBFS,quarters,Financing Margin %,Jun 2026,22.0
+HDBFS,quarters,Financing Margin %,Sep 2026,22.0
+HDBFS,quarters,Other Income,Mar 2024,0.0
+HDBFS,quarters,Other Income,Jun 2024,0.0
+HDBFS,quarters,Other Income,Sep 2024,0.0
+HDBFS,quarters,Other Income,Dec 2024,0.0
+HDBFS,quarters,Other Income,Mar 2025,0.0
+HDBFS,quarters,Other Income,Jun 2025,0.0
+HDBFS,quarters,Other Income,Sep 2025,0.0
+HDBFS,quarters,Other Income,Dec 2025,0.0
+HDBFS,quarters,Other Income,Mar 2026,0.0
+HDBFS,quarters,Other Income,Jun 2026,0.0
+HDBFS,quarters,Other Income,Sep 2026,0.0
+HDBFS,quarters,Depreciation,Mar 2024,40.0
+HDBFS,quarters,Depreciation,Jun 2024,44.0
+HDBFS,quarters,Depreciation,Sep 2024,48.0
+HDBFS,quarters,Depreciation,Dec 2024,49.0
+HDBFS,quarters,Depreciation,Mar 2025,54.0
+HDBFS,quarters,Depreciation,Jun 2025,51.0
+HDBFS,quarters,Depreciation,Sep 2025,52.0
+HDBFS,quarters,Depreciation,Dec 2025,51.0
+HDBFS,quarters,Depreciation,Mar 2026,54.0
+HDBFS,quarters,Depreciation,Jun 2026,55.0
+HDBFS,quarters,Depreciation,Sep 2026,57.0
+HDBFS,quarters,Profit before tax,Mar 2024,882.0
+HDBFS,quarters,Profit before tax,Jun 2024,784.0
+HDBFS,quarters,Profit before tax,Sep 2024,799.0
+HDBFS,quarters,Profit before tax,Dec 2024,641.0
+HDBFS,quarters,Profit before tax,Mar 2025,704.0
+HDBFS,quarters,Profit before tax,Jun 2025,732.0
+HDBFS,quarters,Profit before tax,Sep 2025,782.0
+HDBFS,quarters,Profit before tax,Dec 2025,860.0
+HDBFS,quarters,Profit before tax,Mar 2026,1011.0
+HDBFS,quarters,Profit before tax,Jun 2026,1055.0
+HDBFS,quarters,Profit before tax,Sep 2026,1044.0
+HDBFS,quarters,Tax %,Mar 2024,26.0
+HDBFS,quarters,Tax %,Jun 2024,26.0
+HDBFS,quarters,Tax %,Sep 2024,26.0
+HDBFS,quarters,Tax %,Dec 2024,26.0
+HDBFS,quarters,Tax %,Mar 2025,25.0
+HDBFS,quarters,Tax %,Jun 2025,22.0
+HDBFS,quarters,Tax %,Sep 2025,26.0
+HDBFS,quarters,Tax %,Dec 2025,25.0
+HDBFS,quarters,Tax %,Mar 2026,26.0
+HDBFS,quarters,Tax %,Jun 2026,26.0
+HDBFS,quarters,Tax %,Sep 2026,25.0
+HDBFS,quarters,Net Profit,Mar 2024,656.0
+HDBFS,quarters,Net Profit,Jun 2024,582.0
+HDBFS,quarters,Net Profit,Sep 2024,591.0
+HDBFS,quarters,Net Profit,Dec 2024,472.0
+HDBFS,quarters,Net Profit,Mar 2025,531.0
+HDBFS,quarters,Net Profit,Jun 2025,568.0
+HDBFS,quarters,Net Profit,Sep 2025,581.0
+HDBFS,quarters,Net Profit,Dec 2025,644.0
+HDBFS,quarters,Net Profit,Mar 2026,751.0
+HDBFS,quarters,Net Profit,Jun 2026,785.0
+HDBFS,quarters,Net Profit,Sep 2026,780.0
+HDBFS,quarters,EPS in Rs,Mar 2024,8.27
+HDBFS,quarters,EPS in Rs,Jun 2024,7.33
+HDBFS,quarters,EPS in Rs,Sep 2024,7.44
+HDBFS,quarters,EPS in Rs,Dec 2024,5.95
+HDBFS,quarters,EPS in Rs,Mar 2025,6.67
+HDBFS,quarters,EPS in Rs,Jun 2025,6.84
+HDBFS,quarters,EPS in Rs,Sep 2025,7.01
+HDBFS,quarters,EPS in Rs,Dec 2025,7.76
+HDBFS,quarters,EPS in Rs,Mar 2026,9.04
+HDBFS,quarters,EPS in Rs,Jun 2026,9.46
+HDBFS,quarters,EPS in Rs,Sep 2026,9.39
+HDBFS,quarters,Gross NPA %,Mar 2024,1.9
+HDBFS,quarters,Gross NPA %,Sep 2024,2.1
+HDBFS,quarters,Gross NPA %,Dec 2024,2.25
+HDBFS,quarters,Gross NPA %,Mar 2025,2.26
+HDBFS,quarters,Gross NPA %,Jun 2025,2.56
+HDBFS,quarters,Gross NPA %,Sep 2025,2.81
+HDBFS,quarters,Gross NPA %,Dec 2025,2.81
+HDBFS,quarters,Gross NPA %,Mar 2026,2.44
+HDBFS,quarters,Net NPA %,Dec 2024,0.9
+HDBFS,quarters,Net NPA %,Mar 2025,0.99
+HDBFS,quarters,Net NPA %,Jun 2025,1.11
+HDBFS,quarters,Net NPA %,Sep 2025,1.27
+HDBFS,quarters,Net NPA %,Dec 2025,1.25
+HDBFS,quarters,Net NPA %,Mar 2026,1.09
+HDBFS,quarters,Net NPA %,Jun 2026,1.04
+HDBFS,profit-loss,Revenue,Mar 2021,10945.0
+HDBFS,profit-loss,Revenue,Mar 2022,11312.0
+HDBFS,profit-loss,Revenue,Mar 2023,12403.0
+HDBFS,profit-loss,Revenue,Mar 2024,14173.0
+HDBFS,profit-loss,Revenue,Mar 2025,16300.0
+HDBFS,profit-loss,Revenue,Mar 2026,18431.0
+HDBFS,profit-loss,Revenue,TTM,19362.0
+HDBFS,profit-loss,Revenue growth,Mar 2022,3.0
+HDBFS,profit-loss,Revenue growth,Mar 2023,10.0
+HDBFS,profit-loss,Revenue growth,Mar 2024,14.0
+HDBFS,profit-loss,Revenue growth,Mar 2025,15.0
+HDBFS,profit-loss,Revenue growth,Mar 2026,13.0
+HDBFS,profit-loss,Revenue growth,TTM,11.0
+HDBFS,profit-loss,Interest,Mar 2021,3883.0
+HDBFS,profit-loss,Interest,Mar 2022,3326.0
+HDBFS,profit-loss,Interest,Mar 2023,3512.0
+HDBFS,profit-loss,Interest,Mar 2024,4907.0
+HDBFS,profit-loss,Interest,Mar 2025,6433.0
+HDBFS,profit-loss,Interest,Mar 2026,6856.0
+HDBFS,profit-loss,Interest,TTM,6957.0
+HDBFS,profit-loss,Expenses,Mar 2021,6451.0
+HDBFS,profit-loss,Expenses,Mar 2022,6540.0
+HDBFS,profit-loss,Expenses,Mar 2023,6153.0
+HDBFS,profit-loss,Expenses,Mar 2024,5817.0
+HDBFS,profit-loss,Expenses,Mar 2025,6745.0
+HDBFS,profit-loss,Expenses,Mar 2026,7980.0
+HDBFS,profit-loss,Expenses,TTM,8217.0
+HDBFS,profit-loss,Financing Profit,Mar 2021,610.0
+HDBFS,profit-loss,Financing Profit,Mar 2022,1446.0
+HDBFS,profit-loss,Financing Profit,Mar 2023,2738.0
+HDBFS,profit-loss,Financing Profit,Mar 2024,3449.0
+HDBFS,profit-loss,Financing Profit,Mar 2025,3122.0
+HDBFS,profit-loss,Financing Profit,Mar 2026,3595.0
+HDBFS,profit-loss,Financing Profit,TTM,4188.0
+HDBFS,profit-loss,Financing Margin %,Mar 2021,6.0
+HDBFS,profit-loss,Financing Margin %,Mar 2022,13.0
+HDBFS,profit-loss,Financing Margin %,Mar 2023,22.0
+HDBFS,profit-loss,Financing Margin %,Mar 2024,24.0
+HDBFS,profit-loss,Financing Margin %,Mar 2025,19.0
+HDBFS,profit-loss,Financing Margin %,Mar 2026,20.0
+HDBFS,profit-loss,Financing Margin %,TTM,22.0
+HDBFS,profit-loss,Other Income,Mar 2021,-2.0
+HDBFS,profit-loss,Other Income,Mar 2022,0.0
+HDBFS,profit-loss,Other Income,Mar 2023,1.0
+HDBFS,profit-loss,Other Income,Mar 2024,1.0
+HDBFS,profit-loss,Other Income,Mar 2025,0.0
+HDBFS,profit-loss,Other Income,Mar 2026,1.0
+HDBFS,profit-loss,Other Income,TTM,0.0
+HDBFS,profit-loss,Depreciation,Mar 2021,108.0
+HDBFS,profit-loss,Depreciation,Mar 2022,99.0
+HDBFS,profit-loss,Depreciation,Mar 2023,112.0
+HDBFS,profit-loss,Depreciation,Mar 2024,145.0
+HDBFS,profit-loss,Depreciation,Mar 2025,194.0
+HDBFS,profit-loss,Depreciation,Mar 2026,209.0
+HDBFS,profit-loss,Depreciation,TTM,218.0
+HDBFS,profit-loss,Profit before tax,Mar 2021,501.0
+HDBFS,profit-loss,Profit before tax,Mar 2022,1348.0
+HDBFS,profit-loss,Profit before tax,Mar 2023,2627.0
+HDBFS,profit-loss,Profit before tax,Mar 2024,3305.0
+HDBFS,profit-loss,Profit before tax,Mar 2025,2928.0
+HDBFS,profit-loss,Profit before tax,Mar 2026,3386.0
+HDBFS,profit-loss,Profit before tax,TTM,3970.0
+HDBFS,profit-loss,Tax %,Mar 2021,22.0
+HDBFS,profit-loss,Tax %,Mar 2022,25.0
+HDBFS,profit-loss,Tax %,Mar 2023,25.0
+HDBFS,profit-loss,Tax %,Mar 2024,26.0
+HDBFS,profit-loss,Tax %,Mar 2025,26.0
+HDBFS,profit-loss,Tax %,Mar 2026,25.0
+HDBFS,profit-loss,Net Profit,Mar 2021,391.0
+HDBFS,profit-loss,Net Profit,Mar 2022,1011.0
+HDBFS,profit-loss,Net Profit,Mar 2023,1959.0
+HDBFS,profit-loss,Net Profit,Mar 2024,2461.0
+HDBFS,profit-loss,Net Profit,Mar 2025,2176.0
+HDBFS,profit-loss,Net Profit,Mar 2026,2544.0
+HDBFS,profit-loss,Net Profit,TTM,2960.0
+HDBFS,profit-loss,EPS in Rs,Mar 2021,4.96
+HDBFS,profit-loss,EPS in Rs,Mar 2022,12.8
+HDBFS,profit-loss,EPS in Rs,Mar 2023,24.76
+HDBFS,profit-loss,EPS in Rs,Mar 2024,31.03
+HDBFS,profit-loss,EPS in Rs,Mar 2025,27.34
+HDBFS,profit-loss,EPS in Rs,Mar 2026,30.64
+HDBFS,profit-loss,EPS in Rs,TTM,35.65
+HDBFS,profit-loss,Dividend Payout %,Mar 2021,0.0
+HDBFS,profit-loss,Dividend Payout %,Mar 2022,8.0
+HDBFS,profit-loss,Dividend Payout %,Mar 2023,8.0
+HDBFS,profit-loss,Dividend Payout %,Mar 2024,10.0
+HDBFS,profit-loss,Dividend Payout %,Mar 2025,11.0
+HDBFS,profit-loss,Dividend Payout %,Mar 2026,13.0
+HDBFS,balance-sheet,Equity Capital,Mar 2021,789.0
+HDBFS,balance-sheet,Equity Capital,Mar 2022,790.0
+HDBFS,balance-sheet,Equity Capital,Mar 2023,791.0
+HDBFS,balance-sheet,Equity Capital,Mar 2024,793.0
+HDBFS,balance-sheet,Equity Capital,Mar 2025,796.0
+HDBFS,balance-sheet,Equity Capital,Mar 2026,830.0
+HDBFS,balance-sheet,Equity Capital,Sep 2026,831.0
+HDBFS,balance-sheet,Reserves,Mar 2021,7657.0
+HDBFS,balance-sheet,Reserves,Mar 2022,8749.0
+HDBFS,balance-sheet,Reserves,Mar 2023,10646.0
+HDBFS,balance-sheet,Reserves,Mar 2024,12950.0
+HDBFS,balance-sheet,Reserves,Mar 2025,15024.0
+HDBFS,balance-sheet,Reserves,Mar 2026,19834.0
+HDBFS,balance-sheet,Reserves,Sep 2026,21322.0
+HDBFS,balance-sheet,Borrowing,Mar 2021,50359.0
+HDBFS,balance-sheet,Borrowing,Mar 2022,48973.0
+HDBFS,balance-sheet,Borrowing,Mar 2023,54865.0
+HDBFS,balance-sheet,Borrowing,Mar 2024,74331.0
+HDBFS,balance-sheet,Borrowing,Mar 2025,89682.0
+HDBFS,balance-sheet,Borrowing,Mar 2026,99230.0
+HDBFS,balance-sheet,Borrowing,Sep 2026,104442.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2021,3836.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2022,3513.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2023,3748.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2024,4483.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2025,3161.0
+HDBFS,balance-sheet,Other Liabilities,Mar 2026,3757.0
+HDBFS,balance-sheet,Other Liabilities,Sep 2026,4182.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2021,62641.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2022,62026.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2023,70050.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2024,92557.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2025,108663.0
+HDBFS,balance-sheet,Total Liabilities,Mar 2026,123651.0
+HDBFS,balance-sheet,Total Liabilities,Sep 2026,130777.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2021,317.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2022,293.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2023,387.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2024,511.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2025,735.0
+HDBFS,balance-sheet,Fixed Assets,Mar 2026,773.0
+HDBFS,balance-sheet,Fixed Assets,Sep 2026,774.0
+HDBFS,balance-sheet,CWIP,Mar 2021,0.0
+HDBFS,balance-sheet,CWIP,Mar 2022,0.0
+HDBFS,balance-sheet,CWIP,Mar 2023,0.0
+HDBFS,balance-sheet,CWIP,Mar 2024,0.0
+HDBFS,balance-sheet,CWIP,Mar 2025,0.0
+HDBFS,balance-sheet,CWIP,Mar 2026,0.0
+HDBFS,balance-sheet,CWIP,Sep 2026,0.0
+HDBFS,balance-sheet,Investments,Mar 2021,1593.0
+HDBFS,balance-sheet,Investments,Mar 2022,2234.0
+HDBFS,balance-sheet,Investments,Mar 2023,1243.0
+HDBFS,balance-sheet,Investments,Mar 2024,3380.0
+HDBFS,balance-sheet,Investments,Mar 2025,2060.0
+HDBFS,balance-sheet,Investments,Mar 2026,3748.0
+HDBFS,balance-sheet,Investments,Sep 2026,4174.0
+HDBFS,balance-sheet,Other Assets,Mar 2021,60731.0
+HDBFS,balance-sheet,Other Assets,Mar 2022,59500.0
+HDBFS,balance-sheet,Other Assets,Mar 2023,68420.0
+HDBFS,balance-sheet,Other Assets,Mar 2024,88665.0
+HDBFS,balance-sheet,Other Assets,Mar 2025,105868.0
+HDBFS,balance-sheet,Other Assets,Mar 2026,119130.0
+HDBFS,balance-sheet,Other Assets,Sep 2026,125829.0
+HDBFS,balance-sheet,Total Assets,Mar 2021,62641.0
+HDBFS,balance-sheet,Total Assets,Mar 2022,62026.0
+HDBFS,balance-sheet,Total Assets,Mar 2023,70050.0
+HDBFS,balance-sheet,Total Assets,Mar 2024,92557.0
+HDBFS,balance-sheet,Total Assets,Mar 2025,108663.0
+HDBFS,balance-sheet,Total Assets,Mar 2026,123651.0
+HDBFS,balance-sheet,Total Assets,Sep 2026,130777.0
+HDBFS,ratios,ROE %,Mar 2021,5.0
+HDBFS,ratios,ROE %,Mar 2022,11.0
+HDBFS,ratios,ROE %,Mar 2023,19.0
+HDBFS,ratios,ROE %,Mar 2024,20.0
+HDBFS,ratios,ROE %,Mar 2025,15.0
+HDBFS,ratios,ROE %,Mar 2026,14.0

@@ -1,0 +1,505 @@
+symbol,section,line_item,period,value
+YESBANK,quarters,Revenue,Sep 2023,6711.0
+YESBANK,quarters,Revenue,Dec 2023,6985.0
+YESBANK,quarters,Revenue,Mar 2024,7447.0
+YESBANK,quarters,Revenue,Jun 2024,7719.0
+YESBANK,quarters,Revenue,Sep 2024,7730.0
+YESBANK,quarters,Revenue,Dec 2024,7829.0
+YESBANK,quarters,Revenue,Mar 2025,7616.0
+YESBANK,quarters,Revenue,Jun 2025,7596.0
+YESBANK,quarters,Revenue,Sep 2025,7379.0
+YESBANK,quarters,Revenue,Dec 2025,7543.0
+YESBANK,quarters,Revenue,Mar 2026,7651.0
+YESBANK,quarters,Revenue,Jun 2026,8044.0
+YESBANK,quarters,Revenue,Sep 2026,8640.0
+YESBANK,quarters,YoY Revenue growth,Sep 2023,23.0
+YESBANK,quarters,YoY Revenue growth,Dec 2023,19.0
+YESBANK,quarters,YoY Revenue growth,Mar 2024,20.0
+YESBANK,quarters,YoY Revenue growth,Jun 2024,20.0
+YESBANK,quarters,YoY Revenue growth,Sep 2024,15.0
+YESBANK,quarters,YoY Revenue growth,Dec 2024,12.0
+YESBANK,quarters,YoY Revenue growth,Mar 2025,2.0
+YESBANK,quarters,YoY Revenue growth,Jun 2025,-2.0
+YESBANK,quarters,YoY Revenue growth,Sep 2025,-5.0
+YESBANK,quarters,YoY Revenue growth,Dec 2025,-4.0
+YESBANK,quarters,YoY Revenue growth,Mar 2026,0.0
+YESBANK,quarters,YoY Revenue growth,Jun 2026,6.0
+YESBANK,quarters,YoY Revenue growth,Sep 2026,17.0
+YESBANK,quarters,Interest,Sep 2023,4786.0
+YESBANK,quarters,Interest,Dec 2023,4968.0
+YESBANK,quarters,Interest,Mar 2024,5294.0
+YESBANK,quarters,Interest,Jun 2024,5475.0
+YESBANK,quarters,Interest,Sep 2024,5530.0
+YESBANK,quarters,Interest,Dec 2024,5606.0
+YESBANK,quarters,Interest,Mar 2025,5340.0
+YESBANK,quarters,Interest,Jun 2025,5224.0
+YESBANK,quarters,Interest,Sep 2025,5078.0
+YESBANK,quarters,Interest,Dec 2025,5078.0
+YESBANK,quarters,Interest,Mar 2026,5013.0
+YESBANK,quarters,Interest,Jun 2026,5258.0
+YESBANK,quarters,Interest,Sep 2026,5817.0
+YESBANK,quarters,Expenses,Sep 2023,2834.0
+YESBANK,quarters,Expenses,Dec 2023,2902.0
+YESBANK,quarters,Expenses,Mar 2024,3290.0
+YESBANK,quarters,Expenses,Jun 2024,2770.0
+YESBANK,quarters,Expenses,Sep 2024,2929.0
+YESBANK,quarters,Expenses,Dec 2024,2915.0
+YESBANK,quarters,Expenses,Mar 2025,3019.0
+YESBANK,quarters,Expenses,Jun 2025,3050.0
+YESBANK,quarters,Expenses,Sep 2025,3068.0
+YESBANK,quarters,Expenses,Dec 2025,2886.0
+YESBANK,quarters,Expenses,Mar 2026,2937.0
+YESBANK,quarters,Expenses,Jun 2026,3275.0
+YESBANK,quarters,Expenses,Sep 2026,3343.0
+YESBANK,quarters,Financing Profit,Sep 2023,-909.0
+YESBANK,quarters,Financing Profit,Dec 2023,-885.0
+YESBANK,quarters,Financing Profit,Mar 2024,-1137.0
+YESBANK,quarters,Financing Profit,Jun 2024,-525.0
+YESBANK,quarters,Financing Profit,Sep 2024,-728.0
+YESBANK,quarters,Financing Profit,Dec 2024,-692.0
+YESBANK,quarters,Financing Profit,Mar 2025,-743.0
+YESBANK,quarters,Financing Profit,Jun 2025,-678.0
+YESBANK,quarters,Financing Profit,Sep 2025,-767.0
+YESBANK,quarters,Financing Profit,Dec 2025,-421.0
+YESBANK,quarters,Financing Profit,Mar 2026,-299.0
+YESBANK,quarters,Financing Profit,Jun 2026,-488.0
+YESBANK,quarters,Financing Profit,Sep 2026,-521.0
+YESBANK,quarters,Financing Margin %,Sep 2023,-14.0
+YESBANK,quarters,Financing Margin %,Dec 2023,-13.0
+YESBANK,quarters,Financing Margin %,Mar 2024,-15.0
+YESBANK,quarters,Financing Margin %,Jun 2024,-7.0
+YESBANK,quarters,Financing Margin %,Sep 2024,-9.0
+YESBANK,quarters,Financing Margin %,Dec 2024,-9.0
+YESBANK,quarters,Financing Margin %,Mar 2025,-10.0
+YESBANK,quarters,Financing Margin %,Jun 2025,-9.0
+YESBANK,quarters,Financing Margin %,Sep 2025,-10.0
+YESBANK,quarters,Financing Margin %,Dec 2025,-6.0
+YESBANK,quarters,Financing Margin %,Mar 2026,-4.0
+YESBANK,quarters,Financing Margin %,Jun 2026,-6.0
+YESBANK,quarters,Financing Margin %,Sep 2026,-6.0
+YESBANK,quarters,Other Income,Sep 2023,1210.0
+YESBANK,quarters,Other Income,Dec 2023,1195.0
+YESBANK,quarters,Other Income,Mar 2024,1569.0
+YESBANK,quarters,Other Income,Jun 2024,1199.0
+YESBANK,quarters,Other Income,Sep 2024,1407.0
+YESBANK,quarters,Other Income,Dec 2024,1512.0
+YESBANK,quarters,Other Income,Mar 2025,1739.0
+YESBANK,quarters,Other Income,Jun 2025,1752.0
+YESBANK,quarters,Other Income,Sep 2025,1644.0
+YESBANK,quarters,Other Income,Dec 2025,1633.0
+YESBANK,quarters,Other Income,Mar 2026,1730.0
+YESBANK,quarters,Other Income,Jun 2026,1798.0
+YESBANK,quarters,Other Income,Sep 2026,1882.0
+YESBANK,quarters,Depreciation,Sep 2023,0.0
+YESBANK,quarters,Depreciation,Dec 2023,0.0
+YESBANK,quarters,Depreciation,Mar 2024,0.0
+YESBANK,quarters,Depreciation,Jun 2024,0.0
+YESBANK,quarters,Depreciation,Sep 2024,0.0
+YESBANK,quarters,Depreciation,Dec 2024,0.0
+YESBANK,quarters,Depreciation,Mar 2025,0.0
+YESBANK,quarters,Depreciation,Jun 2025,0.0
+YESBANK,quarters,Depreciation,Sep 2025,0.0
+YESBANK,quarters,Depreciation,Dec 2025,0.0
+YESBANK,quarters,Depreciation,Mar 2026,0.0
+YESBANK,quarters,Depreciation,Jun 2026,0.0
+YESBANK,quarters,Depreciation,Sep 2026,0.0
+YESBANK,quarters,Profit before tax,Sep 2023,301.0
+YESBANK,quarters,Profit before tax,Dec 2023,309.0
+YESBANK,quarters,Profit before tax,Mar 2024,432.0
+YESBANK,quarters,Profit before tax,Jun 2024,674.0
+YESBANK,quarters,Profit before tax,Sep 2024,678.0
+YESBANK,quarters,Profit before tax,Dec 2024,820.0
+YESBANK,quarters,Profit before tax,Mar 2025,996.0
+YESBANK,quarters,Profit before tax,Jun 2025,1074.0
+YESBANK,quarters,Profit before tax,Sep 2025,878.0
+YESBANK,quarters,Profit before tax,Dec 2025,1212.0
+YESBANK,quarters,Profit before tax,Mar 2026,1431.0
+YESBANK,quarters,Profit before tax,Jun 2026,1309.0
+YESBANK,quarters,Profit before tax,Sep 2026,1360.0
+YESBANK,quarters,Tax %,Sep 2023,25.0
+YESBANK,quarters,Tax %,Dec 2023,25.0
+YESBANK,quarters,Tax %,Mar 2024,-5.0
+YESBANK,quarters,Tax %,Jun 2024,25.0
+YESBANK,quarters,Tax %,Sep 2024,18.0
+YESBANK,quarters,Tax %,Dec 2024,25.0
+YESBANK,quarters,Tax %,Mar 2025,26.0
+YESBANK,quarters,Tax %,Jun 2025,25.0
+YESBANK,quarters,Tax %,Sep 2025,25.0
+YESBANK,quarters,Tax %,Dec 2025,21.0
+YESBANK,quarters,Tax %,Mar 2026,25.0
+YESBANK,quarters,Tax %,Jun 2026,18.0
+YESBANK,quarters,Tax %,Sep 2026,21.0
+YESBANK,quarters,Net Profit,Sep 2023,225.0
+YESBANK,quarters,Net Profit,Dec 2023,231.0
+YESBANK,quarters,Net Profit,Mar 2024,452.0
+YESBANK,quarters,Net Profit,Jun 2024,502.0
+YESBANK,quarters,Net Profit,Sep 2024,553.0
+YESBANK,quarters,Net Profit,Dec 2024,612.0
+YESBANK,quarters,Net Profit,Mar 2025,738.0
+YESBANK,quarters,Net Profit,Jun 2025,801.0
+YESBANK,quarters,Net Profit,Sep 2025,654.0
+YESBANK,quarters,Net Profit,Dec 2025,952.0
+YESBANK,quarters,Net Profit,Mar 2026,1068.0
+YESBANK,quarters,Net Profit,Jun 2026,1071.0
+YESBANK,quarters,Net Profit,Sep 2026,1080.0
+YESBANK,quarters,EPS in Rs,Sep 2023,0.08
+YESBANK,quarters,EPS in Rs,Dec 2023,0.08
+YESBANK,quarters,EPS in Rs,Mar 2024,0.16
+YESBANK,quarters,EPS in Rs,Jun 2024,0.16
+YESBANK,quarters,EPS in Rs,Sep 2024,0.18
+YESBANK,quarters,EPS in Rs,Dec 2024,0.2
+YESBANK,quarters,EPS in Rs,Mar 2025,0.24
+YESBANK,quarters,EPS in Rs,Jun 2025,0.26
+YESBANK,quarters,EPS in Rs,Sep 2025,0.21
+YESBANK,quarters,EPS in Rs,Dec 2025,0.3
+YESBANK,quarters,EPS in Rs,Mar 2026,0.34
+YESBANK,quarters,EPS in Rs,Jun 2026,0.34
+YESBANK,quarters,EPS in Rs,Sep 2026,0.34
+YESBANK,quarters,Gross NPA %,Sep 2023,2.0
+YESBANK,quarters,Gross NPA %,Dec 2023,2.0
+YESBANK,quarters,Gross NPA %,Mar 2024,1.7
+YESBANK,quarters,Gross NPA %,Jun 2024,1.7
+YESBANK,quarters,Gross NPA %,Sep 2024,1.6
+YESBANK,quarters,Gross NPA %,Dec 2024,1.6
+YESBANK,quarters,Gross NPA %,Mar 2025,1.6
+YESBANK,quarters,Gross NPA %,Jun 2025,1.6
+YESBANK,quarters,Gross NPA %,Sep 2025,1.6
+YESBANK,quarters,Gross NPA %,Dec 2025,1.5
+YESBANK,quarters,Gross NPA %,Mar 2026,1.3
+YESBANK,quarters,Gross NPA %,Jun 2026,1.3
+YESBANK,quarters,Gross NPA %,Sep 2026,1.2
+YESBANK,quarters,Net NPA %,Sep 2023,0.9
+YESBANK,quarters,Net NPA %,Dec 2023,0.9
+YESBANK,quarters,Net NPA %,Mar 2024,0.6
+YESBANK,quarters,Net NPA %,Jun 2024,0.5
+YESBANK,quarters,Net NPA %,Sep 2024,0.5
+YESBANK,quarters,Net NPA %,Dec 2024,0.5
+YESBANK,quarters,Net NPA %,Mar 2025,0.3
+YESBANK,quarters,Net NPA %,Jun 2025,0.3
+YESBANK,quarters,Net NPA %,Sep 2025,0.3
+YESBANK,quarters,Net NPA %,Dec 2025,0.3
+YESBANK,quarters,Net NPA %,Mar 2026,0.2
+YESBANK,quarters,Net NPA %,Jun 2026,0.2
+YESBANK,quarters,Net NPA %,Sep 2026,0.2
+YESBANK,profit-loss,Revenue,Mar 2015,11572.0
+YESBANK,profit-loss,Revenue,Mar 2016,13533.0
+YESBANK,profit-loss,Revenue,Mar 2017,16425.0
+YESBANK,profit-loss,Revenue,Mar 2018,20267.0
+YESBANK,profit-loss,Revenue,Mar 2019,29625.0
+YESBANK,profit-loss,Revenue,Mar 2020,26067.0
+YESBANK,profit-loss,Revenue,Mar 2021,20042.0
+YESBANK,profit-loss,Revenue,Mar 2022,19024.0
+YESBANK,profit-loss,Revenue,Mar 2023,22697.0
+YESBANK,profit-loss,Revenue,Mar 2024,27586.0
+YESBANK,profit-loss,Revenue,Mar 2025,30895.0
+YESBANK,profit-loss,Revenue,Mar 2026,30169.0
+YESBANK,profit-loss,Revenue,TTM,31878.0
+YESBANK,profit-loss,Revenue growth,Mar 2015,16.0
+YESBANK,profit-loss,Revenue growth,Mar 2016,17.0
+YESBANK,profit-loss,Revenue growth,Mar 2017,21.0
+YESBANK,profit-loss,Revenue growth,Mar 2018,23.0
+YESBANK,profit-loss,Revenue growth,Mar 2019,46.0
+YESBANK,profit-loss,Revenue growth,Mar 2020,-12.0
+YESBANK,profit-loss,Revenue growth,Mar 2021,-23.0
+YESBANK,profit-loss,Revenue growth,Mar 2022,-5.0
+YESBANK,profit-loss,Revenue growth,Mar 2023,19.0
+YESBANK,profit-loss,Revenue growth,Mar 2024,22.0
+YESBANK,profit-loss,Revenue growth,Mar 2025,12.0
+YESBANK,profit-loss,Revenue growth,Mar 2026,-2.0
+YESBANK,profit-loss,Revenue growth,TTM,5.0
+YESBANK,profit-loss,Interest,Mar 2015,8084.0
+YESBANK,profit-loss,Interest,Mar 2016,8967.0
+YESBANK,profit-loss,Interest,Mar 2017,10627.0
+YESBANK,profit-loss,Interest,Mar 2018,12530.0
+YESBANK,profit-loss,Interest,Mar 2019,19816.0
+YESBANK,profit-loss,Interest,Mar 2020,19261.0
+YESBANK,profit-loss,Interest,Mar 2021,12613.0
+YESBANK,profit-loss,Interest,Mar 2022,12526.0
+YESBANK,profit-loss,Interest,Mar 2023,14780.0
+YESBANK,profit-loss,Interest,Mar 2024,19491.0
+YESBANK,profit-loss,Interest,Mar 2025,21951.0
+YESBANK,profit-loss,Interest,Mar 2026,20393.0
+YESBANK,profit-loss,Interest,TTM,21166.0
+YESBANK,profit-loss,Expenses,Mar 2015,2539.0
+YESBANK,profit-loss,Expenses,Mar 2016,3402.0
+YESBANK,profit-loss,Expenses,Mar 2017,4739.0
+YESBANK,profit-loss,Expenses,Mar 2018,6536.0
+YESBANK,profit-loss,Expenses,Mar 2019,11740.0
+YESBANK,profit-loss,Expenses,Mar 2020,39152.0
+YESBANK,profit-loss,Expenses,Mar 2021,14822.0
+YESBANK,profit-loss,Expenses,Mar 2022,7926.0
+YESBANK,profit-loss,Expenses,Mar 2023,10211.0
+YESBANK,profit-loss,Expenses,Mar 2024,11168.0
+YESBANK,profit-loss,Expenses,Mar 2025,11146.0
+YESBANK,profit-loss,Expenses,Mar 2026,11369.0
+YESBANK,profit-loss,Expenses,TTM,12442.0
+YESBANK,profit-loss,Financing Profit,Mar 2015,949.0
+YESBANK,profit-loss,Financing Profit,Mar 2016,1165.0
+YESBANK,profit-loss,Financing Profit,Mar 2017,1059.0
+YESBANK,profit-loss,Financing Profit,Mar 2018,1201.0
+YESBANK,profit-loss,Financing Profit,Mar 2019,-1931.0
+YESBANK,profit-loss,Financing Profit,Mar 2020,-32347.0
+YESBANK,profit-loss,Financing Profit,Mar 2021,-7394.0
+YESBANK,profit-loss,Financing Profit,Mar 2022,-1428.0
+YESBANK,profit-loss,Financing Profit,Mar 2023,-2293.0
+YESBANK,profit-loss,Financing Profit,Mar 2024,-3073.0
+YESBANK,profit-loss,Financing Profit,Mar 2025,-2202.0
+YESBANK,profit-loss,Financing Profit,Mar 2026,-1593.0
+YESBANK,profit-loss,Financing Profit,TTM,-1730.0
+YESBANK,profit-loss,Financing Margin %,Mar 2015,8.0
+YESBANK,profit-loss,Financing Margin %,Mar 2016,9.0
+YESBANK,profit-loss,Financing Margin %,Mar 2017,6.0
+YESBANK,profit-loss,Financing Margin %,Mar 2018,6.0
+YESBANK,profit-loss,Financing Margin %,Mar 2019,-7.0
+YESBANK,profit-loss,Financing Margin %,Mar 2020,-124.0
+YESBANK,profit-loss,Financing Margin %,Mar 2021,-37.0
+YESBANK,profit-loss,Financing Margin %,Mar 2022,-8.0
+YESBANK,profit-loss,Financing Margin %,Mar 2023,-10.0
+YESBANK,profit-loss,Financing Margin %,Mar 2024,-11.0
+YESBANK,profit-loss,Financing Margin %,Mar 2025,-7.0
+YESBANK,profit-loss,Financing Margin %,Mar 2026,-5.0
+YESBANK,profit-loss,Financing Margin %,TTM,-5.0
+YESBANK,profit-loss,Other Income,Mar 2015,2046.0
+YESBANK,profit-loss,Other Income,Mar 2016,2712.0
+YESBANK,profit-loss,Other Income,Mar 2017,4157.0
+YESBANK,profit-loss,Other Income,Mar 2018,5224.0
+YESBANK,profit-loss,Other Income,Mar 2019,4590.0
+YESBANK,profit-loss,Other Income,Mar 2020,11856.0
+YESBANK,profit-loss,Other Income,Mar 2021,3012.0
+YESBANK,profit-loss,Other Income,Mar 2022,3262.0
+YESBANK,profit-loss,Other Income,Mar 2023,3685.0
+YESBANK,profit-loss,Other Income,Mar 2024,5114.0
+YESBANK,profit-loss,Other Income,Mar 2025,5857.0
+YESBANK,profit-loss,Other Income,Mar 2026,6759.0
+YESBANK,profit-loss,Other Income,TTM,7042.0
+YESBANK,profit-loss,Depreciation,Mar 2015,85.0
+YESBANK,profit-loss,Depreciation,Mar 2016,111.0
+YESBANK,profit-loss,Depreciation,Mar 2017,171.0
+YESBANK,profit-loss,Depreciation,Mar 2018,231.0
+YESBANK,profit-loss,Depreciation,Mar 2019,302.0
+YESBANK,profit-loss,Depreciation,Mar 2020,336.0
+YESBANK,profit-loss,Depreciation,Mar 2021,353.0
+YESBANK,profit-loss,Depreciation,Mar 2022,398.0
+YESBANK,profit-loss,Depreciation,Mar 2023,429.0
+YESBANK,profit-loss,Depreciation,Mar 2024,541.0
+YESBANK,profit-loss,Depreciation,Mar 2025,487.0
+YESBANK,profit-loss,Depreciation,Mar 2026,572.0
+YESBANK,profit-loss,Depreciation,TTM,0.0
+YESBANK,profit-loss,Profit before tax,Mar 2015,2910.0
+YESBANK,profit-loss,Profit before tax,Mar 2016,3766.0
+YESBANK,profit-loss,Profit before tax,Mar 2017,5044.0
+YESBANK,profit-loss,Profit before tax,Mar 2018,6194.0
+YESBANK,profit-loss,Profit before tax,Mar 2019,2357.0
+YESBANK,profit-loss,Profit before tax,Mar 2020,-20826.0
+YESBANK,profit-loss,Profit before tax,Mar 2021,-4735.0
+YESBANK,profit-loss,Profit before tax,Mar 2022,1436.0
+YESBANK,profit-loss,Profit before tax,Mar 2023,963.0
+YESBANK,profit-loss,Profit before tax,Mar 2024,1500.0
+YESBANK,profit-loss,Profit before tax,Mar 2025,3168.0
+YESBANK,profit-loss,Profit before tax,Mar 2026,4594.0
+YESBANK,profit-loss,Profit before tax,TTM,5312.0
+YESBANK,profit-loss,Tax %,Mar 2015,31.0
+YESBANK,profit-loss,Tax %,Mar 2016,33.0
+YESBANK,profit-loss,Tax %,Mar 2017,34.0
+YESBANK,profit-loss,Tax %,Mar 2018,32.0
+YESBANK,profit-loss,Tax %,Mar 2019,27.0
+YESBANK,profit-loss,Tax %,Mar 2020,-21.0
+YESBANK,profit-loss,Tax %,Mar 2021,-27.0
+YESBANK,profit-loss,Tax %,Mar 2022,26.0
+YESBANK,profit-loss,Tax %,Mar 2023,26.0
+YESBANK,profit-loss,Tax %,Mar 2024,17.0
+YESBANK,profit-loss,Tax %,Mar 2025,24.0
+YESBANK,profit-loss,Tax %,Mar 2026,24.0
+YESBANK,profit-loss,Net Profit,Mar 2015,2005.0
+YESBANK,profit-loss,Net Profit,Mar 2016,2539.0
+YESBANK,profit-loss,Net Profit,Mar 2017,3330.0
+YESBANK,profit-loss,Net Profit,Mar 2018,4225.0
+YESBANK,profit-loss,Net Profit,Mar 2019,1720.0
+YESBANK,profit-loss,Net Profit,Mar 2020,-16418.0
+YESBANK,profit-loss,Net Profit,Mar 2021,-3462.0
+YESBANK,profit-loss,Net Profit,Mar 2022,1066.0
+YESBANK,profit-loss,Net Profit,Mar 2023,717.0
+YESBANK,profit-loss,Net Profit,Mar 2024,1251.0
+YESBANK,profit-loss,Net Profit,Mar 2025,2406.0
+YESBANK,profit-loss,Net Profit,Mar 2026,3476.0
+YESBANK,profit-loss,Net Profit,TTM,4171.0
+YESBANK,profit-loss,EPS in Rs,Mar 2015,9.6
+YESBANK,profit-loss,EPS in Rs,Mar 2016,12.08
+YESBANK,profit-loss,EPS in Rs,Mar 2017,14.59
+YESBANK,profit-loss,EPS in Rs,Mar 2018,18.34
+YESBANK,profit-loss,EPS in Rs,Mar 2019,7.43
+YESBANK,profit-loss,EPS in Rs,Mar 2020,-13.08
+YESBANK,profit-loss,EPS in Rs,Mar 2021,-1.38
+YESBANK,profit-loss,EPS in Rs,Mar 2022,0.43
+YESBANK,profit-loss,EPS in Rs,Mar 2023,0.25
+YESBANK,profit-loss,EPS in Rs,Mar 2024,0.43
+YESBANK,profit-loss,EPS in Rs,Mar 2025,0.77
+YESBANK,profit-loss,EPS in Rs,Mar 2026,1.11
+YESBANK,profit-loss,EPS in Rs,TTM,1.32
+YESBANK,profit-loss,Dividend Payout %,Mar 2015,19.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2016,17.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2017,16.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2018,15.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2019,27.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2020,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2021,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2022,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2023,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2024,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2025,0.0
+YESBANK,profit-loss,Dividend Payout %,Mar 2026,0.0
+YESBANK,balance-sheet,Equity Capital,Mar 2015,418.0
+YESBANK,balance-sheet,Equity Capital,Mar 2016,421.0
+YESBANK,balance-sheet,Equity Capital,Mar 2017,456.0
+YESBANK,balance-sheet,Equity Capital,Mar 2018,461.0
+YESBANK,balance-sheet,Equity Capital,Mar 2019,463.0
+YESBANK,balance-sheet,Equity Capital,Mar 2020,2510.0
+YESBANK,balance-sheet,Equity Capital,Mar 2021,5011.0
+YESBANK,balance-sheet,Equity Capital,Mar 2022,5011.0
+YESBANK,balance-sheet,Equity Capital,Mar 2023,5751.0
+YESBANK,balance-sheet,Equity Capital,Mar 2024,5754.0
+YESBANK,balance-sheet,Equity Capital,Mar 2025,6271.0
+YESBANK,balance-sheet,Equity Capital,Mar 2026,6276.0
+YESBANK,balance-sheet,Equity Capital,Sep 2026,6278.0
+YESBANK,balance-sheet,Reserves,Mar 2015,11262.0
+YESBANK,balance-sheet,Reserves,Mar 2016,13366.0
+YESBANK,balance-sheet,Reserves,Mar 2017,21598.0
+YESBANK,balance-sheet,Reserves,Mar 2018,25298.0
+YESBANK,balance-sheet,Reserves,Mar 2019,26441.0
+YESBANK,balance-sheet,Reserves,Mar 2020,19216.0
+YESBANK,balance-sheet,Reserves,Mar 2021,28185.0
+YESBANK,balance-sheet,Reserves,Mar 2022,28731.0
+YESBANK,balance-sheet,Reserves,Mar 2023,34992.0
+YESBANK,balance-sheet,Reserves,Mar 2024,36392.0
+YESBANK,balance-sheet,Reserves,Mar 2025,41509.0
+YESBANK,balance-sheet,Reserves,Mar 2026,44786.0
+YESBANK,balance-sheet,Reserves,Sep 2026,46990.0
+YESBANK,balance-sheet,Deposits,Mar 2015,91176.0
+YESBANK,balance-sheet,Deposits,Mar 2016,111720.0
+YESBANK,balance-sheet,Deposits,Mar 2017,142874.0
+YESBANK,balance-sheet,Deposits,Mar 2018,200738.0
+YESBANK,balance-sheet,Deposits,Mar 2019,227610.0
+YESBANK,balance-sheet,Deposits,Mar 2020,105364.0
+YESBANK,balance-sheet,Deposits,Mar 2021,162947.0
+YESBANK,balance-sheet,Deposits,Mar 2022,197192.0
+YESBANK,balance-sheet,Deposits,Mar 2023,217502.0
+YESBANK,balance-sheet,Deposits,Mar 2024,266372.0
+YESBANK,balance-sheet,Deposits,Mar 2025,284525.0
+YESBANK,balance-sheet,Deposits,Mar 2026,318969.0
+YESBANK,balance-sheet,Deposits,Sep 2026,354004.0
+YESBANK,balance-sheet,Borrowing,Mar 2015,26220.0
+YESBANK,balance-sheet,Borrowing,Mar 2016,31659.0
+YESBANK,balance-sheet,Borrowing,Mar 2017,38607.0
+YESBANK,balance-sheet,Borrowing,Mar 2018,74894.0
+YESBANK,balance-sheet,Borrowing,Mar 2019,108424.0
+YESBANK,balance-sheet,Borrowing,Mar 2020,113790.0
+YESBANK,balance-sheet,Borrowing,Mar 2021,63949.0
+YESBANK,balance-sheet,Borrowing,Mar 2022,72205.0
+YESBANK,balance-sheet,Borrowing,Mar 2023,77452.0
+YESBANK,balance-sheet,Borrowing,Mar 2024,79941.0
+YESBANK,balance-sheet,Borrowing,Mar 2025,71603.0
+YESBANK,balance-sheet,Borrowing,Mar 2026,64864.0
+YESBANK,balance-sheet,Borrowing,Sep 2026,77734.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2015,7094.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2016,8098.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2017,11525.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2018,11056.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2019,17888.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2020,16946.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2021,13451.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2022,15082.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2023,19090.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2024,17035.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2025,19514.0
+YESBANK,balance-sheet,Other Liabilities,Mar 2026,34210.0
+YESBANK,balance-sheet,Other Liabilities,Sep 2026,28764.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2015,136170.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2016,165263.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2017,215060.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2018,312446.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2019,380826.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2020,257827.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2021,273543.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2022,318220.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2023,354786.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2024,405493.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2025,423422.0
+YESBANK,balance-sheet,Total Liabilities,Mar 2026,469105.0
+YESBANK,balance-sheet,Total Liabilities,Sep 2026,513770.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2015,293.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2016,412.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2017,609.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2018,761.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2019,767.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2020,716.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2021,2087.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2022,2009.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2023,2149.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2024,2500.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2025,2859.0
+YESBANK,balance-sheet,Fixed Assets,Mar 2026,3077.0
+YESBANK,balance-sheet,Fixed Assets,Sep 2026,3226.0
+YESBANK,balance-sheet,CWIP,Mar 2015,26.0
+YESBANK,balance-sheet,CWIP,Mar 2016,59.0
+YESBANK,balance-sheet,CWIP,Mar 2017,75.0
+YESBANK,balance-sheet,CWIP,Mar 2018,72.0
+YESBANK,balance-sheet,CWIP,Mar 2019,50.0
+YESBANK,balance-sheet,CWIP,Mar 2020,293.0
+YESBANK,balance-sheet,CWIP,Mar 2021,62.0
+YESBANK,balance-sheet,CWIP,Mar 2022,124.0
+YESBANK,balance-sheet,CWIP,Mar 2023,296.0
+YESBANK,balance-sheet,CWIP,Mar 2024,357.0
+YESBANK,balance-sheet,CWIP,Mar 2025,206.0
+YESBANK,balance-sheet,CWIP,Mar 2026,101.0
+YESBANK,balance-sheet,CWIP,Sep 2026,0.0
+YESBANK,balance-sheet,Investments,Mar 2015,43228.0
+YESBANK,balance-sheet,Investments,Mar 2016,48838.0
+YESBANK,balance-sheet,Investments,Mar 2017,50032.0
+YESBANK,balance-sheet,Investments,Mar 2018,68399.0
+YESBANK,balance-sheet,Investments,Mar 2019,89522.0
+YESBANK,balance-sheet,Investments,Mar 2020,43915.0
+YESBANK,balance-sheet,Investments,Mar 2021,43319.0
+YESBANK,balance-sheet,Investments,Mar 2022,51896.0
+YESBANK,balance-sheet,Investments,Mar 2023,76888.0
+YESBANK,balance-sheet,Investments,Mar 2024,90235.0
+YESBANK,balance-sheet,Investments,Mar 2025,85104.0
+YESBANK,balance-sheet,Investments,Mar 2026,88140.0
+YESBANK,balance-sheet,Investments,Sep 2026,100355.0
+YESBANK,balance-sheet,Other Assets,Mar 2015,92623.0
+YESBANK,balance-sheet,Other Assets,Mar 2016,115954.0
+YESBANK,balance-sheet,Other Assets,Mar 2017,164345.0
+YESBANK,balance-sheet,Other Assets,Mar 2018,243214.0
+YESBANK,balance-sheet,Other Assets,Mar 2019,290487.0
+YESBANK,balance-sheet,Other Assets,Mar 2020,212903.0
+YESBANK,balance-sheet,Other Assets,Mar 2021,228075.0
+YESBANK,balance-sheet,Other Assets,Mar 2022,264192.0
+YESBANK,balance-sheet,Other Assets,Mar 2023,275453.0
+YESBANK,balance-sheet,Other Assets,Mar 2024,312401.0
+YESBANK,balance-sheet,Other Assets,Mar 2025,335252.0
+YESBANK,balance-sheet,Other Assets,Mar 2026,377787.0
+YESBANK,balance-sheet,Other Assets,Sep 2026,410189.0
+YESBANK,balance-sheet,Total Assets,Mar 2015,136170.0
+YESBANK,balance-sheet,Total Assets,Mar 2016,165263.0
+YESBANK,balance-sheet,Total Assets,Mar 2017,215060.0
+YESBANK,balance-sheet,Total Assets,Mar 2018,312446.0
+YESBANK,balance-sheet,Total Assets,Mar 2019,380826.0
+YESBANK,balance-sheet,Total Assets,Mar 2020,257827.0
+YESBANK,balance-sheet,Total Assets,Mar 2021,273543.0
+YESBANK,balance-sheet,Total Assets,Mar 2022,318220.0
+YESBANK,balance-sheet,Total Assets,Mar 2023,354786.0
+YESBANK,balance-sheet,Total Assets,Mar 2024,405493.0
+YESBANK,balance-sheet,Total Assets,Mar 2025,423422.0
+YESBANK,balance-sheet,Total Assets,Mar 2026,469105.0
+YESBANK,balance-sheet,Total Assets,Sep 2026,513770.0
+YESBANK,ratios,ROE %,Mar 2015,21.0
+YESBANK,ratios,ROE %,Mar 2016,20.0
+YESBANK,ratios,ROE %,Mar 2017,19.0
+YESBANK,ratios,ROE %,Mar 2018,18.0
+YESBANK,ratios,ROE %,Mar 2019,7.0
+YESBANK,ratios,ROE %,Mar 2020,-68.0
+YESBANK,ratios,ROE %,Mar 2021,-13.0
+YESBANK,ratios,ROE %,Mar 2022,3.0
+YESBANK,ratios,ROE %,Mar 2023,2.0
+YESBANK,ratios,ROE %,Mar 2024,3.0
+YESBANK,ratios,ROE %,Mar 2025,5.0
+YESBANK,ratios,ROE %,Mar 2026,7.0

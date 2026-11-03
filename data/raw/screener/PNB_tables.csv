@@ -1,0 +1,505 @@
+symbol,section,line_item,period,value
+PNB,quarters,Revenue,Sep 2023,26355.0
+PNB,quarters,Revenue,Dec 2023,27288.0
+PNB,quarters,Revenue,Mar 2024,28113.0
+PNB,quarters,Revenue,Jun 2024,28556.0
+PNB,quarters,Revenue,Sep 2024,29875.0
+PNB,quarters,Revenue,Dec 2024,31340.0
+PNB,quarters,Revenue,Mar 2025,31989.0
+PNB,quarters,Revenue,Jun 2025,31964.0
+PNB,quarters,Revenue,Sep 2025,31872.0
+PNB,quarters,Revenue,Dec 2025,32231.0
+PNB,quarters,Revenue,Mar 2026,32157.0
+PNB,quarters,Revenue,Jun 2026,32897.0
+PNB,quarters,Revenue,Sep 2026,34585.0
+PNB,quarters,YoY Revenue growth,Sep 2023,31.0
+PNB,quarters,YoY Revenue growth,Dec 2023,22.0
+PNB,quarters,YoY Revenue growth,Mar 2024,18.0
+PNB,quarters,YoY Revenue growth,Jun 2024,14.0
+PNB,quarters,YoY Revenue growth,Sep 2024,13.0
+PNB,quarters,YoY Revenue growth,Dec 2024,15.0
+PNB,quarters,YoY Revenue growth,Mar 2025,14.0
+PNB,quarters,YoY Revenue growth,Jun 2025,12.0
+PNB,quarters,YoY Revenue growth,Sep 2025,7.0
+PNB,quarters,YoY Revenue growth,Dec 2025,3.0
+PNB,quarters,YoY Revenue growth,Mar 2026,1.0
+PNB,quarters,YoY Revenue growth,Jun 2026,3.0
+PNB,quarters,YoY Revenue growth,Sep 2026,9.0
+PNB,quarters,Interest,Sep 2023,16432.0
+PNB,quarters,Interest,Dec 2023,16995.0
+PNB,quarters,Interest,Mar 2024,17750.0
+PNB,quarters,Interest,Jun 2024,18080.0
+PNB,quarters,Interest,Sep 2024,19358.0
+PNB,quarters,Interest,Dec 2024,20308.0
+PNB,quarters,Interest,Mar 2025,21232.0
+PNB,quarters,Interest,Jun 2025,21386.0
+PNB,quarters,Interest,Sep 2025,21403.0
+PNB,quarters,Interest,Dec 2025,21698.0
+PNB,quarters,Interest,Mar 2026,21776.0
+PNB,quarters,Interest,Jun 2026,22099.0
+PNB,quarters,Interest,Sep 2026,22984.0
+PNB,quarters,Expenses,Sep 2023,10179.0
+PNB,quarters,Expenses,Dec 2023,9375.0
+PNB,quarters,Expenses,Mar 2024,9783.0
+PNB,quarters,Expenses,Jun 2024,8817.0
+PNB,quarters,Expenses,Sep 2024,8523.0
+PNB,quarters,Expenses,Dec 2024,7538.0
+PNB,quarters,Expenses,Mar 2025,9057.0
+PNB,quarters,Expenses,Jun 2025,9088.0
+PNB,quarters,Expenses,Sep 2025,8227.0
+PNB,quarters,Expenses,Dec 2025,9224.0
+PNB,quarters,Expenses,Mar 2026,7466.0
+PNB,quarters,Expenses,Jun 2026,8154.0
+PNB,quarters,Expenses,Sep 2026,7767.0
+PNB,quarters,Financing Profit,Sep 2023,-256.0
+PNB,quarters,Financing Profit,Dec 2023,918.0
+PNB,quarters,Financing Profit,Mar 2024,580.0
+PNB,quarters,Financing Profit,Jun 2024,1659.0
+PNB,quarters,Financing Profit,Sep 2024,1993.0
+PNB,quarters,Financing Profit,Dec 2024,3494.0
+PNB,quarters,Financing Profit,Mar 2025,1700.0
+PNB,quarters,Financing Profit,Jun 2025,1490.0
+PNB,quarters,Financing Profit,Sep 2025,2242.0
+PNB,quarters,Financing Profit,Dec 2025,1309.0
+PNB,quarters,Financing Profit,Mar 2026,2915.0
+PNB,quarters,Financing Profit,Jun 2026,2645.0
+PNB,quarters,Financing Profit,Sep 2026,3834.0
+PNB,quarters,Financing Margin %,Sep 2023,-1.0
+PNB,quarters,Financing Margin %,Dec 2023,3.0
+PNB,quarters,Financing Margin %,Mar 2024,2.0
+PNB,quarters,Financing Margin %,Jun 2024,6.0
+PNB,quarters,Financing Margin %,Sep 2024,7.0
+PNB,quarters,Financing Margin %,Dec 2024,11.0
+PNB,quarters,Financing Margin %,Mar 2025,5.0
+PNB,quarters,Financing Margin %,Jun 2025,5.0
+PNB,quarters,Financing Margin %,Sep 2025,7.0
+PNB,quarters,Financing Margin %,Dec 2025,4.0
+PNB,quarters,Financing Margin %,Mar 2026,9.0
+PNB,quarters,Financing Margin %,Jun 2026,8.0
+PNB,quarters,Financing Margin %,Sep 2026,11.0
+PNB,quarters,Other Income,Sep 2023,3028.0
+PNB,quarters,Other Income,Dec 2023,2674.0
+PNB,quarters,Other Income,Mar 2024,4248.0
+PNB,quarters,Other Income,Jun 2024,3610.0
+PNB,quarters,Other Income,Sep 2024,4572.0
+PNB,quarters,Other Income,Dec 2024,3412.0
+PNB,quarters,Other Income,Mar 2025,4716.0
+PNB,quarters,Other Income,Jun 2025,5268.0
+PNB,quarters,Other Income,Sep 2025,4342.0
+PNB,quarters,Other Income,Dec 2025,5022.0
+PNB,quarters,Other Income,Mar 2026,4162.0
+PNB,quarters,Other Income,Jun 2026,4333.0
+PNB,quarters,Other Income,Sep 2026,3601.0
+PNB,quarters,Depreciation,Sep 2023,0.0
+PNB,quarters,Depreciation,Dec 2023,0.0
+PNB,quarters,Depreciation,Mar 2024,0.0
+PNB,quarters,Depreciation,Jun 2024,0.0
+PNB,quarters,Depreciation,Sep 2024,0.0
+PNB,quarters,Depreciation,Dec 2024,0.0
+PNB,quarters,Depreciation,Mar 2025,0.0
+PNB,quarters,Depreciation,Jun 2025,0.0
+PNB,quarters,Depreciation,Sep 2025,0.0
+PNB,quarters,Depreciation,Dec 2025,0.0
+PNB,quarters,Depreciation,Mar 2026,0.0
+PNB,quarters,Depreciation,Jun 2026,0.0
+PNB,quarters,Depreciation,Sep 2026,0.0
+PNB,quarters,Profit before tax,Sep 2023,2772.0
+PNB,quarters,Profit before tax,Dec 2023,3592.0
+PNB,quarters,Profit before tax,Mar 2024,4828.0
+PNB,quarters,Profit before tax,Jun 2024,5269.0
+PNB,quarters,Profit before tax,Sep 2024,6565.0
+PNB,quarters,Profit before tax,Dec 2024,6906.0
+PNB,quarters,Profit before tax,Mar 2025,6416.0
+PNB,quarters,Profit before tax,Jun 2025,6758.0
+PNB,quarters,Profit before tax,Sep 2025,6584.0
+PNB,quarters,Profit before tax,Dec 2025,6331.0
+PNB,quarters,Profit before tax,Mar 2026,7077.0
+PNB,quarters,Profit before tax,Jun 2026,6978.0
+PNB,quarters,Profit before tax,Sep 2026,7435.0
+PNB,quarters,Tax %,Sep 2023,37.0
+PNB,quarters,Tax %,Dec 2023,38.0
+PNB,quarters,Tax %,Mar 2024,38.0
+PNB,quarters,Tax %,Jun 2024,38.0
+PNB,quarters,Tax %,Sep 2024,34.0
+PNB,quarters,Tax %,Dec 2024,35.0
+PNB,quarters,Tax %,Mar 2025,29.0
+PNB,quarters,Tax %,Jun 2025,75.0
+PNB,quarters,Tax %,Sep 2025,26.0
+PNB,quarters,Tax %,Dec 2025,19.0
+PNB,quarters,Tax %,Mar 2026,26.0
+PNB,quarters,Tax %,Jun 2026,25.0
+PNB,quarters,Tax %,Sep 2026,26.0
+PNB,quarters,Net Profit,Sep 2023,1756.0
+PNB,quarters,Net Profit,Dec 2023,2223.0
+PNB,quarters,Net Profit,Mar 2024,3010.0
+PNB,quarters,Net Profit,Jun 2024,3252.0
+PNB,quarters,Net Profit,Sep 2024,4303.0
+PNB,quarters,Net Profit,Dec 2024,4508.0
+PNB,quarters,Net Profit,Mar 2025,4567.0
+PNB,quarters,Net Profit,Jun 2025,1675.0
+PNB,quarters,Net Profit,Sep 2025,4904.0
+PNB,quarters,Net Profit,Dec 2025,5100.0
+PNB,quarters,Net Profit,Mar 2026,5225.0
+PNB,quarters,Net Profit,Jun 2026,5253.0
+PNB,quarters,Net Profit,Sep 2026,5532.0
+PNB,quarters,EPS in Rs,Sep 2023,1.59
+PNB,quarters,EPS in Rs,Dec 2023,2.02
+PNB,quarters,EPS in Rs,Mar 2024,2.73
+PNB,quarters,EPS in Rs,Jun 2024,2.95
+PNB,quarters,EPS in Rs,Sep 2024,3.74
+PNB,quarters,EPS in Rs,Dec 2024,3.92
+PNB,quarters,EPS in Rs,Mar 2025,3.97
+PNB,quarters,EPS in Rs,Jun 2025,1.46
+PNB,quarters,EPS in Rs,Sep 2025,4.27
+PNB,quarters,EPS in Rs,Dec 2025,4.44
+PNB,quarters,EPS in Rs,Mar 2026,4.55
+PNB,quarters,EPS in Rs,Jun 2026,4.57
+PNB,quarters,EPS in Rs,Sep 2026,4.81
+PNB,quarters,Gross NPA %,Sep 2023,6.96
+PNB,quarters,Gross NPA %,Dec 2023,6.24
+PNB,quarters,Gross NPA %,Mar 2024,5.73
+PNB,quarters,Gross NPA %,Jun 2024,4.98
+PNB,quarters,Gross NPA %,Sep 2024,4.48
+PNB,quarters,Gross NPA %,Dec 2024,4.09
+PNB,quarters,Gross NPA %,Mar 2025,3.95
+PNB,quarters,Gross NPA %,Jun 2025,3.78
+PNB,quarters,Gross NPA %,Sep 2025,3.45
+PNB,quarters,Gross NPA %,Dec 2025,3.19
+PNB,quarters,Gross NPA %,Mar 2026,2.95
+PNB,quarters,Gross NPA %,Jun 2026,2.78
+PNB,quarters,Gross NPA %,Sep 2026,2.55
+PNB,quarters,Net NPA %,Sep 2023,1.47
+PNB,quarters,Net NPA %,Dec 2023,0.96
+PNB,quarters,Net NPA %,Mar 2024,0.73
+PNB,quarters,Net NPA %,Jun 2024,0.6
+PNB,quarters,Net NPA %,Sep 2024,0.46
+PNB,quarters,Net NPA %,Dec 2024,0.41
+PNB,quarters,Net NPA %,Mar 2025,0.4
+PNB,quarters,Net NPA %,Jun 2025,0.38
+PNB,quarters,Net NPA %,Sep 2025,0.36
+PNB,quarters,Net NPA %,Dec 2025,0.32
+PNB,quarters,Net NPA %,Mar 2026,0.29
+PNB,quarters,Net NPA %,Jun 2026,0.28
+PNB,quarters,Net NPA %,Sep 2026,0.25
+PNB,profit-loss,Revenue,Mar 2015,46315.0
+PNB,profit-loss,Revenue,Mar 2016,47424.0
+PNB,profit-loss,Revenue,Mar 2017,47276.0
+PNB,profit-loss,Revenue,Mar 2018,47996.0
+PNB,profit-loss,Revenue,Mar 2019,51310.0
+PNB,profit-loss,Revenue,Mar 2020,53800.0
+PNB,profit-loss,Revenue,Mar 2021,80818.0
+PNB,profit-loss,Revenue,Mar 2022,74880.0
+PNB,profit-loss,Revenue,Mar 2023,85144.0
+PNB,profit-loss,Revenue,Mar 2024,106902.0
+PNB,profit-loss,Revenue,Mar 2025,121761.0
+PNB,profit-loss,Revenue,Mar 2026,128223.0
+PNB,profit-loss,Revenue,TTM,131870.0
+PNB,profit-loss,Revenue growth,Mar 2015,7.0
+PNB,profit-loss,Revenue growth,Mar 2016,2.0
+PNB,profit-loss,Revenue growth,Mar 2017,-0.0
+PNB,profit-loss,Revenue growth,Mar 2018,2.0
+PNB,profit-loss,Revenue growth,Mar 2019,7.0
+PNB,profit-loss,Revenue growth,Mar 2020,5.0
+PNB,profit-loss,Revenue growth,Mar 2021,50.0
+PNB,profit-loss,Revenue growth,Mar 2022,-7.0
+PNB,profit-loss,Revenue growth,Mar 2023,14.0
+PNB,profit-loss,Revenue growth,Mar 2024,26.0
+PNB,profit-loss,Revenue growth,Mar 2025,14.0
+PNB,profit-loss,Revenue growth,Mar 2026,5.0
+PNB,profit-loss,Revenue growth,TTM,4.0
+PNB,profit-loss,Interest,Mar 2015,29760.0
+PNB,profit-loss,Interest,Mar 2016,32113.0
+PNB,profit-loss,Interest,Mar 2017,32283.0
+PNB,profit-loss,Interest,Mar 2018,33073.0
+PNB,profit-loss,Interest,Mar 2019,34154.0
+PNB,profit-loss,Interest,Mar 2020,36362.0
+PNB,profit-loss,Interest,Mar 2021,50273.0
+PNB,profit-loss,Interest,Mar 2022,46185.0
+PNB,profit-loss,Interest,Mar 2023,50652.0
+PNB,profit-loss,Interest,Mar 2024,66819.0
+PNB,profit-loss,Interest,Mar 2025,78979.0
+PNB,profit-loss,Interest,Mar 2026,86263.0
+PNB,profit-loss,Interest,TTM,88557.0
+PNB,profit-loss,Expenses,Mar 2015,18119.0
+PNB,profit-loss,Expenses,Mar 2016,26654.0
+PNB,profit-loss,Expenses,Mar 2017,21508.0
+PNB,profit-loss,Expenses,Mar 2018,42802.0
+PNB,profit-loss,Expenses,Mar 2019,39301.0
+PNB,profit-loss,Expenses,Mar 2020,25365.0
+PNB,profit-loss,Expenses,Mar 2021,38014.0
+PNB,profit-loss,Expenses,Mar 2022,35809.0
+PNB,profit-loss,Expenses,Mar 2023,41449.0
+PNB,profit-loss,Expenses,Mar 2024,39377.0
+PNB,profit-loss,Expenses,Mar 2025,32988.0
+PNB,profit-loss,Expenses,Mar 2026,32732.0
+PNB,profit-loss,Expenses,TTM,32610.0
+PNB,profit-loss,Financing Profit,Mar 2015,-1563.0
+PNB,profit-loss,Financing Profit,Mar 2016,-11342.0
+PNB,profit-loss,Financing Profit,Mar 2017,-6515.0
+PNB,profit-loss,Financing Profit,Mar 2018,-27880.0
+PNB,profit-loss,Financing Profit,Mar 2019,-22145.0
+PNB,profit-loss,Financing Profit,Mar 2020,-7927.0
+PNB,profit-loss,Financing Profit,Mar 2021,-7468.0
+PNB,profit-loss,Financing Profit,Mar 2022,-7115.0
+PNB,profit-loss,Financing Profit,Mar 2023,-6958.0
+PNB,profit-loss,Financing Profit,Mar 2024,706.0
+PNB,profit-loss,Financing Profit,Mar 2025,9794.0
+PNB,profit-loss,Financing Profit,Mar 2026,9227.0
+PNB,profit-loss,Financing Profit,TTM,10702.0
+PNB,profit-loss,Financing Margin %,Mar 2015,-3.0
+PNB,profit-loss,Financing Margin %,Mar 2016,-24.0
+PNB,profit-loss,Financing Margin %,Mar 2017,-14.0
+PNB,profit-loss,Financing Margin %,Mar 2018,-58.0
+PNB,profit-loss,Financing Margin %,Mar 2019,-43.0
+PNB,profit-loss,Financing Margin %,Mar 2020,-15.0
+PNB,profit-loss,Financing Margin %,Mar 2021,-9.0
+PNB,profit-loss,Financing Margin %,Mar 2022,-10.0
+PNB,profit-loss,Financing Margin %,Mar 2023,-8.0
+PNB,profit-loss,Financing Margin %,Mar 2024,1.0
+PNB,profit-loss,Financing Margin %,Mar 2025,8.0
+PNB,profit-loss,Financing Margin %,Mar 2026,7.0
+PNB,profit-loss,Financing Margin %,TTM,8.0
+PNB,profit-loss,Other Income,Mar 2015,5891.0
+PNB,profit-loss,Other Income,Mar 2016,6000.0
+PNB,profit-loss,Other Income,Mar 2017,8951.0
+PNB,profit-loss,Other Income,Mar 2018,8881.0
+PNB,profit-loss,Other Income,Mar 2019,7377.0
+PNB,profit-loss,Other Income,Mar 2020,9274.0
+PNB,profit-loss,Other Income,Mar 2021,11922.0
+PNB,profit-loss,Other Income,Mar 2022,12320.0
+PNB,profit-loss,Other Income,Mar 2023,12143.0
+PNB,profit-loss,Other Income,Mar 2024,13384.0
+PNB,profit-loss,Other Income,Mar 2025,16309.0
+PNB,profit-loss,Other Income,Mar 2026,18794.0
+PNB,profit-loss,Other Income,TTM,17118.0
+PNB,profit-loss,Depreciation,Mar 2015,370.0
+PNB,profit-loss,Depreciation,Mar 2016,396.0
+PNB,profit-loss,Depreciation,Mar 2017,425.0
+PNB,profit-loss,Depreciation,Mar 2018,576.0
+PNB,profit-loss,Depreciation,Mar 2019,578.0
+PNB,profit-loss,Depreciation,Mar 2020,608.0
+PNB,profit-loss,Depreciation,Mar 2021,975.0
+PNB,profit-loss,Depreciation,Mar 2022,889.0
+PNB,profit-loss,Depreciation,Mar 2023,897.0
+PNB,profit-loss,Depreciation,Mar 2024,895.0
+PNB,profit-loss,Depreciation,Mar 2025,948.0
+PNB,profit-loss,Depreciation,Mar 2026,1272.0
+PNB,profit-loss,Depreciation,TTM,0.0
+PNB,profit-loss,Profit before tax,Mar 2015,3957.0
+PNB,profit-loss,Profit before tax,Mar 2016,-5738.0
+PNB,profit-loss,Profit before tax,Mar 2017,2012.0
+PNB,profit-loss,Profit before tax,Mar 2018,-19575.0
+PNB,profit-loss,Profit before tax,Mar 2019,-15346.0
+PNB,profit-loss,Profit before tax,Mar 2020,739.0
+PNB,profit-loss,Profit before tax,Mar 2021,3479.0
+PNB,profit-loss,Profit before tax,Mar 2022,4316.0
+PNB,profit-loss,Profit before tax,Mar 2023,4288.0
+PNB,profit-loss,Profit before tax,Mar 2024,13194.0
+PNB,profit-loss,Profit before tax,Mar 2025,25156.0
+PNB,profit-loss,Profit before tax,Mar 2026,26750.0
+PNB,profit-loss,Profit before tax,TTM,27820.0
+PNB,profit-loss,Tax %,Mar 2015,23.0
+PNB,profit-loss,Tax %,Mar 2016,-31.0
+PNB,profit-loss,Tax %,Mar 2017,34.0
+PNB,profit-loss,Tax %,Mar 2018,-37.0
+PNB,profit-loss,Tax %,Mar 2019,-35.0
+PNB,profit-loss,Tax %,Mar 2020,55.0
+PNB,profit-loss,Tax %,Mar 2021,42.0
+PNB,profit-loss,Tax %,Mar 2022,20.0
+PNB,profit-loss,Tax %,Mar 2023,42.0
+PNB,profit-loss,Tax %,Mar 2024,38.0
+PNB,profit-loss,Tax %,Mar 2025,34.0
+PNB,profit-loss,Tax %,Mar 2026,37.0
+PNB,profit-loss,Net Profit,Mar 2015,3062.0
+PNB,profit-loss,Net Profit,Mar 2016,-3974.0
+PNB,profit-loss,Net Profit,Mar 2017,1325.0
+PNB,profit-loss,Net Profit,Mar 2018,-12283.0
+PNB,profit-loss,Net Profit,Mar 2019,-9975.0
+PNB,profit-loss,Net Profit,Mar 2020,336.0
+PNB,profit-loss,Net Profit,Mar 2021,2022.0
+PNB,profit-loss,Net Profit,Mar 2022,3457.0
+PNB,profit-loss,Net Profit,Mar 2023,2507.0
+PNB,profit-loss,Net Profit,Mar 2024,8245.0
+PNB,profit-loss,Net Profit,Mar 2025,16630.0
+PNB,profit-loss,Net Profit,Mar 2026,16904.0
+PNB,profit-loss,Net Profit,TTM,21111.0
+PNB,profit-loss,EPS in Rs,Mar 2015,16.51
+PNB,profit-loss,EPS in Rs,Mar 2016,-20.24
+PNB,profit-loss,EPS in Rs,Mar 2017,6.23
+PNB,profit-loss,EPS in Rs,Mar 2018,-44.49
+PNB,profit-loss,EPS in Rs,Mar 2019,-21.67
+PNB,profit-loss,EPS in Rs,Mar 2020,0.5
+PNB,profit-loss,EPS in Rs,Mar 2021,1.93
+PNB,profit-loss,EPS in Rs,Mar 2022,3.14
+PNB,profit-loss,EPS in Rs,Mar 2023,2.28
+PNB,profit-loss,EPS in Rs,Mar 2024,7.49
+PNB,profit-loss,EPS in Rs,Mar 2025,14.47
+PNB,profit-loss,EPS in Rs,Mar 2026,14.71
+PNB,profit-loss,EPS in Rs,TTM,18.37
+PNB,profit-loss,Dividend Payout %,Mar 2015,20.0
+PNB,profit-loss,Dividend Payout %,Mar 2016,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2017,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2018,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2019,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2020,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2021,0.0
+PNB,profit-loss,Dividend Payout %,Mar 2022,20.0
+PNB,profit-loss,Dividend Payout %,Mar 2023,29.0
+PNB,profit-loss,Dividend Payout %,Mar 2024,20.0
+PNB,profit-loss,Dividend Payout %,Mar 2025,20.0
+PNB,profit-loss,Dividend Payout %,Mar 2026,20.0
+PNB,balance-sheet,Equity Capital,Mar 2015,371.0
+PNB,balance-sheet,Equity Capital,Mar 2016,393.0
+PNB,balance-sheet,Equity Capital,Mar 2017,426.0
+PNB,balance-sheet,Equity Capital,Mar 2018,552.0
+PNB,balance-sheet,Equity Capital,Mar 2019,921.0
+PNB,balance-sheet,Equity Capital,Mar 2020,1348.0
+PNB,balance-sheet,Equity Capital,Mar 2021,2096.0
+PNB,balance-sheet,Equity Capital,Mar 2022,2202.0
+PNB,balance-sheet,Equity Capital,Mar 2023,2202.0
+PNB,balance-sheet,Equity Capital,Mar 2024,2202.0
+PNB,balance-sheet,Equity Capital,Mar 2025,2299.0
+PNB,balance-sheet,Equity Capital,Mar 2026,2299.0
+PNB,balance-sheet,Equity Capital,Sep 2026,2299.0
+PNB,balance-sheet,Reserves,Mar 2015,38709.0
+PNB,balance-sheet,Reserves,Mar 2016,37917.0
+PNB,balance-sheet,Reserves,Mar 2017,41672.0
+PNB,balance-sheet,Reserves,Mar 2018,40522.0
+PNB,balance-sheet,Reserves,Mar 2019,43866.0
+PNB,balance-sheet,Reserves,Mar 2020,61010.0
+PNB,balance-sheet,Reserves,Mar 2021,88842.0
+PNB,balance-sheet,Reserves,Mar 2022,93285.0
+PNB,balance-sheet,Reserves,Mar 2023,97653.0
+PNB,balance-sheet,Reserves,Mar 2024,104274.0
+PNB,balance-sheet,Reserves,Mar 2025,125064.0
+PNB,balance-sheet,Reserves,Mar 2026,140351.0
+PNB,balance-sheet,Reserves,Sep 2026,150478.0
+PNB,balance-sheet,Deposits,Mar 2015,519309.0
+PNB,balance-sheet,Deposits,Mar 2016,553051.0
+PNB,balance-sheet,Deposits,Mar 2017,621704.0
+PNB,balance-sheet,Deposits,Mar 2018,642226.0
+PNB,balance-sheet,Deposits,Mar 2019,676030.0
+PNB,balance-sheet,Deposits,Mar 2020,703846.0
+PNB,balance-sheet,Deposits,Mar 2021,1106332.0
+PNB,balance-sheet,Deposits,Mar 2022,1146218.0
+PNB,balance-sheet,Deposits,Mar 2023,1281163.0
+PNB,balance-sheet,Deposits,Mar 2024,1369713.0
+PNB,balance-sheet,Deposits,Mar 2025,1566623.0
+PNB,balance-sheet,Deposits,Mar 2026,1711126.0
+PNB,balance-sheet,Deposits,Sep 2026,1777240.0
+PNB,balance-sheet,Borrowing,Mar 2015,27740.0
+PNB,balance-sheet,Borrowing,Mar 2016,59755.0
+PNB,balance-sheet,Borrowing,Mar 2017,40763.0
+PNB,balance-sheet,Borrowing,Mar 2018,60851.0
+PNB,balance-sheet,Borrowing,Mar 2019,39326.0
+PNB,balance-sheet,Borrowing,Mar 2020,50225.0
+PNB,balance-sheet,Borrowing,Mar 2021,42840.0
+PNB,balance-sheet,Borrowing,Mar 2022,45681.0
+PNB,balance-sheet,Borrowing,Mar 2023,51292.0
+PNB,balance-sheet,Borrowing,Mar 2024,50430.0
+PNB,balance-sheet,Borrowing,Mar 2025,83777.0
+PNB,balance-sheet,Borrowing,Mar 2026,82314.0
+PNB,balance-sheet,Borrowing,Sep 2026,113616.0
+PNB,balance-sheet,Other Liabilities,Mar 2015,17205.0
+PNB,balance-sheet,Other Liabilities,Mar 2016,16274.0
+PNB,balance-sheet,Other Liabilities,Mar 2017,15766.0
+PNB,balance-sheet,Other Liabilities,Mar 2018,21679.0
+PNB,balance-sheet,Other Liabilities,Mar 2019,14806.0
+PNB,balance-sheet,Other Liabilities,Mar 2020,14237.0
+PNB,balance-sheet,Other Liabilities,Mar 2021,20523.0
+PNB,balance-sheet,Other Liabilities,Mar 2022,27418.0
+PNB,balance-sheet,Other Liabilities,Mar 2023,29521.0
+PNB,balance-sheet,Other Liabilities,Mar 2024,35216.0
+PNB,balance-sheet,Other Liabilities,Mar 2025,40408.0
+PNB,balance-sheet,Other Liabilities,Mar 2026,49802.0
+PNB,balance-sheet,Other Liabilities,Sep 2026,35968.0
+PNB,balance-sheet,Total Liabilities,Mar 2015,603334.0
+PNB,balance-sheet,Total Liabilities,Mar 2016,667390.0
+PNB,balance-sheet,Total Liabilities,Mar 2017,720331.0
+PNB,balance-sheet,Total Liabilities,Mar 2018,765830.0
+PNB,balance-sheet,Total Liabilities,Mar 2019,774949.0
+PNB,balance-sheet,Total Liabilities,Mar 2020,830666.0
+PNB,balance-sheet,Total Liabilities,Mar 2021,1260633.0
+PNB,balance-sheet,Total Liabilities,Mar 2022,1314805.0
+PNB,balance-sheet,Total Liabilities,Mar 2023,1461831.0
+PNB,balance-sheet,Total Liabilities,Mar 2024,1561835.0
+PNB,balance-sheet,Total Liabilities,Mar 2025,1818171.0
+PNB,balance-sheet,Total Liabilities,Mar 2026,1985892.0
+PNB,balance-sheet,Total Liabilities,Sep 2026,2079601.0
+PNB,balance-sheet,Fixed Assets,Mar 2015,3551.0
+PNB,balance-sheet,Fixed Assets,Mar 2016,5223.0
+PNB,balance-sheet,Fixed Assets,Mar 2017,6273.0
+PNB,balance-sheet,Fixed Assets,Mar 2018,6349.0
+PNB,balance-sheet,Fixed Assets,Mar 2019,6225.0
+PNB,balance-sheet,Fixed Assets,Mar 2020,7239.0
+PNB,balance-sheet,Fixed Assets,Mar 2021,11021.0
+PNB,balance-sheet,Fixed Assets,Mar 2022,10674.0
+PNB,balance-sheet,Fixed Assets,Mar 2023,12051.0
+PNB,balance-sheet,Fixed Assets,Mar 2024,12319.0
+PNB,balance-sheet,Fixed Assets,Mar 2025,13053.0
+PNB,balance-sheet,Fixed Assets,Mar 2026,15577.0
+PNB,balance-sheet,Fixed Assets,Sep 2026,15560.0
+PNB,balance-sheet,CWIP,Mar 2015,0.0
+PNB,balance-sheet,CWIP,Mar 2016,0.0
+PNB,balance-sheet,CWIP,Mar 2017,0.0
+PNB,balance-sheet,CWIP,Mar 2018,0.0
+PNB,balance-sheet,CWIP,Mar 2019,0.0
+PNB,balance-sheet,CWIP,Mar 2020,0.0
+PNB,balance-sheet,CWIP,Mar 2021,0.0
+PNB,balance-sheet,CWIP,Mar 2022,0.0
+PNB,balance-sheet,CWIP,Mar 2023,0.0
+PNB,balance-sheet,CWIP,Mar 2024,0.0
+PNB,balance-sheet,CWIP,Mar 2025,0.0
+PNB,balance-sheet,CWIP,Mar 2026,0.0
+PNB,balance-sheet,CWIP,Sep 2026,0.0
+PNB,balance-sheet,Investments,Mar 2015,149877.0
+PNB,balance-sheet,Investments,Mar 2016,157846.0
+PNB,balance-sheet,Investments,Mar 2017,186725.0
+PNB,balance-sheet,Investments,Mar 2018,200306.0
+PNB,balance-sheet,Investments,Mar 2019,202128.0
+PNB,balance-sheet,Investments,Mar 2020,240466.0
+PNB,balance-sheet,Investments,Mar 2021,392983.0
+PNB,balance-sheet,Investments,Mar 2022,372168.0
+PNB,balance-sheet,Investments,Mar 2023,395997.0
+PNB,balance-sheet,Investments,Mar 2024,420318.0
+PNB,balance-sheet,Investments,Mar 2025,497311.0
+PNB,balance-sheet,Investments,Mar 2026,494112.0
+PNB,balance-sheet,Investments,Sep 2026,517591.0
+PNB,balance-sheet,Other Assets,Mar 2015,449905.0
+PNB,balance-sheet,Other Assets,Mar 2016,504322.0
+PNB,balance-sheet,Other Assets,Mar 2017,527332.0
+PNB,balance-sheet,Other Assets,Mar 2018,559175.0
+PNB,balance-sheet,Other Assets,Mar 2019,566596.0
+PNB,balance-sheet,Other Assets,Mar 2020,582961.0
+PNB,balance-sheet,Other Assets,Mar 2021,856628.0
+PNB,balance-sheet,Other Assets,Mar 2022,931964.0
+PNB,balance-sheet,Other Assets,Mar 2023,1053784.0
+PNB,balance-sheet,Other Assets,Mar 2024,1129198.0
+PNB,balance-sheet,Other Assets,Mar 2025,1307806.0
+PNB,balance-sheet,Other Assets,Mar 2026,1476204.0
+PNB,balance-sheet,Other Assets,Sep 2026,1546451.0
+PNB,balance-sheet,Total Assets,Mar 2015,603334.0
+PNB,balance-sheet,Total Assets,Mar 2016,667390.0
+PNB,balance-sheet,Total Assets,Mar 2017,720331.0
+PNB,balance-sheet,Total Assets,Mar 2018,765830.0
+PNB,balance-sheet,Total Assets,Mar 2019,774949.0
+PNB,balance-sheet,Total Assets,Mar 2020,830666.0
+PNB,balance-sheet,Total Assets,Mar 2021,1260633.0
+PNB,balance-sheet,Total Assets,Mar 2022,1314805.0
+PNB,balance-sheet,Total Assets,Mar 2023,1461831.0
+PNB,balance-sheet,Total Assets,Mar 2024,1561835.0
+PNB,balance-sheet,Total Assets,Mar 2025,1818171.0
+PNB,balance-sheet,Total Assets,Mar 2026,1985892.0
+PNB,balance-sheet,Total Assets,Sep 2026,2079601.0
+PNB,ratios,ROE %,Mar 2015,8.0
+PNB,ratios,ROE %,Mar 2016,-10.0
+PNB,ratios,ROE %,Mar 2017,3.0
+PNB,ratios,ROE %,Mar 2018,-30.0
+PNB,ratios,ROE %,Mar 2019,-23.0
+PNB,ratios,ROE %,Mar 2020,1.0
+PNB,ratios,ROE %,Mar 2021,3.0
+PNB,ratios,ROE %,Mar 2022,4.0
+PNB,ratios,ROE %,Mar 2023,3.0
+PNB,ratios,ROE %,Mar 2024,8.0
+PNB,ratios,ROE %,Mar 2025,14.0
+PNB,ratios,ROE %,Mar 2026,13.0

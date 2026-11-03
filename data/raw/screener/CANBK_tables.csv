@@ -1,0 +1,505 @@
+symbol,section,line_item,period,value
+CANBK,quarters,Revenue,Sep 2023,26838.0
+CANBK,quarters,Revenue,Dec 2023,28039.0
+CANBK,quarters,Revenue,Mar 2024,28807.0
+CANBK,quarters,Revenue,Jun 2024,28701.0
+CANBK,quarters,Revenue,Sep 2024,29740.0
+CANBK,quarters,Revenue,Dec 2024,30312.0
+CANBK,quarters,Revenue,Mar 2025,31002.0
+CANBK,quarters,Revenue,Jun 2025,31003.0
+CANBK,quarters,Revenue,Sep 2025,31544.0
+CANBK,quarters,Revenue,Dec 2025,31982.0
+CANBK,quarters,Revenue,Mar 2026,31838.0
+CANBK,quarters,Revenue,Jun 2026,32957.0
+CANBK,quarters,Revenue,Sep 2026,35159.0
+CANBK,quarters,YoY Revenue growth,Sep 2023,33.0
+CANBK,quarters,YoY Revenue growth,Dec 2023,26.0
+CANBK,quarters,YoY Revenue growth,Mar 2024,20.0
+CANBK,quarters,YoY Revenue growth,Jun 2024,15.0
+CANBK,quarters,YoY Revenue growth,Sep 2024,11.0
+CANBK,quarters,YoY Revenue growth,Dec 2024,8.0
+CANBK,quarters,YoY Revenue growth,Mar 2025,8.0
+CANBK,quarters,YoY Revenue growth,Jun 2025,8.0
+CANBK,quarters,YoY Revenue growth,Sep 2025,6.0
+CANBK,quarters,YoY Revenue growth,Dec 2025,6.0
+CANBK,quarters,YoY Revenue growth,Mar 2026,3.0
+CANBK,quarters,YoY Revenue growth,Jun 2026,6.0
+CANBK,quarters,YoY Revenue growth,Sep 2026,11.0
+CANBK,quarters,Interest,Sep 2023,17935.0
+CANBK,quarters,Interest,Dec 2023,18622.0
+CANBK,quarters,Interest,Mar 2024,19227.0
+CANBK,quarters,Interest,Jun 2024,19535.0
+CANBK,quarters,Interest,Sep 2024,20425.0
+CANBK,quarters,Interest,Dec 2024,21163.0
+CANBK,quarters,Interest,Mar 2025,21560.0
+CANBK,quarters,Interest,Jun 2025,21994.0
+CANBK,quarters,Interest,Sep 2025,22403.0
+CANBK,quarters,Interest,Dec 2025,22729.0
+CANBK,quarters,Interest,Mar 2026,22030.0
+CANBK,quarters,Interest,Jun 2026,22742.0
+CANBK,quarters,Interest,Sep 2026,24155.0
+CANBK,quarters,Expenses,Sep 2023,8530.0
+CANBK,quarters,Expenses,Dec 2023,8806.0
+CANBK,quarters,Expenses,Mar 2024,9892.0
+CANBK,quarters,Expenses,Jun 2024,9151.0
+CANBK,quarters,Expenses,Sep 2024,8894.0
+CANBK,quarters,Expenses,Dec 2024,9512.0
+CANBK,quarters,Expenses,Mar 2025,9341.0
+CANBK,quarters,Expenses,Jun 2025,9867.0
+CANBK,quarters,Expenses,Sep 2025,9961.0
+CANBK,quarters,Expenses,Dec 2025,10447.0
+CANBK,quarters,Expenses,Mar 2026,8867.0
+CANBK,quarters,Expenses,Jun 2026,10387.0
+CANBK,quarters,Expenses,Sep 2026,9800.0
+CANBK,quarters,Financing Profit,Sep 2023,373.0
+CANBK,quarters,Financing Profit,Dec 2023,612.0
+CANBK,quarters,Financing Profit,Mar 2024,-312.0
+CANBK,quarters,Financing Profit,Jun 2024,15.0
+CANBK,quarters,Financing Profit,Sep 2024,422.0
+CANBK,quarters,Financing Profit,Dec 2024,-364.0
+CANBK,quarters,Financing Profit,Mar 2025,101.0
+CANBK,quarters,Financing Profit,Jun 2025,-858.0
+CANBK,quarters,Financing Profit,Sep 2025,-820.0
+CANBK,quarters,Financing Profit,Dec 2025,-1194.0
+CANBK,quarters,Financing Profit,Mar 2026,941.0
+CANBK,quarters,Financing Profit,Jun 2026,-171.0
+CANBK,quarters,Financing Profit,Sep 2026,1204.0
+CANBK,quarters,Financing Margin %,Sep 2023,1.0
+CANBK,quarters,Financing Margin %,Dec 2023,2.0
+CANBK,quarters,Financing Margin %,Mar 2024,-1.0
+CANBK,quarters,Financing Margin %,Jun 2024,0.0
+CANBK,quarters,Financing Margin %,Sep 2024,1.0
+CANBK,quarters,Financing Margin %,Dec 2024,-1.0
+CANBK,quarters,Financing Margin %,Mar 2025,0.0
+CANBK,quarters,Financing Margin %,Jun 2025,-3.0
+CANBK,quarters,Financing Margin %,Sep 2025,-3.0
+CANBK,quarters,Financing Margin %,Dec 2025,-4.0
+CANBK,quarters,Financing Margin %,Mar 2026,3.0
+CANBK,quarters,Financing Margin %,Jun 2026,-1.0
+CANBK,quarters,Financing Margin %,Sep 2026,3.0
+CANBK,quarters,Other Income,Sep 2023,4634.0
+CANBK,quarters,Other Income,Dec 2023,4295.0
+CANBK,quarters,Other Income,Mar 2024,5218.0
+CANBK,quarters,Other Income,Jun 2024,5319.0
+CANBK,quarters,Other Income,Sep 2024,4981.0
+CANBK,quarters,Other Income,Dec 2024,5802.0
+CANBK,quarters,Other Income,Mar 2025,6351.0
+CANBK,quarters,Other Income,Jun 2025,7060.0
+CANBK,quarters,Other Income,Sep 2025,7054.0
+CANBK,quarters,Other Income,Dec 2025,7899.0
+CANBK,quarters,Other Income,Mar 2026,4824.0
+CANBK,quarters,Other Income,Jun 2026,6727.0
+CANBK,quarters,Other Income,Sep 2026,5772.0
+CANBK,quarters,Depreciation,Sep 2023,0.0
+CANBK,quarters,Depreciation,Dec 2023,0.0
+CANBK,quarters,Depreciation,Mar 2024,0.0
+CANBK,quarters,Depreciation,Jun 2024,0.0
+CANBK,quarters,Depreciation,Sep 2024,0.0
+CANBK,quarters,Depreciation,Dec 2024,0.0
+CANBK,quarters,Depreciation,Mar 2025,0.0
+CANBK,quarters,Depreciation,Jun 2025,0.0
+CANBK,quarters,Depreciation,Sep 2025,0.0
+CANBK,quarters,Depreciation,Dec 2025,0.0
+CANBK,quarters,Depreciation,Mar 2026,0.0
+CANBK,quarters,Depreciation,Jun 2026,0.0
+CANBK,quarters,Depreciation,Sep 2026,0.0
+CANBK,quarters,Profit before tax,Sep 2023,5008.0
+CANBK,quarters,Profit before tax,Dec 2023,4907.0
+CANBK,quarters,Profit before tax,Mar 2024,4906.0
+CANBK,quarters,Profit before tax,Jun 2024,5334.0
+CANBK,quarters,Profit before tax,Sep 2024,5403.0
+CANBK,quarters,Profit before tax,Dec 2024,5438.0
+CANBK,quarters,Profit before tax,Mar 2025,6452.0
+CANBK,quarters,Profit before tax,Jun 2025,6202.0
+CANBK,quarters,Profit before tax,Sep 2025,6234.0
+CANBK,quarters,Profit before tax,Dec 2025,6705.0
+CANBK,quarters,Profit before tax,Mar 2026,5766.0
+CANBK,quarters,Profit before tax,Jun 2026,6556.0
+CANBK,quarters,Profit before tax,Sep 2026,6976.0
+CANBK,quarters,Tax %,Sep 2023,28.0
+CANBK,quarters,Tax %,Dec 2023,25.0
+CANBK,quarters,Tax %,Mar 2024,23.0
+CANBK,quarters,Tax %,Jun 2024,27.0
+CANBK,quarters,Tax %,Sep 2024,26.0
+CANBK,quarters,Tax %,Dec 2024,25.0
+CANBK,quarters,Tax %,Mar 2025,22.0
+CANBK,quarters,Tax %,Jun 2025,23.0
+CANBK,quarters,Tax %,Sep 2025,23.0
+CANBK,quarters,Tax %,Dec 2025,23.0
+CANBK,quarters,Tax %,Mar 2026,22.0
+CANBK,quarters,Tax %,Jun 2026,26.0
+CANBK,quarters,Tax %,Sep 2026,26.0
+CANBK,quarters,Net Profit,Sep 2023,3606.0
+CANBK,quarters,Net Profit,Dec 2023,3656.0
+CANBK,quarters,Net Profit,Mar 2024,3757.0
+CANBK,quarters,Net Profit,Jun 2024,3905.0
+CANBK,quarters,Net Profit,Sep 2024,4015.0
+CANBK,quarters,Net Profit,Dec 2024,4104.0
+CANBK,quarters,Net Profit,Mar 2025,5003.0
+CANBK,quarters,Net Profit,Jun 2025,4752.0
+CANBK,quarters,Net Profit,Sep 2025,4774.0
+CANBK,quarters,Net Profit,Dec 2025,5155.0
+CANBK,quarters,Net Profit,Mar 2026,4506.0
+CANBK,quarters,Net Profit,Jun 2026,4856.0
+CANBK,quarters,Net Profit,Sep 2026,5175.0
+CANBK,quarters,EPS in Rs,Sep 2023,3.98
+CANBK,quarters,EPS in Rs,Dec 2023,4.03
+CANBK,quarters,EPS in Rs,Mar 2024,4.14
+CANBK,quarters,EPS in Rs,Jun 2024,4.31
+CANBK,quarters,EPS in Rs,Sep 2024,4.43
+CANBK,quarters,EPS in Rs,Dec 2024,4.52
+CANBK,quarters,EPS in Rs,Mar 2025,5.52
+CANBK,quarters,EPS in Rs,Jun 2025,5.24
+CANBK,quarters,EPS in Rs,Sep 2025,5.26
+CANBK,quarters,EPS in Rs,Dec 2025,5.68
+CANBK,quarters,EPS in Rs,Mar 2026,4.97
+CANBK,quarters,EPS in Rs,Jun 2026,5.35
+CANBK,quarters,EPS in Rs,Sep 2026,5.7
+CANBK,quarters,Gross NPA %,Sep 2023,4.76
+CANBK,quarters,Gross NPA %,Dec 2023,4.39
+CANBK,quarters,Gross NPA %,Mar 2024,4.23
+CANBK,quarters,Gross NPA %,Jun 2024,4.14
+CANBK,quarters,Gross NPA %,Sep 2024,3.73
+CANBK,quarters,Gross NPA %,Dec 2024,3.34
+CANBK,quarters,Gross NPA %,Mar 2025,2.94
+CANBK,quarters,Gross NPA %,Jun 2025,2.69
+CANBK,quarters,Gross NPA %,Sep 2025,2.35
+CANBK,quarters,Gross NPA %,Dec 2025,2.08
+CANBK,quarters,Gross NPA %,Mar 2026,1.84
+CANBK,quarters,Gross NPA %,Jun 2026,1.57
+CANBK,quarters,Gross NPA %,Sep 2026,1.33
+CANBK,quarters,Net NPA %,Sep 2023,1.41
+CANBK,quarters,Net NPA %,Dec 2023,1.32
+CANBK,quarters,Net NPA %,Mar 2024,1.27
+CANBK,quarters,Net NPA %,Jun 2024,1.24
+CANBK,quarters,Net NPA %,Sep 2024,0.99
+CANBK,quarters,Net NPA %,Dec 2024,0.89
+CANBK,quarters,Net NPA %,Mar 2025,0.7
+CANBK,quarters,Net NPA %,Jun 2025,0.63
+CANBK,quarters,Net NPA %,Sep 2025,0.54
+CANBK,quarters,Net NPA %,Dec 2025,0.45
+CANBK,quarters,Net NPA %,Mar 2026,0.43
+CANBK,quarters,Net NPA %,Jun 2026,0.36
+CANBK,quarters,Net NPA %,Sep 2026,0.3
+CANBK,profit-loss,Revenue,Mar 2015,43750.0
+CANBK,profit-loss,Revenue,Mar 2016,44022.0
+CANBK,profit-loss,Revenue,Mar 2017,41388.0
+CANBK,profit-loss,Revenue,Mar 2018,41252.0
+CANBK,profit-loss,Revenue,Mar 2019,46810.0
+CANBK,profit-loss,Revenue,Mar 2020,48935.0
+CANBK,profit-loss,Revenue,Mar 2021,69280.0
+CANBK,profit-loss,Revenue,Mar 2022,69410.0
+CANBK,profit-loss,Revenue,Mar 2023,84425.0
+CANBK,profit-loss,Revenue,Mar 2024,108688.0
+CANBK,profit-loss,Revenue,Mar 2025,119755.0
+CANBK,profit-loss,Revenue,Mar 2026,126366.0
+CANBK,profit-loss,Revenue,TTM,131936.0
+CANBK,profit-loss,Revenue growth,Mar 2015,11.0
+CANBK,profit-loss,Revenue growth,Mar 2016,1.0
+CANBK,profit-loss,Revenue growth,Mar 2017,-6.0
+CANBK,profit-loss,Revenue growth,Mar 2018,-0.0
+CANBK,profit-loss,Revenue growth,Mar 2019,13.0
+CANBK,profit-loss,Revenue growth,Mar 2020,5.0
+CANBK,profit-loss,Revenue growth,Mar 2021,42.0
+CANBK,profit-loss,Revenue growth,Mar 2022,0.0
+CANBK,profit-loss,Revenue growth,Mar 2023,22.0
+CANBK,profit-loss,Revenue growth,Mar 2024,29.0
+CANBK,profit-loss,Revenue growth,Mar 2025,10.0
+CANBK,profit-loss,Revenue growth,Mar 2026,6.0
+CANBK,profit-loss,Revenue growth,TTM,7.0
+CANBK,profit-loss,Interest,Mar 2015,34086.0
+CANBK,profit-loss,Interest,Mar 2016,34259.0
+CANBK,profit-loss,Interest,Mar 2017,31516.0
+CANBK,profit-loss,Interest,Mar 2018,29089.0
+CANBK,profit-loss,Interest,Mar 2019,32332.0
+CANBK,profit-loss,Interest,Mar 2020,35811.0
+CANBK,profit-loss,Interest,Mar 2021,45178.0
+CANBK,profit-loss,Interest,Mar 2022,43026.0
+CANBK,profit-loss,Interest,Mar 2023,52989.0
+CANBK,profit-loss,Interest,Mar 2024,72122.0
+CANBK,profit-loss,Interest,Mar 2025,82683.0
+CANBK,profit-loss,Interest,Mar 2026,89156.0
+CANBK,profit-loss,Interest,TTM,91656.0
+CANBK,profit-loss,Expenses,Mar 2015,10289.0
+CANBK,profit-loss,Expenses,Mar 2016,17654.0
+CANBK,profit-loss,Expenses,Mar 2017,15457.0
+CANBK,profit-loss,Expenses,Mar 2018,25222.0
+CANBK,profit-loss,Expenses,Mar 2019,22964.0
+CANBK,profit-loss,Expenses,Mar 2020,22260.0
+CANBK,profit-loss,Expenses,Mar 2021,34500.0
+CANBK,profit-loss,Expenses,Mar 2022,33104.0
+CANBK,profit-loss,Expenses,Mar 2023,35032.0
+CANBK,profit-loss,Expenses,Mar 2024,34958.0
+CANBK,profit-loss,Expenses,Mar 2025,36061.0
+CANBK,profit-loss,Expenses,Mar 2026,38224.0
+CANBK,profit-loss,Expenses,TTM,39500.0
+CANBK,profit-loss,Financing Profit,Mar 2015,-626.0
+CANBK,profit-loss,Financing Profit,Mar 2016,-7891.0
+CANBK,profit-loss,Financing Profit,Mar 2017,-5585.0
+CANBK,profit-loss,Financing Profit,Mar 2018,-13059.0
+CANBK,profit-loss,Financing Profit,Mar 2019,-8486.0
+CANBK,profit-loss,Financing Profit,Mar 2020,-9137.0
+CANBK,profit-loss,Financing Profit,Mar 2021,-10397.0
+CANBK,profit-loss,Financing Profit,Mar 2022,-6720.0
+CANBK,profit-loss,Financing Profit,Mar 2023,-3596.0
+CANBK,profit-loss,Financing Profit,Mar 2024,1607.0
+CANBK,profit-loss,Financing Profit,Mar 2025,1011.0
+CANBK,profit-loss,Financing Profit,Mar 2026,-1014.0
+CANBK,profit-loss,Financing Profit,TTM,780.0
+CANBK,profit-loss,Financing Margin %,Mar 2015,-1.0
+CANBK,profit-loss,Financing Margin %,Mar 2016,-18.0
+CANBK,profit-loss,Financing Margin %,Mar 2017,-13.0
+CANBK,profit-loss,Financing Margin %,Mar 2018,-32.0
+CANBK,profit-loss,Financing Margin %,Mar 2019,-18.0
+CANBK,profit-loss,Financing Margin %,Mar 2020,-19.0
+CANBK,profit-loss,Financing Margin %,Mar 2021,-15.0
+CANBK,profit-loss,Financing Margin %,Mar 2022,-10.0
+CANBK,profit-loss,Financing Margin %,Mar 2023,-4.0
+CANBK,profit-loss,Financing Margin %,Mar 2024,1.0
+CANBK,profit-loss,Financing Margin %,Mar 2025,1.0
+CANBK,profit-loss,Financing Margin %,Mar 2026,-1.0
+CANBK,profit-loss,Financing Margin %,TTM,1.0
+CANBK,profit-loss,Other Income,Mar 2015,4550.0
+CANBK,profit-loss,Other Income,Mar 2016,4875.0
+CANBK,profit-loss,Other Income,Mar 2017,7554.0
+CANBK,profit-loss,Other Income,Mar 2018,6943.0
+CANBK,profit-loss,Other Income,Mar 2019,6575.0
+CANBK,profit-loss,Other Income,Mar 2020,7813.0
+CANBK,profit-loss,Other Income,Mar 2021,14924.0
+CANBK,profit-loss,Other Income,Mar 2022,16497.0
+CANBK,profit-loss,Other Income,Mar 2023,18762.0
+CANBK,profit-loss,Other Income,Mar 2024,18966.0
+CANBK,profit-loss,Other Income,Mar 2025,22453.0
+CANBK,profit-loss,Other Income,Mar 2026,26838.0
+CANBK,profit-loss,Other Income,TTM,25223.0
+CANBK,profit-loss,Depreciation,Mar 2015,427.0
+CANBK,profit-loss,Depreciation,Mar 2016,170.0
+CANBK,profit-loss,Depreciation,Mar 2017,328.0
+CANBK,profit-loss,Depreciation,Mar 2018,445.0
+CANBK,profit-loss,Depreciation,Mar 2019,417.0
+CANBK,profit-loss,Depreciation,Mar 2020,432.0
+CANBK,profit-loss,Depreciation,Mar 2021,820.0
+CANBK,profit-loss,Depreciation,Mar 2022,816.0
+CANBK,profit-loss,Depreciation,Mar 2023,993.0
+CANBK,profit-loss,Depreciation,Mar 2024,869.0
+CANBK,profit-loss,Depreciation,Mar 2025,837.0
+CANBK,profit-loss,Depreciation,Mar 2026,917.0
+CANBK,profit-loss,Depreciation,TTM,0.0
+CANBK,profit-loss,Profit before tax,Mar 2015,3498.0
+CANBK,profit-loss,Profit before tax,Mar 2016,-3186.0
+CANBK,profit-loss,Profit before tax,Mar 2017,1642.0
+CANBK,profit-loss,Profit before tax,Mar 2018,-6561.0
+CANBK,profit-loss,Profit before tax,Mar 2019,-2327.0
+CANBK,profit-loss,Profit before tax,Mar 2020,-1756.0
+CANBK,profit-loss,Profit before tax,Mar 2021,3707.0
+CANBK,profit-loss,Profit before tax,Mar 2022,8962.0
+CANBK,profit-loss,Profit before tax,Mar 2023,14173.0
+CANBK,profit-loss,Profit before tax,Mar 2024,19705.0
+CANBK,profit-loss,Profit before tax,Mar 2025,22627.0
+CANBK,profit-loss,Profit before tax,Mar 2026,24907.0
+CANBK,profit-loss,Profit before tax,TTM,26003.0
+CANBK,profit-loss,Tax %,Mar 2015,23.0
+CANBK,profit-loss,Tax %,Mar 2016,-12.0
+CANBK,profit-loss,Tax %,Mar 2017,32.0
+CANBK,profit-loss,Tax %,Mar 2018,-36.0
+CANBK,profit-loss,Tax %,Mar 2019,-115.0
+CANBK,profit-loss,Tax %,Mar 2020,27.0
+CANBK,profit-loss,Tax %,Mar 2021,31.0
+CANBK,profit-loss,Tax %,Mar 2022,37.0
+CANBK,profit-loss,Tax %,Mar 2023,25.0
+CANBK,profit-loss,Tax %,Mar 2024,26.0
+CANBK,profit-loss,Tax %,Mar 2025,25.0
+CANBK,profit-loss,Tax %,Mar 2026,23.0
+CANBK,profit-loss,Net Profit,Mar 2015,2703.0
+CANBK,profit-loss,Net Profit,Mar 2016,-2813.0
+CANBK,profit-loss,Net Profit,Mar 2017,1122.0
+CANBK,profit-loss,Net Profit,Mar 2018,-4222.0
+CANBK,profit-loss,Net Profit,Mar 2019,347.0
+CANBK,profit-loss,Net Profit,Mar 2020,-2236.0
+CANBK,profit-loss,Net Profit,Mar 2021,2558.0
+CANBK,profit-loss,Net Profit,Mar 2022,5678.0
+CANBK,profit-loss,Net Profit,Mar 2023,10604.0
+CANBK,profit-loss,Net Profit,Mar 2024,14554.0
+CANBK,profit-loss,Net Profit,Mar 2025,17027.0
+CANBK,profit-loss,Net Profit,Mar 2026,19187.0
+CANBK,profit-loss,Net Profit,TTM,19691.0
+CANBK,profit-loss,EPS in Rs,Mar 2015,11.06
+CANBK,profit-loss,EPS in Rs,Mar 2016,-10.08
+CANBK,profit-loss,EPS in Rs,Mar 2017,3.76
+CANBK,profit-loss,EPS in Rs,Mar 2018,-11.52
+CANBK,profit-loss,EPS in Rs,Mar 2019,0.92
+CANBK,profit-loss,EPS in Rs,Mar 2020,-4.34
+CANBK,profit-loss,EPS in Rs,Mar 2021,3.11
+CANBK,profit-loss,EPS in Rs,Mar 2022,6.26
+CANBK,profit-loss,EPS in Rs,Mar 2023,11.69
+CANBK,profit-loss,EPS in Rs,Mar 2024,16.05
+CANBK,profit-loss,EPS in Rs,Mar 2025,18.77
+CANBK,profit-loss,EPS in Rs,Mar 2026,21.15
+CANBK,profit-loss,EPS in Rs,TTM,21.7
+CANBK,profit-loss,Dividend Payout %,Mar 2015,18.0
+CANBK,profit-loss,Dividend Payout %,Mar 2016,0.0
+CANBK,profit-loss,Dividend Payout %,Mar 2017,5.0
+CANBK,profit-loss,Dividend Payout %,Mar 2018,0.0
+CANBK,profit-loss,Dividend Payout %,Mar 2019,0.0
+CANBK,profit-loss,Dividend Payout %,Mar 2020,0.0
+CANBK,profit-loss,Dividend Payout %,Mar 2021,0.0
+CANBK,profit-loss,Dividend Payout %,Mar 2022,21.0
+CANBK,profit-loss,Dividend Payout %,Mar 2023,21.0
+CANBK,profit-loss,Dividend Payout %,Mar 2024,20.0
+CANBK,profit-loss,Dividend Payout %,Mar 2025,21.0
+CANBK,profit-loss,Dividend Payout %,Mar 2026,20.0
+CANBK,balance-sheet,Equity Capital,Mar 2015,475.0
+CANBK,balance-sheet,Equity Capital,Mar 2016,543.0
+CANBK,balance-sheet,Equity Capital,Mar 2017,597.0
+CANBK,balance-sheet,Equity Capital,Mar 2018,733.0
+CANBK,balance-sheet,Equity Capital,Mar 2019,753.0
+CANBK,balance-sheet,Equity Capital,Mar 2020,1030.0
+CANBK,balance-sheet,Equity Capital,Mar 2021,1647.0
+CANBK,balance-sheet,Equity Capital,Mar 2022,1814.0
+CANBK,balance-sheet,Equity Capital,Mar 2023,1814.0
+CANBK,balance-sheet,Equity Capital,Mar 2024,1814.0
+CANBK,balance-sheet,Equity Capital,Mar 2025,1814.0
+CANBK,balance-sheet,Equity Capital,Mar 2026,1814.0
+CANBK,balance-sheet,Equity Capital,Sep 2026,1814.0
+CANBK,balance-sheet,Reserves,Mar 2015,31384.0
+CANBK,balance-sheet,Reserves,Mar 2016,31060.0
+CANBK,balance-sheet,Reserves,Mar 2017,33088.0
+CANBK,balance-sheet,Reserves,Mar 2018,34872.0
+CANBK,balance-sheet,Reserves,Mar 2019,35424.0
+CANBK,balance-sheet,Reserves,Mar 2020,38263.0
+CANBK,balance-sheet,Reserves,Mar 2021,57238.0
+CANBK,balance-sheet,Reserves,Mar 2022,64297.0
+CANBK,balance-sheet,Reserves,Mar 2023,71793.0
+CANBK,balance-sheet,Reserves,Mar 2024,85140.0
+CANBK,balance-sheet,Reserves,Mar 2025,98086.0
+CANBK,balance-sheet,Reserves,Mar 2026,111568.0
+CANBK,balance-sheet,Reserves,Sep 2026,121368.0
+CANBK,balance-sheet,Deposits,Mar 2015,485917.0
+CANBK,balance-sheet,Deposits,Mar 2016,479792.0
+CANBK,balance-sheet,Deposits,Mar 2017,495275.0
+CANBK,balance-sheet,Deposits,Mar 2018,524772.0
+CANBK,balance-sheet,Deposits,Mar 2019,599033.0
+CANBK,balance-sheet,Deposits,Mar 2020,625351.0
+CANBK,balance-sheet,Deposits,Mar 2021,1010875.0
+CANBK,balance-sheet,Deposits,Mar 2022,1086409.0
+CANBK,balance-sheet,Deposits,Mar 2023,1179219.0
+CANBK,balance-sheet,Deposits,Mar 2024,1312367.0
+CANBK,balance-sheet,Deposits,Mar 2025,1429862.0
+CANBK,balance-sheet,Deposits,Mar 2026,1568678.0
+CANBK,balance-sheet,Deposits,Sep 2026,1697306.0
+CANBK,balance-sheet,Borrowing,Mar 2015,13594.0
+CANBK,balance-sheet,Borrowing,Mar 2016,26873.0
+CANBK,balance-sheet,Borrowing,Mar 2017,39504.0
+CANBK,balance-sheet,Borrowing,Mar 2018,38809.0
+CANBK,balance-sheet,Borrowing,Mar 2019,40992.0
+CANBK,balance-sheet,Borrowing,Mar 2020,42762.0
+CANBK,balance-sheet,Borrowing,Mar 2021,49984.0
+CANBK,balance-sheet,Borrowing,Mar 2022,46285.0
+CANBK,balance-sheet,Borrowing,Mar 2023,58090.0
+CANBK,balance-sheet,Borrowing,Mar 2024,57592.0
+CANBK,balance-sheet,Borrowing,Mar 2025,116686.0
+CANBK,balance-sheet,Borrowing,Mar 2026,155288.0
+CANBK,balance-sheet,Borrowing,Sep 2026,167912.0
+CANBK,balance-sheet,Other Liabilities,Mar 2015,16630.0
+CANBK,balance-sheet,Other Liabilities,Mar 2016,14693.0
+CANBK,balance-sheet,Other Liabilities,Mar 2017,15055.0
+CANBK,balance-sheet,Other Liabilities,Mar 2018,17701.0
+CANBK,balance-sheet,Other Liabilities,Mar 2019,18564.0
+CANBK,balance-sheet,Other Liabilities,Mar 2020,16469.0
+CANBK,balance-sheet,Other Liabilities,Mar 2021,33932.0
+CANBK,balance-sheet,Other Liabilities,Mar 2022,28174.0
+CANBK,balance-sheet,Other Liabilities,Mar 2023,34817.0
+CANBK,balance-sheet,Other Liabilities,Mar 2024,34627.0
+CANBK,balance-sheet,Other Liabilities,Mar 2025,38237.0
+CANBK,balance-sheet,Other Liabilities,Mar 2026,45853.0
+CANBK,balance-sheet,Other Liabilities,Sep 2026,44798.0
+CANBK,balance-sheet,Total Liabilities,Mar 2015,548001.0
+CANBK,balance-sheet,Total Liabilities,Mar 2016,552961.0
+CANBK,balance-sheet,Total Liabilities,Mar 2017,583519.0
+CANBK,balance-sheet,Total Liabilities,Mar 2018,616886.0
+CANBK,balance-sheet,Total Liabilities,Mar 2019,694767.0
+CANBK,balance-sheet,Total Liabilities,Mar 2020,723875.0
+CANBK,balance-sheet,Total Liabilities,Mar 2021,1153675.0
+CANBK,balance-sheet,Total Liabilities,Mar 2022,1226980.0
+CANBK,balance-sheet,Total Liabilities,Mar 2023,1345732.0
+CANBK,balance-sheet,Total Liabilities,Mar 2024,1491541.0
+CANBK,balance-sheet,Total Liabilities,Mar 2025,1684686.0
+CANBK,balance-sheet,Total Liabilities,Mar 2026,1883202.0
+CANBK,balance-sheet,Total Liabilities,Sep 2026,2033198.0
+CANBK,balance-sheet,Fixed Assets,Mar 2015,6949.0
+CANBK,balance-sheet,Fixed Assets,Mar 2016,7198.0
+CANBK,balance-sheet,Fixed Assets,Mar 2017,7168.0
+CANBK,balance-sheet,Fixed Assets,Mar 2018,8319.0
+CANBK,balance-sheet,Fixed Assets,Mar 2019,8410.0
+CANBK,balance-sheet,Fixed Assets,Mar 2020,8276.0
+CANBK,balance-sheet,Fixed Assets,Mar 2021,11204.0
+CANBK,balance-sheet,Fixed Assets,Mar 2022,11354.0
+CANBK,balance-sheet,Fixed Assets,Mar 2023,10231.0
+CANBK,balance-sheet,Fixed Assets,Mar 2024,12228.0
+CANBK,balance-sheet,Fixed Assets,Mar 2025,10215.0
+CANBK,balance-sheet,Fixed Assets,Mar 2026,10570.0
+CANBK,balance-sheet,Fixed Assets,Sep 2026,10859.0
+CANBK,balance-sheet,CWIP,Mar 2015,0.0
+CANBK,balance-sheet,CWIP,Mar 2016,0.0
+CANBK,balance-sheet,CWIP,Mar 2017,0.0
+CANBK,balance-sheet,CWIP,Mar 2018,0.0
+CANBK,balance-sheet,CWIP,Mar 2019,0.0
+CANBK,balance-sheet,CWIP,Mar 2020,0.0
+CANBK,balance-sheet,CWIP,Mar 2021,2.0
+CANBK,balance-sheet,CWIP,Mar 2022,2.0
+CANBK,balance-sheet,CWIP,Mar 2023,0.0
+CANBK,balance-sheet,CWIP,Mar 2024,0.0
+CANBK,balance-sheet,CWIP,Mar 2025,0.0
+CANBK,balance-sheet,CWIP,Mar 2026,0.0
+CANBK,balance-sheet,CWIP,Sep 2026,0.0
+CANBK,balance-sheet,Investments,Mar 2015,142061.0
+CANBK,balance-sheet,Investments,Mar 2016,142309.0
+CANBK,balance-sheet,Investments,Mar 2017,150266.0
+CANBK,balance-sheet,Investments,Mar 2018,144054.0
+CANBK,balance-sheet,Investments,Mar 2019,152985.0
+CANBK,balance-sheet,Investments,Mar 2020,176245.0
+CANBK,balance-sheet,Investments,Mar 2021,261690.0
+CANBK,balance-sheet,Investments,Mar 2022,282013.0
+CANBK,balance-sheet,Investments,Mar 2023,319038.0
+CANBK,balance-sheet,Investments,Mar 2024,357454.0
+CANBK,balance-sheet,Investments,Mar 2025,382179.0
+CANBK,balance-sheet,Investments,Mar 2026,403415.0
+CANBK,balance-sheet,Investments,Sep 2026,411845.0
+CANBK,balance-sheet,Other Assets,Mar 2015,398990.0
+CANBK,balance-sheet,Other Assets,Mar 2016,403453.0
+CANBK,balance-sheet,Other Assets,Mar 2017,426085.0
+CANBK,balance-sheet,Other Assets,Mar 2018,464514.0
+CANBK,balance-sheet,Other Assets,Mar 2019,533371.0
+CANBK,balance-sheet,Other Assets,Mar 2020,539354.0
+CANBK,balance-sheet,Other Assets,Mar 2021,880778.0
+CANBK,balance-sheet,Other Assets,Mar 2022,933610.0
+CANBK,balance-sheet,Other Assets,Mar 2023,1016463.0
+CANBK,balance-sheet,Other Assets,Mar 2024,1121858.0
+CANBK,balance-sheet,Other Assets,Mar 2025,1292291.0
+CANBK,balance-sheet,Other Assets,Mar 2026,1469217.0
+CANBK,balance-sheet,Other Assets,Sep 2026,1610495.0
+CANBK,balance-sheet,Total Assets,Mar 2015,548001.0
+CANBK,balance-sheet,Total Assets,Mar 2016,552961.0
+CANBK,balance-sheet,Total Assets,Mar 2017,583519.0
+CANBK,balance-sheet,Total Assets,Mar 2018,616886.0
+CANBK,balance-sheet,Total Assets,Mar 2019,694767.0
+CANBK,balance-sheet,Total Assets,Mar 2020,723875.0
+CANBK,balance-sheet,Total Assets,Mar 2021,1153675.0
+CANBK,balance-sheet,Total Assets,Mar 2022,1226980.0
+CANBK,balance-sheet,Total Assets,Mar 2023,1345732.0
+CANBK,balance-sheet,Total Assets,Mar 2024,1491541.0
+CANBK,balance-sheet,Total Assets,Mar 2025,1684686.0
+CANBK,balance-sheet,Total Assets,Mar 2026,1883202.0
+CANBK,balance-sheet,Total Assets,Sep 2026,2033198.0
+CANBK,ratios,ROE %,Mar 2015,9.0
+CANBK,ratios,ROE %,Mar 2016,-9.0
+CANBK,ratios,ROE %,Mar 2017,3.0
+CANBK,ratios,ROE %,Mar 2018,-12.0
+CANBK,ratios,ROE %,Mar 2019,1.0
+CANBK,ratios,ROE %,Mar 2020,-6.0
+CANBK,ratios,ROE %,Mar 2021,5.0
+CANBK,ratios,ROE %,Mar 2022,9.0
+CANBK,ratios,ROE %,Mar 2023,15.0
+CANBK,ratios,ROE %,Mar 2024,18.0
+CANBK,ratios,ROE %,Mar 2025,18.0
+CANBK,ratios,ROE %,Mar 2026,18.0

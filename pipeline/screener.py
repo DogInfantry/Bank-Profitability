@@ -21,7 +21,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "raw" / "screener"
 CACHE = OUT / "cache"
 UA = "Mozilla/5.0 (portfolio-research; github.com/DogInfantry)"
-PEERS = ["SBIN", "HDFCBANK", "ICICIBANK", "AXISBANK", "KOTAKBANK"]
+PEERS = ["HDFCBANK", "ICICIBANK", "AXISBANK", "KOTAKBANK", "INDUSINDBK", "YESBANK", "IDFCFIRSTB", "FEDERALBNK",
+         "SBIN", "BANKBARODA", "PNB", "CANBK"]
 SECTIONS = ["quarters", "profit-loss", "balance-sheet", "ratios"]
 _last = [0.0]
 
@@ -75,6 +76,18 @@ def parse_section(page: str, sec: str) -> list[tuple[str, str, float]]:
     return rows
 
 
+def parse_top_ratios(page: str) -> dict[str, float]:
+    """Header ratios: Market Cap (INR cr), Current Price, Book Value (per share), ROE, Stock P/E ..."""
+    i = page.find('id="top-ratios"')
+    block = page[i: i + 5000] if i >= 0 else ""
+    out = {}
+    for name, val in re.findall(r'<span class="name">\s*(.*?)\s*</span>.*?<span class="number">([^<]*)</span>', block, re.S):
+        n = to_num(clean(val))
+        if n is not None and clean(name) not in out:
+            out[clean(name)] = n
+    return out
+
+
 def parse_docs(page: str) -> list[tuple[str, str, str]]:
     i = page.find("Concalls")
     if i < 0:
@@ -106,6 +119,12 @@ def harvest(sym: str) -> None:
             for item, period, val in parse_section(page, sec):
                 w.writerow([sym, sec, item, period, val])
                 n += 1
+    top = parse_top_ratios(page)
+    with (OUT / f"{sym}_valuation.csv").open("w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["symbol", "metric", "value", "as_of_page_fetch"])
+        stamp = time.strftime("%Y-%m-%d", time.gmtime((CACHE / f"{sym}.html").stat().st_mtime))
+        w.writerows([(sym, k, v, stamp) for k, v in top.items()])
     docs = parse_docs(page)
     with (OUT / f"{sym}_docs.csv").open("w", newline="") as f:
         w = csv.writer(f)

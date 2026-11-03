@@ -1,0 +1,19 @@
+item,value,unit,source,note
+hdfcbank_price,700,INR per share,Screener HDFCBANK top ratios (2 Nov 2026),
+hdfcbank_bvps_screener,376,INR per share,Screener HDFCBANK top ratios (2 Nov 2026),standalone
+hdfcbank_mcap,1080721,INR cr,Screener HDFCBANK top ratios (2 Nov 2026),
+hdfclife_mcap,113843,INR cr,Screener HDFCLIFE top ratios (2 Nov 2026),
+hdfcamc_mcap,105276,INR cr,Screener HDFCAMC top ratios (3 Nov 2026),
+hdbfs_mcap,41774,INR cr,Screener HDBFS top ratios (3 Nov 2026),
+stake_hdfclife,0.502,share,HDFC Bank IR26 p52,
+stake_hdbfs,0.741,share,HDFC Bank IR26 p52,
+stake_hdfcamc,0.524,share,HDFC Bank IR26 p52,
+stake_hdfcergo,0.503,share,HDFC Bank IR26 p52,unlisted; not valued in SOTP
+gsec_10y,6.96,%,FactIQ rbi|9cbd58f9ab50a1de (SGL 10-year yield Aug-26),risk-free rate
+hdfclife_vnb_fy26,4034,INR cr,HDFC Life Q4FY26 investor deck p2,
+hdfclife_vnb_margin_fy26,24.2,%,HDFC Life Q4FY26 investor deck p2,25.5% ex GST/surrender impact
+hdfclife_ape_fy26,16641,INR cr,HDFC Life Q4FY26 investor deck p3,
+hdfclife_ev_fy26,62139,INR cr,HDFC Life Q4FY26 investor deck p3,
+hdfclife_ev_q2fy27,66461,INR cr,HDFC Life Q2FY27 investor deck p3,
+hdfclife_banca_share_indiv_ape_h1fy27,58,%,HDFC Life Q2FY27 investor deck p14,
+hdfclife_op_roev_fy26,15.0,%,HDFC Life Q4FY26 investor deck p2,

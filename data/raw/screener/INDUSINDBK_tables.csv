@@ -1,0 +1,505 @@
+symbol,section,line_item,period,value
+INDUSINDBK,quarters,Revenue,Sep 2023,11248.0
+INDUSINDBK,quarters,Revenue,Dec 2023,11572.0
+INDUSINDBK,quarters,Revenue,Mar 2024,12199.0
+INDUSINDBK,quarters,Revenue,Jun 2024,12547.0
+INDUSINDBK,quarters,Revenue,Sep 2024,12686.0
+INDUSINDBK,quarters,Revenue,Dec 2024,12801.0
+INDUSINDBK,quarters,Revenue,Mar 2025,10634.0
+INDUSINDBK,quarters,Revenue,Jun 2025,12264.0
+INDUSINDBK,quarters,Revenue,Sep 2025,11609.0
+INDUSINDBK,quarters,Revenue,Dec 2025,11373.0
+INDUSINDBK,quarters,Revenue,Mar 2026,11005.0
+INDUSINDBK,quarters,Revenue,Jun 2026,11310.0
+INDUSINDBK,quarters,Revenue,Sep 2026,11796.0
+INDUSINDBK,quarters,YoY Revenue growth,Sep 2023,29.0
+INDUSINDBK,quarters,YoY Revenue growth,Dec 2023,22.0
+INDUSINDBK,quarters,YoY Revenue growth,Mar 2024,22.0
+INDUSINDBK,quarters,YoY Revenue growth,Jun 2024,17.0
+INDUSINDBK,quarters,YoY Revenue growth,Sep 2024,13.0
+INDUSINDBK,quarters,YoY Revenue growth,Dec 2024,11.0
+INDUSINDBK,quarters,YoY Revenue growth,Mar 2025,-13.0
+INDUSINDBK,quarters,YoY Revenue growth,Jun 2025,-2.0
+INDUSINDBK,quarters,YoY Revenue growth,Sep 2025,-8.0
+INDUSINDBK,quarters,YoY Revenue growth,Dec 2025,-11.0
+INDUSINDBK,quarters,YoY Revenue growth,Mar 2026,3.0
+INDUSINDBK,quarters,YoY Revenue growth,Jun 2026,-8.0
+INDUSINDBK,quarters,YoY Revenue growth,Sep 2026,2.0
+INDUSINDBK,quarters,Interest,Sep 2023,6171.0
+INDUSINDBK,quarters,Interest,Dec 2023,6277.0
+INDUSINDBK,quarters,Interest,Mar 2024,6822.0
+INDUSINDBK,quarters,Interest,Jun 2024,7139.0
+INDUSINDBK,quarters,Interest,Sep 2024,7339.0
+INDUSINDBK,quarters,Interest,Dec 2024,7573.0
+INDUSINDBK,quarters,Interest,Mar 2025,7586.0
+INDUSINDBK,quarters,Interest,Jun 2025,7624.0
+INDUSINDBK,quarters,Interest,Sep 2025,7199.0
+INDUSINDBK,quarters,Interest,Dec 2025,6811.0
+INDUSINDBK,quarters,Interest,Mar 2026,6634.0
+INDUSINDBK,quarters,Interest,Jun 2026,6625.0
+INDUSINDBK,quarters,Interest,Sep 2026,7227.0
+INDUSINDBK,quarters,Expenses,Sep 2023,4451.0
+INDUSINDBK,quarters,Expenses,Dec 2023,4623.0
+INDUSINDBK,quarters,Expenses,Mar 2024,4749.0
+INDUSINDBK,quarters,Expenses,Jun 2024,4972.0
+INDUSINDBK,quarters,Expenses,Sep 2024,5759.0
+INDUSINDBK,quarters,Expenses,Dec 2024,5723.0
+INDUSINDBK,quarters,Expenses,Mar 2025,6646.0
+INDUSINDBK,quarters,Expenses,Jun 2025,5882.0
+INDUSINDBK,quarters,Expenses,Sep 2025,6652.0
+INDUSINDBK,quarters,Expenses,Dec 2025,6050.0
+INDUSINDBK,quarters,Expenses,Mar 2026,5347.0
+INDUSINDBK,quarters,Expenses,Jun 2026,5127.0
+INDUSINDBK,quarters,Expenses,Sep 2026,5254.0
+INDUSINDBK,quarters,Financing Profit,Sep 2023,625.0
+INDUSINDBK,quarters,Financing Profit,Dec 2023,672.0
+INDUSINDBK,quarters,Financing Profit,Mar 2024,628.0
+INDUSINDBK,quarters,Financing Profit,Jun 2024,436.0
+INDUSINDBK,quarters,Financing Profit,Sep 2024,-412.0
+INDUSINDBK,quarters,Financing Profit,Dec 2024,-495.0
+INDUSINDBK,quarters,Financing Profit,Mar 2025,-3598.0
+INDUSINDBK,quarters,Financing Profit,Jun 2025,-1242.0
+INDUSINDBK,quarters,Financing Profit,Sep 2025,-2242.0
+INDUSINDBK,quarters,Financing Profit,Dec 2025,-1488.0
+INDUSINDBK,quarters,Financing Profit,Mar 2026,-975.0
+INDUSINDBK,quarters,Financing Profit,Jun 2026,-442.0
+INDUSINDBK,quarters,Financing Profit,Sep 2026,-685.0
+INDUSINDBK,quarters,Financing Margin %,Sep 2023,6.0
+INDUSINDBK,quarters,Financing Margin %,Dec 2023,6.0
+INDUSINDBK,quarters,Financing Margin %,Mar 2024,5.0
+INDUSINDBK,quarters,Financing Margin %,Jun 2024,3.0
+INDUSINDBK,quarters,Financing Margin %,Sep 2024,-3.0
+INDUSINDBK,quarters,Financing Margin %,Dec 2024,-4.0
+INDUSINDBK,quarters,Financing Margin %,Mar 2025,-34.0
+INDUSINDBK,quarters,Financing Margin %,Jun 2025,-10.0
+INDUSINDBK,quarters,Financing Margin %,Sep 2025,-19.0
+INDUSINDBK,quarters,Financing Margin %,Dec 2025,-13.0
+INDUSINDBK,quarters,Financing Margin %,Mar 2026,-9.0
+INDUSINDBK,quarters,Financing Margin %,Jun 2026,-4.0
+INDUSINDBK,quarters,Financing Margin %,Sep 2026,-6.0
+INDUSINDBK,quarters,Other Income,Sep 2023,2282.0
+INDUSINDBK,quarters,Other Income,Dec 2023,2396.0
+INDUSINDBK,quarters,Other Income,Mar 2024,2500.0
+INDUSINDBK,quarters,Other Income,Jun 2024,2441.0
+INDUSINDBK,quarters,Other Income,Sep 2024,2184.0
+INDUSINDBK,quarters,Other Income,Dec 2024,2350.0
+INDUSINDBK,quarters,Other Income,Mar 2025,709.0
+INDUSINDBK,quarters,Other Income,Jun 2025,2156.0
+INDUSINDBK,quarters,Other Income,Sep 2025,1648.0
+INDUSINDBK,quarters,Other Income,Dec 2025,1707.0
+INDUSINDBK,quarters,Other Income,Mar 2026,1706.0
+INDUSINDBK,quarters,Other Income,Jun 2026,1785.0
+INDUSINDBK,quarters,Other Income,Sep 2026,2247.0
+INDUSINDBK,quarters,Depreciation,Sep 2023,0.0
+INDUSINDBK,quarters,Depreciation,Dec 2023,0.0
+INDUSINDBK,quarters,Depreciation,Mar 2024,0.0
+INDUSINDBK,quarters,Depreciation,Jun 2024,0.0
+INDUSINDBK,quarters,Depreciation,Sep 2024,0.0
+INDUSINDBK,quarters,Depreciation,Dec 2024,0.0
+INDUSINDBK,quarters,Depreciation,Mar 2025,0.0
+INDUSINDBK,quarters,Depreciation,Jun 2025,0.0
+INDUSINDBK,quarters,Depreciation,Sep 2025,0.0
+INDUSINDBK,quarters,Depreciation,Dec 2025,0.0
+INDUSINDBK,quarters,Depreciation,Mar 2026,0.0
+INDUSINDBK,quarters,Depreciation,Jun 2026,0.0
+INDUSINDBK,quarters,Depreciation,Sep 2026,0.0
+INDUSINDBK,quarters,Profit before tax,Sep 2023,2907.0
+INDUSINDBK,quarters,Profit before tax,Dec 2023,3068.0
+INDUSINDBK,quarters,Profit before tax,Mar 2024,3128.0
+INDUSINDBK,quarters,Profit before tax,Jun 2024,2877.0
+INDUSINDBK,quarters,Profit before tax,Sep 2024,1772.0
+INDUSINDBK,quarters,Profit before tax,Dec 2024,1855.0
+INDUSINDBK,quarters,Profit before tax,Mar 2025,-2889.0
+INDUSINDBK,quarters,Profit before tax,Jun 2025,914.0
+INDUSINDBK,quarters,Profit before tax,Sep 2025,-594.0
+INDUSINDBK,quarters,Profit before tax,Dec 2025,218.0
+INDUSINDBK,quarters,Profit before tax,Mar 2026,731.0
+INDUSINDBK,quarters,Profit before tax,Jun 2026,1343.0
+INDUSINDBK,quarters,Profit before tax,Sep 2026,1562.0
+INDUSINDBK,quarters,Tax %,Sep 2023,25.0
+INDUSINDBK,quarters,Tax %,Dec 2023,25.0
+INDUSINDBK,quarters,Tax %,Mar 2024,25.0
+INDUSINDBK,quarters,Tax %,Jun 2024,25.0
+INDUSINDBK,quarters,Tax %,Sep 2024,25.0
+INDUSINDBK,quarters,Tax %,Dec 2024,24.0
+INDUSINDBK,quarters,Tax %,Mar 2025,-23.0
+INDUSINDBK,quarters,Tax %,Jun 2025,25.0
+INDUSINDBK,quarters,Tax %,Sep 2025,-25.0
+INDUSINDBK,quarters,Tax %,Dec 2025,26.0
+INDUSINDBK,quarters,Tax %,Mar 2026,27.0
+INDUSINDBK,quarters,Tax %,Jun 2026,25.0
+INDUSINDBK,quarters,Tax %,Sep 2026,25.0
+INDUSINDBK,quarters,Net Profit,Sep 2023,2181.0
+INDUSINDBK,quarters,Net Profit,Dec 2023,2298.0
+INDUSINDBK,quarters,Net Profit,Mar 2024,2347.0
+INDUSINDBK,quarters,Net Profit,Jun 2024,2152.0
+INDUSINDBK,quarters,Net Profit,Sep 2024,1325.0
+INDUSINDBK,quarters,Net Profit,Dec 2024,1401.0
+INDUSINDBK,quarters,Net Profit,Mar 2025,-2236.0
+INDUSINDBK,quarters,Net Profit,Jun 2025,684.0
+INDUSINDBK,quarters,Net Profit,Sep 2025,-445.0
+INDUSINDBK,quarters,Net Profit,Dec 2025,161.0
+INDUSINDBK,quarters,Net Profit,Mar 2026,533.0
+INDUSINDBK,quarters,Net Profit,Jun 2026,1002.0
+INDUSINDBK,quarters,Net Profit,Sep 2026,1176.0
+INDUSINDBK,quarters,EPS in Rs,Sep 2023,28.07
+INDUSINDBK,quarters,EPS in Rs,Dec 2023,29.55
+INDUSINDBK,quarters,EPS in Rs,Mar 2024,30.15
+INDUSINDBK,quarters,EPS in Rs,Jun 2024,27.64
+INDUSINDBK,quarters,EPS in Rs,Sep 2024,17.01
+INDUSINDBK,quarters,EPS in Rs,Dec 2024,17.99
+INDUSINDBK,quarters,EPS in Rs,Mar 2025,-28.7
+INDUSINDBK,quarters,EPS in Rs,Jun 2025,8.78
+INDUSINDBK,quarters,EPS in Rs,Sep 2025,-5.71
+INDUSINDBK,quarters,EPS in Rs,Dec 2025,2.07
+INDUSINDBK,quarters,EPS in Rs,Mar 2026,6.84
+INDUSINDBK,quarters,EPS in Rs,Jun 2026,12.87
+INDUSINDBK,quarters,EPS in Rs,Sep 2026,15.09
+INDUSINDBK,quarters,Gross NPA %,Sep 2023,1.93
+INDUSINDBK,quarters,Gross NPA %,Dec 2023,1.92
+INDUSINDBK,quarters,Gross NPA %,Mar 2024,1.92
+INDUSINDBK,quarters,Gross NPA %,Jun 2024,2.02
+INDUSINDBK,quarters,Gross NPA %,Sep 2024,2.11
+INDUSINDBK,quarters,Gross NPA %,Dec 2024,2.25
+INDUSINDBK,quarters,Gross NPA %,Mar 2025,3.13
+INDUSINDBK,quarters,Gross NPA %,Jun 2025,3.64
+INDUSINDBK,quarters,Gross NPA %,Sep 2025,3.6
+INDUSINDBK,quarters,Gross NPA %,Dec 2025,3.56
+INDUSINDBK,quarters,Gross NPA %,Mar 2026,3.43
+INDUSINDBK,quarters,Gross NPA %,Jun 2026,3.25
+INDUSINDBK,quarters,Gross NPA %,Sep 2026,2.73
+INDUSINDBK,quarters,Net NPA %,Sep 2023,0.57
+INDUSINDBK,quarters,Net NPA %,Dec 2023,0.57
+INDUSINDBK,quarters,Net NPA %,Mar 2024,0.57
+INDUSINDBK,quarters,Net NPA %,Jun 2024,0.6
+INDUSINDBK,quarters,Net NPA %,Sep 2024,0.64
+INDUSINDBK,quarters,Net NPA %,Dec 2024,0.68
+INDUSINDBK,quarters,Net NPA %,Mar 2025,0.95
+INDUSINDBK,quarters,Net NPA %,Jun 2025,1.12
+INDUSINDBK,quarters,Net NPA %,Sep 2025,1.04
+INDUSINDBK,quarters,Net NPA %,Dec 2025,1.04
+INDUSINDBK,quarters,Net NPA %,Mar 2026,1.0
+INDUSINDBK,quarters,Net NPA %,Jun 2026,0.95
+INDUSINDBK,quarters,Net NPA %,Sep 2026,0.83
+INDUSINDBK,profit-loss,Revenue,Mar 2015,9692.0
+INDUSINDBK,profit-loss,Revenue,Mar 2016,11872.0
+INDUSINDBK,profit-loss,Revenue,Mar 2017,14406.0
+INDUSINDBK,profit-loss,Revenue,Mar 2018,17281.0
+INDUSINDBK,profit-loss,Revenue,Mar 2019,22261.0
+INDUSINDBK,profit-loss,Revenue,Mar 2020,28783.0
+INDUSINDBK,profit-loss,Revenue,Mar 2021,29000.0
+INDUSINDBK,profit-loss,Revenue,Mar 2022,30822.0
+INDUSINDBK,profit-loss,Revenue,Mar 2023,36368.0
+INDUSINDBK,profit-loss,Revenue,Mar 2024,45748.0
+INDUSINDBK,profit-loss,Revenue,Mar 2025,48668.0
+INDUSINDBK,profit-loss,Revenue,Mar 2026,46251.0
+INDUSINDBK,profit-loss,Revenue,TTM,45484.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2015,17.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2016,22.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2017,21.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2018,20.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2019,29.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2020,29.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2021,1.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2022,6.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2023,18.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2024,26.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2025,6.0
+INDUSINDBK,profit-loss,Revenue growth,Mar 2026,-5.0
+INDUSINDBK,profit-loss,Revenue growth,TTM,-4.0
+INDUSINDBK,profit-loss,Interest,Mar 2015,6272.0
+INDUSINDBK,profit-loss,Interest,Mar 2016,7355.0
+INDUSINDBK,profit-loss,Interest,Mar 2017,8343.0
+INDUSINDBK,profit-loss,Interest,Mar 2018,9783.0
+INDUSINDBK,profit-loss,Interest,Mar 2019,13415.0
+INDUSINDBK,profit-loss,Interest,Mar 2020,16724.0
+INDUSINDBK,profit-loss,Interest,Mar 2021,15472.0
+INDUSINDBK,profit-loss,Interest,Mar 2022,15822.0
+INDUSINDBK,profit-loss,Interest,Mar 2023,18776.0
+INDUSINDBK,profit-loss,Interest,Mar 2024,25132.0
+INDUSINDBK,profit-loss,Interest,Mar 2025,29636.0
+INDUSINDBK,profit-loss,Interest,Mar 2026,28268.0
+INDUSINDBK,profit-loss,Interest,TTM,27297.0
+INDUSINDBK,profit-loss,Expenses,Mar 2015,3133.0
+INDUSINDBK,profit-loss,Expenses,Mar 2016,4188.0
+INDUSINDBK,profit-loss,Expenses,Mar 2017,5684.0
+INDUSINDBK,profit-loss,Expenses,Mar 2018,6555.0
+INDUSINDBK,profit-loss,Expenses,Mar 2019,9283.0
+INDUSINDBK,profit-loss,Expenses,Mar 2020,12611.0
+INDUSINDBK,profit-loss,Expenses,Mar 2021,15997.0
+INDUSINDBK,profit-loss,Expenses,Mar 2022,15840.0
+INDUSINDBK,profit-loss,Expenses,Mar 2023,15525.0
+INDUSINDBK,profit-loss,Expenses,Mar 2024,17638.0
+INDUSINDBK,profit-loss,Expenses,Mar 2025,22616.0
+INDUSINDBK,profit-loss,Expenses,Mar 2026,23414.0
+INDUSINDBK,profit-loss,Expenses,TTM,21778.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2015,288.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2016,329.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2017,379.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2018,942.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2019,-437.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2020,-553.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2021,-2469.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2022,-839.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2023,2067.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2024,2978.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2025,-3584.0
+INDUSINDBK,profit-loss,Financing Profit,Mar 2026,-5432.0
+INDUSINDBK,profit-loss,Financing Profit,TTM,-3591.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2015,3.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2016,3.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2017,3.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2018,5.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2019,-2.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2020,-2.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2021,-9.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2022,-3.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2023,6.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2024,7.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2025,-7.0
+INDUSINDBK,profit-loss,Financing Margin %,Mar 2026,-12.0
+INDUSINDBK,profit-loss,Financing Margin %,TTM,-8.0
+INDUSINDBK,profit-loss,Other Income,Mar 2015,2548.0
+INDUSINDBK,profit-loss,Other Income,Mar 2016,3297.0
+INDUSINDBK,profit-loss,Other Income,Mar 2017,4171.0
+INDUSINDBK,profit-loss,Other Income,Mar 2018,4750.0
+INDUSINDBK,profit-loss,Other Income,Mar 2019,5647.0
+INDUSINDBK,profit-loss,Other Income,Mar 2020,6951.0
+INDUSINDBK,profit-loss,Other Income,Mar 2021,6559.0
+INDUSINDBK,profit-loss,Other Income,Mar 2022,7334.0
+INDUSINDBK,profit-loss,Other Income,Mar 2023,8166.0
+INDUSINDBK,profit-loss,Other Income,Mar 2024,9388.0
+INDUSINDBK,profit-loss,Other Income,Mar 2025,7684.0
+INDUSINDBK,profit-loss,Other Income,Mar 2026,7217.0
+INDUSINDBK,profit-loss,Other Income,TTM,7445.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2015,127.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2016,157.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2017,191.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2018,212.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2019,229.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2020,278.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2021,305.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2022,321.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2023,373.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2024,425.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2025,485.0
+INDUSINDBK,profit-loss,Depreciation,Mar 2026,516.0
+INDUSINDBK,profit-loss,Depreciation,TTM,0.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2015,2709.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2016,3469.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2017,4360.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2018,5481.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2019,4981.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2020,6121.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2021,3784.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2022,6174.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2023,9860.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2024,11942.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2025,3615.0
+INDUSINDBK,profit-loss,Profit before tax,Mar 2026,1269.0
+INDUSINDBK,profit-loss,Profit before tax,TTM,3854.0
+INDUSINDBK,profit-loss,Tax %,Mar 2015,34.0
+INDUSINDBK,profit-loss,Tax %,Mar 2016,34.0
+INDUSINDBK,profit-loss,Tax %,Mar 2017,34.0
+INDUSINDBK,profit-loss,Tax %,Mar 2018,34.0
+INDUSINDBK,profit-loss,Tax %,Mar 2019,34.0
+INDUSINDBK,profit-loss,Tax %,Mar 2020,28.0
+INDUSINDBK,profit-loss,Tax %,Mar 2021,25.0
+INDUSINDBK,profit-loss,Tax %,Mar 2022,25.0
+INDUSINDBK,profit-loss,Tax %,Mar 2023,25.0
+INDUSINDBK,profit-loss,Tax %,Mar 2024,25.0
+INDUSINDBK,profit-loss,Tax %,Mar 2025,27.0
+INDUSINDBK,profit-loss,Tax %,Mar 2026,26.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2015,1794.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2016,2286.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2017,2868.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2018,3606.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2019,3301.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2020,4418.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2021,2836.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2022,4611.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2023,7390.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2024,8950.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2025,2643.0
+INDUSINDBK,profit-loss,Net Profit,Mar 2026,933.0
+INDUSINDBK,profit-loss,Net Profit,TTM,2872.0
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2015,33.88
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2016,38.43
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2017,47.95
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2018,60.08
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2019,54.77
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2020,63.7
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2021,36.68
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2022,59.52
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2023,95.24
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2024,114.99
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2025,33.92
+INDUSINDBK,profit-loss,EPS in Rs,Mar 2026,11.98
+INDUSINDBK,profit-loss,EPS in Rs,TTM,36.87
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2015,12.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2016,12.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2017,13.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2018,12.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2019,14.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2020,0.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2021,14.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2022,14.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2023,15.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2024,14.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2025,0.0
+INDUSINDBK,profit-loss,Dividend Payout %,Mar 2026,13.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2015,529.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2016,595.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2017,598.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2018,600.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2019,603.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2020,694.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2021,773.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2022,775.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2023,776.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2024,778.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2025,779.0
+INDUSINDBK,balance-sheet,Equity Capital,Mar 2026,779.0
+INDUSINDBK,balance-sheet,Equity Capital,Sep 2026,779.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2015,10115.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2016,17101.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2017,20048.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2018,23241.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2019,26083.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2020,34013.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2021,42592.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2022,46923.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2023,53846.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2024,62019.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2025,63714.0
+INDUSINDBK,balance-sheet,Reserves,Mar 2026,64661.0
+INDUSINDBK,balance-sheet,Reserves,Sep 2026,66606.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2015,75478.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2016,93000.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2017,127572.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2018,151639.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2019,194868.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2020,202040.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2021,256205.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2022,293681.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2023,336438.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2024,384793.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2025,411078.0
+INDUSINDBK,balance-sheet,Deposits,Mar 2026,400174.0
+INDUSINDBK,balance-sheet,Deposits,Sep 2026,429038.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2015,19274.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2016,24996.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2017,21454.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2018,38289.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2019,47321.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2020,60754.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2021,51323.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2022,47323.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2023,49011.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2024,47611.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2025,53704.0
+INDUSINDBK,balance-sheet,Borrowing,Mar 2026,42789.0
+INDUSINDBK,balance-sheet,Borrowing,Sep 2026,53781.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2015,6390.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2016,7205.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2017,8976.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2018,7856.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2019,8944.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2020,9558.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2021,12080.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2022,13273.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2023,17733.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2024,19734.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2025,24744.0
+INDUSINDBK,balance-sheet,Other Liabilities,Mar 2026,35016.0
+INDUSINDBK,balance-sheet,Other Liabilities,Sep 2026,29738.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2015,111787.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2016,142897.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2017,178648.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2018,221626.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2019,277819.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2020,307058.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2021,362973.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2022,401975.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2023,457804.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2024,514935.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2025,554018.0
+INDUSINDBK,balance-sheet,Total Liabilities,Mar 2026,543419.0
+INDUSINDBK,balance-sheet,Total Liabilities,Sep 2026,579942.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2015,1120.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2016,1218.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2017,1307.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2018,1313.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2019,1688.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2020,1742.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2021,1734.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2022,1754.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2023,1857.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2024,2001.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2025,2168.0
+INDUSINDBK,balance-sheet,Fixed Assets,Mar 2026,2312.0
+INDUSINDBK,balance-sheet,Fixed Assets,Sep 2026,2428.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2015,38.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2016,37.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2017,28.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2018,25.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2019,22.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2020,78.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2021,75.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2022,95.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2023,135.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2024,197.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2025,188.0
+INDUSINDBK,balance-sheet,CWIP,Mar 2026,126.0
+INDUSINDBK,balance-sheet,CWIP,Sep 2026,0.0
+INDUSINDBK,balance-sheet,Investments,Mar 2015,22878.0
+INDUSINDBK,balance-sheet,Investments,Mar 2016,34054.0
+INDUSINDBK,balance-sheet,Investments,Mar 2017,36702.0
+INDUSINDBK,balance-sheet,Investments,Mar 2018,50077.0
+INDUSINDBK,balance-sheet,Investments,Mar 2019,59266.0
+INDUSINDBK,balance-sheet,Investments,Mar 2020,59980.0
+INDUSINDBK,balance-sheet,Investments,Mar 2021,69695.0
+INDUSINDBK,balance-sheet,Investments,Mar 2022,70971.0
+INDUSINDBK,balance-sheet,Investments,Mar 2023,83116.0
+INDUSINDBK,balance-sheet,Investments,Mar 2024,106527.0
+INDUSINDBK,balance-sheet,Investments,Mar 2025,114497.0
+INDUSINDBK,balance-sheet,Investments,Mar 2026,125047.0
+INDUSINDBK,balance-sheet,Investments,Sep 2026,106431.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2015,87751.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2016,107587.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2017,140611.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2018,170211.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2019,216843.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2020,245257.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2021,291469.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2022,329155.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2023,372695.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2024,406211.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2025,437166.0
+INDUSINDBK,balance-sheet,Other Assets,Mar 2026,415934.0
+INDUSINDBK,balance-sheet,Other Assets,Sep 2026,471083.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2015,111787.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2016,142897.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2017,178648.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2018,221626.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2019,277819.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2020,307058.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2021,362973.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2022,401975.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2023,457804.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2024,514935.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2025,554018.0
+INDUSINDBK,balance-sheet,Total Assets,Mar 2026,543419.0
+INDUSINDBK,balance-sheet,Total Assets,Sep 2026,579942.0
+INDUSINDBK,ratios,ROE %,Mar 2015,18.0
+INDUSINDBK,ratios,ROE %,Mar 2016,16.0
+INDUSINDBK,ratios,ROE %,Mar 2017,15.0
+INDUSINDBK,ratios,ROE %,Mar 2018,16.0
+INDUSINDBK,ratios,ROE %,Mar 2019,13.0
+INDUSINDBK,ratios,ROE %,Mar 2020,14.0
+INDUSINDBK,ratios,ROE %,Mar 2021,7.0
+INDUSINDBK,ratios,ROE %,Mar 2022,10.0
+INDUSINDBK,ratios,ROE %,Mar 2023,14.0
+INDUSINDBK,ratios,ROE %,Mar 2024,15.0
+INDUSINDBK,ratios,ROE %,Mar 2025,4.0
+INDUSINDBK,ratios,ROE %,Mar 2026,1.0

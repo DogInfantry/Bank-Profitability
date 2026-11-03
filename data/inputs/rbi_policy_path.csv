@@ -1,0 +1,13 @@
+date,series,value_pct,kind,source,note
+2025-03-31,repo,6.25,actual,FactIQ rbi|bbe02280a1da51aa (Bank Rate 6.50 less 25 bp),Bank Rate = repo + 25 bp under the LAF corridor
+2025-06-30,repo,5.50,actual,FactIQ rbi|bbe02280a1da51aa (Bank Rate 5.75 less 25 bp),
+2025-12-31,repo,5.25,actual,FactIQ rbi|bbe02280a1da51aa (Bank Rate 5.50 less 25 bp),
+2026-10-31,repo,5.50,actual,FactIQ rbi|bbe02280a1da51aa (Bank Rate 5.75 less 25 bp),first hike of the cycle
+2026-12-31,repo,5.62,SPF mean r102,FactIQ rbi|905a6f3e95217459,RBI Survey of Professional Forecasters Sep-26
+2027-03-31,repo,5.76,SPF mean r102,FactIQ rbi|905a6f3e95217459,
+2027-06-30,repo,5.80,SPF mean r102,FactIQ rbi|905a6f3e95217459,
+2027-09-30,repo,5.77,SPF mean r102,FactIQ rbi|905a6f3e95217459,
+2026-12-31,repo,6.00,SPF max r102,FactIQ rbi|bb554632b75f939c,upside-rate scenario
+2027-03-31,repo,6.25,SPF max r102,FactIQ rbi|bb554632b75f939c,
+2027-06-30,repo,6.25,SPF max r102,FactIQ rbi|bb554632b75f939c,
+2027-09-30,repo,6.25,SPF max r102,FactIQ rbi|bb554632b75f939c,

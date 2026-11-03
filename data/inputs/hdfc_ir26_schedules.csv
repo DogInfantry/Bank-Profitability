@@ -1,0 +1,31 @@
+line,schedule,fy26_cr,fy25_cr,page
+Interest on advances / bills,13,239762.46,238444.43,365
+Income on investments,13,58945.38,53319.69,365
+Interest on balances with RBI and inter-bank funds,13,2674.70,2506.31,365
+Other interest,13,6139.54,6246.61,365
+Total interest earned,13,307522.07,300517.04,365
+Commission exchange and brokerage,14,34875.94,31898.55,365
+Profit on sale of investments,14,12860.82,2022.72,365
+Profit on revaluation of investments,14,1075.82,-268.40,365
+Profit on sale of assets,14,348.66,156.81,365
+Profit on exchange / derivatives,14,6459.99,4919.04,365
+Dividends from subsidiaries,14,2242.21,2187.01,365
+Miscellaneous income,14,4669.13,4716.55,365
+Total other income,14,62532.57,45632.28,365
+Interest on deposits,15,138375.21,125270.61,365
+Interest on RBI / inter-bank borrowings,15,40351.97,52469.76,365
+Other interest expended,15,108.86,106.58,365
+Total interest expended,15,178836.04,177846.95,365
+Employee cost,16,26050.15,23900.53,366
+Depreciation,16,3657.58,3379.47,366
+Other operating expenses,16,42952.58,40894.88,366
+Total operating expenses,16,72660.32,68174.88,366
+Demand deposits,3,354495.27,314093.64,359
+Savings deposits,3,705801.86,630466.61,359
+Term deposits,3,2044953.35,1770154.65,359
+Total deposits,3,3105250.47,2714714.90,359
+Borrowings,4,489394.64,547930.89,359
+Investments,8,884201.47,836359.67,361
+Advances,9,2937166.27,2619608.62,361
+Branches (incl. DBUs),na,9689,,18
+Employees,na,210969,214308,420

@@ -1,0 +1,20 @@
+month,p2m_value_cr,p2p_value_cr,p2m_volume_mn,total_volume_mn,p2m_value_share_above_2000_pct,p2m_volume_share_above_2000_pct,source
+2025-04,663561.79,1731364.08,11353.60,17893.42,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-05,696624.99,1817672.02,11853.66,18677.46,66,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-06,682872.22,1721058.47,11709.38,18395.01,66,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-07,734012.36,1774485.73,12388.11,19467.95,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-08,723797.42,1761675.49,12705.16,20008.31,65,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-09,719567.29,1770169.25,12366.97,19633.43,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-10,825742.20,1902048.48,13027.56,20700.92,68,5,FactIQ rbi-npci_upi p2p + p2p_bands
+2025-11,764552.06,1867080.57,12840.49,20466.98,,,FactIQ rbi-npci_upi p2p (band data not published)
+2025-12,807572.99,1989139.74,13482.38,21634.67,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-01,840825.83,1992655.39,13608.10,21703.44,69,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-02,772416.94,1911812.35,12795.78,20394.18,68,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-03,861483.05,2091059.00,14180.46,22641.11,68,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-04,851601.89,2051386.16,14110.22,22346.80,68,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-05,872458.05,2117966.16,14721.30,23201.93,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-06,860997.14,2031141.53,14427.88,22716.07,68,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-07,906613.19,2081267.30,14971.85,23658.35,68,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-08,895320.68,2087035.27,15510.01,24508.96,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-09,886987.14,2050409.53,15229.11,24068.38,67,4,FactIQ rbi-npci_upi p2p + p2p_bands
+2026-10,970693.25,2182236.21,16094.46,25466.70,68,4,FactIQ rbi-npci_upi p2p + p2p_bands (full month; user file row was a 29-day partial)

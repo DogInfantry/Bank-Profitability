@@ -1,0 +1,505 @@
+symbol,section,line_item,period,value
+BANKBARODA,quarters,Revenue,Sep 2023,27862.0
+BANKBARODA,quarters,Revenue,Dec 2023,28605.0
+BANKBARODA,quarters,Revenue,Mar 2024,29583.0
+BANKBARODA,quarters,Revenue,Jun 2024,29629.0
+BANKBARODA,quarters,Revenue,Sep 2024,30278.0
+BANKBARODA,quarters,Revenue,Dec 2024,30908.0
+BANKBARODA,quarters,Revenue,Mar 2025,31117.0
+BANKBARODA,quarters,Revenue,Jun 2025,31091.0
+BANKBARODA,quarters,Revenue,Sep 2025,31511.0
+BANKBARODA,quarters,Revenue,Dec 2025,31750.0
+BANKBARODA,quarters,Revenue,Mar 2026,32642.0
+BANKBARODA,quarters,Revenue,Jun 2026,33211.0
+BANKBARODA,quarters,Revenue,Sep 2026,35085.0
+BANKBARODA,quarters,YoY Revenue growth,Sep 2023,31.0
+BANKBARODA,quarters,YoY Revenue growth,Dec 2023,22.0
+BANKBARODA,quarters,YoY Revenue growth,Mar 2024,14.0
+BANKBARODA,quarters,YoY Revenue growth,Jun 2024,12.0
+BANKBARODA,quarters,YoY Revenue growth,Sep 2024,9.0
+BANKBARODA,quarters,YoY Revenue growth,Dec 2024,8.0
+BANKBARODA,quarters,YoY Revenue growth,Mar 2025,5.0
+BANKBARODA,quarters,YoY Revenue growth,Jun 2025,5.0
+BANKBARODA,quarters,YoY Revenue growth,Sep 2025,4.0
+BANKBARODA,quarters,YoY Revenue growth,Dec 2025,3.0
+BANKBARODA,quarters,YoY Revenue growth,Mar 2026,5.0
+BANKBARODA,quarters,YoY Revenue growth,Jun 2026,7.0
+BANKBARODA,quarters,YoY Revenue growth,Sep 2026,11.0
+BANKBARODA,quarters,Interest,Sep 2023,17031.0
+BANKBARODA,quarters,Interest,Dec 2023,17504.0
+BANKBARODA,quarters,Interest,Mar 2024,17791.0
+BANKBARODA,quarters,Interest,Jun 2024,18029.0
+BANKBARODA,quarters,Interest,Sep 2024,18641.0
+BANKBARODA,quarters,Interest,Dec 2024,19491.0
+BANKBARODA,quarters,Interest,Mar 2025,19622.0
+BANKBARODA,quarters,Interest,Jun 2025,19657.0
+BANKBARODA,quarters,Interest,Sep 2025,19557.0
+BANKBARODA,quarters,Interest,Dec 2025,19949.0
+BANKBARODA,quarters,Interest,Mar 2026,20148.0
+BANKBARODA,quarters,Interest,Jun 2026,20686.0
+BANKBARODA,quarters,Interest,Sep 2026,22059.0
+BANKBARODA,quarters,Expenses,Sep 2023,9143.0
+BANKBARODA,quarters,Expenses,Dec 2023,7563.0
+BANKBARODA,quarters,Expenses,Mar 2024,9180.0
+BANKBARODA,quarters,Expenses,Jun 2024,7937.0
+BANKBARODA,quarters,Expenses,Sep 2024,9662.0
+BANKBARODA,quarters,Expenses,Dec 2024,8604.0
+BANKBARODA,quarters,Expenses,Mar 2025,9649.0
+BANKBARODA,quarters,Expenses,Jun 2025,9840.0
+BANKBARODA,quarters,Expenses,Sep 2025,9125.0
+BANKBARODA,quarters,Expenses,Dec 2025,8823.0
+BANKBARODA,quarters,Expenses,Mar 2026,10542.0
+BANKBARODA,quarters,Expenses,Jun 2026,8511.0
+BANKBARODA,quarters,Expenses,Sep 2026,10859.0
+BANKBARODA,quarters,Financing Profit,Sep 2023,1688.0
+BANKBARODA,quarters,Financing Profit,Dec 2023,3538.0
+BANKBARODA,quarters,Financing Profit,Mar 2024,2613.0
+BANKBARODA,quarters,Financing Profit,Jun 2024,3663.0
+BANKBARODA,quarters,Financing Profit,Sep 2024,1975.0
+BANKBARODA,quarters,Financing Profit,Dec 2024,2813.0
+BANKBARODA,quarters,Financing Profit,Mar 2025,1846.0
+BANKBARODA,quarters,Financing Profit,Jun 2025,1595.0
+BANKBARODA,quarters,Financing Profit,Sep 2025,2829.0
+BANKBARODA,quarters,Financing Profit,Dec 2025,2978.0
+BANKBARODA,quarters,Financing Profit,Mar 2026,1952.0
+BANKBARODA,quarters,Financing Profit,Jun 2026,4014.0
+BANKBARODA,quarters,Financing Profit,Sep 2026,2168.0
+BANKBARODA,quarters,Financing Margin %,Sep 2023,6.0
+BANKBARODA,quarters,Financing Margin %,Dec 2023,12.0
+BANKBARODA,quarters,Financing Margin %,Mar 2024,9.0
+BANKBARODA,quarters,Financing Margin %,Jun 2024,12.0
+BANKBARODA,quarters,Financing Margin %,Sep 2024,7.0
+BANKBARODA,quarters,Financing Margin %,Dec 2024,9.0
+BANKBARODA,quarters,Financing Margin %,Mar 2025,6.0
+BANKBARODA,quarters,Financing Margin %,Jun 2025,5.0
+BANKBARODA,quarters,Financing Margin %,Sep 2025,9.0
+BANKBARODA,quarters,Financing Margin %,Dec 2025,9.0
+BANKBARODA,quarters,Financing Margin %,Mar 2026,6.0
+BANKBARODA,quarters,Financing Margin %,Jun 2026,12.0
+BANKBARODA,quarters,Financing Margin %,Sep 2026,6.0
+BANKBARODA,quarters,Other Income,Sep 2023,4171.0
+BANKBARODA,quarters,Other Income,Dec 2023,2810.0
+BANKBARODA,quarters,Other Income,Mar 2024,4191.0
+BANKBARODA,quarters,Other Income,Jun 2024,2487.0
+BANKBARODA,quarters,Other Income,Sep 2024,5166.0
+BANKBARODA,quarters,Other Income,Dec 2024,3769.0
+BANKBARODA,quarters,Other Income,Mar 2025,4735.0
+BANKBARODA,quarters,Other Income,Jun 2025,4675.0
+BANKBARODA,quarters,Other Income,Sep 2025,3515.0
+BANKBARODA,quarters,Other Income,Dec 2025,3600.0
+BANKBARODA,quarters,Other Income,Mar 2026,3967.0
+BANKBARODA,quarters,Other Income,Jun 2026,-2210.0
+BANKBARODA,quarters,Other Income,Sep 2026,6881.0
+BANKBARODA,quarters,Depreciation,Sep 2023,0.0
+BANKBARODA,quarters,Depreciation,Dec 2023,0.0
+BANKBARODA,quarters,Depreciation,Mar 2024,0.0
+BANKBARODA,quarters,Depreciation,Jun 2024,0.0
+BANKBARODA,quarters,Depreciation,Sep 2024,0.0
+BANKBARODA,quarters,Depreciation,Dec 2024,0.0
+BANKBARODA,quarters,Depreciation,Mar 2025,0.0
+BANKBARODA,quarters,Depreciation,Jun 2025,0.0
+BANKBARODA,quarters,Depreciation,Sep 2025,0.0
+BANKBARODA,quarters,Depreciation,Dec 2025,0.0
+BANKBARODA,quarters,Depreciation,Mar 2026,0.0
+BANKBARODA,quarters,Depreciation,Jun 2026,0.0
+BANKBARODA,quarters,Depreciation,Sep 2026,0.0
+BANKBARODA,quarters,Profit before tax,Sep 2023,5859.0
+BANKBARODA,quarters,Profit before tax,Dec 2023,6349.0
+BANKBARODA,quarters,Profit before tax,Mar 2024,6804.0
+BANKBARODA,quarters,Profit before tax,Jun 2024,6151.0
+BANKBARODA,quarters,Profit before tax,Sep 2024,7141.0
+BANKBARODA,quarters,Profit before tax,Dec 2024,6582.0
+BANKBARODA,quarters,Profit before tax,Mar 2025,6581.0
+BANKBARODA,quarters,Profit before tax,Jun 2025,6270.0
+BANKBARODA,quarters,Profit before tax,Sep 2025,6343.0
+BANKBARODA,quarters,Profit before tax,Dec 2025,6578.0
+BANKBARODA,quarters,Profit before tax,Mar 2026,5919.0
+BANKBARODA,quarters,Profit before tax,Jun 2026,1804.0
+BANKBARODA,quarters,Profit before tax,Sep 2026,9048.0
+BANKBARODA,quarters,Tax %,Sep 2023,27.0
+BANKBARODA,quarters,Tax %,Dec 2023,28.0
+BANKBARODA,quarters,Tax %,Mar 2024,28.0
+BANKBARODA,quarters,Tax %,Jun 2024,28.0
+BANKBARODA,quarters,Tax %,Sep 2024,27.0
+BANKBARODA,quarters,Tax %,Dec 2024,27.0
+BANKBARODA,quarters,Tax %,Mar 2025,23.0
+BANKBARODA,quarters,Tax %,Jun 2025,28.0
+BANKBARODA,quarters,Tax %,Sep 2025,24.0
+BANKBARODA,quarters,Tax %,Dec 2025,23.0
+BANKBARODA,quarters,Tax %,Mar 2026,5.0
+BANKBARODA,quarters,Tax %,Jun 2026,29.0
+BANKBARODA,quarters,Tax %,Sep 2026,28.0
+BANKBARODA,quarters,Net Profit,Sep 2023,4253.0
+BANKBARODA,quarters,Net Profit,Dec 2023,4579.0
+BANKBARODA,quarters,Net Profit,Mar 2024,4886.0
+BANKBARODA,quarters,Net Profit,Jun 2024,4458.0
+BANKBARODA,quarters,Net Profit,Sep 2024,5238.0
+BANKBARODA,quarters,Net Profit,Dec 2024,4837.0
+BANKBARODA,quarters,Net Profit,Mar 2025,5048.0
+BANKBARODA,quarters,Net Profit,Jun 2025,4541.0
+BANKBARODA,quarters,Net Profit,Sep 2025,4809.0
+BANKBARODA,quarters,Net Profit,Dec 2025,5055.0
+BANKBARODA,quarters,Net Profit,Mar 2026,5616.0
+BANKBARODA,quarters,Net Profit,Jun 2026,1278.0
+BANKBARODA,quarters,Net Profit,Sep 2026,6532.0
+BANKBARODA,quarters,EPS in Rs,Sep 2023,8.22
+BANKBARODA,quarters,EPS in Rs,Dec 2023,8.86
+BANKBARODA,quarters,EPS in Rs,Mar 2024,9.45
+BANKBARODA,quarters,EPS in Rs,Jun 2024,8.62
+BANKBARODA,quarters,EPS in Rs,Sep 2024,10.13
+BANKBARODA,quarters,EPS in Rs,Dec 2024,9.35
+BANKBARODA,quarters,EPS in Rs,Mar 2025,9.76
+BANKBARODA,quarters,EPS in Rs,Jun 2025,8.78
+BANKBARODA,quarters,EPS in Rs,Sep 2025,9.3
+BANKBARODA,quarters,EPS in Rs,Dec 2025,9.77
+BANKBARODA,quarters,EPS in Rs,Mar 2026,10.86
+BANKBARODA,quarters,EPS in Rs,Jun 2026,2.47
+BANKBARODA,quarters,EPS in Rs,Sep 2026,12.63
+BANKBARODA,quarters,Gross NPA %,Sep 2023,3.32
+BANKBARODA,quarters,Gross NPA %,Dec 2023,3.08
+BANKBARODA,quarters,Gross NPA %,Mar 2024,2.92
+BANKBARODA,quarters,Gross NPA %,Jun 2024,2.88
+BANKBARODA,quarters,Gross NPA %,Sep 2024,2.5
+BANKBARODA,quarters,Gross NPA %,Dec 2024,2.43
+BANKBARODA,quarters,Gross NPA %,Mar 2025,2.26
+BANKBARODA,quarters,Gross NPA %,Jun 2025,2.28
+BANKBARODA,quarters,Gross NPA %,Sep 2025,2.16
+BANKBARODA,quarters,Gross NPA %,Dec 2025,2.04
+BANKBARODA,quarters,Gross NPA %,Mar 2026,1.89
+BANKBARODA,quarters,Gross NPA %,Jun 2026,1.99
+BANKBARODA,quarters,Gross NPA %,Sep 2026,1.78
+BANKBARODA,quarters,Net NPA %,Sep 2023,0.76
+BANKBARODA,quarters,Net NPA %,Dec 2023,0.7
+BANKBARODA,quarters,Net NPA %,Mar 2024,0.68
+BANKBARODA,quarters,Net NPA %,Jun 2024,0.69
+BANKBARODA,quarters,Net NPA %,Sep 2024,0.6
+BANKBARODA,quarters,Net NPA %,Dec 2024,0.59
+BANKBARODA,quarters,Net NPA %,Mar 2025,0.58
+BANKBARODA,quarters,Net NPA %,Jun 2025,0.6
+BANKBARODA,quarters,Net NPA %,Sep 2025,0.57
+BANKBARODA,quarters,Net NPA %,Dec 2025,0.57
+BANKBARODA,quarters,Net NPA %,Mar 2026,0.45
+BANKBARODA,quarters,Net NPA %,Jun 2026,0.5
+BANKBARODA,quarters,Net NPA %,Sep 2026,0.37
+BANKBARODA,profit-loss,Revenue,Mar 2015,42964.0
+BANKBARODA,profit-loss,Revenue,Mar 2016,44061.0
+BANKBARODA,profit-loss,Revenue,Mar 2017,42200.0
+BANKBARODA,profit-loss,Revenue,Mar 2018,43649.0
+BANKBARODA,profit-loss,Revenue,Mar 2019,49771.0
+BANKBARODA,profit-loss,Revenue,Mar 2020,75984.0
+BANKBARODA,profit-loss,Revenue,Mar 2021,70495.0
+BANKBARODA,profit-loss,Revenue,Mar 2022,69881.0
+BANKBARODA,profit-loss,Revenue,Mar 2023,89589.0
+BANKBARODA,profit-loss,Revenue,Mar 2024,112606.0
+BANKBARODA,profit-loss,Revenue,Mar 2025,122301.0
+BANKBARODA,profit-loss,Revenue,Mar 2026,126994.0
+BANKBARODA,profit-loss,Revenue,TTM,132687.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2015,10.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2016,3.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2017,-4.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2018,3.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2019,14.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2020,53.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2021,-7.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2022,-1.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2023,28.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2024,26.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2025,9.0
+BANKBARODA,profit-loss,Revenue growth,Mar 2026,4.0
+BANKBARODA,profit-loss,Revenue growth,TTM,6.0
+BANKBARODA,profit-loss,Interest,Mar 2015,29776.0
+BANKBARODA,profit-loss,Interest,Mar 2016,31321.0
+BANKBARODA,profit-loss,Interest,Mar 2017,28687.0
+BANKBARODA,profit-loss,Interest,Mar 2018,28127.0
+BANKBARODA,profit-loss,Interest,Mar 2019,31290.0
+BANKBARODA,profit-loss,Interest,Mar 2020,48532.0
+BANKBARODA,profit-loss,Interest,Mar 2021,41686.0
+BANKBARODA,profit-loss,Interest,Mar 2022,37259.0
+BANKBARODA,profit-loss,Interest,Mar 2023,48233.0
+BANKBARODA,profit-loss,Interest,Mar 2024,67884.0
+BANKBARODA,profit-loss,Interest,Mar 2025,75783.0
+BANKBARODA,profit-loss,Interest,Mar 2026,79311.0
+BANKBARODA,profit-loss,Interest,TTM,82842.0
+BANKBARODA,profit-loss,Expenses,Mar 2015,11828.0
+BANKBARODA,profit-loss,Expenses,Mar 2016,23935.0
+BANKBARODA,profit-loss,Expenses,Mar 2017,17287.0
+BANKBARODA,profit-loss,Expenses,Mar 2018,23989.0
+BANKBARODA,profit-loss,Expenses,Mar 2019,23166.0
+BANKBARODA,profit-loss,Expenses,Mar 2020,37911.0
+BANKBARODA,profit-loss,Expenses,Mar 2021,34872.0
+BANKBARODA,profit-loss,Expenses,Mar 2022,33329.0
+BANKBARODA,profit-loss,Expenses,Mar 2023,29700.0
+BANKBARODA,profit-loss,Expenses,Mar 2024,32708.0
+BANKBARODA,profit-loss,Expenses,Mar 2025,34459.0
+BANKBARODA,profit-loss,Expenses,Mar 2026,36412.0
+BANKBARODA,profit-loss,Expenses,TTM,38734.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2015,1359.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2016,-11196.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2017,-3774.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2018,-8467.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2019,-4686.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2020,-10460.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2021,-6063.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2022,-708.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2023,11656.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2024,12014.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2025,12059.0
+BANKBARODA,profit-loss,Financing Profit,Mar 2026,11271.0
+BANKBARODA,profit-loss,Financing Profit,TTM,11111.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2015,3.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2016,-25.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2017,-9.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2018,-19.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2019,-9.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2020,-14.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2021,-9.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2022,-1.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2023,13.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2024,11.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2025,10.0
+BANKBARODA,profit-loss,Financing Margin %,Mar 2026,9.0
+BANKBARODA,profit-loss,Financing Margin %,TTM,8.0
+BANKBARODA,profit-loss,Other Income,Mar 2015,4402.0
+BANKBARODA,profit-loss,Other Income,Mar 2016,4999.0
+BANKBARODA,profit-loss,Other Income,Mar 2017,6758.0
+BANKBARODA,profit-loss,Other Income,Mar 2018,6657.0
+BANKBARODA,profit-loss,Other Income,Mar 2019,6294.0
+BANKBARODA,profit-loss,Other Income,Mar 2020,10317.0
+BANKBARODA,profit-loss,Other Income,Mar 2021,12934.0
+BANKBARODA,profit-loss,Other Income,Mar 2022,11484.0
+BANKBARODA,profit-loss,Other Income,Mar 2023,10026.0
+BANKBARODA,profit-loss,Other Income,Mar 2024,14495.0
+BANKBARODA,profit-loss,Other Income,Mar 2025,15788.0
+BANKBARODA,profit-loss,Other Income,Mar 2026,15757.0
+BANKBARODA,profit-loss,Other Income,TTM,12238.0
+BANKBARODA,profit-loss,Depreciation,Mar 2015,340.0
+BANKBARODA,profit-loss,Depreciation,Mar 2016,501.0
+BANKBARODA,profit-loss,Depreciation,Mar 2017,511.0
+BANKBARODA,profit-loss,Depreciation,Mar 2018,863.0
+BANKBARODA,profit-loss,Depreciation,Mar 2019,910.0
+BANKBARODA,profit-loss,Depreciation,Mar 2020,1660.0
+BANKBARODA,profit-loss,Depreciation,Mar 2021,1315.0
+BANKBARODA,profit-loss,Depreciation,Mar 2022,1390.0
+BANKBARODA,profit-loss,Depreciation,Mar 2023,1955.0
+BANKBARODA,profit-loss,Depreciation,Mar 2024,1620.0
+BANKBARODA,profit-loss,Depreciation,Mar 2025,1393.0
+BANKBARODA,profit-loss,Depreciation,Mar 2026,1917.0
+BANKBARODA,profit-loss,Depreciation,TTM,0.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2015,5421.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2016,-6698.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2017,2473.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2018,-2673.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2019,698.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2020,-1802.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2021,5556.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2022,9386.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2023,19727.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2024,24890.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2025,26454.0
+BANKBARODA,profit-loss,Profit before tax,Mar 2026,25110.0
+BANKBARODA,profit-loss,Profit before tax,TTM,23349.0
+BANKBARODA,profit-loss,Tax %,Mar 2015,37.0
+BANKBARODA,profit-loss,Tax %,Mar 2016,-19.0
+BANKBARODA,profit-loss,Tax %,Mar 2017,44.0
+BANKBARODA,profit-loss,Tax %,Mar 2018,-9.0
+BANKBARODA,profit-loss,Tax %,Mar 2019,38.0
+BANKBARODA,profit-loss,Tax %,Mar 2020,-130.0
+BANKBARODA,profit-loss,Tax %,Mar 2021,85.0
+BANKBARODA,profit-loss,Tax %,Mar 2022,23.0
+BANKBARODA,profit-loss,Tax %,Mar 2023,28.0
+BANKBARODA,profit-loss,Tax %,Mar 2024,29.0
+BANKBARODA,profit-loss,Tax %,Mar 2025,26.0
+BANKBARODA,profit-loss,Tax %,Mar 2026,20.0
+BANKBARODA,profit-loss,Net Profit,Mar 2015,3398.0
+BANKBARODA,profit-loss,Net Profit,Mar 2016,-5396.0
+BANKBARODA,profit-loss,Net Profit,Mar 2017,1383.0
+BANKBARODA,profit-loss,Net Profit,Mar 2018,-2432.0
+BANKBARODA,profit-loss,Net Profit,Mar 2019,434.0
+BANKBARODA,profit-loss,Net Profit,Mar 2020,546.0
+BANKBARODA,profit-loss,Net Profit,Mar 2021,829.0
+BANKBARODA,profit-loss,Net Profit,Mar 2022,7272.0
+BANKBARODA,profit-loss,Net Profit,Mar 2023,14110.0
+BANKBARODA,profit-loss,Net Profit,Mar 2024,17789.0
+BANKBARODA,profit-loss,Net Profit,Mar 2025,19581.0
+BANKBARODA,profit-loss,Net Profit,Mar 2026,20021.0
+BANKBARODA,profit-loss,Net Profit,TTM,18480.0
+BANKBARODA,profit-loss,EPS in Rs,Mar 2015,15.37
+BANKBARODA,profit-loss,EPS in Rs,Mar 2016,-23.42
+BANKBARODA,profit-loss,EPS in Rs,Mar 2017,6.0
+BANKBARODA,profit-loss,EPS in Rs,Mar 2018,-9.19
+BANKBARODA,profit-loss,EPS in Rs,Mar 2019,1.64
+BANKBARODA,profit-loss,EPS in Rs,Mar 2020,1.18
+BANKBARODA,profit-loss,EPS in Rs,Mar 2021,1.6
+BANKBARODA,profit-loss,EPS in Rs,Mar 2022,14.06
+BANKBARODA,profit-loss,EPS in Rs,Mar 2023,27.28
+BANKBARODA,profit-loss,EPS in Rs,Mar 2024,34.4
+BANKBARODA,profit-loss,EPS in Rs,Mar 2025,37.86
+BANKBARODA,profit-loss,EPS in Rs,Mar 2026,38.72
+BANKBARODA,profit-loss,EPS in Rs,TTM,35.73
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2015,21.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2016,0.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2017,20.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2018,0.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2019,0.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2020,0.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2021,0.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2022,20.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2023,20.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2024,22.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2025,22.0
+BANKBARODA,profit-loss,Dividend Payout %,Mar 2026,22.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2015,444.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2016,462.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2017,462.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2018,530.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2019,530.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2020,925.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2021,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2022,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2023,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2024,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2025,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Mar 2026,1036.0
+BANKBARODA,balance-sheet,Equity Capital,Sep 2026,1036.0
+BANKBARODA,balance-sheet,Reserves,Mar 2015,39392.0
+BANKBARODA,balance-sheet,Reserves,Mar 2016,39737.0
+BANKBARODA,balance-sheet,Reserves,Mar 2017,39841.0
+BANKBARODA,balance-sheet,Reserves,Mar 2018,42864.0
+BANKBARODA,balance-sheet,Reserves,Mar 2019,50453.0
+BANKBARODA,balance-sheet,Reserves,Mar 2020,70931.0
+BANKBARODA,balance-sheet,Reserves,Mar 2021,76010.0
+BANKBARODA,balance-sheet,Reserves,Mar 2022,84874.0
+BANKBARODA,balance-sheet,Reserves,Mar 2023,97187.0
+BANKBARODA,balance-sheet,Reserves,Mar 2024,111188.0
+BANKBARODA,balance-sheet,Reserves,Mar 2025,135890.0
+BANKBARODA,balance-sheet,Reserves,Mar 2026,152173.0
+BANKBARODA,balance-sheet,Reserves,Sep 2026,160072.0
+BANKBARODA,balance-sheet,Deposits,Mar 2015,617560.0
+BANKBARODA,balance-sheet,Deposits,Mar 2016,574038.0
+BANKBARODA,balance-sheet,Deposits,Mar 2017,601675.0
+BANKBARODA,balance-sheet,Deposits,Mar 2018,591315.0
+BANKBARODA,balance-sheet,Deposits,Mar 2019,638690.0
+BANKBARODA,balance-sheet,Deposits,Mar 2020,945984.0
+BANKBARODA,balance-sheet,Deposits,Mar 2021,966997.0
+BANKBARODA,balance-sheet,Deposits,Mar 2022,1045939.0
+BANKBARODA,balance-sheet,Deposits,Mar 2023,1203688.0
+BANKBARODA,balance-sheet,Deposits,Mar 2024,1335136.0
+BANKBARODA,balance-sheet,Deposits,Mar 2025,1472035.0
+BANKBARODA,balance-sheet,Deposits,Mar 2026,1648487.0
+BANKBARODA,balance-sheet,Deposits,Sep 2026,1745435.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2015,35264.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2016,33472.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2017,30611.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2018,62572.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2019,67201.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2020,93069.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2021,66848.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2022,103899.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2023,101910.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2024,94402.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2025,123716.0
+BANKBARODA,balance-sheet,Borrowing,Mar 2026,156357.0
+BANKBARODA,balance-sheet,Borrowing,Sep 2026,167672.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2015,22329.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2016,23668.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2017,22286.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2018,22718.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2019,24113.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2020,47006.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2021,44474.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2022,42252.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2023,54740.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2024,44035.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2025,48571.0
+BANKBARODA,balance-sheet,Other Liabilities,Mar 2026,51110.0
+BANKBARODA,balance-sheet,Other Liabilities,Sep 2026,57944.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2015,714989.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2016,671376.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2017,694875.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2018,720000.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2019,780987.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2020,1157916.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2021,1155365.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2022,1278000.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2023,1458562.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2024,1585797.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2025,1781247.0
+BANKBARODA,balance-sheet,Total Liabilities,Mar 2026,2009164.0
+BANKBARODA,balance-sheet,Total Liabilities,Sep 2026,2132159.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2015,2875.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2016,6254.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2017,5758.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2018,5367.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2019,6990.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2020,8889.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2021,8016.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2022,9922.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2023,8707.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2024,7913.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2025,12376.0
+BANKBARODA,balance-sheet,Fixed Assets,Mar 2026,11879.0
+BANKBARODA,balance-sheet,Fixed Assets,Sep 2026,11700.0
+BANKBARODA,balance-sheet,CWIP,Mar 2015,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2016,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2017,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2018,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2019,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2020,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2021,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2022,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2023,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2024,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2025,0.0
+BANKBARODA,balance-sheet,CWIP,Mar 2026,0.0
+BANKBARODA,balance-sheet,CWIP,Sep 2026,0.0
+BANKBARODA,balance-sheet,Investments,Mar 2015,116812.0
+BANKBARODA,balance-sheet,Investments,Mar 2016,120451.0
+BANKBARODA,balance-sheet,Investments,Mar 2017,129631.0
+BANKBARODA,balance-sheet,Investments,Mar 2018,163185.0
+BANKBARODA,balance-sheet,Investments,Mar 2019,182298.0
+BANKBARODA,balance-sheet,Investments,Mar 2020,274615.0
+BANKBARODA,balance-sheet,Investments,Mar 2021,261220.0
+BANKBARODA,balance-sheet,Investments,Mar 2022,315795.0
+BANKBARODA,balance-sheet,Investments,Mar 2023,362485.0
+BANKBARODA,balance-sheet,Investments,Mar 2024,369817.0
+BANKBARODA,balance-sheet,Investments,Mar 2025,385398.0
+BANKBARODA,balance-sheet,Investments,Mar 2026,386415.0
+BANKBARODA,balance-sheet,Investments,Sep 2026,449262.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2015,595301.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2016,544672.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2017,559487.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2018,551448.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2019,591699.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2020,874412.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2021,886128.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2022,952283.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2023,1087370.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2024,1208068.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2025,1383473.0
+BANKBARODA,balance-sheet,Other Assets,Mar 2026,1610869.0
+BANKBARODA,balance-sheet,Other Assets,Sep 2026,1671197.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2015,714989.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2016,671376.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2017,694875.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2018,720000.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2019,780987.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2020,1157916.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2021,1155365.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2022,1278000.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2023,1458562.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2024,1585797.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2025,1781247.0
+BANKBARODA,balance-sheet,Total Assets,Mar 2026,2009164.0
+BANKBARODA,balance-sheet,Total Assets,Sep 2026,2132159.0
+BANKBARODA,ratios,ROE %,Mar 2015,9.0
+BANKBARODA,ratios,ROE %,Mar 2016,-13.0
+BANKBARODA,ratios,ROE %,Mar 2017,3.0
+BANKBARODA,ratios,ROE %,Mar 2018,-6.0
+BANKBARODA,ratios,ROE %,Mar 2019,1.0
+BANKBARODA,ratios,ROE %,Mar 2020,1.0
+BANKBARODA,ratios,ROE %,Mar 2021,1.0
+BANKBARODA,ratios,ROE %,Mar 2022,9.0
+BANKBARODA,ratios,ROE %,Mar 2023,15.0
+BANKBARODA,ratios,ROE %,Mar 2024,17.0
+BANKBARODA,ratios,ROE %,Mar 2025,16.0
+BANKBARODA,ratios,ROE %,Mar 2026,14.0

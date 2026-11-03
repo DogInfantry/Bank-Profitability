@@ -2,30 +2,30 @@
   import { onMount } from 'svelte';
   import { app, load } from './lib/store.svelte';
   import Icon from './lib/Icon.svelte';
+  import BankGlyph from './lib/BankGlyph.svelte';
   import Palette from './lib/Palette.svelte';
-  import Brief from './sections/Brief.svelte';
-  import Diagnosis from './sections/Diagnosis.svelte';
-  import MetricTree from './sections/MetricTree.svelte';
-  import Workbench from './sections/Workbench.svelte';
-  import Bets from './sections/Bets.svelte';
-  import Evidence from './sections/Evidence.svelte';
-  import Risks from './sections/Risks.svelte';
-  import Roadmap from './sections/Roadmap.svelte';
+  import ChAnswer from './chapters/ChAnswer.svelte';
+  import ChMerger from './chapters/ChMerger.svelte';
+  import ChPeers from './chapters/ChPeers.svelte';
+  import ChRunoff from './chapters/ChRunoff.svelte';
+  import ChMoves from './chapters/ChMoves.svelte';
+  import ChValue from './chapters/ChValue.svelte';
+  import ChRisks from './chapters/ChRisks.svelte';
+  import ChPlan from './chapters/ChPlan.svelte';
+  import Appendix from './chapters/Appendix.svelte';
   import Changelog from './sections/Changelog.svelte';
 
   const REPO = 'https://github.com/DogInfantry/Bank-Profitability';
   const BR = `${REPO}/blob/claude/wonderful-noether-vgfm7p`;
   const SECTIONS = [
-    ['brief', '01', 'The answer'], ['diagnosis', '02', 'Diagnosis'], ['tree', '03', 'Metric tree'], ['workbench', '04', 'Workbench'],
-    ['bets', '05', 'Bets'], ['evidence', '06', 'Evidence'], ['risks', '07', 'Risks'], ['roadmap', '08', 'Roadmap'], ['log', '09', 'Changelog and method'],
+    ['answer', '01', 'The answer'], ['merger', '02', 'The merger broke the margin'], ['peers', '03', 'Against ICICI Bank'], ['runoff', '04', 'The base case'],
+    ['moves', '05', 'The six moves'], ['value', '06', 'What it is worth'], ['risks', '07', 'What could break it'], ['plan', '08', 'Next twelve months'],
+    ['workbench-a', 'A', 'Test the answer'], ['log', 'B', 'Method and sources'],
   ] as const;
-  let active = $state('brief');
   let paletteOpen = $state(false);
-
-  function applyTheme() {
-    const r = document.documentElement;
-    if (app.theme === 'auto') r.removeAttribute('data-theme'); else r.dataset.theme = app.theme;
-  }
+  let progress = $state(0);
+  let active = $state('');
+  function applyTheme() { const r = document.documentElement; if (app.theme === 'auto') r.removeAttribute('data-theme'); else r.dataset.theme = app.theme; }
   function toggleTheme() {
     const dark = app.theme === 'dark' || (app.theme === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
     app.theme = dark ? 'light' : 'dark'; applyTheme();
@@ -34,94 +34,76 @@
   onMount(() => {
     try { const t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') { app.theme = t; applyTheme(); } } catch { /* ignore */ }
     load();
-    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) active = e.target.id; }), { rootMargin: '-45% 0px -50% 0px' });
-    const t = setInterval(() => { const els = document.querySelectorAll('section.block'); if (els.length) { els.forEach((s) => io.observe(s)); clearInterval(t); } }, 200);
+    const onScroll = () => { const h = document.documentElement; progress = Math.min(1, h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)); };
     const key = (e: KeyboardEvent) => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); paletteOpen = !paletteOpen; } };
-    window.addEventListener('keydown', key);
     const onHash = () => { if (location.hash.startsWith('#w=')) app.readHash(); };
-    window.addEventListener('hashchange', onHash);
-    return () => { window.removeEventListener('keydown', key); window.removeEventListener('hashchange', onHash); io.disconnect(); };
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) active = e.target.id; }), { rootMargin: '-40% 0px -55% 0px' });
+    const t = setInterval(() => { const els = document.querySelectorAll('section.chapter'); if (els.length) { els.forEach((s) => io.observe(s)); clearInterval(t); } }, 200);
+    window.addEventListener('scroll', onScroll, { passive: true }); window.addEventListener('keydown', key); window.addEventListener('hashchange', onHash);
+    return () => { window.removeEventListener('scroll', onScroll); window.removeEventListener('keydown', key); window.removeEventListener('hashchange', onHash); io.disconnect(); };
   });
   const s = $derived(app.story);
+  const current = $derived(SECTIONS.find((x) => x[0] === active));
 </script>
 
-<div class="status" role="banner">
-  <div class="wrap status-in">
-    <span class="mono"><Icon name="versions" /> v1.0</span>
-    {#if s?.checks?.total}
-      <span class="mono ok"><Icon name="check" /> {s.checks.total - s.checks.fail}/{s.checks.total}<span class="hide-s"> model checks pass</span></span>
-    {/if}
-    {#if s}<a class="mono hide-s" href={`${REPO}/blob/claude/wonderful-noether-vgfm7p/models/HDFC_RoA_Path_FY29.xlsx`}><Icon name="commit" /> model {s.model_sha}</a>{/if}
-    <span class="mono hide-s">data as of 3 Nov 2026</span>
-    <span class="spacer"></span>
-    <button class="kbd" onclick={() => (paletteOpen = true)} aria-label="Open command palette"><Icon name="palette" /> <span class="hide-s">Jump to</span> <kbd>⌘K</kbd></button>
-    <button class="kbd" onclick={toggleTheme} aria-label="Toggle light and dark theme"><Icon name="sun" /></button>
+<nav class="bar" aria-label="Chapters">
+  <div class="bar-in">
+    <a class="brandmark" href="#top"><BankGlyph size={20} /><span>The 2% Question</span></a>
+    <span class="cur">{#if current}<span class="mono">{current[1]}</span> {current[2]}{/if}</span>
+    <span class="sp"></span>
+    <button class="bb" onclick={() => (paletteOpen = true)} aria-label="Open chapter menu"><Icon name="palette" /><span class="hs">Chapters</span><kbd>⌘K</kbd></button>
+    <button class="bb" onclick={toggleTheme} aria-label="Toggle light and dark theme"><Icon name="sun" /></button>
   </div>
-</div>
+  <div class="prog" style={`transform: scaleX(${progress})`}></div>
+</nav>
 
-<header class="wrap mast">
-  <p class="label">An outside-in case · FY27 to FY29 · built as a model you can operate</p>
-  <h1>The 2% Question</h1>
-  <p class="deck-line">What restores HDFC Bank's return on assets to 2% by FY29, what each move is worth, and what the share price already assumes.</p>
-  <p class="disclaimer">Independent outside-in case study using public data only; not commissioned by, or affiliated with, HDFC Bank or Bain &amp; Company. Brand colours are used for orientation only.</p>
+<header class="mast" id="top">
+  <div class="kick"><BankGlyph size={40} title="Bank" /><div><p class="k1">HDFC Bank · Return on assets · FY23 to FY29</p><p class="k2">An outside-in case study</p></div></div>
+  <h1>HDFC Bank can earn 2% again. It has to fix funding, not cost.</h1>
+  <p class="stand">The 2023 merger moved HDFC Bank's problem from cost to margin. Legacy borrowings running off will take return on assets to 1.86% by FY29. Six funding-led moves take it to 2.04%, and the share price already assumes they happen.</p>
+  <p class="by">By Anklesh · 3 November 2026 · Data to Q2 FY27 · About 12 minutes</p>
+  <p class="disc">Independent outside-in case study using public data only; not commissioned by, or affiliated with, HDFC Bank or Bain &amp; Company. Every number traces to <a href={REPO}>the repository</a> and its <a href={`${BR}/models/HDFC_RoA_Path_FY29.xlsx`}>Excel model</a>.</p>
 </header>
 
-<div class="layout wrap">
-  <nav class="rail" aria-label="Sections">
-    {#each SECTIONS as [id, n, name]}
-      <a href={`#${id}`} class:on={active === id}><span class="mono">{n}</span> {name}</a>
-    {/each}
-    <div class="rail-foot">
-      <a href={`${REPO}`}><Icon name="external" /> Repository</a>
-      <a href={`${BR}/models/HDFC_RoA_Path_FY29.xlsx`}><Icon name="download" /> Excel model</a>
-      <a href={`${BR}/decks/pdf/HDFC_CEO_Memo.pdf`}><Icon name="download" /> CEO memo</a>
-    </div>
-  </nav>
-  <main>
-    {#if app.story && app.model && app.result}
-      <Brief />
-      <Diagnosis />
-      <MetricTree />
-      <Workbench />
-      <Bets />
-      <Evidence />
-      <Risks />
-      <Roadmap />
-      <Changelog />
-    {:else}
-      <p class="loading mono">Loading the model…</p>
-    {/if}
-  </main>
-</div>
+<main class="col">
+  {#if app.story && app.model && app.result}
+    <ChAnswer /><ChMerger /><ChPeers /><ChRunoff /><ChMoves /><ChValue /><ChRisks /><ChPlan /><Appendix /><Changelog />
+    <section class="repro">
+      <p class="kh">Reproducibility</p>
+      <p><Icon name="check" /> {s?.checks?.total - s?.checks?.fail}/{s?.checks?.total} model reconciliation checks pass · <Icon name="commit" /> model {s?.model_sha} · browser model matches the workbook within 0.1 bp (15 tests) · <a href={`${BR}/docs/model_audit.md`}>independent model audit</a> · <a href={`${BR}/decks/pdf/HDFC_CEO_Memo.pdf`}>two-page CEO memo</a></p>
+    </section>
+  {:else}
+    <p class="loading mono">Loading the model…</p>
+  {/if}
+</main>
 
-<footer class="wrap foot">
-  <p>Prepared by Anklesh. Every number on this page is computed from <a href={REPO}>the repository's</a> recalculated Excel model or its cited inputs; the browser model is tested against the workbook to within 0.1 bp. Icons: GitHub Primer Octicons (MIT).</p>
-</footer>
+<footer class="foot"><p>Prepared by Anklesh. Bank emblem is a neutral illustration, not any bank's mark. Icons: GitHub Primer Octicons (MIT). Type: EB Garamond, IBM Plex.</p></footer>
 
 <Palette bind:open={paletteOpen} sections={SECTIONS} {toggleTheme} />
 
 <style>
-  .status { position: sticky; top: 0; z-index: 20; background: var(--paper); border-bottom: 1px solid var(--hair); }
-  .status-in { display: flex; align-items: center; gap: 18px; height: 40px; font-size: 12px; color: var(--muted); }
-  .status a { color: var(--muted); text-decoration: none; }
-  .status a:hover { color: var(--brand); }
-  .status .ok { color: var(--good); }
-  .spacer { flex: 1; }
-  .kbd { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--hair); border-radius: 4px; padding: 3px 8px; cursor: pointer; color: var(--ink-2); font-size: 12px; }
+  :global(:root) { --col: 680px; --breakout: 190px; }
+  .bar { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--hair); }
+  .bar-in { max-width: 1100px; margin: 0 auto; padding: 0 20px; height: 44px; display: flex; align-items: center; gap: 16px; }
+  .brandmark { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); font: 600 15px var(--serif); }
+  .cur { font: 500 12.5px var(--sans); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .cur .mono { color: var(--brand); margin-right: 4px; }
+  .sp { flex: 1; }
+  .bb { display: inline-flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--hair); border-radius: 4px; padding: 3px 8px; cursor: pointer; color: var(--ink-2); font-size: 12px; }
   kbd { font: 500 11px var(--mono); color: var(--muted); }
-  .mast { padding-top: 56px; padding-bottom: 28px; }
-  h1 { font-size: clamp(48px, 8vw, 96px); line-height: .98; font-weight: 500; letter-spacing: -0.02em; margin: 14px 0 18px; }
-  .deck-line { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 26px); line-height: 1.35; color: var(--ink-2); max-width: 30em; }
-  .disclaimer { font-size: 12.5px; color: var(--muted); border-left: 2px solid var(--hair); padding-left: 10px; max-width: 70ch; margin-top: 18px; }
-  .layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
-  .rail { position: sticky; top: 64px; align-self: start; display: flex; flex-direction: column; gap: 2px; padding-top: 72px; font-size: 13px; }
-  .rail a { color: var(--muted); text-decoration: none; padding: 5px 8px; border-left: 2px solid transparent; }
-  .rail a .mono { font-size: 11px; margin-right: 6px; }
-  .rail a.on { color: var(--ink); border-left-color: var(--brand); }
-  .rail a:hover { color: var(--brand); }
-  .rail-foot { margin-top: 22px; padding-top: 14px; border-top: 1px solid var(--hair); display: flex; flex-direction: column; gap: 2px; }
-  main { min-width: 0; }
+  .prog { height: 2px; background: var(--brand); transform-origin: 0 50%; }
+  .mast { max-width: 900px; margin: 0 auto; padding: 72px 20px 40px; }
+  .kick { display: flex; gap: 14px; align-items: center; margin-bottom: 26px; }
+  .k1 { font: 600 12px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--brand); margin: 0; } .k2 { font: 400 13px var(--sans); color: var(--muted); margin: 2px 0 0; }
+  h1 { font-size: clamp(38px, 5.6vw, 66px); line-height: 1.04; letter-spacing: -0.02em; font-weight: 500; margin: 0 0 22px; }
+  .stand { font: 400 clamp(19px, 2vw, 23px)/1.45 var(--serif); color: var(--ink-2); max-width: 34em; margin: 0 0 18px; }
+  .by { font: 500 13px var(--sans); color: var(--ink-2); border-top: 1px solid var(--hair); padding-top: 12px; }
+  .disc { font-size: 12.5px; color: var(--muted); max-width: 70ch; }
+  .col { max-width: var(--col); margin: 0 auto; padding: 0 20px; }
+  .col :global(section.chapter) { padding: 64px 0 20px; border-top: 1px solid var(--hair); }
+  .col :global(.prose) { font-size: 19px; }
+  .repro { border-top: 1px solid var(--hair); padding: 28px 0; font-size: 13px; color: var(--muted); } .repro .kh { font: 600 13px var(--sans); color: var(--ink); margin: 0 0 6px; }
   .loading { padding: 80px 0; color: var(--muted); }
-  .foot { padding: 40px 24px 60px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--hair); margin-top: 40px; }
-  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .rail { display: none; } .hide-s { display: none; } .status-in { gap: 10px; } }
+  .foot { max-width: var(--col); margin: 0 auto; padding: 20px 20px 60px; font-size: 12px; color: var(--muted); }
+  @media (max-width: 1100px) { :global(:root) { --breakout: 0px; } }
+  @media (max-width: 640px) { .hs, .cur { display: none; } .mast { padding-top: 44px; } }
 </style>

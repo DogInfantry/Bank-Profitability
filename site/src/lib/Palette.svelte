@@ -9,7 +9,7 @@
   type Item = { label: string; hint: string; run: () => void };
   const items: Item[] = $derived([
     ...sections.map(([id, n, name]) => ({ label: name, hint: `Section ${n}`, run: () => { document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); history.replaceState(null, '', `#${id}`); } })),
-    ...(['Base', 'Upside', 'Downside'] as const).map((s) => ({ label: `Workbench: ${s} scenario`, hint: 'Scenario', run: () => { app.setPreset(s); document.getElementById('workbench')?.scrollIntoView({ behavior: 'smooth' }); } })),
+    ...(['Base', 'Upside', 'Downside'] as const).map((s) => ({ label: `Model: ${s} scenario`, hint: 'Scenario', run: () => { app.setPreset(s); location.hash = `w=${s};;111111`; document.getElementById('workbench-a')?.scrollIntoView({ behavior: 'smooth' }); } })),
     { label: 'Copy link to this scenario', hint: 'Share', run: () => navigator.clipboard?.writeText(`${location.origin}${location.pathname}#${app.hash()}`) },
     { label: 'Toggle light / dark', hint: 'Theme', run: toggleTheme },
     { label: 'Open the Excel model', hint: 'Download', run: () => window.open('https://github.com/DogInfantry/Bank-Profitability/blob/claude/wonderful-noether-vgfm7p/models/HDFC_RoA_Path_FY29.xlsx') },

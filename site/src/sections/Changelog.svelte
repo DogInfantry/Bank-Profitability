@@ -1,10 +1,10 @@
 <script lang="ts">
   import katex from 'katex';
-  import SecHead from '../lib/SecHead.svelte';
   import Icon from '../lib/Icon.svelte';
   const tex = (s: string) => katex.renderToString(s, { displayMode: true, throwOnError: false, output: 'html' });
   const releases = [
-    ['v1.0', '3 Nov 2026', 'Explorable front end: browser engine tested against the Excel to 0.1 bp; workbench, metric tree, scrollytelling diagnosis.'],
+    ['v2.0', '3 Nov 2026', 'Rebuilt as an argued long-read: answer first, twelve numbered and annotated exhibits, the recommendation built move by move; the model moved to an appendix.'],
+    ['v1.0', '3 Nov 2026', 'Explorable front end: browser engine tested against the Excel to 0.1 bp.'],
     ['Model 3', '3 Nov 2026', 'Tornado on the live workbook; RoA walk; funding-cost beta regression; peer anchors; call-topic tracker; DuckDB SQL layer; CI.'],
     ['Correction', '3 Nov 2026', 'UPI: October 2026 is the record month (25.47 bn transactions). An earlier version read a 29-day partial row as the full month.'],
     ['Correction', '3 Nov 2026', 'Margins: SBI\'s Q2 FY27 NIM rose 13 bp to 2.94%. An earlier version said every reported NIM fell.'],
@@ -22,8 +22,8 @@
     ['M', 'models/HDFC_RoA_Path_FY29.xlsx: driver model, nine checks, strict lint; recalculated headlessly and exported per scenario'],
   ];
 </script>
-<section class="block" id="log">
-  <SecHead idx="09" kicker="Changelog and method" title="How this was built, and what we got wrong on the way" />
+<section class="chapter appendix" id="log">
+  <p class="ak-b"><span class="mono">B</span> Appendix</p><h2 class="h2b">Method, sources and corrections</h2>
   <div class="cols">
     <div>
       <p class="label"><Icon name="history" /> Release notes</p>
@@ -64,4 +64,6 @@
   .src-reg dt { color: var(--brand); font-size: 12px; } .src-reg dd { margin: 0; font-size: 13.5px; color: var(--ink-2); }
   .cav { padding-left: 18px; font-size: 13.5px; color: var(--ink-2); } .cav li { margin-bottom: 4px; }
   @media (max-width: 900px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+.ak-b { font: 600 11.5px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; display: flex; gap: 12px; } .ak-b .mono { color: var(--brand); }
+  .h2b { font-size: clamp(26px, 3vw, 34px); margin-bottom: 20px; }
 </style>

@@ -37,6 +37,20 @@ def clean(x):
     return x
 
 
+def ten_year() -> list[dict]:
+    """FY18-FY26 RoA tree from HDFC Bank IR26 p234 (ten-year highlights), simple-average total assets."""
+    h = pd.read_csv(I / "hdfc_10yr_highlights.csv").set_index("metric")
+    fys = [c for c in h.columns if c.startswith("FY")]
+    out = []
+    for prev, fy in zip(fys, fys[1:]):
+        a = (h.loc["total_assets", fy] + h.loc["total_assets", prev]) / 2
+        r = lambda m: float(h.loc[m, fy] / a)  # noqa: E731
+        out.append(dict(fy=fy, nii=r("nii"), oi=r("other_income"), opex=r("opex"), prov=r("provisions_total"), tax=r("tax"), roa=r("pat"),
+                        cc=float(h.loc["loan_loss_provisions", fy] / ((h.loc["loans", fy] + h.loc["loans", prev]) / 2)),
+                        pb=float(h.loc["price", fy] / h.loc["bvps", fy])))
+    return out
+
+
 def main():
     O = json.loads((T / "hdfc_model_outputs.json").read_text())
     b = O["Base"]
@@ -119,6 +133,7 @@ def main():
         as_of="2026-11-03", years=YEARS, series=series, outputs=outputs, levers=lev_out, anchors=anchors, peers=peers,
         q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
         roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),
+        norm_roa_bp=sc("Opex_Credit|RoA at risk if credit cost normalises"),
         ttc_cc=sc("Opex_Credit|Through-the-cycle credit cost, FY21-FY26 average"), recent_cc=sc("Opex_Credit|Recent credit cost, FY24-FY26 average"),
         irdai_fy29=col("Fees|Bank fee lost to caps", "FY29E"), mdr_fy29=col("Fees|HDFC Bank MDR revenue", "FY29E"), mdr_pool=fees["pool"],
         dvnb=sc("Fees|Net change in annual VNB"), alm=alm, walk=walk, tornado=torn,
@@ -129,6 +144,9 @@ def main():
                   points=cof[["fy_end", "cost_of_funds_pct", "repo_avg_pct", "d_cof", "d_repo"]].dropna().to_dict("records")),
         topics=topics, topics_latest=topics_latest, checks=dict(total=checks.get("total"), fail=checks.get("fail"), explained=checks.get("explained")),
         model_sha=model["model_sha256"][:7],
+        history=ten_year(), maturity=pd.read_csv(I / "hdfc_borrowing_maturity_mar26.csv")[["bucket", "amount_cr"]].to_dict("records"),
+        icici_gap=pd.read_csv(T / "bank_shapley_FY26.csv").query("metric == 'RoA' and bank == 'HDFCBANK' and benchmark == 'ICICIBANK'")
+            .drop(columns=["metric", "bank", "benchmark", "leverage"]).iloc[0].to_dict(),
     )
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "model.json").write_text(json.dumps(model, default=clean))

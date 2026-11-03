@@ -6,10 +6,14 @@
   const t = $derived(app.story!.tornado as any[]);
   const base = $derived(t[0].roa_base_pct);
   const narrow = $derived(w < 520);
-  const m = $derived({ t: 22, r: 16, b: 26, l: narrow ? 120 : 230 });
+  const m = $derived({ t: 22, r: 16, b: 26, l: narrow ? 104 : 230 });
   const H = $derived(t.length * 24 + 50);
   const ext = $derived(Math.max(...t.flatMap((d) => [Math.abs(d.roa_low_input_pct - base), Math.abs(d.roa_high_input_pct - base)])) * 100 * 1.1);
   const x = $derived(d3.scaleLinear().domain([-ext, ext]).range([m.l, w - m.r]));
+  const SHORT: Record<string, string> = { 'Policy repo rate, fiscal-year average': 'Repo path', 'Advances growth': 'Loan growth', 'Credit cost': 'Credit cost',
+    'Operating expense growth': 'Opex growth', 'Deposit growth': 'Deposit growth', 'CASA ratio, year end': 'CASA ratio', 'Core fee income growth': 'Fee growth',
+    'Share of maturing borrowings retired': 'Borrowings retired', 'Treasury and other non-fee income': 'Treasury income', 'Cost beta: deposits': 'Deposit beta',
+    'IRDAI cap severity on bank fees': 'IRDAI caps', 'Yield beta: loans': 'Loan beta' };
   const fmt = (v: number) => (Math.abs(v) < 1 ? v.toFixed(3) : v.toLocaleString());
 </script>
 <div bind:clientWidth={w}>
@@ -20,7 +24,7 @@
       {@const lo = (d.roa_low_input_pct - base) * 100}
       {@const hi = (d.roa_high_input_pct - base) * 100}
       {@const yy = m.t + i * 24}
-      <text x={m.l - 8} y={yy + 13} text-anchor="end" style="fill: var(--ink-2); font-size: {narrow ? 10.5 : 12}px">{narrow ? d.driver.split(',')[0].replace('Share of maturing borrowings retired', 'Borrowings retired').replace('Treasury and other non-fee income', 'Treasury income') : d.driver}</text>
+      <text x={m.l - 8} y={yy + 13} text-anchor="end" style="fill: var(--ink-2); font-size: {narrow ? 10.5 : 12}px">{narrow ? (SHORT[d.driver] ?? d.driver) : d.driver}</text>
       {#each [[lo, 'var(--context)', 'Low', d.low_input_fy29], [hi, 'var(--s1)', 'High', d.high_input_fy29]] as [v, c, tag, inp]}
         <rect x={Math.min(x(0), x(v as number))} y={yy + 3} width={Math.abs(x(v as number) - x(0))} height="14" rx="2" fill={c as string}
               role="presentation" onmousemove={(e) => showTip(e, `<b>${d.driver}</b><br>${tag} input (FY29E): ${fmt(inp as number)}<br>RoA ${(v as number) >= 0 ? '+' : ''}${(v as number).toFixed(1)} bp vs Base`)} onmouseleave={hideTip} />

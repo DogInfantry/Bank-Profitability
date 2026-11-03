@@ -27,7 +27,7 @@
       <circle cx={n.x} cy={n.y} r={n.rr} fill={fill(n)} stroke="var(--surface)" stroke-width="2"
               role="presentation" onmousemove={(e) => showTip(e, `<b>${n.bank}</b><br>RoA ${(n.roa * 100).toFixed(2)}% · RoE ${(n.roe * 100).toFixed(1)}%<br>P/B ${n.pb.toFixed(2)}x · ${PSU.includes(n.bank) ? 'public sector' : 'private'}`)} onmouseleave={hideTip} />
       {#if n.bank === 'HDFC Bank' || n.bank === 'ICICI Bank' || n.bank === 'Kotak Mahindra Bank'}
-        <text x={n.x} y={n.y - n.rr - 5} text-anchor="middle" style="fill: var(--ink); font-size: 11px; font-weight: 500">{n.bank.replace(' Mahindra Bank', '').replace('State Bank of India', 'SBI')}</text>
+        <text x={n.x} y={n.bank.startsWith('Kotak') ? n.y + n.rr + 13 : n.y - n.rr - 5} text-anchor="middle" style="fill: var(--ink); font-size: 11px; font-weight: 500">{n.bank.replace(' Mahindra Bank', '').replace('State Bank of India', 'SBI')}</text>
       {/if}
     {/each}
   </svg>

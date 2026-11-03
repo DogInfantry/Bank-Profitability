@@ -19,13 +19,14 @@ def add(name, ok, detail=""):
 
 
 with tempfile.TemporaryDirectory() as tmp:
-    for wbname, sheet in [("01_Bank_RoA_Benchmark.xlsx", "8_Checks"), ("02_Insurance_Distribution.xlsx", "9_Checks"), ("03_UPI_MDR_Cap.xlsx", "5_Checks")]:
+    for wbname, sheet in [("HDFC_RoA_Path_FY29.xlsx", "Checks"), ("01_Bank_RoA_Benchmark.xlsx", "8_Checks"), ("02_Insurance_Distribution.xlsx", "9_Checks"), ("03_UPI_MDR_Cap.xlsx", "5_Checks")]:
         subprocess.run([str(ROOT / "pipeline/recalc.sh"), str(ROOT / "models" / wbname), tmp, tmp + "/prof"], check=True)
         ws = openpyxl.load_workbook(Path(tmp) / wbname, data_only=True)[sheet]
         for row in ws.iter_rows(values_only=True):
             vals = [v for v in row if v is not None]
             for v in vals:
-                if v in ("PASS", "FAIL", "EXPLAINED", "CHECK"):
+                if v in ("PASS", "FAIL", "EXPLAINED", "CHECK", "ALL CHECKS PASS", "CHECK FAILURES"):
+                    v = {"ALL CHECKS PASS": "PASS", "CHECK FAILURES": "FAIL"}.get(v, v)
                     add(f"{wbname}: {str(vals[0])[:70]}", v if v != "PASS" else True)
         if wbname.startswith("01"):
             for lim, row in zip([2, 0.5, 20, 7], ws.iter_rows(min_row=4, max_row=7, values_only=True)):
@@ -33,6 +34,8 @@ with tempfile.TemporaryDirectory() as tmp:
                 worst = max((abs(v) for v in nums), default=0)
                 add(f"{wbname}: bank tolerance | {row[0]}", worst <= lim or "EXPLAINED", f"worst {worst:.2f} (limit {lim})")
 
+lint = subprocess.run([sys.executable, "-I", str(ROOT / "pipeline/xlsx_lint.py"), "--strict", str(ROOT / "models/HDFC_RoA_Path_FY29.xlsx")], capture_output=True, text=True)
+add("HDFC model passes IB-hygiene lint (Garamond, no italics, no hard-codes, row patterns, no errors)", lint.returncode == 0, lint.stdout.strip().splitlines()[0] if lint.stdout else "")
 f = pd.read_csv(ROOT / "data/tidy/bank_facts.csv")
 add("bank_facts: every row has a source", bool(f.source.notna().all()))
 sh = pd.read_csv(ROOT / "data/tidy/bank_shapley_FY26.csv").fillna(0)

@@ -158,11 +158,18 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
        - CASA slid from 38% to 32%;
        - LCR fell from a 128% peak to 113%.
 
-     Still open in step 2:
-     - IR26 notes: segment reporting, Sch 4 borrowing composition, PSL/RIDF;
-     - Pillar 3 RWA by risk type (CET1 and LCR are already in the decks);
-     - deposit and credit market share (RBI DBIE or data.gov.in, local run);
-     - merger-synergy tracking.
+     Rest of step 2, also done:
+     - **IR26 segment note** → `data/tidy/hdfc_segments.csv`. Pre-tax return on segment assets, FY25 → FY26:
+       - wholesale 3.6% → 2.3%;
+       - retail 1.8% → 2.0%;
+       - treasury 0.5% → 1.8%.
+     - **Sch 4:** legacy bonds ₹2.39 → ₹2.08 lakh cr; foreign borrowings ₹1.17 lakh cr.
+     - **PSLCs:** bought ₹76k cr of small and marginal farmer certificates (a sub-target shortfall cost); sold ₹2.0 lakh cr of micro and general certificates.
+     - **Floating provisions:** ₹9,000 cr built in FY26.
+     - **Pillar 3 Sep-26:** RWA ≈ ₹33.8 lakh cr, split 89% credit, 1% market, 10% operational. That confirms the model's net worth / Tier 1 proxy (₹34.0 lakh cr); RWA density is about 74% of assets.
+     - **Market share:** deposits 10.8% → 11.5% (ties to the bank's disclosure); credit (proxy) 14.7% → 13.2%.
+     - **Merger-synergy metrics are not disclosed** by the bank, so they are not estimated.
+     - **RIDF deposits** are not broken out in the standalone notes; the PSLC purchases stand in as the PSL cost proxy.
 
      Not yet used by the model or site; steps 3-6 consume it.
    - **3. Marginal funding cost:** a fresh TD rate (RBI WADTDR), incremental CASA share, and CRR/DICGC carry in the cost of deposits. Each 10 bp ≈ 5.7 bp of FY29E RoA.
@@ -201,6 +208,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - Downloaded 12 HDFC decks; the old hdfcbank.com links had moved to hdfc.bank.in.
   - `fetch_docs.py` gained `--symbols`/`--kinds` filters, creates `data/raw/ir/`, and reads `data/inputs/ir_url_overrides.csv`.
   - New `extract_hdfc_quarterly.py` (header-aware text extract, local only) and `hdfc_quarterly.py` (tidy panel, in CI), with 8 tests in `tests/test_quarterly_panel.py`.
+  - Then the rest of step 2:
+    - fetched IR26 and Pillar 3 Sep-26 (`fetch.py --only ...`);
+    - hand-transcribed the segment note, Sch 4, PSLCs and Pillar 3 into `data/inputs/hdfc_ir26_segments.csv`;
+    - added RBI system deposits and credit (FactIQ);
+    - the panel gained deposit and credit share, plus `hdfc_segments.csv`;
+    - 10 tests now.
   - Gotcha: from FY26 the bank reclassified the advances mix (Mar-25 retail 50% old basis vs 55% new), so only new-format tables feed the mix.
 - **4 Nov 2026, local resume and roadmap step 1:**
   - Moved from the cloud session to a local clone (nothing lost; resumed at `c38ab6d`).

@@ -36,6 +36,20 @@ def test_new_format_advances_mix_sums_to_100(panel):
     assert len(s) >= 12 and s.between(99, 101).all()
 
 
+def test_segment_results_and_borrowings_add_up(root, panel):
+    seg = pd.read_csv(root / "data/inputs/hdfc_ir26_segments.csv").set_index(["fy", "segment", "metric"]).value
+    for fy in ("FY25", "FY26"):
+        parts = sum(seg[(fy, s, "segment_result")] for s in ("treasury", "retail", "wholesale", "other"))
+        assert abs(parts - seg[(fy, "bank", "segment_result_total")]) < 0.1
+        sch4 = sum(seg[(fy, "bank", f"borrowings_{k}")] for k in ("rbi", "other_banks", "other_institutions", "capital_instruments", "bonds", "outside_india"))
+        assert abs(sch4 - seg[(fy, "bank", "borrowings_total")]) < 0.1
+    assert abs(seg[("FY26", "bank", "borrowings_total")] / (panel.loc["Q4FY26", "borrowings"] * 100) - 1) < 0.001  # IR26 Sch 4 = deck
+
+
+def test_deposit_share_matches_bank_disclosure(panel):
+    assert abs(panel.loc["Q2FY27", "deposit_share"] - 0.115) < 0.001  # HDFCBANK_Q2FY27_ppt.pdf p40: 11.5%
+
+
 @pytest.mark.parametrize("q, fy", [("Q4FY24", "FY24A"), ("Q4FY25", "FY25A"), ("Q4FY26", "FY26A")])
 def test_year_end_ties_to_annual_model(panel, out, q, fy):
     for metric, line in (("deposits", "Model|Deposits"), ("borrowings", "Model|Borrowings")):

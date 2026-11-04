@@ -1,0 +1,59 @@
+fy,segment,metric,value,unit,source_file,page,note
+FY26,treasury,segment_revenue,84337.48,INR cr,HDFC_Bank_IR26.pdf,445,Schedule 18 segment reporting (printed p450); revenue before inter-segment elimination
+FY26,retail,segment_revenue,301853.51,INR cr,HDFC_Bank_IR26.pdf,445,non-digital 301843.14 plus digital banking units 10.37
+FY26,wholesale,segment_revenue,174506.30,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,other,segment_revenue,36840.96,INR cr,HDFC_Bank_IR26.pdf,445,other banking operations
+FY26,treasury,segment_result,21142.48,INR cr,HDFC_Bank_IR26.pdf,445,pre-tax; after floating provisions allocated to segments
+FY26,retail,segment_result,32026.72,INR cr,HDFC_Bank_IR26.pdf,445,non-digital 32028.31 plus digital (1.59)
+FY26,wholesale,segment_result,33947.96,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,other,segment_result,10415.96,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,treasury,segment_assets,1149929.44,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,retail,segment_assets,1580887.11,INR cr,HDFC_Bank_IR26.pdf,445,non-digital 1580749.07 plus digital 138.04
+FY26,wholesale,segment_assets,1499816.13,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,other,segment_assets,112867.13,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,treasury,segment_provisions,0,INR cr,HDFC_Bank_IR26.pdf,445,provisions for NPAs / others
+FY26,retail,segment_provisions,14690.86,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,wholesale,segment_provisions,4034.75,INR cr,HDFC_Bank_IR26.pdf,445,
+FY26,other,segment_provisions,4663.98,INR cr,HDFC_Bank_IR26.pdf,445,
+FY25,treasury,segment_revenue,62227.48,INR cr,HDFC_Bank_IR26.pdf,446,printed p451
+FY25,retail,segment_revenue,283434.79,INR cr,HDFC_Bank_IR26.pdf,446,non-digital 283426.20 plus digital 8.59
+FY25,wholesale,segment_revenue,191964.51,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,other,segment_revenue,35449.05,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,treasury,segment_result,4605.36,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,retail,segment_result,27309.11,INR cr,HDFC_Bank_IR26.pdf,446,non-digital 27309.07 plus digital 0.04
+FY25,wholesale,segment_result,44543.96,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,other,segment_result,14363.75,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,treasury,segment_assets,991874.12,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,retail,segment_assets,1533890.27,INR cr,HDFC_Bank_IR26.pdf,446,non-digital 1533809.12 plus digital 81.15
+FY25,wholesale,segment_assets,1247937.97,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,other,segment_assets,112358.81,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,treasury,segment_provisions,0,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,retail,segment_provisions,9138.23,INR cr,HDFC_Bank_IR26.pdf,446,
+FY25,wholesale,segment_provisions,-1729.99,INR cr,HDFC_Bank_IR26.pdf,446,write-back
+FY25,other,segment_provisions,4241.18,INR cr,HDFC_Bank_IR26.pdf,446,
+FY26,bank,segment_result_total,97533.12,INR cr,HDFC_Bank_IR26.pdf,445,check: sum of segments
+FY25,bank,segment_result_total,90822.18,INR cr,HDFC_Bank_IR26.pdf,446,check: sum of segments
+FY26,bank,borrowings_rbi,10000.00,INR cr,HDFC_Bank_IR26.pdf,359,Schedule 4 (INR '000 converted to crore)
+FY26,bank,borrowings_other_banks,24216.58,INR cr,HDFC_Bank_IR26.pdf,359,
+FY26,bank,borrowings_other_institutions,105658.45,INR cr,HDFC_Bank_IR26.pdf,359,
+FY26,bank,borrowings_capital_instruments,25026.93,INR cr,HDFC_Bank_IR26.pdf,359,Tier 1 and Tier 2
+FY26,bank,borrowings_bonds,207615.04,INR cr,HDFC_Bank_IR26.pdf,359,other bonds and debentures (largely legacy HDFC Ltd)
+FY26,bank,borrowings_outside_india,116877.63,INR cr,HDFC_Bank_IR26.pdf,359,
+FY26,bank,borrowings_total,489394.64,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_rbi,6335.00,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_other_banks,49842.27,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_other_institutions,107085.83,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_capital_instruments,25076.19,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_bonds,239176.46,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_outside_india,120415.15,INR cr,HDFC_Bank_IR26.pdf,359,
+FY25,bank,borrowings_total,547930.89,INR cr,HDFC_Bank_IR26.pdf,359,
+FY26,bank,pslc_bought,76281.50,INR cr,HDFC_Bank_IR26.pdf,435,Note 18.4: all small and marginal farmer PSLCs (buying cover for a sub-target shortfall)
+FY26,bank,pslc_sold,200004.25,INR cr,HDFC_Bank_IR26.pdf,436,micro enterprises 80000.00 plus general 120004.25
+FY25,bank,pslc_bought,111413.50,INR cr,HDFC_Bank_IR26.pdf,436,small and marginal farmers 103413.50 plus micro 8000.00
+FY25,bank,pslc_sold,254441.75,INR cr,HDFC_Bank_IR26.pdf,436,micro 79441.75 plus general 175000.00
+FY26,bank,floating_provisions_charge,9000.00,INR cr,HDFC_Bank_IR26.pdf,436,Note 18.5
+Q2FY27,bank,pillar3_capital_req_credit,358922.58,INR cr,HDFC_Pillar3_Sep26.pdf,6,Sep-26 consolidated; INR million / 10; at the 11.9% minimum total capital ratio
+Q2FY27,bank,pillar3_capital_req_market,4357.56,INR cr,HDFC_Pillar3_Sep26.pdf,6,Sep-26 consolidated
+Q2FY27,bank,pillar3_capital_req_operational,39065.10,INR cr,HDFC_Pillar3_Sep26.pdf,6,Sep-26 consolidated; basic indicator approach
+Q2FY27,bank,pillar3_min_total_capital_ratio,11.90,%,HDFC_Pillar3_Sep26.pdf,6,includes CCB and 0.40% D-SIB
+Q2FY27,bank,pillar3_cet1_standalone,17.08,%,HDFC_Pillar3_Sep26.pdf,6,Sep-26

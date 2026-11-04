@@ -30,4 +30,8 @@ describe.each(['Base', 'Upside', 'Downside'] as Scenario[])('%s scenario matches
     expect(Math.abs(r.valuation.riPerShare - sc(s, 'Valuation|Residual income per share'))).toBeLessThan(0.5);
     expect(Math.abs(r.valuation.roeImplied - sc(s, 'Valuation|RoE the market is pricing'))).toBeLessThan(1e-6);
   });
+  it('core RoE and break-even Ke within 0.1 bp', () => {
+    expect(Math.abs(r.valuation.roe29Core - sc(s, 'Valuation|Sustainable core-bank RoE: FY29E')) * 1e4).toBeLessThan(0.1);
+    expect(Math.abs(r.valuation.keBreakEven - sc(s, 'Valuation|Cost of equity at which sum of the parts equals the price')) * 1e4).toBeLessThan(0.1);
+  });
 });

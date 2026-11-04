@@ -37,8 +37,8 @@ export interface Result {
   years: Year[];
   levers: LeverResult[];
   bridge: { start: number; drift: number; before: number; levers: number; withLevers: number; target: number; gap: number };
-  valuation: { ke: number; roe29: number; pbJustified: number; coreValue: number; subsValue: number; sotpPerShare: number;
-               riPv: number; riTv: number; riPerShare: number; roeImplied: number; v10: number };
+  valuation: { ke: number; roe29: number; roe29Core: number; pbJustified: number; coreValue: number; subsValue: number; sotpPerShare: number;
+               riPv: number; riTv: number; riPerShare: number; pbCore: number; roeImplied: number; keBreakEven: number; v10: number };
 }
 
 export function scenarioDrivers(m: ModelData, s: Scenario): Drivers {
@@ -127,23 +127,28 @@ export function run(m: ModelData, d: Drivers, leverOn: boolean[] = m.levers.map(
   const start = f26.roa_core_bp;
   const before = N.roa * 1e4;
   const levSum = levers.reduce((a, l, j) => a + (leverOn[j] ? l.bp : 0), 0);
-  // Valuation
+  // Valuation (Valuation tab): core bank ex subsidiary dividends and investment; values rolled to the price date
   const roe29 = N.roe;
-  const pbJustified = (roe29 - V.g) / (ke - V.g);
+  const roe29Core = (N.pat - V.sdiv_sh * N.oth * (1 - tax29)) / (N.a_eq - V.subs_cost);
+  const pbJustified = (roe29Core - V.g) / (ke - V.g);
   const coreValue = pbJustified * bvCore;
   const subsValue = (V.life_m * V.life_s + V.hdb_m * V.hdb_s + V.amc_m * V.amc_s) * (1 - V.hold_disc);
   const eqOpen = [f26.eq, years[0].eq, years[1].eq];
   const ri = years.map((y, i) => y.pat - ke * eqOpen[i]);
   const riPv = ri.reduce((a, r, i) => a + r / Math.pow(1 + ke, i + 1), 0);
   const riTv = ri[2] * (1 + V.ri_g) / (ke - V.ri_g) / Math.pow(1 + ke, 3);
-  const pbNow = V.mcap / f26.eq;
+  const divWin = years[0].div;
+  const roll = (v: number) => (v * Math.pow(1 + ke, V.t_roll) - divWin) / V.shares;
+  const pbCore = (V.mcap - subsValue) / (V.bvps_now * V.shares - V.subs_cost);
+  const priceAt = (k: number) => (V.price * V.shares + divWin) / Math.pow(1 + k, V.t_roll);
+  const keAt = (k: number) => V.g + (roe29Core - V.g) * bvCore / (priceAt(k) - subsValue);
   return {
     years, levers,
     bridge: { start, drift: before - start, before, levers: levSum, withLevers: before + levSum, target: V.target_bp, gap: before + levSum - V.target_bp },
     valuation: {
-      ke, roe29, pbJustified, coreValue, subsValue, sotpPerShare: (coreValue + subsValue) / V.shares,
-      riPv, riTv, riPerShare: (f26.eq + riPv + riTv) / V.shares,
-      roeImplied: V.g + pbNow * (ke - V.g),
+      ke, roe29, roe29Core, pbJustified, coreValue, subsValue, sotpPerShare: roll(coreValue + subsValue),
+      riPv, riTv, riPerShare: roll(f26.eq + riPv + riTv),
+      pbCore, roeImplied: V.g + pbCore * (ke - V.g), keBreakEven: keAt(keAt(ke)),
       v10: 10 / 1e4 * N.a_ta / N.a_eq / (ke - V.g) * bvCore,
     },
   };

@@ -1051,15 +1051,40 @@ null
 "Model, selected scenario",
 0.146164349518172
 ],
-"Valuation|Justified P/B": [
-"x",
-"(RoE - g) / (Ke - g)",
-1.28849755634219
-],
 "Valuation|Investment in subsidiaries at cost": [
 "INR cr",
 "S2 IR26 Sch 8 I(v) and II(ii)",
 13348.7
+],
+"Valuation|Dividends from subsidiaries, FY26": [
+"INR cr",
+"S2 IR26 Sch 14",
+2242.21
+],
+"Valuation|Share of FY26 treasury and other income": [
+"%",
+"Held constant: the model projects that income as one line",
+0.133317834555101
+],
+"Valuation|Dividends from subsidiaries, FY29E": [
+"INR cr",
+null,
+2639.97850429517
+],
+"Valuation|Sustainable core-bank RoE: FY29E": [
+"%",
+"Ex subsidiary dividends (after tax) and investment at cost",
+0.146130111070404
+],
+"Valuation|Justified P/B": [
+"x",
+"(core RoE - g) / (Ke - g)",
+1.28783079007603
+],
+"Valuation|Long-run payout implied by g and core RoE": [
+"%",
+"1 - g / RoE; the model pays 30% to FY29E",
+0.452542673005587
 ],
 "Valuation|Core book value, FY26": [
 "INR cr",
@@ -1069,7 +1094,7 @@ null,
 "Valuation|Core bank value": [
 "INR cr",
 null,
-708096.679667453
+707730.256792326
 ],
 "Valuation|HDFC Life: market capitalisation": [
 "INR cr",
@@ -1114,12 +1139,12 @@ null,
 "Valuation|Sum of the parts equity value": [
 "INR cr",
 null,
-822711.354867453
+822344.931992326
 ],
-"Valuation|Sum of the parts per share": [
+"Valuation|Sum of the parts per share, at 31 Mar 2026": [
 "INR",
-null,
-532.883092312648
+"Valuation date",
+532.645754449695
 ],
 "Valuation|Residual income growth after FY29": [
 "%",
@@ -1171,25 +1196,120 @@ null,
 null,
 726917.623731268
 ],
+"Valuation|Residual income per share, at 31 Mar 2026": [
+"INR",
+"Valuation date",
+470.835985061721
+],
+"Valuation|Years from 31 Mar 2026 to 2 Nov 2026": [
+"years",
+"Valuation date to S5 price date",
+0.591780821917808
+],
+"Valuation|Dividend paid in between (FY26 final)": [
+"INR cr",
+"Model FY27E dividends paid",
+22401.39
+],
+"Valuation|Sum of the parts per share": [
+"INR",
+"At the price date: value grown at Ke, less the dividend paid",
+558.492263848696
+],
 "Valuation|Residual income per share": [
 "INR",
-null,
-470.835985061721
+"At the price date, same roll-forward",
+491.999438215175
 ],
 "Valuation|Current share price": [
 "INR",
 null,
 700
 ],
-"Valuation|Current P/B (standalone)": [
+"Valuation|Current P/B (standalone, Mar-26 book)": [
 "x",
-null,
+"Reference only: includes subsidiaries",
 1.91991340003341
+],
+"Valuation|Book value per share, latest": [
+"INR",
+"S5 Screener, Sep-26 standalone",
+376
+],
+"Valuation|Core book value, latest": [
+"INR cr",
+null,
+567152.865714286
+],
+"Valuation|Current P/B, core bank": [
+"x",
+"Market cap less listed stakes (after discount), over latest core book",
+1.70343197258338
 ],
 "Valuation|RoE the market is pricing": [
 "%",
-"g + P/B x (Ke - g)",
-0.178587553091716
+"Core bank: g + P/B x (Ke - g)",
+0.167471231792156
+],
+"Valuation|Break-even Ke, first pass": [
+"%",
+"Price discounted at model Ke",
+0.119900456536742
+],
+"Valuation|Cost of equity at which sum of the parts equals the price": [
+"%",
+"Price discounted at the first-pass Ke",
+0.119631068551421
+],
+"Valuation|Model Ke less break-even Ke": [
+"bp",
+null,
+117.189314485788
+],
+"Valuation|Implied Ke: HDFC Bank": [
+"%",
+null,
+0.111416090157435
+],
+"Valuation|Implied Ke: ICICI Bank": [
+"%",
+null,
+0.106788636149288
+],
+"Valuation|Implied Ke: Axis Bank": [
+"%",
+null,
+0.105589861829146
+],
+"Valuation|Implied Ke: Kotak Mahindra Bank": [
+"%",
+null,
+0.0891673906299989
+],
+"Valuation|Implied Ke: State Bank of India": [
+"%",
+null,
+0.128777255759702
+],
+"Valuation|RoA FY26A, core": [
+"bp",
+"Excludes the HDB stake-sale gain",
+180.222819069513
+],
+"Valuation|Less dividends from subsidiaries": [
+"bp",
+"After tax; valued at market in the sum of the parts",
+-4.05517451060658
+],
+"Valuation|Less credit cost at through-the-cycle level": [
+"bp",
+"Opex_Credit tab",
+-10.3884685412978
+],
+"Valuation|Normalised core-bank RoA, FY26": [
+"bp",
+null,
+165.779176017608
 ],
 "Valuation|P/B implied by peer regression at FY29E RoE": [
 "x",
@@ -1199,12 +1319,12 @@ null,
 "Valuation|Upside to sum of the parts": [
 "%",
 null,
--0.238738439553361
+-0.202153908787577
 ],
 "Valuation|Upside to residual income": [
 "%",
 null,
--0.327377164197542
+-0.297143659692608
 ],
 "Valuation|RoA increment for value test": [
 "bp",
@@ -2098,7 +2218,7 @@ null
 "ALM|Long-run beta (same year + lag)": [
 "x",
 "Risk case: costs keep catching up in year two",
-0.616166232706712,
+0.616166232706713,
 null,
 null,
 null,
@@ -2116,7 +2236,7 @@ null
 "ALM|Model base deposit beta less same-year estimate": [
 "x",
 "Near zero supports the base input",
--0.0157371396055778,
+-0.0157371396055779,
 null,
 null,
 null,
@@ -2685,7 +2805,7 @@ null,
 "Margin|FY23 to FY24": [
 0.0194542183690541,
 0.0199918583817621,
-5.3764001270799,
+5.37640012707989,
 -21.1341573084726,
 19.5086072154067,
 1.44318501161592,
@@ -2732,7 +2852,7 @@ null
 -10.5071229947419,
 30.5086086888882,
 15.5300578584161,
--0.292203462416161,
+-0.292203462416162,
 0,
 null,
 null,
@@ -3920,15 +4040,40 @@ null
 "Model, selected scenario",
 0.175094680123139
 ],
-"Valuation|Justified P/B": [
-"x",
-"(RoE - g) / (Ke - g)",
-1.85189250483231
-],
 "Valuation|Investment in subsidiaries at cost": [
 "INR cr",
 "S2 IR26 Sch 8 I(v) and II(ii)",
 13348.7
+],
+"Valuation|Dividends from subsidiaries, FY26": [
+"INR cr",
+"S2 IR26 Sch 14",
+2242.21
+],
+"Valuation|Share of FY26 treasury and other income": [
+"%",
+"Held constant: the model projects that income as one line",
+0.133317834555101
+],
+"Valuation|Dividends from subsidiaries, FY29E": [
+"INR cr",
+null,
+3112.32005279035
+],
+"Valuation|Sustainable core-bank RoE: FY29E": [
+"%",
+"Ex subsidiary dividends (after tax) and investment at cost",
+0.175105855272453
+],
+"Valuation|Justified P/B": [
+"x",
+"(core RoE - g) / (Ke - g)",
+1.85211013188809
+],
+"Valuation|Long-run payout implied by g and core RoE": [
+"%",
+"1 - g / RoE; the model pays 30% to FY29E",
+0.543133495590281
 ],
 "Valuation|Core book value, FY26": [
 "INR cr",
@@ -3938,7 +4083,7 @@ null,
 "Valuation|Core bank value": [
 "INR cr",
 null,
-1017711.61871303
+1017831.21614249
 ],
 "Valuation|HDFC Life: market capitalisation": [
 "INR cr",
@@ -3983,12 +4128,12 @@ null,
 "Valuation|Sum of the parts equity value": [
 "INR cr",
 null,
-1132326.29391303
+1132445.89134249
 ],
-"Valuation|Sum of the parts per share": [
+"Valuation|Sum of the parts per share, at 31 Mar 2026": [
 "INR",
-null,
-733.425561027426
+"Valuation date",
+733.503026164704
 ],
 "Valuation|Residual income growth after FY29": [
 "%",
@@ -4040,25 +4185,120 @@ null,
 null,
 975745.617607137
 ],
+"Valuation|Residual income per share, at 31 Mar 2026": [
+"INR",
+"Valuation date",
+632.005792730034
+],
+"Valuation|Years from 31 Mar 2026 to 2 Nov 2026": [
+"years",
+"Valuation date to S5 price date",
+0.591780821917808
+],
+"Valuation|Dividend paid in between (FY26 final)": [
+"INR cr",
+"Model FY27E dividends paid",
+22401.39
+],
+"Valuation|Sum of the parts per share": [
+"INR",
+"At the price date: value grown at Ke, less the dividend paid",
+774.56761371029
+],
 "Valuation|Residual income per share": [
 "INR",
-null,
-632.005792730034
+"At the price date, same roll-forward",
+665.38037823147
 ],
 "Valuation|Current share price": [
 "INR",
 null,
 700
 ],
-"Valuation|Current P/B (standalone)": [
+"Valuation|Current P/B (standalone, Mar-26 book)": [
 "x",
-null,
+"Reference only: includes subsidiaries",
 1.91991340003341
+],
+"Valuation|Book value per share, latest": [
+"INR",
+"S5 Screener, Sep-26 standalone",
+376
+],
+"Valuation|Core book value, latest": [
+"INR cr",
+null,
+567152.865714286
+],
+"Valuation|Current P/B, core bank": [
+"x",
+"Market cap less listed stakes (after discount), over latest core book",
+1.70343197258338
 ],
 "Valuation|RoE the market is pricing": [
 "%",
-"g + P/B x (Ke - g)",
-0.178587553091716
+"Core bank: g + P/B x (Ke - g)",
+0.167471231792156
+],
+"Valuation|Break-even Ke, first pass": [
+"%",
+"Price discounted at model Ke",
+0.137383346001766
+],
+"Valuation|Cost of equity at which sum of the parts equals the price": [
+"%",
+"Price discounted at the first-pass Ke",
+0.137587089711617
+],
+"Valuation|Model Ke less break-even Ke": [
+"bp",
+null,
+-62.3708971161704
+],
+"Valuation|Implied Ke: HDFC Bank": [
+"%",
+null,
+0.111416090157435
+],
+"Valuation|Implied Ke: ICICI Bank": [
+"%",
+null,
+0.106788636149288
+],
+"Valuation|Implied Ke: Axis Bank": [
+"%",
+null,
+0.105589861829146
+],
+"Valuation|Implied Ke: Kotak Mahindra Bank": [
+"%",
+null,
+0.0891673906299989
+],
+"Valuation|Implied Ke: State Bank of India": [
+"%",
+null,
+0.128777255759702
+],
+"Valuation|RoA FY26A, core": [
+"bp",
+"Excludes the HDB stake-sale gain",
+180.222819069513
+],
+"Valuation|Less dividends from subsidiaries": [
+"bp",
+"After tax; valued at market in the sum of the parts",
+-4.05517451060658
+],
+"Valuation|Less credit cost at through-the-cycle level": [
+"bp",
+"Opex_Credit tab",
+-10.3884685412978
+],
+"Valuation|Normalised core-bank RoA, FY26": [
+"bp",
+null,
+165.779176017608
 ],
 "Valuation|P/B implied by peer regression at FY29E RoE": [
 "x",
@@ -4068,12 +4308,12 @@ null,
 "Valuation|Upside to sum of the parts": [
 "%",
 null,
-0.0477508014677515
+0.106525162443272
 ],
 "Valuation|Upside to residual income": [
 "%",
 null,
--0.0971345818142366
+-0.0494566025264711
 ],
 "Valuation|RoA increment for value test": [
 "bp",
@@ -4967,7 +5207,7 @@ null
 "ALM|Long-run beta (same year + lag)": [
 "x",
 "Risk case: costs keep catching up in year two",
-0.616166232706712,
+0.616166232706713,
 null,
 null,
 null,
@@ -4985,7 +5225,7 @@ null
 "ALM|Model base deposit beta less same-year estimate": [
 "x",
 "Near zero supports the base input",
--0.0657371396055778,
+-0.0657371396055779,
 null,
 null,
 null,
@@ -5554,7 +5794,7 @@ null,
 "Margin|FY23 to FY24": [
 0.0194542183690541,
 0.0199918583817621,
-5.3764001270799,
+5.37640012707989,
 -21.1341573084726,
 19.5086072154067,
 1.44318501161592,
@@ -5601,7 +5841,7 @@ null
 -10.5071229947419,
 30.5086086888882,
 15.5300578584161,
--0.292203462416161,
+-0.292203462416162,
 0,
 null,
 null,
@@ -6789,15 +7029,40 @@ null
 "Model, selected scenario",
 0.105866934018818
 ],
-"Valuation|Justified P/B": [
-"x",
-"(RoE - g) / (Ke - g)",
-0.503737760833842
-],
 "Valuation|Investment in subsidiaries at cost": [
 "INR cr",
 "S2 IR26 Sch 8 I(v) and II(ii)",
 13348.7
+],
+"Valuation|Dividends from subsidiaries, FY26": [
+"INR cr",
+"S2 IR26 Sch 14",
+2242.21
+],
+"Valuation|Share of FY26 treasury and other income": [
+"%",
+"Held constant: the model projects that income as one line",
+0.133317834555101
+],
+"Valuation|Dividends from subsidiaries, FY29E": [
+"INR cr",
+null,
+2186.28314967529
+],
+"Valuation|Sustainable core-bank RoE: FY29E": [
+"%",
+"Ex subsidiary dividends (after tax) and investment at cost",
+0.105534759533945
+],
+"Valuation|Justified P/B": [
+"x",
+"(core RoE - g) / (Ke - g)",
+0.49726892958024
+],
+"Valuation|Long-run payout implied by g and core RoE": [
+"%",
+"1 - g / RoE; the model pays 30% to FY29E",
+0.241955917147203
 ],
 "Valuation|Core book value, FY26": [
 "INR cr",
@@ -6807,7 +7072,7 @@ null,
 "Valuation|Core bank value": [
 "INR cr",
 null,
-276830.199726689
+273275.239215155
 ],
 "Valuation|HDFC Life: market capitalisation": [
 "INR cr",
@@ -6852,12 +7117,12 @@ null,
 "Valuation|Sum of the parts equity value": [
 "INR cr",
 null,
-391444.874926689
+387889.914415155
 ],
-"Valuation|Sum of the parts per share": [
+"Valuation|Sum of the parts per share, at 31 Mar 2026": [
 "INR",
-null,
-253.545006017911
+"Valuation date",
+251.242402146908
 ],
 "Valuation|Residual income growth after FY29": [
 "%",
@@ -6909,25 +7174,120 @@ null,
 null,
 415022.509939418
 ],
+"Valuation|Residual income per share, at 31 Mar 2026": [
+"INR",
+"Valuation date",
+268.816611278575
+],
+"Valuation|Years from 31 Mar 2026 to 2 Nov 2026": [
+"years",
+"Valuation date to S5 price date",
+0.591780821917808
+],
+"Valuation|Dividend paid in between (FY26 final)": [
+"INR cr",
+"Model FY27E dividends paid",
+22401.39
+],
+"Valuation|Sum of the parts per share": [
+"INR",
+"At the price date: value grown at Ke, less the dividend paid",
+255.768208693135
+],
 "Valuation|Residual income per share": [
 "INR",
-null,
-268.816611278575
+"At the price date, same roll-forward",
+274.673938887726
 ],
 "Valuation|Current share price": [
 "INR",
 null,
 700
 ],
-"Valuation|Current P/B (standalone)": [
+"Valuation|Current P/B (standalone, Mar-26 book)": [
 "x",
-null,
+"Reference only: includes subsidiaries",
 1.91991340003341
+],
+"Valuation|Book value per share, latest": [
+"INR",
+"S5 Screener, Sep-26 standalone",
+376
+],
+"Valuation|Core book value, latest": [
+"INR cr",
+null,
+567152.865714286
+],
+"Valuation|Current P/B, core bank": [
+"x",
+"Market cap less listed stakes (after discount), over latest core book",
+1.70343197258338
 ],
 "Valuation|RoE the market is pricing": [
 "%",
-"g + P/B x (Ke - g)",
-0.178587553091716
+"Core bank: g + P/B x (Ke - g)",
+0.167471231792156
+],
+"Valuation|Break-even Ke, first pass": [
+"%",
+"Price discounted at model Ke",
+0.0954067269277024
+],
+"Valuation|Cost of equity at which sum of the parts equals the price": [
+"%",
+"Price discounted at the first-pass Ke",
+0.0950792473191067
+],
+"Valuation|Model Ke less break-even Ke": [
+"bp",
+null,
+362.707526808933
+],
+"Valuation|Implied Ke: HDFC Bank": [
+"%",
+null,
+0.111416090157435
+],
+"Valuation|Implied Ke: ICICI Bank": [
+"%",
+null,
+0.106788636149288
+],
+"Valuation|Implied Ke: Axis Bank": [
+"%",
+null,
+0.105589861829146
+],
+"Valuation|Implied Ke: Kotak Mahindra Bank": [
+"%",
+null,
+0.0891673906299989
+],
+"Valuation|Implied Ke: State Bank of India": [
+"%",
+null,
+0.128777255759702
+],
+"Valuation|RoA FY26A, core": [
+"bp",
+"Excludes the HDB stake-sale gain",
+180.222819069513
+],
+"Valuation|Less dividends from subsidiaries": [
+"bp",
+"After tax; valued at market in the sum of the parts",
+-4.05517451060658
+],
+"Valuation|Less credit cost at through-the-cycle level": [
+"bp",
+"Opex_Credit tab",
+-10.3884685412978
+],
+"Valuation|Normalised core-bank RoA, FY26": [
+"bp",
+null,
+165.779176017608
 ],
 "Valuation|P/B implied by peer regression at FY29E RoE": [
 "x",
@@ -6937,12 +7297,12 @@ null,
 "Valuation|Upside to sum of the parts": [
 "%",
 null,
--0.637792848545842
+-0.634616844724094
 ],
 "Valuation|Upside to residual income": [
 "%",
 null,
--0.615976269602036
+-0.60760865873182
 ],
 "Valuation|RoA increment for value test": [
 "bp",
@@ -7836,7 +8196,7 @@ null
 "ALM|Long-run beta (same year + lag)": [
 "x",
 "Risk case: costs keep catching up in year two",
-0.616166232706712,
+0.616166232706713,
 null,
 null,
 null,
@@ -8423,7 +8783,7 @@ null,
 "Margin|FY23 to FY24": [
 0.0194542183690541,
 0.0199918583817621,
-5.3764001270799,
+5.37640012707989,
 -21.1341573084726,
 19.5086072154067,
 1.44318501161592,
@@ -8470,7 +8830,7 @@ null
 -10.5071229947419,
 30.5086086888882,
 15.5300578584161,
--0.292203462416161,
+-0.292203462416162,
 0,
 null,
 null,

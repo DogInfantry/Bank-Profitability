@@ -131,7 +131,7 @@
   {
    "name": "HDFC model passes IB-hygiene lint (Garamond, no italics, no hard-codes, row patterns, no errors)",
    "status": "PASS",
-   "detail": "STRICT /home/user/Bank-Profitability/models/HDFC_RoA_Path_FY29.xlsx: 0 issue(s)"
+   "detail": "STRICT C:\\Users\\Anklesh\\Documents\\Claude_Code\\bank\\Bank-Profitability\\models\\HDFC_RoA_Path_FY29.xlsx: 0 issue(s)"
   },
   {
    "name": "bank_facts: every row has a source",

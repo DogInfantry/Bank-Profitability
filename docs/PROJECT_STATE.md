@@ -1,6 +1,6 @@
 # Project state: HDFC Bank, the path back to 2% RoA
 
-Last updated: **3 Nov 2026**, after commit `9fc0e3e` ("Site: one page grid and a visual for every argument"). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
+Last updated: **4 Nov 2026**, after the step-1 valuation consistency pack (roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
 
 Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions and what is open.
 
@@ -12,9 +12,10 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 | RoA FY29E, before levers | 1.32% | **1.86%** | 2.25% |
 | RoA FY29E, with six levers | 1.50% | **2.04%** | 2.43% |
 | RoE FY29E, before levers | 10.6% | 14.6% | 17.5% |
-| Value per share (residual income to sum of the parts) | ₹254-269 | **₹471-533** | ₹632-733 |
+| Value per share at 2 Nov 2026 (residual income to sum of the parts) | ₹256-275 | **₹492-558** | ₹665-775 |
+| Break-even Ke (sum of the parts = ₹700) | 9.51% | **11.96%** | 13.76% |
 
-**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.86%. Six funding-led moves (+17.8 bp) get it to 2.04%. The ₹700 price already implies a **17.9% RoE**, and the base case gives 14.6%.
+**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.86%. Six funding-led moves (+17.8 bp) get it to 2.04%. The ₹700 price implies a **16.7% core-bank RoE**, and the base case gives 14.6%. **Caveat:** this rests on the 13.13% CAPM Ke. At 11.96% or less the base case alone supports ₹700, and peer prices imply 10.6-11.1%.
 
 **Key facts used throughout:**
 - **Merger effects:**
@@ -36,7 +37,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 
   Peer anchors close 28-49% of the gap to a named peer.
 - **Valuation:**
-  - CAPM Ke 13.13%, g 8%; each 10 bp of RoA ≈ ₹84k cr of equity value; price P/B 1.92×.
+  - CAPM Ke 13.13%, g 8% (implies a 45% long-run payout); each 10 bp of RoA ≈ ₹84k cr of equity value.
+  - P/B: 1.92× standalone (Mar-26 book, reference only); **1.70× core bank** (market cap less listed stakes after the 20% discount, over Sep-26 core book).
+  - Values are struck at 31 Mar 2026 and rolled forward to 2 Nov 2026 (grown at Ke, less the FY26 dividend).
+  - Peer-implied Ke (FY26 trailing): ICICI 10.7%, Axis 10.6%, Kotak 8.9%, SBI 12.9%, HDFC Bank 11.1%.
+  - Subsidiary dividends (₹2,242 cr FY26) are stripped from core RoE. The effect is about 0 bp, because removing the investment at cost offsets it (core 14.61% vs 14.62%).
+  - Normalised FY26 core RoA is 166 bp: core 180, less 4 for subsidiary dividends, less 10 for through-the-cycle credit cost.
   - Total value of the six levers ≈ ₹1.5 lakh cr.
 - **Tornado (FY29E RoA swing):** repo 20 bp, advances growth 15, credit cost 13, opex growth 11; regulation about 1 bp.
 - **Funding-cost beta:** 0.37 same year, 0.62 long run (R² 0.94, n = 9).
@@ -124,7 +130,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 - **The real bank, HDFC Bank,** was chosen because the case has a stake: the largest private bank, a structural gap to ICICI Bank, a missed margin guide, exposure to both the IRDAI and UPI changes, and a 50.2% stake in HDFC Life.
 - **Data sources:**
   - Public data only. Screener.in is secondary, tied to filings. FactIQ is used for RBI, NPCI and call transcripts.
-  - **Not** data.gov.in.
+  - **data.gov.in allowed from 4 Nov 2026** (ban lifted by the user), local runs only via `pipeline/datagov.py`; raw cache gitignored, derived CSVs committed. No dataset chosen yet; use it only where FactIQ or filings lack the series.
 - **Steerco deck** on hold. **Tableau:** ignore for now (extracts are kept, not deleted).
 - **Site:**
   - Audience is a consulting partner or case jury. The analysis and recommendation lead; the workbench sits in an appendix ("people pay for analysis, not the bench").
@@ -139,8 +145,38 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 - **Earlier choices:** "Neither for now" to GitHub Pages and to a scheduled re-run.
 
 ## 6. Open items (pick up here)
-1. **Valuation roll-forward (decision pending from the user).** Values are struck at 31 Mar 2026 but compared with the 2 Nov 2026 price. Rolling forward at Ke, less the FY26 dividend, lifts the base case to about ₹492-559. The conclusion is unchanged (still below ₹700). It is audit finding 1, "Open".
-2. **Steerco deck refresh**, only when the user takes it off hold: add the tornado, RoA walk, peer anchors and beta.
+1. **Roadmap from the 4 Nov 2026 gap audit** (7-agent review, 6 dimensions plus a case-jury critic). Step 1 is done; do the rest in order, pausing for review after each:
+   - **2. Quarterly primary-source pull:** investor decks Q2 FY24-Q2 FY27, Pillar 3 Sep-26 and IR26 notes, built into a tidy quarterly panel with page cites. Adds:
+     - GNPA migration bridge;
+     - segment loan mix and segment P&L;
+     - CET1/RWA and LCR/NSFR;
+     - deposit and credit market share (RBI DBIE or data.gov.in, local run);
+     - merger-synergy tracking.
+   - **3. Marginal funding cost:** a fresh TD rate (RBI WADTDR), incremental CASA share, and CRR/DICGC carry in the cost of deposits. Each 10 bp ≈ 5.7 bp of FY29E RoA.
+   - **4. Defensible levers:**
+     - risk-adjusted re-mix (credit cost, 125% unsecured risk weight, RWA responds to mix);
+     - joint vs sum, and FY27-29 phasing;
+     - net of cost to achieve and probability-weighted;
+     - capital return as lever 7.
+   - **5. Regulatory overlay:** ECL (1 Apr 2027) day-one CET1 hit plus a credit-cost add, LCR digital run-off, CRR, PSL/RIDF. Reword "regulation barely registers" (Exhibit 11).
+   - **6. "What would change our answer":** break-evens (repo, marginal cost of deposits, credit cost, Ke); a 2D reverse-stress grid; pre-registered Q3 FY27 predictions before the mid-Jan 2027 results; say-do beyond NIM, rendered on the site.
+   - **7. One-page trading comps** (core P/B, P/E, RoA, RoE, CASA, CD ratio, CET1, growth) plus merger precedents (ICICI 2002, IDFC First).
+   - **8. CEO "so what" page:**
+     - three decisions with trade-offs;
+     - variant view (management / consensus / we say);
+     - "is 2% the right target" mix check;
+     - stakeholder map;
+     - first-100-days KPI tree.
+   - **9. Packaging:**
+     - README order;
+     - OG image and screenshot;
+     - bind hand-typed site numbers to story.json;
+     - clickable sources;
+     - source confidence column;
+     - evidence-to-decision table.
+   - **Skipped on purpose:** full ECL stage model, Monte Carlo, sentiment analysis, macro transmission, profit pool, backtest, bigger workbench, sell-side deliverables, DDM, peer P/B regression, new front-end libraries.
+   - **Thesis decision pending:** the Ke caveat (break-even 11.96% vs peer-implied 10.6-11.1%) may warrant reframing chapter 06's title "The share price already assumes success". The user decides.
+2. **Steerco deck refresh**, only when the user takes it off hold: add the tornado, RoA walk, peer anchors and beta. Deck numbers are now stale (pre-roll-forward).
 3. **Minor site polish:** at 390 px, two pre-existing SVG labels overhang the gutter by about 4 px:
    - "₹1.93 lakh cr" in `charts/Ladder.svelte`;
    - "same year 0.37" in `charts/BetaScatter.svelte`.
@@ -148,6 +184,21 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, local resume and roadmap step 1:**
+  - Moved from the cloud session to a local clone (nothing lost; resumed at `c38ab6d`).
+  - Commit identity changed to `DogInfantry <ankleshrawat5@gmail.com>`; still no AI attribution.
+  - data.gov.in ban lifted (local runs only); `data/raw/datagov/` added to `.gitignore`. Rules updated in `CLAUDE.md`, `docs/data_sources.md` and `docs/NEW_CHAT_PROMPT.md`.
+  - Local Windows build works without `make` or WSL: LibreOffice installed via winget; the Linux-only `pipeline/recalc.sh` was replaced by the cross-platform `pipeline/recalc.py`; Python runs from the gitignored `.venv` with `-X utf8` (the Windows default encoding breaks ₹ otherwise). The baseline reproduced CI's committed outputs, differing only by 15th-digit float noise.
+  - Gap audit, plus a triage of 28 ChatGPT suggestions (9 do, 11 partial, 8 skip), produced the roadmap in section 6.
+  - Step 1, valuation consistency pack (closes open item 1 / audit finding 1):
+    - core-bank RoE ex subsidiary dividends;
+    - roll-forward to the price date;
+    - core-bank P/B and implied RoE (17.9% → 16.7%);
+    - break-even Ke 11.96%;
+    - peer-implied Ke table;
+    - normalised FY26 RoA 166 bp;
+    - 0.76%/0.69% credit-cost label fixed.
+  - Base value ₹471-533 → ₹492-558. Engine ported, with 3 new parity tests (18 vitest). Chapter 06 rail note now states the Ke caveat.
 - **3 Nov 2026, v2.1 (`9fc0e3e`):**
   - Feedback was "placement off, too much pure text". Fixed it with one 12-column grid with aligned edges, a right rail, and a visual for every argument (components listed in section 4).
   - The export added `funding_mix`. Exhibit 13 (roadmap) added.

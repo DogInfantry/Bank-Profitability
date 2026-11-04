@@ -5,6 +5,7 @@ with its source in column D; everything else is a live formula. Run: python -I p
 """
 from __future__ import annotations
 
+import datetime as dt
 import sys
 from pathlib import Path
 
@@ -130,7 +131,7 @@ def build():
     driver("oi_pct", "Treasury and other non-fee income", "% avg assets", "Normalised; FY25 0.36%, FY26 0.41% ex HDB stake-sale gain", [0.0035] * 3, [0.0040] * 3, [0.0030] * 3, num="pct2")
     driver("irdai", "IRDAI cap severity on bank fees", "x", "Phase-in from FY2027-28 (year 1); 1.0 = full modelled reset", [0.0, 0.5, 1.0], [0.0, 0.25, 0.5], [0.0, 0.75, 1.5], num="num")
     driver("g_opex", "Operating expense growth", "%", "S2 IR26: FY26 +6.6%; branch adds continue", [0.10] * 3, [0.09] * 3, [0.12] * 3)
-    driver("cc", "Credit cost", "% avg advances", "Opex_Credit tab: through-the-cycle 0.76% vs FY24-26 0.48%; Downside adds ECL transition", [0.0055, 0.0062, 0.0068], [0.0050, 0.0055, 0.0060], [0.0065, 0.0076, 0.0085], num="pct2")
+    driver("cc", "Credit cost", "% avg advances", "Opex_Credit tab: through-the-cycle 0.69% (FY21-26) vs FY24-26 0.48%; Downside adds ECL transition", [0.0055, 0.0062, 0.0068], [0.0050, 0.0055, 0.0060], [0.0065, 0.0076, 0.0085], num="pct2")
     inp.line("tax", "Effective tax rate", "%", "Section 115BAA rate 25.17%", proj=[0.2517] * 3)
     inp.line("payout", "Dividend payout (paid on prior-year PAT)", "%", "S2 IR26: FY26 31.9%", proj=[0.30] * 3)
     inp.section("Per share and valuation inputs")
@@ -517,10 +518,18 @@ def build():
     val.scalar("erp", "Equity risk premium, India", 0.065, "%", "Assumption: range 6.0-7.5%", num="pct2")
     val.scalar("ke", "Cost of equity", f"={val.a('rf')}+{val.a('beta')}*{val.a('erp')}", "%", "CAPM", num="pct2", kind="calc")
     val.scalar("g", "Long-term growth", 0.08, "%", "Assumption: nominal GDP-linked", num="pct2")
-    val.section("Justified P/B (Gordon growth on sustainable RoE)")
+    val.section("Justified P/B (Gordon growth on sustainable core-bank RoE)")
     val.scalar("roe29", "Sustainable RoE: FY29E", f"={md.x('roe', 'N')}", "%", "Model, selected scenario", num="pct1", kind="link")
-    val.scalar("pb_j", "Justified P/B", f"=({val.a('roe29')}-{val.a('g')})/({val.a('ke')}-{val.a('g')})", "x", "(RoE - g) / (Ke - g)", num="x", kind="calc")
     val.scalar("subs_cost", "Investment in subsidiaries at cost", 13348.7, "INR cr", "S2 IR26 Sch 8 I(v) and II(ii)", num="cr")
+    # Subsidiaries are valued at market below, so their dividends and book come out of the core bank (no double count)
+    val.scalar("sdiv26", "Dividends from subsidiaries, FY26", float(sch.loc["Dividends from subsidiaries", "fy26_cr"]), "INR cr", "S2 IR26 Sch 14", num="cr")
+    val.scalar("sdiv_sh", "Share of FY26 treasury and other income", f"={val.a('sdiv26')}/({md.x('oth', 'K')}-{hs.x('oneoff_gain', 'K')})", "%",
+               "Held constant: the model projects that income as one line", num="pct1", kind="calc")
+    val.scalar("sdiv29", "Dividends from subsidiaries, FY29E", f"={val.a('sdiv_sh')}*{md.x('oth', 'N')}", "INR cr", "", num="cr", kind="calc")
+    val.scalar("roe29c", "Sustainable core-bank RoE: FY29E", f"=({md.x('pat', 'N')}-{val.a('sdiv29')}*(1-{inp.x('tax', 'N')}))/({md.x('a_eq', 'N')}-{val.a('subs_cost')})",
+               "%", "Ex subsidiary dividends (after tax) and investment at cost", num="pct1", kind="calc")
+    val.scalar("pb_j", "Justified P/B", f"=({val.a('roe29c')}-{val.a('g')})/({val.a('ke')}-{val.a('g')})", "x", "(core RoE - g) / (Ke - g)", num="x", kind="calc")
+    val.scalar("payout_lr", "Long-run payout implied by g and core RoE", f"=1-{val.a('g')}/{val.a('roe29c')}", "%", "1 - g / RoE; the model pays 30% to FY29E", num="pct1", kind="calc")
     val.scalar("bv_core", "Core book value, FY26", f"={md.x('eq', 'K')}-{val.a('subs_cost')}", "INR cr", "", num="cr", kind="calc")
     val.scalar("core_val", "Core bank value", f"={val.a('pb_j')}*{val.a('bv_core')}", "INR cr", "", num="cr", kind="calc")
     val.section("Listed subsidiaries at market value")
@@ -530,7 +539,7 @@ def build():
     val.scalar("hold_disc", "Holding-company discount", 0.20, "%", "Assumption", num="pct1")
     val.scalar("subs_val", "Subsidiaries, after discount", f"=({val.a('v_life_m')}*{val.a('v_life_s')}+{val.a('v_hdb_m')}*{val.a('v_hdb_s')}+{val.a('v_amc_m')}*{val.a('v_amc_s')})*(1-{val.a('hold_disc')})", "INR cr", "", num="cr", kind="calc")
     val.scalar("sotp", "Sum of the parts equity value", f"={val.a('core_val')}+{val.a('subs_val')}", "INR cr", "", num="cr", kind="calc")
-    val.scalar("sotp_ps", "Sum of the parts per share", f"={val.a('sotp')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
+    val.scalar("sotp_ps0", "Sum of the parts per share, at 31 Mar 2026", f"={val.a('sotp')}/{inp.x('shares')}", "INR", "Valuation date", num="rs", kind="calc")
     val.section("Residual income (standalone, including subsidiaries at book)")
     val.scalar("ri_g", "Residual income growth after FY29", 0.05, "%", "Assumption: fade", num="pct2")
     for i, (y, c) in enumerate(zip(["FY27E", "FY28E", "FY29E"], PROJ)):
@@ -540,11 +549,41 @@ def build():
                f"={val.a('ri_L')}/(1+{val.a('ke')})^{val.a('n_L')}+{val.a('ri_M')}/(1+{val.a('ke')})^{val.a('n_M')}+{val.a('ri_N')}/(1+{val.a('ke')})^{val.a('n_N')}", "INR cr", "", num="cr", kind="calc")
     val.scalar("ri_tv", "Present value of terminal residual income", f"={val.a('ri_N')}*(1+{val.a('ri_g')})/({val.a('ke')}-{val.a('ri_g')})/(1+{val.a('ke')})^{val.a('n_N')}", "INR cr", "", num="cr", kind="calc")
     val.scalar("ri_val", "Residual income equity value", f"={md.x('eq', 'K')}+{val.a('ri_pv')}+{val.a('ri_tv')}", "INR cr", "", num="cr", kind="calc")
-    val.scalar("ri_ps", "Residual income per share", f"={val.a('ri_val')}/{inp.x('shares')}", "INR", "", num="rs", kind="calc")
+    val.scalar("ri_ps0", "Residual income per share, at 31 Mar 2026", f"={val.a('ri_val')}/{inp.x('shares')}", "INR", "Valuation date", num="rs", kind="calc")
+    val.section("Roll-forward to the share-price date")
+    val.scalar("t_roll", "Years from 31 Mar 2026 to 2 Nov 2026", float((dt.date(2026, 11, 2) - dt.date(2026, 3, 31)).days / 365), "years",
+               "Valuation date to S5 price date", num="num")
+    val.scalar("div_win", "Dividend paid in between (FY26 final)", f"={md.x('div', 'L')}", "INR cr", "Model FY27E dividends paid", num="cr", kind="link")
+    val.scalar("sotp_ps", "Sum of the parts per share", f"=({val.a('sotp')}*(1+{val.a('ke')})^{val.a('t_roll')}-{val.a('div_win')})/{inp.x('shares')}", "INR",
+               "At the price date: value grown at Ke, less the dividend paid", num="rs", kind="calc")
+    val.scalar("ri_ps", "Residual income per share", f"=({val.a('ri_val')}*(1+{val.a('ke')})^{val.a('t_roll')}-{val.a('div_win')})/{inp.x('shares')}", "INR",
+               "At the price date, same roll-forward", num="rs", kind="calc")
     val.section("Market view")
     val.scalar("px", "Current share price", f"={inp.x('price')}", "INR", "", num="rs", kind="link")
-    val.scalar("pb_now", "Current P/B (standalone)", f"={inp.x('mcap')}/{md.x('eq', 'K')}", "x", "", num="x", kind="calc")
-    val.scalar("roe_impl", "RoE the market is pricing", f"={val.a('g')}+{val.a('pb_now')}*({val.a('ke')}-{val.a('g')})", "%", "g + P/B x (Ke - g)", num="pct1", kind="calc")
+    val.scalar("pb_now", "Current P/B (standalone, Mar-26 book)", f"={inp.x('mcap')}/{md.x('eq', 'K')}", "x", "Reference only: includes subsidiaries", num="x", kind="calc")
+    val.scalar("bvps_now", "Book value per share, latest", float(grp.loc["hdfcbank_bvps_screener", "value"]), "INR", "S5 Screener, Sep-26 standalone", num="rs")
+    val.scalar("bv_now", "Core book value, latest", f"={val.a('bvps_now')}*{inp.x('shares')}-{val.a('subs_cost')}", "INR cr", "", num="cr", kind="calc")
+    val.scalar("pb_core", "Current P/B, core bank", f"=({inp.x('mcap')}-{val.a('subs_val')})/{val.a('bv_now')}", "x",
+               "Market cap less listed stakes (after discount), over latest core book", num="x", kind="calc")
+    val.scalar("roe_impl", "RoE the market is pricing", f"={val.a('g')}+{val.a('pb_core')}*({val.a('ke')}-{val.a('g')})", "%", "Core bank: g + P/B x (Ke - g)", num="pct1", kind="calc")
+    val.section("Break-even cost of equity")
+    # Ke at which sum of the parts equals the price; price brought back to 31 Mar 2026 at Ke, solved in two fixed-point steps
+    val.scalar("ke_be1", "Break-even Ke, first pass", f"={val.a('g')}+({val.a('roe29c')}-{val.a('g')})*{val.a('bv_core')}/"
+               f"(({val.a('px')}*{inp.x('shares')}+{val.a('div_win')})/(1+{val.a('ke')})^{val.a('t_roll')}-{val.a('subs_val')})", "%", "Price discounted at model Ke", num="pct2", kind="calc")
+    val.scalar("ke_be", "Cost of equity at which sum of the parts equals the price", f"={val.a('g')}+({val.a('roe29c')}-{val.a('g')})*{val.a('bv_core')}/"
+               f"(({val.a('px')}*{inp.x('shares')}+{val.a('div_win')})/(1+{val.a('ke_be1')})^{val.a('t_roll')}-{val.a('subs_val')})", "%", "Price discounted at the first-pass Ke", num="pct2", kind="calc")
+    val.scalar("ke_gap", "Model Ke less break-even Ke", f"=({val.a('ke')}-{val.a('ke_be')})*{inp.x('bp')}", "bp", "", num="bp", kind="calc")
+    val.section("Cost of equity implied by peer prices (FY26)")
+    val.note("g + (RoE - g) / P/B, on trailing standalone RoE and group market cap over standalone book (Peers tab). Banks with large listed subsidiaries look cheaper to fund.")
+    for k, nm, i in [("kp_hdfc", "HDFC Bank", 0), ("kp_icici", "ICICI Bank", 1), ("kp_axis", "Axis Bank", 2), ("kp_kotak", "Kotak Mahindra Bank", 3), ("kp_sbi", "State Bank of India", 8)]:
+        rr = peer.rows["pf"] + i + 1
+        val.scalar(k, f"Implied Ke: {nm}", f"={val.a('g')}+('Peers'!$H${rr}-{val.a('g')})/'Peers'!$J${rr}", "%", "", num="pct2", kind="calc")
+    val.section("Earnings quality: FY26 core RoA, normalised")
+    val.scalar("eq_core", "RoA FY26A, core", f"={md.x('roa_core', 'K')}*{inp.x('bp')}", "bp", "Excludes the HDB stake-sale gain", num="bp", kind="link")
+    val.scalar("eq_sdiv", "Less dividends from subsidiaries", f"=-{val.a('sdiv26')}*(1-{inp.x('tax', 'L')})/{md.x('a_ta', 'K')}*{inp.x('bp')}", "bp",
+               "After tax; valued at market in the sum of the parts", num="bp", kind="calc")
+    val.scalar("eq_cc", "Less credit cost at through-the-cycle level", f"=-{opc.x('cc_roa_bp')}", "bp", "Opex_Credit tab", num="bp", kind="link")
+    val.scalar("eq_norm", "Normalised core-bank RoA, FY26", f"={val.a('eq_core')}+{val.a('eq_sdiv')}+{val.a('eq_cc')}", "bp", "", num="bp", kind="calc")
     val.scalar("pb_reg", "P/B implied by peer regression at FY29E RoE", f"={peer.x('icpt')}+{peer.x('slope')}*{val.a('roe29')}", "x", "Peers tab", num="x", kind="link")
     val.scalar("up_sotp", "Upside to sum of the parts", f"={val.a('sotp_ps')}/{val.a('px')}-1", "%", "", num="pct1", kind="calc")
     val.scalar("up_ri", "Upside to residual income", f"={val.a('ri_ps')}/{val.a('px')}-1", "%", "", num="pct1", kind="calc")

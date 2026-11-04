@@ -75,8 +75,8 @@ Base,ALM,Advances on external benchmarks (reprice within a month),E,0.55
 Base,ALM,As % of FY26 NII,E,0.0976719123811134
 Base,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
 Base,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
-Base,ALM,Long-run beta (same year + lag),E,0.616166232706712
-Base,ALM,Model base deposit beta less same-year estimate,E,-0.0157371396055778
+Base,ALM,Long-run beta (same year + lag),E,0.616166232706713
+Base,ALM,Model base deposit beta less same-year estimate,E,-0.0157371396055779
 Base,ALM,Months in horizon,E,12.0
 Base,ALM,NII change on contractual gaps,E,135.738531833333
 Base,ALM,One-year-lag beta,E,0.250429093101135
@@ -364,7 +364,7 @@ Base,Margin,Cost of deposits,FY26A,0.0475519014986854
 Base,Margin,Cost of deposits,FY27E,0.0479300220302636
 Base,Margin,Cost of deposits,FY28E,0.0489900220302636
 Base,Margin,Cost of deposits,FY29E,0.0486850220302636
-Base,Margin,FY23 to FY24,FY20A,5.3764001270799
+Base,Margin,FY23 to FY24,FY20A,5.37640012707989
 Base,Margin,FY23 to FY24,FY21A,-21.1341573084726
 Base,Margin,FY23 to FY24,FY22A,19.5086072154067
 Base,Margin,FY23 to FY24,FY23A,1.44318501161592
@@ -376,7 +376,7 @@ Base,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
 Base,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
 Base,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
 Base,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
-Base,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Base,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416162
 Base,Margin,FY23 to Q2 FY27,FY26A,0.0
 Base,Margin,FY24 to FY26,FY20A,-19.4460024154472
 Base,Margin,FY24 to FY26,FY21A,-37.591907603877
@@ -1130,14 +1130,22 @@ Base,Tornado,Yield beta: loans,F,0.0186420438942302
 Base,Tornado,Yield beta: loans,G,0.0
 Base,Tornado,Yield beta: loans,H,0.666496709138022
 Base,Tornado,Yield beta: loans,I,0.666496709138022
-Base,Valuation,Core bank value,E,708096.679667453
+Base,Valuation,"Book value per share, latest",E,376.0
+Base,Valuation,"Break-even Ke, first pass",E,0.119900456536742
+Base,Valuation,Core bank value,E,707730.256792326
 Base,Valuation,"Core book value, FY26",E,549552.21
+Base,Valuation,"Core book value, latest",E,567152.865714286
 Base,Valuation,Cost of equity,E,0.13135
-Base,Valuation,Current P/B (standalone),E,1.91991340003341
+Base,Valuation,Cost of equity at which sum of the parts equals the price,E,0.119631068551421
+Base,Valuation,"Current P/B (standalone, Mar-26 book)",E,1.91991340003341
+Base,Valuation,"Current P/B, core bank",E,1.70343197258338
 Base,Valuation,Current share price,E,700.0
 Base,Valuation,Discount periods to FY27E,E,1.0
 Base,Valuation,Discount periods to FY28E,E,2.0
 Base,Valuation,Discount periods to FY29E,E,3.0
+Base,Valuation,Dividend paid in between (FY26 final),E,22401.39
+Base,Valuation,"Dividends from subsidiaries, FY26",E,2242.21
+Base,Valuation,"Dividends from subsidiaries, FY29E",E,2639.97850429517
 Base,Valuation,Equity beta,E,0.95
 Base,Valuation,"Equity risk premium, India",E,0.065
 Base,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
@@ -1147,9 +1155,19 @@ Base,Valuation,HDFC AMC: market capitalisation,E,105276.0
 Base,Valuation,HDFC Life: HDFC Bank stake,E,0.502
 Base,Valuation,HDFC Life: market capitalisation,E,113843.0
 Base,Valuation,Holding-company discount,E,0.2
+Base,Valuation,Implied Ke: Axis Bank,E,0.105589861829146
+Base,Valuation,Implied Ke: HDFC Bank,E,0.111416090157435
+Base,Valuation,Implied Ke: ICICI Bank,E,0.106788636149288
+Base,Valuation,Implied Ke: Kotak Mahindra Bank,E,0.0891673906299989
+Base,Valuation,Implied Ke: State Bank of India,E,0.128777255759702
 Base,Valuation,Investment in subsidiaries at cost,E,13348.7
-Base,Valuation,Justified P/B,E,1.28849755634219
+Base,Valuation,Justified P/B,E,1.28783079007603
+Base,Valuation,Less credit cost at through-the-cycle level,E,-10.3884685412978
+Base,Valuation,Less dividends from subsidiaries,E,-4.05517451060658
+Base,Valuation,Long-run payout implied by g and core RoE,E,0.452542673005587
 Base,Valuation,Long-term growth,E,0.08
+Base,Valuation,Model Ke less break-even Ke,E,117.189314485788
+Base,Valuation,"Normalised core-bank RoA, FY26",E,165.779176017608
 Base,Valuation,P/B implied by peer regression at FY29E RoE,E,2.43328888568767
 Base,Valuation,Present value of FY27E-FY29E residual income,E,22288.0694178415
 Base,Valuation,Present value of terminal residual income,E,141728.644313427
@@ -1158,17 +1176,23 @@ Base,Valuation,Residual income FY28E,E,11170.9679548442
 Base,Valuation,Residual income FY29E,E,15900.7216361252
 Base,Valuation,Residual income equity value,E,726917.623731268
 Base,Valuation,Residual income growth after FY29,E,0.05
-Base,Valuation,Residual income per share,E,470.835985061721
+Base,Valuation,Residual income per share,E,491.999438215175
+Base,Valuation,"Residual income per share, at 31 Mar 2026",E,470.835985061721
 Base,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Base,Valuation,"RoA FY26A, core",E,180.222819069513
 Base,Valuation,RoA increment for value test,E,10.0
-Base,Valuation,RoE the market is pricing,E,0.178587553091716
+Base,Valuation,RoE the market is pricing,E,0.167471231792156
+Base,Valuation,Share of FY26 treasury and other income,E,0.133317834555101
 Base,Valuation,"Subsidiaries, after discount",E,114614.6752
-Base,Valuation,Sum of the parts equity value,E,822711.354867453
-Base,Valuation,Sum of the parts per share,E,532.883092312648
+Base,Valuation,Sum of the parts equity value,E,822344.931992326
+Base,Valuation,Sum of the parts per share,E,558.492263848696
+Base,Valuation,"Sum of the parts per share, at 31 Mar 2026",E,532.645754449695
 Base,Valuation,Sustainable RoE: FY29E,E,0.146164349518172
-Base,Valuation,Upside to residual income,E,-0.327377164197542
-Base,Valuation,Upside to sum of the parts,E,-0.238738439553361
+Base,Valuation,Sustainable core-bank RoE: FY29E,E,0.146130111070404
+Base,Valuation,Upside to residual income,E,-0.297143659692608
+Base,Valuation,Upside to sum of the parts,E,-0.202153908787577
 Base,Valuation,Value of +10 bp RoA (equity value),E,84211.6020339481
+Base,Valuation,Years from 31 Mar 2026 to 2 Nov 2026,E,0.591780821917808
 Downside,ALM,  Standard error,E,0.105411156915017
 Downside,ALM,1 day,C,0.03
 Downside,ALM,1 day,D,7800.55
@@ -1245,7 +1269,7 @@ Downside,ALM,Advances on external benchmarks (reprice within a month),E,0.55
 Downside,ALM,As % of FY26 NII,E,0.0976719123811134
 Downside,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
 Downside,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
-Downside,ALM,Long-run beta (same year + lag),E,0.616166232706712
+Downside,ALM,Long-run beta (same year + lag),E,0.616166232706713
 Downside,ALM,Model base deposit beta less same-year estimate,E,-0.115737139605578
 Downside,ALM,Months in horizon,E,12.0
 Downside,ALM,NII change on contractual gaps,E,135.738531833333
@@ -1534,7 +1558,7 @@ Downside,Margin,Cost of deposits,FY26A,0.0475519014986854
 Downside,Margin,Cost of deposits,FY27E,0.0482975220302636
 Downside,Margin,Cost of deposits,FY28E,0.0479850220302636
 Downside,Margin,Cost of deposits,FY29E,0.0471600220302636
-Downside,Margin,FY23 to FY24,FY20A,5.3764001270799
+Downside,Margin,FY23 to FY24,FY20A,5.37640012707989
 Downside,Margin,FY23 to FY24,FY21A,-21.1341573084726
 Downside,Margin,FY23 to FY24,FY22A,19.5086072154067
 Downside,Margin,FY23 to FY24,FY23A,1.44318501161592
@@ -1546,7 +1570,7 @@ Downside,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
 Downside,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
 Downside,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
 Downside,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
-Downside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Downside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416162
 Downside,Margin,FY23 to Q2 FY27,FY26A,0.0
 Downside,Margin,FY24 to FY26,FY20A,-19.4460024154472
 Downside,Margin,FY24 to FY26,FY21A,-37.591907603877
@@ -2300,14 +2324,22 @@ Downside,Tornado,Yield beta: loans,F,0.0186420438942302
 Downside,Tornado,Yield beta: loans,G,0.0
 Downside,Tornado,Yield beta: loans,H,0.666496709138022
 Downside,Tornado,Yield beta: loans,I,0.666496709138022
-Downside,Valuation,Core bank value,E,276830.199726689
+Downside,Valuation,"Book value per share, latest",E,376.0
+Downside,Valuation,"Break-even Ke, first pass",E,0.0954067269277024
+Downside,Valuation,Core bank value,E,273275.239215155
 Downside,Valuation,"Core book value, FY26",E,549552.21
+Downside,Valuation,"Core book value, latest",E,567152.865714286
 Downside,Valuation,Cost of equity,E,0.13135
-Downside,Valuation,Current P/B (standalone),E,1.91991340003341
+Downside,Valuation,Cost of equity at which sum of the parts equals the price,E,0.0950792473191067
+Downside,Valuation,"Current P/B (standalone, Mar-26 book)",E,1.91991340003341
+Downside,Valuation,"Current P/B, core bank",E,1.70343197258338
 Downside,Valuation,Current share price,E,700.0
 Downside,Valuation,Discount periods to FY27E,E,1.0
 Downside,Valuation,Discount periods to FY28E,E,2.0
 Downside,Valuation,Discount periods to FY29E,E,3.0
+Downside,Valuation,Dividend paid in between (FY26 final),E,22401.39
+Downside,Valuation,"Dividends from subsidiaries, FY26",E,2242.21
+Downside,Valuation,"Dividends from subsidiaries, FY29E",E,2186.28314967529
 Downside,Valuation,Equity beta,E,0.95
 Downside,Valuation,"Equity risk premium, India",E,0.065
 Downside,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
@@ -2317,9 +2349,19 @@ Downside,Valuation,HDFC AMC: market capitalisation,E,105276.0
 Downside,Valuation,HDFC Life: HDFC Bank stake,E,0.502
 Downside,Valuation,HDFC Life: market capitalisation,E,113843.0
 Downside,Valuation,Holding-company discount,E,0.2
+Downside,Valuation,Implied Ke: Axis Bank,E,0.105589861829146
+Downside,Valuation,Implied Ke: HDFC Bank,E,0.111416090157435
+Downside,Valuation,Implied Ke: ICICI Bank,E,0.106788636149288
+Downside,Valuation,Implied Ke: Kotak Mahindra Bank,E,0.0891673906299989
+Downside,Valuation,Implied Ke: State Bank of India,E,0.128777255759702
 Downside,Valuation,Investment in subsidiaries at cost,E,13348.7
-Downside,Valuation,Justified P/B,E,0.503737760833842
+Downside,Valuation,Justified P/B,E,0.49726892958024
+Downside,Valuation,Less credit cost at through-the-cycle level,E,-10.3884685412978
+Downside,Valuation,Less dividends from subsidiaries,E,-4.05517451060658
+Downside,Valuation,Long-run payout implied by g and core RoE,E,0.241955917147203
 Downside,Valuation,Long-term growth,E,0.08
+Downside,Valuation,Model Ke less break-even Ke,E,362.707526808933
+Downside,Valuation,"Normalised core-bank RoA, FY26",E,165.779176017608
 Downside,Valuation,P/B implied by peer regression at FY29E RoE,E,2.46674077553608
 Downside,Valuation,Present value of FY27E-FY29E residual income,E,-22486.7768603008
 Downside,Valuation,Present value of terminal residual income,E,-125391.623200282
@@ -2328,17 +2370,23 @@ Downside,Valuation,Residual income FY28E,E,-9279.37253352882
 Downside,Valuation,Residual income FY29E,E,-14067.8499090159
 Downside,Valuation,Residual income equity value,E,415022.509939418
 Downside,Valuation,Residual income growth after FY29,E,0.05
-Downside,Valuation,Residual income per share,E,268.816611278575
+Downside,Valuation,Residual income per share,E,274.673938887726
+Downside,Valuation,"Residual income per share, at 31 Mar 2026",E,268.816611278575
 Downside,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Downside,Valuation,"RoA FY26A, core",E,180.222819069513
 Downside,Valuation,RoA increment for value test,E,10.0
-Downside,Valuation,RoE the market is pricing,E,0.178587553091716
+Downside,Valuation,RoE the market is pricing,E,0.167471231792156
+Downside,Valuation,Share of FY26 treasury and other income,E,0.133317834555101
 Downside,Valuation,"Subsidiaries, after discount",E,114614.6752
-Downside,Valuation,Sum of the parts equity value,E,391444.874926689
-Downside,Valuation,Sum of the parts per share,E,253.545006017911
+Downside,Valuation,Sum of the parts equity value,E,387889.914415155
+Downside,Valuation,Sum of the parts per share,E,255.768208693135
+Downside,Valuation,"Sum of the parts per share, at 31 Mar 2026",E,251.242402146908
 Downside,Valuation,Sustainable RoE: FY29E,E,0.105866934018818
-Downside,Valuation,Upside to residual income,E,-0.615976269602036
-Downside,Valuation,Upside to sum of the parts,E,-0.637792848545842
+Downside,Valuation,Sustainable core-bank RoE: FY29E,E,0.105534759533945
+Downside,Valuation,Upside to residual income,E,-0.60760865873182
+Downside,Valuation,Upside to sum of the parts,E,-0.634616844724094
 Downside,Valuation,Value of +10 bp RoA (equity value),E,86080.9611456737
+Downside,Valuation,Years from 31 Mar 2026 to 2 Nov 2026,E,0.591780821917808
 Upside,ALM,  Standard error,E,0.105411156915017
 Upside,ALM,1 day,C,0.03
 Upside,ALM,1 day,D,7800.55
@@ -2415,8 +2463,8 @@ Upside,ALM,Advances on external benchmarks (reprice within a month),E,0.55
 Upside,ALM,As % of FY26 NII,E,0.0976719123811134
 Upside,ALM,Change in cost of deposits / change in average repo,E,0.169817583046143
 Upside,ALM,"Earnings at risk, +100 bp",E,12569.0106468333
-Upside,ALM,Long-run beta (same year + lag),E,0.616166232706712
-Upside,ALM,Model base deposit beta less same-year estimate,E,-0.0657371396055778
+Upside,ALM,Long-run beta (same year + lag),E,0.616166232706713
+Upside,ALM,Model base deposit beta less same-year estimate,E,-0.0657371396055779
 Upside,ALM,Months in horizon,E,12.0
 Upside,ALM,NII change on contractual gaps,E,135.738531833333
 Upside,ALM,One-year-lag beta,E,0.250429093101135
@@ -2704,7 +2752,7 @@ Upside,Margin,Cost of deposits,FY26A,0.0475519014986854
 Upside,Margin,Cost of deposits,FY27E,0.0481900220302636
 Upside,Margin,Cost of deposits,FY28E,0.0496600220302636
 Upside,Margin,Cost of deposits,FY29E,0.0490600220302636
-Upside,Margin,FY23 to FY24,FY20A,5.3764001270799
+Upside,Margin,FY23 to FY24,FY20A,5.37640012707989
 Upside,Margin,FY23 to FY24,FY21A,-21.1341573084726
 Upside,Margin,FY23 to FY24,FY22A,19.5086072154067
 Upside,Margin,FY23 to FY24,FY23A,1.44318501161592
@@ -2716,7 +2764,7 @@ Upside,Margin,FY23 to Q2 FY27,FY21A,-55.2470515450643
 Upside,Margin,FY23 to Q2 FY27,FY22A,-10.5071229947419
 Upside,Margin,FY23 to Q2 FY27,FY23A,30.5086086888882
 Upside,Margin,FY23 to Q2 FY27,FY24A,15.5300578584161
-Upside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416161
+Upside,Margin,FY23 to Q2 FY27,FY25A,-0.292203462416162
 Upside,Margin,FY23 to Q2 FY27,FY26A,0.0
 Upside,Margin,FY24 to FY26,FY20A,-19.4460024154472
 Upside,Margin,FY24 to FY26,FY21A,-37.591907603877
@@ -3470,14 +3518,22 @@ Upside,Tornado,Yield beta: loans,F,0.0186420438942302
 Upside,Tornado,Yield beta: loans,G,0.0
 Upside,Tornado,Yield beta: loans,H,0.666496709138022
 Upside,Tornado,Yield beta: loans,I,0.666496709138022
-Upside,Valuation,Core bank value,E,1017711.61871303
+Upside,Valuation,"Book value per share, latest",E,376.0
+Upside,Valuation,"Break-even Ke, first pass",E,0.137383346001766
+Upside,Valuation,Core bank value,E,1017831.21614249
 Upside,Valuation,"Core book value, FY26",E,549552.21
+Upside,Valuation,"Core book value, latest",E,567152.865714286
 Upside,Valuation,Cost of equity,E,0.13135
-Upside,Valuation,Current P/B (standalone),E,1.91991340003341
+Upside,Valuation,Cost of equity at which sum of the parts equals the price,E,0.137587089711617
+Upside,Valuation,"Current P/B (standalone, Mar-26 book)",E,1.91991340003341
+Upside,Valuation,"Current P/B, core bank",E,1.70343197258338
 Upside,Valuation,Current share price,E,700.0
 Upside,Valuation,Discount periods to FY27E,E,1.0
 Upside,Valuation,Discount periods to FY28E,E,2.0
 Upside,Valuation,Discount periods to FY29E,E,3.0
+Upside,Valuation,Dividend paid in between (FY26 final),E,22401.39
+Upside,Valuation,"Dividends from subsidiaries, FY26",E,2242.21
+Upside,Valuation,"Dividends from subsidiaries, FY29E",E,3112.32005279035
 Upside,Valuation,Equity beta,E,0.95
 Upside,Valuation,"Equity risk premium, India",E,0.065
 Upside,Valuation,HDB Financial Services: HDFC Bank stake,E,0.741
@@ -3487,9 +3543,19 @@ Upside,Valuation,HDFC AMC: market capitalisation,E,105276.0
 Upside,Valuation,HDFC Life: HDFC Bank stake,E,0.502
 Upside,Valuation,HDFC Life: market capitalisation,E,113843.0
 Upside,Valuation,Holding-company discount,E,0.2
+Upside,Valuation,Implied Ke: Axis Bank,E,0.105589861829146
+Upside,Valuation,Implied Ke: HDFC Bank,E,0.111416090157435
+Upside,Valuation,Implied Ke: ICICI Bank,E,0.106788636149288
+Upside,Valuation,Implied Ke: Kotak Mahindra Bank,E,0.0891673906299989
+Upside,Valuation,Implied Ke: State Bank of India,E,0.128777255759702
 Upside,Valuation,Investment in subsidiaries at cost,E,13348.7
-Upside,Valuation,Justified P/B,E,1.85189250483231
+Upside,Valuation,Justified P/B,E,1.85211013188809
+Upside,Valuation,Less credit cost at through-the-cycle level,E,-10.3884685412978
+Upside,Valuation,Less dividends from subsidiaries,E,-4.05517451060658
+Upside,Valuation,Long-run payout implied by g and core RoE,E,0.543133495590281
 Upside,Valuation,Long-term growth,E,0.08
+Upside,Valuation,Model Ke less break-even Ke,E,-62.3708971161704
+Upside,Valuation,"Normalised core-bank RoA, FY26",E,165.779176017608
 Upside,Valuation,P/B implied by peer regression at FY29E RoE,E,2.40927309656861
 Upside,Valuation,Present value of FY27E-FY29E residual income,E,58289.936032409
 Upside,Valuation,Present value of terminal residual income,E,354554.771574727
@@ -3498,14 +3564,20 @@ Upside,Valuation,Residual income FY28E,E,28373.5790794245
 Upside,Valuation,Residual income FY29E,E,39777.9627038712
 Upside,Valuation,Residual income equity value,E,975745.617607137
 Upside,Valuation,Residual income growth after FY29,E,0.05
-Upside,Valuation,Residual income per share,E,632.005792730034
+Upside,Valuation,Residual income per share,E,665.38037823147
+Upside,Valuation,"Residual income per share, at 31 Mar 2026",E,632.005792730034
 Upside,Valuation,Risk-free rate: 10-year G-sec,E,0.0696
+Upside,Valuation,"RoA FY26A, core",E,180.222819069513
 Upside,Valuation,RoA increment for value test,E,10.0
-Upside,Valuation,RoE the market is pricing,E,0.178587553091716
+Upside,Valuation,RoE the market is pricing,E,0.167471231792156
+Upside,Valuation,Share of FY26 treasury and other income,E,0.133317834555101
 Upside,Valuation,"Subsidiaries, after discount",E,114614.6752
-Upside,Valuation,Sum of the parts equity value,E,1132326.29391303
-Upside,Valuation,Sum of the parts per share,E,733.425561027426
+Upside,Valuation,Sum of the parts equity value,E,1132445.89134249
+Upside,Valuation,Sum of the parts per share,E,774.56761371029
+Upside,Valuation,"Sum of the parts per share, at 31 Mar 2026",E,733.503026164704
 Upside,Valuation,Sustainable RoE: FY29E,E,0.175094680123139
-Upside,Valuation,Upside to residual income,E,-0.0971345818142366
-Upside,Valuation,Upside to sum of the parts,E,0.0477508014677515
+Upside,Valuation,Sustainable core-bank RoE: FY29E,E,0.175105855272453
+Upside,Valuation,Upside to residual income,E,-0.0494566025264711
+Upside,Valuation,Upside to sum of the parts,E,0.106525162443272
 Upside,Valuation,Value of +10 bp RoA (equity value),E,83186.3086382692
+Upside,Valuation,Years from 31 Mar 2026 to 2 Nov 2026,E,0.591780821917808

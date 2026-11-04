@@ -29,7 +29,7 @@ Why HDFC Bank? It is the largest private bank, and every 10 bp of RoA there is w
 | RoA FY29E, before levers | 1.32% | 1.86% | 2.25% |
 | RoA FY29E, with levers | 1.50% | 2.04% | 2.43% |
 | RoE FY29E, before levers | 10.6% | 14.6% | 17.5% |
-| Value per share, residual income to sum of the parts | ₹254-269 | ₹471-533 | ₹632-733 |
+| Value per share at 2 Nov 2026, residual income to sum of the parts | ₹256-275 | ₹492-558 | ₹665-775 |
 
 The share price was ₹700 on 2 Nov 2026.
 
@@ -48,7 +48,7 @@ The share price was ₹700 on 2 Nov 2026.
    - branch and operations productivity (3.8 bp);
    - rebuild CASA (3.4 bp);
    - retire legacy borrowings faster (3.0 bp).
-5. **The market is paying for 17.9% RoE.** The base case gives 14.6%. Only the upside case supports ₹700.
+5. **The market is paying for 16.7% core-bank RoE.** The base case gives 14.6%. At the 13.13% CAPM cost of equity, only the upside case supports ₹700. The conclusion rests on that Ke: at 11.96% or less the base case alone supports the price, and peer prices imply 10.6-11.1%.
 6. **Decisions for the steering committee:**
    - make deposits the binding constraint;
    - retire ₹75,000 cr of borrowings ahead of plan;

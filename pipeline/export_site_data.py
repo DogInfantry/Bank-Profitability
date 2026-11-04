@@ -95,7 +95,8 @@ def main():
           "subs_cost": "Investment in subsidiaries at cost", "hold_disc": "Holding-company discount", "ri_g": "Residual income growth after FY29",
           "price": "Current share price", "life_m": "HDFC Life: market capitalisation", "life_s": "HDFC Life: HDFC Bank stake",
           "hdb_m": "HDB Financial Services: market capitalisation", "hdb_s": "HDB Financial Services: HDFC Bank stake",
-          "amc_m": "HDFC AMC: market capitalisation", "amc_s": "HDFC AMC: HDFC Bank stake"}
+          "amc_m": "HDFC AMC: market capitalisation", "amc_s": "HDFC AMC: HDFC Bank stake",
+          "sdiv_sh": "Share of FY26 treasury and other income", "t_roll": "Years from 31 Mar 2026 to 2 Nov 2026", "bvps_now": "Book value per share, latest"}
     val = {k: sc(f"Valuation|{lab}") for k, lab in vk.items()}
     val["mcap"] = ws.cell(rows["Market capitalisation"], 5).value
     val["shares"] = val["mcap"] / ws.cell(rows["Share price"], 5).value
@@ -133,6 +134,10 @@ def main():
         as_of="2026-11-03", years=YEARS, series=series, outputs=outputs, levers=lev_out, anchors=anchors, peers=peers,
         q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
         roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),
+        ke_be={s: sc("Valuation|Cost of equity at which sum of the parts equals the price", s) for s in SCN},
+        peer_ke={nm: sc(f"Valuation|Implied Ke: {nm}") for nm in ("HDFC Bank", "ICICI Bank", "Axis Bank", "Kotak Mahindra Bank", "State Bank of India")},
+        roa_norm=dict(core=sc("Valuation|RoA FY26A, core"), sdiv=sc("Valuation|Less dividends from subsidiaries"),
+                      cc=sc("Valuation|Less credit cost at through-the-cycle level"), norm=sc("Valuation|Normalised core-bank RoA, FY26")),
         norm_roa_bp=sc("Opex_Credit|RoA at risk if credit cost normalises"),
         ttc_cc=sc("Opex_Credit|Through-the-cycle credit cost, FY21-FY26 average"), recent_cc=sc("Opex_Credit|Recent credit cost, FY24-FY26 average"),
         irdai_fy29=col("Fees|Bank fee lost to caps", "FY29E"), mdr_fy29=col("Fees|HDFC Bank MDR revenue", "FY29E"), mdr_pool=fees["pool"],

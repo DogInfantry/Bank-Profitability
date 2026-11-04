@@ -21,7 +21,7 @@
     {#snippet rail()}<PbEquation />{/snippet}
   </Row>
   <div class="pair">
-    <Exhibit n={9} title={`The price implies ${pct(s.roe_implied)} RoE; the base case delivers ${pct(sr.Base.years[2].roe)}`} units="Return on average equity, FY29E" source="Driver model (Valuation tab); NSE price 2 Nov 2026; CAPM Ke 13.13%">
+    <Exhibit n={9} title={`The price implies ${pct(s.roe_implied)} RoE; the base case delivers ${pct(sr.Base.years[2].roe)}`} units="Return on average equity, FY29E" source={`Driver model (Valuation tab); NSE price 2 Nov 2026; CAPM Ke ${pct(v.ke, 2)}; core bank, latest book`}>
       <RoeBars />
     </Exhibit>
     <Exhibit n={10} title={`The base case is worth ₹${Math.round(v.riPerShare)}-${Math.round(v.sotpPerShare)} a share against ₹${s.price}`} units="₹ per share; bars = base case; whiskers = Downside to Upside"
@@ -33,7 +33,7 @@
     <p class="prose">That is why the stakes are large: every 10 bp of sustainable RoA is worth about <b>₹{ind(s.v10 / 1000)}k cr</b> of equity value. Only the Upside case, with RoA at {pct(sr.Upside.years[2].roa, 2)}, supports today's price on its own.</p>
     {#snippet rail()}
       <div class="v10"><Spot name="coins" size={40} /><Stat label="Value of 10 bp of RoA" value={`₹${ind(s.v10 / 1000)}k cr`} tone="brand" sub="Equity value, at the base-case Ke and growth" /></div>
-      <p class="rnote">Values are struck at 31 March 2026 and compared with the 2 November price. Rolling forward to the price date would add about 4-5% and does not change the conclusion.</p>
+      <p class="rnote">The answer hinges on the cost of equity. At {pct(v.keBreakEven, 2)} or less, the base case alone supports ₹{s.price}; peer prices imply {pct(s.peer_ke['Axis Bank'], 1)} (Axis) to {pct(s.peer_ke['HDFC Bank'], 1)} (HDFC Bank). Values are rolled forward to the 2 November price date.</p>
     {/snippet}
   </Row>
 </section>

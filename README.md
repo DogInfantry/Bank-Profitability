@@ -9,7 +9,7 @@ An outside-in consulting case built on public data only. It answers one question
 ## Live site: The 2% Question
 **https://site-two-eta-4o267upa77.vercel.app**
 
-An argued long-read built from `site/`. It leads with the answer, then proves it in seventeen numbered, annotated exhibits, each argument paired with a supporting visual, then lays out the six moves and a dated plan. An appendix runs the FY27E-FY29E model in the browser, tested against the Excel to within 0.1 bp, so a reader can stress-test the recommendation. Stack: Svelte 5, Vite, D3, Scrollama. Vercel redeploys on every push. To run it locally: `make site`, then `cd site && npx vite preview`.
+An argued long-read built from `site/`. It leads with the answer, then proves it in twenty numbered, annotated exhibits, each argument paired with a supporting visual, then lays out the six moves and a dated plan. An appendix runs the FY27E-FY29E model in the browser, tested against the Excel to within 0.1 bp, so a reader can stress-test the recommendation. Stack: Svelte 5, Vite, D3, Scrollama. Vercel redeploys on every push. To run it locally: `make site`, then `cd site && npx vite preview`.
 
 ## The problem
 HDFC Bank delivered 1.8-2.0% RoA for a decade. Since the July 2023 merger with HDFC Ltd it has sat at the bottom of that range: 1.80% in FY26 and 1.75% annualised in Q2 FY27. Three things are moving at once:

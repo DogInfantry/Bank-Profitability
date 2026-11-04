@@ -1,6 +1,6 @@
 # Project state: HDFC Bank, the path back to 2% RoA
 
-Last updated: **4 Nov 2026**, after roadmap step 7 (trading comps and merger precedents; roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
+Last updated: **4 Nov 2026**, after roadmap step 8 (CEO chapter and memo rebuild; roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
 
 Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions and what is open.
 
@@ -64,6 +64,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - Borrowings / (deposits + borrowings) at year 0: ICICI Bank (Mar-02) 65%, IDFC First (Mar-19) 50%, HDFC Bank (Mar-24) 21%.
   - Run-off pace, points a year: ICICI 12.6 (years 0-3), IDFC First 5.5 (years 0-3), HDFC 4.3 so far (to Sep-25); the base case needs 3.0 (FY25A-FY29E).
   - CASA moved the other way: ICICI +13 points and IDFC First +33 in three years; HDFC Bank −4.4 points in eighteen months. The CASA path, not the run-off pace, is the risk.
+- **Is 2% the right target (step 8, Levers tab):** at FY29E leverage of 7.8x, 2.0% RoA buys a 15.7% RoE. Earning the 13.13% Ke needs 1.68% RoA; the price-implied core RoE needs 2.14%, or 1.82% if the excess Tier 1 is returned (lever 7). So 2% is the right operating target, and capital return closes the rest of the gap to the price.
 - **Tornado (FY29E RoA swing):** repo 16 bp, advances growth 15, credit cost 13, opex growth 11, deposit-war premium 7; regulation about 1 bp.
 - **Funding-cost beta:** 0.37 same year, 0.62 long run (R² 0.94, n = 9).
 - **Regulation:**
@@ -76,7 +77,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 | Integrated Excel model | `models/HDFC_RoA_Path_FY29.xlsx` (built by `pipeline/build_hdfc_model.py`) | Done; IB-hygiene lint 0 issues; 29 reconciliation checks pass |
 | Sector modules | `models/01-03_*.xlsx`, `decks/0*.pptx` | Done (bank RoA Shapley, IRDAI caps with Monte Carlo, UPI/MDR) |
 | Steerco deck | `decks/HDFC_RoA_Steerco.pptx` + PDF | **ON HOLD**: do not touch. Built before the tornado, walk, anchors and beta; numbers still match |
-| CEO memo | `decks/HDFC_CEO_Memo.docx` + PDF (2 pages) | Done |
+| CEO memo | `decks/HDFC_CEO_Memo.docx` + `decks/pdf/HDFC_CEO_Memo.pdf` (2 pages) | Rebuilt in step 8 (comps, the 2% test, three decisions, Q3 calls). The PDF is converted by hand with LibreOffice; the pipeline builds only the docx |
 | Cockpit | `viz/dashboard.html` (single file, Plotly) | Done (legacy; the site supersedes it) |
 | SQL | `pipeline/warehouse.py` (DuckDB), `sql/01-06_*.sql`, outputs in `data/tidy/sql_results/` | Done |
 | Tests and CI | `tests/` (19 pytest), `site/tests/engine.test.ts` (15 vitest), `.github/workflows/ci.yml`, `Makefile` | Green (CI run #7 on `9fc0e3e`) |
@@ -132,6 +133,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - 07 Risks: Exhibit 13 `Tornado`, Exhibit 14 `BetaScatter` with beta tiles, `RiskCards`;
   - 07 also carries Exhibit 15 (break-evens table), Exhibit 16 `StressGrid` (live engine, repo × credit cost) and the pre-registered Q3 FY27 calls;
   - 08 Plan: Exhibit 17 `Roadmap` (Gantt) + KPI tiles;
+  - 09 For the CEO (`ChSoWhat.svelte`): three decision cards, the 2% test with Exhibit 18 `TargetScale`, Exhibit 19 variant view (management / what the price assumes / we say), stakeholder table, Exhibit 20 `KpiTree` (first hundred days, built on the frozen Q3 FY27 calls);
   - Appendix A: "Test the answer yourself", `ModelFlow` + the collapsible `sections/Workbench.svelte` (live model);
   - Appendix B: `sections/Changelog.svelte` (release notes, formulas, source register, caveats), then reproducibility and footer.
 - **Palette:** tokens in `site/src/app.css`, light and dark, validated with the dataviz validator.
@@ -243,12 +245,11 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - Precedents use one source for all three mergers: RBI bank-wise OSMOS returns via FactIQ. A US GAAP 20-F series for ICICI 2002 was rejected as a different basis.
      - Site: Exhibit 6 (comps table, ch. 03) and Exhibit 8 (precedent line chart, ch. 04); later exhibits renumbered to 17.
      - Not done: P/B against consolidated book (Kotak and ICICI hold large unlisted subsidiaries); peer data are standalone throughout.
-   - **8. CEO "so what" page:**
-     - three decisions with trade-offs;
-     - variant view (management / consensus / we say);
-     - "is 2% the right target" mix check;
-     - stakeholder map;
-     - first-100-days KPI tree.
+   - **8. CEO "so what" page: DONE (4 Nov 2026).** New site chapter 09 plus a Levers-tab block ("Is 2% the right target?").
+     - User decisions: the consensus column uses what the price implies (no sell-side consensus is sourced); the content sits in a new chapter 09; chapter 06 is retitled with the Ke caveat ("At a 13.13% cost of equity, the share price already assumes success; below 12.1% it does not", bound to the export).
+     - Three decisions: loan growth vs CD ratio (3.8 bp per point of growth; break-even 13.4%), term-deposit premium vs CASA build (18 bp premium erases the headroom; 8.2 bp at risk at the recent CASA pace), capital return vs ECL buffer (₹1.09 lakh cr, +1.9 pts RoE, −₹36k cr value, 0.71 pts CET1 day-one ECL).
+     - Variant view: management's only sourced claim is the CFO's NIM call (Q2 FY27); RoE, RoA and Ke are not guided.
+     - CEO memo rebuilt from the export (hand-typed figures removed); still two pages.
    - **9. Packaging:**
      - README order;
      - OG image and screenshot;
@@ -257,7 +258,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - source confidence column;
      - evidence-to-decision table.
    - **Skipped on purpose:** full ECL stage model, Monte Carlo, sentiment analysis, macro transmission, profit pool, backtest, bigger workbench, sell-side deliverables, DDM, peer P/B regression, new front-end libraries.
-   - **Thesis decision pending:** the Ke caveat (break-even 11.96% vs peer-implied 10.6-11.1%) may warrant reframing chapter 06's title "The share price already assumes success". The user decides.
+   - **Thesis decision closed (4 Nov 2026):** chapter 06 retitled with the Ke caveat (see step 8).
 2. **Steerco deck refresh**, only when the user takes it off hold: add the tornado, RoA walk, peer anchors and beta. Deck numbers are now stale (pre-roll-forward).
 3. **Minor site polish:** at 390 px, two pre-existing SVG labels overhang the gutter by about 4 px:
    - "₹1.93 lakh cr" in `charts/Ladder.svelte`;
@@ -266,6 +267,11 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 8 (CEO chapter and memo):**
+  - Levers tab: "Is 2% the right target?" block (six rows); export and story gain `target_test` and `mgmt_nim`.
+  - Site: chapter 09 `ChSoWhat.svelte` with `TargetScale.svelte` and `KpiTree.svelte` (Exhibits 18-20); nav entry; v3.0 release note; chapter 06 retitled.
+  - Memo: sections 4-6 and the risks rewritten from the export; dated 4 Nov 2026; PDF regenerated with LibreOffice (2 pages).
+  - Tests: `test_two_percent_target_brackets`; pytest 36. Headline model values unchanged.
 - **4 Nov 2026, roadmap step 7 (trading comps and merger precedents):**
   - Skipped the optional say-do extension (user's call); went straight to step 7.
   - Fetched peer Q2 FY27 decks (Axis and Kotak via `fetch_docs.py`; ICICI and SBI from the banks' own hosts in `fetch.py`, because BSE returns 406 to scripts). New inputs `peer_comps_sep26.csv`, `peer_listed_stakes.csv`, `merger_precedents_rbi.csv`; Screener harvest for ICICIGI, ICICILIFE (renamed from ICICIPRULI), ICICIAMC, SBILIFE, SBICARD.

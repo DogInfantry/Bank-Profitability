@@ -149,8 +149,13 @@ def main():
                        casa_bp=sc(f"Comps|{nm}: CASA ratio change, year 0 to {t}"), roa_bp=sc(f"Comps|{nm}: RoA change, year 0 to {t}"), years=float(t))
               for nm, t in (("ICICI Bank", "3"), ("IDFC First Bank", "3"), ("HDFC Bank", "1.5"))},
         model_pace=sc("Comps|HDFC Bank model: borrowings share cut a year, FY25A to FY29E"))
+    target_test = {k: sc(f"Levers|{lab}") for k, lab in dict(
+        lev="Average assets / average net worth, FY29E", roe2="RoE at the 2.0% target", roa_ke="RoA that just earns the cost of equity",
+        roa_px="RoA that earns the RoE the price implies", roa_px_cr="RoA that earns the price-implied RoE after capital return").items()}
+    sd = pd.read_csv(I / "concall_say_do.csv")
+    mgmt_nim = sd[(sd.bank == "HDFCBANK") & (sd.verdict == "Open")].iloc[-1][["call_quarter", "call_date", "speaker_role", "said", "claim_source_url"]].to_dict()
     story = dict(
-        comps=comps,
+        comps=comps, target_test=target_test, mgmt_nim=mgmt_nim,
         as_of="2026-11-03", years=YEARS, series=series, outputs=outputs, levers=lev_out, anchors=anchors, peers=peers,
         q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
         roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),

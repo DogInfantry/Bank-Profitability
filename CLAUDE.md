@@ -70,43 +70,36 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 | `pipeline/export_site_data.py` | Site inputs `site/public/data/model.json` (engine) and `story.json` (narrative numbers) |
 | `pipeline/checks.py`, `pipeline/xlsx_lint.py` | 29 reconciliation checks; IB-hygiene lint |
 | `data/inputs/*.csv` | Committed, cited inputs: IR26 schedules and segments (`hdfc_ir26_segments.csv`), quarterly KPIs and chart reads, RBI system deposits and credit, Q3 FY27 predictions (frozen), group valuation inputs, peer comps at Sep-26 (`peer_comps_sep26.csv`, `peer_listed_stakes.csv`), merger precedents from RBI bank-wise returns (`merger_precedents_rbi.csv`) |
-| `site/src/App.svelte`, `site/src/chapters/*.svelte`, `site/src/charts/*.svelte` | The long-read: 8 chapters plus appendices, 17 exhibits (03 Peers holds 4-6, the comps table being 6; 04 Run-off holds 7-8, precedents being 8; 07 Risks holds 13-16 and the Q3 calls; 08 Plan holds 17) |
-| `tests/` | pytest (35), including `test_quarterly_panel.py`, `test_answer_tests.py` and `test_comps.py` |
+| `site/src/App.svelte`, `site/src/chapters/*.svelte`, `site/src/charts/*.svelte` | The long-read: 9 chapters plus appendices, 20 exhibits (03 Peers holds 4-6, the comps table being 6; 04 Run-off holds 7-8, precedents being 8; 07 Risks holds 13-16 and the Q3 calls; 08 Plan holds 17; 09 For the CEO holds 18-20) |
+| `tests/` | pytest (36), including `test_quarterly_panel.py`, `test_answer_tests.py` and `test_comps.py` |
 | `docs/PROJECT_STATE.md` | State, numbers, roadmap and session log (update every session) |
 | `docs/methodology.md`, `docs/data_sources.md`, `docs/model_audit.md` | Method, source register, audit findings |
 
-## Current state (4 Nov 2026, HEAD `ed416c8`, pushed; CI green; Vercel deployed)
-- **Roadmap steps 1-7 of 9 done** (detail in PROJECT_STATE section 6):
+## Current state (4 Nov 2026, step 8 committed locally on top of pushed `18f102d`; not yet pushed)
+- **Roadmap steps 1-8 of 9 done** (detail in PROJECT_STATE section 6):
   1. valuation consistency;
   2. primary-source data (decks, IR26, Pillar 3, RBI market share);
   3. marginal funding cost;
   4. defensible levers;
   5. regulatory overlay;
   6. break-evens, stress grid, Q3 FY27 calls;
-  7. trading comps and merger precedents (Comps tab; site Exhibits 6 and 8).
+  7. trading comps and merger precedents (Comps tab; site Exhibits 6 and 8);
+  8. CEO chapter 09 (three decisions, 2% test, variant view, stakeholders, hundred-day KPI tree) and the rebuilt memo.
 - **Base headline:**
   - FY29E RoA 1.89% before levers, 2.03% with levers (2.02% after the regulatory overlay);
   - value ₹506-576 a share vs ₹700 price;
   - break-even Ke 12.11%;
   - headroom over 2% is only 2.4 bp;
   - comps: 1.66x P/B net of listed stakes vs peer median 2.09x, with above-median RoA; the gap is funding (CD 96% vs 89%, CASA 32% vs 37%);
-  - precedents: base case needs borrowings to fall 3.0 points a year; ICICI managed 12.6, IDFC First 5.5; CASA, not run-off, is the risk.
+  - precedents: base case needs borrowings to fall 3.0 points a year; ICICI managed 12.6, IDFC First 5.5; CASA, not run-off, is the risk;
+  - 2% test: 2.0% RoA buys 15.7% RoE at FY29E leverage; Ke needs 1.68%; the price needs 2.14% (1.82% with capital returned).
 - **Skipped (user's call, 4 Nov 2026):** extending the management say-do tracker beyond NIM (`data/inputs/concall_say_do.csv`). Still optional.
 
 ## Active task
-- Nothing half-done. Step 7 was pushed (`ed416c8`); CI green, Vercel deployed, live site checked at 1440 and 390 px (only the known Ladder/BetaScatter label overhang at 390 px). Next session starts step 8.
+- Nothing half-done. Step 8 is committed; push when the user says so (run `-CiLocal` first, with the preview server stopped). Next is step 9 (packaging).
 
 ## Next steps (in order)
-1. Step 8: CEO "so what" page:
-   - three decisions with trade-offs;
-   - variant view;
-   - "is 2% the right target" mix check;
-   - stakeholder map;
-   - first-100-days KPI tree;
-   - rebuild the memo.
-
-   Also open: whether to reword chapter 06's title "The share price already assumes success" (user decision pending; Ke caveat).
-2. Step 9: packaging:
+1. Step 9: packaging:
    - README order;
    - OG image and screenshot;
    - bind the remaining hand-typed site numbers (ChPlan non-RoA KPI targets, ChMoves);
@@ -114,8 +107,8 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
    - source confidence column;
    - evidence-to-decision table;
    - fix the two SVG labels overhanging at 390 px (`charts/Ladder.svelte`, `charts/BetaScatter.svelte`).
-3. Optional: say-do tracker beyond NIM (CD ratio, deposit vs loan growth, credit cost, opex guidance).
-4. Mid-January 2027: score `data/inputs/hdfc_q3fy27_predictions.csv` against the Q3 FY27 deck (fill `actual_q3fy27`, `verdict`).
+2. Optional: say-do tracker beyond NIM (CD ratio, deposit vs loan growth, credit cost, opex guidance).
+3. Mid-January 2027: score `data/inputs/hdfc_q3fy27_predictions.csv` against the Q3 FY27 deck (fill `actual_q3fy27`, `verdict`).
 
 ## Before every push
 ```bash
@@ -157,11 +150,12 @@ After pushing, check:
   - The site export picks lever rows on the Levers tab where column I (index 6 of the C-N slice) is a float, and anchor rows where column E is a string.
   - Do not put numbers in column I of scalar rows.
   - New sheets must be added to `SHEETS` in `export_scenarios.py`.
-- **Site type check:** `npx svelte-check --threshold error` reports a baseline of 52 pre-existing errors (the vite-config environment error in each component, node types in `tests/engine.test.ts`, one in ChMoves). Only a rise above 52 is new.
+- **Site type check:** `npx svelte-check --threshold error` reports a baseline of 55 pre-existing errors (the vite-config environment error in each component, node types in `tests/engine.test.ts`, one in ChMoves). Each new component adds one more environment error; only other errors are new.
 - **Browser checks:**
   - The in-app browser pane, when hidden, throws negative-width SVG console errors and stalls; use headless Playwright instead.
   - A running `vite preview` (the `site-preview` pane server) locks `site/node_modules/@esbuild/win32-x64/esbuild.exe`, so `npm ci` in the build fails with EPERM. Stop the preview before `build_windows.ps1`.
   - The installed Playwright Chromium is `%LOCALAPPDATA%\ms-playwright\chromium_headless_shell-1228`. A newer `playwright` npm package expects a different build, so pass `executablePath`.
+- **Memo PDF:** the pipeline builds `decks/HDFC_CEO_Memo.docx` only. Regenerate the PDF by hand: `soffice --headless --convert-to pdf --outdir decks/pdf decks/HDFC_CEO_Memo.docx` (LibreOffice at `C:\Program Files\LibreOffice\program\soffice.exe`). `tests/test_traceability.py` expects the memo's Ke at one decimal.
 - **Interruptions:** the session has been cut off mid-tool before. After a restart, check `git status` and `git log`: work may be on disk but uncommitted.
 
 ## End-of-session duty

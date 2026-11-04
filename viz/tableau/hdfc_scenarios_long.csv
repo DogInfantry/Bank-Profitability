@@ -517,6 +517,7 @@ Base,Levers,All levers,F,0.0109895758011228
 Base,Levers,All levers,G,117611.405422971
 Base,Levers,All levers,H,76.1787582512783
 Base,Levers,All levers,J,79428.7332503688
+Base,Levers,"Average assets / average net worth, FY29E",E,7.84088767636887
 Base,Levers,Branch and operations productivity,C,2901.3265776
 Base,Levers,Branch and operations productivity,D,2171.06267801808
 Base,Levers,Branch and operations productivity,E,3.79971852529141
@@ -533,6 +534,7 @@ Base,Levers,FY29E RoA at risk if the delivered share persists,E,-8.2266862932991
 Base,Levers,Feasibility scale maximum,E,5.0
 Base,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
 Base,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.321951483622243
+Base,Levers,Leverage if the excess Tier 1 is returned (lever 7),E,9.22173571347185
 Base,Levers,Levers,E,14.0157291555694
 Base,Levers,Protect bancassurance and grow card fees,C,1456.8210252288
 Base,Levers,Protect bancassurance and grow card fees,D,1090.13917317871
@@ -588,6 +590,10 @@ Base,Levers,Retire legacy borrowings faster,J,12468.9018055391
 Base,Levers,"RoA FY26A, core",E,180.222819069513
 Base,Levers,RoA FY29E with levers,E,203.427467877967
 Base,Levers,"RoA FY29E, scenario before levers",E,189.411738722397
+Base,Levers,RoA that earns the RoE the price implies,E,0.021358708185157
+Base,Levers,RoA that earns the price-implied RoE after capital return,E,0.0181604891959223
+Base,Levers,RoA that just earns the cost of equity,E,0.0167519298096652
+Base,Levers,RoE at the 2.0% target,E,0.156817753527377
 Base,Levers,RoE if the excess is returned,E,0.167899509792237
 Base,Levers,RoE uplift,E,0.0193838930014323
 Base,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,9.18891965288475
@@ -2048,6 +2054,7 @@ Downside,Levers,All levers,F,0.0113697953595843
 Downside,Levers,All levers,G,121680.548531787
 Downside,Levers,All levers,H,78.8144062827049
 Downside,Levers,All levers,J,82549.1641233893
+Downside,Levers,"Average assets / average net worth, FY29E",E,8.05019896998525
 Downside,Levers,Branch and operations productivity,C,3062.4755417088
 Downside,Levers,Branch and operations productivity,D,2291.6504478607
 Downside,Levers,Branch and operations productivity,E,4.16520288087163
@@ -2064,6 +2071,7 @@ Downside,Levers,FY29E RoA at risk if the delivered share persists,E,-3.497371946
 Downside,Levers,Feasibility scale maximum,E,5.0
 Downside,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
 Downside,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.267020178181168
+Downside,Levers,Leverage if the excess Tier 1 is returned (lever 7),E,9.10786543338587
 Downside,Levers,Levers,E,14.1236203005366
 Downside,Levers,Protect bancassurance and grow card fees,C,1342.5297797736
 Downside,Levers,Protect bancassurance and grow card fees,D,1004.61503420458
@@ -2119,6 +2127,10 @@ Downside,Levers,Retire legacy borrowings faster,J,12152.2268838903
 Downside,Levers,"RoA FY26A, core",E,180.222819069513
 Downside,Levers,RoA FY29E with levers,E,145.271018940434
 Downside,Levers,"RoA FY29E, scenario before levers",E,131.147398639897
+Downside,Levers,RoA that earns the RoE the price implies,E,0.0208033655337668
+Downside,Levers,RoA that earns the price-implied RoE after capital return,E,0.0183875391020021
+Downside,Levers,RoA that just earns the cost of equity,E,0.0163163668984744
+Downside,Levers,RoE at the 2.0% target,E,0.161003979399705
 Downside,Levers,RoE if the excess is returned,E,0.11469080791431
 Downside,Levers,RoE uplift,E,0.00911454256959508
 Downside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,-49.0754204296154
@@ -3579,6 +3591,7 @@ Upside,Levers,All levers,F,0.0105620549860887
 Upside,Levers,All levers,G,113036.04011191
 Upside,Levers,All levers,H,73.2152221325736
 Upside,Levers,All levers,J,75785.7850743241
+Upside,Levers,"Average assets / average net worth, FY29E",E,7.75738559487623
 Upside,Levers,Branch and operations productivity,C,2822.9166464784
 Upside,Levers,Branch and operations productivity,D,2112.38852655979
 Upside,Levers,Branch and operations productivity,E,3.57758709555296
@@ -3595,6 +3608,7 @@ Upside,Levers,FY29E RoA at risk if the delivered share persists,E,-15.0922383103
 Upside,Levers,Feasibility scale maximum,E,5.0
 Upside,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
 Upside,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.392292020765217
+Upside,Levers,Leverage if the excess Tier 1 is returned (lever 7),E,9.26970962560386
 Upside,Levers,Levers,E,13.6154827640191
 Upside,Levers,Protect bancassurance and grow card fees,C,1536.5097580536
 Upside,Levers,Protect bancassurance and grow card fees,D,1149.77025195151
@@ -3650,6 +3664,10 @@ Upside,Levers,Retire legacy borrowings faster,J,10517.1664742426
 Upside,Levers,"RoA FY26A, core",E,180.222819069513
 Upside,Levers,RoA FY29E with levers,E,240.350197786757
 Upside,Levers,"RoA FY29E, scenario before levers",E,226.734715022738
+Upside,Levers,RoA that earns the RoE the price implies,E,0.0215886176784575
+Upside,Levers,RoA that earns the price-implied RoE after capital return,E,0.0180665024640669
+Upside,Levers,RoA that just earns the cost of equity,E,0.0169322510004862
+Upside,Levers,RoE at the 2.0% target,E,0.155147711897525
 Upside,Levers,RoE if the excess is returned,E,0.202389224323843
 Upside,Levers,RoE uplift,E,0.0265023631062671
 Upside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,46.5118959532256

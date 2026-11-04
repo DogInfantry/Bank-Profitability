@@ -62,6 +62,13 @@ def main():
     mdr29, dvnb = v("Fees|HDFC Bank MDR revenue", "FY29E"), v("Fees|Net change in annual VNB", None)
     ear = v("ALM|Earnings at risk, +100 bp", None)
     nii23, nii26 = v("Model|NII / average assets", "FY23A"), v("Model|NII / average assets", "FY26A")
+    be = pd.read_csv(T / "hdfc_breakevens.csv").set_index("driver")
+    pr = pd.read_csv(I / "hdfc_q3fy27_predictions.csv").set_index("metric")
+    sd = pd.read_csv(I / "concall_say_do.csv"); sd = sd[sd.bank == "HDFCBANK"]
+    nim_said = sd[sd.verdict == "Missed"].said.iloc[0]
+    b = O["Base"]; cp = lambda k, i=2: b[f"Comps|{k}"][i]  # noqa: E731
+    lv = lambda k: b[f"Levers|{k}"][2]  # noqa: E731
+    peer_ke = [v(f"Valuation|Implied Ke: {nm}", None) for nm in ("ICICI Bank", "Axis Bank")]
 
     doc = Document()
     for s_ in doc.sections:
@@ -76,7 +83,7 @@ def main():
     p = doc.add_paragraph(); p.paragraph_format.space_after = Pt(2)
     run(p, "Memorandum", bold=True, size=16, color=ACCENT)
     for lab, val in (("To", "Managing Director and CEO, HDFC Bank (hypothetical addressee)"), ("From", "Anklesh"),
-                     ("Date", "3 November 2026"), ("Subject", "Getting standalone RoA back to 2% by FY29")):
+                     ("Date", "4 November 2026"), ("Subject", "Getting standalone RoA back to 2% by FY29")):
         para(doc, [(f"{lab}: ", True), (val, False)], space_after=0)
     doc.add_paragraph().paragraph_format.space_after = Pt(0)
 
@@ -90,13 +97,16 @@ def main():
     for t in [
         f"RoA held at 1.8-2.0% for a decade. The merger moved NII from {pct(nii23, 2)} of average assets (FY23) to {pct(nii26, 2)} (FY26); Q2 FY27 RoA is {pct(roa_q2, 2)} annualised.",
         f"The {shh.gap * 100:.0f} bp gap to ICICI Bank is {shh.nii * 100:.0f} bp of NII and {shh.prov * 100:.0f} bp of FY26's one-off provisions. HDFC Bank is already ahead on cost, other income and tax.",
-        "Management missed its own 3.4-3.5% NIM range (3.16% on total assets in Q2 FY27). The CFO now calls the bottom; that should be tested at Q3 FY27.",
+        f"Management missed its own margin range (“{nim_said}”); NIM on total assets was {pr.loc['nim_total_assets', 'q2fy27_actual']:.2f}% in Q2 FY27. The CFO now calls the bottom; Q3 FY27 tests it.",
     ]:
         para(doc, [(t, False)], space_after=2, style="List Bullet")
 
     head(doc, "2. The base case helps, but not enough")
     for t in [
-        f"₹{ind(bor_le1)} cr of legacy borrowings mature within a year. Replacing 60% with deposits lifts NIM from 3.12% to {pct(v('Model|Net interest margin on interest-earning assets', 'FY29E'), 2)} by FY29E.",
+        f"₹{ind(bor_le1)} cr of legacy borrowings mature within a year. Replacing {pct(be.loc['Share of maturing borrowings retired', 'base_input'], 0)} with deposits lifts NIM from "
+        f"{pct(v('Model|Net interest margin on interest-earning assets', 'FY26A'), 2)} to {pct(v('Model|Net interest margin on interest-earning assets', 'FY29E'), 2)} by FY29E. "
+        f"The base case needs borrowings to fall {cp('HDFC Bank model: borrowings share cut a year, FY25A to FY29E') * 100:.1f} points of funding a year; ICICI Bank managed "
+        f"{cp('ICICI Bank: borrowings share cut a year, year 0 to 3') * 100:.1f} after its 2002 merger.",
         f"The bank is asset-sensitive: +100 bp adds ₹{ind(ear)} cr to NII. The October 2026 repo hike helps only if deposit pricing holds.",
         f"Credit cost is {pct(recent, 2)} against a through-the-cycle {pct(ttc, 2)}. Normalisation costs about {v('Opex_Credit|RoA at risk if credit cost normalises', None):.0f} bp of RoA and is in the base case.",
         f"Regulation is small for the bank: the IRDAI caps cost ₹{ind(irdai29)} cr of fees by FY29E ({pct(irdai29 / oi29)} of other income); UPI MDR adds ₹{ind(mdr29)} cr. "
@@ -122,25 +132,38 @@ def main():
             row.cells[j].width = w
     para(doc, [("Lever sizes, feasibility and timing are judgements for discussion; each is a driver change in the model, so the values are traceable.", False)], space_after=2)
 
-    head(doc, "4. What it is worth")
-    para(doc, [(f"At a {pct(ke)} cost of equity, each 10 bp of sustainable RoA is worth about ₹{ind(v10)} cr of equity value. "
-                f"The base case supports ₹{ri['Base']:.0f}-{sotp['Base']:.0f} a share (residual income to sum of the parts) against ₹{price:.0f}; "
-                f"only the upside case (RoA {pct(sc['Upside'], 2)}) supports today's price, at ₹{ri['Upside']:.0f}-{sotp['Upside']:.0f}. "
-                f"In the downside case (RoA {pct(sc['Downside'], 2)}) the levers still leave RoA {-O['Downside']['Levers|Shortfall (-) / headroom (+) to target'][2]:.0f} bp short.", False)])
+    head(doc, "4. What it is worth, and how the market compares it")
+    para(doc, [(f"At a {pct(ke)} cost of equity the base case supports ₹{ri['Base']:.0f}-{sotp['Base']:.0f} a share against ₹{price:.0f}; each 10 bp of sustainable RoA is worth "
+                f"about ₹{ind(v10)} cr. The conclusion turns on Ke: at {pct(v('Valuation|Cost of equity at which sum of the parts equals the price', None), 1)} or less the base case alone "
+                f"supports the price, and ICICI and Axis prices imply {pct(min(peer_ke), 1)}-{pct(max(peer_ke), 1)}. Net of listed stakes the bank trades at {cp('HDFC Bank', 6):.2f}x book against "
+                f"{cp('Peer median P/B ex listed stakes'):.2f}x for ICICI, Axis, Kotak and SBI, despite higher RoA; the gap is funding (credit-deposit ratio {pct(cp('HDFC Bank: Sep-26', 8), 0)} "
+                f"vs {pct(cp('Peer median CD ratio'), 0)}, CASA {pct(cp('HDFC Bank: Sep-26', 9), 0)} vs {pct(cp('Peer median CASA ratio'), 0)}).", False)])
 
-    head(doc, "5. Decisions requested and the first 90 days")
+    head(doc, "5. Is 2% the right target?")
+    para(doc, [(f"Yes, as an operating target. At FY29E leverage of {lv('Average assets / average net worth, FY29E'):.1f}x, 2.0% RoA buys {pct(lv('RoE at the 2.0% target'))} RoE; "
+                f"earning the cost of equity needs only {pct(lv('RoA that just earns the cost of equity'), 2)}. The price asks for {pct(lv('RoA that earns the RoE the price implies'), 2)}, "
+                f"or {pct(lv('RoA that earns the price-implied RoE after capital return'), 2)} once the excess Tier 1 is returned.", False)])
+
+    head(doc, "6. Three decisions for the CEO")
+    g, prem = be.loc["Advances growth"], be.loc["Premium over the system fresh rate"]
     for t in [
-        ("Make deposits the binding constraint. ", "Hold the credit-deposit ratio near 93% and fund a 1.5 pp CASA rebuild before chasing loan share."),
-        ("Retire ₹75,000 cr of legacy borrowings ahead of plan. ", f"Borrowings cost {pct(v('Model|Cost of borrowings', 'FY26A'), 2)} against {pct(v('Model|Cost of deposits', 'FY26A'), 2)} for deposits."),
-        ("Re-price the HDFC Life partnership now. ", "Agree persistency-linked commission and a longer premium-term mix before the IRDAI caps are final."),
-        ("Govern it monthly. ", "A seven-KPI RoA cockpit to the board, with named owners for each lever and a test of the margin guidance at the Q3 FY27 result."),
+        ("Grow loans with deposits, not ahead of them. ", f"Each point of loan growth is worth {g.slope_bp_per_unit / 100:.1f} bp of FY29E RoA, and below {pct(g.breakeven_input)} "
+         f"the case misses 2%; but the credit-deposit ratio has to keep falling while borrowings run off."),
+        ("Hold the term-deposit price; rebuild CASA. ", f"A premium of {prem.breakeven_input * 1e4:.0f} bp over the system rate erases the "
+         f"{be.headroom_bp.iloc[0]:.1f} bp headroom; if CASA keeps its recent pace, {-lv('FY29E RoA at risk if the delivered share persists'):.1f} bp of RoA is at risk."),
+        ("Keep the excess capital through the ECL transition, then return it. ", f"Returning ₹{ind(lv('Excess Tier 1 capital, FY29E'))} cr lifts RoE by "
+         f"{lv('RoE uplift') * 100:.1f} points but costs ₹{ind(-lv('Value effect of returning it'))} cr of value; day-one ECL uses "
+         f"{-v('Regulation|CET1 effect of the gross top-up', None) * 100:.2f} points of CET1."),
     ]:
         para(doc, [(t[0], True), (t[1], False)], space_after=2, style="List Number")
 
-    head(doc, "Main risks")
-    para(doc, [(f"Faster credit normalisation and sticky deposit costs are the two that break the plan. A deposit beta of 0.50 rather than 0.35 removes most of the NIM gain; "
-                f"a credit cost of 0.85% by FY29 takes RoA to {pct(sc['Downside'], 2)} before levers. Both have early-warning triggers in the cockpit.", False)])
-    para(doc, [("Method and sources: models/HDFC_RoA_Path_FY29.xlsx and decks/HDFC_RoA_Steerco.pptx. Public data only: HDFC Bank IR26, quarterly presentations, RBI, NPCI, IRDAI, Screener.", False)],
+    head(doc, "First hundred days and the main risk")
+    calls = "; ".join(f"{lab} {pr.loc[m, 'prediction_q3fy27']:{'.2f' if m.startswith('nim') else 'g'}}{u}" for m, lab, u in [("cd_ratio", "credit-deposit ratio", "%"), ("borrowings_share_funding", "borrowings", "% of funding"),
+                                                                                      ("casa_ratio", "CASA", "%"), ("nim_total_assets", "NIM", "%"), ("credit_cost", "credit cost", " bp")])
+    para(doc, [(f"Our Q3 FY27 calls, registered before the results: {calls}. ", False),
+               (f"The main risk is CASA, not the run-off: ICICI and IDFC First raised CASA by {cp('ICICI Bank: CASA ratio change, year 0 to 3') / 100:.0f} and "
+                f"{cp('IDFC First Bank: CASA ratio change, year 0 to 3') / 100:.0f} points after their mergers; HDFC Bank's has fallen {-cp('HDFC Bank: CASA ratio change, year 0 to 1.5') / 100:.1f}.", False)])
+    para(doc, [("Method and sources: models/HDFC_RoA_Path_FY29.xlsx and the site's appendix. Public data only: HDFC Bank IR26 and investor decks, peer decks, RBI, NPCI, IRDAI, Screener.", False)],
          space_after=0).runs[0].font.color.rgb = MUTED
 
     out = ROOT / "decks" / "HDFC_CEO_Memo.docx"

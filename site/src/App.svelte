@@ -14,6 +14,7 @@
   import ChValue from './chapters/ChValue.svelte';
   import ChRisks from './chapters/ChRisks.svelte';
   import ChPlan from './chapters/ChPlan.svelte';
+  import ChSoWhat from './chapters/ChSoWhat.svelte';
   import Appendix from './chapters/Appendix.svelte';
   import Changelog from './sections/Changelog.svelte';
 
@@ -21,7 +22,7 @@
   const BR = `${REPO}/blob/claude/wonderful-noether-vgfm7p`;
   const SECTIONS = [
     ['answer', '01', 'The answer'], ['merger', '02', 'The merger broke the margin'], ['peers', '03', 'Against ICICI Bank'], ['runoff', '04', 'The base case'],
-    ['moves', '05', 'The six moves'], ['value', '06', 'What it is worth'], ['risks', '07', 'What could break it'], ['plan', '08', 'Next twelve months'],
+    ['moves', '05', 'The six moves'], ['value', '06', 'What it is worth'], ['risks', '07', 'What could break it'], ['plan', '08', 'Next twelve months'], ['sowhat', '09', 'For the CEO'],
     ['workbench-a', 'A', 'Test the answer'], ['log', 'B', 'Method and sources'],
   ] as const;
   let paletteOpen = $state(false);
@@ -73,7 +74,7 @@
 
 <main class="col">
   {#if app.story && app.model && app.result}
-    <ChAnswer /><ChMerger /><ChPeers /><ChRunoff /><ChMoves /><ChValue /><ChRisks /><ChPlan /><Appendix /><Changelog />
+    <ChAnswer /><ChMerger /><ChPeers /><ChRunoff /><ChMoves /><ChValue /><ChRisks /><ChPlan /><ChSoWhat /><Appendix /><Changelog />
     <section class="repro">
       <p class="kh">Reproducibility</p>
       <p><Icon name="check" /> {s?.checks?.total - s?.checks?.fail}/{s?.checks?.total} model reconciliation checks pass · <Icon name="commit" /> model {s?.model_sha} · browser model matches the workbook within 0.1 bp (15 tests) · <a href={`${BR}/docs/model_audit.md`}>independent model audit</a> · <a href={`${BR}/decks/pdf/HDFC_CEO_Memo.pdf`}>two-page CEO memo</a></p>

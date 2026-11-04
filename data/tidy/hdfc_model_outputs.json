@@ -1094,6 +1094,66 @@ null,
 null,
 null
 ],
+"Levers|Average assets / average net worth, FY29E": [
+"x",
+null,
+7.84088767636887,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE at the 2.0% target": [
+"%",
+null,
+0.156817753527377,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that just earns the cost of equity": [
+"%",
+"Ke / leverage",
+0.0167519298096652,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the RoE the price implies": [
+"%",
+"Core-bank implied RoE / leverage",
+0.021358708185157,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Leverage if the excess Tier 1 is returned (lever 7)": [
+"x",
+null,
+9.22173571347185,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the price-implied RoE after capital return": [
+"%",
+null,
+0.0181604891959223,
+null,
+null,
+null,
+null,
+null
+],
 "Levers|Rebuild CASA (CASA ratio)": [
 0.341453013289456,
 0.3832,
@@ -5156,6 +5216,66 @@ null,
 null,
 null
 ],
+"Levers|Average assets / average net worth, FY29E": [
+"x",
+null,
+7.75738559487623,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE at the 2.0% target": [
+"%",
+null,
+0.155147711897525,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that just earns the cost of equity": [
+"%",
+"Ke / leverage",
+0.0169322510004862,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the RoE the price implies": [
+"%",
+"Core-bank implied RoE / leverage",
+0.0215886176784575,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Leverage if the excess Tier 1 is returned (lever 7)": [
+"x",
+null,
+9.26970962560386,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the price-implied RoE after capital return": [
+"%",
+null,
+0.0180665024640669,
+null,
+null,
+null,
+null,
+null
+],
 "Levers|Rebuild CASA (CASA ratio)": [
 0.341453013289456,
 0.3832,
@@ -9212,6 +9332,66 @@ null
 "bp",
 "Lower CASA priced at the TD premium",
 -3.49737194623909,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Average assets / average net worth, FY29E": [
+"x",
+null,
+8.05019896998525,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE at the 2.0% target": [
+"%",
+null,
+0.161003979399705,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that just earns the cost of equity": [
+"%",
+"Ke / leverage",
+0.0163163668984744,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the RoE the price implies": [
+"%",
+"Core-bank implied RoE / leverage",
+0.0208033655337668,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Leverage if the excess Tier 1 is returned (lever 7)": [
+"x",
+null,
+9.10786543338587,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoA that earns the price-implied RoE after capital return": [
+"%",
+null,
+0.0183875391020021,
 null,
 null,
 null,

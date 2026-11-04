@@ -14,7 +14,7 @@
   const v = $derived(sr.Base.valuation);
 </script>
 <section class="chapter" id="value">
-  <ChapterHead n="06" kicker="What it is worth" title="The share price already assumes success" />
+  <ChapterHead n="06" kicker="What it is worth" title={`At a ${pct(s.ke, 2)} cost of equity, the share price already assumes success; below ${pct(s.ke_be.Base, 1)} it does not`} />
   <Row>
     <p class="prose">At a {pct(v.ke, 2)} cost of equity and 8% long-run growth, a bank earning a sustainable return on equity R is worth (R − g) / (Ke − g) times book. Solve that for today's price of ₹{s.price} and the market is paying for <b>{pct(s.roe_implied)}</b> RoE.</p>
     <p class="prose">The base case reaches {pct(sr.Base.years[2].roe)}. The moves are not upside to the price: they are what the price already needs.</p>

@@ -833,6 +833,15 @@ def build():
     lev.scalar("ct_bp", "FY29E RoA at risk if the delivered share persists", f"=({lev.a('ct_casa')}-{md.x('casa', N)})*{inp.x('spread_td', N)}*{md.x('a_dep', N)}*(1-{inp.x('tax', N)})/{md.x('a_ta', N)}*{inp.x('bp')}",
                "bp", "Lower CASA priced at the TD premium", num="bp", kind="calc")
     lev.r += 1
+    lev.section("Is 2% the right target? The RoE each RoA buys at FY29E leverage")
+    lev.scalar("t2_lev", "Average assets / average net worth, FY29E", f"={md.x('a_ta', N)}/{md.x('a_eq', N)}", "x", "", num="x", kind="link")
+    lev.scalar("t2_roe", "RoE at the 2.0% target", f"={lev.a('target')}/{inp.x('bp')}*{lev.a('t2_lev')}", "%", "", num="pct1", kind="calc")
+    lev.scalar("t2_roa_ke", "RoA that just earns the cost of equity", f"={val.x('ke')}/{lev.a('t2_lev')}", "%", "Ke / leverage", num="pct2", kind="link")
+    lev.scalar("t2_roa_px", "RoA that earns the RoE the price implies", f"={val.x('roe_impl')}/{lev.a('t2_lev')}", "%", "Core-bank implied RoE / leverage", num="pct2", kind="link")
+    lev.scalar("t2_lev_cr", "Leverage if the excess Tier 1 is returned (lever 7)", f"={md.x('a_ta', N)}/({md.x('a_eq', N)}-{lev.a('cr_ex')})", "x", "", num="x", kind="link")
+    lev.scalar("t2_roa_px_cr", "RoA that earns the price-implied RoE after capital return", f"={val.x('roe_impl')}/{lev.a('t2_lev_cr')}", "%", "", num="pct2", kind="link")
+    lev.note("2% is a balance-sheet-neutral proxy for the real test, RoE against the cost of equity. At FY29E leverage it clears Ke; it meets the price only with capital returned.")
+    lev.r += 1
     lev.section("Peer anchors: share of the gap to best demonstrated practice that each lever closes")
     hdr = ["Lever", "HDFC Bank", "Benchmark", "Benchmark source", "Gap", "Lever closes", "Share of gap"]
     for j, t_ in enumerate(hdr):

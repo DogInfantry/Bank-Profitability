@@ -18,3 +18,12 @@ def test_breakevens_sit_on_the_right_side_of_base(root):
 def test_predictions_registered_before_results(root):
     p = pd.read_csv(root / "data/inputs/hdfc_q3fy27_predictions.csv")
     assert (pd.to_datetime(p.registered_on) < "2027-01-01").all() and p.prediction_q3fy27.notna().all()
+
+
+def test_two_percent_target_brackets(out):
+    # 2% RoA must clear Ke at FY29E leverage; the price-implied RoA must fall once capital is returned
+    b = out["Base"]
+    s = lambda k: b[f"Levers|{k}"][2]  # noqa: E731
+    assert s("RoA that just earns the cost of equity") < 0.02 < s("RoA that earns the RoE the price implies")
+    assert s("RoA that earns the price-implied RoE after capital return") < s("RoA that earns the RoE the price implies")
+    assert abs(s("RoE at the 2.0% target") - 0.02 * s("Average assets / average net worth, FY29E")) < 1e-9

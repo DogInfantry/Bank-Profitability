@@ -267,6 +267,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Done in step 9:** README screenshot (a GIF is still optional).
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, README and licence:** README rebuilt as a visual front page (hero, badges, the answer in one minute, nine exhibit crops linked to `site#exhibit-N`, site tour, Mermaid data-flow diagram, quality gates, About, Licence); the earlier technical sections kept verbatim under "Technical detail". `site/scripts/shots.cjs` now also writes the exhibit crops, `workbench.png` and `mobile.png` to `docs/img/`. Added Apache-2.0 `LICENSE`. GitHub About set (description, homepage, 12 topics). No model change.
 - **4 Nov 2026, roadmap step 9 (packaging):** README reorder and stale-figure fixes; OG image and screenshot; ChPlan and ChMoves numbers bound to the export (two stale figures found: borrowings tile basis and the ₹1 lakh cr saving); clickable source register with confidence; evidence-to-decision table in chapter 09; 390 px label fixes (Ladder, BetaScatter, Tornado); release note v3.1. Headline model values unchanged.
 - **4 Nov 2026, roadmap step 8 (CEO chapter and memo):**
   - Levers tab: "Is 2% the right target?" block (six rows); export and story gain `target_test` and `mgmt_nim`.

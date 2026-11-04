@@ -149,7 +149,7 @@ After pushing, check:
   - The in-app browser pane, when hidden, throws negative-width SVG console errors and stalls; use headless Playwright instead.
   - A running `vite preview` (the `site-preview` pane server) locks `site/node_modules/@esbuild/win32-x64/esbuild.exe`, so `npm ci` in the build fails with EPERM. Stop the preview before `build_windows.ps1`.
   - The installed Playwright Chromium is `%LOCALAPPDATA%\ms-playwright\chromium_headless_shell-1228`. A newer `playwright` npm package expects a different build, so pass `executablePath`.
-- **Share image:** `site/public/og.png` and `docs/img/site.png` are screenshots of the masthead (bound numbers). After a model change, run `npx vite preview` in `site/`, then `node site/scripts/shots.cjs` with Playwright on `NODE_PATH`.
+- **Share image and README images:** `site/public/og.png`, `docs/img/site.png` (masthead), `docs/img/mobile.png` (390 px) and the README exhibit crops `docs/img/ex*.png` and `workbench.png` are screenshots with bound numbers. `shots.cjs` writes all of them. After a model change, run `npx vite preview` in `site/`, then `node site/scripts/shots.cjs` with Playwright on `NODE_PATH`.
 - **Memo PDF:** the pipeline builds `decks/HDFC_CEO_Memo.docx` only. Regenerate the PDF by hand: `soffice --headless --convert-to pdf --outdir decks/pdf decks/HDFC_CEO_Memo.docx` (LibreOffice at `C:\Program Files\LibreOffice\program\soffice.exe`). `tests/test_traceability.py` expects the memo's Ke at one decimal.
 - **Interruptions:** the session has been cut off mid-tool before. After a restart, check `git status` and `git log`: work may be on disk but uncommitted.
 

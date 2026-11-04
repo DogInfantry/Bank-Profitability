@@ -1,0 +1,7 @@
+metric,unit,q2fy27_actual,fy27e_model,prediction_q3fy27,tolerance,registered_on,method,actual_q3fy27,verdict
+cd_ratio,%,96.0,92.9,94.5,1.0,2026-11-04,Halfway from the Q2 FY27 deck to the Base FY27E year end (Model: advances / deposits),,
+borrowings_share_funding,%,12.8,9.5,11.1,1.0,2026-11-04,"Halfway to Base FY27E (Model: borrowings / (deposits + borrowings))",,
+casa_ratio,%,32.0,32.5,32.3,1.0,2026-11-04,Halfway to the Base FY27E CASA input; the deck rounds to whole points,,
+deposits,INR bn,33274,35710,34492,500,2026-11-04,Halfway to Base FY27E deposits (Model),,
+credit_cost,bp,44,55,50,8,2026-11-04,Halfway to the Base FY27E credit-cost input (the deck shows bp of advances),,
+nim_total_assets,%,3.16,,3.20,0.05,2026-11-04,"Direction from the model (FY27E NIM on interest-earning assets 3.23% vs FY26 3.12%, a different basis); flat to up from 3.16%",,

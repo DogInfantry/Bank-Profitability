@@ -21,7 +21,7 @@ function Run([string[]]$a) {
   if ($LASTEXITCODE -ne 0) { Write-Output "FAILED: $($a -join ' ')"; exit 1 }
 }
 foreach ($s in "hdfc_walk", "deposit_beta", "build_hdfc_model", "export_scenarios", "tornado", "build_hdfc_model", "export_scenarios",
-               "hdfc_quarterly", "call_topics", "warehouse", "run_sql") { Run @("-I", "pipeline/$s.py") }
+               "hdfc_quarterly", "breakevens", "call_topics", "warehouse", "run_sql") { Run @("-I", "pipeline/$s.py") }
 foreach ($s in "decks/build_memo.py", "viz/build_dashboard.py", "viz/tableau/build_extracts.py", "pipeline/checks.py") { Run @("-I", $s) }
 Run @("-m", "pytest", "-q", "-p", "no:cacheprovider", "tests")
 Run @("-m", "ruff", "check", ".")

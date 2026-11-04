@@ -119,7 +119,8 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - 05 Moves: scrolly with Exhibit 7 `Waterfall` and step cards, Exhibit 8 `Dumbbell`, moves table with bars and feasibility dots;
   - 06 Value: `PbEquation`, Exhibit 9 `RoeBars` + Exhibit 10 `ValueBullet`, 10 bp tile;
   - 07 Risks: Exhibit 11 `Tornado`, Exhibit 12 `BetaScatter` with beta tiles, `RiskCards`;
-  - 08 Plan: Exhibit 13 `Roadmap` (Gantt) + KPI tiles;
+  - 07 also carries Exhibit 13 (break-evens table), Exhibit 14 `StressGrid` (live engine, repo × credit cost) and the pre-registered Q3 FY27 calls;
+  - 08 Plan: Exhibit 15 `Roadmap` (Gantt) + KPI tiles;
   - Appendix A: "Test the answer yourself", `ModelFlow` + the collapsible `sections/Workbench.svelte` (live model);
   - Appendix B: `sections/Changelog.svelte` (release notes, formulas, source register, caveats), then reproducibility and footer.
 - **Palette:** tokens in `site/src/app.css`, light and dark, validated with the dataviz validator.
@@ -205,7 +206,27 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - **ECL day one:** a ₹33.2k cr top-up = 0.71 pp CET1 gross, covered by ₹36.8k cr of floating and contingent provisions if they can be applied.
      - **Exhibit 11:** retitled, plus a bound paragraph.
      - **Not sourced:** the ECL transition relief (Reuters is paywalled; not claimed) and PSLC trading fees (not disclosed).
-   - **6. "What would change our answer":** break-evens (repo, marginal cost of deposits, credit cost, Ke); a 2D reverse-stress grid; pre-registered Q3 FY27 predictions before the mid-Jan 2027 results; say-do beyond NIM, rendered on the site.
+   - **6. "What would change our answer": DONE except say-do (4 Nov 2026).**
+     - **Break-evens** (`pipeline/breakevens.py` → `data/tidy/hdfc_breakevens.csv`, from the tornado recalculations). Base headroom is 2.4 bp over 2.0% (with levers and the overlay). The base case falls below 2% at:
+       - repo 5.56% (base 5.75%);
+       - credit cost 0.73% (0.68%);
+       - opex growth 10.7% (10.0%);
+       - CASA 32.4% (33.5%);
+       - deposit premium +18 bp;
+       - borrowings retired 45% (60%).
+
+       Ke break-even for value = ₹700 is 12.11%.
+     - **2D stress grid:** live on the site, computed by the engine.
+     - **Q3 FY27 calls**, frozen in `data/inputs/hdfc_q3fy27_predictions.csv` (registered 4 Nov 2026), each halfway from the Sep-26 actual to the model's FY27E:
+       - CD ratio 94.5%;
+       - borrowings / funding 11.1%;
+       - CASA 32.3%;
+       - deposits ₹34,492 bn;
+       - credit cost 50 bp;
+       - NIM 3.20% (±0.05).
+
+       **Score them when the Q3 FY27 deck is out (mid-Jan 2027):** fill `actual_q3fy27` and `verdict`.
+     - **Not done:** the say-do extension beyond NIM (needs new FactIQ transcript claims). It is the next item if wanted.
    - **7. One-page trading comps** (core P/B, P/E, RoA, RoE, CASA, CD ratio, CET1, growth) plus merger precedents (ICICI 2002, IDFC First).
    - **8. CEO "so what" page:**
      - three decisions with trade-offs;
@@ -230,6 +251,11 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 6 (what would change our answer):**
+  - New `pipeline/breakevens.py` (in the Makefile and Windows runner), with 3 tests in `tests/test_answer_tests.py`.
+  - Frozen Q3 FY27 predictions.
+  - Site chapter 07: Exhibits 13-14 (break-evens and the stress grid, `charts/StressGrid.svelte`) and the predictions table; the Plan exhibit is renumbered to 15.
+  - Story gains `breakevens` and `predictions`.
 - **4 Nov 2026, roadmap step 5 (regulatory overlay):**
   - New Regulation sheet: ECL, CRR, LCR and PSL blocks, each with the FY29E RoA effect and the net overlay. It is also in the export and the Cover table of contents.
   - Story gains a `regulation` dict. Chapter 07 is reworded, and its "recalculated N times" figure is now bound.

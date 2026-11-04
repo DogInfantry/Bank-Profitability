@@ -41,6 +41,7 @@ model:
 
 outputs:
 	$(PY) pipeline/hdfc_quarterly.py
+	$(PY) pipeline/breakevens.py
 	$(PY) pipeline/call_topics.py
 	$(PY) pipeline/warehouse.py
 	$(PY) pipeline/run_sql.py

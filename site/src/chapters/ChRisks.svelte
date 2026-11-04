@@ -5,12 +5,20 @@
   import Tornado from '../charts/Tornado.svelte';
   import BetaScatter from '../charts/BetaScatter.svelte';
   import RiskCards from '../charts/RiskCards.svelte';
+  import StressGrid from '../charts/StressGrid.svelte';
   import Row from '../lib/Row.svelte';
   import Stat from '../lib/Stat.svelte';
   import { ind } from '../lib/format';
   const s = $derived(app.story!);
   const sr = $derived(app.scenarioResults!);
   const reg = $derived(s.regulation);
+  const pc = (d: number) => (v: number) => `${(v * 100).toFixed(d)}%`;
+  const BE: Record<string, [string, (v: number) => string]> = {
+    'Policy repo rate, fiscal-year average': ['Repo rate, FY29 average', pc(2)], 'Credit cost': ['Credit cost', pc(2)],
+    'CASA ratio, year end': ['CASA ratio, FY29', pc(1)], 'Premium over the system fresh rate': ['Deposit premium over system', pc(2)],
+    'Operating expense growth': ['Opex growth', pc(1)], 'Cost of equity': ['Cost of equity (value = ₹700)', pc(2)],
+  };
+  const beRows = $derived(s.breakevens.filter((b: any) => b.driver in BE).map((b: any) => ({ ...b, label: BE[b.driver][0], fmt: BE[b.driver][1] })));
   const fmtBp = (v: number) => `${v >= 0 ? '+' : '−'}${Math.abs(v).toFixed(1)}`;
   const torn = $derived(Object.fromEntries(s.tornado.map((t: any) => [t.driver, t.swing_bp])));
   const rows = $derived([
@@ -43,7 +51,24 @@
   </Row>
   <p class="h-reg">Early warnings the board can see each quarter</p>
   <RiskCards {rows} downside={{ roa: sr.Downside.years[2].roa, moves: sr.Downside.bridge.levers }} />
+  <p class="prose">What would change our answer. With the moves and the rule changes, the base case clears 2% by only {s.breakevens[0].headroom_bp.toFixed(1)} bp. Each line below is the single input at which it stops clearing, read off the recalculated workbook.</p>
+  <div class="pair">
+    <Exhibit n={13} title="A small move in any one of these inputs takes the base case below 2%" units="Base input vs the level at which FY29E RoA with the moves falls to 2.0%"
+             source="Tornado recalculations (pipeline/breakevens.py); Ke break-even from the Valuation tab">
+      <table class="data"><thead><tr><th>Input</th><th class="n">Base</th><th class="n">Break-even</th></tr></thead>
+        <tbody>{#each beRows as b}<tr><td>{b.label}</td><td class="n">{b.fmt(b.base_input)}</td><td class="n">{b.fmt(b.breakeven_input)}</td></tr>{/each}</tbody></table>
+    </Exhibit>
+    <Exhibit n={14} title="Repo and credit cost together: where the base case still clears 2%" units="Base FY29E RoA with the moves and rule changes; red = below 2.0%"
+             source="Browser engine (parity-tested port of the Excel model), every year shifted by the amount shown">
+      <StressGrid />
+    </Exhibit>
+  </div>
+  <p class="h-reg">Calls we will be scored on: Q3 FY27 results, due mid-January 2027</p>
+  <table class="data pred"><thead><tr><th>Metric</th><th class="n">Q2 FY27</th><th class="n">Our Q3 FY27 call</th><th class="n">Tolerance</th></tr></thead>
+    <tbody>{#each s.predictions as p}<tr><td>{p.label}</td><td class="n">{p.q2fy27_actual}{p.unit === '%' ? '%' : ''}</td><td class="n"><b>{p.prediction_q3fy27}{p.unit === '%' ? '%' : ''}</b></td><td class="n">±{p.tolerance}</td></tr>{/each}</tbody></table>
+  <p class="rnote">Registered on {s.predictions[0].registered_on}, before the results. Rule: halfway from the September actual to the model's March 2027 year end.</p>
 </section>
 <style>
   .h-reg { font: 600 17px var(--sans); color: var(--ink); margin: 28px 0 0; }
+  .pred { max-width: var(--main); margin-top: 10px; }
 </style>

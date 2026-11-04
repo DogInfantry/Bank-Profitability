@@ -141,6 +141,10 @@ def main():
         ke_be={s: sc("Valuation|Cost of equity at which sum of the parts equals the price", s) for s in SCN},
         remix_capital=dict(shift=sc("Levers|Share of the book moved"), rwa=sc("Levers|Extra risk-weighted assets"),
                            equity=sc("Levers|Extra Tier 1 capital at the projected ratio"), ep=sc("Levers|Re-mix PAT less a Ke charge on that capital")),
+        breakevens=pd.read_csv(T / "hdfc_breakevens.csv").drop(columns="source").replace({float("nan"): None}).to_dict("records"),
+        predictions=pd.read_csv(I / "hdfc_q3fy27_predictions.csv").fillna("").assign(label=lambda d: d.metric.map({
+            "cd_ratio": "Credit-deposit ratio", "borrowings_share_funding": "Borrowings / funding", "casa_ratio": "CASA ratio",
+            "deposits": "Deposits, ₹ bn", "credit_cost": "Credit cost, bp", "nim_total_assets": "NIM on total assets"})).to_dict("records"),
         regulation=dict(ecl_gross=sc("Regulation|Day-one top-up on FY27E advances"), ecl_buffer=sc("Regulation|Floating and contingent provisions already held"),
                         ecl_cet1=sc("Regulation|CET1 effect of the gross top-up"), ecl_bp=sc("Regulation|FY29E RoA effect, recurring ECL"),
                         crr_bp=sc("Regulation|FY29E RoA effect, freed reserves earning the liquidity yield"), lcr_head=sc("Regulation|Headroom"),

@@ -75,7 +75,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 | `docs/PROJECT_STATE.md` | State, numbers, roadmap and session log (update every session) |
 | `docs/methodology.md`, `docs/data_sources.md`, `docs/model_audit.md` | Method, source register, audit findings |
 
-## Current state (4 Nov 2026, step 7 committed locally, not yet pushed)
+## Current state (4 Nov 2026, HEAD `ed416c8`, pushed; CI green; Vercel deployed)
 - **Roadmap steps 1-7 of 9 done** (detail in PROJECT_STATE section 6):
   1. valuation consistency;
   2. primary-source data (decks, IR26, Pillar 3, RBI market share);
@@ -94,7 +94,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 - **Skipped (user's call, 4 Nov 2026):** extending the management say-do tracker beyond NIM (`data/inputs/concall_say_do.csv`). Still optional.
 
 ## Active task
-- Nothing half-done. Step 7 is committed on the branch; push when the user says so (run `-CiLocal` first).
+- Nothing half-done. Step 7 was pushed (`ed416c8`); CI green, Vercel deployed, live site checked at 1440 and 390 px (only the known Ladder/BetaScatter label overhang at 390 px). Next session starts step 8.
 
 ## Next steps (in order)
 1. Step 8: CEO "so what" page:
@@ -160,6 +160,7 @@ After pushing, check:
 - **Site type check:** `npx svelte-check --threshold error` reports a baseline of 52 pre-existing errors (the vite-config environment error in each component, node types in `tests/engine.test.ts`, one in ChMoves). Only a rise above 52 is new.
 - **Browser checks:**
   - The in-app browser pane, when hidden, throws negative-width SVG console errors and stalls; use headless Playwright instead.
+  - A running `vite preview` (the `site-preview` pane server) locks `site/node_modules/@esbuild/win32-x64/esbuild.exe`, so `npm ci` in the build fails with EPERM. Stop the preview before `build_windows.ps1`.
   - The installed Playwright Chromium is `%LOCALAPPDATA%\ms-playwright\chromium_headless_shell-1228`. A newer `playwright` npm package expects a different build, so pass `executablePath`.
 - **Interruptions:** the session has been cut off mid-tool before. After a restart, check `git status` and `git log`: work may be on disk but uncommitted.
 

@@ -1575,6 +1575,86 @@ null,
 "Through justified P/B",
 83913.8685668993
 ],
+"Regulation|Day-one ECL top-up": [
+"% advances",
+"Assumption: lifetime provisions on stage 2 loans; range 0.5-1.5%. RBI final directions (Apr 2026): effective 1 Apr 2027",
+0.01
+],
+"Regulation|Day-one top-up on FY27E advances": [
+"INR cr",
+null,
+33189.978851
+],
+"Regulation|Floating and contingent provisions already held": [
+"INR cr",
+"S1 Q2 FY27 deck p20: floating 214 bn + contingent 154 bn (Sep-26)",
+36800
+],
+"Regulation|Net day-one hit if the buffer can be applied": [
+"INR cr",
+"Whether floating provisions count under ECL is not settled here: the gross line is the downside",
+0
+],
+"Regulation|CET1 effect of the gross top-up": [
+"pp",
+"After tax, on FY27E RWA (Capital tab)",
+-0.00711183202355337
+],
+"Regulation|Recurring credit-cost add under ECL": [
+"% advances",
+"Assumption: earlier recognition of stage 2 losses; range 0-0.15%",
+0.0005
+],
+"Regulation|FY29E RoA effect, recurring ECL": [
+"bp",
+null,
+-2.6510652612338
+],
+"Regulation|Average CRR, FY26": [
+"% NDTL",
+"4.00% to 6 Sep 2025, then 25 bp cuts on 6 Sep, 4 Oct, 1 Nov and 29 Nov 2025 (RBI)",
+0.0356
+],
+"Regulation|CRR from 29 November 2025": [
+"% NDTL",
+"RBI: 3.00% of NDTL",
+0.03
+],
+"Regulation|FY29E RoA effect, freed reserves earning the liquidity yield": [
+"bp",
+"Deposits as the NDTL proxy; the FY26 base only carries part of the cut",
+1.64142747955354
+],
+"Regulation|Average LCR, Q2 FY27": [
+"%",
+"S1 Q2 FY27 deck p6",
+1.13
+],
+"Regulation|Regulatory minimum": [
+"%",
+"RBI",
+1
+],
+"Regulation|Headroom": [
+"pp",
+null,
+0.13
+],
+"Regulation|FY29E RoA effect": [
+"bp",
+"Already in the FY26 base",
+0
+],
+"Regulation|FY29E RoA effect of the rule changes": [
+"bp",
+"Plus the IRDAI caps and UPI MDR, which are in the scenario path (Fees tab)",
+-1.00963778168026
+],
+"Regulation|RoA FY29E with levers, after the overlay": [
+"bp",
+"Levers tab",
+202.417830096287
+],
 "Fees|HDFC Life bank-channel first-year commission above proposed caps": [
 "INR cr",
 "data/tidy/ins_promoter_bank_hit.csv (insurance module, Base PPT mix)",
@@ -4803,6 +4883,86 @@ null,
 "Through justified P/B",
 83020.2219568919
 ],
+"Regulation|Day-one ECL top-up": [
+"% advances",
+"Assumption: lifetime provisions on stage 2 loans; range 0.5-1.5%. RBI final directions (Apr 2026): effective 1 Apr 2027",
+0.01
+],
+"Regulation|Day-one top-up on FY27E advances": [
+"INR cr",
+null,
+33777.412105
+],
+"Regulation|Floating and contingent provisions already held": [
+"INR cr",
+"S1 Q2 FY27 deck p20: floating 214 bn + contingent 154 bn (Sep-26)",
+36800
+],
+"Regulation|Net day-one hit if the buffer can be applied": [
+"INR cr",
+"Whether floating provisions count under ECL is not settled here: the gross line is the downside",
+0
+],
+"Regulation|CET1 effect of the gross top-up": [
+"pp",
+"After tax, on FY27E RWA (Capital tab)",
+-0.00718625771877793
+],
+"Regulation|Recurring credit-cost add under ECL": [
+"% advances",
+"Assumption: earlier recognition of stage 2 losses; range 0-0.15%",
+0.0005
+],
+"Regulation|FY29E RoA effect, recurring ECL": [
+"bp",
+null,
+-2.68145357476563
+],
+"Regulation|Average CRR, FY26": [
+"% NDTL",
+"4.00% to 6 Sep 2025, then 25 bp cuts on 6 Sep, 4 Oct, 1 Nov and 29 Nov 2025 (RBI)",
+0.0356
+],
+"Regulation|CRR from 29 November 2025": [
+"% NDTL",
+"RBI: 3.00% of NDTL",
+0.03
+],
+"Regulation|FY29E RoA effect, freed reserves earning the liquidity yield": [
+"bp",
+"Deposits as the NDTL proxy; the FY26 base only carries part of the cut",
+1.72434671918042
+],
+"Regulation|Average LCR, Q2 FY27": [
+"%",
+"S1 Q2 FY27 deck p6",
+1.13
+],
+"Regulation|Regulatory minimum": [
+"%",
+"RBI",
+1
+],
+"Regulation|Headroom": [
+"pp",
+null,
+0.13
+],
+"Regulation|FY29E RoA effect": [
+"bp",
+"Already in the FY26 base",
+0
+],
+"Regulation|FY29E RoA effect of the rule changes": [
+"bp",
+"Plus the IRDAI caps and UPI MDR, which are in the scenario path (Fees tab)",
+-0.957106855585212
+],
+"Regulation|RoA FY29E with levers, after the overlay": [
+"bp",
+"Levers tab",
+239.393090931172
+],
 "Fees|HDFC Life bank-channel first-year commission above proposed caps": [
 "INR cr",
 "data/tidy/ins_promoter_bank_hit.csv (insurance module, Base PPT mix)",
@@ -8030,6 +8190,86 @@ null,
 "INR cr",
 "Through justified P/B",
 86153.9364147054
+],
+"Regulation|Day-one ECL top-up": [
+"% advances",
+"Assumption: lifetime provisions on stage 2 loans; range 0.5-1.5%. RBI final directions (Apr 2026): effective 1 Apr 2027",
+0.01
+],
+"Regulation|Day-one top-up on FY27E advances": [
+"INR cr",
+null,
+32602.545597
+],
+"Regulation|Floating and contingent provisions already held": [
+"INR cr",
+"S1 Q2 FY27 deck p20: floating 214 bn + contingent 154 bn (Sep-26)",
+36800
+],
+"Regulation|Net day-one hit if the buffer can be applied": [
+"INR cr",
+"Whether floating provisions count under ECL is not settled here: the gross line is the downside",
+0
+],
+"Regulation|CET1 effect of the gross top-up": [
+"pp",
+"After tax, on FY27E RWA (Capital tab)",
+-0.00706209621546414
+],
+"Regulation|Recurring credit-cost add under ECL": [
+"% advances",
+"Assumption: earlier recognition of stage 2 losses; range 0-0.15%",
+0.0005
+],
+"Regulation|FY29E RoA effect, recurring ECL": [
+"bp",
+null,
+-2.60863844564676
+],
+"Regulation|Average CRR, FY26": [
+"% NDTL",
+"4.00% to 6 Sep 2025, then 25 bp cuts on 6 Sep, 4 Oct, 1 Nov and 29 Nov 2025 (RBI)",
+0.0356
+],
+"Regulation|CRR from 29 November 2025": [
+"% NDTL",
+"RBI: 3.00% of NDTL",
+0.03
+],
+"Regulation|FY29E RoA effect, freed reserves earning the liquidity yield": [
+"bp",
+"Deposits as the NDTL proxy; the FY26 base only carries part of the cut",
+1.52145015648362
+],
+"Regulation|Average LCR, Q2 FY27": [
+"%",
+"S1 Q2 FY27 deck p6",
+1.13
+],
+"Regulation|Regulatory minimum": [
+"%",
+"RBI",
+1
+],
+"Regulation|Headroom": [
+"pp",
+null,
+0.13
+],
+"Regulation|FY29E RoA effect": [
+"bp",
+"Already in the FY26 base",
+0
+],
+"Regulation|FY29E RoA effect of the rule changes": [
+"bp",
+"Plus the IRDAI caps and UPI MDR, which are in the scenario path (Fees tab)",
+-1.08718828916314
+],
+"Regulation|RoA FY29E with levers, after the overlay": [
+"bp",
+"Levers tab",
+144.183830651271
 ],
 "Fees|HDFC Life bank-channel first-year commission above proposed caps": [
 "INR cr",

@@ -7,8 +7,11 @@
   import RiskCards from '../charts/RiskCards.svelte';
   import Row from '../lib/Row.svelte';
   import Stat from '../lib/Stat.svelte';
+  import { ind } from '../lib/format';
   const s = $derived(app.story!);
   const sr = $derived(app.scenarioResults!);
+  const reg = $derived(s.regulation);
+  const fmtBp = (v: number) => `${v >= 0 ? '+' : '−'}${Math.abs(v).toFixed(1)}`;
   const torn = $derived(Object.fromEntries(s.tornado.map((t: any) => [t.driver, t.swing_bp])));
   const rows = $derived([
     { name: 'Credit cost normalises faster', watch: 'annualised slippages above 1.5% for two quarters', bp: torn['Credit cost'], kill: 'credit cost above 0.80% in FY28: the 2% date moves to FY30' },
@@ -20,12 +23,13 @@
 </script>
 <section class="chapter" id="risks">
   <ChapterHead n="07" kicker="Risks" title="What could break it: the rate path, credit cost and deposit pricing" />
-  <p class="prose">The full workbook was recalculated 24 times, moving one assumption at a time across its scenario range. Three assumptions matter far more than the rest. The bank is asset-sensitive, so the repo path leads; credit cost and the pace of loan growth follow.</p>
-  <Exhibit n={11} wide title="The repo path, loan growth and credit cost move FY29E RoA most; regulation barely registers"
+  <p class="prose">The full workbook was recalculated {s.tornado.length * 2} times, moving one assumption at a time across its scenario range. Three assumptions matter far more than the rest. The bank is asset-sensitive, so the repo path leads; credit cost and the pace of loan growth follow.</p>
+  <Exhibit n={11} wide title="The repo path, loan growth and credit cost move FY29E RoA most"
            units="Change in FY29E RoA vs base, bp, when one driver moves to the low or high end of its range; all else base"
            source="Driver model recalculated in LibreOffice (pipeline/tornado.py); ranges = min/max of the scenario inputs; deposit beta 0.25 to 0.62">
     <Tornado />
   </Exhibit>
+  <p class="prose">Rule changes outside the scenario path net {fmtBp(reg.net_bp)} bp of FY29E RoA: the CRR cut to 3% adds {Math.abs(reg.crr_bp).toFixed(1)} bp, and expected-credit-loss provisioning from April 2027 costs {Math.abs(reg.ecl_bp).toFixed(1)} bp a year. The larger ECL risk is day one: a top-up of about ₹{ind(reg.ecl_gross / 1000)}k cr, {(-reg.ecl_cet1 * 100).toFixed(1)} points of CET1 before any relief, against ₹{ind(reg.ecl_buffer / 1000)}k cr of floating and contingent provisions already held. LCR headroom is {(reg.lcr_head * 100).toFixed(0)} points; the April 2026 digital-deposit run-off is offset by the rest of the package.</p>
   <Row>
     <Exhibit n={12} title="Funding costs follow repo about a third in year one and two-thirds in two" units="Annual change in cost of funds vs change in average repo, pp, FY17-FY26"
              source={`HDFC Bank funding costs (Screener, tied to IR26); RBI repo via FactIQ; OLS with one-year lag and merger dummy, R² ${s.beta.r2.toFixed(2)}, n = ${s.beta.n}`}>

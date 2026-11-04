@@ -86,6 +86,8 @@ def build():
     cap = B.sheet("Capital", "Capital and growth capacity", "Tier 1 proxy, risk-weight density and internal capital generation.")
     lev = B.sheet("Levers", "Value levers: FY29E impact on RoA, PAT and equity value", "Each lever is a driver change on top of the selected scenario.", timeline=False, widths=(2, 44, 12, 46))
     val = B.sheet("Valuation", "Valuation: justified P/B, residual income and sum of the parts", "Cost of equity by CAPM; terminal assumptions are inputs.", timeline=False, widths=(2, 44, 12, 46))
+    reg = B.sheet("Regulation", "Regulatory overlay: rule changes not in the scenario path", "Each rule's effect on FY29E RoA and on capital, read against the selected scenario.",
+                  timeline=False, widths=(2, 48, 12, 60))
     TORN = T / "hdfc_tornado.csv"
     tor = B.sheet("Tornado", "Tornado: FY29E RoA sensitivity, one driver at a time", "Values from a Python recalculation of this workbook (pipeline/tornado.py), Base scenario; not live formulas.",
                   timeline=False, widths=(2, 40, 14, 14)) if TORN.exists() else None
@@ -744,6 +746,37 @@ def build():
     bc.set_y_axis({"num_font": {"name": "Garamond"}, "reverse": True}); bc.set_legend({"none": True}); bc.set_size({"width": 620, "height": 300})
     lev.ws.insert_chart(lev.r + 1, 1, bc)
 
+    # ================================================================ Regulation
+    reg.section("Expected credit loss (ECL), from 1 April 2027")
+    reg.scalar("ecl_top", "Day-one ECL top-up", 0.010, "% advances", "Assumption: lifetime provisions on stage 2 loans; range 0.5-1.5%. RBI final directions (Apr 2026): effective 1 Apr 2027", num="pct2")
+    reg.scalar("ecl_gross", "Day-one top-up on FY27E advances", f"={reg.a('ecl_top')}*{md.x('loans', 'L')}", "INR cr", "", num="cr", kind="calc")
+    reg.scalar("ecl_buffer", "Floating and contingent provisions already held", 36800, "INR cr", "S1 Q2 FY27 deck p20: floating 214 bn + contingent 154 bn (Sep-26)", num="cr")
+    reg.scalar("ecl_net", "Net day-one hit if the buffer can be applied", f"=MAX(0,{reg.a('ecl_gross')}-{reg.a('ecl_buffer')})", "INR cr",
+               "Whether floating provisions count under ECL is not settled here: the gross line is the downside", num="cr", kind="calc")
+    reg.scalar("ecl_cet1", "CET1 effect of the gross top-up", f"=-{reg.a('ecl_gross')}*(1-{inp.x('tax', 'L')})/{cap.x('rwa', 'L')}", "pp",
+               "After tax, on FY27E RWA (Capital tab)", num="pct2", kind="calc")
+    reg.scalar("ecl_cc", "Recurring credit-cost add under ECL", 0.0005, "% advances", "Assumption: earlier recognition of stage 2 losses; range 0-0.15%", num="pct2")
+    reg.scalar("ecl_bp", "FY29E RoA effect, recurring ECL", f"=-{reg.a('ecl_cc')}*{md.x('a_loans', 'N')}*(1-{inp.x('tax', 'N')})/{md.x('a_ta', 'N')}*{inp.x('bp')}", "bp", "", num="bp", kind="calc")
+    reg.section("Cash reserve ratio (CRR)")
+    reg.scalar("crr_26", "Average CRR, FY26", 0.0356, "% NDTL", "4.00% to 6 Sep 2025, then 25 bp cuts on 6 Sep, 4 Oct, 1 Nov and 29 Nov 2025 (RBI)", num="pct2")
+    reg.scalar("crr_now", "CRR from 29 November 2025", 0.0300, "% NDTL", "RBI: 3.00% of NDTL", num="pct2")
+    reg.scalar("crr_bp", "FY29E RoA effect, freed reserves earning the liquidity yield", f"=({reg.a('crr_26')}-{reg.a('crr_now')})*{md.x('a_dep', 'N')}*{md.x('y_liq', 'N')}*(1-{inp.x('tax', 'N')})/{md.x('a_ta', 'N')}*{inp.x('bp')}",
+               "bp", "Deposits as the NDTL proxy; the FY26 base only carries part of the cut", num="bp", kind="calc")
+    reg.section("Liquidity coverage ratio (LCR), from 1 April 2026")
+    reg.scalar("lcr_now", "Average LCR, Q2 FY27", 1.13, "%", "S1 Q2 FY27 deck p6", num="pct1")
+    reg.scalar("lcr_min", "Regulatory minimum", 1.00, "%", "RBI", num="pct1")
+    reg.scalar("lcr_head", "Headroom", f"={reg.a('lcr_now')}-{reg.a('lcr_min')}", "pp", "", num="pct1", kind="calc")
+    reg.scalar("lcr_bp", "FY29E RoA effect", 0, "bp",
+               "RBI (21 Apr 2025): +2.5% run-off on digital retail deposits, but the package lifts system LCR by about 6 pp net; no drag assumed", num="bp")
+    reg.section("Priority sector lending (PSL)")
+    reg.note("FY26 PSLC trades: bought 76,281 cr (small and marginal farmers), sold 2,00,004 cr (IR26 pp435-436). The fees sit in FY26 other income,")
+    reg.note("so they are already in the base; trading fees are not disclosed. No change assumed.")
+    reg.scalar("psl_bp", "FY29E RoA effect", 0, "bp", "Already in the FY26 base", num="bp")
+    reg.section("Net regulatory overlay")
+    reg.scalar("reg_bp", "FY29E RoA effect of the rule changes", f"={reg.a('ecl_bp')}+{reg.a('crr_bp')}+{reg.a('lcr_bp')}+{reg.a('psl_bp')}", "bp",
+               "Plus the IRDAI caps and UPI MDR, which are in the scenario path (Fees tab)", num="bp", kind="calc")
+    reg.scalar("reg_roa", "RoA FY29E with levers, after the overlay", f"={lev.x('b4')}+{reg.a('reg_bp')}", "bp", "Levers tab", num="bp", kind="calc")
+
     # ================================================================ Sensitivities
     sen.section("Value per share (sum of the parts): cost of equity (rows) x long-term growth (columns)")
     kes = [0.115, 0.12, 0.125, 0.13, 0.135, 0.14, 0.145]; gs = [0.07, 0.075, 0.08, 0.085, 0.09]
@@ -901,7 +934,7 @@ def build():
            ("Margin", "NII volume/rate walk, spreads, legacy borrowing run-off"), ("ALM", "Repricing gap and earnings at risk"),
            ("Fees", "IRDAI caps (bank and HDFC Life) and UPI MDR"), ("Opex_Credit", "Cost-to-serve and credit normalisation"),
            ("Capital", "Tier 1 proxy and growth capacity"), ("Levers", "Six value levers and the FY29E RoA bridge"),
-           ("Valuation", "Justified P/B, sum of the parts, residual income"), ("Sensitivities", "Value per share grids"), ("Tornado", "FY29E RoA sensitivity by driver"),
+           ("Valuation", "Justified P/B, sum of the parts, residual income"), ("Regulation", "ECL, CRR, LCR and PSL overlay"), ("Sensitivities", "Value per share grids"), ("Tornado", "FY29E RoA sensitivity by driver"),
            ("Peers", "Twelve-bank P/B vs RoE"), ("Checks", "Integrity tests and master flag"), ("Sources", "Source register")]
     for n_, d_ in toc:
         cv.write_url(cover.r, 1, f"internal:'{n_}'!A1", string=n_, cell_format=B.f(color=BLACK))

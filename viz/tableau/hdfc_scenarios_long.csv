@@ -1078,6 +1078,22 @@ Base,Peers,Yes Bank,I,48277.0
 Base,Peers,Yes Bank,J,0.945458462261564
 Base,Peers,Yes Bank,K,0.0
 Base,Peers,Yes Bank,L,51062.0
+Base,Regulation,"Average CRR, FY26",E,0.0356
+Base,Regulation,"Average LCR, Q2 FY27",E,1.13
+Base,Regulation,CET1 effect of the gross top-up,E,-0.00711183202355337
+Base,Regulation,CRR from 29 November 2025,E,0.03
+Base,Regulation,Day-one ECL top-up,E,0.01
+Base,Regulation,Day-one top-up on FY27E advances,E,33189.978851
+Base,Regulation,FY29E RoA effect,E,0.0
+Base,Regulation,FY29E RoA effect of the rule changes,E,-1.00963778168026
+Base,Regulation,"FY29E RoA effect, freed reserves earning the liquidity yield",E,1.64142747955354
+Base,Regulation,"FY29E RoA effect, recurring ECL",E,-2.6510652612338
+Base,Regulation,Floating and contingent provisions already held,E,36800.0
+Base,Regulation,Headroom,E,0.13
+Base,Regulation,Net day-one hit if the buffer can be applied,E,0.0
+Base,Regulation,Recurring credit-cost add under ECL,E,0.0005
+Base,Regulation,Regulatory minimum,E,1.0
+Base,Regulation,"RoA FY29E with levers, after the overlay",E,202.417830096287
 Base,Tornado,Advances growth,C,0.12
 Base,Tornado,Advances growth,D,0.16
 Base,Tornado,Advances growth,E,0.0181175137982508
@@ -2312,6 +2328,22 @@ Downside,Peers,Yes Bank,I,48277.0
 Downside,Peers,Yes Bank,J,0.945458462261564
 Downside,Peers,Yes Bank,K,0.0
 Downside,Peers,Yes Bank,L,51062.0
+Downside,Regulation,"Average CRR, FY26",E,0.0356
+Downside,Regulation,"Average LCR, Q2 FY27",E,1.13
+Downside,Regulation,CET1 effect of the gross top-up,E,-0.00706209621546414
+Downside,Regulation,CRR from 29 November 2025,E,0.03
+Downside,Regulation,Day-one ECL top-up,E,0.01
+Downside,Regulation,Day-one top-up on FY27E advances,E,32602.545597
+Downside,Regulation,FY29E RoA effect,E,0.0
+Downside,Regulation,FY29E RoA effect of the rule changes,E,-1.08718828916314
+Downside,Regulation,"FY29E RoA effect, freed reserves earning the liquidity yield",E,1.52145015648362
+Downside,Regulation,"FY29E RoA effect, recurring ECL",E,-2.60863844564676
+Downside,Regulation,Floating and contingent provisions already held,E,36800.0
+Downside,Regulation,Headroom,E,0.13
+Downside,Regulation,Net day-one hit if the buffer can be applied,E,0.0
+Downside,Regulation,Recurring credit-cost add under ECL,E,0.0005
+Downside,Regulation,Regulatory minimum,E,1.0
+Downside,Regulation,"RoA FY29E with levers, after the overlay",E,144.183830651271
 Downside,Tornado,Advances growth,C,0.12
 Downside,Tornado,Advances growth,D,0.16
 Downside,Tornado,Advances growth,E,0.0181175137982508
@@ -3546,6 +3578,22 @@ Upside,Peers,Yes Bank,I,48277.0
 Upside,Peers,Yes Bank,J,0.945458462261564
 Upside,Peers,Yes Bank,K,0.0
 Upside,Peers,Yes Bank,L,51062.0
+Upside,Regulation,"Average CRR, FY26",E,0.0356
+Upside,Regulation,"Average LCR, Q2 FY27",E,1.13
+Upside,Regulation,CET1 effect of the gross top-up,E,-0.00718625771877793
+Upside,Regulation,CRR from 29 November 2025,E,0.03
+Upside,Regulation,Day-one ECL top-up,E,0.01
+Upside,Regulation,Day-one top-up on FY27E advances,E,33777.412105
+Upside,Regulation,FY29E RoA effect,E,0.0
+Upside,Regulation,FY29E RoA effect of the rule changes,E,-0.957106855585212
+Upside,Regulation,"FY29E RoA effect, freed reserves earning the liquidity yield",E,1.72434671918042
+Upside,Regulation,"FY29E RoA effect, recurring ECL",E,-2.68145357476563
+Upside,Regulation,Floating and contingent provisions already held,E,36800.0
+Upside,Regulation,Headroom,E,0.13
+Upside,Regulation,Net day-one hit if the buffer can be applied,E,0.0
+Upside,Regulation,Recurring credit-cost add under ECL,E,0.0005
+Upside,Regulation,Regulatory minimum,E,1.0
+Upside,Regulation,"RoA FY29E with levers, after the overlay",E,239.393090931172
 Upside,Tornado,Advances growth,C,0.12
 Upside,Tornado,Advances growth,D,0.16
 Upside,Tornado,Advances growth,E,0.0181175137982508

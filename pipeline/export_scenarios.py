@@ -11,7 +11,7 @@ import openpyxl
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "models/HDFC_RoA_Path_FY29.xlsx"
-SHEETS = ["Model", "Levers", "Tornado", "Valuation", "Fees", "ALM", "Opex_Credit", "Peers", "Margin", "Capital", "Checks"]
+SHEETS = ["Model", "Levers", "Tornado", "Valuation", "Regulation", "Fees", "ALM", "Opex_Credit", "Peers", "Margin", "Capital", "Checks"]
 
 
 def main():

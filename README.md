@@ -43,6 +43,13 @@ The share price was ₹700 on 2 Nov 2026.
    - The IRDAI caps cost the bank ₹873 cr of fees by FY29E (1.3% of other income).
    - UPI MDR adds ₹564 cr.
    - HDFC Life's value of new business rises by a net ₹279 cr, but only if the bank keeps distributing.
+   - RBI rule changes (Regulation tab) net −1.0 bp of FY29E RoA:
+     - expected-credit-loss provisioning from April 2027 costs 2.7 bp a year;
+     - the CRR cut to 3% adds 1.6 bp;
+     - the digital-deposit LCR run-off is offset by the rest of RBI's package;
+     - PSL costs are already in the base.
+
+     The real exposure is the ECL day-one top-up, about ₹33k cr (0.7 points of CET1). The bank already holds ₹37k cr of floating and contingent provisions against it.
 4. **Six levers add 14.0 bp and about ₹1.2 lakh cr of equity value (₹0.8 lakh cr weighted by feasibility).** That leaves 3 bp of headroom over 2%. The levers:
    - branch and operations productivity (3.8 bp);
    - rebuild CASA (3.4 bp);

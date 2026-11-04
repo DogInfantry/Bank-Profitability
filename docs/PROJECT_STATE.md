@@ -196,7 +196,15 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - CASA path tested against the share delivered.
      - Joint vs sum and phasing are documented rather than modelled: the levers are linear in FY29E, and all land by mid-2028.
      - Not done: cost to achieve, because there is no public basis for it; the feasibility weight stands in.
-   - **5. Regulatory overlay:** ECL (1 Apr 2027) day-one CET1 hit plus a credit-cost add, LCR digital run-off, CRR, PSL/RIDF. Reword "regulation barely registers" (Exhibit 11).
+   - **5. Regulatory overlay: DONE (4 Nov 2026).** New Regulation tab (an overlay, not in the scenario path):
+     - **Net effect −1.0 bp of FY29E RoA:**
+       - ECL recurring −2.7 bp;
+       - CRR +1.6 bp;
+       - LCR 0 (RBI: the package is about +6 pp net; headroom 13 pp);
+       - PSL 0 (already in the base).
+     - **ECL day one:** a ₹33.2k cr top-up = 0.71 pp CET1 gross, covered by ₹36.8k cr of floating and contingent provisions if they can be applied.
+     - **Exhibit 11:** retitled, plus a bound paragraph.
+     - **Not sourced:** the ECL transition relief (Reuters is paywalled; not claimed) and PSLC trading fees (not disclosed).
    - **6. "What would change our answer":** break-evens (repo, marginal cost of deposits, credit cost, Ke); a 2D reverse-stress grid; pre-registered Q3 FY27 predictions before the mid-Jan 2027 results; say-do beyond NIM, rendered on the site.
    - **7. One-page trading comps** (core P/B, P/E, RoA, RoE, CASA, CD ratio, CET1, growth) plus merger precedents (ICICI 2002, IDFC First).
    - **8. CEO "so what" page:**
@@ -222,6 +230,10 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 5 (regulatory overlay):**
+  - New Regulation sheet: ECL, CRR, LCR and PSL blocks, each with the FY29E RoA effect and the net overlay. It is also in the export and the Cover table of contents.
+  - Story gains a `regulation` dict. Chapter 07 is reworded, and its "recalculated N times" figure is now bound.
+  - Headline RoA with levers after the overlay: 2.02% Base.
 - **4 Nov 2026, roadmap step 4 (defensible levers):**
   - Levers tab gains:
     - re-mix risk inputs (yield gap 4.0 pp, credit-cost gap 2.0 pp, risk-weight gap 0.75; all labelled assumptions);

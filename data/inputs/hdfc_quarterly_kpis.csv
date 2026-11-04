@@ -1,0 +1,210 @@
+bank,period,metric,value,unit,source_file,page,note
+HDFCBANK,Q3FY23,borrowings,2108.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,restated in Q3FY24 deck
+HDFCBANK,Q3FY23,casa_ratio,44.0,%,HDFCBANK_Q3FY24_ppt.pdf,14,restated in Q3FY24 deck
+HDFCBANK,Q3FY23,deposits,17332.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,restated in Q3FY24 deck
+HDFCBANK,Q3FY23,equity,2676.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,restated in Q3FY24 deck
+HDFCBANK,Q3FY23,net_advances,15068.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,restated in Q3FY24 deck
+HDFCBANK,Q3FY23,total_assets,22953.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,restated in Q3FY24 deck
+HDFCBANK,Q4FY23,borrowings,2068.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,borrowings_share_liab,8.0,%,HDFCBANK_Q4FY24_ppt.pdf,14,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,casa_ratio,44.0,%,HDFCBANK_Q4FY24_ppt.pdf,14,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,deposits,18834.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,equity,2802.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,net_advances,16006.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,restated in Q4FY24 deck
+HDFCBANK,Q4FY23,total_assets,24661.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,restated in Q4FY24 deck
+HDFCBANK,Q1FY24,borrowings_share_liab,8.0,%,HDFCBANK_Q2FY25_ppt.pdf,15,restated in Q2FY25 deck
+HDFCBANK,Q1FY24,casa_ratio,42.0,%,HDFCBANK_Q2FY25_ppt.pdf,15,restated in Q2FY25 deck
+HDFCBANK,Q2FY24,borrowings,7168.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,restated in Q2FY25 deck
+HDFCBANK,Q2FY24,borrowings_share_liab,21.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,casa_ratio,38.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,cet1,17.3,%,HDFCBANK_Q2FY24_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY24,deposits,21729.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,restated in Q2FY25 deck
+HDFCBANK,Q2FY24,equity,4050.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,restated in Q2FY25 deck
+HDFCBANK,Q2FY24,mix_mortgage,29.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,mix_retail,53.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,mix_smm,17.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,mix_wholesale,30.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q2FY24,net_advances,23312.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,restated in Q2FY25 deck
+HDFCBANK,Q2FY24,total_assets,34163.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,restated in Q2FY25 deck
+HDFCBANK,Q3FY24,borrowings,7377.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY24,borrowings_share_liab,21.0,%,HDFCBANK_Q4FY25_ppt.pdf,15,restated in Q4FY25 deck
+HDFCBANK,Q3FY24,casa_ratio,38.0,%,HDFCBANK_Q3FY24_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY24,cet1,16.3,%,HDFCBANK_Q3FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY24,deposits,22140.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY24,equity,4223.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY24,gnpa,1.26,%,HDFCBANK_Q3FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY24,net_advances,24461.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY24,nim,3.4,%,HDFCBANK_Q3FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY24,roa,2.0,%,HDFCBANK_Q3FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY24,total_assets,34926.0,INR bn,HDFCBANK_Q3FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY24,borrowings,6622.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY24,borrowings_share_liab,18.0,%,HDFCBANK_Q4FY24_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY24,casa_ratio,38.0,%,HDFCBANK_Q4FY24_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY24,cet1,16.3,%,HDFCBANK_Q4FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY24,deposits,23798.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY24,equity,4403.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY24,gnpa,1.24,%,HDFCBANK_Q4FY24_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q4FY24,mix_mortgage,30.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY24,mix_retail,54.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY24,mix_smm,18.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY24,mix_wholesale,28.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY24,net_advances,24849.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY24,nim,3.4,%,HDFCBANK_Q4FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY24,roa,2.0,%,HDFCBANK_Q4FY24_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY24,total_assets,36177.0,INR bn,HDFCBANK_Q4FY24_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY25,borrowings,5993.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,borrowings_share_liab,17.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,casa_ratio,36.0,%,HDFCBANK_Q4FY25_ppt.pdf,15,restated in Q4FY25 deck
+HDFCBANK,Q1FY25,deposits,23791.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,equity,4587.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,mix_mortgage,31.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,mix_retail,55.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,mix_smm,18.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,mix_wholesale,27.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,net_advances,24635.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,restated in Q1FY26 deck
+HDFCBANK,Q1FY25,total_assets,35671.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,restated in Q1FY26 deck
+HDFCBANK,Q2FY25,borrowings,5856.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q2FY25,borrowings_share_liab,16.0,%,HDFCBANK_Q2FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY25,casa_ratio,35.0,%,HDFCBANK_Q2FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY25,cet1,17.3,%,HDFCBANK_Q2FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY25,deposits,25001.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q2FY25,equity,4635.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q2FY25,gnpa,1.36,%,HDFCBANK_Q2FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY25,gnpa_ex_agri,1.19,%,HDFCBANK_Q2FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY25,mix_mortgage,30.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,restated in Q2FY26 deck
+HDFCBANK,Q2FY25,mix_retail,55.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,restated in Q2FY26 deck
+HDFCBANK,Q2FY25,mix_smm,19.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,restated in Q2FY26 deck
+HDFCBANK,Q2FY25,mix_wholesale,26.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,restated in Q2FY26 deck
+HDFCBANK,Q2FY25,net_advances,24951.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q2FY25,nim,3.46,%,HDFCBANK_Q2FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY25,roa,1.9,%,HDFCBANK_Q2FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY25,total_assets,36881.0,INR bn,HDFCBANK_Q2FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY25,borrowings,5702.0,INR bn,HDFCBANK_Q3FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY25,borrowings_share_liab,15.0,%,HDFCBANK_Q3FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q3FY25,casa_ratio,34.0,%,HDFCBANK_Q3FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q3FY25,cet1,17.5,%,HDFCBANK_Q3FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY25,deposits,25638.0,INR bn,HDFCBANK_Q3FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY25,equity,4831.0,INR bn,HDFCBANK_Q3FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY25,gnpa,1.42,%,HDFCBANK_Q3FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q3FY25,gnpa_ex_agri,1.19,%,HDFCBANK_Q3FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q3FY25,mix_mortgage,30.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,restated in Q3FY26 deck
+HDFCBANK,Q3FY25,mix_retail,55.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,restated in Q3FY26 deck
+HDFCBANK,Q3FY25,mix_smm,19.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,restated in Q3FY26 deck
+HDFCBANK,Q3FY25,mix_wholesale,26.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,restated in Q3FY26 deck
+HDFCBANK,Q3FY25,net_advances,25182.0,INR bn,HDFCBANK_Q3FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q3FY25,nim,3.43,%,HDFCBANK_Q3FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY25,roa,1.9,%,HDFCBANK_Q3FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY25,total_assets,37590.0,INR bn,HDFCBANK_Q3FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY25,borrowings,5479.0,INR bn,HDFCBANK_Q4FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY25,borrowings_share_liab,14.0,%,HDFCBANK_Q4FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q4FY25,casa_ratio,35.0,%,HDFCBANK_Q4FY25_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q4FY25,cet1,17.2,%,HDFCBANK_Q4FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY25,deposits,27147.0,INR bn,HDFCBANK_Q4FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY25,equity,5015.0,INR bn,HDFCBANK_Q4FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY25,gnpa,1.33,%,HDFCBANK_Q4FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q4FY25,gnpa_ex_agri,1.13,%,HDFCBANK_Q4FY25_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q4FY25,mix_mortgage,30.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY25,mix_retail,55.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY25,mix_smm,19.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY25,mix_wholesale,26.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q4FY25,net_advances,26196.0,INR bn,HDFCBANK_Q4FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q4FY25,nim,3.46,%,HDFCBANK_Q4FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY25,roa,1.9,%,HDFCBANK_Q4FY25_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY25,total_assets,39102.0,INR bn,HDFCBANK_Q4FY25_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY26,borrowings,5101.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY26,borrowings_share_liab,13.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q1FY26,casa_ratio,34.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,restated in Q3FY26 deck
+HDFCBANK,Q1FY26,cet1,17.4,%,HDFCBANK_Q1FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY26,deposits,27641.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY26,equity,5226.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY26,gnpa,1.4,%,HDFCBANK_Q1FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q1FY26,gnpa_ex_agri,1.14,%,HDFCBANK_Q1FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q1FY26,mix_mortgage,30.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q1FY26,mix_retail,55.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q1FY26,mix_smm,20.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q1FY26,mix_wholesale,25.0,%,HDFCBANK_Q1FY26_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q1FY26,net_advances,26284.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q1FY26,nim,3.35,%,HDFCBANK_Q1FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY26,roa,1.9,%,HDFCBANK_Q1FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY26,total_assets,39541.0,INR bn,HDFCBANK_Q1FY26_ppt.pdf,6,own-quarter deck
+HDFCBANK,Q2FY26,borrowings,5096.0,INR bn,HDFCBANK_Q2FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY26,borrowings_share_liab,13.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,casa_ratio,34.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,cet1,17.5,%,HDFCBANK_Q2FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY26,deposits,28018.0,INR bn,HDFCBANK_Q2FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY26,equity,5224.0,INR bn,HDFCBANK_Q2FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY26,gnpa,1.24,%,HDFCBANK_Q2FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY26,gnpa_ex_agri,0.99,%,HDFCBANK_Q2FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY26,mix_mortgage,30.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,mix_retail,54.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,mix_smm,20.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,mix_wholesale,26.0,%,HDFCBANK_Q2FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q2FY26,net_advances,27464.0,INR bn,HDFCBANK_Q2FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY26,nim,3.27,%,HDFCBANK_Q2FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY26,roa,1.9,%,HDFCBANK_Q2FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY26,total_assets,40030.0,INR bn,HDFCBANK_Q2FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q3FY26,borrowings,5211.0,INR bn,HDFCBANK_Q3FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q3FY26,borrowings_share_liab,13.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,casa_ratio,34.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,cet1,17.4,%,HDFCBANK_Q3FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY26,deposits,28601.0,INR bn,HDFCBANK_Q3FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q3FY26,equity,5424.0,INR bn,HDFCBANK_Q3FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q3FY26,gnpa,1.24,%,HDFCBANK_Q3FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q3FY26,gnpa_ex_agri,0.97,%,HDFCBANK_Q3FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q3FY26,mix_mortgage,30.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,mix_retail,53.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,mix_smm,20.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,mix_wholesale,27.0,%,HDFCBANK_Q3FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q3FY26,net_advances,28214.0,INR bn,HDFCBANK_Q3FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q3FY26,nim,3.35,%,HDFCBANK_Q3FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY26,roa,1.9,%,HDFCBANK_Q3FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q3FY26,total_assets,40889.0,INR bn,HDFCBANK_Q3FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q4FY26,borrowings,4894.0,INR bn,HDFCBANK_Q4FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q4FY26,borrowings_share_liab,11.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,casa_ratio,34.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,cet1,17.3,%,HDFCBANK_Q4FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY26,deposits,31053.0,INR bn,HDFCBANK_Q4FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q4FY26,equity,5629.0,INR bn,HDFCBANK_Q4FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q4FY26,gnpa,1.15,%,HDFCBANK_Q4FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q4FY26,gnpa_ex_agri,0.91,%,HDFCBANK_Q4FY26_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q4FY26,mix_mortgage,29.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,mix_retail,53.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,mix_smm,21.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,mix_wholesale,26.0,%,HDFCBANK_Q4FY26_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q4FY26,net_advances,29372.0,INR bn,HDFCBANK_Q4FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q4FY26,nim,3.38,%,HDFCBANK_Q4FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY26,roa,1.96,%,HDFCBANK_Q4FY26_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q4FY26,total_assets,43649.0,INR bn,HDFCBANK_Q4FY26_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q1FY27,borrowings,4618.0,INR bn,HDFCBANK_Q1FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q1FY27,borrowings_share_liab,11.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,restated in Q2FY27 deck
+HDFCBANK,Q1FY27,casa_ratio,32.0,%,HDFCBANK_Q1FY27_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q1FY27,cet1,17.4,%,HDFCBANK_Q1FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY27,deposits,31708.0,INR bn,HDFCBANK_Q1FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q1FY27,equity,5831.0,INR bn,HDFCBANK_Q1FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q1FY27,gnpa,1.17,%,HDFCBANK_Q1FY27_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q1FY27,gnpa_ex_agri,0.91,%,HDFCBANK_Q1FY27_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q1FY27,mix_mortgage,29.0,%,HDFCBANK_Q1FY27_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q1FY27,mix_retail,52.0,%,HDFCBANK_Q1FY27_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q1FY27,mix_smm,21.0,%,HDFCBANK_Q1FY27_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q1FY27,mix_wholesale,27.0,%,HDFCBANK_Q1FY27_ppt.pdf,14,own-quarter deck
+HDFCBANK,Q1FY27,net_advances,30373.0,INR bn,HDFCBANK_Q1FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q1FY27,nim,3.26,%,HDFCBANK_Q1FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY27,roa,1.85,%,HDFCBANK_Q1FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q1FY27,total_assets,43975.0,INR bn,HDFCBANK_Q1FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY27,borrowings,4890.0,INR bn,HDFCBANK_Q2FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY27,borrowings_share_liab,11.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,casa_ratio,32.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,cet1,17.1,%,HDFCBANK_Q2FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY27,deposits,33274.0,INR bn,HDFCBANK_Q2FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY27,equity,5843.0,INR bn,HDFCBANK_Q2FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY27,gnpa,1.11,%,HDFCBANK_Q2FY27_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY27,gnpa_ex_agri,0.87,%,HDFCBANK_Q2FY27_ppt.pdf,2,own-quarter deck
+HDFCBANK,Q2FY27,mix_mortgage,28.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,mix_retail,53.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,mix_smm,21.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,mix_wholesale,26.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,own-quarter deck
+HDFCBANK,Q2FY27,net_advances,31956.0,INR bn,HDFCBANK_Q2FY27_ppt.pdf,5,own-quarter deck
+HDFCBANK,Q2FY27,nim,3.16,%,HDFCBANK_Q2FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY27,nim_iea,3.32,%,HDFCBANK_Q2FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY27,roa,1.78,%,HDFCBANK_Q2FY27_ppt.pdf,3,own-quarter deck
+HDFCBANK,Q2FY27,total_assets,45778.0,INR bn,HDFCBANK_Q2FY27_ppt.pdf,5,own-quarter deck

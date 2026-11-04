@@ -5,6 +5,7 @@ Every raw file is hashed in `data/raw/manifest.csv` (url, sha256, bytes, fetch t
 | Source | What | How obtained | Status |
 |---|---|---|---|
 | Bank investor presentations / press releases (SBI, HDFC, ICICI, Axis, Kotak) Q4 FY26, Q2 FY27 | P&L, NIM, GNPA, RoA, C/I | `fetch.py`, `fetch_docs.py` (links harvested from Screener's Concalls block, BSE AttachHis fallback) | primary |
+| HDFC Bank investor presentations, Q2 FY24 to Q2 FY27 (12 decks; Q1 FY25 is not on hdfc.bank.in, filled from later decks' restated columns) | Quarterly panel: balance sheet, NIM, yields and cost of funds, CASA, advances mix (FY26 new format only), GNPA bridge, credit cost, provisions, PCR, CRAR/Tier 1/CET1, LCR, NSFR | `fetch_docs.py --symbols HDFCBANK --kinds PPT` (moved links in `data/inputs/ir_url_overrides.csv`); text by `extract_hdfc_quarterly.py` → `data/inputs/hdfc_quarterly_kpis.csv`; chart labels read by eye → `data/inputs/hdfc_quarterly_chart_reads.csv`; panel `data/tidy/hdfc_quarterly_panel.csv` (`hdfc_quarterly.py`). Every row cites deck and page | primary |
 | Screener.in standalone pages | 10-yr P&L / balance sheet, quarterlies, concall links | `screener.py` (3 s throttle, cached) | secondary, tied to filings |
 | NSE XBRL Integrated Filing (Banking) via FactIQ | HDFC Q2 FY27 parent PPOP | FactIQ MCP | primary |
 | FactIQ earnings-call claim graph | Management margin guidance (quote-anchored) | FactIQ MCP | primary transcripts, structured by FactIQ |

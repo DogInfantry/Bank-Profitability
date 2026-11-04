@@ -18,6 +18,8 @@ data:
 	$(PY) pipeline/fetch.py
 	$(PY) pipeline/screener.py
 	$(PY) pipeline/fetch_docs.py
+	$(PY) pipeline/fetch_docs.py --since 2023-10 --symbols HDFCBANK --kinds PPT --ppt-quarters Q2FY24,Q3FY24,Q4FY24,Q1FY25,Q2FY25,Q3FY25,Q4FY25,Q1FY26,Q2FY26,Q3FY26,Q4FY26,Q1FY27,Q2FY27
+	$(PY) pipeline/extract_hdfc_quarterly.py
 
 sector:
 	$(PY) pipeline/build_bank_facts.py
@@ -38,6 +40,7 @@ model:
 	$(PY) pipeline/export_scenarios.py
 
 outputs:
+	$(PY) pipeline/hdfc_quarterly.py
 	$(PY) pipeline/call_topics.py
 	$(PY) pipeline/warehouse.py
 	$(PY) pipeline/run_sql.py

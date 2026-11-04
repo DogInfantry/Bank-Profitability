@@ -146,12 +146,25 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 
 ## 6. Open items (pick up here)
 1. **Roadmap from the 4 Nov 2026 gap audit** (7-agent review, 6 dimensions plus a case-jury critic). Step 1 is done; do the rest in order, pausing for review after each:
-   - **2. Quarterly primary-source pull:** investor decks Q2 FY24-Q2 FY27, Pillar 3 Sep-26 and IR26 notes, built into a tidy quarterly panel with page cites. Adds:
-     - GNPA migration bridge;
-     - segment loan mix and segment P&L;
-     - CET1/RWA and LCR/NSFR;
+   - **2. Quarterly primary-source pull: deck panel DONE (4 Nov 2026).** Output `data/tidy/hdfc_quarterly_panel.csv`, Q2 FY24-Q2 FY27, every value cited to deck and page:
+     - balance sheet; NIM; yield and cost of funds; CASA; new-format advances mix;
+     - GNPA bridge (ties exactly every quarter); credit cost (gross, net, INR); provisions and specific PCR;
+     - CRAR, Tier 1, CET1; LCR; NSFR.
+     - Readings so far:
+       - borrowings fell from 25% to 13% of funding;
+       - the CD ratio fell from 110% to 96%;
+       - cost of funds fell from 4.9% to 4.4%;
+       - NIM still fell, from 3.46% (Q2 FY25) to 3.16%, because asset yields fell faster (8.4% to 7.6%);
+       - CASA slid from 38% to 32%;
+       - LCR fell from a 128% peak to 113%.
+
+     Still open in step 2:
+     - IR26 notes: segment reporting, Sch 4 borrowing composition, PSL/RIDF;
+     - Pillar 3 RWA by risk type (CET1 and LCR are already in the decks);
      - deposit and credit market share (RBI DBIE or data.gov.in, local run);
      - merger-synergy tracking.
+
+     Not yet used by the model or site; steps 3-6 consume it.
    - **3. Marginal funding cost:** a fresh TD rate (RBI WADTDR), incremental CASA share, and CRR/DICGC carry in the cost of deposits. Each 10 bp ≈ 5.7 bp of FY29E RoA.
    - **4. Defensible levers:**
      - risk-adjusted re-mix (credit cost, 125% unsecured risk weight, RWA responds to mix);
@@ -184,6 +197,11 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 2 (deck panel):**
+  - Downloaded 12 HDFC decks; the old hdfcbank.com links had moved to hdfc.bank.in.
+  - `fetch_docs.py` gained `--symbols`/`--kinds` filters, creates `data/raw/ir/`, and reads `data/inputs/ir_url_overrides.csv`.
+  - New `extract_hdfc_quarterly.py` (header-aware text extract, local only) and `hdfc_quarterly.py` (tidy panel, in CI), with 8 tests in `tests/test_quarterly_panel.py`.
+  - Gotcha: from FY26 the bank reclassified the advances mix (Mar-25 retail 50% old basis vs 55% new), so only new-format tables feed the mix.
 - **4 Nov 2026, local resume and roadmap step 1:**
   - Moved from the cloud session to a local clone (nothing lost; resumed at `c38ab6d`).
   - Commit identity changed to `DogInfantry <ankleshrawat5@gmail.com>`; still no AI attribution.

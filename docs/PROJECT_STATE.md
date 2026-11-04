@@ -1,6 +1,6 @@
 # Project state: HDFC Bank, the path back to 2% RoA
 
-Last updated: **4 Nov 2026**, after roadmap step 8 (CEO chapter and memo rebuild; roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
+Last updated: **4 Nov 2026**, after roadmap step 9 (packaging; roadmap in section 6). All nine roadmap steps are done. Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
 
 Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions and what is open.
 
@@ -250,23 +250,24 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - Three decisions: loan growth vs CD ratio (3.8 bp per point of growth; break-even 13.4%), term-deposit premium vs CASA build (18 bp premium erases the headroom; 8.2 bp at risk at the recent CASA pace), capital return vs ECL buffer (₹1.09 lakh cr, +1.9 pts RoE, −₹36k cr value, 0.71 pts CET1 day-one ECL).
      - Variant view: management's only sourced claim is the CFO's NIM call (Q2 FY27); RoE, RoA and Ke are not guided.
      - CEO memo rebuilt from the export (hand-typed figures removed); still two pages.
-   - **9. Packaging:**
-     - README order;
-     - OG image and screenshot;
-     - bind hand-typed site numbers to story.json;
-     - clickable sources;
-     - source confidence column;
-     - evidence-to-decision table.
+   - **9. Packaging: DONE (4 Nov 2026).**
+     - README opens with the site, memo and model, in that order; the steerco deck is marked on hold and stale; stale figures fixed (tornado repo 16 bp, 26 recalculations, 36 pytest).
+     - Share image `site/public/og.png` (1200x630) and README screenshot `docs/img/site.png`, both from `site/scripts/shots.cjs` (local only; needs Playwright; re-run after a model change because the masthead numbers are bound). OG and Twitter meta in `site/index.html`.
+     - Bound to the export: ChPlan action amounts and the five KPI tiles; ChMoves lever descriptions and the Exhibit 10 "28-49%" range.
+     - Borrowings / funding tile now shows FY29E **with the moves** (5.6%; the old hand-typed 7.2% was Base without lever 2). The formula reproduces Base 7.21% exactly.
+     - Stale figure fixed: retiring ₹1 lakh cr saves about ₹1,900 cr a year before tax (cost of borrowings less the fresh TD rate), not ₹3,000 cr (the pre-step-3 average-deposit-cost basis).
+     - Source register (Appendix B): each source links to its document (URLs from `data/raw/manifest.csv` or the export) with a confidence rating and reason. Stale caveat fixed (values are rolled forward to the price date since step 1).
+     - Chapter 09: "From evidence to decision" table (decision, evidence, exhibits, the Q3 FY27 reading that reopens the call), bound to story.json.
+     - 390 px fixes: Ladder and BetaScatter right margins; the Tornado's "Premium over the system fresh rate" label (clipped since step 3) gets a short name. Headless QA at 1440, 1024 and 390 px: no overhang, no horizontal scroll, no console errors.
    - **Skipped on purpose:** full ECL stage model, Monte Carlo, sentiment analysis, macro transmission, profit pool, backtest, bigger workbench, sell-side deliverables, DDM, peer P/B regression, new front-end libraries.
    - **Thesis decision closed (4 Nov 2026):** chapter 06 retitled with the Ke caveat (see step 8).
 2. **Steerco deck refresh**, only when the user takes it off hold: add the tornado, RoA walk, peer anchors and beta. Deck numbers are now stale (pre-roll-forward).
-3. **Minor site polish:** at 390 px, two pre-existing SVG labels overhang the gutter by about 4 px:
-   - "₹1.93 lakh cr" in `charts/Ladder.svelte`;
-   - "same year 0.37" in `charts/BetaScatter.svelte`.
+3. **Minor site polish:** done in step 9.
 4. **Optional:** a custom domain for the site (user action in Vercel).
-5. **Optional:** README screenshots or a GIF of the site.
+5. **Done in step 9:** README screenshot (a GIF is still optional).
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 9 (packaging):** README reorder and stale-figure fixes; OG image and screenshot; ChPlan and ChMoves numbers bound to the export (two stale figures found: borrowings tile basis and the ₹1 lakh cr saving); clickable source register with confidence; evidence-to-decision table in chapter 09; 390 px label fixes (Ladder, BetaScatter, Tornado); release note v3.1. Headline model values unchanged.
 - **4 Nov 2026, roadmap step 8 (CEO chapter and memo):**
   - Levers tab: "Is 2% the right target?" block (six rows); export and story gain `target_test` and `mgmt_nim`.
   - Site: chapter 09 `ChSoWhat.svelte` with `TargetScale.svelte` and `KpiTree.svelte` (Exhibits 18-20); nav entry; v3.0 release note; chapter 06 retitled.

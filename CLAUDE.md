@@ -75,8 +75,8 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 | `docs/PROJECT_STATE.md` | State, numbers, roadmap and session log (update every session) |
 | `docs/methodology.md`, `docs/data_sources.md`, `docs/model_audit.md` | Method, source register, audit findings |
 
-## Current state (4 Nov 2026, HEAD `6772dc6`, pushed; CI green; Vercel deployed)
-- **Roadmap steps 1-8 of 9 done** (detail in PROJECT_STATE section 6):
+## Current state (4 Nov 2026, after step 9)
+- **Roadmap steps 1-9 done** (detail in PROJECT_STATE section 6):
   1. valuation consistency;
   2. primary-source data (decks, IR26, Pillar 3, RBI market share);
   3. marginal funding cost;
@@ -84,7 +84,8 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
   5. regulatory overlay;
   6. break-evens, stress grid, Q3 FY27 calls;
   7. trading comps and merger precedents (Comps tab; site Exhibits 6 and 8);
-  8. CEO chapter 09 (three decisions, 2% test, variant view, stakeholders, hundred-day KPI tree) and the rebuilt memo.
+  8. CEO chapter 09 (three decisions, 2% test, variant view, stakeholders, hundred-day KPI tree) and the rebuilt memo;
+  9. packaging (README order, OG image and screenshot, bound plan and move numbers, clickable sources with confidence, evidence-to-decision table, 390 px fixes).
 - **Base headline:**
   - FY29E RoA 1.89% before levers, 2.03% with levers (2.02% after the regulatory overlay);
   - value ₹506-576 a share vs ₹700 price;
@@ -96,18 +97,11 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 - **Skipped (user's call, 4 Nov 2026):** extending the management say-do tracker beyond NIM (`data/inputs/concall_say_do.csv`). Still optional.
 
 ## Active task
-- Nothing half-done. Step 8 was pushed (`6772dc6`); CI green, Vercel deployed, live site checked at 1440 and 390 px. Next is step 9 (packaging).
+- Nothing half-done. Step 9 committed; check `git status` / `git log` for whether it has been pushed.
 
 ## Next steps (in order)
-1. Step 9: packaging:
-   - README order;
-   - OG image and screenshot;
-   - bind the remaining hand-typed site numbers (ChPlan non-RoA KPI targets, ChMoves);
-   - clickable sources;
-   - source confidence column;
-   - evidence-to-decision table;
-   - fix the two SVG labels overhanging at 390 px (`charts/Ladder.svelte`, `charts/BetaScatter.svelte`).
-2. Optional: say-do tracker beyond NIM (CD ratio, deposit vs loan growth, credit cost, opex guidance).
+1. Optional: say-do tracker beyond NIM (CD ratio, deposit vs loan growth, credit cost, opex guidance).
+2. Optional: steerco deck refresh, only if the user lifts the hold.
 3. Mid-January 2027: score `data/inputs/hdfc_q3fy27_predictions.csv` against the Q3 FY27 deck (fill `actual_q3fy27`, `verdict`).
 
 ## Before every push
@@ -155,6 +149,7 @@ After pushing, check:
   - The in-app browser pane, when hidden, throws negative-width SVG console errors and stalls; use headless Playwright instead.
   - A running `vite preview` (the `site-preview` pane server) locks `site/node_modules/@esbuild/win32-x64/esbuild.exe`, so `npm ci` in the build fails with EPERM. Stop the preview before `build_windows.ps1`.
   - The installed Playwright Chromium is `%LOCALAPPDATA%\ms-playwright\chromium_headless_shell-1228`. A newer `playwright` npm package expects a different build, so pass `executablePath`.
+- **Share image:** `site/public/og.png` and `docs/img/site.png` are screenshots of the masthead (bound numbers). After a model change, run `npx vite preview` in `site/`, then `node site/scripts/shots.cjs` with Playwright on `NODE_PATH`.
 - **Memo PDF:** the pipeline builds `decks/HDFC_CEO_Memo.docx` only. Regenerate the PDF by hand: `soffice --headless --convert-to pdf --outdir decks/pdf decks/HDFC_CEO_Memo.docx` (LibreOffice at `C:\Program Files\LibreOffice\program\soffice.exe`). `tests/test_traceability.py` expects the memo's Ke at one decimal.
 - **Interruptions:** the session has been cut off mid-tool before. After a restart, check `git status` and `git log`: work may be on disk but uncommitted.
 

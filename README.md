@@ -1,15 +1,20 @@
 # HDFC Bank: the path back to 2% RoA
 
-An outside-in consulting case built on public data only. It answers one question for a bank CEO, then shows what each answer is worth, in a driver-based Excel model, a steering-committee deck, a two-page memo and a cockpit dashboard. Data as of 3 November 2026.
+An outside-in consulting case built on public data only. It answers one question for a bank CEO, then shows what each answer is worth, in a driver-based Excel model, an argued long-read website, a two-page memo and a SQL and test layer. Data as of 3 November 2026.
 
 > Independent outside-in case study using public data only; not commissioned by, or affiliated with, HDFC Bank or Bain & Company.
 
-**Open first:** `decks/pdf/HDFC_RoA_Steerco.pdf` (31 slides), `decks/pdf/HDFC_CEO_Memo.pdf` (2 pages), then `models/HDFC_RoA_Path_FY29.xlsx`. The cockpit is `viz/dashboard.html`: download it and open it in a browser.
+## Open in this order
+1. **The site, "The 2% Question":** https://site-two-eta-4o267upa77.vercel.app. Answer first, then twenty numbered exhibits, the six moves, a dated plan and a chapter for the CEO: three decisions, the evidence behind each, and the Q3 FY27 readings that would reopen them. An appendix runs the FY27E-FY29E model in the browser, tested against the Excel to within 0.1 bp.
+2. **The memo:** `decks/pdf/HDFC_CEO_Memo.pdf` (two pages).
+3. **The model:** `models/HDFC_RoA_Path_FY29.xlsx` (model of record; every number on the site and in the memo is exported from it).
+4. **How it was built:** "How the analysis is done" below, then `docs/methodology.md`.
 
-## Live site: The 2% Question
-**https://site-two-eta-4o267upa77.vercel.app**
+The steering-committee deck (`decks/pdf/HDFC_RoA_Steerco.pdf`) is on hold: it predates the comps, the precedents, the break-evens and the roll-forward, so its numbers are stale. The cockpit `viz/dashboard.html` is the earlier single-file view; the site supersedes it.
 
-An argued long-read built from `site/`. It leads with the answer, then proves it in twenty numbered, annotated exhibits, each argument paired with a supporting visual, then lays out the six moves and a dated plan. An appendix runs the FY27E-FY29E model in the browser, tested against the Excel to within 0.1 bp, so a reader can stress-test the recommendation. Stack: Svelte 5, Vite, D3, Scrollama. Vercel redeploys on every push. To run it locally: `make site`, then `cd site && npx vite preview`.
+[![The 2% Question, masthead](docs/img/site.png)](https://site-two-eta-4o267upa77.vercel.app)
+
+The site is built from `site/` (Svelte 5, Vite, D3, Scrollama); Vercel redeploys on every push. To run it locally: `make site`, then `cd site && npx vite preview`.
 
 ## The problem
 HDFC Bank delivered 1.8-2.0% RoA for a decade. Since the July 2023 merger with HDFC Ltd it has sat at the bottom of that range: 1.80% in FY26 and 1.75% annualised in Q2 FY27. Three things are moving at once:
@@ -69,11 +74,11 @@ The share price was ₹700 on 2 Nov 2026.
 ## What else the analysis shows
 - **What the merger changed.** HDFC's own RoA walk from FY23 to Q2 FY27 is -20 bp. Net interest income took 55 bp off, and lower opex gave 31 bp back (Shapley, `data/tidy/hdfc_roa_walk.csv`).
 - **What matters most for FY29.** A tornado on the live model, one driver at a time, ranks the swings:
-  - repo path: 20 bp;
+  - repo path: 16 bp;
   - advances growth: 15 bp;
   - credit cost: 13 bp;
   - opex growth: 11 bp;
-  - every other driver: 10 bp or less.
+  - every other driver: 9 bp or less.
 - **The levers are conservative against named peers.** Each one closes only 28-49% of the gap to best demonstrated practice:
   - CASA vs SBI's 38.3%;
   - borrowings share vs ICICI Bank's 6.5%;
@@ -86,13 +91,13 @@ The share price was ₹700 on 2 Nov 2026.
 ## How the analysis is done
 | Layer | What | Where |
 |---|---|---|
-| Consulting | Issue tree with five hypotheses, lever tree, impact x feasibility x time prioritisation, 12-month roadmap, KPI tree, risk register | `decks/HDFC_RoA_Steerco.pptx` |
+| Consulting | Issue tree with five hypotheses, lever tree, impact x feasibility x time prioritisation, 12-month roadmap, KPI tree, risk register, three CEO decisions with an evidence-to-decision table | site chapters 05-09; `decks/HDFC_RoA_Steerco.pptx` (on hold) |
 | Bank model | IR26-schedule spreading, driver-based FY27E-FY29E projection on average balances, NII rate/volume walk, repricing gap and earnings at risk, legacy-borrowing run-off, fee pools (IRDAI, HDFC Life, UPI MDR), credit normalisation, Tier 1 capacity | `models/HDFC_RoA_Path_FY29.xlsx` |
 | Valuation | CAPM cost of equity, justified P/B, residual income, sum of the parts (listed stakes less a 20% holding discount), market-implied RoE, Ke x g and RoE x Ke grids, 12-bank P/B-RoE cross-check | same workbook, Valuation and Sensitivities tabs |
 | Trading comps and precedents | HDFC Bank against ICICI, Axis, Kotak and SBI on P/B net of listed stakes, P/E, RoA, RoE, CD ratio, CASA, CET1 and FCNR-adjusted loan growth; borrowings run-off and CASA after the ICICI (2002), IDFC First (2018) and HDFC (2023) mergers, from RBI bank-wise returns | same workbook, Comps tab; site Exhibits 6 and 8 |
-| Sensitivity and evidence | Tornado (24 headless recalculations of the live model); HDFC RoA walk (Shapley); funding-cost beta regression with a one-year lag; peer anchors per lever; earnings-call topic tracker | `pipeline/tornado.py`, `hdfc_walk.py`, `deposit_beta.py`, `call_topics.py`; Tornado, Margin, ALM and Levers tabs |
+| Sensitivity and evidence | Tornado (26 headless recalculations of the live model: 13 drivers, low and high); HDFC RoA walk (Shapley); funding-cost beta regression with a one-year lag; peer anchors per lever; earnings-call topic tracker | `pipeline/tornado.py`, `hdfc_walk.py`, `deposit_beta.py`, `call_topics.py`; Tornado, Margin, ALM and Levers tabs |
 | SQL | DuckDB warehouse over every tidy and input file, the Screener harvest and the scenario export, plus six analyst queries (peer league, DuPont history, credit cycle, MDR pool, insurer exposure, scenario compare) | `pipeline/warehouse.py`, `sql/*.sql`, `data/tidy/sql_results/` |
-| Quality | Strict Excel lint, 29 reconciliation checks, 19 pytest tests (model invariants, traceability of every memo and cockpit headline to the export, SQL ties), ruff code lint, CI on every push, independent model audit | `tests/`, `.github/workflows/ci.yml`, `docs/model_audit.md` |
+| Quality | Strict Excel lint, 29 reconciliation checks, 36 pytest tests, 18 engine-to-Excel parity tests (model invariants, traceability of every memo and cockpit headline to the export, SQL ties), ruff code lint, CI on every push, independent model audit | `tests/`, `.github/workflows/ci.yml`, `docs/model_audit.md` |
 | Sector modules | Shapley RoA attribution across banks; IRDAI cap model with Monte Carlo; NPCI UPI concentration and MDR pool; say-versus-do tracker of management guidance | `models/01-03_*.xlsx`, `decks/0*.pptx` |
 
 The Excel follows investment-banking hygiene:
@@ -103,7 +108,7 @@ The Excel follows investment-banking hygiene:
 - one formula pattern per row;
 - no hard-coded numbers inside formulas;
 - a Base / Upside / Downside selector that drives every driver;
-- nine checks that roll up to a master check on the Cover.
+- reconciliation checks that roll up to a master check on the Cover.
 
 `pipeline/xlsx_lint.py` enforces the standard and fails the build on any breach. Full method: `docs/methodology.md`.
 
@@ -143,7 +148,7 @@ Before pushing, run `make ci-local`. It clones the last commit into a temporary 
 - Lever sizes, feasibility and timing are judgements for discussion, not forecasts. Each one is an explicit driver change in the model, so it can be challenged and re-run.
 - HDFC Bank does not disclose its external-benchmark (floating-rate) share of advances. The model assumes 55% (range 45-65%).
 - Screener.in is a secondary source, used only after tying to the bank's filings.
-- The steerco deck was built before the tornado, the RoA walk, the peer anchors and the beta regression. It is on hold and does not yet show them; its numbers still match the model.
+- The steerco deck is on hold. It was built before the tornado, the RoA walk, the peer anchors, the beta regression, the comps and the valuation roll-forward, so its numbers are stale; use the site and the memo.
 - The workbooks specify Garamond. If Garamond is not installed, the viewer substitutes a serif font.
 - No Bain engagement with HDFC Bank is known or implied. Bain publications are referenced for framing only; no Bain charts, data or wording are reproduced.
 

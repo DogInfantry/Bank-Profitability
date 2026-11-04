@@ -12,16 +12,21 @@
   const OWNER = ['Head, Branch Banking', 'Treasurer', 'CRO and Head, Retail Assets', 'COO', 'Head, Third-party Products', 'Head, Payments'];
   const SHORT = ['CASA', 'Borrowing', 'Pricing', 'Cost', 'Fees', 'UPI'];
   const SPOT: SpotName[] = ['vault', 'ladder', 'scales', 'gears', 'receipt', 'qr'];
-  const WHY = [
-    'Move 1.5 pp of deposits from term to current and savings accounts. Salary and SME current-account acquisition in the top 500 branches; term deposits re-priced by tenor.',
-    'Retire ₹75,000 cr of legacy borrowings beyond the base plan and refinance with deposits. Each ₹1 lakh cr saves about ₹3,000 cr a year before tax.',
-    'Lift the yield on new lending by 10 bp: pricing floors on new mortgages, more SME and secured retail within risk appetite.',
-    'Hold operating cost 3% below plan by FY29: a branch-vintage review of the FY22-FY25 openings and a hiring freeze outside sales.',
-    'Grow core fees 3% above plan and protect bancassurance through a persistency-linked commission grid with HDFC Life before the IRDAI caps land.',
-    'Lift UPI merchant-acquiring share from 6.6% to 10% of payee volume as the new MDR switches on. Small in RoA; a franchise option.',
-  ];
   const b = $derived(app.scenarioResults!.Base);
   const meta = $derived(app.model!.levers);
+  const N = $derived(b.years[2]);
+  const pc = (x: number, dp = 0) => (x * 100).toFixed(dp);
+  // Pre-tax saving per ₹1 lakh cr retired: FY29E cost of borrowings less the fresh term-deposit rate (lever 2 pricing).
+  const save1l = $derived(Math.round((N.c_bor - N.td_fresh) * 1e5 / 100) * 100);
+  const WHY = $derived([
+    `Move ${pc(meta[0].size, 1)} pp of deposits from term to current and savings accounts. Salary and SME current-account acquisition in the top 500 branches; term deposits re-priced by tenor.`,
+    `Retire ₹${ind(meta[1].size)} cr of legacy borrowings beyond the base plan and refinance with deposits at the fresh rate. Each ₹1 lakh cr saves about ₹${ind(save1l)} cr a year before tax.`,
+    `Lift the yield on new lending by ${(meta[2].size * 1e4).toFixed(0)} bp: pricing floors on new mortgages, more SME and secured retail within risk appetite.`,
+    `Hold operating cost ${pc(meta[3].size)}% below plan by FY29: a branch-vintage review of the FY22-FY25 openings and a hiring freeze outside sales.`,
+    `Grow core fees ${pc(meta[4].size)}% above plan and protect bancassurance through a persistency-linked commission grid with HDFC Life before the IRDAI caps land.`,
+    `Lift UPI merchant-acquiring share from ${pc(app.model!.fees.hd_share, 1)}% to ${pc(meta[5].size)}% of payee volume as the new MDR switches on. Small in RoA; a franchise option.`,
+  ]);
+  const anc = $derived.by(() => { const sh = (app.story!.anchors as any[]).map((x) => x.share * 100); return [Math.round(Math.min(...sh)), Math.round(Math.max(...sh))]; });
   const maxBp = $derived(Math.max(...b.levers.map((l) => l.bp)));
   let step = $state(0);
   let vw = $state(1200);
@@ -72,7 +77,7 @@
     </div>
   </div>
   <p class="prose">Is each move credible? For four of them there is a named Indian bank already operating where the move would take HDFC Bank, and the move asks for only part of that distance.</p>
-  <Exhibit n={10} wide title="Each move closes 28-49% of the gap to a named peer: an ask, not a stretch"
+  <Exhibit n={10} wide title={`Each move closes ${anc[0]}-${anc[1]}% of the gap to a named peer: an ask, not a stretch`}
            units="HDFC Bank FY26 → where the move takes it → benchmark; CASA ratio, borrowings share of funding, interest earned / average assets, UPI payee share"
            source="SBI Q2 FY27 press release; ICICI Bank FY26 (Screener, tied to filings); Axis Bank NPCI payee data Sep 2026; driver model">
     <Dumbbell />

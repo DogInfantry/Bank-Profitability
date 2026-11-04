@@ -13,7 +13,7 @@
   const SHORT: Record<string, string> = { 'Policy repo rate, fiscal-year average': 'Repo path', 'Advances growth': 'Loan growth', 'Credit cost': 'Credit cost',
     'Operating expense growth': 'Opex growth', 'Deposit growth': 'Deposit growth', 'CASA ratio, year end': 'CASA ratio', 'Core fee income growth': 'Fee growth',
     'Share of maturing borrowings retired': 'Borrowings retired', 'Treasury and other non-fee income': 'Treasury income', 'Cost beta: deposits': 'Deposit beta',
-    'IRDAI cap severity on bank fees': 'IRDAI caps', 'Yield beta: loans': 'Loan beta' };
+    'IRDAI cap severity on bank fees': 'IRDAI caps', 'Yield beta: loans': 'Loan beta', 'Premium over the system fresh rate': 'Deposit premium' };
   const fmt = (v: number) => (Math.abs(v) < 1 ? v.toFixed(3) : v.toLocaleString());
 </script>
 <div bind:clientWidth={w}>

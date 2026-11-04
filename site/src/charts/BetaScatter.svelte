@@ -4,7 +4,7 @@
   import { app } from '../lib/store.svelte';
   import { showTip, hideTip } from '../lib/tooltip';
   let w = $state(480);
-  const H = 280, m = { t: 14, r: 70, b: 36, l: 46 };
+  const H = 280, m = { t: 14, r: 92, b: 36, l: 46 };
   const b = $derived(app.story!.beta);
   const pts = $derived(b.points as any[]);
   const x = $derived(d3.scaleLinear().domain([-1.6, 1.8]).range([m.l, w - m.r]));

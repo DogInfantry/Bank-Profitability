@@ -11,7 +11,7 @@
   const total = $derived(mat.reduce((t, r) => t + r.v, 0));
   const narrow = $derived(w < 700);
   const lw = $derived(narrow ? w : w * 0.48), rw = $derived(narrow ? w : w * 0.48);
-  const x = $derived(d3.scaleLinear().domain([0, 200000]).range([110, lw - 70]));
+  const x = $derived(d3.scaleLinear().domain([0, 200000]).range([110, lw - 86]));
   const share = $derived((s.series.Base.bor_share as number[]).slice(1));
   const yrs = ['FY21', 'FY22', 'FY23', 'FY24', 'FY25', 'FY26', 'FY27', 'FY28', 'FY29'];
   const sx = $derived(d3.scalePoint<string>().domain(yrs).range([34, rw - 14]));

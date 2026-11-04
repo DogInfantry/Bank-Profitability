@@ -1,8 +1,10 @@
 <script lang="ts">
   import katex from 'katex';
   import Icon from '../lib/Icon.svelte';
+  import { app } from '../lib/store.svelte';
   const tex = (s: string) => katex.renderToString(s, { displayMode: true, throwOnError: false, output: 'html' });
   const releases = [
+    ['v3.1', '4 Nov 2026', 'Packaging: an evidence-to-decision table for the CEO chapter; clickable sources with a confidence rating; plan and move figures bound to the model export; phone-width label fixes; a share image.'],
     ['v3.0', '4 Nov 2026', 'Primary-source deck data, marginal funding cost, risk-adjusted moves, a regulation overlay, break-evens and pre-registered Q3 FY27 calls; trading comps and merger precedents; a CEO chapter with three decisions, the variant view, the 2% test and a hundred-day KPI tree.'],
     ['v2.1', '3 Nov 2026', 'One page grid with aligned edges; every argument paired with a visual: answer tiles, the rupee-of-assets strip, funding mix, credit cycle, the P/B equation, risk cards and a dated roadmap.'],
     ['v2.0', '3 Nov 2026', 'Rebuilt as an argued long-read: answer first, twelve numbered and annotated exhibits, the recommendation built move by move; the model moved to an appendix.'],
@@ -12,17 +14,19 @@
     ['Correction', '3 Nov 2026', 'Margins: SBI\'s Q2 FY27 NIM rose 13 bp to 2.94%. An earlier version said every reported NIM fell.'],
     ['Model 2', '3 Nov 2026', 'Integrated HDFC Bank driver model, scenarios, levers and valuation; IB-hygiene lint; steering-committee deck and CEO memo.'],
   ];
-  const sources = [
-    ['S1', 'HDFC Bank Integrated Annual Report 2025-26: schedules (pp359-366), maturity pattern (p384), ten-year highlights (p234), stakes (p52)'],
-    ['S2', 'HDFC Bank, ICICI Bank, Axis Bank, Kotak investor presentations Q4 FY26 and Q2 FY27; SBI Q2 FY27 press release'],
-    ['S3', 'Screener.in standalone financials and valuation for twelve banks and three listed HDFC subsidiaries (secondary, tied to filings)'],
-    ['S4', 'RBI: policy repo (Bank Rate change dates), 10-year G-sec, Survey of Professional Forecasters round 102, via FactIQ'],
-    ['S5', 'NPCI UPI: P2M value by ticket band, payee banks, monthly totals, via FactIQ'],
-    ['S6', 'IRDAI Handbook 2024-25 and the September 2026 exposure draft on commission and expenses of management (proposal)'],
-    ['S7', 'HDFC Life FY26 and Q2 FY27 disclosures: VNB, APE, embedded value, channel mix'],
-    ['S8', 'Earnings-call claims via the FactIQ claim graph (paraphrased; links go to verbatim quotes)'],
-    ['M', 'models/HDFC_RoA_Path_FY29.xlsx: driver model, nine checks, strict lint; recalculated headlessly and exported per scenario'],
-  ];
+  // Source register: [key, what, link (from data/raw/manifest.csv or the export), confidence]. High = primary disclosure;
+  // Medium = primary data restructured by a third party, a proposal, or a secondary source tied to filings.
+  const sources = $derived([
+    ['S1', 'HDFC Bank Integrated Annual Report 2025-26: schedules (pp359-366), maturity pattern (p384), ten-year highlights (p234), stakes (p52), segments (pp445-446)', 'https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2025-26/reports/HDFC_Bank_IR26.pdf', 'High', 'Audited filing'],
+    ['S2', 'HDFC Bank investor presentations Q2 FY24 to Q2 FY27 (twelve decks); Basel III Pillar 3 at 30 Sep 2026', 'https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/about-us/financial-results/2026-2027/quarter-2/q2fy27-earnings-presentation.pdf', 'High', 'Company disclosure'],
+    ['S3', 'Peer Q2 FY27 decks (ICICI, Axis, Kotak, SBI) for the trading comps; SBI Q2 FY27 press release', 'https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/Q2-2027-investor-presentation.pdf', 'High', 'Company disclosure'],
+    ['S4', 'Screener.in standalone financials and valuation for twelve banks and listed subsidiaries', 'https://www.screener.in/company/HDFCBANK/', 'Medium', 'Secondary, tied to filings'],
+    ['S5', 'RBI via FactIQ: policy repo, 10-year G-sec, the forecasters survey, system deposits and credit, bank-wise returns for the merger precedents', 'https://www.rbi.org.in/', 'High', 'Official statistics'],
+    ['S6', 'NPCI UPI: P2M value by ticket band, payee banks, monthly totals, via FactIQ', 'https://www.npci.org.in/what-we-do/upi/product-statistics', 'High', 'Official statistics'],
+    ['S7', 'IRDAI Handbook 2024-25 and the September 2026 exposure draft on commission and expenses of management', 'https://irdai.gov.in/', 'Medium', 'Proposal, not final'],
+    ['S8', 'Earnings-call claims via the FactIQ claim graph (paraphrased; the link opens the Q2 FY27 margin claim)', app.story!.mgmt_nim.claim_source_url, 'Medium', 'Paraphrased by FactIQ'],
+    ['M', 'models/HDFC_RoA_Path_FY29.xlsx: driver model, reconciliation checks, strict lint; recalculated headlessly and exported per scenario', 'https://github.com/DogInfantry/Bank-Profitability/blob/claude/wonderful-noether-vgfm7p/models/HDFC_RoA_Path_FY29.xlsx', 'Model', 'Built from the sources above'],
+  ]);
 </script>
 <section class="chapter appendix" id="log">
   <p class="ak-b"><span class="mono">B</span> Appendix</p><h2 class="h2b">Method, sources and corrections</h2>
@@ -39,14 +43,14 @@
       </div>
     </div>
     <div>
-      <p class="label"><Icon name="book" /> Source register</p>
-      <dl class="src-reg">{#each sources as [k, t]}<div><dt class="mono">{k}</dt><dd>{t}</dd></div>{/each}</dl>
+      <p class="label"><Icon name="book" /> Source register, with confidence</p>
+      <dl class="src-reg">{#each sources as [k, t, url, c, why]}<div><dt class="mono">{k}</dt><dd><a href={url} target="_blank" rel="noopener">{t}</a></dd><dd class="conf" class:hi={c === 'High'}><b>{c}</b>{why}</dd></div>{/each}</dl>
       <p class="label" style="margin-top:22px">Caveats</p>
       <ul class="cav">
         <li>The IRDAI caps are a September 2026 proposal, not final.</li>
         <li>Lever sizes, feasibility and timing are judgements; each is an explicit driver change that can be challenged and re-run.</li>
         <li>HDFC Bank does not disclose its floating-rate share of advances; the model assumes 55% (range 45-65%).</li>
-        <li>Values are struck at 31 March 2026 and compared with the 2 November 2026 price; rolling forward would add about 4-5% (see the model audit).</li>
+        <li>Values are struck at 31 March 2026 and rolled forward to the 2 November 2026 price date (grown at the cost of equity, less the FY26 dividend).</li>
         <li>No Bain engagement with HDFC Bank is known or implied.</li>
       </ul>
     </div>
@@ -62,8 +66,11 @@
   .rel p { margin: 2px 0 0; font-size: 14px; color: var(--ink-2); }
   .tex { background: var(--surface); border: 1px solid var(--hair); border-radius: 3px; padding: 6px 16px 10px; overflow-x: auto; color: var(--ink); }
   .tex .chart-note { margin: 10px 0 0; }
-  .src-reg { margin: 8px 0 0; } .src-reg div { display: grid; grid-template-columns: 34px 1fr; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--hair-2); }
+  .src-reg { margin: 8px 0 0; } .src-reg div { display: grid; grid-template-columns: 34px minmax(0, 1fr) 104px; gap: 8px; padding: 6px 0; border-bottom: 1px solid var(--hair-2); }
   .src-reg dt { color: var(--brand); font-size: 12px; } .src-reg dd { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+  .src-reg a { color: inherit; text-decoration: underline; text-decoration-color: var(--hair); text-underline-offset: 2px; overflow-wrap: anywhere; } .src-reg a:hover { text-decoration-color: var(--brand); }
+  .src-reg .conf { font: 400 11px/1.35 var(--sans); color: var(--muted); } .src-reg .conf b { display: block; font-weight: 600; color: var(--ink-2); } .src-reg .conf.hi b { color: var(--brand); }
+  @media (max-width: 640px) { .src-reg div { grid-template-columns: 34px minmax(0, 1fr); } .src-reg .conf { grid-column: 2; } .src-reg .conf b { display: inline; margin-right: 6px; } }
   .cav { padding-left: 18px; font-size: 13.5px; color: var(--ink-2); } .cav li { margin-bottom: 4px; }
   @media (max-width: 900px) { .cols { grid-template-columns: minmax(0, 1fr); } }
 .ak-b { font: 600 11.5px var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; display: flex; gap: 12px; } .ak-b .mono { color: var(--brand); }

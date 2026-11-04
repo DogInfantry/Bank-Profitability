@@ -3,21 +3,39 @@
   import ChapterHead from '../lib/ChapterHead.svelte';
   import Exhibit from '../lib/Exhibit.svelte';
   import Roadmap, { type Action } from '../charts/Roadmap.svelte';
+  import { ind } from '../lib/format';
+  const s = $derived(app.story!);
+  const lv = $derived(app.model!.levers);
+  const N = $derived(app.scenarioResults!.Base.years[2]);
+  const ser = $derived(s.series.Base);
+  const iy = (y: string) => s.years.indexOf(y);
+  const due1y = $derived((s.maturity as any[]).slice(0, 8).reduce((t, r) => t + r.amount_cr, 0));
+  const lakh = $derived(`₹${(due1y / 1e5).toFixed(2)} lakh cr`);
+  const retire = $derived(`₹${ind(lv[1].size)} cr`);
+  const casaPp = $derived(`+${(lv[0].size * 100).toFixed(1)} pp`);
   // Months from November 2026. Now = 0-3, Next = 3-12, Later = 12-24; the RoA cockpit runs throughout.
-  const actions: (Action & { what: string; when: string })[] = [
-    { when: 'Now', area: 'Funding', short: 'Refinancing plan, ₹1.93 lakh cr', what: 'Refinancing plan for the ₹1.93 lakh cr maturing in FY27; deposit-led funding target set', owner: 'Treasurer', s: 0, e: 3 },
+  const actions: (Action & { what: string; when: string })[] = $derived([
+    { when: 'Now', area: 'Funding', short: `Refinancing plan, ${lakh}`, what: `Refinancing plan for the ${lakh} maturing in FY27; deposit-led funding target set`, owner: 'Treasurer', s: 0, e: 3 },
     { when: 'Now', area: 'Cost', short: 'Branch-vintage review; hiring freeze', what: 'Branch-vintage review of FY22-FY25 openings; net hiring frozen outside sales', owner: 'COO', s: 0, e: 3 },
     { when: 'Now', area: 'Fees', short: 'HDFC Life commission renegotiation', what: 'Open the HDFC Life commission renegotiation on persistency-linked pay', owner: 'Head, Third-party Products', s: 0, e: 3 },
     { when: 'Now', area: 'Governance', short: 'Monthly RoA cockpit to the board', what: 'Monthly RoA cockpit to the board; one owner per move', owner: 'CFO', s: 0, e: 3, cont: true },
-    { when: 'Next', area: 'Funding', short: 'Retire ₹75,000 cr above plan', what: 'Retire ₹75,000 cr above plan; borrowings below 9% of funding', owner: 'Treasurer', s: 3, e: 12 },
+    { when: 'Next', area: 'Funding', short: `Retire ${retire} above plan`, what: `Retire ${retire} above plan; borrowings below ${Math.ceil(ser.bor_share[iy('FY28E')] * 100)}% of funding`, owner: 'Treasurer', s: 3, e: 12 },
     { when: 'Next', area: 'Assets', short: 'Pricing floors; SME and secured retail', what: 'Pricing floors on new mortgages; SME and secured retail grow within risk appetite', owner: 'CRO, Head Retail Assets', s: 3, e: 12 },
     { when: 'Next', area: 'Deposits', short: 'Salary and SME current-account teams', what: 'Salary and SME current-account teams live in the top 500 branches', owner: 'Head, Branch Banking', s: 3, e: 12 },
-    { when: 'Later', area: 'Deposits', short: 'CASA +1.5 pp on plan', what: 'CASA +1.5 pp on plan; cost of deposits flat while repo rises', owner: 'Head, Branch Banking', s: 12, e: 24 },
+    { when: 'Later', area: 'Deposits', short: `CASA ${casaPp} on plan`, what: `CASA ${casaPp} on plan; cost of deposits flat while repo rises`, owner: 'Head, Branch Banking', s: 12, e: 24 },
     { when: 'Later', area: 'Payments', short: 'UPI merchant-acquiring push', what: 'UPI merchant-acquiring push once MDR economics are proven', owner: 'Head, Payments', s: 12, e: 24 },
-  ];
+  ]);
   const milestones = [{ m: 10, label: 'Q2 FY28: CASA checkpoint' }, { m: 17, label: 'FY28 result: target review' }, { m: 28, label: 'FY29: RoA at or above 2.00%' }];
   const roaTarget = $derived(app.scenarioResults!.Base.bridge.withLevers / 100);
-  const kpis = $derived([['RoA (core)', 1.80, roaTarget, 2, ''], ['CASA ratio', 34.1, 35.0, 1, ''], ['Borrowings / funding', 15.1, 7.2, 1, ''], ['Opex / average assets', 1.76, 1.64, 2, ''], ['Credit cost', 0.41, 0.68, 2, '≤ ']] as [string, number, number, number, string][]);
+  // FY26 actual → FY29E Base with the moves (levers 1, 2 and 4 applied to the FY29E path); credit cost is the Base path, a ceiling.
+  const f26 = (k: string) => ser[k][iy('FY26A')] * 100, f29 = (k: string) => ser[k][iy('FY29E')] * 100;
+  const kpis = $derived([
+    ['RoA (core)', app.model!.fy26.roa_core_bp / 100, roaTarget, 2, ''],
+    ['CASA ratio', f26('casa'), f29('casa') + lv[0].size * 100, 1, ''],
+    ['Borrowings / funding', f26('bor_share'), (N.a_bor - lv[1].size) / (N.a_dep + N.a_bor) * 100, 1, ''],
+    ['Opex / average assets', f26('opex_a'), f29('opex_a') * (1 - lv[3].size), 2, ''],
+    ['Credit cost', f26('cc'), f29('cc'), 2, '≤ '],
+  ] as [string, number, number, number, string][]);
 </script>
 <section class="chapter" id="plan">
   <ChapterHead n="08" kicker="Next twelve months" title="Three moves start this quarter; the slow one is funded by the fast ones" />

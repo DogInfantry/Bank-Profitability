@@ -28,6 +28,15 @@
       cost: `Returning ${lakh(cr.excess)} lifts FY29E RoE by ${(cr.roe_uplift * 100).toFixed(1)} points but costs ${kcr(cr.value)} of value; day-one ECL takes ${(-rg.ecl_cet1 * 100).toFixed(2)} points of CET1.`,
       call: 'Keep it through the ECL transition, then return it. It is an RoE optic, not value creation, while RoE is above the cost of equity.' },
   ]);
+  // Evidence to decision: what each call rests on, where it is shown, and the Q3 FY27 reading that would reopen it.
+  const cm = $derived(s.comps), hd = $derived(s.comps.banks[0]), pace = $derived(s.comps.pace);
+  const pr = $derived(Object.fromEntries(s.predictions.map((p: any) => [p.metric, p])) as Record<string, any>);
+  const band = (p: any, u: string) => `${p.label.split(',')[0]} outside ${(p.prediction_q3fy27 - p.tolerance).toFixed(1)}-${(p.prediction_q3fy27 + p.tolerance).toFixed(1)}${u} (our call ${p.prediction_q3fy27}${u})`;
+  const evidence = $derived([
+    ['1. Loan growth', `CD ratio ${pct(hd.cd, 0)} vs a peer median of ${pct(cm.med.cd, 0)}; loan growth ex FCNR (B) ${pct(hd.loan_g_ex, 0)} vs ${pct(cm.med.loan_g_ex, 0)}; the case breaks below ${pct(g.breakeven_input)} growth.`, '6, 15', band(pr.cd_ratio, '%')],
+    ['2. Deposits', `CASA ${pct(hd.casa, 0)} vs ${pct(cm.med.casa, 0)} for peers; ${pct(ct.observed, 0)} of new deposits came as CASA in the last four quarters, against ${pct(ct.path, 0)} on the path. After its merger ICICI Bank added ${(pace['ICICI Bank'].casa_bp / 100).toFixed(0)} points of CASA in three years; HDFC Bank has lost ${(-pace['HDFC Bank'].casa_bp / 100).toFixed(1)}.`, '6, 8, 15', band(pr.casa_ratio, '%')],
+    ['3. Capital', `${lakh(cr.excess)} of Tier 1 above 15% by FY29E; the day-one ECL top-up is ${(-rg.ecl_cet1 * 100).toFixed(2)} points of CET1, against ${kcr(rg.ecl_buffer)} of floating and contingent provisions; at 2% RoA, RoE is ${pct(t.roe2)} against a ${pct(s.ke, 2)} cost of equity.`, '12, 18', band(pr.credit_cost, ' bp')],
+  ]);
   const variant = $derived([
     ['Net interest margin', `“${s.mgmt_nim.said}” (${s.mgmt_nim.speaker_role}, ${s.mgmt_nim.call_date})`, 'Not observable', `${pct(s.series.Base.nim[iy('FY29E')], 2)} by FY29E as borrowings run off`],
     ['RoE, FY29E', 'Not guided', `${pct(s.roe_implied)} (core bank, at the price)`, `${pct(s.series.Base.roe[iy('FY29E')])} before the moves`],
@@ -63,6 +72,14 @@
         <p class="call"><b>Our call.</b> {d.call}</p>
       </article>
     {/each}
+  </div>
+
+  <p class="h-reg">From evidence to decision</p>
+  <div class="tbl-scroll">
+    <table class="data e2d">
+      <thead><tr><th>Decision</th><th>What the evidence says</th><th class="n">Exhibits</th><th>Q3 FY27 reading that reopens the call</th></tr></thead>
+      <tbody>{#each evidence as r}<tr><td><b>{r[0]}</b></td><td>{r[1]}</td><td class="n">{r[2]}</td><td>{r[3]}</td></tr>{/each}</tbody>
+    </table>
   </div>
 
   <Row>
@@ -112,4 +129,5 @@
   .cost { color: var(--ink); border-left: 2px solid var(--hair); padding-left: 10px; }
   .call b, .opt b { color: var(--ink); font-weight: 600; }
   .h-reg { font: 600 17px var(--sans); color: var(--ink); margin: 28px 0 8px; }
+  .e2d td:nth-child(3) { white-space: nowrap; } .e2d td:nth-child(2) { min-width: 300px; } .e2d td:nth-child(4) { min-width: 180px; }
 </style>

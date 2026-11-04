@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { app, load } from './lib/store.svelte';
+  import { pct } from './lib/format';
   import Icon from './lib/Icon.svelte';
   import BankGlyph from './lib/BankGlyph.svelte';
   import Palette from './lib/Palette.svelte';
@@ -44,6 +45,7 @@
     return () => { window.removeEventListener('scroll', onScroll); window.removeEventListener('keydown', key); window.removeEventListener('hashchange', onHash); io.disconnect(); };
   });
   const s = $derived(app.story);
+  const br = $derived(app.scenarioResults?.Base.bridge);
   const current = $derived(SECTIONS.find((x) => x[0] === active));
 </script>
 
@@ -62,7 +64,7 @@
   <div class="mast-l">
     <div class="kick"><BankGlyph size={40} title="Bank" /><div><p class="k1">HDFC Bank · Return on assets · FY23 to FY29</p><p class="k2">An outside-in case study</p></div></div>
     <h1>HDFC Bank can earn 2% again. It has to fix funding, not cost.</h1>
-    <p class="stand">The 2023 merger moved HDFC Bank's problem from cost to margin. Legacy borrowings running off will take return on assets to 1.86% by FY29. Six funding-led moves take it to 2.04%, and the share price already assumes they happen.</p>
+    <p class="stand">The 2023 merger moved HDFC Bank's problem from cost to margin. Legacy borrowings running off will take return on assets to {br ? pct(br.before / 1e4, 2) : '…'} by FY29. Six funding-led moves take it to {br ? pct(br.withLevers / 1e4, 2) : '…'}, and the share price already assumes they happen.</p>
     <p class="by">By Anklesh · 3 November 2026 · Data to Q2 FY27 · About 12 minutes</p>
   </div>
   <div class="mast-r">{#if app.story && app.result}<AtAGlance />{/if}</div>

@@ -19,6 +19,8 @@ describe.each(['Base', 'Upside', 'Downside'] as Scenario[])('%s scenario matches
     expect(Math.abs(r.years[i].pat - col(s, 'Model|Profit after tax', y))).toBeLessThan(1);
     expect(Math.abs(r.years[i].eq - col(s, 'Model|Net worth, closing', y))).toBeLessThan(1);
     expect(Math.abs(r.years[i].ta - col(s, 'Model|Total liabilities and net worth', y))).toBeLessThan(1);
+    expect(Math.abs(r.years[i].td_fresh - col(s, 'Model|Fresh term-deposit rate paid', y)) * 1e4).toBeLessThan(0.1);
+    expect(Math.abs(r.years[i].c_dep - col(s, 'Model|Cost of deposits', y)) * 1e4).toBeLessThan(0.1);
   });
   it('lever bridge matches', () => {
     expect(Math.abs(r.bridge.before - xl[s]['Levers|RoA FY29E, scenario before levers'][2])).toBeLessThan(0.1);

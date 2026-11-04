@@ -26,10 +26,10 @@ Why HDFC Bank? It is the largest private bank, and every 10 bp of RoA there is w
 
 | | Downside | Base | Upside |
 |---|---|---|---|
-| RoA FY29E, before levers | 1.32% | 1.86% | 2.25% |
-| RoA FY29E, with levers | 1.50% | 2.04% | 2.43% |
-| RoE FY29E, before levers | 10.6% | 14.6% | 17.5% |
-| Value per share at 2 Nov 2026, residual income to sum of the parts | ₹256-275 | ₹492-558 | ₹665-775 |
+| RoA FY29E, before levers | 1.31% | 1.89% | 2.27% |
+| RoA FY29E, with levers | 1.48% | 2.06% | 2.43% |
+| RoE FY29E, before levers | 10.6% | 14.9% | 17.6% |
+| Value per share at 2 Nov 2026, residual income to sum of the parts | ₹254-273 | ₹506-576 | ₹671-781 |
 
 The share price was ₹700 on 2 Nov 2026.
 
@@ -37,18 +37,19 @@ The share price was ₹700 on 2 Nov 2026.
    - NII fell from 3.83% of average assets (FY23) to 3.11% (FY26).
    - The 43 bp RoA gap to ICICI Bank is 63 bp of NII plus 25 bp of FY26's one-off provisions. HDFC Bank is already ahead on opex, other income and tax.
 2. **The base case helps but stops short.**
-   - ₹1.93 lakh cr of legacy borrowings mature within a year. Replacing 60% of them with deposits lifts NIM from 3.12% to 3.51% by FY29E.
+   - ₹1.93 lakh cr of legacy borrowings mature within a year. Replacing 60% of them with deposits lifts NIM from 3.12% to 3.56% by FY29E. New term deposits are priced at the fresh rate (RBI: 5.61% in Sep-26, below the book rate), not at the average cost of deposits.
    - Credit cost normalising from 0.48% to its through-the-cycle 0.69% costs about 10 bp of RoA.
 3. **Regulation is small for the bank, not for the group.**
    - The IRDAI caps cost the bank ₹873 cr of fees by FY29E (1.3% of other income).
    - UPI MDR adds ₹564 cr.
    - HDFC Life's value of new business rises by a net ₹279 cr, but only if the bank keeps distributing.
-4. **Six levers add 17.8 bp and about ₹1.5 lakh cr of equity value.** Four carry the plan:
+4. **Six levers add 16.7 bp and about ₹1.4 lakh cr of equity value.** Four carry the plan:
    - re-mix advances (5.3 bp);
    - branch and operations productivity (3.8 bp);
    - rebuild CASA (3.4 bp);
-   - retire legacy borrowings faster (3.0 bp).
-5. **The market is paying for 16.7% core-bank RoE.** The base case gives 14.6%. At the 13.13% CAPM cost of equity, only the upside case supports ₹700. The conclusion rests on that Ke: at 11.96% or less the base case alone supports the price, and peer prices imply 10.6-11.1%.
+   - retire legacy borrowings faster (1.9 bp: the replacement term deposits cost the fresh rate, not the 4.8% average).
+5. **The market is paying for 16.7% core-bank RoE.** The base case gives 14.9%. At the 13.13% CAPM cost of equity, only the upside case supports ₹700. The conclusion rests on that Ke: at 12.1% or less the base case alone supports the price, and peer prices imply 10.6-11.1%.
+   - The base CASA path needs 37% of new deposits to be CASA in FY28-29; the bank delivered 21% in the last four quarters.
 6. **Decisions for the steering committee:**
    - make deposits the binding constraint;
    - retire ₹75,000 cr of borrowings ahead of plan;

@@ -25,7 +25,7 @@ DRIVERS = {  # engine key: Inputs-tab label prefix
     "b_dep": "Cost beta: deposits", "b_bor": "Cost beta: borrowings", "g_loan": "Advances growth", "g_dep": "Deposit growth",
     "casa": "CASA ratio, year end", "runoff": "Share of maturing borrowings retired", "g_fee": "Core fee income growth",
     "oi_pct": "Treasury and other non-fee income", "irdai": "IRDAI cap severity on bank fees", "g_opex": "Operating expense growth",
-    "cc": "Credit cost",
+    "cc": "Credit cost", "td_prem": "Premium over the system fresh rate",
 }
 FIXED = {"matur": "Borrowings maturing in year", "spread_td": "Term deposit cost premium over CASA", "tax": "Effective tax rate",
          "payout": "Dividend payout (paid on prior-year PAT)"}
@@ -64,6 +64,9 @@ def main():
     for k, lab in DRIVERS.items():
         drivers[k] = {s: [ws.cell(rows[f"{lab}: {s}"], c).value for c in (12, 13, 14)] for s in SCN}
     fixed = {k: [ws.cell(rows[lab], c).value for c in (12, 13, 14)] for k, lab in FIXED.items()}
+    fixed |= {k: ws.cell(rows[lab], 5).value for k, lab in {  # scalars for the marginal term-deposit rate
+        "fresh0": "Fresh term-deposit rate, system, Sep-26", "repo_ref": "Repo rate when the fresh rate was observed",
+        "b_fresh": "Fresh term-deposit rate beta to repo"}.items()}
     # FY26 repo: the live repo row's K column (FY26A); same value in every scenario
     live = rows["Policy repo rate, fiscal-year average: live"]
     repo_fy26 = ws.cell(live, 11).value

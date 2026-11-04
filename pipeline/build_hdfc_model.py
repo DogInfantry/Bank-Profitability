@@ -126,6 +126,11 @@ def build():
     driver("runoff", "Share of maturing borrowings retired", "%", "Remainder is refinanced", [0.60] * 3, [0.80] * 3, [0.30] * 3)
     inp.line("matur", "Borrowings maturing in year", "INR cr", "S2 IR26 p384: <=1y 1,93,209; 1-3y 78,306 split evenly", proj=[193209.0, 39153.0, 39153.0])
     inp.line("spread_td", "Term deposit cost premium over CASA", "%", "Assumption: TD ~6.5-7% vs SA ~2.5-3%, CA nil", proj=[0.040] * 3, num="pct2")
+    # Marginal funding: new term deposits are priced at the fresh rate, not at the book rate
+    inp.scalar("fresh0", "Fresh term-deposit rate, system, Sep-26", 0.0561, "%", "S3 RBI press release 2026-2027/1416 (30 Oct 2026): WADTDR on fresh rupee term deposits of SCBs", num="pct2")
+    inp.scalar("repo_ref", "Repo rate when the fresh rate was observed", 0.0525, "%", "S3 RBI repo history: 5.25% from Dec-25 to Sep-26", num="pct2")
+    inp.scalar("b_fresh", "Fresh term-deposit rate beta to repo", 0.75, "x", "Assumption: fresh rates reprice faster than the book (book beta on the deposit row); range 0.6-1.0", num="num")
+    driver("td_prem", "Premium over the system fresh rate", "%", "Base: HDFC prices at the system rate; Downside: a deposit war adds 50 bp", [0.0] * 3, [0.0] * 3, [0.005] * 3, num="pct2")
     inp.section("Income and cost")
     driver("g_fee", "Core fee income growth", "%", "S2 IR26 Sch 14: FY26 +9.3%", [0.11, 0.12, 0.12], [0.13, 0.14, 0.14], [0.08, 0.09, 0.09])
     driver("oi_pct", "Treasury and other non-fee income", "% avg assets", "Normalised; FY25 0.36%, FY26 0.41% ex HDB stake-sale gain", [0.0035] * 3, [0.0040] * 3, [0.0030] * 3, num="pct2")
@@ -233,9 +238,16 @@ def build():
             proj=lambda c: f"={md.a('y_liq', prev(c))}+{inp.xr('b_inv', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})")
     md.line("casa", "CASA ratio, year end", "%", "", num="pct1", hist_kind="calc",
             hist=lambda c: f"={hs.xr('casa_cr', c)}/{hs.xr('dep', c)}" if c in ("J", "K") else None, proj=lambda c: f"={inp.xr('casa', c)}", proj_kind="link")
-    md.line("c_dep", "Cost of deposits", "%", "Prior + beta x change in repo + CASA mix effect", num="pct2", hist_kind="calc",
+    md.line("inc_casa", "Incremental CASA share of new deposits", "%", "Implied by the CASA ratio and deposit growth paths", num="pct1",
+            proj=lambda c: f"=({md.a('casa', c)}*{md.a('dep', c)}-{md.a('casa', prev(c))}*{md.a('dep', prev(c))})/({md.a('dep', c)}-{md.a('dep', prev(c))})")
+    md.line("td_book", "Book term-deposit rate", "%", "Prior cost of deposits + CASA ratio x TD premium, repriced at the deposit beta", num="pct2",
+            proj=lambda c: f"={md.a('c_dep', prev(c))}+{md.a('casa', prev(c))}*{inp.xr('spread_td', c)}+{inp.xr('b_dep', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})")
+    md.line("td_fresh", "Fresh term-deposit rate paid", "%", "System fresh rate + fresh beta x repo change since Sep-26 + scenario premium", num="pct2",
+            proj=lambda c: f"={inp.x('fresh0')}+{inp.x('b_fresh')}*({inp.xr('repo', c)}-{inp.x('repo_ref')})+{inp.xr('td_prem', c)}")
+    md.line("c_dep", "Cost of deposits", "%", "Prior + beta x change in repo + CASA mix effect + new term deposits at the fresh rate", num="pct2", hist_kind="calc",
             hist=lambda c: f"={hs.xr('ie_dep', c)}/{md.a('a_dep', c)}" if c in ("J", "K") else None,
-            proj=lambda c: f"={md.a('c_dep', prev(c))}+{inp.xr('b_dep', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})+({md.a('casa', prev(c))}-{md.a('casa', c)})*{inp.xr('spread_td', c)}")
+            proj=lambda c: f"={md.a('c_dep', prev(c))}+{inp.xr('b_dep', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})+({md.a('casa', prev(c))}-{md.a('casa', c)})*{inp.xr('spread_td', c)}"
+                           f"+({md.a('dep', c)}-{md.a('dep', prev(c))})/{md.a('dep', c)}*(1-{md.a('inc_casa', c)})*({md.a('td_fresh', c)}-{md.a('td_book', c)})")
     md.line("c_bor", "Cost of borrowings", "%", "", num="pct2", hist_kind="calc",
             hist=lambda c: f"=({hs.xr('ie', c)}-{hs.xr('ie_dep', c)})/{md.a('a_bor', c)}" if c in ("J", "K") else None,
             proj=lambda c: f"={md.a('c_bor', prev(c))}+{inp.xr('b_bor', c)}*({inp.xr('repo', c)}-{inp.xr('repo', prev(c))})")
@@ -599,7 +611,7 @@ def build():
     lev.ws.set_column(5, 12, 13)
     lev.r += 1
     LV = [("l1", "Rebuild CASA", 0.015, "pct1", "% of deposits", "CASA ratio above scenario path", 3, 18),
-          ("l2", "Retire legacy borrowings faster", 75000.0, "cr", "INR cr", "Extra borrowings replaced by deposits", 4, 12),
+          ("l2", "Retire legacy borrowings faster", 75000.0, "cr", "INR cr", "Extra borrowings replaced by new term deposits at the fresh rate", 4, 12),
           ("l3", "Re-mix advances to higher-yield retail and SME", 0.0010, "pct2", "% yield", "Yield on advances above path", 3, 9),
           ("l4", "Branch and operations productivity", 0.03, "pct1", "% of opex", "Opex below path", 4, 12),
           ("l5", "Protect bancassurance and grow card fees", 0.03, "pct1", "% of fees", "Fees above path", 3, 12),
@@ -618,7 +630,7 @@ def build():
     N = "N"
     pre = {
         "l1": f"=C{lev.rows['l1']+1}*{inp.x('spread_td', N)}*{md.x('a_dep', N)}",
-        "l2": f"=C{lev.rows['l2']+1}*({md.x('c_bor', N)}-{md.x('c_dep', N)})",
+        "l2": f"=C{lev.rows['l2']+1}*({md.x('c_bor', N)}-{md.x('td_fresh', N)})",  # replacement funding is new term deposits
         "l3": f"=C{lev.rows['l3']+1}*{md.x('a_loans', N)}",
         "l4": f"=C{lev.rows['l4']+1}*{md.x('opex', N)}",
         "l5": f"=C{lev.rows['l5']+1}*{md.x('fee', N)}",

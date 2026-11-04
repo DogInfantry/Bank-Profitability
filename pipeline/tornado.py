@@ -22,7 +22,7 @@ PROJ = ["L", "M", "N"]
 DRIVERS = [
     "Policy repo rate, fiscal-year average", "Yield beta: loans", "Cost beta: deposits", "Advances growth", "Deposit growth",
     "CASA ratio, year end", "Share of maturing borrowings retired", "Core fee income growth", "Operating expense growth",
-    "Credit cost", "IRDAI cap severity on bank fees", "Treasury and other non-fee income",
+    "Credit cost", "IRDAI cap severity on bank fees", "Treasury and other non-fee income", "Premium over the system fresh rate",
 ]
 
 

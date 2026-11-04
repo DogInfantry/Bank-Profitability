@@ -9,13 +9,13 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 ## 1. The answer (headline numbers; all from `data/tidy/hdfc_model_outputs.json`)
 | Metric | Downside | Base | Upside |
 |---|---|---|---|
-| RoA FY29E, before levers | 1.32% | **1.86%** | 2.25% |
-| RoA FY29E, with six levers | 1.50% | **2.04%** | 2.43% |
-| RoE FY29E, before levers | 10.6% | 14.6% | 17.5% |
-| Value per share at 2 Nov 2026 (residual income to sum of the parts) | ₹256-275 | **₹492-558** | ₹665-775 |
-| Break-even Ke (sum of the parts = ₹700) | 9.51% | **11.96%** | 13.76% |
+| RoA FY29E, before levers | 1.31% | **1.89%** | 2.27% |
+| RoA FY29E, with six levers | 1.48% | **2.06%** | 2.43% |
+| RoE FY29E, before levers | 10.6% | 14.9% | 17.6% |
+| Value per share at 2 Nov 2026 (residual income to sum of the parts) | ₹254-273 | **₹506-576** | ₹671-781 |
+| Break-even Ke (sum of the parts = ₹700) | 9.49% | **12.11%** | 13.81% |
 
-**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.86%. Six funding-led moves (+17.8 bp) get it to 2.04%. The ₹700 price implies a **16.7% core-bank RoE**, and the base case gives 14.6%. **Caveat:** this rests on the 13.13% CAPM Ke. At 11.96% or less the base case alone supports ₹700, and peer prices imply 10.6-11.1%.
+**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.89%. Six funding-led moves (+16.7 bp) get it to 2.06%. The ₹700 price implies a **16.7% core-bank RoE**, and the base case gives 14.9%. **Caveat:** this rests on the 13.13% CAPM Ke. At 12.1% or less the base case alone supports ₹700, and peer prices imply 10.6-11.1%.
 
 **Key facts used throughout:**
 - **Merger effects:**
@@ -24,14 +24,19 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 - **Gap to ICICI Bank, FY26:** 43 bp (NII 63, provisions 25; HDFC Bank ahead by 27 bp on opex).
 - **Borrowings and funding cost:**
   - ₹1.93 lakh cr of borrowings mature within a year; base case replaces 60% with deposits.
-  - Borrowings fall from 19% of funding (FY25) to 7% (FY29E); NIM rises to 3.51%.
+  - Borrowings fall from 19% of funding (FY25) to 7% (FY29E); NIM rises to 3.56%.
   - Cost of borrowings 7.80% vs cost of deposits 4.76% (FY26).
+  - **Marginal funding (step 3):** new term deposits cost the fresh rate, not the book rate.
+    - The system fresh rate was 5.61% in Sep-26 (RBI press release 2026-2027/1416), against 6.55% outstanding; HDFC's implied book TD rate is about 6.1%.
+    - Base fresh rate paid is 5.7-6.0% FY27-29E, so the marginal term adds about +3 bp to FY29E RoA.
+    - A deposit war (+50 bp over system, Downside) costs 6.8 bp of FY29E RoA.
+    - The base CASA path implies 37% of new deposits as CASA in FY28-29, against 21% delivered in the last four quarters: an optimistic input.
 - **Credit cost:** 0.48% recent vs 0.69% through the cycle; normalisation costs about 10 bp of RoA.
 - **Six levers, bp of FY29E RoA:**
   - re-mix advances 5.3;
   - productivity 3.8;
   - CASA 3.4;
-  - retire borrowings 3.0;
+  - retire borrowings 1.9 (was 3.0 before step 3: priced against the fresh TD rate, not the average cost of deposits);
   - fees 1.9;
   - UPI 0.4.
 
@@ -43,8 +48,8 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - Peer-implied Ke (FY26 trailing): ICICI 10.7%, Axis 10.6%, Kotak 8.9%, SBI 12.9%, HDFC Bank 11.1%.
   - Subsidiary dividends (₹2,242 cr FY26) are stripped from core RoE. The effect is about 0 bp, because removing the investment at cost offsets it (core 14.61% vs 14.62%).
   - Normalised FY26 core RoA is 166 bp: core 180, less 4 for subsidiary dividends, less 10 for through-the-cycle credit cost.
-  - Total value of the six levers ≈ ₹1.5 lakh cr.
-- **Tornado (FY29E RoA swing):** repo 20 bp, advances growth 15, credit cost 13, opex growth 11; regulation about 1 bp.
+  - Total value of the six levers ≈ ₹1.4 lakh cr.
+- **Tornado (FY29E RoA swing):** repo 16 bp, advances growth 15, credit cost 13, opex growth 11, deposit-war premium 7; regulation about 1 bp.
 - **Funding-cost beta:** 0.37 same year, 0.62 long run (R² 0.94, n = 9).
 - **Regulation:**
   - IRDAI commission caps cost the bank ₹873 cr of fees by FY29E; UPI MDR adds ₹564 cr.
@@ -172,7 +177,13 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - **RIDF deposits** are not broken out in the standalone notes; the PSLC purchases stand in as the PSL cost proxy.
 
      Not yet used by the model or site; steps 3-6 consume it.
-   - **3. Marginal funding cost:** a fresh TD rate (RBI WADTDR), incremental CASA share, and CRR/DICGC carry in the cost of deposits. Each 10 bp ≈ 5.7 bp of FY29E RoA.
+   - **3. Marginal funding cost: DONE (4 Nov 2026).** The cost of deposits now prices the term-deposit share of new deposits at the fresh rate:
+     - fresh rate = system rate 5.61% + 0.75 × repo change since Sep-26 + scenario premium;
+     - the incremental CASA share is implied by the CASA path;
+     - with the new term at zero, the formula is exactly the old one;
+     - lever 2 is now priced against the fresh rate.
+
+     CRR and DICGC are left out on purpose: CRR is already in the liquidity yield and DICGC in opex, so adding them would double count.
    - **4. Defensible levers:**
      - risk-adjusted re-mix (credit cost, 125% unsecured risk weight, RWA responds to mix);
      - joint vs sum, and FY27-29 phasing;
@@ -204,6 +215,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 3 (marginal funding cost):**
+  - New inputs: fresh rate, repo at the observation date, fresh beta, and the `td_prem` scenario driver (in the tornado).
+  - New Model lines: incremental CASA share, book TD rate, fresh TD rate; cost of deposits gains the marginal term.
+  - Engine ported, with 2 new parity checks per year.
+  - Headline moves: Base 1.86% → 1.89% (with levers 2.04% → 2.06%); value ₹492-558 → ₹506-576; break-even Ke 11.96% → 12.11%; lever 2 3.0 → 1.9 bp.
+  - The site masthead, the Ch04 title and the Ch08 RoA KPI are now bound to the engine (no longer hand-typed).
 - **4 Nov 2026, roadmap step 2 (deck panel):**
   - Downloaded 12 HDFC decks; the old hdfcbank.com links had moved to hdfc.bank.in.
   - `fetch_docs.py` gained `--symbols`/`--kinds` filters, creates `data/raw/ir/`, and reads `data/inputs/ir_url_overrides.csv`.

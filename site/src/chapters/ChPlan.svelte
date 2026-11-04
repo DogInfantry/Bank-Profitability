@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { app } from '../lib/store.svelte';
   import ChapterHead from '../lib/ChapterHead.svelte';
   import Exhibit from '../lib/Exhibit.svelte';
   import Roadmap, { type Action } from '../charts/Roadmap.svelte';
@@ -15,7 +16,8 @@
     { when: 'Later', area: 'Payments', short: 'UPI merchant-acquiring push', what: 'UPI merchant-acquiring push once MDR economics are proven', owner: 'Head, Payments', s: 12, e: 24 },
   ];
   const milestones = [{ m: 10, label: 'Q2 FY28: CASA checkpoint' }, { m: 17, label: 'FY28 result: target review' }, { m: 28, label: 'FY29: RoA at or above 2.00%' }];
-  const kpis = [['RoA (core)', 1.80, 2.04, 2, ''], ['CASA ratio', 34.1, 35.0, 1, ''], ['Borrowings / funding', 15.1, 7.2, 1, ''], ['Opex / average assets', 1.76, 1.64, 2, ''], ['Credit cost', 0.41, 0.68, 2, '≤ ']] as const;
+  const roaTarget = $derived(app.scenarioResults!.Base.bridge.withLevers / 100);
+  const kpis = $derived([['RoA (core)', 1.80, roaTarget, 2, ''], ['CASA ratio', 34.1, 35.0, 1, ''], ['Borrowings / funding', 15.1, 7.2, 1, ''], ['Opex / average assets', 1.76, 1.64, 2, ''], ['Credit cost', 0.41, 0.68, 2, '≤ ']] as [string, number, number, number, string][]);
 </script>
 <section class="chapter" id="plan">
   <ChapterHead n="08" kicker="Next twelve months" title="Three moves start this quarter; the slow one is funded by the fast ones" />

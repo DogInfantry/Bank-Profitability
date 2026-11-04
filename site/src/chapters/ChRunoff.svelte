@@ -12,7 +12,7 @@
   const f = $derived(app.model!.fy26);
 </script>
 <section class="chapter" id="runoff">
-  <ChapterHead n="04" kicker="Base case" title="Run-off does half the work; the base case still stops at 1.86%" />
+  <ChapterHead n="04" kicker="Base case" title={`Run-off does half the work; the base case still stops at ${pct(b.bridge.before / 1e4, 2)}`} />
   <Row>
     <p class="prose">The merger's legacy borrowings cost {pct(f.c_bor, 2)} against {pct(f.c_dep, 2)} for deposits. Most of them mature soon: ₹1.93 lakh cr within a year. Replacing 60% of maturing borrowings with deposits, the base case, takes borrowings from 19% of funding in FY25 to 7% by FY29 and lifts the margin to {pct(b.years[2].nim, 2)}.</p>
     <p class="prose">That repair is mechanical: it happens as bonds fall due, whatever management does. Borrowings end FY29 a smaller share of the balance sheet than before the merger, and deposits carry almost all of the growth.</p>

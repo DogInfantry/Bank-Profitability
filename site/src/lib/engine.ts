@@ -5,7 +5,7 @@
 export type Triple = [number, number, number];
 export type DriverKey =
   | 'repo' | 'b_loan' | 'b_inv' | 'b_dep' | 'b_bor' | 'g_loan' | 'g_dep' | 'casa'
-  | 'runoff' | 'g_fee' | 'oi_pct' | 'irdai' | 'g_opex' | 'cc';
+  | 'runoff' | 'g_fee' | 'oi_pct' | 'irdai' | 'g_opex' | 'cc' | 'td_prem';
 export type Drivers = Record<DriverKey, Triple>;
 export type Scenario = 'Base' | 'Upside' | 'Downside';
 
@@ -15,7 +15,7 @@ export interface ModelData {
   fy26: Record<string, number>;
   repo_fy26: number;
   drivers: Record<DriverKey, Record<Scenario, Triple>>;
-  fixed: { matur: Triple; spread_td: Triple; tax: Triple; payout: Triple };
+  fixed: { matur: Triple; spread_td: Triple; tax: Triple; payout: Triple; fresh0: number; repo_ref: number; b_fresh: number };
   fees: { hlife_bank_reset: number; other_ins_mult: number; pool: number; p2m_g: number; hd_share: number; acq_share: number; mdr_frac: Triple };
   levers: { name: string; size: number; unit: string; mechanism: string; feasibility: number; months: number }[];
   valuation: Record<string, number>;
@@ -25,7 +25,7 @@ export interface ModelData {
 export interface Year {
   loans: number; fixed: number; dep: number; bor: number; ol: number; div: number; eq: number; liq: number; cash_ret: number; ta: number;
   a_loans: number; a_liq: number; a_dep: number; a_bor: number; a_ta: number; a_eq: number; a_ta_x: number;
-  y_loan: number; y_liq: number; casa: number; c_dep: number; c_bor: number;
+  y_loan: number; y_liq: number; casa: number; c_dep: number; c_bor: number; inc_casa: number; td_book: number; td_fresh: number;
   ii: number; ie: number; nii: number; fee: number; irdai: number; mdr: number; oth: number; oi: number; rev: number;
   opex: number; ppop: number; prov: number; pbt: number; tax: number; pat: number;
   roa: number; roe: number; nim: number; ci: number; cd: number;
@@ -72,7 +72,11 @@ export function run(m: ModelData, d: Drivers, leverOn: boolean[] = m.levers.map(
     const y_loan = p.y_loan + g('b_loan') * dRepo;
     const y_liq = p.y_liq + g('b_inv') * dRepo;
     const casa = g('casa');
-    const c_dep = p.c_dep + g('b_dep') * dRepo + (p.casa - casa) * X.spread_td[i];
+    // New term deposits at the fresh rate, not the book rate (Model tab: inc_casa, td_book, td_fresh)
+    const inc_casa = (casa * dep - p.casa * p.dep) / (dep - p.dep);
+    const td_book = p.c_dep + p.casa * X.spread_td[i] + g('b_dep') * dRepo;
+    const td_fresh = X.fresh0 + X.b_fresh * (g('repo') - X.repo_ref) + g('td_prem');
+    const c_dep = p.c_dep + g('b_dep') * dRepo + (p.casa - casa) * X.spread_td[i] + (dep - p.dep) / dep * (1 - inc_casa) * (td_fresh - td_book);
     const c_bor = p.c_bor + g('b_bor') * dRepo;
     const ii = y_loan * a_loans + y_liq * a_liq;
     const ie = c_dep * a_dep + c_bor * a_bor;
@@ -96,7 +100,7 @@ export function run(m: ModelData, d: Drivers, leverOn: boolean[] = m.levers.map(
     const a_eq = (p.eq + eq) / 2;
     const y: Year = {
       loans, fixed, dep, bor, ol, div, eq, liq, cash_ret, ta, a_loans, a_liq, a_dep, a_bor, a_ta, a_eq, a_ta_x,
-      y_loan, y_liq, casa, c_dep, c_bor, ii, ie, nii, fee, irdai, mdr, oth, oi, rev, opex, ppop, prov, pbt, tax, pat,
+      y_loan, y_liq, casa, c_dep, c_bor, inc_casa, td_book, td_fresh, ii, ie, nii, fee, irdai, mdr, oth, oi, rev, opex, ppop, prov, pbt, tax, pat,
       roa: pat / a_ta, roe: pat / a_eq, nim: nii / (a_loans + a_liq), ci: opex / rev, cd: loans / dep,
     };
     years.push(y);
@@ -111,7 +115,7 @@ export function run(m: ModelData, d: Drivers, leverOn: boolean[] = m.levers.map(
     const s = l.size * leverScale;
     switch (j) {
       case 0: return s * X.spread_td[2] * N.a_dep;                       // CASA
-      case 1: return s * (N.c_bor - N.c_dep);                            // borrowings retired
+      case 1: return s * (N.c_bor - N.td_fresh);                         // borrowings retired, replaced at the fresh TD rate
       case 2: return s * N.a_loans;                                      // asset re-mix (yield)
       case 3: return s * N.opex;                                         // productivity
       case 4: return s * N.fee;                                          // fees

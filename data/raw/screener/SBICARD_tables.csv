@@ -1,0 +1,492 @@
+symbol,section,line_item,period,value
+SBICARD,quarters,Revenue,Sep 2023,4087.0
+SBICARD,quarters,Revenue,Dec 2023,4622.0
+SBICARD,quarters,Revenue,Mar 2024,4348.0
+SBICARD,quarters,Revenue,Jun 2024,4359.0
+SBICARD,quarters,Revenue,Sep 2024,4421.0
+SBICARD,quarters,Revenue,Dec 2024,4619.0
+SBICARD,quarters,Revenue,Mar 2025,4674.0
+SBICARD,quarters,Revenue,Jun 2025,4877.0
+SBICARD,quarters,Revenue,Sep 2025,4961.0
+SBICARD,quarters,Revenue,Dec 2025,5127.0
+SBICARD,quarters,Revenue,Mar 2026,4934.0
+SBICARD,quarters,Revenue,Jun 2026,5041.0
+SBICARD,quarters,Revenue,Sep 2026,5141.0
+SBICARD,quarters,YoY Revenue growth,Sep 2023,24.0
+SBICARD,quarters,YoY Revenue growth,Dec 2023,32.0
+SBICARD,quarters,YoY Revenue growth,Mar 2024,16.0
+SBICARD,quarters,YoY Revenue growth,Jun 2024,11.0
+SBICARD,quarters,YoY Revenue growth,Sep 2024,8.0
+SBICARD,quarters,YoY Revenue growth,Dec 2024,-0.0
+SBICARD,quarters,YoY Revenue growth,Mar 2025,8.0
+SBICARD,quarters,YoY Revenue growth,Jun 2025,12.0
+SBICARD,quarters,YoY Revenue growth,Sep 2025,12.0
+SBICARD,quarters,YoY Revenue growth,Dec 2025,11.0
+SBICARD,quarters,YoY Revenue growth,Mar 2026,6.0
+SBICARD,quarters,YoY Revenue growth,Jun 2026,3.0
+SBICARD,quarters,YoY Revenue growth,Sep 2026,4.0
+SBICARD,quarters,Interest,Sep 2023,605.0
+SBICARD,quarters,Interest,Dec 2023,695.0
+SBICARD,quarters,Interest,Mar 2024,724.0
+SBICARD,quarters,Interest,Jun 2024,767.0
+SBICARD,quarters,Interest,Sep 2024,788.0
+SBICARD,quarters,Interest,Dec 2024,829.0
+SBICARD,quarters,Interest,Mar 2025,795.0
+SBICARD,quarters,Interest,Jun 2025,813.0
+SBICARD,quarters,Interest,Sep 2025,760.0
+SBICARD,quarters,Interest,Dec 2025,785.0
+SBICARD,quarters,Interest,Mar 2026,714.0
+SBICARD,quarters,Interest,Jun 2026,745.0
+SBICARD,quarters,Interest,Sep 2026,787.0
+SBICARD,quarters,Expenses,Sep 2023,2760.0
+SBICARD,quarters,Expenses,Dec 2023,3258.0
+SBICARD,quarters,Expenses,Mar 2024,2811.0
+SBICARD,quarters,Expenses,Jun 2024,2867.0
+SBICARD,quarters,Expenses,Sep 2024,3173.0
+SBICARD,quarters,Expenses,Dec 2024,3372.0
+SBICARD,quarters,Expenses,Mar 2025,3320.0
+SBICARD,quarters,Expenses,Jun 2025,3439.0
+SBICARD,quarters,Expenses,Sep 2025,3742.0
+SBICARD,quarters,Expenses,Dec 2025,3785.0
+SBICARD,quarters,Expenses,Mar 2026,3625.0
+SBICARD,quarters,Expenses,Jun 2026,3537.0
+SBICARD,quarters,Expenses,Sep 2026,3436.0
+SBICARD,quarters,Financing Profit,Sep 2023,722.0
+SBICARD,quarters,Financing Profit,Dec 2023,668.0
+SBICARD,quarters,Financing Profit,Mar 2024,813.0
+SBICARD,quarters,Financing Profit,Jun 2024,725.0
+SBICARD,quarters,Financing Profit,Sep 2024,461.0
+SBICARD,quarters,Financing Profit,Dec 2024,419.0
+SBICARD,quarters,Financing Profit,Mar 2025,559.0
+SBICARD,quarters,Financing Profit,Jun 2025,625.0
+SBICARD,quarters,Financing Profit,Sep 2025,459.0
+SBICARD,quarters,Financing Profit,Dec 2025,557.0
+SBICARD,quarters,Financing Profit,Mar 2026,596.0
+SBICARD,quarters,Financing Profit,Jun 2026,759.0
+SBICARD,quarters,Financing Profit,Sep 2026,917.0
+SBICARD,quarters,Financing Margin %,Sep 2023,18.0
+SBICARD,quarters,Financing Margin %,Dec 2023,14.0
+SBICARD,quarters,Financing Margin %,Mar 2024,19.0
+SBICARD,quarters,Financing Margin %,Jun 2024,17.0
+SBICARD,quarters,Financing Margin %,Sep 2024,10.0
+SBICARD,quarters,Financing Margin %,Dec 2024,9.0
+SBICARD,quarters,Financing Margin %,Mar 2025,12.0
+SBICARD,quarters,Financing Margin %,Jun 2025,13.0
+SBICARD,quarters,Financing Margin %,Sep 2025,9.0
+SBICARD,quarters,Financing Margin %,Dec 2025,11.0
+SBICARD,quarters,Financing Margin %,Mar 2026,12.0
+SBICARD,quarters,Financing Margin %,Jun 2026,15.0
+SBICARD,quarters,Financing Margin %,Sep 2026,18.0
+SBICARD,quarters,Other Income,Sep 2023,134.0
+SBICARD,quarters,Other Income,Dec 2023,120.0
+SBICARD,quarters,Other Income,Mar 2024,127.0
+SBICARD,quarters,Other Income,Jun 2024,124.0
+SBICARD,quarters,Other Income,Sep 2024,135.0
+SBICARD,quarters,Other Income,Dec 2024,148.0
+SBICARD,quarters,Other Income,Mar 2025,158.0
+SBICARD,quarters,Other Income,Jun 2025,158.0
+SBICARD,quarters,Other Income,Sep 2025,176.0
+SBICARD,quarters,Other Income,Dec 2025,226.0
+SBICARD,quarters,Other Income,Mar 2026,253.0
+SBICARD,quarters,Other Income,Jun 2026,165.0
+SBICARD,quarters,Other Income,Sep 2026,161.0
+SBICARD,quarters,Depreciation,Sep 2023,47.0
+SBICARD,quarters,Depreciation,Dec 2023,51.0
+SBICARD,quarters,Depreciation,Mar 2024,52.0
+SBICARD,quarters,Depreciation,Jun 2024,49.0
+SBICARD,quarters,Depreciation,Sep 2024,50.0
+SBICARD,quarters,Depreciation,Dec 2024,49.0
+SBICARD,quarters,Depreciation,Mar 2025,-2.0
+SBICARD,quarters,Depreciation,Jun 2025,35.0
+SBICARD,quarters,Depreciation,Sep 2025,35.0
+SBICARD,quarters,Depreciation,Dec 2025,34.0
+SBICARD,quarters,Depreciation,Mar 2026,32.0
+SBICARD,quarters,Depreciation,Jun 2026,31.0
+SBICARD,quarters,Depreciation,Sep 2026,33.0
+SBICARD,quarters,Profit before tax,Sep 2023,809.0
+SBICARD,quarters,Profit before tax,Dec 2023,738.0
+SBICARD,quarters,Profit before tax,Mar 2024,888.0
+SBICARD,quarters,Profit before tax,Jun 2024,799.0
+SBICARD,quarters,Profit before tax,Sep 2024,545.0
+SBICARD,quarters,Profit before tax,Dec 2024,518.0
+SBICARD,quarters,Profit before tax,Mar 2025,719.0
+SBICARD,quarters,Profit before tax,Jun 2025,748.0
+SBICARD,quarters,Profit before tax,Sep 2025,600.0
+SBICARD,quarters,Profit before tax,Dec 2025,749.0
+SBICARD,quarters,Profit before tax,Mar 2026,816.0
+SBICARD,quarters,Profit before tax,Jun 2026,893.0
+SBICARD,quarters,Profit before tax,Sep 2026,1046.0
+SBICARD,quarters,Tax %,Sep 2023,26.0
+SBICARD,quarters,Tax %,Dec 2023,26.0
+SBICARD,quarters,Tax %,Mar 2024,25.0
+SBICARD,quarters,Tax %,Jun 2024,26.0
+SBICARD,quarters,Tax %,Sep 2024,26.0
+SBICARD,quarters,Tax %,Dec 2024,26.0
+SBICARD,quarters,Tax %,Mar 2025,26.0
+SBICARD,quarters,Tax %,Jun 2025,26.0
+SBICARD,quarters,Tax %,Sep 2025,26.0
+SBICARD,quarters,Tax %,Dec 2025,26.0
+SBICARD,quarters,Tax %,Mar 2026,25.0
+SBICARD,quarters,Tax %,Jun 2026,26.0
+SBICARD,quarters,Tax %,Sep 2026,26.0
+SBICARD,quarters,Net Profit,Sep 2023,603.0
+SBICARD,quarters,Net Profit,Dec 2023,549.0
+SBICARD,quarters,Net Profit,Mar 2024,662.0
+SBICARD,quarters,Net Profit,Jun 2024,594.0
+SBICARD,quarters,Net Profit,Sep 2024,404.0
+SBICARD,quarters,Net Profit,Dec 2024,383.0
+SBICARD,quarters,Net Profit,Mar 2025,534.0
+SBICARD,quarters,Net Profit,Jun 2025,556.0
+SBICARD,quarters,Net Profit,Sep 2025,445.0
+SBICARD,quarters,Net Profit,Dec 2025,557.0
+SBICARD,quarters,Net Profit,Mar 2026,609.0
+SBICARD,quarters,Net Profit,Jun 2026,664.0
+SBICARD,quarters,Net Profit,Sep 2026,778.0
+SBICARD,quarters,EPS in Rs,Sep 2023,6.37
+SBICARD,quarters,EPS in Rs,Dec 2023,5.78
+SBICARD,quarters,EPS in Rs,Mar 2024,6.97
+SBICARD,quarters,EPS in Rs,Jun 2024,6.25
+SBICARD,quarters,EPS in Rs,Sep 2024,4.25
+SBICARD,quarters,EPS in Rs,Dec 2024,4.03
+SBICARD,quarters,EPS in Rs,Mar 2025,5.61
+SBICARD,quarters,EPS in Rs,Jun 2025,5.84
+SBICARD,quarters,EPS in Rs,Sep 2025,4.67
+SBICARD,quarters,EPS in Rs,Dec 2025,5.85
+SBICARD,quarters,EPS in Rs,Mar 2026,6.4
+SBICARD,quarters,EPS in Rs,Jun 2026,6.98
+SBICARD,quarters,EPS in Rs,Sep 2026,8.17
+SBICARD,quarters,Gross NPA %,Sep 2023,2.43
+SBICARD,quarters,Gross NPA %,Dec 2023,2.64
+SBICARD,quarters,Gross NPA %,Mar 2024,2.76
+SBICARD,quarters,Gross NPA %,Jun 2024,3.06
+SBICARD,quarters,Gross NPA %,Sep 2024,3.27
+SBICARD,quarters,Gross NPA %,Dec 2024,3.24
+SBICARD,quarters,Gross NPA %,Mar 2025,3.08
+SBICARD,quarters,Gross NPA %,Jun 2025,3.07
+SBICARD,quarters,Gross NPA %,Sep 2025,2.85
+SBICARD,quarters,Gross NPA %,Dec 2025,2.86
+SBICARD,quarters,Gross NPA %,Mar 2026,2.41
+SBICARD,quarters,Gross NPA %,Jun 2026,2.04
+SBICARD,quarters,Gross NPA %,Sep 2026,1.9
+SBICARD,quarters,Net NPA %,Sep 2023,0.89
+SBICARD,quarters,Net NPA %,Dec 2023,0.96
+SBICARD,quarters,Net NPA %,Mar 2024,0.99
+SBICARD,quarters,Net NPA %,Jun 2024,1.11
+SBICARD,quarters,Net NPA %,Sep 2024,1.19
+SBICARD,quarters,Net NPA %,Dec 2024,1.18
+SBICARD,quarters,Net NPA %,Mar 2025,1.46
+SBICARD,quarters,Net NPA %,Jun 2025,1.42
+SBICARD,quarters,Net NPA %,Sep 2025,1.29
+SBICARD,quarters,Net NPA %,Dec 2025,1.28
+SBICARD,quarters,Net NPA %,Mar 2026,1.04
+SBICARD,quarters,Net NPA %,Jun 2026,0.83
+SBICARD,quarters,Net NPA %,Sep 2026,0.77
+SBICARD,profit-loss,Revenue,Mar 2015,1822.0
+SBICARD,profit-loss,Revenue,Mar 2016,2392.0
+SBICARD,profit-loss,Revenue,Mar 2017,3347.0
+SBICARD,profit-loss,Revenue,Mar 2018,5195.0
+SBICARD,profit-loss,Revenue,Mar 2019,7017.0
+SBICARD,profit-loss,Revenue,Mar 2020,9281.0
+SBICARD,profit-loss,Revenue,Mar 2021,9301.0
+SBICARD,profit-loss,Revenue,Mar 2022,10679.0
+SBICARD,profit-loss,Revenue,Mar 2023,13670.0
+SBICARD,profit-loss,Revenue,Mar 2024,16986.0
+SBICARD,profit-loss,Revenue,Mar 2025,18074.0
+SBICARD,profit-loss,Revenue,Mar 2026,19901.0
+SBICARD,profit-loss,Revenue,TTM,20243.0
+SBICARD,profit-loss,Revenue growth,Mar 2015,27.0
+SBICARD,profit-loss,Revenue growth,Mar 2016,31.0
+SBICARD,profit-loss,Revenue growth,Mar 2017,40.0
+SBICARD,profit-loss,Revenue growth,Mar 2018,55.0
+SBICARD,profit-loss,Revenue growth,Mar 2019,35.0
+SBICARD,profit-loss,Revenue growth,Mar 2020,32.0
+SBICARD,profit-loss,Revenue growth,Mar 2021,0.0
+SBICARD,profit-loss,Revenue growth,Mar 2022,15.0
+SBICARD,profit-loss,Revenue growth,Mar 2023,28.0
+SBICARD,profit-loss,Revenue growth,Mar 2024,24.0
+SBICARD,profit-loss,Revenue growth,Mar 2025,6.0
+SBICARD,profit-loss,Revenue growth,Mar 2026,10.0
+SBICARD,profit-loss,Revenue growth,TTM,6.0
+SBICARD,profit-loss,Interest,Mar 2015,378.0
+SBICARD,profit-loss,Interest,Mar 2016,436.0
+SBICARD,profit-loss,Interest,Mar 2017,528.0
+SBICARD,profit-loss,Interest,Mar 2018,712.0
+SBICARD,profit-loss,Interest,Mar 2019,1009.0
+SBICARD,profit-loss,Interest,Mar 2020,1301.0
+SBICARD,profit-loss,Interest,Mar 2021,1043.0
+SBICARD,profit-loss,Interest,Mar 2022,1027.0
+SBICARD,profit-loss,Interest,Mar 2023,1648.0
+SBICARD,profit-loss,Interest,Mar 2024,2595.0
+SBICARD,profit-loss,Interest,Mar 2025,3178.0
+SBICARD,profit-loss,Interest,Mar 2026,3072.0
+SBICARD,profit-loss,Interest,TTM,3030.0
+SBICARD,profit-loss,Expenses,Mar 2015,1255.0
+SBICARD,profit-loss,Expenses,Mar 2016,1617.0
+SBICARD,profit-loss,Expenses,Mar 2017,2366.0
+SBICARD,profit-loss,Expenses,Mar 2018,3715.0
+SBICARD,profit-loss,Expenses,Mar 2019,4887.0
+SBICARD,profit-loss,Expenses,Mar 2020,6618.0
+SBICARD,profit-loss,Expenses,Mar 2021,7223.0
+SBICARD,profit-loss,Expenses,Mar 2022,7953.0
+SBICARD,profit-loss,Expenses,Mar 2023,9444.0
+SBICARD,profit-loss,Expenses,Mar 2024,11460.0
+SBICARD,profit-loss,Expenses,Mar 2025,12731.0
+SBICARD,profit-loss,Expenses,Mar 2026,14587.0
+SBICARD,profit-loss,Expenses,TTM,14384.0
+SBICARD,profit-loss,Financing Profit,Mar 2015,189.0
+SBICARD,profit-loss,Financing Profit,Mar 2016,339.0
+SBICARD,profit-loss,Financing Profit,Mar 2017,452.0
+SBICARD,profit-loss,Financing Profit,Mar 2018,769.0
+SBICARD,profit-loss,Financing Profit,Mar 2019,1121.0
+SBICARD,profit-loss,Financing Profit,Mar 2020,1362.0
+SBICARD,profit-loss,Financing Profit,Mar 2021,1034.0
+SBICARD,profit-loss,Financing Profit,Mar 2022,1699.0
+SBICARD,profit-loss,Financing Profit,Mar 2023,2579.0
+SBICARD,profit-loss,Financing Profit,Mar 2024,2931.0
+SBICARD,profit-loss,Financing Profit,Mar 2025,2164.0
+SBICARD,profit-loss,Financing Profit,Mar 2026,2243.0
+SBICARD,profit-loss,Financing Profit,TTM,2828.0
+SBICARD,profit-loss,Financing Margin %,Mar 2015,10.0
+SBICARD,profit-loss,Financing Margin %,Mar 2016,14.0
+SBICARD,profit-loss,Financing Margin %,Mar 2017,14.0
+SBICARD,profit-loss,Financing Margin %,Mar 2018,15.0
+SBICARD,profit-loss,Financing Margin %,Mar 2019,16.0
+SBICARD,profit-loss,Financing Margin %,Mar 2020,15.0
+SBICARD,profit-loss,Financing Margin %,Mar 2021,11.0
+SBICARD,profit-loss,Financing Margin %,Mar 2022,16.0
+SBICARD,profit-loss,Financing Margin %,Mar 2023,19.0
+SBICARD,profit-loss,Financing Margin %,Mar 2024,17.0
+SBICARD,profit-loss,Financing Margin %,Mar 2025,12.0
+SBICARD,profit-loss,Financing Margin %,Mar 2026,11.0
+SBICARD,profit-loss,Financing Margin %,TTM,14.0
+SBICARD,profit-loss,Other Income,Mar 2015,82.0
+SBICARD,profit-loss,Other Income,Mar 2016,100.0
+SBICARD,profit-loss,Other Income,Mar 2017,124.0
+SBICARD,profit-loss,Other Income,Mar 2018,175.0
+SBICARD,profit-loss,Other Income,Mar 2019,270.0
+SBICARD,profit-loss,Other Income,Mar 2020,471.0
+SBICARD,profit-loss,Other Income,Mar 2021,413.0
+SBICARD,profit-loss,Other Income,Mar 2022,622.0
+SBICARD,profit-loss,Other Income,Mar 2023,615.0
+SBICARD,profit-loss,Other Income,Mar 2024,498.0
+SBICARD,profit-loss,Other Income,Mar 2025,563.0
+SBICARD,profit-loss,Other Income,Mar 2026,806.0
+SBICARD,profit-loss,Other Income,TTM,805.0
+SBICARD,profit-loss,Depreciation,Mar 2015,1.0
+SBICARD,profit-loss,Depreciation,Mar 2016,1.0
+SBICARD,profit-loss,Depreciation,Mar 2017,5.0
+SBICARD,profit-loss,Depreciation,Mar 2018,24.0
+SBICARD,profit-loss,Depreciation,Mar 2019,55.0
+SBICARD,profit-loss,Depreciation,Mar 2020,104.0
+SBICARD,profit-loss,Depreciation,Mar 2021,123.0
+SBICARD,profit-loss,Depreciation,Mar 2022,149.0
+SBICARD,profit-loss,Depreciation,Mar 2023,164.0
+SBICARD,profit-loss,Depreciation,Mar 2024,197.0
+SBICARD,profit-loss,Depreciation,Mar 2025,147.0
+SBICARD,profit-loss,Depreciation,Mar 2026,136.0
+SBICARD,profit-loss,Depreciation,TTM,129.0
+SBICARD,profit-loss,Profit before tax,Mar 2015,271.0
+SBICARD,profit-loss,Profit before tax,Mar 2016,438.0
+SBICARD,profit-loss,Profit before tax,Mar 2017,572.0
+SBICARD,profit-loss,Profit before tax,Mar 2018,919.0
+SBICARD,profit-loss,Profit before tax,Mar 2019,1335.0
+SBICARD,profit-loss,Profit before tax,Mar 2020,1730.0
+SBICARD,profit-loss,Profit before tax,Mar 2021,1324.0
+SBICARD,profit-loss,Profit before tax,Mar 2022,2172.0
+SBICARD,profit-loss,Profit before tax,Mar 2023,3031.0
+SBICARD,profit-loss,Profit before tax,Mar 2024,3232.0
+SBICARD,profit-loss,Profit before tax,Mar 2025,2581.0
+SBICARD,profit-loss,Profit before tax,Mar 2026,2913.0
+SBICARD,profit-loss,Profit before tax,TTM,3504.0
+SBICARD,profit-loss,Tax %,Mar 2015,1.0
+SBICARD,profit-loss,Tax %,Mar 2016,35.0
+SBICARD,profit-loss,Tax %,Mar 2017,35.0
+SBICARD,profit-loss,Tax %,Mar 2018,35.0
+SBICARD,profit-loss,Tax %,Mar 2019,35.0
+SBICARD,profit-loss,Tax %,Mar 2020,28.0
+SBICARD,profit-loss,Tax %,Mar 2021,26.0
+SBICARD,profit-loss,Tax %,Mar 2022,26.0
+SBICARD,profit-loss,Tax %,Mar 2023,25.0
+SBICARD,profit-loss,Tax %,Mar 2024,25.0
+SBICARD,profit-loss,Tax %,Mar 2025,26.0
+SBICARD,profit-loss,Tax %,Mar 2026,26.0
+SBICARD,profit-loss,Net Profit,Mar 2015,267.0
+SBICARD,profit-loss,Net Profit,Mar 2016,284.0
+SBICARD,profit-loss,Net Profit,Mar 2017,373.0
+SBICARD,profit-loss,Net Profit,Mar 2018,601.0
+SBICARD,profit-loss,Net Profit,Mar 2019,865.0
+SBICARD,profit-loss,Net Profit,Mar 2020,1245.0
+SBICARD,profit-loss,Net Profit,Mar 2021,985.0
+SBICARD,profit-loss,Net Profit,Mar 2022,1616.0
+SBICARD,profit-loss,Net Profit,Mar 2023,2258.0
+SBICARD,profit-loss,Net Profit,Mar 2024,2408.0
+SBICARD,profit-loss,Net Profit,Mar 2025,1916.0
+SBICARD,profit-loss,Net Profit,Mar 2026,2167.0
+SBICARD,profit-loss,Net Profit,TTM,2608.0
+SBICARD,profit-loss,EPS in Rs,Mar 2015,3.4
+SBICARD,profit-loss,EPS in Rs,Mar 2016,3.62
+SBICARD,profit-loss,EPS in Rs,Mar 2017,4.75
+SBICARD,profit-loss,EPS in Rs,Mar 2018,7.66
+SBICARD,profit-loss,EPS in Rs,Mar 2019,10.33
+SBICARD,profit-loss,EPS in Rs,Mar 2020,13.26
+SBICARD,profit-loss,EPS in Rs,Mar 2021,10.47
+SBICARD,profit-loss,EPS in Rs,Mar 2022,17.14
+SBICARD,profit-loss,EPS in Rs,Mar 2023,23.87
+SBICARD,profit-loss,EPS in Rs,Mar 2024,25.32
+SBICARD,profit-loss,EPS in Rs,Mar 2025,20.14
+SBICARD,profit-loss,EPS in Rs,Mar 2026,22.77
+SBICARD,profit-loss,EPS in Rs,TTM,27.4
+SBICARD,profit-loss,Dividend Payout %,Mar 2015,15.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2016,28.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2017,21.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2018,0.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2019,10.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2020,8.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2021,0.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2022,15.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2023,10.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2024,10.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2025,12.0
+SBICARD,profit-loss,Dividend Payout %,Mar 2026,11.0
+SBICARD,balance-sheet,Equity Capital,Mar 2015,785.0
+SBICARD,balance-sheet,Equity Capital,Mar 2016,785.0
+SBICARD,balance-sheet,Equity Capital,Mar 2017,785.0
+SBICARD,balance-sheet,Equity Capital,Mar 2018,785.0
+SBICARD,balance-sheet,Equity Capital,Mar 2019,837.0
+SBICARD,balance-sheet,Equity Capital,Mar 2020,939.0
+SBICARD,balance-sheet,Equity Capital,Mar 2021,941.0
+SBICARD,balance-sheet,Equity Capital,Mar 2022,943.0
+SBICARD,balance-sheet,Equity Capital,Mar 2023,946.0
+SBICARD,balance-sheet,Equity Capital,Mar 2024,951.0
+SBICARD,balance-sheet,Equity Capital,Mar 2025,951.0
+SBICARD,balance-sheet,Equity Capital,Mar 2026,952.0
+SBICARD,balance-sheet,Equity Capital,Sep 2026,952.0
+SBICARD,balance-sheet,Reserves,Mar 2015,181.0
+SBICARD,balance-sheet,Reserves,Mar 2016,370.0
+SBICARD,balance-sheet,Reserves,Mar 2017,664.0
+SBICARD,balance-sheet,Reserves,Mar 2018,1568.0
+SBICARD,balance-sheet,Reserves,Mar 2019,2751.0
+SBICARD,balance-sheet,Reserves,Mar 2020,4402.0
+SBICARD,balance-sheet,Reserves,Mar 2021,5362.0
+SBICARD,balance-sheet,Reserves,Mar 2022,6810.0
+SBICARD,balance-sheet,Reserves,Mar 2023,8884.0
+SBICARD,balance-sheet,Reserves,Mar 2024,11133.0
+SBICARD,balance-sheet,Reserves,Mar 2025,12830.0
+SBICARD,balance-sheet,Reserves,Mar 2026,14774.0
+SBICARD,balance-sheet,Reserves,Sep 2026,16220.0
+SBICARD,balance-sheet,Borrowing,Mar 2015,4699.0
+SBICARD,balance-sheet,Borrowing,Mar 2016,5928.0
+SBICARD,balance-sheet,Borrowing,Mar 2017,8268.0
+SBICARD,balance-sheet,Borrowing,Mar 2018,11413.0
+SBICARD,balance-sheet,Borrowing,Mar 2019,13549.0
+SBICARD,balance-sheet,Borrowing,Mar 2020,17573.0
+SBICARD,balance-sheet,Borrowing,Mar 2021,17895.0
+SBICARD,balance-sheet,Borrowing,Mar 2022,22982.0
+SBICARD,balance-sheet,Borrowing,Mar 2023,31110.0
+SBICARD,balance-sheet,Borrowing,Mar 2024,39891.0
+SBICARD,balance-sheet,Borrowing,Mar 2025,44947.0
+SBICARD,balance-sheet,Borrowing,Mar 2026,44064.0
+SBICARD,balance-sheet,Borrowing,Sep 2026,47850.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2015,593.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2016,797.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2017,1048.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2018,1920.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2019,3009.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2020,2393.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2021,2816.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2022,3913.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2023,4606.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2024,6196.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2025,6817.0
+SBICARD,balance-sheet,Other Liabilities,Mar 2026,6539.0
+SBICARD,balance-sheet,Other Liabilities,Sep 2026,6080.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2015,6257.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2016,7880.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2017,10765.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2018,15686.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2019,20146.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2020,25307.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2021,27013.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2022,34648.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2023,45546.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2024,58171.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2025,65546.0
+SBICARD,balance-sheet,Total Liabilities,Mar 2026,66328.0
+SBICARD,balance-sheet,Total Liabilities,Sep 2026,71102.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2015,2.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2016,2.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2017,24.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2018,242.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2019,196.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2020,311.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2021,308.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2022,439.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2023,551.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2024,542.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2025,320.0
+SBICARD,balance-sheet,Fixed Assets,Mar 2026,219.0
+SBICARD,balance-sheet,Fixed Assets,Sep 2026,238.0
+SBICARD,balance-sheet,CWIP,Mar 2015,0.0
+SBICARD,balance-sheet,CWIP,Mar 2016,0.0
+SBICARD,balance-sheet,CWIP,Mar 2017,0.0
+SBICARD,balance-sheet,CWIP,Mar 2018,35.0
+SBICARD,balance-sheet,CWIP,Mar 2019,20.0
+SBICARD,balance-sheet,CWIP,Mar 2020,24.0
+SBICARD,balance-sheet,CWIP,Mar 2021,10.0
+SBICARD,balance-sheet,CWIP,Mar 2022,14.0
+SBICARD,balance-sheet,CWIP,Mar 2023,23.0
+SBICARD,balance-sheet,CWIP,Mar 2024,22.0
+SBICARD,balance-sheet,CWIP,Mar 2025,10.0
+SBICARD,balance-sheet,CWIP,Mar 2026,12.0
+SBICARD,balance-sheet,CWIP,Sep 2026,0.0
+SBICARD,balance-sheet,Investments,Mar 2015,0.0
+SBICARD,balance-sheet,Investments,Mar 2016,0.0
+SBICARD,balance-sheet,Investments,Mar 2017,0.0
+SBICARD,balance-sheet,Investments,Mar 2018,0.0
+SBICARD,balance-sheet,Investments,Mar 2019,1.0
+SBICARD,balance-sheet,Investments,Mar 2020,1.0
+SBICARD,balance-sheet,Investments,Mar 2021,958.0
+SBICARD,balance-sheet,Investments,Mar 2022,1297.0
+SBICARD,balance-sheet,Investments,Mar 2023,2140.0
+SBICARD,balance-sheet,Investments,Mar 2024,3519.0
+SBICARD,balance-sheet,Investments,Mar 2025,6235.0
+SBICARD,balance-sheet,Investments,Mar 2026,6374.0
+SBICARD,balance-sheet,Investments,Sep 2026,7980.0
+SBICARD,balance-sheet,Other Assets,Mar 2015,6256.0
+SBICARD,balance-sheet,Other Assets,Mar 2016,7878.0
+SBICARD,balance-sheet,Other Assets,Mar 2017,10741.0
+SBICARD,balance-sheet,Other Assets,Mar 2018,15409.0
+SBICARD,balance-sheet,Other Assets,Mar 2019,19928.0
+SBICARD,balance-sheet,Other Assets,Mar 2020,24971.0
+SBICARD,balance-sheet,Other Assets,Mar 2021,25737.0
+SBICARD,balance-sheet,Other Assets,Mar 2022,32898.0
+SBICARD,balance-sheet,Other Assets,Mar 2023,42832.0
+SBICARD,balance-sheet,Other Assets,Mar 2024,54088.0
+SBICARD,balance-sheet,Other Assets,Mar 2025,58980.0
+SBICARD,balance-sheet,Other Assets,Mar 2026,59723.0
+SBICARD,balance-sheet,Other Assets,Sep 2026,62885.0
+SBICARD,balance-sheet,Total Assets,Mar 2015,6257.0
+SBICARD,balance-sheet,Total Assets,Mar 2016,7880.0
+SBICARD,balance-sheet,Total Assets,Mar 2017,10765.0
+SBICARD,balance-sheet,Total Assets,Mar 2018,15686.0
+SBICARD,balance-sheet,Total Assets,Mar 2019,20146.0
+SBICARD,balance-sheet,Total Assets,Mar 2020,25307.0
+SBICARD,balance-sheet,Total Assets,Mar 2021,27013.0
+SBICARD,balance-sheet,Total Assets,Mar 2022,34648.0
+SBICARD,balance-sheet,Total Assets,Mar 2023,45546.0
+SBICARD,balance-sheet,Total Assets,Mar 2024,58171.0
+SBICARD,balance-sheet,Total Assets,Mar 2025,65546.0
+SBICARD,balance-sheet,Total Assets,Mar 2026,66328.0
+SBICARD,balance-sheet,Total Assets,Sep 2026,71102.0
+SBICARD,ratios,ROE %,Mar 2015,31.0
+SBICARD,ratios,ROE %,Mar 2016,27.0
+SBICARD,ratios,ROE %,Mar 2017,29.0
+SBICARD,ratios,ROE %,Mar 2018,32.0
+SBICARD,ratios,ROE %,Mar 2019,29.0
+SBICARD,ratios,ROE %,Mar 2020,28.0
+SBICARD,ratios,ROE %,Mar 2021,17.0
+SBICARD,ratios,ROE %,Mar 2022,23.0
+SBICARD,ratios,ROE %,Mar 2023,26.0
+SBICARD,ratios,ROE %,Mar 2024,22.0
+SBICARD,ratios,ROE %,Mar 2025,15.0
+SBICARD,ratios,ROE %,Mar 2026,15.0

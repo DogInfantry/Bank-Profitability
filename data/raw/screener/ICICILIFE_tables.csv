@@ -1,0 +1,502 @@
+symbol,section,line_item,period,value
+ICICILIFE,quarters,Sales,Sep 2023,17387.0
+ICICILIFE,quarters,Sales,Dec 2023,26429.0
+ICICILIFE,quarters,Sales,Mar 2024,22481.0
+ICICILIFE,quarters,Sales,Jun 2024,25395.0
+ICICILIFE,quarters,Sales,Sep 2024,25157.0
+ICICILIFE,quarters,Sales,Dec 2024,4536.0
+ICICILIFE,quarters,Sales,Mar 2025,15687.0
+ICICILIFE,quarters,Sales,Jun 2025,25400.0
+ICICILIFE,quarters,Sales,Sep 2025,11935.0
+ICICILIFE,quarters,Sales,Dec 2025,22833.0
+ICICILIFE,quarters,Sales,Mar 2026,3299.0
+ICICILIFE,quarters,Sales,Jun 2026,28513.0
+ICICILIFE,quarters,Sales,Sep 2026,12031.0
+ICICILIFE,quarters,YoY Sales growth,Sep 2023,-23.0
+ICICILIFE,quarters,YoY Sales growth,Dec 2023,52.0
+ICICILIFE,quarters,YoY Sales growth,Mar 2024,105.0
+ICICILIFE,quarters,YoY Sales growth,Jun 2024,9.0
+ICICILIFE,quarters,YoY Sales growth,Sep 2024,45.0
+ICICILIFE,quarters,YoY Sales growth,Dec 2024,-83.0
+ICICILIFE,quarters,YoY Sales growth,Mar 2025,-30.0
+ICICILIFE,quarters,YoY Sales growth,Jun 2025,0.0
+ICICILIFE,quarters,YoY Sales growth,Sep 2025,-53.0
+ICICILIFE,quarters,YoY Sales growth,Dec 2025,403.0
+ICICILIFE,quarters,YoY Sales growth,Mar 2026,-79.0
+ICICILIFE,quarters,YoY Sales growth,Jun 2026,12.0
+ICICILIFE,quarters,YoY Sales growth,Sep 2026,1.0
+ICICILIFE,quarters,Expenses,Sep 2023,17676.0
+ICICILIFE,quarters,Expenses,Dec 2023,26578.0
+ICICILIFE,quarters,Expenses,Mar 2024,22753.0
+ICICILIFE,quarters,Expenses,Jun 2024,25354.0
+ICICILIFE,quarters,Expenses,Sep 2024,24831.0
+ICICILIFE,quarters,Expenses,Dec 2024,4286.0
+ICICILIFE,quarters,Expenses,Mar 2025,15262.0
+ICICILIFE,quarters,Expenses,Jun 2025,25177.0
+ICICILIFE,quarters,Expenses,Sep 2025,11940.0
+ICICILIFE,quarters,Expenses,Dec 2025,22078.0
+ICICILIFE,quarters,Expenses,Mar 2026,3938.0
+ICICILIFE,quarters,Expenses,Jun 2026,28219.0
+ICICILIFE,quarters,Expenses,Sep 2026,11650.0
+ICICILIFE,quarters,Operating Profit,Sep 2023,-289.0
+ICICILIFE,quarters,Operating Profit,Dec 2023,-150.0
+ICICILIFE,quarters,Operating Profit,Mar 2024,-273.0
+ICICILIFE,quarters,Operating Profit,Jun 2024,42.0
+ICICILIFE,quarters,Operating Profit,Sep 2024,327.0
+ICICILIFE,quarters,Operating Profit,Dec 2024,250.0
+ICICILIFE,quarters,Operating Profit,Mar 2025,424.0
+ICICILIFE,quarters,Operating Profit,Jun 2025,223.0
+ICICILIFE,quarters,Operating Profit,Sep 2025,-6.0
+ICICILIFE,quarters,Operating Profit,Dec 2025,755.0
+ICICILIFE,quarters,Operating Profit,Mar 2026,-639.0
+ICICILIFE,quarters,Operating Profit,Jun 2026,293.0
+ICICILIFE,quarters,Operating Profit,Sep 2026,382.0
+ICICILIFE,quarters,OPM %,Sep 2023,-1.7
+ICICILIFE,quarters,OPM %,Dec 2023,-0.6
+ICICILIFE,quarters,OPM %,Mar 2024,-1.2
+ICICILIFE,quarters,OPM %,Jun 2024,0.2
+ICICILIFE,quarters,OPM %,Sep 2024,1.3
+ICICILIFE,quarters,OPM %,Dec 2024,6.0
+ICICILIFE,quarters,OPM %,Mar 2025,2.7
+ICICILIFE,quarters,OPM %,Jun 2025,0.9
+ICICILIFE,quarters,OPM %,Sep 2025,-0.1
+ICICILIFE,quarters,OPM %,Dec 2025,3.3
+ICICILIFE,quarters,OPM %,Mar 2026,-19.0
+ICICILIFE,quarters,OPM %,Jun 2026,1.0
+ICICILIFE,quarters,OPM %,Sep 2026,3.2
+ICICILIFE,quarters,Other Income,Sep 2023,566.0
+ICICILIFE,quarters,Other Income,Dec 2023,416.0
+ICICILIFE,quarters,Other Income,Mar 2024,543.0
+ICICILIFE,quarters,Other Income,Jun 2024,231.0
+ICICILIFE,quarters,Other Income,Sep 2024,-23.0
+ICICILIFE,quarters,Other Income,Dec 2024,161.0
+ICICILIFE,quarters,Other Income,Mar 2025,175.0
+ICICILIFE,quarters,Other Income,Jun 2025,169.0
+ICICILIFE,quarters,Other Income,Sep 2025,399.0
+ICICILIFE,quarters,Other Income,Dec 2025,-253.0
+ICICILIFE,quarters,Other Income,Mar 2026,905.0
+ICICILIFE,quarters,Other Income,Jun 2026,176.0
+ICICILIFE,quarters,Other Income,Sep 2026,64.0
+ICICILIFE,quarters,Interest,Sep 2023,0.0
+ICICILIFE,quarters,Interest,Dec 2023,0.0
+ICICILIFE,quarters,Interest,Mar 2024,0.0
+ICICILIFE,quarters,Interest,Jun 2024,0.0
+ICICILIFE,quarters,Interest,Sep 2024,0.0
+ICICILIFE,quarters,Interest,Dec 2024,0.0
+ICICILIFE,quarters,Interest,Mar 2025,0.0
+ICICILIFE,quarters,Interest,Jun 2025,0.0
+ICICILIFE,quarters,Interest,Sep 2025,0.0
+ICICILIFE,quarters,Interest,Dec 2025,0.0
+ICICILIFE,quarters,Interest,Mar 2026,0.0
+ICICILIFE,quarters,Interest,Jun 2026,0.0
+ICICILIFE,quarters,Interest,Sep 2026,0.0
+ICICILIFE,quarters,Depreciation,Sep 2023,0.0
+ICICILIFE,quarters,Depreciation,Dec 2023,0.0
+ICICILIFE,quarters,Depreciation,Mar 2024,0.0
+ICICILIFE,quarters,Depreciation,Jun 2024,0.0
+ICICILIFE,quarters,Depreciation,Sep 2024,0.0
+ICICILIFE,quarters,Depreciation,Dec 2024,0.0
+ICICILIFE,quarters,Depreciation,Mar 2025,0.0
+ICICILIFE,quarters,Depreciation,Jun 2025,0.0
+ICICILIFE,quarters,Depreciation,Sep 2025,0.0
+ICICILIFE,quarters,Depreciation,Dec 2025,0.0
+ICICILIFE,quarters,Depreciation,Mar 2026,0.0
+ICICILIFE,quarters,Depreciation,Jun 2026,0.0
+ICICILIFE,quarters,Depreciation,Sep 2026,0.0
+ICICILIFE,quarters,Profit before tax,Sep 2023,277.0
+ICICILIFE,quarters,Profit before tax,Dec 2023,266.0
+ICICILIFE,quarters,Profit before tax,Mar 2024,271.0
+ICICILIFE,quarters,Profit before tax,Jun 2024,272.0
+ICICILIFE,quarters,Profit before tax,Sep 2024,303.0
+ICICILIFE,quarters,Profit before tax,Dec 2024,411.0
+ICICILIFE,quarters,Profit before tax,Mar 2025,599.0
+ICICILIFE,quarters,Profit before tax,Jun 2025,392.0
+ICICILIFE,quarters,Profit before tax,Sep 2025,394.0
+ICICILIFE,quarters,Profit before tax,Dec 2025,502.0
+ICICILIFE,quarters,Profit before tax,Mar 2026,266.0
+ICICILIFE,quarters,Profit before tax,Jun 2026,470.0
+ICICILIFE,quarters,Profit before tax,Sep 2026,446.0
+ICICILIFE,quarters,Tax %,Sep 2023,12.0
+ICICILIFE,quarters,Tax %,Dec 2023,15.0
+ICICILIFE,quarters,Tax %,Mar 2024,36.0
+ICICILIFE,quarters,Tax %,Jun 2024,17.0
+ICICILIFE,quarters,Tax %,Sep 2024,17.0
+ICICILIFE,quarters,Tax %,Dec 2024,21.0
+ICICILIFE,quarters,Tax %,Mar 2025,36.0
+ICICILIFE,quarters,Tax %,Jun 2025,23.0
+ICICILIFE,quarters,Tax %,Sep 2025,24.0
+ICICILIFE,quarters,Tax %,Dec 2025,22.0
+ICICILIFE,quarters,Tax %,Mar 2026,-129.0
+ICICILIFE,quarters,Tax %,Jun 2026,18.0
+ICICILIFE,quarters,Tax %,Sep 2026,16.0
+ICICILIFE,quarters,Net Profit,Sep 2023,244.0
+ICICILIFE,quarters,Net Profit,Dec 2023,227.0
+ICICILIFE,quarters,Net Profit,Mar 2024,174.0
+ICICILIFE,quarters,Net Profit,Jun 2024,225.0
+ICICILIFE,quarters,Net Profit,Sep 2024,252.0
+ICICILIFE,quarters,Net Profit,Dec 2024,326.0
+ICICILIFE,quarters,Net Profit,Mar 2025,386.0
+ICICILIFE,quarters,Net Profit,Jun 2025,302.0
+ICICILIFE,quarters,Net Profit,Sep 2025,299.0
+ICICILIFE,quarters,Net Profit,Dec 2025,390.0
+ICICILIFE,quarters,Net Profit,Mar 2026,609.0
+ICICILIFE,quarters,Net Profit,Jun 2026,386.0
+ICICILIFE,quarters,Net Profit,Sep 2026,374.0
+ICICILIFE,quarters,EPS in Rs,Sep 2023,1.7
+ICICILIFE,quarters,EPS in Rs,Dec 2023,1.58
+ICICILIFE,quarters,EPS in Rs,Mar 2024,1.21
+ICICILIFE,quarters,EPS in Rs,Jun 2024,1.56
+ICICILIFE,quarters,EPS in Rs,Sep 2024,1.74
+ICICILIFE,quarters,EPS in Rs,Dec 2024,2.25
+ICICILIFE,quarters,EPS in Rs,Mar 2025,2.67
+ICICILIFE,quarters,EPS in Rs,Jun 2025,2.09
+ICICILIFE,quarters,EPS in Rs,Sep 2025,2.07
+ICICILIFE,quarters,EPS in Rs,Dec 2025,2.7
+ICICILIFE,quarters,EPS in Rs,Mar 2026,4.2
+ICICILIFE,quarters,EPS in Rs,Jun 2026,2.66
+ICICILIFE,quarters,EPS in Rs,Sep 2026,2.58
+ICICILIFE,profit-loss,Sales,Mar 2015,34451.0
+ICICILIFE,profit-loss,Sales,Mar 2016,20847.0
+ICICILIFE,profit-loss,Sales,Mar 2017,37814.0
+ICICILIFE,profit-loss,Sales,Mar 2018,38830.0
+ICICILIFE,profit-loss,Sales,Mar 2019,41460.0
+ICICILIFE,profit-loss,Sales,Mar 2020,21022.0
+ICICILIFE,profit-loss,Sales,Mar 2021,83180.0
+ICICILIFE,profit-loss,Sales,Mar 2022,63564.0
+ICICILIFE,profit-loss,Sales,Mar 2023,49400.0
+ICICILIFE,profit-loss,Sales,Mar 2024,89679.0
+ICICILIFE,profit-loss,Sales,Mar 2025,70775.0
+ICICILIFE,profit-loss,Sales,Mar 2026,63467.0
+ICICILIFE,profit-loss,Sales,TTM,66676.0
+ICICILIFE,profit-loss,Sales growth,Mar 2015,57.0
+ICICILIFE,profit-loss,Sales growth,Mar 2016,-39.0
+ICICILIFE,profit-loss,Sales growth,Mar 2017,81.0
+ICICILIFE,profit-loss,Sales growth,Mar 2018,3.0
+ICICILIFE,profit-loss,Sales growth,Mar 2019,7.0
+ICICILIFE,profit-loss,Sales growth,Mar 2020,-49.0
+ICICILIFE,profit-loss,Sales growth,Mar 2021,296.0
+ICICILIFE,profit-loss,Sales growth,Mar 2022,-24.0
+ICICILIFE,profit-loss,Sales growth,Mar 2023,-22.0
+ICICILIFE,profit-loss,Sales growth,Mar 2024,82.0
+ICICILIFE,profit-loss,Sales growth,Mar 2025,-21.0
+ICICILIFE,profit-loss,Sales growth,Mar 2026,-10.0
+ICICILIFE,profit-loss,Sales growth,TTM,16.0
+ICICILIFE,profit-loss,Expenses,Mar 2015,32795.0
+ICICILIFE,profit-loss,Expenses,Mar 2016,19005.0
+ICICILIFE,profit-loss,Expenses,Mar 2017,36007.0
+ICICILIFE,profit-loss,Expenses,Mar 2018,37058.0
+ICICILIFE,profit-loss,Expenses,Mar 2019,40695.0
+ICICILIFE,profit-loss,Expenses,Mar 2020,21339.0
+ICICILIFE,profit-loss,Expenses,Mar 2021,83565.0
+ICICILIFE,profit-loss,Expenses,Mar 2022,65720.0
+ICICILIFE,profit-loss,Expenses,Mar 2023,50191.0
+ICICILIFE,profit-loss,Expenses,Mar 2024,90556.0
+ICICILIFE,profit-loss,Expenses,Mar 2025,69285.0
+ICICILIFE,profit-loss,Expenses,Mar 2026,62008.0
+ICICILIFE,profit-loss,Expenses,TTM,65885.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2015,1656.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2016,1842.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2017,1807.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2018,1772.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2019,765.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2020,-317.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2021,-385.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2022,-2155.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2023,-791.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2024,-877.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2025,1490.0
+ICICILIFE,profit-loss,Operating Profit,Mar 2026,1459.0
+ICICILIFE,profit-loss,Operating Profit,TTM,791.0
+ICICILIFE,profit-loss,OPM %,Mar 2015,4.8
+ICICILIFE,profit-loss,OPM %,Mar 2016,9.0
+ICICILIFE,profit-loss,OPM %,Mar 2017,4.8
+ICICILIFE,profit-loss,OPM %,Mar 2018,4.6
+ICICILIFE,profit-loss,OPM %,Mar 2019,1.9
+ICICILIFE,profit-loss,OPM %,Mar 2020,-1.5
+ICICILIFE,profit-loss,OPM %,Mar 2021,-0.5
+ICICILIFE,profit-loss,OPM %,Mar 2022,-3.4
+ICICILIFE,profit-loss,OPM %,Mar 2023,-1.6
+ICICILIFE,profit-loss,OPM %,Mar 2024,-1.0
+ICICILIFE,profit-loss,OPM %,Mar 2025,2.1
+ICICILIFE,profit-loss,OPM %,Mar 2026,2.3
+ICICILIFE,profit-loss,OPM %,TTM,1.2
+ICICILIFE,profit-loss,Other Income,Mar 2015,43.0
+ICICILIFE,profit-loss,Other Income,Mar 2016,0.0
+ICICILIFE,profit-loss,Other Income,Mar 2017,130.0
+ICICILIFE,profit-loss,Other Income,Mar 2018,132.0
+ICICILIFE,profit-loss,Other Income,Mar 2019,591.0
+ICICILIFE,profit-loss,Other Income,Mar 2020,1578.0
+ICICILIFE,profit-loss,Other Income,Mar 2021,1668.0
+ICICILIFE,profit-loss,Other Income,Mar 2022,3179.0
+ICICILIFE,profit-loss,Other Income,Mar 2023,1955.0
+ICICILIFE,profit-loss,Other Income,Mar 2024,2021.0
+ICICILIFE,profit-loss,Other Income,Mar 2025,230.0
+ICICILIFE,profit-loss,Other Income,Mar 2026,239.0
+ICICILIFE,profit-loss,Other Income,TTM,893.0
+ICICILIFE,profit-loss,Interest,Mar 2015,17.0
+ICICILIFE,profit-loss,Interest,Mar 2016,0.0
+ICICILIFE,profit-loss,Interest,Mar 2017,15.0
+ICICILIFE,profit-loss,Interest,Mar 2018,20.0
+ICICILIFE,profit-loss,Interest,Mar 2019,23.0
+ICICILIFE,profit-loss,Interest,Mar 2020,0.0
+ICICILIFE,profit-loss,Interest,Mar 2021,0.0
+ICICILIFE,profit-loss,Interest,Mar 2022,0.0
+ICICILIFE,profit-loss,Interest,Mar 2023,0.0
+ICICILIFE,profit-loss,Interest,Mar 2024,0.0
+ICICILIFE,profit-loss,Interest,Mar 2025,0.0
+ICICILIFE,profit-loss,Interest,Mar 2026,0.0
+ICICILIFE,profit-loss,Interest,TTM,0.0
+ICICILIFE,profit-loss,Depreciation,Mar 2015,40.0
+ICICILIFE,profit-loss,Depreciation,Mar 2016,0.0
+ICICILIFE,profit-loss,Depreciation,Mar 2017,58.0
+ICICILIFE,profit-loss,Depreciation,Mar 2018,44.0
+ICICILIFE,profit-loss,Depreciation,Mar 2019,57.0
+ICICILIFE,profit-loss,Depreciation,Mar 2020,61.0
+ICICILIFE,profit-loss,Depreciation,Mar 2021,60.0
+ICICILIFE,profit-loss,Depreciation,Mar 2022,67.0
+ICICILIFE,profit-loss,Depreciation,Mar 2023,84.0
+ICICILIFE,profit-loss,Depreciation,Mar 2024,113.0
+ICICILIFE,profit-loss,Depreciation,Mar 2025,133.0
+ICICILIFE,profit-loss,Depreciation,Mar 2026,144.0
+ICICILIFE,profit-loss,Depreciation,TTM,0.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2015,1642.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2016,1842.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2017,1864.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2018,1840.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2019,1276.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2020,1200.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2021,1223.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2022,957.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2023,1081.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2024,1031.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2025,1587.0
+ICICILIFE,profit-loss,Profit before tax,Mar 2026,1554.0
+ICICILIFE,profit-loss,Profit before tax,TTM,1684.0
+ICICILIFE,profit-loss,Tax %,Mar 2015,0.0
+ICICILIFE,profit-loss,Tax %,Mar 2016,10.0
+ICICILIFE,profit-loss,Tax %,Mar 2017,10.0
+ICICILIFE,profit-loss,Tax %,Mar 2018,12.0
+ICICILIFE,profit-loss,Tax %,Mar 2019,11.0
+ICICILIFE,profit-loss,Tax %,Mar 2020,11.0
+ICICILIFE,profit-loss,Tax %,Mar 2021,22.0
+ICICILIFE,profit-loss,Tax %,Mar 2022,21.0
+ICICILIFE,profit-loss,Tax %,Mar 2023,25.0
+ICICILIFE,profit-loss,Tax %,Mar 2024,17.0
+ICICILIFE,profit-loss,Tax %,Mar 2025,25.0
+ICICILIFE,profit-loss,Tax %,Mar 2026,-3.0
+ICICILIFE,profit-loss,Net Profit,Mar 2015,1640.0
+ICICILIFE,profit-loss,Net Profit,Mar 2016,1650.0
+ICICILIFE,profit-loss,Net Profit,Mar 2017,1682.0
+ICICILIFE,profit-loss,Net Profit,Mar 2018,1620.0
+ICICILIFE,profit-loss,Net Profit,Mar 2019,1141.0
+ICICILIFE,profit-loss,Net Profit,Mar 2020,1069.0
+ICICILIFE,profit-loss,Net Profit,Mar 2021,960.0
+ICICILIFE,profit-loss,Net Profit,Mar 2022,754.0
+ICICILIFE,profit-loss,Net Profit,Mar 2023,811.0
+ICICILIFE,profit-loss,Net Profit,Mar 2024,852.0
+ICICILIFE,profit-loss,Net Profit,Mar 2025,1189.0
+ICICILIFE,profit-loss,Net Profit,Mar 2026,1600.0
+ICICILIFE,profit-loss,Net Profit,TTM,1759.0
+ICICILIFE,profit-loss,EPS in Rs,Mar 2015,11.46
+ICICILIFE,profit-loss,EPS in Rs,Mar 2016,11.52
+ICICILIFE,profit-loss,EPS in Rs,Mar 2017,11.72
+ICICILIFE,profit-loss,EPS in Rs,Mar 2018,11.28
+ICICILIFE,profit-loss,EPS in Rs,Mar 2019,7.94
+ICICILIFE,profit-loss,EPS in Rs,Mar 2020,7.44
+ICICILIFE,profit-loss,EPS in Rs,Mar 2021,6.69
+ICICILIFE,profit-loss,EPS in Rs,Mar 2022,5.25
+ICICILIFE,profit-loss,EPS in Rs,Mar 2023,5.64
+ICICILIFE,profit-loss,EPS in Rs,Mar 2024,5.92
+ICICILIFE,profit-loss,EPS in Rs,Mar 2025,8.23
+ICICILIFE,profit-loss,EPS in Rs,Mar 2026,11.04
+ICICILIFE,profit-loss,EPS in Rs,TTM,12.14
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2015,51.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2016,73.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2017,63.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2018,59.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2019,40.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2020,11.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2021,30.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2022,10.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2023,11.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2024,10.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2025,10.0
+ICICILIFE,profit-loss,Dividend Payout %,Mar 2026,15.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2015,1432.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2016,1432.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2017,1435.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2018,1436.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2019,1436.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2020,1436.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2021,1436.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2022,1437.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2023,1439.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2024,1441.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2025,1445.0
+ICICILIFE,balance-sheet,Equity Capital,Mar 2026,1449.0
+ICICILIFE,balance-sheet,Equity Capital,Sep 2026,1451.0
+ICICILIFE,balance-sheet,Reserves,Mar 2015,3834.0
+ICICILIFE,balance-sheet,Reserves,Mar 2016,3892.0
+ICICILIFE,balance-sheet,Reserves,Mar 2017,4973.0
+ICICILIFE,balance-sheet,Reserves,Mar 2018,5141.0
+ICICILIFE,balance-sheet,Reserves,Mar 2019,5440.0
+ICICILIFE,balance-sheet,Reserves,Mar 2020,5783.0
+ICICILIFE,balance-sheet,Reserves,Mar 2021,7683.0
+ICICILIFE,balance-sheet,Reserves,Mar 2022,7726.0
+ICICILIFE,balance-sheet,Reserves,Mar 2023,8653.0
+ICICILIFE,balance-sheet,Reserves,Mar 2024,14555.0
+ICICILIFE,balance-sheet,Reserves,Mar 2025,14898.0
+ICICILIFE,balance-sheet,Reserves,Mar 2026,14084.0
+ICICILIFE,balance-sheet,Reserves,Sep 2026,13182.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2015,0.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2016,1029.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2017,0.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2018,0.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2019,0.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2020,0.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2021,1200.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2022,1200.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2023,1200.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2024,1200.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2025,2600.0
+ICICILIFE,balance-sheet,Borrowings,Mar 2026,2595.0
+ICICILIFE,balance-sheet,Borrowings,Sep 2026,2595.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2015,95950.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2016,98413.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2017,118334.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2018,135245.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2019,156215.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2020,148817.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2021,206909.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2022,234077.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2023,244555.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2024,281805.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2025,295297.0
+ICICILIFE,balance-sheet,Other Liabilities,Mar 2026,301607.0
+ICICILIFE,balance-sheet,Other Liabilities,Sep 2026,315366.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2015,101216.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2016,104766.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2017,124743.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2018,141821.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2019,163090.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2020,156035.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2021,217228.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2022,244440.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2023,255847.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2024,299000.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2025,314240.0
+ICICILIFE,balance-sheet,Total Liabilities,Mar 2026,319735.0
+ICICILIFE,balance-sheet,Total Liabilities,Sep 2026,332594.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2015,209.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2016,212.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2017,207.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2018,404.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2019,463.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2020,932.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2021,911.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2022,916.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2023,968.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2024,1167.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2025,1314.0
+ICICILIFE,balance-sheet,Fixed Assets,Mar 2026,1378.0
+ICICILIFE,balance-sheet,Fixed Assets,Sep 2026,715.0
+ICICILIFE,balance-sheet,CWIP,Mar 2015,6.0
+ICICILIFE,balance-sheet,CWIP,Mar 2016,7.0
+ICICILIFE,balance-sheet,CWIP,Mar 2017,7.0
+ICICILIFE,balance-sheet,CWIP,Mar 2018,18.0
+ICICILIFE,balance-sheet,CWIP,Mar 2019,13.0
+ICICILIFE,balance-sheet,CWIP,Mar 2020,20.0
+ICICILIFE,balance-sheet,CWIP,Mar 2021,22.0
+ICICILIFE,balance-sheet,CWIP,Mar 2022,54.0
+ICICILIFE,balance-sheet,CWIP,Mar 2023,117.0
+ICICILIFE,balance-sheet,CWIP,Mar 2024,49.0
+ICICILIFE,balance-sheet,CWIP,Mar 2025,35.0
+ICICILIFE,balance-sheet,CWIP,Mar 2026,43.0
+ICICILIFE,balance-sheet,CWIP,Sep 2026,0.0
+ICICILIFE,balance-sheet,Investments,Mar 2015,99492.0
+ICICILIFE,balance-sheet,Investments,Mar 2016,103027.0
+ICICILIFE,balance-sheet,Investments,Mar 2017,121586.0
+ICICILIFE,balance-sheet,Investments,Mar 2018,138540.0
+ICICILIFE,balance-sheet,Investments,Mar 2019,159009.0
+ICICILIFE,balance-sheet,Investments,Mar 2020,150781.0
+ICICILIFE,balance-sheet,Investments,Mar 2021,211736.0
+ICICILIFE,balance-sheet,Investments,Mar 2022,237625.0
+ICICILIFE,balance-sheet,Investments,Mar 2023,247731.0
+ICICILIFE,balance-sheet,Investments,Mar 2024,289238.0
+ICICILIFE,balance-sheet,Investments,Mar 2025,303490.0
+ICICILIFE,balance-sheet,Investments,Mar 2026,307369.0
+ICICILIFE,balance-sheet,Investments,Sep 2026,322543.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2015,1509.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2016,1520.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2017,2943.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2018,2859.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2019,3606.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2020,4301.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2021,4559.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2022,5845.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2023,7031.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2024,8546.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2025,9402.0
+ICICILIFE,balance-sheet,Other Assets,Mar 2026,10944.0
+ICICILIFE,balance-sheet,Other Assets,Sep 2026,9335.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2015,101216.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2016,104766.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2017,124743.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2018,141821.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2019,163090.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2020,156035.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2021,217228.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2022,244440.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2023,255847.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2024,299000.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2025,314240.0
+ICICILIFE,balance-sheet,Total Assets,Mar 2026,319735.0
+ICICILIFE,balance-sheet,Total Assets,Sep 2026,332594.0
+ICICILIFE,ratios,Debtor Days,Mar 2015,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2016,3.0
+ICICILIFE,ratios,Debtor Days,Mar 2017,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2018,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2019,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2020,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2021,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2022,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2023,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2024,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2025,0.0
+ICICILIFE,ratios,Debtor Days,Mar 2026,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2015,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2016,3.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2017,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2018,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2019,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2020,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2021,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2022,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2023,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2024,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2025,0.0
+ICICILIFE,ratios,Cash Conversion Cycle,Mar 2026,0.0
+ICICILIFE,ratios,Working Capital Days,Mar 2015,-10.0
+ICICILIFE,ratios,Working Capital Days,Mar 2016,-16.0
+ICICILIFE,ratios,Working Capital Days,Mar 2017,-2.0
+ICICILIFE,ratios,Working Capital Days,Mar 2018,-9.0
+ICICILIFE,ratios,Working Capital Days,Mar 2019,-9.0
+ICICILIFE,ratios,Working Capital Days,Mar 2020,-5.0
+ICICILIFE,ratios,Working Capital Days,Mar 2021,-2.0
+ICICILIFE,ratios,Working Capital Days,Mar 2022,-6.0
+ICICILIFE,ratios,Working Capital Days,Mar 2023,-5.0
+ICICILIFE,ratios,Working Capital Days,Mar 2024,2.0
+ICICILIFE,ratios,Working Capital Days,Mar 2025,3.0
+ICICILIFE,ratios,Working Capital Days,Mar 2026,-1.0
+ICICILIFE,ratios,ROCE %,Mar 2015,34.0
+ICICILIFE,ratios,ROCE %,Mar 2016,32.0
+ICICILIFE,ratios,ROCE %,Mar 2017,29.0
+ICICILIFE,ratios,ROCE %,Mar 2018,29.0
+ICICILIFE,ratios,ROCE %,Mar 2019,19.0
+ICICILIFE,ratios,ROCE %,Mar 2020,17.0
+ICICILIFE,ratios,ROCE %,Mar 2021,14.0
+ICICILIFE,ratios,ROCE %,Mar 2022,9.0
+ICICILIFE,ratios,ROCE %,Mar 2023,10.0
+ICICILIFE,ratios,ROCE %,Mar 2024,2.0
+ICICILIFE,ratios,ROCE %,Mar 2025,9.0
+ICICILIFE,ratios,ROCE %,Mar 2026,8.0

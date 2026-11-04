@@ -22,7 +22,7 @@
 <section class="chapter" id="plan">
   <ChapterHead n="08" kicker="Next twelve months" title="Three moves start this quarter; the slow one is funded by the fast ones" />
   <p class="prose">Sequence by time to impact. Retiring borrowings and holding cost pay back inside a year; that buys the patience the CASA rebuild needs.</p>
-  <Exhibit n={15} wide title="Funding and cost move first; deposits and payments compound in year two"
+  <Exhibit n={17} wide title="Funding and cost move first; deposits and payments compound in year two"
            units="Actions by workstream, months from November 2026, with owners and board checkpoints"
            source="Recommendation; timings from the Levers tab (months to impact) and the risk register kill criteria">
     <Roadmap {actions} {milestones} />

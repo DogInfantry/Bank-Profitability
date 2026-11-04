@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Exhibit 9: for each lever with a peer benchmark, HDFC today -> where the lever takes it -> the named benchmark.
+  // Exhibit 10: for each lever with a peer benchmark, HDFC today -> where the lever takes it -> the named benchmark.
   import { app } from '../lib/store.svelte';
   let w = $state(900);
   const anchors = $derived(app.story!.anchors as any[]);

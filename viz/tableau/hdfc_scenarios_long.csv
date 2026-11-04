@@ -155,6 +155,287 @@ Base,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",E,1
 Base,Checks,"No error values in Model, Valuation and Levers",C,0.0
 Base,Checks,"No error values in Model, Valuation and Levers",E,0.0
 Base,Checks,"Scenario selector resolves to 1, 2 or 3",C,1.0
+Base,Comps,Axis Bank,C,1209.0
+Base,Comps,Axis Bank,D,377205.0
+Base,Comps,Axis Bank,E,703.0
+Base,Comps,Axis Bank,F,219334.255583127
+Base,Comps,Axis Bank,G,1.71977240398293
+Base,Comps,Axis Bank,H,0.0
+Base,Comps,Axis Bank,I,1.71977240398293
+Base,Comps,Axis Bank,J,13.6
+Base,Comps,Axis Bank,K,0.0139882978054095
+Base,Comps,Axis Bank,L,0.126962949888647
+Base,Comps,Axis Bank: Sep-26,C,1203487.0
+Base,Comps,Axis Bank: Sep-26,D,1452066.0
+Base,Comps,Axis Bank: Sep-26,E,1116703.0
+Base,Comps,Axis Bank: Sep-26,F,1373727.0
+Base,Comps,Axis Bank: Sep-26,G,0.206548969785299
+Base,Comps,Axis Bank: Sep-26,H,0.230163257374611
+Base,Comps,Axis Bank: Sep-26,I,0.17
+Base,Comps,Axis Bank: Sep-26,J,0.19
+Base,Comps,Axis Bank: Sep-26,K,0.946049972935115
+Base,Comps,Axis Bank: Sep-26,L,0.365
+Base,Comps,Axis Bank: Sep-26,M,0.1461
+Base,Comps,HDFC Bank,C,700.0
+Base,Comps,HDFC Bank,D,1080721.0
+Base,Comps,HDFC Bank,E,376.0
+Base,Comps,HDFC Bank,F,580501.565714286
+Base,Comps,HDFC Bank,G,1.86170212765957
+Base,Comps,HDFC Bank,H,114614.6752
+Base,Comps,HDFC Bank,I,1.66426135924585
+Base,Comps,HDFC Bank,J,14.1
+Base,Comps,HDFC Bank,K,0.0180471862222563
+Base,Comps,HDFC Bank,L,0.140316162826204
+Base,Comps,HDFC Bank P/B ex listed stakes,E,1.66426135924585
+Base,Comps,HDFC Bank P/B premium to the peer median,E,-0.202234788684415
+Base,Comps,HDFC Bank RoE FY26 less peer median,E,-28.3352934972531
+Base,Comps,"HDFC Bank model: borrowings share cut a year, FY25A to FY29E",E,0.0299709344020104
+Base,Comps,HDFC Bank price at the peer median P/B ex stakes,E,858.631761403997
+Base,Comps,"HDFC Bank: CASA ratio change, year 0 to 1.5",E,-438.610184689383
+Base,Comps,HDFC Bank: Mar-23,C,-1.0
+Base,Comps,HDFC Bank: Mar-23,D,180711.0
+Base,Comps,HDFC Bank: Mar-23,E,1866153.0
+Base,Comps,HDFC Bank: Mar-23,F,264987.0
+Base,Comps,HDFC Bank: Mar-23,G,521827.0
+Base,Comps,HDFC Bank: Mar-23,H,0.0882867645334522
+Base,Comps,HDFC Bank: Mar-23,I,0.421623521758398
+Base,Comps,HDFC Bank: Mar-23,J,0.02016
+Base,Comps,HDFC Bank: Mar-24,C,0.0
+Base,Comps,HDFC Bank: Mar-24,D,636945.0
+Base,Comps,HDFC Bank: Mar-24,E,2357595.0
+Base,Comps,HDFC Bank: Mar-24,F,301442.0
+Base,Comps,HDFC Bank: Mar-24,G,555073.0
+Base,Comps,HDFC Bank: Mar-24,H,0.212702117854495
+Base,Comps,HDFC Bank: Mar-24,I,0.363300312394622
+Base,Comps,HDFC Bank: Mar-24,J,0.01935
+Base,Comps,HDFC Bank: Mar-25,C,1.0
+Base,Comps,HDFC Bank: Mar-25,D,516661.0
+Base,Comps,HDFC Bank: Mar-25,E,2690655.0
+Base,Comps,HDFC Bank: Mar-25,F,302135.0
+Base,Comps,HDFC Bank: Mar-25,G,582134.0
+Base,Comps,HDFC Bank: Mar-25,H,0.161088274432579
+Base,Comps,HDFC Bank: Mar-25,I,0.328644512209852
+Base,Comps,HDFC Bank: Mar-25,J,0.0183
+Base,Comps,"HDFC Bank: RoA change, year 0 to 1.5",E,-6.9
+Base,Comps,HDFC Bank: Sep-25,C,1.5
+Base,Comps,HDFC Bank: Sep-25,D,480926.0
+Base,Comps,HDFC Bank: Sep-25,E,2777498.0
+Base,Comps,HDFC Bank: Sep-25,F,287791.0
+Base,Comps,HDFC Bank: Sep-25,G,599451.0
+Base,Comps,HDFC Bank: Sep-25,H,0.147594665396523
+Base,Comps,HDFC Bank: Sep-25,I,0.319439293925684
+Base,Comps,HDFC Bank: Sep-25,J,0.01866
+Base,Comps,HDFC Bank: Sep-26,C,2801800.0
+Base,Comps,HDFC Bank: Sep-26,D,3327400.0
+Base,Comps,HDFC Bank: Sep-26,E,2746400.0
+Base,Comps,HDFC Bank: Sep-26,F,3195600.0
+Base,Comps,HDFC Bank: Sep-26,G,0.187593689770862
+Base,Comps,HDFC Bank: Sep-26,H,0.163559568890183
+Base,Comps,HDFC Bank: Sep-26,J,0.144
+Base,Comps,HDFC Bank: Sep-26,K,0.960389493298071
+Base,Comps,HDFC Bank: Sep-26,L,0.32
+Base,Comps,HDFC Bank: Sep-26,M,0.171
+Base,Comps,HDFC Bank: borrowings share at year 0,E,0.212702117854495
+Base,Comps,"HDFC Bank: borrowings share cut a year, year 0 to 1.5",E,0.0434049683053148
+Base,Comps,ICICI Bank,C,1387.0
+Base,Comps,ICICI Bank,D,999148.0
+Base,Comps,ICICI Bank,E,498.0
+Base,Comps,ICICI Bank,F,358742.396539293
+Base,Comps,ICICI Bank,G,2.785140562249
+Base,Comps,ICICI Bank,H,119319.25752
+Base,Comps,ICICI Bank,I,2.45253627942364
+Base,Comps,ICICI Bank,J,18.3
+Base,Comps,ICICI Bank,K,0.0223333587929556
+Base,Comps,ICICI Bank,L,0.159336434463212
+Base,Comps,"ICICI Bank: CASA ratio change, year 0 to 3",E,1336.47210917968
+Base,Comps,ICICI Bank: ICICI Life Insurance,C,0.5289
+Base,Comps,ICICI Bank: ICICI Life Insurance,D,61575.0
+Base,Comps,ICICI Bank: ICICI Life Insurance,E,26053.614
+Base,Comps,ICICI Bank: ICICI Lombard General Insurance,C,0.5126
+Base,Comps,ICICI Bank: ICICI Lombard General Insurance,D,80044.0
+Base,Comps,ICICI Bank: ICICI Lombard General Insurance,E,32824.44352
+Base,Comps,ICICI Bank: ICICI Prudential AMC,C,0.53
+Base,Comps,ICICI Bank: ICICI Prudential AMC,D,142550.0
+Base,Comps,ICICI Bank: ICICI Prudential AMC,E,60441.2
+Base,Comps,ICICI Bank: Mar-02,C,0.0
+Base,Comps,ICICI Bank: Mar-02,D,58970.0
+Base,Comps,ICICI Bank: Mar-02,E,32085.0
+Base,Comps,ICICI Bank: Mar-02,F,560.0
+Base,Comps,ICICI Bank: Mar-02,G,2342.0
+Base,Comps,ICICI Bank: Mar-02,H,0.647630552962495
+Base,Comps,ICICI Bank: Mar-02,I,0.0904472494935328
+Base,Comps,ICICI Bank: Mar-02,J,0.00789
+Base,Comps,ICICI Bank: Mar-03,C,1.0
+Base,Comps,ICICI Bank: Mar-03,D,44052.0
+Base,Comps,ICICI Bank: Mar-03,E,48169.0
+Base,Comps,ICICI Bank: Mar-03,F,2919.0
+Base,Comps,ICICI Bank: Mar-03,G,3522.0
+Base,Comps,ICICI Bank: Mar-03,H,0.47767861983713
+Base,Comps,ICICI Bank: Mar-03,I,0.133716705765119
+Base,Comps,ICICI Bank: Mar-03,J,0.01173
+Base,Comps,ICICI Bank: Mar-04,C,2.0
+Base,Comps,ICICI Bank: Mar-04,D,38726.0
+Base,Comps,ICICI Bank: Mar-04,E,67029.0
+Base,Comps,ICICI Bank: Mar-04,F,6637.0
+Base,Comps,ICICI Bank: Mar-04,G,6942.0
+Base,Comps,ICICI Bank: Mar-04,H,0.366185995933998
+Base,Comps,ICICI Bank: Mar-04,I,0.202583956198064
+Base,Comps,ICICI Bank: Mar-04,J,0.01428
+Base,Comps,ICICI Bank: Mar-05,C,3.0
+Base,Comps,ICICI Bank: Mar-05,D,35707.0
+Base,Comps,ICICI Bank: Mar-05,E,96379.0
+Base,Comps,ICICI Bank: Mar-05,F,12608.0
+Base,Comps,ICICI Bank: Mar-05,G,8990.0
+Base,Comps,ICICI Bank: Mar-05,H,0.2703314507215
+Base,Comps,ICICI Bank: Mar-05,I,0.2240944604115
+Base,Comps,ICICI Bank: Mar-05,J,0.01492
+Base,Comps,ICICI Bank: Mar-06,C,4.0
+Base,Comps,ICICI Bank: Mar-06,D,36247.0
+Base,Comps,ICICI Bank: Mar-06,E,156517.0
+Base,Comps,ICICI Bank: Mar-06,F,16103.0
+Base,Comps,ICICI Bank: Mar-06,G,17257.0
+Base,Comps,ICICI Bank: Mar-06,H,0.188038222904692
+Base,Comps,ICICI Bank: Mar-06,I,0.213139786732432
+Base,Comps,ICICI Bank: Mar-06,J,0.01291
+Base,Comps,ICICI Bank: Mar-07,C,5.0
+Base,Comps,ICICI Bank: Mar-07,D,40494.0
+Base,Comps,ICICI Bank: Mar-07,E,221706.0
+Base,Comps,ICICI Bank: Mar-07,F,20769.0
+Base,Comps,ICICI Bank: Mar-07,G,24018.0
+Base,Comps,ICICI Bank: Mar-07,H,0.154439359267735
+Base,Comps,ICICI Bank: Mar-07,I,0.202010771021082
+Base,Comps,ICICI Bank: Mar-07,J,0.0092
+Base,Comps,"ICICI Bank: RoA change, year 0 to 3",E,70.3
+Base,Comps,ICICI Bank: Sep-26,C,1612825.0
+Base,Comps,ICICI Bank: Sep-26,D,2049874.0
+Base,Comps,ICICI Bank: Sep-26,E,1408456.0
+Base,Comps,ICICI Bank: Sep-26,F,1831580.0
+Base,Comps,ICICI Bank: Sep-26,G,0.270983522700851
+Base,Comps,ICICI Bank: Sep-26,H,0.300416910432417
+Base,Comps,ICICI Bank: Sep-26,I,0.17
+Base,Comps,ICICI Bank: Sep-26,J,0.241
+Base,Comps,ICICI Bank: Sep-26,K,0.89350857662471
+Base,Comps,ICICI Bank: Sep-26,L,0.361
+Base,Comps,ICICI Bank: Sep-26,M,0.1601
+Base,Comps,ICICI Bank: borrowings share at year 0,E,0.647630552962495
+Base,Comps,"ICICI Bank: borrowings share cut a year, year 0 to 3",E,0.125766367413665
+Base,Comps,"IDFC First Bank: CASA ratio change, year 0 to 3",E,3265.43104088613
+Base,Comps,IDFC First Bank: Mar-19,C,0.0
+Base,Comps,IDFC First Bank: Mar-19,D,69983.0
+Base,Comps,IDFC First Bank: Mar-19,E,70479.0
+Base,Comps,IDFC First Bank: Mar-19,F,2194.0
+Base,Comps,IDFC First Bank: Mar-19,G,6609.0
+Base,Comps,IDFC First Bank: Mar-19,H,0.49823439791545
+Base,Comps,IDFC First Bank: Mar-19,I,0.124902453213014
+Base,Comps,IDFC First Bank: Mar-19,J,-0.01416
+Base,Comps,IDFC First Bank: Mar-20,C,1.0
+Base,Comps,IDFC First Bank: Mar-20,D,57397.0
+Base,Comps,IDFC First Bank: Mar-20,E,65108.0
+Base,Comps,IDFC First Bank: Mar-20,F,4042.0
+Base,Comps,IDFC First Bank: Mar-20,G,15279.0
+Base,Comps,IDFC First Bank: Mar-20,H,0.468527815191217
+Base,Comps,IDFC First Bank: Mar-20,I,0.296753087178227
+Base,Comps,IDFC First Bank: Mar-20,J,-0.01709
+Base,Comps,IDFC First Bank: Mar-21,C,2.0
+Base,Comps,IDFC First Bank: Mar-21,D,45786.0
+Base,Comps,IDFC First Bank: Mar-21,E,88688.0
+Base,Comps,IDFC First Bank: Mar-21,F,5076.0
+Base,Comps,IDFC First Bank: Mar-21,G,37685.0
+Base,Comps,IDFC First Bank: Mar-21,H,0.340482174992935
+Base,Comps,IDFC First Bank: Mar-21,I,0.482150911058993
+Base,Comps,IDFC First Bank: Mar-21,J,0.00285
+Base,Comps,IDFC First Bank: Mar-22,C,3.0
+Base,Comps,IDFC First Bank: Mar-22,D,52963.0
+Base,Comps,IDFC First Bank: Mar-22,E,105634.0
+Base,Comps,IDFC First Bank: Mar-22,F,8895.0
+Base,Comps,IDFC First Bank: Mar-22,G,38793.0
+Base,Comps,IDFC First Bank: Mar-22,H,0.333947048178717
+Base,Comps,IDFC First Bank: Mar-22,I,0.451445557301626
+Base,Comps,IDFC First Bank: Mar-22,J,0.00082
+Base,Comps,IDFC First Bank: Mar-23,C,4.0
+Base,Comps,IDFC First Bank: Mar-23,D,57212.0
+Base,Comps,IDFC First Bank: Mar-23,E,144637.0
+Base,Comps,IDFC First Bank: Mar-23,F,14174.0
+Base,Comps,IDFC First Bank: Mar-23,G,52797.0
+Base,Comps,IDFC First Bank: Mar-23,H,0.283439600889774
+Base,Comps,IDFC First Bank: Mar-23,I,0.463028132497217
+Base,Comps,IDFC First Bank: Mar-23,J,0.01131
+Base,Comps,IDFC First Bank: Mar-24,C,5.0
+Base,Comps,IDFC First Bank: Mar-24,D,50936.0
+Base,Comps,IDFC First Bank: Mar-24,E,200576.0
+Base,Comps,IDFC First Bank: Mar-24,F,17835.0
+Base,Comps,IDFC First Bank: Mar-24,G,70248.0
+Base,Comps,IDFC First Bank: Mar-24,H,0.20251916409555
+Base,Comps,IDFC First Bank: Mar-24,I,0.439150247287811
+Base,Comps,IDFC First Bank: Mar-24,J,0.01122
+Base,Comps,IDFC First Bank: Mar-25,C,6.0
+Base,Comps,IDFC First Bank: Mar-25,D,38627.0
+Base,Comps,IDFC First Bank: Mar-25,E,251974.0
+Base,Comps,IDFC First Bank: Mar-25,F,19356.0
+Base,Comps,IDFC First Bank: Mar-25,G,89946.0
+Base,Comps,IDFC First Bank: Mar-25,H,0.132921084235773
+Base,Comps,IDFC First Bank: Mar-25,I,0.433782850611571
+Base,Comps,IDFC First Bank: Mar-25,J,0.00475
+Base,Comps,"IDFC First Bank: RoA change, year 0 to 3",E,149.8
+Base,Comps,IDFC First Bank: borrowings share at year 0,E,0.49823439791545
+Base,Comps,"IDFC First Bank: borrowings share cut a year, year 0 to 3",E,0.0547624499122444
+Base,Comps,Kotak Mahindra Bank,C,458.0
+Base,Comps,Kotak Mahindra Bank,D,456555.0
+Base,Comps,Kotak Mahindra Bank,E,147.0
+Base,Comps,Kotak Mahindra Bank,F,146536.211790393
+Base,Comps,Kotak Mahindra Bank,G,3.1156462585034
+Base,Comps,Kotak Mahindra Bank,H,0.0
+Base,Comps,Kotak Mahindra Bank,I,3.1156462585034
+Base,Comps,Kotak Mahindra Bank,J,28.9
+Base,Comps,Kotak Mahindra Bank,K,0.0189729701542773
+Base,Comps,Kotak Mahindra Bank,L,0.110931610123856
+Base,Comps,Kotak Mahindra Bank: Sep-26,C,528776.0
+Base,Comps,Kotak Mahindra Bank: Sep-26,D,651491.0
+Base,Comps,Kotak Mahindra Bank: Sep-26,E,462688.0
+Base,Comps,Kotak Mahindra Bank: Sep-26,F,577295.0
+Base,Comps,Kotak Mahindra Bank: Sep-26,G,0.232073694721394
+Base,Comps,Kotak Mahindra Bank: Sep-26,H,0.247698232934505
+Base,Comps,Kotak Mahindra Bank: Sep-26,I,0.127
+Base,Comps,Kotak Mahindra Bank: Sep-26,J,0.213
+Base,Comps,Kotak Mahindra Bank: Sep-26,K,0.886113545697485
+Base,Comps,Kotak Mahindra Bank: Sep-26,L,0.382
+Base,Comps,Kotak Mahindra Bank: Sep-26,M,0.214
+Base,Comps,Peer median CASA ratio,E,0.3735
+Base,Comps,Peer median CD ratio,E,0.889811061161097
+Base,Comps,Peer median CET1,E,0.1531
+Base,Comps,Peer median P/B ex listed stakes,E,2.08615434170329
+Base,Comps,Peer median P/E,E,15.95
+Base,Comps,Peer median RoA FY26,E,0.0164806339798434
+Base,Comps,Peer median RoE FY26,E,0.14314969217593
+Base,Comps,Peer median loan growth ex FCNR,E,0.2015
+Base,Comps,State Bank of India,C,996.0
+Base,Comps,State Bank of India,D,919754.0
+Base,Comps,State Bank of India,E,614.0
+Base,Comps,State Bank of India,F,566996.9437751
+Base,Comps,State Bank of India,G,1.62214983713355
+Base,Comps,State Bank of India,H,104730.77104
+Base,Comps,State Bank of India,I,1.43743848694056
+Base,Comps,State Bank of India,J,11.7
+Base,Comps,State Bank of India,K,0.011194104744018
+Base,Comps,State Bank of India,L,0.162401938303822
+Base,Comps,State Bank of India: SBI Cards and Payment Services,C,0.6858
+Base,Comps,State Bank of India: SBI Cards and Payment Services,D,52715.0
+Base,Comps,State Bank of India: SBI Cards and Payment Services,E,28921.5576
+Base,Comps,State Bank of India: SBI Life Insurance,C,0.5531
+Base,Comps,State Bank of India: SBI Life Insurance,D,171328.0
+Base,Comps,State Bank of India: SBI Life Insurance,E,75809.21344
+Base,Comps,State Bank of India: Sep-26,C,5591700.0
+Base,Comps,State Bank of India: Sep-26,D,6277919.0
+Base,Comps,State Bank of India: Sep-26,E,4361737.0
+Base,Comps,State Bank of India: Sep-26,F,5154323.0
+Base,Comps,State Bank of India: Sep-26,G,0.122720997192267
+Base,Comps,State Bank of India: Sep-26,H,0.181713386203707
+Base,Comps,State Bank of India: Sep-26,I,0.122720997192267
+Base,Comps,State Bank of India: Sep-26,J,0.181713386203707
+Base,Comps,State Bank of India: Sep-26,K,0.821024132359784
+Base,Comps,State Bank of India: Sep-26,L,0.383
+Base,Comps,State Bank of India: Sep-26,M,0.1334
+Base,Comps,Years from FY25A to FY29E,E,4.0
 Base,Fees,2025-04,C,663561.79
 Base,Fees,2025-04,D,0.67
 Base,Fees,2025-05,C,696624.99
@@ -1405,6 +1686,287 @@ Downside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)"
 Downside,Checks,"No error values in Model, Valuation and Levers",C,0.0
 Downside,Checks,"No error values in Model, Valuation and Levers",E,0.0
 Downside,Checks,"Scenario selector resolves to 1, 2 or 3",C,3.0
+Downside,Comps,Axis Bank,C,1209.0
+Downside,Comps,Axis Bank,D,377205.0
+Downside,Comps,Axis Bank,E,703.0
+Downside,Comps,Axis Bank,F,219334.255583127
+Downside,Comps,Axis Bank,G,1.71977240398293
+Downside,Comps,Axis Bank,H,0.0
+Downside,Comps,Axis Bank,I,1.71977240398293
+Downside,Comps,Axis Bank,J,13.6
+Downside,Comps,Axis Bank,K,0.0139882978054095
+Downside,Comps,Axis Bank,L,0.126962949888647
+Downside,Comps,Axis Bank: Sep-26,C,1203487.0
+Downside,Comps,Axis Bank: Sep-26,D,1452066.0
+Downside,Comps,Axis Bank: Sep-26,E,1116703.0
+Downside,Comps,Axis Bank: Sep-26,F,1373727.0
+Downside,Comps,Axis Bank: Sep-26,G,0.206548969785299
+Downside,Comps,Axis Bank: Sep-26,H,0.230163257374611
+Downside,Comps,Axis Bank: Sep-26,I,0.17
+Downside,Comps,Axis Bank: Sep-26,J,0.19
+Downside,Comps,Axis Bank: Sep-26,K,0.946049972935115
+Downside,Comps,Axis Bank: Sep-26,L,0.365
+Downside,Comps,Axis Bank: Sep-26,M,0.1461
+Downside,Comps,HDFC Bank,C,700.0
+Downside,Comps,HDFC Bank,D,1080721.0
+Downside,Comps,HDFC Bank,E,376.0
+Downside,Comps,HDFC Bank,F,580501.565714286
+Downside,Comps,HDFC Bank,G,1.86170212765957
+Downside,Comps,HDFC Bank,H,114614.6752
+Downside,Comps,HDFC Bank,I,1.66426135924585
+Downside,Comps,HDFC Bank,J,14.1
+Downside,Comps,HDFC Bank,K,0.0180471862222563
+Downside,Comps,HDFC Bank,L,0.140316162826204
+Downside,Comps,HDFC Bank P/B ex listed stakes,E,1.66426135924585
+Downside,Comps,HDFC Bank P/B premium to the peer median,E,-0.202234788684415
+Downside,Comps,HDFC Bank RoE FY26 less peer median,E,-28.3352934972531
+Downside,Comps,"HDFC Bank model: borrowings share cut a year, FY25A to FY29E",E,0.0252110093226345
+Downside,Comps,HDFC Bank price at the peer median P/B ex stakes,E,858.631761403997
+Downside,Comps,"HDFC Bank: CASA ratio change, year 0 to 1.5",E,-438.610184689383
+Downside,Comps,HDFC Bank: Mar-23,C,-1.0
+Downside,Comps,HDFC Bank: Mar-23,D,180711.0
+Downside,Comps,HDFC Bank: Mar-23,E,1866153.0
+Downside,Comps,HDFC Bank: Mar-23,F,264987.0
+Downside,Comps,HDFC Bank: Mar-23,G,521827.0
+Downside,Comps,HDFC Bank: Mar-23,H,0.0882867645334522
+Downside,Comps,HDFC Bank: Mar-23,I,0.421623521758398
+Downside,Comps,HDFC Bank: Mar-23,J,0.02016
+Downside,Comps,HDFC Bank: Mar-24,C,0.0
+Downside,Comps,HDFC Bank: Mar-24,D,636945.0
+Downside,Comps,HDFC Bank: Mar-24,E,2357595.0
+Downside,Comps,HDFC Bank: Mar-24,F,301442.0
+Downside,Comps,HDFC Bank: Mar-24,G,555073.0
+Downside,Comps,HDFC Bank: Mar-24,H,0.212702117854495
+Downside,Comps,HDFC Bank: Mar-24,I,0.363300312394622
+Downside,Comps,HDFC Bank: Mar-24,J,0.01935
+Downside,Comps,HDFC Bank: Mar-25,C,1.0
+Downside,Comps,HDFC Bank: Mar-25,D,516661.0
+Downside,Comps,HDFC Bank: Mar-25,E,2690655.0
+Downside,Comps,HDFC Bank: Mar-25,F,302135.0
+Downside,Comps,HDFC Bank: Mar-25,G,582134.0
+Downside,Comps,HDFC Bank: Mar-25,H,0.161088274432579
+Downside,Comps,HDFC Bank: Mar-25,I,0.328644512209852
+Downside,Comps,HDFC Bank: Mar-25,J,0.0183
+Downside,Comps,"HDFC Bank: RoA change, year 0 to 1.5",E,-6.9
+Downside,Comps,HDFC Bank: Sep-25,C,1.5
+Downside,Comps,HDFC Bank: Sep-25,D,480926.0
+Downside,Comps,HDFC Bank: Sep-25,E,2777498.0
+Downside,Comps,HDFC Bank: Sep-25,F,287791.0
+Downside,Comps,HDFC Bank: Sep-25,G,599451.0
+Downside,Comps,HDFC Bank: Sep-25,H,0.147594665396523
+Downside,Comps,HDFC Bank: Sep-25,I,0.319439293925684
+Downside,Comps,HDFC Bank: Sep-25,J,0.01866
+Downside,Comps,HDFC Bank: Sep-26,C,2801800.0
+Downside,Comps,HDFC Bank: Sep-26,D,3327400.0
+Downside,Comps,HDFC Bank: Sep-26,E,2746400.0
+Downside,Comps,HDFC Bank: Sep-26,F,3195600.0
+Downside,Comps,HDFC Bank: Sep-26,G,0.187593689770862
+Downside,Comps,HDFC Bank: Sep-26,H,0.163559568890183
+Downside,Comps,HDFC Bank: Sep-26,J,0.144
+Downside,Comps,HDFC Bank: Sep-26,K,0.960389493298071
+Downside,Comps,HDFC Bank: Sep-26,L,0.32
+Downside,Comps,HDFC Bank: Sep-26,M,0.171
+Downside,Comps,HDFC Bank: borrowings share at year 0,E,0.212702117854495
+Downside,Comps,"HDFC Bank: borrowings share cut a year, year 0 to 1.5",E,0.0434049683053148
+Downside,Comps,ICICI Bank,C,1387.0
+Downside,Comps,ICICI Bank,D,999148.0
+Downside,Comps,ICICI Bank,E,498.0
+Downside,Comps,ICICI Bank,F,358742.396539293
+Downside,Comps,ICICI Bank,G,2.785140562249
+Downside,Comps,ICICI Bank,H,119319.25752
+Downside,Comps,ICICI Bank,I,2.45253627942364
+Downside,Comps,ICICI Bank,J,18.3
+Downside,Comps,ICICI Bank,K,0.0223333587929556
+Downside,Comps,ICICI Bank,L,0.159336434463212
+Downside,Comps,"ICICI Bank: CASA ratio change, year 0 to 3",E,1336.47210917968
+Downside,Comps,ICICI Bank: ICICI Life Insurance,C,0.5289
+Downside,Comps,ICICI Bank: ICICI Life Insurance,D,61575.0
+Downside,Comps,ICICI Bank: ICICI Life Insurance,E,26053.614
+Downside,Comps,ICICI Bank: ICICI Lombard General Insurance,C,0.5126
+Downside,Comps,ICICI Bank: ICICI Lombard General Insurance,D,80044.0
+Downside,Comps,ICICI Bank: ICICI Lombard General Insurance,E,32824.44352
+Downside,Comps,ICICI Bank: ICICI Prudential AMC,C,0.53
+Downside,Comps,ICICI Bank: ICICI Prudential AMC,D,142550.0
+Downside,Comps,ICICI Bank: ICICI Prudential AMC,E,60441.2
+Downside,Comps,ICICI Bank: Mar-02,C,0.0
+Downside,Comps,ICICI Bank: Mar-02,D,58970.0
+Downside,Comps,ICICI Bank: Mar-02,E,32085.0
+Downside,Comps,ICICI Bank: Mar-02,F,560.0
+Downside,Comps,ICICI Bank: Mar-02,G,2342.0
+Downside,Comps,ICICI Bank: Mar-02,H,0.647630552962495
+Downside,Comps,ICICI Bank: Mar-02,I,0.0904472494935328
+Downside,Comps,ICICI Bank: Mar-02,J,0.00789
+Downside,Comps,ICICI Bank: Mar-03,C,1.0
+Downside,Comps,ICICI Bank: Mar-03,D,44052.0
+Downside,Comps,ICICI Bank: Mar-03,E,48169.0
+Downside,Comps,ICICI Bank: Mar-03,F,2919.0
+Downside,Comps,ICICI Bank: Mar-03,G,3522.0
+Downside,Comps,ICICI Bank: Mar-03,H,0.47767861983713
+Downside,Comps,ICICI Bank: Mar-03,I,0.133716705765119
+Downside,Comps,ICICI Bank: Mar-03,J,0.01173
+Downside,Comps,ICICI Bank: Mar-04,C,2.0
+Downside,Comps,ICICI Bank: Mar-04,D,38726.0
+Downside,Comps,ICICI Bank: Mar-04,E,67029.0
+Downside,Comps,ICICI Bank: Mar-04,F,6637.0
+Downside,Comps,ICICI Bank: Mar-04,G,6942.0
+Downside,Comps,ICICI Bank: Mar-04,H,0.366185995933998
+Downside,Comps,ICICI Bank: Mar-04,I,0.202583956198064
+Downside,Comps,ICICI Bank: Mar-04,J,0.01428
+Downside,Comps,ICICI Bank: Mar-05,C,3.0
+Downside,Comps,ICICI Bank: Mar-05,D,35707.0
+Downside,Comps,ICICI Bank: Mar-05,E,96379.0
+Downside,Comps,ICICI Bank: Mar-05,F,12608.0
+Downside,Comps,ICICI Bank: Mar-05,G,8990.0
+Downside,Comps,ICICI Bank: Mar-05,H,0.2703314507215
+Downside,Comps,ICICI Bank: Mar-05,I,0.2240944604115
+Downside,Comps,ICICI Bank: Mar-05,J,0.01492
+Downside,Comps,ICICI Bank: Mar-06,C,4.0
+Downside,Comps,ICICI Bank: Mar-06,D,36247.0
+Downside,Comps,ICICI Bank: Mar-06,E,156517.0
+Downside,Comps,ICICI Bank: Mar-06,F,16103.0
+Downside,Comps,ICICI Bank: Mar-06,G,17257.0
+Downside,Comps,ICICI Bank: Mar-06,H,0.188038222904692
+Downside,Comps,ICICI Bank: Mar-06,I,0.213139786732432
+Downside,Comps,ICICI Bank: Mar-06,J,0.01291
+Downside,Comps,ICICI Bank: Mar-07,C,5.0
+Downside,Comps,ICICI Bank: Mar-07,D,40494.0
+Downside,Comps,ICICI Bank: Mar-07,E,221706.0
+Downside,Comps,ICICI Bank: Mar-07,F,20769.0
+Downside,Comps,ICICI Bank: Mar-07,G,24018.0
+Downside,Comps,ICICI Bank: Mar-07,H,0.154439359267735
+Downside,Comps,ICICI Bank: Mar-07,I,0.202010771021082
+Downside,Comps,ICICI Bank: Mar-07,J,0.0092
+Downside,Comps,"ICICI Bank: RoA change, year 0 to 3",E,70.3
+Downside,Comps,ICICI Bank: Sep-26,C,1612825.0
+Downside,Comps,ICICI Bank: Sep-26,D,2049874.0
+Downside,Comps,ICICI Bank: Sep-26,E,1408456.0
+Downside,Comps,ICICI Bank: Sep-26,F,1831580.0
+Downside,Comps,ICICI Bank: Sep-26,G,0.270983522700851
+Downside,Comps,ICICI Bank: Sep-26,H,0.300416910432417
+Downside,Comps,ICICI Bank: Sep-26,I,0.17
+Downside,Comps,ICICI Bank: Sep-26,J,0.241
+Downside,Comps,ICICI Bank: Sep-26,K,0.89350857662471
+Downside,Comps,ICICI Bank: Sep-26,L,0.361
+Downside,Comps,ICICI Bank: Sep-26,M,0.1601
+Downside,Comps,ICICI Bank: borrowings share at year 0,E,0.647630552962495
+Downside,Comps,"ICICI Bank: borrowings share cut a year, year 0 to 3",E,0.125766367413665
+Downside,Comps,"IDFC First Bank: CASA ratio change, year 0 to 3",E,3265.43104088613
+Downside,Comps,IDFC First Bank: Mar-19,C,0.0
+Downside,Comps,IDFC First Bank: Mar-19,D,69983.0
+Downside,Comps,IDFC First Bank: Mar-19,E,70479.0
+Downside,Comps,IDFC First Bank: Mar-19,F,2194.0
+Downside,Comps,IDFC First Bank: Mar-19,G,6609.0
+Downside,Comps,IDFC First Bank: Mar-19,H,0.49823439791545
+Downside,Comps,IDFC First Bank: Mar-19,I,0.124902453213014
+Downside,Comps,IDFC First Bank: Mar-19,J,-0.01416
+Downside,Comps,IDFC First Bank: Mar-20,C,1.0
+Downside,Comps,IDFC First Bank: Mar-20,D,57397.0
+Downside,Comps,IDFC First Bank: Mar-20,E,65108.0
+Downside,Comps,IDFC First Bank: Mar-20,F,4042.0
+Downside,Comps,IDFC First Bank: Mar-20,G,15279.0
+Downside,Comps,IDFC First Bank: Mar-20,H,0.468527815191217
+Downside,Comps,IDFC First Bank: Mar-20,I,0.296753087178227
+Downside,Comps,IDFC First Bank: Mar-20,J,-0.01709
+Downside,Comps,IDFC First Bank: Mar-21,C,2.0
+Downside,Comps,IDFC First Bank: Mar-21,D,45786.0
+Downside,Comps,IDFC First Bank: Mar-21,E,88688.0
+Downside,Comps,IDFC First Bank: Mar-21,F,5076.0
+Downside,Comps,IDFC First Bank: Mar-21,G,37685.0
+Downside,Comps,IDFC First Bank: Mar-21,H,0.340482174992935
+Downside,Comps,IDFC First Bank: Mar-21,I,0.482150911058993
+Downside,Comps,IDFC First Bank: Mar-21,J,0.00285
+Downside,Comps,IDFC First Bank: Mar-22,C,3.0
+Downside,Comps,IDFC First Bank: Mar-22,D,52963.0
+Downside,Comps,IDFC First Bank: Mar-22,E,105634.0
+Downside,Comps,IDFC First Bank: Mar-22,F,8895.0
+Downside,Comps,IDFC First Bank: Mar-22,G,38793.0
+Downside,Comps,IDFC First Bank: Mar-22,H,0.333947048178717
+Downside,Comps,IDFC First Bank: Mar-22,I,0.451445557301626
+Downside,Comps,IDFC First Bank: Mar-22,J,0.00082
+Downside,Comps,IDFC First Bank: Mar-23,C,4.0
+Downside,Comps,IDFC First Bank: Mar-23,D,57212.0
+Downside,Comps,IDFC First Bank: Mar-23,E,144637.0
+Downside,Comps,IDFC First Bank: Mar-23,F,14174.0
+Downside,Comps,IDFC First Bank: Mar-23,G,52797.0
+Downside,Comps,IDFC First Bank: Mar-23,H,0.283439600889774
+Downside,Comps,IDFC First Bank: Mar-23,I,0.463028132497217
+Downside,Comps,IDFC First Bank: Mar-23,J,0.01131
+Downside,Comps,IDFC First Bank: Mar-24,C,5.0
+Downside,Comps,IDFC First Bank: Mar-24,D,50936.0
+Downside,Comps,IDFC First Bank: Mar-24,E,200576.0
+Downside,Comps,IDFC First Bank: Mar-24,F,17835.0
+Downside,Comps,IDFC First Bank: Mar-24,G,70248.0
+Downside,Comps,IDFC First Bank: Mar-24,H,0.20251916409555
+Downside,Comps,IDFC First Bank: Mar-24,I,0.439150247287811
+Downside,Comps,IDFC First Bank: Mar-24,J,0.01122
+Downside,Comps,IDFC First Bank: Mar-25,C,6.0
+Downside,Comps,IDFC First Bank: Mar-25,D,38627.0
+Downside,Comps,IDFC First Bank: Mar-25,E,251974.0
+Downside,Comps,IDFC First Bank: Mar-25,F,19356.0
+Downside,Comps,IDFC First Bank: Mar-25,G,89946.0
+Downside,Comps,IDFC First Bank: Mar-25,H,0.132921084235773
+Downside,Comps,IDFC First Bank: Mar-25,I,0.433782850611571
+Downside,Comps,IDFC First Bank: Mar-25,J,0.00475
+Downside,Comps,"IDFC First Bank: RoA change, year 0 to 3",E,149.8
+Downside,Comps,IDFC First Bank: borrowings share at year 0,E,0.49823439791545
+Downside,Comps,"IDFC First Bank: borrowings share cut a year, year 0 to 3",E,0.0547624499122444
+Downside,Comps,Kotak Mahindra Bank,C,458.0
+Downside,Comps,Kotak Mahindra Bank,D,456555.0
+Downside,Comps,Kotak Mahindra Bank,E,147.0
+Downside,Comps,Kotak Mahindra Bank,F,146536.211790393
+Downside,Comps,Kotak Mahindra Bank,G,3.1156462585034
+Downside,Comps,Kotak Mahindra Bank,H,0.0
+Downside,Comps,Kotak Mahindra Bank,I,3.1156462585034
+Downside,Comps,Kotak Mahindra Bank,J,28.9
+Downside,Comps,Kotak Mahindra Bank,K,0.0189729701542773
+Downside,Comps,Kotak Mahindra Bank,L,0.110931610123856
+Downside,Comps,Kotak Mahindra Bank: Sep-26,C,528776.0
+Downside,Comps,Kotak Mahindra Bank: Sep-26,D,651491.0
+Downside,Comps,Kotak Mahindra Bank: Sep-26,E,462688.0
+Downside,Comps,Kotak Mahindra Bank: Sep-26,F,577295.0
+Downside,Comps,Kotak Mahindra Bank: Sep-26,G,0.232073694721394
+Downside,Comps,Kotak Mahindra Bank: Sep-26,H,0.247698232934505
+Downside,Comps,Kotak Mahindra Bank: Sep-26,I,0.127
+Downside,Comps,Kotak Mahindra Bank: Sep-26,J,0.213
+Downside,Comps,Kotak Mahindra Bank: Sep-26,K,0.886113545697485
+Downside,Comps,Kotak Mahindra Bank: Sep-26,L,0.382
+Downside,Comps,Kotak Mahindra Bank: Sep-26,M,0.214
+Downside,Comps,Peer median CASA ratio,E,0.3735
+Downside,Comps,Peer median CD ratio,E,0.889811061161097
+Downside,Comps,Peer median CET1,E,0.1531
+Downside,Comps,Peer median P/B ex listed stakes,E,2.08615434170329
+Downside,Comps,Peer median P/E,E,15.95
+Downside,Comps,Peer median RoA FY26,E,0.0164806339798434
+Downside,Comps,Peer median RoE FY26,E,0.14314969217593
+Downside,Comps,Peer median loan growth ex FCNR,E,0.2015
+Downside,Comps,State Bank of India,C,996.0
+Downside,Comps,State Bank of India,D,919754.0
+Downside,Comps,State Bank of India,E,614.0
+Downside,Comps,State Bank of India,F,566996.9437751
+Downside,Comps,State Bank of India,G,1.62214983713355
+Downside,Comps,State Bank of India,H,104730.77104
+Downside,Comps,State Bank of India,I,1.43743848694056
+Downside,Comps,State Bank of India,J,11.7
+Downside,Comps,State Bank of India,K,0.011194104744018
+Downside,Comps,State Bank of India,L,0.162401938303822
+Downside,Comps,State Bank of India: SBI Cards and Payment Services,C,0.6858
+Downside,Comps,State Bank of India: SBI Cards and Payment Services,D,52715.0
+Downside,Comps,State Bank of India: SBI Cards and Payment Services,E,28921.5576
+Downside,Comps,State Bank of India: SBI Life Insurance,C,0.5531
+Downside,Comps,State Bank of India: SBI Life Insurance,D,171328.0
+Downside,Comps,State Bank of India: SBI Life Insurance,E,75809.21344
+Downside,Comps,State Bank of India: Sep-26,C,5591700.0
+Downside,Comps,State Bank of India: Sep-26,D,6277919.0
+Downside,Comps,State Bank of India: Sep-26,E,4361737.0
+Downside,Comps,State Bank of India: Sep-26,F,5154323.0
+Downside,Comps,State Bank of India: Sep-26,G,0.122720997192267
+Downside,Comps,State Bank of India: Sep-26,H,0.181713386203707
+Downside,Comps,State Bank of India: Sep-26,I,0.122720997192267
+Downside,Comps,State Bank of India: Sep-26,J,0.181713386203707
+Downside,Comps,State Bank of India: Sep-26,K,0.821024132359784
+Downside,Comps,State Bank of India: Sep-26,L,0.383
+Downside,Comps,State Bank of India: Sep-26,M,0.1334
+Downside,Comps,Years from FY25A to FY29E,E,4.0
 Downside,Fees,2025-04,C,663561.79
 Downside,Fees,2025-04,D,0.67
 Downside,Fees,2025-05,C,696624.99
@@ -2655,6 +3217,287 @@ Upside,Checks,"NII walk explains all of the change (sum of residuals, INR cr)",E
 Upside,Checks,"No error values in Model, Valuation and Levers",C,0.0
 Upside,Checks,"No error values in Model, Valuation and Levers",E,0.0
 Upside,Checks,"Scenario selector resolves to 1, 2 or 3",C,2.0
+Upside,Comps,Axis Bank,C,1209.0
+Upside,Comps,Axis Bank,D,377205.0
+Upside,Comps,Axis Bank,E,703.0
+Upside,Comps,Axis Bank,F,219334.255583127
+Upside,Comps,Axis Bank,G,1.71977240398293
+Upside,Comps,Axis Bank,H,0.0
+Upside,Comps,Axis Bank,I,1.71977240398293
+Upside,Comps,Axis Bank,J,13.6
+Upside,Comps,Axis Bank,K,0.0139882978054095
+Upside,Comps,Axis Bank,L,0.126962949888647
+Upside,Comps,Axis Bank: Sep-26,C,1203487.0
+Upside,Comps,Axis Bank: Sep-26,D,1452066.0
+Upside,Comps,Axis Bank: Sep-26,E,1116703.0
+Upside,Comps,Axis Bank: Sep-26,F,1373727.0
+Upside,Comps,Axis Bank: Sep-26,G,0.206548969785299
+Upside,Comps,Axis Bank: Sep-26,H,0.230163257374611
+Upside,Comps,Axis Bank: Sep-26,I,0.17
+Upside,Comps,Axis Bank: Sep-26,J,0.19
+Upside,Comps,Axis Bank: Sep-26,K,0.946049972935115
+Upside,Comps,Axis Bank: Sep-26,L,0.365
+Upside,Comps,Axis Bank: Sep-26,M,0.1461
+Upside,Comps,HDFC Bank,C,700.0
+Upside,Comps,HDFC Bank,D,1080721.0
+Upside,Comps,HDFC Bank,E,376.0
+Upside,Comps,HDFC Bank,F,580501.565714286
+Upside,Comps,HDFC Bank,G,1.86170212765957
+Upside,Comps,HDFC Bank,H,114614.6752
+Upside,Comps,HDFC Bank,I,1.66426135924585
+Upside,Comps,HDFC Bank,J,14.1
+Upside,Comps,HDFC Bank,K,0.0180471862222563
+Upside,Comps,HDFC Bank,L,0.140316162826204
+Upside,Comps,HDFC Bank P/B ex listed stakes,E,1.66426135924585
+Upside,Comps,HDFC Bank P/B premium to the peer median,E,-0.202234788684415
+Upside,Comps,HDFC Bank RoE FY26 less peer median,E,-28.3352934972531
+Upside,Comps,"HDFC Bank model: borrowings share cut a year, FY25A to FY29E",E,0.0331145949450665
+Upside,Comps,HDFC Bank price at the peer median P/B ex stakes,E,858.631761403997
+Upside,Comps,"HDFC Bank: CASA ratio change, year 0 to 1.5",E,-438.610184689383
+Upside,Comps,HDFC Bank: Mar-23,C,-1.0
+Upside,Comps,HDFC Bank: Mar-23,D,180711.0
+Upside,Comps,HDFC Bank: Mar-23,E,1866153.0
+Upside,Comps,HDFC Bank: Mar-23,F,264987.0
+Upside,Comps,HDFC Bank: Mar-23,G,521827.0
+Upside,Comps,HDFC Bank: Mar-23,H,0.0882867645334522
+Upside,Comps,HDFC Bank: Mar-23,I,0.421623521758398
+Upside,Comps,HDFC Bank: Mar-23,J,0.02016
+Upside,Comps,HDFC Bank: Mar-24,C,0.0
+Upside,Comps,HDFC Bank: Mar-24,D,636945.0
+Upside,Comps,HDFC Bank: Mar-24,E,2357595.0
+Upside,Comps,HDFC Bank: Mar-24,F,301442.0
+Upside,Comps,HDFC Bank: Mar-24,G,555073.0
+Upside,Comps,HDFC Bank: Mar-24,H,0.212702117854495
+Upside,Comps,HDFC Bank: Mar-24,I,0.363300312394622
+Upside,Comps,HDFC Bank: Mar-24,J,0.01935
+Upside,Comps,HDFC Bank: Mar-25,C,1.0
+Upside,Comps,HDFC Bank: Mar-25,D,516661.0
+Upside,Comps,HDFC Bank: Mar-25,E,2690655.0
+Upside,Comps,HDFC Bank: Mar-25,F,302135.0
+Upside,Comps,HDFC Bank: Mar-25,G,582134.0
+Upside,Comps,HDFC Bank: Mar-25,H,0.161088274432579
+Upside,Comps,HDFC Bank: Mar-25,I,0.328644512209852
+Upside,Comps,HDFC Bank: Mar-25,J,0.0183
+Upside,Comps,"HDFC Bank: RoA change, year 0 to 1.5",E,-6.9
+Upside,Comps,HDFC Bank: Sep-25,C,1.5
+Upside,Comps,HDFC Bank: Sep-25,D,480926.0
+Upside,Comps,HDFC Bank: Sep-25,E,2777498.0
+Upside,Comps,HDFC Bank: Sep-25,F,287791.0
+Upside,Comps,HDFC Bank: Sep-25,G,599451.0
+Upside,Comps,HDFC Bank: Sep-25,H,0.147594665396523
+Upside,Comps,HDFC Bank: Sep-25,I,0.319439293925684
+Upside,Comps,HDFC Bank: Sep-25,J,0.01866
+Upside,Comps,HDFC Bank: Sep-26,C,2801800.0
+Upside,Comps,HDFC Bank: Sep-26,D,3327400.0
+Upside,Comps,HDFC Bank: Sep-26,E,2746400.0
+Upside,Comps,HDFC Bank: Sep-26,F,3195600.0
+Upside,Comps,HDFC Bank: Sep-26,G,0.187593689770862
+Upside,Comps,HDFC Bank: Sep-26,H,0.163559568890183
+Upside,Comps,HDFC Bank: Sep-26,J,0.144
+Upside,Comps,HDFC Bank: Sep-26,K,0.960389493298071
+Upside,Comps,HDFC Bank: Sep-26,L,0.32
+Upside,Comps,HDFC Bank: Sep-26,M,0.171
+Upside,Comps,HDFC Bank: borrowings share at year 0,E,0.212702117854495
+Upside,Comps,"HDFC Bank: borrowings share cut a year, year 0 to 1.5",E,0.0434049683053148
+Upside,Comps,ICICI Bank,C,1387.0
+Upside,Comps,ICICI Bank,D,999148.0
+Upside,Comps,ICICI Bank,E,498.0
+Upside,Comps,ICICI Bank,F,358742.396539293
+Upside,Comps,ICICI Bank,G,2.785140562249
+Upside,Comps,ICICI Bank,H,119319.25752
+Upside,Comps,ICICI Bank,I,2.45253627942364
+Upside,Comps,ICICI Bank,J,18.3
+Upside,Comps,ICICI Bank,K,0.0223333587929556
+Upside,Comps,ICICI Bank,L,0.159336434463212
+Upside,Comps,"ICICI Bank: CASA ratio change, year 0 to 3",E,1336.47210917968
+Upside,Comps,ICICI Bank: ICICI Life Insurance,C,0.5289
+Upside,Comps,ICICI Bank: ICICI Life Insurance,D,61575.0
+Upside,Comps,ICICI Bank: ICICI Life Insurance,E,26053.614
+Upside,Comps,ICICI Bank: ICICI Lombard General Insurance,C,0.5126
+Upside,Comps,ICICI Bank: ICICI Lombard General Insurance,D,80044.0
+Upside,Comps,ICICI Bank: ICICI Lombard General Insurance,E,32824.44352
+Upside,Comps,ICICI Bank: ICICI Prudential AMC,C,0.53
+Upside,Comps,ICICI Bank: ICICI Prudential AMC,D,142550.0
+Upside,Comps,ICICI Bank: ICICI Prudential AMC,E,60441.2
+Upside,Comps,ICICI Bank: Mar-02,C,0.0
+Upside,Comps,ICICI Bank: Mar-02,D,58970.0
+Upside,Comps,ICICI Bank: Mar-02,E,32085.0
+Upside,Comps,ICICI Bank: Mar-02,F,560.0
+Upside,Comps,ICICI Bank: Mar-02,G,2342.0
+Upside,Comps,ICICI Bank: Mar-02,H,0.647630552962495
+Upside,Comps,ICICI Bank: Mar-02,I,0.0904472494935328
+Upside,Comps,ICICI Bank: Mar-02,J,0.00789
+Upside,Comps,ICICI Bank: Mar-03,C,1.0
+Upside,Comps,ICICI Bank: Mar-03,D,44052.0
+Upside,Comps,ICICI Bank: Mar-03,E,48169.0
+Upside,Comps,ICICI Bank: Mar-03,F,2919.0
+Upside,Comps,ICICI Bank: Mar-03,G,3522.0
+Upside,Comps,ICICI Bank: Mar-03,H,0.47767861983713
+Upside,Comps,ICICI Bank: Mar-03,I,0.133716705765119
+Upside,Comps,ICICI Bank: Mar-03,J,0.01173
+Upside,Comps,ICICI Bank: Mar-04,C,2.0
+Upside,Comps,ICICI Bank: Mar-04,D,38726.0
+Upside,Comps,ICICI Bank: Mar-04,E,67029.0
+Upside,Comps,ICICI Bank: Mar-04,F,6637.0
+Upside,Comps,ICICI Bank: Mar-04,G,6942.0
+Upside,Comps,ICICI Bank: Mar-04,H,0.366185995933998
+Upside,Comps,ICICI Bank: Mar-04,I,0.202583956198064
+Upside,Comps,ICICI Bank: Mar-04,J,0.01428
+Upside,Comps,ICICI Bank: Mar-05,C,3.0
+Upside,Comps,ICICI Bank: Mar-05,D,35707.0
+Upside,Comps,ICICI Bank: Mar-05,E,96379.0
+Upside,Comps,ICICI Bank: Mar-05,F,12608.0
+Upside,Comps,ICICI Bank: Mar-05,G,8990.0
+Upside,Comps,ICICI Bank: Mar-05,H,0.2703314507215
+Upside,Comps,ICICI Bank: Mar-05,I,0.2240944604115
+Upside,Comps,ICICI Bank: Mar-05,J,0.01492
+Upside,Comps,ICICI Bank: Mar-06,C,4.0
+Upside,Comps,ICICI Bank: Mar-06,D,36247.0
+Upside,Comps,ICICI Bank: Mar-06,E,156517.0
+Upside,Comps,ICICI Bank: Mar-06,F,16103.0
+Upside,Comps,ICICI Bank: Mar-06,G,17257.0
+Upside,Comps,ICICI Bank: Mar-06,H,0.188038222904692
+Upside,Comps,ICICI Bank: Mar-06,I,0.213139786732432
+Upside,Comps,ICICI Bank: Mar-06,J,0.01291
+Upside,Comps,ICICI Bank: Mar-07,C,5.0
+Upside,Comps,ICICI Bank: Mar-07,D,40494.0
+Upside,Comps,ICICI Bank: Mar-07,E,221706.0
+Upside,Comps,ICICI Bank: Mar-07,F,20769.0
+Upside,Comps,ICICI Bank: Mar-07,G,24018.0
+Upside,Comps,ICICI Bank: Mar-07,H,0.154439359267735
+Upside,Comps,ICICI Bank: Mar-07,I,0.202010771021082
+Upside,Comps,ICICI Bank: Mar-07,J,0.0092
+Upside,Comps,"ICICI Bank: RoA change, year 0 to 3",E,70.3
+Upside,Comps,ICICI Bank: Sep-26,C,1612825.0
+Upside,Comps,ICICI Bank: Sep-26,D,2049874.0
+Upside,Comps,ICICI Bank: Sep-26,E,1408456.0
+Upside,Comps,ICICI Bank: Sep-26,F,1831580.0
+Upside,Comps,ICICI Bank: Sep-26,G,0.270983522700851
+Upside,Comps,ICICI Bank: Sep-26,H,0.300416910432417
+Upside,Comps,ICICI Bank: Sep-26,I,0.17
+Upside,Comps,ICICI Bank: Sep-26,J,0.241
+Upside,Comps,ICICI Bank: Sep-26,K,0.89350857662471
+Upside,Comps,ICICI Bank: Sep-26,L,0.361
+Upside,Comps,ICICI Bank: Sep-26,M,0.1601
+Upside,Comps,ICICI Bank: borrowings share at year 0,E,0.647630552962495
+Upside,Comps,"ICICI Bank: borrowings share cut a year, year 0 to 3",E,0.125766367413665
+Upside,Comps,"IDFC First Bank: CASA ratio change, year 0 to 3",E,3265.43104088613
+Upside,Comps,IDFC First Bank: Mar-19,C,0.0
+Upside,Comps,IDFC First Bank: Mar-19,D,69983.0
+Upside,Comps,IDFC First Bank: Mar-19,E,70479.0
+Upside,Comps,IDFC First Bank: Mar-19,F,2194.0
+Upside,Comps,IDFC First Bank: Mar-19,G,6609.0
+Upside,Comps,IDFC First Bank: Mar-19,H,0.49823439791545
+Upside,Comps,IDFC First Bank: Mar-19,I,0.124902453213014
+Upside,Comps,IDFC First Bank: Mar-19,J,-0.01416
+Upside,Comps,IDFC First Bank: Mar-20,C,1.0
+Upside,Comps,IDFC First Bank: Mar-20,D,57397.0
+Upside,Comps,IDFC First Bank: Mar-20,E,65108.0
+Upside,Comps,IDFC First Bank: Mar-20,F,4042.0
+Upside,Comps,IDFC First Bank: Mar-20,G,15279.0
+Upside,Comps,IDFC First Bank: Mar-20,H,0.468527815191217
+Upside,Comps,IDFC First Bank: Mar-20,I,0.296753087178227
+Upside,Comps,IDFC First Bank: Mar-20,J,-0.01709
+Upside,Comps,IDFC First Bank: Mar-21,C,2.0
+Upside,Comps,IDFC First Bank: Mar-21,D,45786.0
+Upside,Comps,IDFC First Bank: Mar-21,E,88688.0
+Upside,Comps,IDFC First Bank: Mar-21,F,5076.0
+Upside,Comps,IDFC First Bank: Mar-21,G,37685.0
+Upside,Comps,IDFC First Bank: Mar-21,H,0.340482174992935
+Upside,Comps,IDFC First Bank: Mar-21,I,0.482150911058993
+Upside,Comps,IDFC First Bank: Mar-21,J,0.00285
+Upside,Comps,IDFC First Bank: Mar-22,C,3.0
+Upside,Comps,IDFC First Bank: Mar-22,D,52963.0
+Upside,Comps,IDFC First Bank: Mar-22,E,105634.0
+Upside,Comps,IDFC First Bank: Mar-22,F,8895.0
+Upside,Comps,IDFC First Bank: Mar-22,G,38793.0
+Upside,Comps,IDFC First Bank: Mar-22,H,0.333947048178717
+Upside,Comps,IDFC First Bank: Mar-22,I,0.451445557301626
+Upside,Comps,IDFC First Bank: Mar-22,J,0.00082
+Upside,Comps,IDFC First Bank: Mar-23,C,4.0
+Upside,Comps,IDFC First Bank: Mar-23,D,57212.0
+Upside,Comps,IDFC First Bank: Mar-23,E,144637.0
+Upside,Comps,IDFC First Bank: Mar-23,F,14174.0
+Upside,Comps,IDFC First Bank: Mar-23,G,52797.0
+Upside,Comps,IDFC First Bank: Mar-23,H,0.283439600889774
+Upside,Comps,IDFC First Bank: Mar-23,I,0.463028132497217
+Upside,Comps,IDFC First Bank: Mar-23,J,0.01131
+Upside,Comps,IDFC First Bank: Mar-24,C,5.0
+Upside,Comps,IDFC First Bank: Mar-24,D,50936.0
+Upside,Comps,IDFC First Bank: Mar-24,E,200576.0
+Upside,Comps,IDFC First Bank: Mar-24,F,17835.0
+Upside,Comps,IDFC First Bank: Mar-24,G,70248.0
+Upside,Comps,IDFC First Bank: Mar-24,H,0.20251916409555
+Upside,Comps,IDFC First Bank: Mar-24,I,0.439150247287811
+Upside,Comps,IDFC First Bank: Mar-24,J,0.01122
+Upside,Comps,IDFC First Bank: Mar-25,C,6.0
+Upside,Comps,IDFC First Bank: Mar-25,D,38627.0
+Upside,Comps,IDFC First Bank: Mar-25,E,251974.0
+Upside,Comps,IDFC First Bank: Mar-25,F,19356.0
+Upside,Comps,IDFC First Bank: Mar-25,G,89946.0
+Upside,Comps,IDFC First Bank: Mar-25,H,0.132921084235773
+Upside,Comps,IDFC First Bank: Mar-25,I,0.433782850611571
+Upside,Comps,IDFC First Bank: Mar-25,J,0.00475
+Upside,Comps,"IDFC First Bank: RoA change, year 0 to 3",E,149.8
+Upside,Comps,IDFC First Bank: borrowings share at year 0,E,0.49823439791545
+Upside,Comps,"IDFC First Bank: borrowings share cut a year, year 0 to 3",E,0.0547624499122444
+Upside,Comps,Kotak Mahindra Bank,C,458.0
+Upside,Comps,Kotak Mahindra Bank,D,456555.0
+Upside,Comps,Kotak Mahindra Bank,E,147.0
+Upside,Comps,Kotak Mahindra Bank,F,146536.211790393
+Upside,Comps,Kotak Mahindra Bank,G,3.1156462585034
+Upside,Comps,Kotak Mahindra Bank,H,0.0
+Upside,Comps,Kotak Mahindra Bank,I,3.1156462585034
+Upside,Comps,Kotak Mahindra Bank,J,28.9
+Upside,Comps,Kotak Mahindra Bank,K,0.0189729701542773
+Upside,Comps,Kotak Mahindra Bank,L,0.110931610123856
+Upside,Comps,Kotak Mahindra Bank: Sep-26,C,528776.0
+Upside,Comps,Kotak Mahindra Bank: Sep-26,D,651491.0
+Upside,Comps,Kotak Mahindra Bank: Sep-26,E,462688.0
+Upside,Comps,Kotak Mahindra Bank: Sep-26,F,577295.0
+Upside,Comps,Kotak Mahindra Bank: Sep-26,G,0.232073694721394
+Upside,Comps,Kotak Mahindra Bank: Sep-26,H,0.247698232934505
+Upside,Comps,Kotak Mahindra Bank: Sep-26,I,0.127
+Upside,Comps,Kotak Mahindra Bank: Sep-26,J,0.213
+Upside,Comps,Kotak Mahindra Bank: Sep-26,K,0.886113545697485
+Upside,Comps,Kotak Mahindra Bank: Sep-26,L,0.382
+Upside,Comps,Kotak Mahindra Bank: Sep-26,M,0.214
+Upside,Comps,Peer median CASA ratio,E,0.3735
+Upside,Comps,Peer median CD ratio,E,0.889811061161097
+Upside,Comps,Peer median CET1,E,0.1531
+Upside,Comps,Peer median P/B ex listed stakes,E,2.08615434170329
+Upside,Comps,Peer median P/E,E,15.95
+Upside,Comps,Peer median RoA FY26,E,0.0164806339798434
+Upside,Comps,Peer median RoE FY26,E,0.14314969217593
+Upside,Comps,Peer median loan growth ex FCNR,E,0.2015
+Upside,Comps,State Bank of India,C,996.0
+Upside,Comps,State Bank of India,D,919754.0
+Upside,Comps,State Bank of India,E,614.0
+Upside,Comps,State Bank of India,F,566996.9437751
+Upside,Comps,State Bank of India,G,1.62214983713355
+Upside,Comps,State Bank of India,H,104730.77104
+Upside,Comps,State Bank of India,I,1.43743848694056
+Upside,Comps,State Bank of India,J,11.7
+Upside,Comps,State Bank of India,K,0.011194104744018
+Upside,Comps,State Bank of India,L,0.162401938303822
+Upside,Comps,State Bank of India: SBI Cards and Payment Services,C,0.6858
+Upside,Comps,State Bank of India: SBI Cards and Payment Services,D,52715.0
+Upside,Comps,State Bank of India: SBI Cards and Payment Services,E,28921.5576
+Upside,Comps,State Bank of India: SBI Life Insurance,C,0.5531
+Upside,Comps,State Bank of India: SBI Life Insurance,D,171328.0
+Upside,Comps,State Bank of India: SBI Life Insurance,E,75809.21344
+Upside,Comps,State Bank of India: Sep-26,C,5591700.0
+Upside,Comps,State Bank of India: Sep-26,D,6277919.0
+Upside,Comps,State Bank of India: Sep-26,E,4361737.0
+Upside,Comps,State Bank of India: Sep-26,F,5154323.0
+Upside,Comps,State Bank of India: Sep-26,G,0.122720997192267
+Upside,Comps,State Bank of India: Sep-26,H,0.181713386203707
+Upside,Comps,State Bank of India: Sep-26,I,0.122720997192267
+Upside,Comps,State Bank of India: Sep-26,J,0.181713386203707
+Upside,Comps,State Bank of India: Sep-26,K,0.821024132359784
+Upside,Comps,State Bank of India: Sep-26,L,0.383
+Upside,Comps,State Bank of India: Sep-26,M,0.1334
+Upside,Comps,Years from FY25A to FY29E,E,4.0
 Upside,Fees,2025-04,C,663561.79
 Upside,Fees,2025-04,D,0.67
 Upside,Fees,2025-05,C,696624.99

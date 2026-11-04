@@ -93,6 +93,8 @@ def build():
                   timeline=False, widths=(2, 40, 14, 14)) if TORN.exists() else None
     sen = B.sheet("Sensitivities", "Sensitivities", "Explicit formula grids (no Data Tables), so they recalculate in any spreadsheet.", timeline=False, widths=(2, 30, 12, 12))
     peer = B.sheet("Peers", "Peer set: twelve listed banks, FY26 standalone", "P/B against RoE across the peer set gives the market's price for an extra point of return.", timeline=False, widths=(2, 26, 10, 12))
+    comps = B.sheet("Comps", "Trading comps: HDFC Bank and four large peers", "Market data 2 Nov 2026 (listed subsidiaries 4 Nov); balance sheet 30 Sep 2026; profitability FY26 standalone.",
+                    timeline=False, widths=(2, 34, 12, 12))
     chk = B.sheet("Checks", "Checks", "Any FAIL turns the master flag on the Cover red.", timeline=False, widths=(2, 70, 14, 12))
     src = B.sheet("Sources", "Sources", "Every input row cites one of these.", timeline=False, widths=(2, 12, 70, 60))
 
@@ -605,6 +607,138 @@ def build():
     val.scalar("val_10bp", "Value of +10 bp RoA (equity value)", f"={val.a('roa_step')}/{inp.x('bp')}*{md.x('a_ta', 'N')}/{md.x('a_eq', 'N')}/({val.a('ke')}-{val.a('g')})*{val.a('bv_core')}",
                "INR cr", "Through justified P/B", num="cr", kind="calc")
 
+    # ================================================================ Comps
+    cps = pd.read_csv(I / "peer_comps_sep26.csv").set_index(["bank", "metric"])["value"]
+    stk = pd.read_csv(I / "peer_listed_stakes.csv")
+    sval = lambda sym: pd.read_csv(S / f"{sym}_valuation.csv").set_index("metric")["value"]  # noqa: E731
+    cbanks = [("HDFCBANK", "HDFC Bank"), ("ICICIBANK", "ICICI Bank"), ("AXISBANK", "Axis Bank"), ("KOTAKBANK", "Kotak Mahindra Bank"), ("SBIN", "State Bank of India")]
+    hfmt = B.f(bold=True, bottom=True, align="right")
+    comps.ws.set_column(2, 13, 12)
+
+    comps.section("Listed subsidiaries, valued at market less the holding-company discount")
+    for j, t in enumerate(["Stake", "Market cap", "Value to bank"]):
+        comps.ws.write(comps.r, 2 + j, t, hfmt)
+    comps.r += 1
+    stake_rows = {}
+    for s in stk.itertuples():
+        r = comps.r
+        comps.ws.write(r, 1, f"{dict(cbanks)[s.bank]}: {s.sub_name}", B.f())
+        comps.ws.write_number(r, 2, s.stake, B.f(num="pct1", color=BLUE, fill=True))
+        comps.ws.write_number(r, 3, float(sval(s.sub_symbol)["Market Cap"]), B.f(num="cr", color=BLUE, fill=True))
+        comps.ws.write_formula(r, 4, f"=C{r+1}*D{r+1}*(1-{val.x('hold_disc')})", B.f(num="cr", color=GREEN))
+        stake_rows.setdefault(s.bank, []).append(r + 1)
+        comps.r += 1
+    comps.note("Stakes: ICICI Bank Form 20-F FY2026 (plus 2% of ICICI Life bought in Q2 FY27, deck p53); SBI Q2 FY27 deck p40. Market caps: S5 Screener, 4 Nov 2026. Discount as on the Valuation tab.")
+    comps.note("HDFC Bank's listed stakes link to the Valuation tab. Axis and Kotak have no listed subsidiaries.")
+    comps.r += 1
+
+    comps.section("Valuation and profitability")
+    for j, t in enumerate(["Price", "Market cap", "Book per share", "Net worth", "P/B", "Listed stakes", "P/B ex stakes", "P/E", "RoA FY26", "RoE FY26"]):
+        comps.ws.write(comps.r, 2 + j, t, hfmt)
+    comps.r += 1; vf = comps.r
+    for sym, nm in cbanks:
+        r = comps.r; v = sval(sym); prow = peer.rows["pf"] + list(pdf.sym).index(sym) + 1
+        comps.ws.write(r, 1, nm, B.f(bold=sym == "HDFCBANK"))
+        if sym == "HDFCBANK":
+            comps.ws.write_formula(r, 2, f"={inp.x('price')}", B.f(num="rs", color=GREEN))
+            comps.ws.write_formula(r, 3, f"={inp.x('mcap')}", B.f(num="cr", color=GREEN))
+            comps.ws.write_formula(r, 4, f"={val.x('bvps_now')}", B.f(num="rs", color=GREEN))
+            comps.ws.write_formula(r, 7, f"={val.x('subs_val')}", B.f(num="cr", color=GREEN))
+        else:
+            comps.ws.write_number(r, 2, float(v["Current Price"]), B.f(num="rs", color=BLUE, fill=True))
+            comps.ws.write_number(r, 3, float(v["Market Cap"]), B.f(num="cr", color=BLUE, fill=True))
+            comps.ws.write_number(r, 4, float(v["Book Value"]), B.f(num="rs", color=BLUE, fill=True))
+            if sym in stake_rows:
+                comps.ws.write_formula(r, 7, "=" + "+".join(f"E{x}" for x in stake_rows[sym]), B.f(num="cr"))
+            else:
+                comps.ws.write_number(r, 7, 0, B.f(num="cr", color=BLUE, fill=True))
+        comps.ws.write_formula(r, 5, f"=D{r+1}/C{r+1}*E{r+1}", B.f(num="cr"))
+        comps.ws.write_formula(r, 6, f"=C{r+1}/E{r+1}", B.f(num="x"))
+        comps.ws.write_formula(r, 8, f"=(D{r+1}-H{r+1})/F{r+1}", B.f(num="x"))
+        comps.ws.write_number(r, 9, float(v["Stock P/E"]), B.f(num="x", color=BLUE, fill=True))
+        comps.ws.write_formula(r, 10, f"='Peers'!G{prow}", B.f(num="pct2", color=GREEN))
+        comps.ws.write_formula(r, 11, f"='Peers'!H{prow}", B.f(num="pct1", color=GREEN))
+        comps.r += 1
+    vl = comps.r - 1
+    comps.note("Source: S5 Screener, 2 Nov 2026 (price, market cap, latest book per share, trailing standalone P/E); RoA and RoE from the Peers tab. Net worth = market cap / price x book per share.")
+    comps.note("P/B ex stakes deducts listed stakes from market cap but keeps the whole standalone book, for all five banks alike. The Valuation tab's core P/B for HDFC Bank also removes subsidiaries at cost from book, so it is higher.")
+    comps.r += 1
+
+    comps.section("Franchise and growth, 30 Sep 2026")
+    for j, t in enumerate(["Deposits Sep-25", "Deposits Sep-26", "Advances Sep-25", "Advances Sep-26", "Deposit growth", "Loan growth",
+                           "Deposits ex FCNR", "Loans ex FCNR", "CD ratio", "CASA", "CET1"]):
+        comps.ws.write(comps.r, 2 + j, t, hfmt)
+    comps.r += 1; ff = comps.r
+    for sym, nm in cbanks:
+        r = comps.r
+        comps.ws.write(r, 1, f"{nm}: Sep-26", B.f(bold=sym == "HDFCBANK"))
+        for j, k in enumerate(["deposits_sep25", "deposits_sep26", "net_adv_sep25", "net_adv_sep26"]):
+            comps.ws.write_number(r, 2 + j, float(cps[(sym, k)]), B.f(num="cr", color=BLUE, fill=True))
+        comps.ws.write_formula(r, 6, f"=D{r+1}/C{r+1}-1", B.f(num="pct1"))
+        comps.ws.write_formula(r, 7, f"=F{r+1}/E{r+1}-1", B.f(num="pct1"))
+        for j, k in [(8, "dep_growth_ex_fcnr"), (9, "adv_growth_ex_fcnr")]:
+            if (sym, k) in cps.index:
+                comps.ws.write_number(r, j, float(cps[(sym, k)]) / 100, B.f(num="pct1", color=BLUE, fill=True))
+            elif sym == "SBIN":  # no FCNR (B) swap inflow disclosed: reported growth is like-for-like
+                comps.ws.write_formula(r, j, f"={'GH'[j - 8]}{r+1}", B.f(num="pct1"))
+            else:
+                comps.ws.write(r, j, "n.d.", B.f(color=GREY, align="right"))
+        comps.ws.write_formula(r, 10, f"=F{r+1}/D{r+1}", B.f(num="pct1"))
+        for j, k in [(11, "casa_ratio"), (12, "cet1")]:
+            comps.ws.write_number(r, j, float(cps[(sym, k)]) / 100, B.f(num="pct1", color=BLUE, fill=True))
+        comps.r += 1
+    fl = comps.r - 1
+    comps.note("Source: Q2 FY27 investor decks (HDFC p3-15, ICICI p5-35, Axis p6-14, Kotak p9-12, SBI p13-45), standalone, period-end; cites per value in data/inputs/peer_comps_sep26.csv.")
+    comps.note("RBI's FCNR (B) swap window inflated Sep-26 deposits and loans at ICICI, Axis and Kotak; the ex-FCNR columns are the like-for-like growth. SBI CASA is domestic, and SBI discloses no FCNR inflow, so its reported growth stands. n.d. = not disclosed.")
+    comps.r += 1
+
+    comps.section("HDFC Bank against the peer median (ICICI, Axis, Kotak, SBI)")
+    pr = lambda col, a, b: f"{col}{a+2}:{col}{b+1}"  # noqa: E731  peer rows exclude the first (HDFC) row
+    for k, lab, col, a, b, n in [("med_pb", "Peer median P/B ex listed stakes", "I", vf, vl, "x"), ("med_pe", "Peer median P/E", "J", vf, vl, "x"),
+                                 ("med_roa", "Peer median RoA FY26", "K", vf, vl, "pct2"), ("med_roe", "Peer median RoE FY26", "L", vf, vl, "pct1"),
+                                 ("med_lg", "Peer median loan growth ex FCNR", "J", ff, fl, "pct1"), ("med_cd", "Peer median CD ratio", "K", ff, fl, "pct1"),
+                                 ("med_casa", "Peer median CASA ratio", "L", ff, fl, "pct1"), ("med_cet1", "Peer median CET1", "M", ff, fl, "pct1")]:
+        comps.scalar(k, lab, f"=MEDIAN({pr(col, a, b)})", "", "", num=n, kind="calc")
+    comps.scalar("h_pb", "HDFC Bank P/B ex listed stakes", f"=I{vf+1}", "x", "", num="x", kind="calc")
+    comps.scalar("h_px_med", "HDFC Bank price at the peer median P/B ex stakes", f"=({comps.a('med_pb')}*F{vf+1}+H{vf+1})/{inp.x('shares')}", "INR",
+                 "Peer multiple on HDFC book, plus its listed stakes", num="rs", kind="calc")
+    comps.scalar("h_pb_prem", "HDFC Bank P/B premium to the peer median", f"={comps.a('h_pb')}/{comps.a('med_pb')}-1", "%", "", num="pct1", kind="calc")
+    comps.scalar("h_roe_gap", "HDFC Bank RoE FY26 less peer median", f"=(L{vf+1}-{comps.a('med_roe')})*{inp.x('bp')}", "bp", "", num="bp", kind="calc")
+    comps.r += 1
+
+    # ---------------------------------------------------------------- merger precedents
+    prec = pd.read_csv(I / "merger_precedents_rbi.csv")
+    comps.section("Merger precedents: how fast legacy wholesale funding ran off (RBI, domestic operations)")
+    for j, t in enumerate(["Years from merger", "Borrowings", "Deposits", "Current deposits", "Savings deposits", "Borrowings share", "CASA ratio", "RoA"]):
+        comps.ws.write(comps.r, 2 + j, t, hfmt)
+    comps.r += 1
+    short = {"ICICIBANK": "ICICI Bank", "IDFCFIRSTB": "IDFC First Bank", "HDFCBANK": "HDFC Bank"}
+    prow = {}
+    for p in prec.itertuples():
+        r = comps.r
+        comps.ws.write(r, 1, f"{short[p.bank]}: {p.period}", B.f(bold=p.bank == "HDFCBANK"))
+        comps.ws.write_number(r, 2, p.t, B.f(num="num", color=BLUE, fill=True))
+        for j, v in enumerate([p.borrowings, p.deposits, p.current, p.savings]):
+            comps.ws.write_number(r, 3 + j, v, B.f(num="cr", color=BLUE, fill=True))
+        comps.ws.write_formula(r, 7, f"=D{r+1}/(D{r+1}+E{r+1})", B.f(num="pct1"))
+        comps.ws.write_formula(r, 8, f"=(F{r+1}+G{r+1})/E{r+1}", B.f(num="pct1"))
+        comps.ws.write_number(r, 9, p.roa_pct / 100, B.f(num="pct2", color=BLUE, fill=True))
+        prow[(p.bank, p.t)] = r + 1
+        comps.r += 1
+    comps.note("Source: S12 RBI bank-wise performance indicators (OSMOS returns), March quarters, via FactIQ; series ids per row in data/inputs/merger_precedents_rbi.csv. INR crore; RoA annualised.")
+    comps.note("Year 0 is the first March after the merger took effect. Domestic operations only, so HDFC Bank's figures differ slightly from the global book in the Model tab.")
+    for b, t0, t1 in [("ICICIBANK", 0, 3), ("IDFCFIRSTB", 0, 3), ("HDFCBANK", 0, 1.5)]:
+        a, z = prow[(b, t0)], prow[(b, t1)]
+        nm = short[b]
+        comps.scalar(f"pr_{b}_b0", f"{nm}: borrowings share at year 0", f"=H{a}", "%", "", num="pct1", kind="calc")
+        comps.scalar(f"pr_{b}_pace", f"{nm}: borrowings share cut a year, year 0 to {t1:g}", f"=(H{a}-H{z})/(C{z}-C{a})", "pp a year", "",
+                     num="pct1", kind="calc")
+        comps.scalar(f"pr_{b}_casa", f"{nm}: CASA ratio change, year 0 to {t1:g}", f"=(I{z}-I{a})*{inp.x('bp')}", "bp", "", num="bp", kind="calc")
+        comps.scalar(f"pr_{b}_roa", f"{nm}: RoA change, year 0 to {t1:g}", f"=(J{z}-J{a})*{inp.x('bp')}", "bp", "", num="bp", kind="calc")
+    comps.scalar("pr_years", "Years from FY25A to FY29E", 4, "years", "", num="int")
+    comps.scalar("pr_model_pace", "HDFC Bank model: borrowings share cut a year, FY25A to FY29E", f"=({mg.x('bor_share', 'J')}-{mg.x('bor_share', 'N')})/{comps.a('pr_years')}",
+                 "pp a year", "Average borrowings / (deposits + borrowings), Margin tab", num="pct1", kind="link")
+
     # ================================================================ Levers
     lev.section("Inputs per lever")
     hdr = ["Lever", "Size", "Unit", "Mechanism", "Feasibility (1-5)", "Months to impact"]
@@ -911,7 +1045,9 @@ def build():
             ("S7", "NPCI UPI statistics: P2P/P2M, ticket bands, payee banks", "FactIQ rbi-npci_upi; data/inputs/npci_*.csv"),
             ("S8", "Department of Financial Services FAQ on UPI MDR (15 Sep 2026)", "data/raw/web/DFS_UPI_MDR_FAQ_Sep2026.pdf"),
             ("S9", "RBI 10-year G-sec yield (SGL transactions)", "FactIQ rbi|9cbd58f9ab50a1de"),
-            ("S10", "IRDAI consultation 'Recalibrating Economics of Insurance Distribution' and Handbook 2024-25", "Insurance module: models/02_Insurance_Distribution.xlsx")]
+            ("S10", "IRDAI consultation 'Recalibrating Economics of Insurance Distribution' and Handbook 2024-25", "Insurance module: models/02_Insurance_Distribution.xlsx"),
+            ("S11", "Peer Q2 FY27 investor decks (ICICI, Axis, Kotak, SBI); ICICI Bank Form 20-F FY2026 for subsidiary stakes", "data/raw/ir/*Q2FY27*.pdf (hashes in manifest); data/inputs/peer_comps_sep26.csv, peer_listed_stakes.csv"),
+            ("S12", "RBI bank-wise important performance indicators of scheduled commercial banks (OSMOS)", "FactIQ rbi-banking_performance_indicators; ids in data/inputs/merger_precedents_rbi.csv")]
     for j, t in enumerate(["ID", "Source", "Location"]):
         src.ws.write(src.r, 1 + j, t, B.f(bold=True, bottom=True))
     src.r += 1
@@ -935,7 +1071,7 @@ def build():
            ("Fees", "IRDAI caps (bank and HDFC Life) and UPI MDR"), ("Opex_Credit", "Cost-to-serve and credit normalisation"),
            ("Capital", "Tier 1 proxy and growth capacity"), ("Levers", "Six value levers and the FY29E RoA bridge"),
            ("Valuation", "Justified P/B, sum of the parts, residual income"), ("Regulation", "ECL, CRR, LCR and PSL overlay"), ("Sensitivities", "Value per share grids"), ("Tornado", "FY29E RoA sensitivity by driver"),
-           ("Peers", "Twelve-bank P/B vs RoE"), ("Checks", "Integrity tests and master flag"), ("Sources", "Source register")]
+           ("Peers", "Twelve-bank P/B vs RoE"), ("Comps", "Trading comps: HDFC Bank, ICICI, Axis, Kotak, SBI"), ("Checks", "Integrity tests and master flag"), ("Sources", "Source register")]
     for n_, d_ in toc:
         cv.write_url(cover.r, 1, f"internal:'{n_}'!A1", string=n_, cell_format=B.f(color=BLACK))
         cv.write(cover.r, 3, d_, B.f(color=GREY)); cover.r += 1

@@ -6,7 +6,12 @@
   import Beeswarm from '../charts/Beeswarm.svelte';
   import Row from '../lib/Row.svelte';
   import Stat from '../lib/Stat.svelte';
+  import CompsTable from '../charts/CompsTable.svelte';
+  import { pct } from '../lib/format';
   const g = $derived(app.story!.icici_gap);
+  const s = $derived(app.story!);
+  const c = $derived(s.comps);
+  const h = $derived(c.banks[0]);
 </script>
 <section class="chapter" id="peers">
   <ChapterHead n="03" kicker="Benchmark" title="Against ICICI Bank the gap is funding; HDFC Bank already wins on cost" />
@@ -28,4 +33,18 @@
       <Beeswarm />
     </Exhibit>
   </div>
+  <Row>
+    <p class="prose">The market already marks HDFC Bank down for this. Net of its listed stakes it trades at {h.pb_ex.toFixed(2)}x book, {pct(-c.pb_prem, 0)} below the peer median of {c.med.pb_ex.toFixed(2)}x. Its FY26 RoA of {pct(h.roa, 2)} is above the peer median ({pct(c.med.roa, 2)}) and its RoE of {pct(h.roe)} is close to it ({pct(c.med.roe)}), so returns do not explain the discount.</p>
+    <p class="prose">Funding does. HDFC Bank lends {pct(h.cd, 0)} of its deposits against a peer median of {pct(c.med.cd, 0)}, carries {pct(h.casa, 0)} of deposits in current and savings accounts against {pct(c.med.casa, 0)}, and grew loans {pct(h.loan_g_ex, 0)} in the year to September against {pct(c.med.loan_g_ex, 0)}. The answer in this case, fixing the funding, is also what would close the multiple.</p>
+    {#snippet rail()}
+      <Stat label="P/B ex listed stakes" value={`${h.pb_ex.toFixed(2)}x`} sub={`Peer median ${c.med.pb_ex.toFixed(2)}x (ICICI, Axis, Kotak, SBI)`} />
+      <Stat label="Price at the peer median multiple" value={`₹${Math.round(c.px_at_med)}`} tone="brand" sub={`Against ₹${s.price} on 2 Nov 2026`} />
+    {/snippet}
+  </Row>
+  <Exhibit n={6} wide title={`HDFC Bank earns peer-level returns but trades ${pct(-c.pb_prem, 0)} below peers: the market prices the funding gap`}
+           units="Standalone. P/B and P/E at 2 Nov 2026 (P/B net of listed stakes at market, less the holding-company discount); RoA and RoE FY26; balance sheet 30 Sep 2026; loan growth year on year, excluding FCNR (B) swap loans"
+           source="Screener (market data, FY26 financials); Q2 FY27 investor decks; ICICI Bank Form 20-F FY2026 and SBI Q2 FY27 deck (subsidiary stakes); Comps tab">
+    <CompsTable />
+  </Exhibit>
+  <p class="rnote">Kotak's multiples set group market cap against standalone book and earnings, because its subsidiaries are unlisted, which flatters them; the median is less exposed to that than the mean. HDFC Bank's loan growth excludes its FCNR leverage loans; its FCNR deposits are not disclosed.</p>
 </section>

@@ -21,10 +21,10 @@
     {#snippet rail()}<PbEquation />{/snippet}
   </Row>
   <div class="pair">
-    <Exhibit n={9} title={`The price implies ${pct(s.roe_implied)} RoE; the base case delivers ${pct(sr.Base.years[2].roe)}`} units="Return on average equity, FY29E" source={`Driver model (Valuation tab); NSE price 2 Nov 2026; CAPM Ke ${pct(v.ke, 2)}; core bank, latest book`}>
+    <Exhibit n={11} title={`The price implies ${pct(s.roe_implied)} RoE; the base case delivers ${pct(sr.Base.years[2].roe)}`} units="Return on average equity, FY29E" source={`Driver model (Valuation tab); NSE price 2 Nov 2026; CAPM Ke ${pct(v.ke, 2)}; core bank, latest book`}>
       <RoeBars />
     </Exhibit>
-    <Exhibit n={10} title={`The base case is worth ₹${Math.round(v.riPerShare)}-${Math.round(v.sotpPerShare)} a share against ₹${s.price}`} units="₹ per share; bars = base case; whiskers = Downside to Upside"
+    <Exhibit n={12} title={`The base case is worth ₹${Math.round(v.riPerShare)}-${Math.round(v.sotpPerShare)} a share against ₹${s.price}`} units="₹ per share; bars = base case; whiskers = Downside to Upside"
              source="Driver model: residual income FY27E-FY29E with terminal value; sum of the parts with listed subsidiaries at market value less 20%">
       <ValueBullet />
     </Exhibit>

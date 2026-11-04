@@ -53,7 +53,7 @@
   <p class="prose">The recommendation is funding first, asset mix second, cost third. On a wide screen the bridge builds one move at a time as you scroll; the order is by size.</p>
   <div class="scrolly" class:stacked>
     <div class="sticky">
-      <Exhibit n={7} title={`Six moves add ${b.bridge.levers.toFixed(1)} bp and take FY29E RoA to ${(b.bridge.withLevers / 100).toFixed(2)}%`}
+      <Exhibit n={9} title={`Six moves add ${b.bridge.levers.toFixed(1)} bp and take FY29E RoA to ${(b.bridge.withLevers / 100).toFixed(2)}%`}
                units="Return on average assets, bp, FY26 core to FY29E (base case plus moves); axis starts at 150 bp"
                source="Driver model (Levers tab); each move is an explicit driver change on top of the base case">
         <Waterfall steps={shown} lo={150} hi={210} H={320} />
@@ -72,7 +72,7 @@
     </div>
   </div>
   <p class="prose">Is each move credible? For four of them there is a named Indian bank already operating where the move would take HDFC Bank, and the move asks for only part of that distance.</p>
-  <Exhibit n={8} wide title="Each move closes 28-49% of the gap to a named peer: an ask, not a stretch"
+  <Exhibit n={10} wide title="Each move closes 28-49% of the gap to a named peer: an ask, not a stretch"
            units="HDFC Bank FY26 → where the move takes it → benchmark; CASA ratio, borrowings share of funding, interest earned / average assets, UPI payee share"
            source="SBI Q2 FY27 press release; ICICI Bank FY26 (Screener, tied to filings); Axis Bank NPCI payee data Sep 2026; driver model">
     <Dumbbell />

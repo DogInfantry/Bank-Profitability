@@ -1,0 +1,502 @@
+symbol,section,line_item,period,value
+ICICIGI,quarters,Sales,Sep 2023,5271.0
+ICICIGI,quarters,Sales,Dec 2023,5194.0
+ICICIGI,quarters,Sales,Mar 2024,5391.0
+ICICIGI,quarters,Sales,Jun 2024,5601.0
+ICICIGI,quarters,Sales,Sep 2024,6147.0
+ICICIGI,quarters,Sales,Dec 2024,6161.0
+ICICIGI,quarters,Sales,Mar 2025,6051.0
+ICICIGI,quarters,Sales,Jun 2025,6396.0
+ICICIGI,quarters,Sales,Sep 2025,6869.0
+ICICIGI,quarters,Sales,Dec 2025,6905.0
+ICICIGI,quarters,Sales,Mar 2026,6825.0
+ICICIGI,quarters,Sales,Jun 2026,7088.0
+ICICIGI,quarters,Sales,Sep 2026,8220.0
+ICICIGI,quarters,YoY Sales growth,Sep 2023,13.0
+ICICIGI,quarters,YoY Sales growth,Dec 2023,14.0
+ICICIGI,quarters,YoY Sales growth,Mar 2024,19.0
+ICICIGI,quarters,YoY Sales growth,Jun 2024,19.0
+ICICIGI,quarters,YoY Sales growth,Sep 2024,17.0
+ICICIGI,quarters,YoY Sales growth,Dec 2024,19.0
+ICICIGI,quarters,YoY Sales growth,Mar 2025,12.0
+ICICIGI,quarters,YoY Sales growth,Jun 2025,14.0
+ICICIGI,quarters,YoY Sales growth,Sep 2025,12.0
+ICICIGI,quarters,YoY Sales growth,Dec 2025,12.0
+ICICIGI,quarters,YoY Sales growth,Mar 2026,13.0
+ICICIGI,quarters,YoY Sales growth,Jun 2026,11.0
+ICICIGI,quarters,YoY Sales growth,Sep 2026,20.0
+ICICIGI,quarters,Expenses,Sep 2023,4509.0
+ICICIGI,quarters,Expenses,Dec 2023,4639.0
+ICICIGI,quarters,Expenses,Mar 2024,4701.0
+ICICIGI,quarters,Expenses,Jun 2024,4831.0
+ICICIGI,quarters,Expenses,Sep 2024,5207.0
+ICICIGI,quarters,Expenses,Dec 2024,5199.0
+ICICIGI,quarters,Expenses,Mar 2025,5443.0
+ICICIGI,quarters,Expenses,Jun 2025,5415.0
+ICICIGI,quarters,Expenses,Sep 2025,5825.0
+ICICIGI,quarters,Expenses,Dec 2025,6051.0
+ICICIGI,quarters,Expenses,Mar 2026,6138.0
+ICICIGI,quarters,Expenses,Jun 2026,6566.0
+ICICIGI,quarters,Expenses,Sep 2026,7005.0
+ICICIGI,quarters,Operating Profit,Sep 2023,762.0
+ICICIGI,quarters,Operating Profit,Dec 2023,555.0
+ICICIGI,quarters,Operating Profit,Mar 2024,690.0
+ICICIGI,quarters,Operating Profit,Jun 2024,770.0
+ICICIGI,quarters,Operating Profit,Sep 2024,940.0
+ICICIGI,quarters,Operating Profit,Dec 2024,962.0
+ICICIGI,quarters,Operating Profit,Mar 2025,609.0
+ICICIGI,quarters,Operating Profit,Jun 2025,981.0
+ICICIGI,quarters,Operating Profit,Sep 2025,1044.0
+ICICIGI,quarters,Operating Profit,Dec 2025,854.0
+ICICIGI,quarters,Operating Profit,Mar 2026,686.0
+ICICIGI,quarters,Operating Profit,Jun 2026,522.0
+ICICIGI,quarters,Operating Profit,Sep 2026,1215.0
+ICICIGI,quarters,OPM %,Sep 2023,14.0
+ICICIGI,quarters,OPM %,Dec 2023,11.0
+ICICIGI,quarters,OPM %,Mar 2024,13.0
+ICICIGI,quarters,OPM %,Jun 2024,14.0
+ICICIGI,quarters,OPM %,Sep 2024,15.0
+ICICIGI,quarters,OPM %,Dec 2024,16.0
+ICICIGI,quarters,OPM %,Mar 2025,10.0
+ICICIGI,quarters,OPM %,Jun 2025,15.0
+ICICIGI,quarters,OPM %,Sep 2025,15.0
+ICICIGI,quarters,OPM %,Dec 2025,12.0
+ICICIGI,quarters,OPM %,Mar 2026,10.0
+ICICIGI,quarters,OPM %,Jun 2026,7.0
+ICICIGI,quarters,OPM %,Sep 2026,15.0
+ICICIGI,quarters,Other Income,Sep 2023,2.0
+ICICIGI,quarters,Other Income,Dec 2023,19.0
+ICICIGI,quarters,Other Income,Mar 2024,8.0
+ICICIGI,quarters,Other Income,Jun 2024,4.0
+ICICIGI,quarters,Other Income,Sep 2024,-21.0
+ICICIGI,quarters,Other Income,Dec 2024,-2.0
+ICICIGI,quarters,Other Income,Mar 2025,60.0
+ICICIGI,quarters,Other Income,Jun 2025,13.0
+ICICIGI,quarters,Other Income,Sep 2025,33.0
+ICICIGI,quarters,Other Income,Dec 2025,16.0
+ICICIGI,quarters,Other Income,Mar 2026,32.0
+ICICIGI,quarters,Other Income,Jun 2026,14.0
+ICICIGI,quarters,Other Income,Sep 2026,32.0
+ICICIGI,quarters,Interest,Sep 2023,0.0
+ICICIGI,quarters,Interest,Dec 2023,0.0
+ICICIGI,quarters,Interest,Mar 2024,0.0
+ICICIGI,quarters,Interest,Jun 2024,0.0
+ICICIGI,quarters,Interest,Sep 2024,0.0
+ICICIGI,quarters,Interest,Dec 2024,0.0
+ICICIGI,quarters,Interest,Mar 2025,0.0
+ICICIGI,quarters,Interest,Jun 2025,0.0
+ICICIGI,quarters,Interest,Sep 2025,0.0
+ICICIGI,quarters,Interest,Dec 2025,0.0
+ICICIGI,quarters,Interest,Mar 2026,0.0
+ICICIGI,quarters,Interest,Jun 2026,0.0
+ICICIGI,quarters,Interest,Sep 2026,0.0
+ICICIGI,quarters,Depreciation,Sep 2023,0.0
+ICICIGI,quarters,Depreciation,Dec 2023,0.0
+ICICIGI,quarters,Depreciation,Mar 2024,0.0
+ICICIGI,quarters,Depreciation,Jun 2024,0.0
+ICICIGI,quarters,Depreciation,Sep 2024,0.0
+ICICIGI,quarters,Depreciation,Dec 2024,0.0
+ICICIGI,quarters,Depreciation,Mar 2025,0.0
+ICICIGI,quarters,Depreciation,Jun 2025,0.0
+ICICIGI,quarters,Depreciation,Sep 2025,0.0
+ICICIGI,quarters,Depreciation,Dec 2025,0.0
+ICICIGI,quarters,Depreciation,Mar 2026,0.0
+ICICIGI,quarters,Depreciation,Jun 2026,0.0
+ICICIGI,quarters,Depreciation,Sep 2026,0.0
+ICICIGI,quarters,Profit before tax,Sep 2023,764.0
+ICICIGI,quarters,Profit before tax,Dec 2023,574.0
+ICICIGI,quarters,Profit before tax,Mar 2024,698.0
+ICICIGI,quarters,Profit before tax,Jun 2024,774.0
+ICICIGI,quarters,Profit before tax,Sep 2024,919.0
+ICICIGI,quarters,Profit before tax,Dec 2024,960.0
+ICICIGI,quarters,Profit before tax,Mar 2025,668.0
+ICICIGI,quarters,Profit before tax,Jun 2025,994.0
+ICICIGI,quarters,Profit before tax,Sep 2025,1077.0
+ICICIGI,quarters,Profit before tax,Dec 2025,870.0
+ICICIGI,quarters,Profit before tax,Mar 2026,718.0
+ICICIGI,quarters,Profit before tax,Jun 2026,536.0
+ICICIGI,quarters,Profit before tax,Sep 2026,1247.0
+ICICIGI,quarters,Tax %,Sep 2023,24.0
+ICICIGI,quarters,Tax %,Dec 2023,25.0
+ICICIGI,quarters,Tax %,Mar 2024,26.0
+ICICIGI,quarters,Tax %,Jun 2024,25.0
+ICICIGI,quarters,Tax %,Sep 2024,24.0
+ICICIGI,quarters,Tax %,Dec 2024,25.0
+ICICIGI,quarters,Tax %,Mar 2025,24.0
+ICICIGI,quarters,Tax %,Jun 2025,25.0
+ICICIGI,quarters,Tax %,Sep 2025,24.0
+ICICIGI,quarters,Tax %,Dec 2025,24.0
+ICICIGI,quarters,Tax %,Mar 2026,24.0
+ICICIGI,quarters,Tax %,Jun 2026,25.0
+ICICIGI,quarters,Tax %,Sep 2026,24.0
+ICICIGI,quarters,Net Profit,Sep 2023,577.0
+ICICIGI,quarters,Net Profit,Dec 2023,431.0
+ICICIGI,quarters,Net Profit,Mar 2024,520.0
+ICICIGI,quarters,Net Profit,Jun 2024,580.0
+ICICIGI,quarters,Net Profit,Sep 2024,694.0
+ICICIGI,quarters,Net Profit,Dec 2024,724.0
+ICICIGI,quarters,Net Profit,Mar 2025,510.0
+ICICIGI,quarters,Net Profit,Jun 2025,747.0
+ICICIGI,quarters,Net Profit,Sep 2025,820.0
+ICICIGI,quarters,Net Profit,Dec 2025,659.0
+ICICIGI,quarters,Net Profit,Mar 2026,547.0
+ICICIGI,quarters,Net Profit,Jun 2026,403.0
+ICICIGI,quarters,Net Profit,Sep 2026,946.0
+ICICIGI,quarters,EPS in Rs,Sep 2023,11.75
+ICICIGI,quarters,EPS in Rs,Dec 2023,8.76
+ICICIGI,quarters,EPS in Rs,Mar 2024,10.54
+ICICIGI,quarters,EPS in Rs,Jun 2024,11.77
+ICICIGI,quarters,EPS in Rs,Sep 2024,14.03
+ICICIGI,quarters,EPS in Rs,Dec 2024,14.63
+ICICIGI,quarters,EPS in Rs,Mar 2025,10.28
+ICICIGI,quarters,EPS in Rs,Jun 2025,15.04
+ICICIGI,quarters,EPS in Rs,Sep 2025,16.47
+ICICIGI,quarters,EPS in Rs,Dec 2025,13.23
+ICICIGI,quarters,EPS in Rs,Mar 2026,10.96
+ICICIGI,quarters,EPS in Rs,Jun 2026,8.08
+ICICIGI,quarters,EPS in Rs,Sep 2026,18.94
+ICICIGI,profit-loss,Sales,Mar 2015,4234.0
+ICICIGI,profit-loss,Sales,Mar 2016,6033.0
+ICICIGI,profit-loss,Sales,Mar 2017,7520.0
+ICICIGI,profit-loss,Sales,Mar 2018,6912.0
+ICICIGI,profit-loss,Sales,Mar 2019,11163.0
+ICICIGI,profit-loss,Sales,Mar 2020,11517.0
+ICICIGI,profit-loss,Sales,Mar 2021,12161.0
+ICICIGI,profit-loss,Sales,Mar 2022,16026.0
+ICICIGI,profit-loss,Sales,Mar 2023,17876.0
+ICICIGI,profit-loss,Sales,Mar 2024,20572.0
+ICICIGI,profit-loss,Sales,Mar 2025,23961.0
+ICICIGI,profit-loss,Sales,Mar 2026,26994.0
+ICICIGI,profit-loss,Sales,TTM,29038.0
+ICICIGI,profit-loss,Sales growth,Mar 2015,-3.0
+ICICIGI,profit-loss,Sales growth,Mar 2016,42.0
+ICICIGI,profit-loss,Sales growth,Mar 2017,25.0
+ICICIGI,profit-loss,Sales growth,Mar 2018,-8.0
+ICICIGI,profit-loss,Sales growth,Mar 2019,62.0
+ICICIGI,profit-loss,Sales growth,Mar 2020,3.0
+ICICIGI,profit-loss,Sales growth,Mar 2021,6.0
+ICICIGI,profit-loss,Sales growth,Mar 2022,32.0
+ICICIGI,profit-loss,Sales growth,Mar 2023,12.0
+ICICIGI,profit-loss,Sales growth,Mar 2024,15.0
+ICICIGI,profit-loss,Sales growth,Mar 2025,16.0
+ICICIGI,profit-loss,Sales growth,Mar 2026,13.0
+ICICIGI,profit-loss,Sales growth,TTM,14.0
+ICICIGI,profit-loss,Expenses,Mar 2015,4456.0
+ICICIGI,profit-loss,Expenses,Mar 2016,5269.0
+ICICIGI,profit-loss,Expenses,Mar 2017,6601.0
+ICICIGI,profit-loss,Expenses,Mar 2018,7174.0
+ICICIGI,profit-loss,Expenses,Mar 2019,9494.0
+ICICIGI,profit-loss,Expenses,Mar 2020,9745.0
+ICICIGI,profit-loss,Expenses,Mar 2021,10090.0
+ICICIGI,profit-loss,Expenses,Mar 2022,15010.0
+ICICIGI,profit-loss,Expenses,Mar 2023,16612.0
+ICICIGI,profit-loss,Expenses,Mar 2024,17918.0
+ICICIGI,profit-loss,Expenses,Mar 2025,20554.0
+ICICIGI,profit-loss,Expenses,Mar 2026,23264.0
+ICICIGI,profit-loss,Expenses,TTM,25760.0
+ICICIGI,profit-loss,Operating Profit,Mar 2015,-221.0
+ICICIGI,profit-loss,Operating Profit,Mar 2016,764.0
+ICICIGI,profit-loss,Operating Profit,Mar 2017,919.0
+ICICIGI,profit-loss,Operating Profit,Mar 2018,-262.0
+ICICIGI,profit-loss,Operating Profit,Mar 2019,1669.0
+ICICIGI,profit-loss,Operating Profit,Mar 2020,1772.0
+ICICIGI,profit-loss,Operating Profit,Mar 2021,2072.0
+ICICIGI,profit-loss,Operating Profit,Mar 2022,1016.0
+ICICIGI,profit-loss,Operating Profit,Mar 2023,1264.0
+ICICIGI,profit-loss,Operating Profit,Mar 2024,2654.0
+ICICIGI,profit-loss,Operating Profit,Mar 2025,3407.0
+ICICIGI,profit-loss,Operating Profit,Mar 2026,3731.0
+ICICIGI,profit-loss,Operating Profit,TTM,3277.0
+ICICIGI,profit-loss,OPM %,Mar 2015,-5.0
+ICICIGI,profit-loss,OPM %,Mar 2016,13.0
+ICICIGI,profit-loss,OPM %,Mar 2017,12.0
+ICICIGI,profit-loss,OPM %,Mar 2018,-3.8
+ICICIGI,profit-loss,OPM %,Mar 2019,15.0
+ICICIGI,profit-loss,OPM %,Mar 2020,15.0
+ICICIGI,profit-loss,OPM %,Mar 2021,17.0
+ICICIGI,profit-loss,OPM %,Mar 2022,6.0
+ICICIGI,profit-loss,OPM %,Mar 2023,7.0
+ICICIGI,profit-loss,OPM %,Mar 2024,13.0
+ICICIGI,profit-loss,OPM %,Mar 2025,14.0
+ICICIGI,profit-loss,OPM %,Mar 2026,14.0
+ICICIGI,profit-loss,OPM %,TTM,11.0
+ICICIGI,profit-loss,Other Income,Mar 2015,992.0
+ICICIGI,profit-loss,Other Income,Mar 2016,0.0
+ICICIGI,profit-loss,Other Income,Mar 2017,-2.0
+ICICIGI,profit-loss,Other Income,Mar 2018,1569.0
+ICICIGI,profit-loss,Other Income,Mar 2019,-2.0
+ICICIGI,profit-loss,Other Income,Mar 2020,15.0
+ICICIGI,profit-loss,Other Income,Mar 2021,12.0
+ICICIGI,profit-loss,Other Income,Mar 2022,809.0
+ICICIGI,profit-loss,Other Income,Mar 2023,991.0
+ICICIGI,profit-loss,Other Income,Mar 2024,35.0
+ICICIGI,profit-loss,Other Income,Mar 2025,39.0
+ICICIGI,profit-loss,Other Income,Mar 2026,93.0
+ICICIGI,profit-loss,Other Income,TTM,94.0
+ICICIGI,profit-loss,Interest,Mar 2015,12.0
+ICICIGI,profit-loss,Interest,Mar 2016,0.0
+ICICIGI,profit-loss,Interest,Mar 2017,0.0
+ICICIGI,profit-loss,Interest,Mar 2018,59.0
+ICICIGI,profit-loss,Interest,Mar 2019,70.0
+ICICIGI,profit-loss,Interest,Mar 2020,0.0
+ICICIGI,profit-loss,Interest,Mar 2021,0.0
+ICICIGI,profit-loss,Interest,Mar 2022,0.0
+ICICIGI,profit-loss,Interest,Mar 2023,0.0
+ICICIGI,profit-loss,Interest,Mar 2024,0.0
+ICICIGI,profit-loss,Interest,Mar 2025,0.0
+ICICIGI,profit-loss,Interest,Mar 2026,0.0
+ICICIGI,profit-loss,Interest,TTM,0.0
+ICICIGI,profit-loss,Depreciation,Mar 2015,54.0
+ICICIGI,profit-loss,Depreciation,Mar 2016,57.0
+ICICIGI,profit-loss,Depreciation,Mar 2017,7.0
+ICICIGI,profit-loss,Depreciation,Mar 2018,51.0
+ICICIGI,profit-loss,Depreciation,Mar 2019,0.0
+ICICIGI,profit-loss,Depreciation,Mar 2020,90.0
+ICICIGI,profit-loss,Depreciation,Mar 2021,130.0
+ICICIGI,profit-loss,Depreciation,Mar 2022,141.0
+ICICIGI,profit-loss,Depreciation,Mar 2023,142.0
+ICICIGI,profit-loss,Depreciation,Mar 2024,134.0
+ICICIGI,profit-loss,Depreciation,Mar 2025,124.0
+ICICIGI,profit-loss,Depreciation,Mar 2026,165.0
+ICICIGI,profit-loss,Depreciation,TTM,0.0
+ICICIGI,profit-loss,Profit before tax,Mar 2015,705.0
+ICICIGI,profit-loss,Profit before tax,Mar 2016,708.0
+ICICIGI,profit-loss,Profit before tax,Mar 2017,910.0
+ICICIGI,profit-loss,Profit before tax,Mar 2018,1196.0
+ICICIGI,profit-loss,Profit before tax,Mar 2019,1598.0
+ICICIGI,profit-loss,Profit before tax,Mar 2020,1697.0
+ICICIGI,profit-loss,Profit before tax,Mar 2021,1954.0
+ICICIGI,profit-loss,Profit before tax,Mar 2022,1684.0
+ICICIGI,profit-loss,Profit before tax,Mar 2023,2113.0
+ICICIGI,profit-loss,Profit before tax,Mar 2024,2555.0
+ICICIGI,profit-loss,Profit before tax,Mar 2025,3321.0
+ICICIGI,profit-loss,Profit before tax,Mar 2026,3659.0
+ICICIGI,profit-loss,Profit before tax,TTM,3371.0
+ICICIGI,profit-loss,Tax %,Mar 2015,17.0
+ICICIGI,profit-loss,Tax %,Mar 2016,28.0
+ICICIGI,profit-loss,Tax %,Mar 2017,23.0
+ICICIGI,profit-loss,Tax %,Mar 2018,28.0
+ICICIGI,profit-loss,Tax %,Mar 2019,34.0
+ICICIGI,profit-loss,Tax %,Mar 2020,30.0
+ICICIGI,profit-loss,Tax %,Mar 2021,25.0
+ICICIGI,profit-loss,Tax %,Mar 2022,24.0
+ICICIGI,profit-loss,Tax %,Mar 2023,18.0
+ICICIGI,profit-loss,Tax %,Mar 2024,25.0
+ICICIGI,profit-loss,Tax %,Mar 2025,24.0
+ICICIGI,profit-loss,Tax %,Mar 2026,24.0
+ICICIGI,profit-loss,Net Profit,Mar 2015,585.0
+ICICIGI,profit-loss,Net Profit,Mar 2016,507.0
+ICICIGI,profit-loss,Net Profit,Mar 2017,702.0
+ICICIGI,profit-loss,Net Profit,Mar 2018,862.0
+ICICIGI,profit-loss,Net Profit,Mar 2019,1049.0
+ICICIGI,profit-loss,Net Profit,Mar 2020,1194.0
+ICICIGI,profit-loss,Net Profit,Mar 2021,1473.0
+ICICIGI,profit-loss,Net Profit,Mar 2022,1271.0
+ICICIGI,profit-loss,Net Profit,Mar 2023,1729.0
+ICICIGI,profit-loss,Net Profit,Mar 2024,1919.0
+ICICIGI,profit-loss,Net Profit,Mar 2025,2508.0
+ICICIGI,profit-loss,Net Profit,Mar 2026,2772.0
+ICICIGI,profit-loss,Net Profit,TTM,2555.0
+ICICIGI,profit-loss,EPS in Rs,Mar 2015,13.11
+ICICIGI,profit-loss,EPS in Rs,Mar 2016,11.34
+ICICIGI,profit-loss,EPS in Rs,Mar 2017,15.56
+ICICIGI,profit-loss,EPS in Rs,Mar 2018,18.98
+ICICIGI,profit-loss,EPS in Rs,Mar 2019,23.1
+ICICIGI,profit-loss,EPS in Rs,Mar 2020,26.27
+ICICIGI,profit-loss,EPS in Rs,Mar 2021,32.4
+ICICIGI,profit-loss,EPS in Rs,Mar 2022,25.89
+ICICIGI,profit-loss,EPS in Rs,Mar 2023,35.21
+ICICIGI,profit-loss,EPS in Rs,Mar 2024,38.94
+ICICIGI,profit-loss,EPS in Rs,Mar 2025,50.6
+ICICIGI,profit-loss,EPS in Rs,Mar 2026,55.61
+ICICIGI,profit-loss,EPS in Rs,TTM,51.21
+ICICIGI,profit-loss,Dividend Payout %,Mar 2015,15.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2016,26.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2017,22.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2018,17.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2019,26.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2020,13.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2021,25.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2022,35.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2023,28.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2024,28.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2025,25.0
+ICICIGI,profit-loss,Dividend Payout %,Mar 2026,24.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2015,447.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2016,448.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2017,451.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2018,454.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2019,454.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2020,454.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2021,455.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2022,491.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2023,491.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2024,493.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2025,496.0
+ICICIGI,balance-sheet,Equity Capital,Mar 2026,498.0
+ICICIGI,balance-sheet,Equity Capital,Sep 2026,500.0
+ICICIGI,balance-sheet,Reserves,Mar 2015,2439.0
+ICICIGI,balance-sheet,Reserves,Mar 2016,2789.0
+ICICIGI,balance-sheet,Reserves,Mar 2017,3450.0
+ICICIGI,balance-sheet,Reserves,Mar 2018,4087.0
+ICICIGI,balance-sheet,Reserves,Mar 2019,4946.0
+ICICIGI,balance-sheet,Reserves,Mar 2020,5680.0
+ICICIGI,balance-sheet,Reserves,Mar 2021,7144.0
+ICICIGI,balance-sheet,Reserves,Mar 2022,8702.0
+ICICIGI,balance-sheet,Reserves,Mar 2023,9953.0
+ICICIGI,balance-sheet,Reserves,Mar 2024,11712.0
+ICICIGI,balance-sheet,Reserves,Mar 2025,13989.0
+ICICIGI,balance-sheet,Reserves,Mar 2026,16135.0
+ICICIGI,balance-sheet,Reserves,Sep 2026,18324.0
+ICICIGI,balance-sheet,Borrowings,Mar 2015,0.0
+ICICIGI,balance-sheet,Borrowings,Mar 2016,0.0
+ICICIGI,balance-sheet,Borrowings,Mar 2017,485.0
+ICICIGI,balance-sheet,Borrowings,Mar 2018,485.0
+ICICIGI,balance-sheet,Borrowings,Mar 2019,485.0
+ICICIGI,balance-sheet,Borrowings,Mar 2020,485.0
+ICICIGI,balance-sheet,Borrowings,Mar 2021,485.0
+ICICIGI,balance-sheet,Borrowings,Mar 2022,255.0
+ICICIGI,balance-sheet,Borrowings,Mar 2023,35.0
+ICICIGI,balance-sheet,Borrowings,Mar 2024,35.0
+ICICIGI,balance-sheet,Borrowings,Mar 2025,0.0
+ICICIGI,balance-sheet,Borrowings,Mar 2026,0.0
+ICICIGI,balance-sheet,Borrowings,Sep 2026,0.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2015,11760.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2016,12440.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2017,18965.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2018,24723.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2019,27517.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2020,30423.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2021,31214.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2022,41401.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2023,44607.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2024,51068.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2025,54660.0
+ICICIGI,balance-sheet,Other Liabilities,Mar 2026,59477.0
+ICICIGI,balance-sheet,Other Liabilities,Sep 2026,65412.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2015,14646.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2016,15676.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2017,23351.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2018,29750.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2019,33403.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2020,37042.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2021,39298.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2022,50848.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2023,55086.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2024,63308.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2025,69145.0
+ICICIGI,balance-sheet,Total Liabilities,Mar 2026,76111.0
+ICICIGI,balance-sheet,Total Liabilities,Sep 2026,84236.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2015,381.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2016,510.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2017,516.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2018,368.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2019,1965.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2020,664.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2021,717.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2022,941.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2023,883.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2024,930.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2025,728.0
+ICICIGI,balance-sheet,Fixed Assets,Mar 2026,834.0
+ICICIGI,balance-sheet,Fixed Assets,Sep 2026,862.0
+ICICIGI,balance-sheet,CWIP,Mar 2015,9.0
+ICICIGI,balance-sheet,CWIP,Mar 2016,10.0
+ICICIGI,balance-sheet,CWIP,Mar 2017,11.0
+ICICIGI,balance-sheet,CWIP,Mar 2018,38.0
+ICICIGI,balance-sheet,CWIP,Mar 2019,17.0
+ICICIGI,balance-sheet,CWIP,Mar 2020,12.0
+ICICIGI,balance-sheet,CWIP,Mar 2021,14.0
+ICICIGI,balance-sheet,CWIP,Mar 2022,11.0
+ICICIGI,balance-sheet,CWIP,Mar 2023,25.0
+ICICIGI,balance-sheet,CWIP,Mar 2024,94.0
+ICICIGI,balance-sheet,CWIP,Mar 2025,74.0
+ICICIGI,balance-sheet,CWIP,Mar 2026,88.0
+ICICIGI,balance-sheet,CWIP,Sep 2026,0.0
+ICICIGI,balance-sheet,Investments,Mar 2015,10200.0
+ICICIGI,balance-sheet,Investments,Mar 2016,11426.0
+ICICIGI,balance-sheet,Investments,Mar 2017,14806.0
+ICICIGI,balance-sheet,Investments,Mar 2018,18193.0
+ICICIGI,balance-sheet,Investments,Mar 2019,20714.0
+ICICIGI,balance-sheet,Investments,Mar 2020,26327.0
+ICICIGI,balance-sheet,Investments,Mar 2021,30788.0
+ICICIGI,balance-sheet,Investments,Mar 2022,38412.0
+ICICIGI,balance-sheet,Investments,Mar 2023,42836.0
+ICICIGI,balance-sheet,Investments,Mar 2024,48584.0
+ICICIGI,balance-sheet,Investments,Mar 2025,53508.0
+ICICIGI,balance-sheet,Investments,Mar 2026,58338.0
+ICICIGI,balance-sheet,Investments,Sep 2026,64332.0
+ICICIGI,balance-sheet,Other Assets,Mar 2015,4056.0
+ICICIGI,balance-sheet,Other Assets,Mar 2016,3730.0
+ICICIGI,balance-sheet,Other Assets,Mar 2017,8018.0
+ICICIGI,balance-sheet,Other Assets,Mar 2018,11151.0
+ICICIGI,balance-sheet,Other Assets,Mar 2019,10707.0
+ICICIGI,balance-sheet,Other Assets,Mar 2020,10039.0
+ICICIGI,balance-sheet,Other Assets,Mar 2021,7779.0
+ICICIGI,balance-sheet,Other Assets,Mar 2022,11485.0
+ICICIGI,balance-sheet,Other Assets,Mar 2023,11342.0
+ICICIGI,balance-sheet,Other Assets,Mar 2024,13700.0
+ICICIGI,balance-sheet,Other Assets,Mar 2025,14835.0
+ICICIGI,balance-sheet,Other Assets,Mar 2026,16851.0
+ICICIGI,balance-sheet,Other Assets,Sep 2026,19041.0
+ICICIGI,balance-sheet,Total Assets,Mar 2015,14646.0
+ICICIGI,balance-sheet,Total Assets,Mar 2016,15676.0
+ICICIGI,balance-sheet,Total Assets,Mar 2017,23351.0
+ICICIGI,balance-sheet,Total Assets,Mar 2018,29750.0
+ICICIGI,balance-sheet,Total Assets,Mar 2019,33403.0
+ICICIGI,balance-sheet,Total Assets,Mar 2020,37042.0
+ICICIGI,balance-sheet,Total Assets,Mar 2021,39298.0
+ICICIGI,balance-sheet,Total Assets,Mar 2022,50848.0
+ICICIGI,balance-sheet,Total Assets,Mar 2023,55086.0
+ICICIGI,balance-sheet,Total Assets,Mar 2024,63308.0
+ICICIGI,balance-sheet,Total Assets,Mar 2025,69145.0
+ICICIGI,balance-sheet,Total Assets,Mar 2026,76111.0
+ICICIGI,balance-sheet,Total Assets,Sep 2026,84236.0
+ICICIGI,ratios,Debtor Days,Mar 2015,0.0
+ICICIGI,ratios,Debtor Days,Mar 2016,0.0
+ICICIGI,ratios,Debtor Days,Mar 2017,0.0
+ICICIGI,ratios,Debtor Days,Mar 2018,0.0
+ICICIGI,ratios,Debtor Days,Mar 2019,292.0
+ICICIGI,ratios,Debtor Days,Mar 2020,0.0
+ICICIGI,ratios,Debtor Days,Mar 2021,0.0
+ICICIGI,ratios,Debtor Days,Mar 2022,0.0
+ICICIGI,ratios,Debtor Days,Mar 2023,0.0
+ICICIGI,ratios,Debtor Days,Mar 2024,0.0
+ICICIGI,ratios,Debtor Days,Mar 2025,0.0
+ICICIGI,ratios,Debtor Days,Mar 2026,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2015,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2016,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2017,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2018,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2019,292.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2020,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2021,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2022,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2023,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2024,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2025,0.0
+ICICIGI,ratios,Cash Conversion Cycle,Mar 2026,0.0
+ICICIGI,ratios,Working Capital Days,Mar 2015,-576.0
+ICICIGI,ratios,Working Capital Days,Mar 2016,-532.0
+ICICIGI,ratios,Working Capital Days,Mar 2017,-521.0
+ICICIGI,ratios,Working Capital Days,Mar 2018,-720.0
+ICICIGI,ratios,Working Capital Days,Mar 2019,-564.0
+ICICIGI,ratios,Working Capital Days,Mar 2020,-670.0
+ICICIGI,ratios,Working Capital Days,Mar 2021,-705.0
+ICICIGI,ratios,Working Capital Days,Mar 2022,-690.0
+ICICIGI,ratios,Working Capital Days,Mar 2023,-685.0
+ICICIGI,ratios,Working Capital Days,Mar 2024,-661.0
+ICICIGI,ratios,Working Capital Days,Mar 2025,-603.0
+ICICIGI,ratios,Working Capital Days,Mar 2026,-599.0
+ICICIGI,ratios,ROCE %,Mar 2015,27.0
+ICICIGI,ratios,ROCE %,Mar 2016,23.0
+ICICIGI,ratios,ROCE %,Mar 2017,24.0
+ICICIGI,ratios,ROCE %,Mar 2018,17.0
+ICICIGI,ratios,ROCE %,Mar 2019,31.0
+ICICIGI,ratios,ROCE %,Mar 2020,27.0
+ICICIGI,ratios,ROCE %,Mar 2021,27.0
+ICICIGI,ratios,ROCE %,Mar 2022,19.0
+ICICIGI,ratios,ROCE %,Mar 2023,21.0
+ICICIGI,ratios,ROCE %,Mar 2024,23.0
+ICICIGI,ratios,ROCE %,Mar 2025,24.0
+ICICIGI,ratios,ROCE %,Mar 2026,22.0

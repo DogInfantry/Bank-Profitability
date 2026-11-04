@@ -1,0 +1,6 @@
+bank,sub_symbol,sub_name,stake,source,note
+ICICIBANK,ICICIGI,ICICI Lombard General Insurance,0.5126,"ICICI Bank Form 20-F fiscal 2026 (SEC, 20 Jul 2026), subsidiaries table",at 31 Mar 2026
+ICICIBANK,ICICILIFE,ICICI Life Insurance,0.5289,"ICICI Bank Form 20-F fiscal 2026 (50.89%) plus 2.00% bought in Q2 FY27 (ICICI_Q2FY27_investor_presentation.pdf p53)",renamed from ICICI Prudential Life in Oct 2026
+ICICIBANK,ICICIAMC,ICICI Prudential AMC,0.5300,"ICICI Bank Form 20-F fiscal 2026 (SEC, 20 Jul 2026), subsidiaries table",at 31 Mar 2026
+SBIN,SBILIFE,SBI Life Insurance,0.5531,SBI_Q2FY27_analyst_presentation.pdf p40,at 30 Sep 2026
+SBIN,SBICARD,SBI Cards and Payment Services,0.6858,SBI_Q2FY27_analyst_presentation.pdf p40,at 30 Sep 2026

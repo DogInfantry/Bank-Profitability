@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Exhibit 10: the RoE the share price implies, against what the base case and the six moves deliver by FY29E.
+  // Exhibit 12: the RoE the share price implies, against what the base case and the six moves deliver by FY29E.
   import { app } from '../lib/store.svelte';
   let w = $state(500);
   const s = $derived(app.story!);

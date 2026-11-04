@@ -1,6 +1,6 @@
 # Project state: HDFC Bank, the path back to 2% RoA
 
-Last updated: **4 Nov 2026**, after the step-1 valuation consistency pack (roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
+Last updated: **4 Nov 2026**, after roadmap step 7 (trading comps and merger precedents; roadmap in section 6). Data is as of 3 Nov 2026 (financials to Q2 FY27; price ₹700 on 2 Nov 2026).
 
 Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions and what is open.
 
@@ -54,6 +54,16 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
     - RoA is unchanged.
     - Value falls ≈ ₹36k cr, because RoE exceeds Ke (justified P/B > 1). It is an RoE optic, not value creation.
   - **CASA reasonableness:** the Base path needs 32% of FY27-29 new deposits to be CASA, against 21% delivered in the last four quarters. At 21%, FY29E CASA is 29.9% (path 33.5%) and RoA is 8.2 bp lower, which is more than the 3 bp headroom.
+- **Trading comps (step 7, Comps tab; standalone; market 2 Nov 2026, balance sheet Sep-26):**
+  - HDFC Bank trades at 1.66x book net of listed stakes against a peer median of 2.09x (ICICI, Axis, Kotak, SBI): a 20% discount. At the peer median multiple the price would be about ₹859.
+  - Returns do not explain it: FY26 RoA 1.80% vs peer median 1.65%; RoE 14.0% vs 14.3%.
+  - Funding does: CD ratio 96% vs 89%; CASA 32% vs 37%; loan growth ex FCNR (B) 14% vs 20%; CET1 17.1% vs 15.3%.
+  - RBI's FCNR (B) swap window inflated Sep-26 deposits and loans at ICICI, Axis and Kotak; ex-FCNR growth is the like-for-like column.
+  - Kotak's multiples (3.1x, 28.9x) set group market cap against standalone book and earnings, so they flatter; the median absorbs it.
+- **Merger precedents (RBI bank-wise OSMOS returns, domestic operations):**
+  - Borrowings / (deposits + borrowings) at year 0: ICICI Bank (Mar-02) 65%, IDFC First (Mar-19) 50%, HDFC Bank (Mar-24) 21%.
+  - Run-off pace, points a year: ICICI 12.6 (years 0-3), IDFC First 5.5 (years 0-3), HDFC 4.3 so far (to Sep-25); the base case needs 3.0 (FY25A-FY29E).
+  - CASA moved the other way: ICICI +13 points and IDFC First +33 in three years; HDFC Bank −4.4 points in eighteen months. The CASA path, not the run-off pace, is the risk.
 - **Tornado (FY29E RoA swing):** repo 16 bp, advances growth 15, credit cost 13, opex growth 11, deposit-war premium 7; regulation about 1 bp.
 - **Funding-cost beta:** 0.37 same year, 0.62 long run (R² 0.94, n = 9).
 - **Regulation:**
@@ -71,6 +81,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 | SQL | `pipeline/warehouse.py` (DuckDB), `sql/01-06_*.sql`, outputs in `data/tidy/sql_results/` | Done |
 | Tests and CI | `tests/` (19 pytest), `site/tests/engine.test.ts` (15 vitest), `.github/workflows/ci.yml`, `Makefile` | Green (CI run #7 on `9fc0e3e`) |
 | Model audit | `docs/model_audit.md` | 0 critical, 2 warnings (1 open, see section 6) |
+| Trading comps and precedents | Comps tab of the Excel model; site Exhibits 6 and 8 | Done (step 7) |
 | Website | `site/` (Svelte 5 + Vite + D3 + Scrollama) | **Live**: https://site-two-eta-4o267upa77.vercel.app |
 
 ## 3. Pipeline (one entrypoint: `Makefile`)
@@ -114,13 +125,13 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - masthead: bank glyph, thesis headline, standfirst, the `AtAGlance` panel;
   - 01 Answer: `AnswerTiles` + Exhibit 1 `HeroRoa`;
   - 02 Merger: `RupeeOfAssets`, Exhibit 2 `SmallMultiples`, Exhibit 3 `Waterfall` with stat tiles;
-  - 03 Peers: stat tiles, Exhibit 4 `PeerGap` + Exhibit 5 `Beeswarm`;
-  - 04 Run-off: `FundingMix`, Exhibit 6 `Ladder`, `CreditCycle`;
-  - 05 Moves: scrolly with Exhibit 7 `Waterfall` and step cards, Exhibit 8 `Dumbbell`, moves table with bars and feasibility dots;
-  - 06 Value: `PbEquation`, Exhibit 9 `RoeBars` + Exhibit 10 `ValueBullet`, 10 bp tile;
-  - 07 Risks: Exhibit 11 `Tornado`, Exhibit 12 `BetaScatter` with beta tiles, `RiskCards`;
-  - 07 also carries Exhibit 13 (break-evens table), Exhibit 14 `StressGrid` (live engine, repo × credit cost) and the pre-registered Q3 FY27 calls;
-  - 08 Plan: Exhibit 15 `Roadmap` (Gantt) + KPI tiles;
+  - 03 Peers: stat tiles, Exhibit 4 `PeerGap` + Exhibit 5 `Beeswarm`, then the comps paragraph with rail tiles and Exhibit 6 `CompsTable`;
+  - 04 Run-off: `FundingMix`, Exhibit 7 `Ladder`, merger precedents with rail tiles and Exhibit 8 `Precedents` (line chart, data table behind it), `CreditCycle`;
+  - 05 Moves: scrolly with Exhibit 9 `Waterfall` and step cards, Exhibit 10 `Dumbbell`, moves table with bars and feasibility dots;
+  - 06 Value: `PbEquation`, Exhibit 11 `RoeBars` + Exhibit 12 `ValueBullet`, 10 bp tile;
+  - 07 Risks: Exhibit 13 `Tornado`, Exhibit 14 `BetaScatter` with beta tiles, `RiskCards`;
+  - 07 also carries Exhibit 15 (break-evens table), Exhibit 16 `StressGrid` (live engine, repo × credit cost) and the pre-registered Q3 FY27 calls;
+  - 08 Plan: Exhibit 17 `Roadmap` (Gantt) + KPI tiles;
   - Appendix A: "Test the answer yourself", `ModelFlow` + the collapsible `sections/Workbench.svelte` (live model);
   - Appendix B: `sections/Changelog.svelte` (release notes, formulas, source register, caveats), then reproducibility and footer.
 - **Palette:** tokens in `site/src/app.css`, light and dark, validated with the dataviz validator.
@@ -227,7 +238,11 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 
        **Score them when the Q3 FY27 deck is out (mid-Jan 2027):** fill `actual_q3fy27` and `verdict`.
      - **Not done:** the say-do extension beyond NIM (needs new FactIQ transcript claims). It is the next item if wanted.
-   - **7. One-page trading comps** (core P/B, P/E, RoA, RoE, CASA, CD ratio, CET1, growth) plus merger precedents (ICICI 2002, IDFC First).
+   - **7. Trading comps and merger precedents: DONE (4 Nov 2026).** New Comps tab (headline numbers in section 1).
+     - Comps: five banks; P/B net of listed stakes uses the same holding-company discount as the Valuation tab and keeps the whole standalone book for every bank (HDFC's Valuation-tab core P/B also deducts subsidiaries at cost, so it reads higher, 1.70x).
+     - Precedents use one source for all three mergers: RBI bank-wise OSMOS returns via FactIQ. A US GAAP 20-F series for ICICI 2002 was rejected as a different basis.
+     - Site: Exhibit 6 (comps table, ch. 03) and Exhibit 8 (precedent line chart, ch. 04); later exhibits renumbered to 17.
+     - Not done: P/B against consolidated book (Kotak and ICICI hold large unlisted subsidiaries); peer data are standalone throughout.
    - **8. CEO "so what" page:**
      - three decisions with trade-offs;
      - variant view (management / consensus / we say);
@@ -251,6 +266,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 7 (trading comps and merger precedents):**
+  - Skipped the optional say-do extension (user's call); went straight to step 7.
+  - Fetched peer Q2 FY27 decks (Axis and Kotak via `fetch_docs.py`; ICICI and SBI from the banks' own hosts in `fetch.py`, because BSE returns 406 to scripts). New inputs `peer_comps_sep26.csv`, `peer_listed_stakes.csv`, `merger_precedents_rbi.csv`; Screener harvest for ICICIGI, ICICILIFE (renamed from ICICIPRULI), ICICIAMC, SBILIFE, SBICARD.
+  - Fixed `fetch.register`: manifest paths are now POSIX on Windows, and a failed retry no longer overwrites a good earlier download's row.
+  - Model: Comps tab (sources S11, S12), in the export and the Cover TOC. Site: `CompsTable.svelte`, `Precedents.svelte`; story gains `comps`. Tests: `tests/test_comps.py` (3), pytest 35.
+  - Headline model numbers unchanged (the Comps tab reads the model; it feeds nothing back).
 - **4 Nov 2026, roadmap step 6 (what would change our answer):**
   - New `pipeline/breakevens.py` (in the Makefile and Windows runner), with 3 tests in `tests/test_answer_tests.py`.
   - Frozen Q3 FY27 predictions.

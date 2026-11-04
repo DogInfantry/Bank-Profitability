@@ -1,0 +1,38 @@
+bank,metric,value,unit,source_file,page,note
+HDFCBANK,deposits_sep25,2801800,INR cr,HDFCBANK_Q2FY27_ppt.pdf,5,"28,018 bn"
+HDFCBANK,deposits_sep26,3327400,INR cr,HDFCBANK_Q2FY27_ppt.pdf,5,"33,274 bn"
+HDFCBANK,net_adv_sep25,2746400,INR cr,HDFCBANK_Q2FY27_ppt.pdf,5,"27,464 bn"
+HDFCBANK,net_adv_sep26,3195600,INR cr,HDFCBANK_Q2FY27_ppt.pdf,5,"31,956 bn"
+HDFCBANK,casa_ratio,32.0,%,HDFCBANK_Q2FY27_ppt.pdf,15,period-end; disclosed as a whole number
+HDFCBANK,cet1,17.1,%,HDFCBANK_Q2FY27_ppt.pdf,3,
+HDFCBANK,adv_growth_ex_fcnr,14.4,%,HDFCBANK_Q2FY27_ppt.pdf,10,"Derived: net advances less FCNR leverage loans of 548 bn (p10), over Sep-25"
+ICICIBANK,deposits_sep25,1612825,INR cr,ICICI_Q2FY27_investor_presentation.pdf,12,"16,128.25 bn"
+ICICIBANK,deposits_sep26,2049874,INR cr,ICICI_Q2FY27_investor_presentation.pdf,12,"20,498.74 bn"
+ICICIBANK,net_adv_sep25,1408456,INR cr,ICICI_Q2FY27_investor_presentation.pdf,14,"14,084.56 bn"
+ICICIBANK,net_adv_sep26,1831580,INR cr,ICICI_Q2FY27_investor_presentation.pdf,14,"18,315.80 bn"
+ICICIBANK,casa_ratio,36.1,%,ICICI_Q2FY27_investor_presentation.pdf,12,period-end share of total deposits
+ICICIBANK,cet1,16.01,%,ICICI_Q2FY27_investor_presentation.pdf,35,standalone; including profits for the period
+ICICIBANK,dep_growth_ex_fcnr,17.0,%,ICICI_Q2FY27_investor_presentation.pdf,5,excluding FCNR (B) deposits
+ICICIBANK,adv_growth_ex_fcnr,24.1,%,ICICI_Q2FY27_investor_presentation.pdf,5,excluding loans against FCNR (B) deposits
+AXISBANK,deposits_sep25,1203487,INR cr,AXISBANK_Q2FY27_ppt.pdf,8,
+AXISBANK,deposits_sep26,1452066,INR cr,AXISBANK_Q2FY27_ppt.pdf,8,
+AXISBANK,net_adv_sep25,1116703,INR cr,AXISBANK_Q2FY27_ppt.pdf,8,
+AXISBANK,net_adv_sep26,1373727,INR cr,AXISBANK_Q2FY27_ppt.pdf,8,
+AXISBANK,casa_ratio,36.5,%,AXISBANK_Q2FY27_ppt.pdf,9,"Derived: CASA 5,29,539 / deposits 14,52,066 (shown rounded as 36%)"
+AXISBANK,cet1,14.61,%,AXISBANK_Q2FY27_ppt.pdf,6,
+AXISBANK,dep_growth_ex_fcnr,17.0,%,AXISBANK_Q2FY27_ppt.pdf,14,excluding FCNR (B) deposits; disclosed as a whole number
+AXISBANK,adv_growth_ex_fcnr,19.0,%,AXISBANK_Q2FY27_ppt.pdf,14,excluding loans against FCNR (B) deposits; disclosed as a whole number
+KOTAKBANK,deposits_sep25,528776,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,12,
+KOTAKBANK,deposits_sep26,651491,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,12,
+KOTAKBANK,net_adv_sep25,462688,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,12,
+KOTAKBANK,net_adv_sep26,577295,INR cr,KOTAKBANK_Q2FY27_ppt.pdf,12,
+KOTAKBANK,casa_ratio,38.2,%,KOTAKBANK_Q2FY27_ppt.pdf,12,
+KOTAKBANK,cet1,21.4,%,KOTAKBANK_Q2FY27_ppt.pdf,9,including unaudited profits
+KOTAKBANK,dep_growth_ex_fcnr,12.7,%,KOTAKBANK_Q2FY27_ppt.pdf,12,"Derived: deposits less FCNR (B) of about 55,344 cr, over Sep-25"
+KOTAKBANK,adv_growth_ex_fcnr,21.3,%,KOTAKBANK_Q2FY27_ppt.pdf,12,"Derived: net advances less loans against FCNR (B) of about 16,110 cr, over Sep-25"
+SBIN,deposits_sep25,5591700,INR cr,SBI_Q2FY27_analyst_presentation.pdf,45,standalone
+SBIN,deposits_sep26,6277919,INR cr,SBI_Q2FY27_analyst_presentation.pdf,45,standalone
+SBIN,net_adv_sep25,4361737,INR cr,SBI_Q2FY27_analyst_presentation.pdf,45,standalone
+SBIN,net_adv_sep26,5154323,INR cr,SBI_Q2FY27_analyst_presentation.pdf,45,standalone
+SBIN,casa_ratio,38.3,%,SBI_Q2FY27_analyst_presentation.pdf,13,"Derived: domestic CASA 22,96,883 / domestic deposits 59,94,600"
+SBIN,cet1,13.34,%,SBI_Q2FY27_analyst_presentation.pdf,26,read from chart (CET1 13.34 + AT1 1.00 + Tier 2 1.75 = CRAR 16.09)

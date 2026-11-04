@@ -134,7 +134,23 @@ def main():
     facts = pd.read_csv(T / "bank_facts.csv")
     q = facts[(facts.entity == "HDFCBANK") & (facts.period == "Q2FY27")].set_index("metric").value
     alm = dict(ear=sc("ALM|Earnings at risk, +100 bp"), ear_pct=sc("ALM|As % of FY26 NII"))
+    cnames = ["HDFC Bank", "ICICI Bank", "Axis Bank", "Kotak Mahindra Bank", "State Bank of India"]
+    num = lambda v: v if isinstance(v, (int, float)) else None  # noqa: E731  "n.d." cells -> null
+    comps = dict(
+        banks=[dict(bank=nm, pb=b[f"Comps|{nm}"][4], pb_ex=b[f"Comps|{nm}"][6], pe=b[f"Comps|{nm}"][7], roa=b[f"Comps|{nm}"][8], roe=b[f"Comps|{nm}"][9],
+                    loan_g=b[f"Comps|{nm}: Sep-26"][5], loan_g_ex=num(b[f"Comps|{nm}: Sep-26"][7]), cd=b[f"Comps|{nm}: Sep-26"][8],
+                    casa=b[f"Comps|{nm}: Sep-26"][9], cet1=b[f"Comps|{nm}: Sep-26"][10]) for nm in cnames],
+        med={k: sc(f"Comps|Peer median {lab}") for k, lab in dict(pb_ex="P/B ex listed stakes", pe="P/E", roa="RoA FY26", roe="RoE FY26", loan_g_ex="loan growth ex FCNR",
+                                                                  cd="CD ratio", casa="CASA ratio", cet1="CET1").items()},
+        px_at_med=sc("Comps|HDFC Bank price at the peer median P/B ex stakes"), pb_prem=sc("Comps|HDFC Bank P/B premium to the peer median"),
+        precedents=[dict(bank=k.split("|")[1].split(": ")[0], period=k.split(": ")[1], t=v[0], bor_share=v[5], casa=v[6], roa=v[7])
+                    for k, v in b.items() if k.startswith("Comps|") and ": " in k and k.split(": ")[1][:3] in ("Mar", "Sep") and k.split(": ")[1] != "Sep-26"],
+        pace={nm: dict(b0=sc(f"Comps|{nm}: borrowings share at year 0"), pace=sc(f"Comps|{nm}: borrowings share cut a year, year 0 to {t}"),
+                       casa_bp=sc(f"Comps|{nm}: CASA ratio change, year 0 to {t}"), roa_bp=sc(f"Comps|{nm}: RoA change, year 0 to {t}"), years=float(t))
+              for nm, t in (("ICICI Bank", "3"), ("IDFC First Bank", "3"), ("HDFC Bank", "1.5"))},
+        model_pace=sc("Comps|HDFC Bank model: borrowings share cut a year, FY25A to FY29E"))
     story = dict(
+        comps=comps,
         as_of="2026-11-03", years=YEARS, series=series, outputs=outputs, levers=lev_out, anchors=anchors, peers=peers,
         q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
         roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),

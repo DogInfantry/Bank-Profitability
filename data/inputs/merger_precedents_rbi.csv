@@ -1,0 +1,18 @@
+bank,deal,period,t,roa_pct,borrowings,deposits,current,savings,series_ids
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-02,0,0.789,58970,32085,560,2342,rbi|c903e590b2c9abc0 rbi|43ccf77e290f2ff3 rbi|9292eb32a246f60b rbi|849bab16b6acde76 rbi|1c7e28c1702f7a43
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-03,1,1.173,44052,48169,2919,3522,same
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-04,2,1.428,38726,67029,6637,6942,same
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-05,3,1.492,35707,96379,12608,8990,same
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-06,4,1.291,36247,156517,16103,17257,same
+ICICIBANK,ICICI Ltd into ICICI Bank (effective 30 Mar 2002),Mar-07,5,0.920,40494,221706,20769,24018,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-19,0,-1.416,69983,70479,2194,6609,rbi|90df5f9c598690f3 rbi|3cc7b27607fa563c rbi|94ba496b21406bf7 rbi|93a13b6a0acfaca3 rbi|6a6c71dfca86a539
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-20,1,-1.709,57397,65108,4042,15279,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-21,2,0.285,45786,88688,5076,37685,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-22,3,0.082,52963,105634,8895,38793,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-23,4,1.131,57212,144637,14174,52797,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-24,5,1.122,50936,200576,17835,70248,same
+IDFCFIRSTB,IDFC Bank and Capital First (effective 18 Dec 2018),Mar-25,6,0.475,38627,251974,19356,89946,same
+HDFCBANK,HDFC Ltd into HDFC Bank (effective 1 Jul 2023),Mar-23,-1,2.016,180711,1866153,264987,521827,rbi|92734e4d474ee25c rbi|0e3cf3b91f0768a0 rbi|4b4939754fd1ae04 rbi|4b3da9942fb9782e rbi|ccd92177212fef66
+HDFCBANK,HDFC Ltd into HDFC Bank (effective 1 Jul 2023),Mar-24,0,1.935,636945,2357595,301442,555073,same
+HDFCBANK,HDFC Ltd into HDFC Bank (effective 1 Jul 2023),Mar-25,1,1.830,516661,2690655,302135,582134,same
+HDFCBANK,HDFC Ltd into HDFC Bank (effective 1 Jul 2023),Sep-25,1.5,1.866,480926,2777498,287791,599451,same

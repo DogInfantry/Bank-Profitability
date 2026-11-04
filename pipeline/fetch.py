@@ -31,6 +31,12 @@ SOURCES = [
      "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/annual-reports/2025-26/reports/HDFC_Bank_IR26.pdf"),
     ("hdfc_pillar3_sep26", "ir", "HDFC_Pillar3_Sep26.pdf",
      "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/about-us/regulatory-disclosures/2026/basel-iii-pillar-3-disclosures-as-at-september-30-2026.pdf"),
+    # Q2 FY27 peer decks for the trading comps; the BSE copies return 406 to scripts, so use the banks' own hosts
+    ("icici_q2fy27_pres", "ir", "ICICI_Q2FY27_investor_presentation.pdf",
+     "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/Q2-2027-investor-presentation.pdf"),
+    ("sbi_q2fy27_pres", "ir", "SBI_Q2FY27_analyst_presentation.pdf",
+     "https://sbi.bank.in/documents/17836/1275616/SBI+Analyst+Presentation+Q2FY27_03112026.pdf/f1632614-c85d-6bb0-d5dd-3a600e6b6b21?t=1793695579455"),
+    # ICICI Bank's stakes in its listed subsidiaries (shareholding slides) for P/B ex listed stakes
     ("icici_q4fy26_pres", "ir", "ICICI_Q4FY26_investor_presentation.pdf",
      "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2026/2026-04-Q4-2026-investor-presentation.pdf"),
     ("kotak_q4fy26_pr", "ir", "Kotak_Q4FY26_press_release.pdf",
@@ -84,9 +90,11 @@ def download(url: str, dest: Path, tries: int = 3) -> None:
 
 
 def register(rows: dict, key: str, bucket: str, url: str, dest: Path, status: str) -> None:
+    if status == "failed" and rows.get(key, {}).get("status") == "ok":
+        return  # a failed retry (e.g. BSE 406 locally) must not erase the hash of a good earlier download
     rows[key] = {
         "key": key, "bucket": bucket, "url": url,
-        "path": str(dest.relative_to(ROOT)),
+        "path": dest.relative_to(ROOT).as_posix(),
         "sha256": sha256(dest) if dest.exists() else "",
         "bytes": dest.stat().st_size if dest.exists() else 0,
         "fetched_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Exhibit 6: legacy borrowings by maturity (31 Mar 2026), and borrowings as a share of funding, FY21-FY29E.
+  // Exhibit 7: legacy borrowings by maturity (31 Mar 2026), and borrowings as a share of funding, FY21-FY29E.
   import * as d3 from 'd3';
   import { app } from '../lib/store.svelte';
   let w = $state(900);

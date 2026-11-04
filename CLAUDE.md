@@ -75,7 +75,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 | `docs/PROJECT_STATE.md` | State, numbers, roadmap and session log (update every session) |
 | `docs/methodology.md`, `docs/data_sources.md`, `docs/model_audit.md` | Method, source register, audit findings |
 
-## Current state (4 Nov 2026, step 8 committed locally on top of pushed `18f102d`; not yet pushed)
+## Current state (4 Nov 2026, HEAD `6772dc6`, pushed; CI green; Vercel deployed)
 - **Roadmap steps 1-8 of 9 done** (detail in PROJECT_STATE section 6):
   1. valuation consistency;
   2. primary-source data (decks, IR26, Pillar 3, RBI market share);
@@ -96,7 +96,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 - **Skipped (user's call, 4 Nov 2026):** extending the management say-do tracker beyond NIM (`data/inputs/concall_say_do.csv`). Still optional.
 
 ## Active task
-- Nothing half-done. Step 8 is committed; push when the user says so (run `-CiLocal` first, with the preview server stopped). Next is step 9 (packaging).
+- Nothing half-done. Step 8 was pushed (`6772dc6`); CI green, Vercel deployed, live site checked at 1440 and 390 px. Next is step 9 (packaging).
 
 ## Next steps (in order)
 1. Step 9: packaging:

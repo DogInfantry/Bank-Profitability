@@ -16,7 +16,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
   - Python 3.12 in CI (3.14 locally): pandas, openpyxl, xlsxwriter, pdfplumber, python-docx, DuckDB, pytest, ruff.
   - LibreOffice headless for recalculation.
   - Site: Svelte 5, Vite 6, TypeScript, D3, Scrollama, Vitest.
-  - Deployed on Vercel (auto-deploys on every push to the branch).
+  - Deployed on Vercel (auto-deploys on every push to `main`).
   - GitHub Actions `ci` runs `make all`.
 
 ## Non-negotiable rules
@@ -97,7 +97,7 @@ Read this first, then `docs/PROJECT_STATE.md`, which holds the current numbers, 
 - **Skipped (user's call, 4 Nov 2026):** extending the management say-do tracker beyond NIM (`data/inputs/concall_say_do.csv`). Still optional.
 
 ## Active task
-- Nothing half-done. Step 9 committed; check `git status` / `git log` for whether it has been pushed.
+- Nothing half-done. Release v1.0.0 is published (tag on `b5c4c29`); the default branch is now `main`.
 
 ## Next steps (in order)
 1. Optional: say-do tracker beyond NIM (CD ratio, deposit vs loan growth, credit cost, opex guidance).

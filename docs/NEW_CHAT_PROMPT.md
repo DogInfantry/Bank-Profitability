@@ -4,7 +4,7 @@ Paste this into a new Claude Code session on the repo `DogInfantry/Bank-Profitab
 
 ---
 
-Continue my HDFC Bank RoA consulting-case project in this repo (branch `claude/wonderful-noether-vgfm7p`).
+Continue my HDFC Bank RoA consulting-case project in this repo (branch `main`).
 
 Before doing anything:
 1. Read `CLAUDE.md` (the standing rules) and `docs/PROJECT_STATE.md` (the current state, the numbers, the decisions and the open items). Follow them exactly. In particular:

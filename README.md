@@ -7,7 +7,7 @@ One question for the CEO, answered with a driver-based Excel model, an argued lo
 
 [![The 2% Question: masthead of the case website](docs/img/site.png)](https://site-two-eta-4o267upa77.vercel.app)
 
-[![CI](https://github.com/DogInfantry/Bank-Profitability/actions/workflows/ci.yml/badge.svg?branch=claude%2Fwonderful-noether-vgfm7p)](https://github.com/DogInfantry/Bank-Profitability/actions/workflows/ci.yml)
+[![CI](https://github.com/DogInfantry/Bank-Profitability/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/DogInfantry/Bank-Profitability/actions/workflows/ci.yml)
 [![Live site](https://img.shields.io/badge/live%20site-Vercel-0b2545?logo=vercel&logoColor=white)](https://site-two-eta-4o267upa77.vercel.app)
 [![Data as of](https://img.shields.io/badge/data%20as%20of-3%20Nov%202026-1f5fa8)](docs/data_sources.md)
 [![Tests](https://img.shields.io/badge/tests-36%20pytest%20%C2%B7%2018%20parity-2e7d4f)](tests/)

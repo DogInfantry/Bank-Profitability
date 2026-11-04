@@ -104,7 +104,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - Vitest. Bundle about 163 KB gzipped.
 - **Hosting:**
   - Vercel project `site`, team `anklesh-s-projects`, rootDirectory `site`, `site/vercel.json` (vite, `npm ci`, `npm run build`, output `dist`).
-  - Production auto-deploys on every push to `claude/wonderful-noether-vgfm7p`.
+  - Production auto-deploys on every push to `main`.
   - The public alias is the one above; other `*.vercel.app` URLs sit behind Vercel SSO, which is expected.
   - A custom domain is optional (user action in Vercel → Domains).
 - **Engine:**

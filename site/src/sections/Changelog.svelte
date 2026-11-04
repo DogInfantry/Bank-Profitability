@@ -25,7 +25,7 @@
     ['S6', 'NPCI UPI: P2M value by ticket band, payee banks, monthly totals, via FactIQ', 'https://www.npci.org.in/what-we-do/upi/product-statistics', 'High', 'Official statistics'],
     ['S7', 'IRDAI Handbook 2024-25 and the September 2026 exposure draft on commission and expenses of management', 'https://irdai.gov.in/', 'Medium', 'Proposal, not final'],
     ['S8', 'Earnings-call claims via the FactIQ claim graph (paraphrased; the link opens the Q2 FY27 margin claim)', app.story!.mgmt_nim.claim_source_url, 'Medium', 'Paraphrased by FactIQ'],
-    ['M', 'models/HDFC_RoA_Path_FY29.xlsx: driver model, reconciliation checks, strict lint; recalculated headlessly and exported per scenario', 'https://github.com/DogInfantry/Bank-Profitability/blob/claude/wonderful-noether-vgfm7p/models/HDFC_RoA_Path_FY29.xlsx', 'Model', 'Built from the sources above'],
+    ['M', 'models/HDFC_RoA_Path_FY29.xlsx: driver model, reconciliation checks, strict lint; recalculated headlessly and exported per scenario', 'https://github.com/DogInfantry/Bank-Profitability/blob/main/models/HDFC_RoA_Path_FY29.xlsx', 'Model', 'Built from the sources above'],
   ]);
 </script>
 <section class="chapter appendix" id="log">

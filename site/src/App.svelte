@@ -19,7 +19,7 @@
   import Changelog from './sections/Changelog.svelte';
 
   const REPO = 'https://github.com/DogInfantry/Bank-Profitability';
-  const BR = `${REPO}/blob/claude/wonderful-noether-vgfm7p`;
+  const BR = `${REPO}/blob/main`;
   const SECTIONS = [
     ['answer', '01', 'The answer'], ['merger', '02', 'The merger broke the margin'], ['peers', '03', 'Against ICICI Bank'], ['runoff', '04', 'The base case'],
     ['moves', '05', 'The six moves'], ['value', '06', 'What it is worth'], ['risks', '07', 'What could break it'], ['plan', '08', 'Next twelve months'], ['sowhat', '09', 'For the CEO'],

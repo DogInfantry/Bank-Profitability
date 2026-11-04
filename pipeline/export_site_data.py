@@ -105,8 +105,9 @@ def main():
     val["shares"] = val["mcap"] / ws.cell(rows["Share price"], 5).value
     val["target_bp"] = b["Levers|Target"][2]
 
+    remix = dict(ygap=sc("Levers|Re-mix: yield gap, target segments over mortgages"), ccgap=sc("Levers|Re-mix: credit-cost gap"))
     model = dict(years=YEARS[7:], scenarios=SCN, fy26=fy26, repo_fy26=repo_fy26, drivers=drivers, fixed=fixed, fees=fees,
-                 levers=levers, valuation=val, model_sha256=hashlib.sha256(XL.read_bytes()).hexdigest())
+                 levers=levers, remix=remix, valuation=val, model_sha256=hashlib.sha256(XL.read_bytes()).hexdigest())
 
     # ------------------------------------------------------------- story
     hist_keys = {"roa": "Model|Return on average assets", "roe": "Model|Return on average net worth", "nim": "Model|Net interest margin on interest-earning assets",
@@ -138,6 +139,11 @@ def main():
         q2fy27_roa=float(q["pat"] * 4 / ((q["assets_open"] + q["assets_close"]) / 2)), price=val["price"],
         roe_implied=sc("Valuation|RoE the market is pricing"), ke=sc("Valuation|Cost of equity"), v10=sc("Valuation|Value of +10 bp RoA (equity value)"),
         ke_be={s: sc("Valuation|Cost of equity at which sum of the parts equals the price", s) for s in SCN},
+        remix_capital=dict(shift=sc("Levers|Share of the book moved"), rwa=sc("Levers|Extra risk-weighted assets"),
+                           equity=sc("Levers|Extra Tier 1 capital at the projected ratio"), ep=sc("Levers|Re-mix PAT less a Ke charge on that capital")),
+        capital_return=dict(excess=sc("Levers|Excess Tier 1 capital, FY29E"), roe_uplift=sc("Levers|RoE uplift"), value=sc("Levers|Value effect of returning it")),
+        casa_test=dict(observed=sc("Levers|Incremental CASA share delivered, Q2 FY26 to Q2 FY27"), path=sc("Levers|Incremental CASA share the path needs, FY27E-FY29E"),
+                       casa29=sc("Levers|CASA ratio FY29E at the delivered share"), roa_bp=sc("Levers|FY29E RoA at risk if the delivered share persists")),
         peer_ke={nm: sc(f"Valuation|Implied Ke: {nm}") for nm in ("HDFC Bank", "ICICI Bank", "Axis Bank", "Kotak Mahindra Bank", "State Bank of India")},
         roa_norm=dict(core=sc("Valuation|RoA FY26A, core"), sdiv=sc("Valuation|Less dividends from subsidiaries"),
                       cc=sc("Valuation|Less credit cost at through-the-cycle level"), norm=sc("Valuation|Normalised core-bank RoA, FY26")),

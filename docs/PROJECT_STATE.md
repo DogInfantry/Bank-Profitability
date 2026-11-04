@@ -10,12 +10,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 | Metric | Downside | Base | Upside |
 |---|---|---|---|
 | RoA FY29E, before levers | 1.31% | **1.89%** | 2.27% |
-| RoA FY29E, with six levers | 1.48% | **2.06%** | 2.43% |
+| RoA FY29E, with six levers | 1.45% | **2.03%** | 2.40% |
 | RoE FY29E, before levers | 10.6% | 14.9% | 17.6% |
 | Value per share at 2 Nov 2026 (residual income to sum of the parts) | ₹254-273 | **₹506-576** | ₹671-781 |
 | Break-even Ke (sum of the parts = ₹700) | 9.49% | **12.11%** | 13.81% |
 
-**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.89%. Six funding-led moves (+16.7 bp) get it to 2.06%. The ₹700 price implies a **16.7% core-bank RoE**, and the base case gives 14.9%. **Caveat:** this rests on the 13.13% CAPM Ke. At 12.1% or less the base case alone supports ₹700, and peer prices imply 10.6-11.1%.
+**Thesis:** HDFC Bank's RoA problem is a **funding** problem created by the July 2023 merger, not a cost problem. Run-off of legacy borrowings gets RoA to 1.89%. Six funding-led moves (+14.0 bp, risk-adjusted) get it to 2.03%, only 3 bp of headroom, and the optimistic CASA path alone puts 8 bp at risk. The ₹700 price implies a **16.7% core-bank RoE**, and the base case gives 14.9%. **Caveat:** this rests on the 13.13% CAPM Ke. At 12.1% or less the base case alone supports ₹700, and peer prices imply 10.6-11.1%.
 
 **Key facts used throughout:**
 - **Merger effects:**
@@ -33,7 +33,7 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
     - The base CASA path implies 37% of new deposits as CASA in FY28-29, against 21% delivered in the last four quarters: an optimistic input.
 - **Credit cost:** 0.48% recent vs 0.69% through the cycle; normalisation costs about 10 bp of RoA.
 - **Six levers, bp of FY29E RoA:**
-  - re-mix advances 5.3;
+  - re-mix advances 2.65 (was 5.3 before step 4: now net of a 2 pp credit-cost gap on the book moved; economic profit after a Ke charge on the ₹14k cr extra Tier 1 is −₹342 cr);
   - productivity 3.8;
   - CASA 3.4;
   - retire borrowings 1.9 (was 3.0 before step 3: priced against the fresh TD rate, not the average cost of deposits);
@@ -48,7 +48,12 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
   - Peer-implied Ke (FY26 trailing): ICICI 10.7%, Axis 10.6%, Kotak 8.9%, SBI 12.9%, HDFC Bank 11.1%.
   - Subsidiary dividends (₹2,242 cr FY26) are stripped from core RoE. The effect is about 0 bp, because removing the investment at cost offsets it (core 14.61% vs 14.62%).
   - Normalised FY26 core RoA is 166 bp: core 180, less 4 for subsidiary dividends, less 10 for through-the-cycle credit cost.
-  - Total value of the six levers ≈ ₹1.4 lakh cr.
+  - Total value of the six levers ≈ ₹1.18 lakh cr; ₹0.79 lakh cr weighted by feasibility (illustrative).
+  - **Lever 7, capital return:** Tier 1 above 15% is ≈ ₹1.09 lakh cr FY29E.
+    - Returning it lifts RoE by 1.9 pp, to 16.8%, about what the price implies (16.7%).
+    - RoA is unchanged.
+    - Value falls ≈ ₹36k cr, because RoE exceeds Ke (justified P/B > 1). It is an RoE optic, not value creation.
+  - **CASA reasonableness:** the Base path needs 32% of FY27-29 new deposits to be CASA, against 21% delivered in the last four quarters. At 21%, FY29E CASA is 29.9% (path 33.5%) and RoA is 8.2 bp lower, which is more than the 3 bp headroom.
 - **Tornado (FY29E RoA swing):** repo 16 bp, advances growth 15, credit cost 13, opex growth 11, deposit-war premium 7; regulation about 1 bp.
 - **Funding-cost beta:** 0.37 same year, 0.62 long run (R² 0.94, n = 9).
 - **Regulation:**
@@ -184,11 +189,13 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
      - lever 2 is now priced against the fresh rate.
 
      CRR and DICGC are left out on purpose: CRR is already in the liquidity yield and DICGC in opex, so adding them would double count.
-   - **4. Defensible levers:**
-     - risk-adjusted re-mix (credit cost, 125% unsecured risk weight, RWA responds to mix);
-     - joint vs sum, and FY27-29 phasing;
-     - net of cost to achieve and probability-weighted;
-     - capital return as lever 7.
+   - **4. Defensible levers: DONE (4 Nov 2026).**
+     - Re-mix is net of the credit-cost gap, with the capital consumed and its economic profit.
+     - A feasibility-weighted value column.
+     - Capital return added as lever 7 (RoE, not RoA).
+     - CASA path tested against the share delivered.
+     - Joint vs sum and phasing are documented rather than modelled: the levers are linear in FY29E, and all land by mid-2028.
+     - Not done: cost to achieve, because there is no public basis for it; the feasibility weight stands in.
    - **5. Regulatory overlay:** ECL (1 Apr 2027) day-one CET1 hit plus a credit-cost add, LCR digital run-off, CRR, PSL/RIDF. Reword "regulation barely registers" (Exhibit 11).
    - **6. "What would change our answer":** break-evens (repo, marginal cost of deposits, credit cost, Ke); a 2D reverse-stress grid; pre-registered Q3 FY27 predictions before the mid-Jan 2027 results; say-do beyond NIM, rendered on the site.
    - **7. One-page trading comps** (core P/B, P/E, RoA, RoE, CASA, CD ratio, CET1, growth) plus merger precedents (ICICI 2002, IDFC First).
@@ -215,6 +222,15 @@ Standing rules are in `/CLAUDE.md`. This file covers state, numbers, decisions a
 5. **Optional:** README screenshots or a GIF of the site.
 
 ## 7. Session log (newest first)
+- **4 Nov 2026, roadmap step 4 (defensible levers):**
+  - Levers tab gains:
+    - re-mix risk inputs (yield gap 4.0 pp, credit-cost gap 2.0 pp, risk-weight gap 0.75; all labelled assumptions);
+    - a capital-consumed block;
+    - a feasibility-weighted value column;
+    - lever 7 (capital return);
+    - a CASA reasonableness block.
+  - The engine ports the re-mix change, and parity still holds (18 vitest).
+  - Headline: with levers 2.06% → 2.03% (levers 16.7 → 14.0 bp); lever value ₹1.4 → ₹1.18 lakh cr. Values per share are unchanged (the levers sit outside the valuation).
 - **4 Nov 2026, roadmap step 3 (marginal funding cost):**
   - New inputs: fresh rate, repo at the observation date, fresh beta, and the `td_prem` scenario driver (in the tornado).
   - New Model lines: incremental CASA share, book TD rate, fresh TD rate; cost of deposits gains the marginal term.

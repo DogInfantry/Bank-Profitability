@@ -612,7 +612,7 @@ def build():
     lev.r += 1
     LV = [("l1", "Rebuild CASA", 0.015, "pct1", "% of deposits", "CASA ratio above scenario path", 3, 18),
           ("l2", "Retire legacy borrowings faster", 75000.0, "cr", "INR cr", "Extra borrowings replaced by new term deposits at the fresh rate", 4, 12),
-          ("l3", "Re-mix advances to higher-yield retail and SME", 0.0010, "pct2", "% yield", "Yield on advances above path", 3, 9),
+          ("l3", "Re-mix advances to higher-yield retail and SME", 0.0010, "pct2", "% yield", "Yield on advances above path, net of the extra credit cost", 3, 9),
           ("l4", "Branch and operations productivity", 0.03, "pct1", "% of opex", "Opex below path", 4, 12),
           ("l5", "Protect bancassurance and grow card fees", 0.03, "pct1", "% of fees", "Fees above path", 3, 12),
           ("l6", "Win UPI merchant acquiring share", 0.10, "pct1", "% payee share", "Payee share target", 2, 18)]
@@ -622,8 +622,13 @@ def build():
         lev.ws.write(r, 4, mech, B.f(color=GREY)); lev.ws.write_number(r, 5, feas, B.f(num="int", color=BLUE, fill=True)); lev.ws.write_number(r, 6, mo, B.f(num="int", color=BLUE, fill=True))
         lev.rows[k] = r; lev.r += 1
     lev.note("Assumptions: lever sizes, feasibility and timing are judgements for discussion, not forecasts.")
+    lev.scalar("feas_max", "Feasibility scale maximum", 5, "", "Feasibility / maximum = illustrative probability of delivery", num="int")
+    # Re-mix is risk-adjusted: the higher-yield book carries more credit cost and more risk weight (segment yields are not disclosed)
+    lev.scalar("rm_ygap", "Re-mix: yield gap, target segments over mortgages", 0.040, "%", "Assumption: SME and unsecured retail about 12-13% vs mortgages about 8.5%", num="pct2")
+    lev.scalar("rm_ccgap", "Re-mix: credit-cost gap", 0.020, "%", "Assumption: cards and personal loans 3-4%, SME about 1%, mortgages under 0.2%", num="pct2")
+    lev.scalar("rm_rwgap", "Re-mix: risk-weight gap", 0.75, "x", "Unsecured retail 125% (RBI, Nov 2023), SME 75-100%, mortgages 25-50%", num="num")
     lev.section("FY29E impact")
-    hdr = ["Lever", "Pre-tax uplift", "PAT uplift", "RoA uplift", "RoE uplift", "Equity value", "Value per share", "Priority score"]
+    hdr = ["Lever", "Pre-tax uplift", "PAT uplift", "RoA uplift", "RoE uplift", "Equity value", "Value per share", "Priority score", "Value, feasibility-weighted"]
     for j, t in enumerate(hdr):
         lev.ws.write(lev.r, 1 + j, t, B.f(bold=True, bottom=True, align="right" if j else None))
     lev.r += 1
@@ -631,7 +636,7 @@ def build():
     pre = {
         "l1": f"=C{lev.rows['l1']+1}*{inp.x('spread_td', N)}*{md.x('a_dep', N)}",
         "l2": f"=C{lev.rows['l2']+1}*({md.x('c_bor', N)}-{md.x('td_fresh', N)})",  # replacement funding is new term deposits
-        "l3": f"=C{lev.rows['l3']+1}*{md.x('a_loans', N)}",
+        "l3": f"=C{lev.rows['l3']+1}*{md.x('a_loans', N)}*(1-{lev.a('rm_ccgap')}/{lev.a('rm_ygap')})",  # net of the credit-cost gap
         "l4": f"=C{lev.rows['l4']+1}*{md.x('opex', N)}",
         "l5": f"=C{lev.rows['l5']+1}*{md.x('fee', N)}",
         "l6": f"=MAX(0,C{lev.rows['l6']+1}-{fee.x('hd_share')})*{fee.x('pool')}*(1+{fee.x('p2m_g')})^({fee.x('yr_idx', N)}-1)*{fee.x('acq_share')}",
@@ -647,12 +652,24 @@ def build():
         lev.ws.write_formula(r, 6, f"=F{r+1}/({val.x('ke')}-{val.x('g')})*{val.x('bv_core')}", B.f(num="cr"))
         lev.ws.write_formula(r, 7, f"=G{r+1}/{inp.x('shares')}", B.f(num="rs"))
         lev.ws.write_formula(r, 8, f"=E{r+1}*F{ir}/G{ir}", B.f(num="num"))
+        lev.ws.write_formula(r, 9, f"=G{r+1}*F{ir}/{lev.aa('feas_max', 'E')}", B.f(num="cr"))
         lev.rows[f"o_{k}"] = r; lev.r += 1
     out_last = lev.r - 1
     lev.ws.write(lev.r, 1, "All levers", B.f(bold=True, top=True))
     for j, col in enumerate("CDEFGH"):
         lev.ws.write_formula(lev.r, 2 + j, f"=SUM({col}{out_first+1}:{col}{out_last+1})", B.f(num=["cr", "cr", "bp", "pct2", "cr", "rs"][j], bold=True, top=True))
-    lev.rows["tot"] = lev.r; lev.r += 2
+    lev.ws.write_formula(lev.r, 9, f"=SUM(J{out_first+1}:J{out_last+1})", B.f(num="cr", bold=True, top=True))
+    lev.rows["tot"] = lev.r; lev.r += 1
+    lev.note("Joint vs sum: every lever is a linear change to the FY29E P&L, so running them together equals their sum. Lever 2 is priced at the fresh "
+             "term-deposit rate and lever 1 at the CASA saving, so they do not count the same deposits twice. All levers land by mid-2028 (months to impact), so FY29E is fully phased.")
+    lev.r += 1
+    lev.section("Re-mix: capital consumed, FY29E")
+    lev.scalar("rm_shift", "Share of the book moved", f"=C{lev.rows['l3']+1}/{lev.a('rm_ygap')}", "%", "Yield uplift / yield gap", num="pct1", kind="calc")
+    lev.scalar("rm_rwa", "Extra risk-weighted assets", f"={lev.a('rm_shift')}*{lev.a('rm_rwgap')}*{md.x('loans', N)}", "INR cr", "", num="cr", kind="calc")
+    lev.scalar("rm_eq", "Extra Tier 1 capital at the projected ratio", f"={lev.a('rm_rwa')}*{cap.x('t1p', N)}", "INR cr", "Capital tab", num="cr", kind="calc")
+    lev.scalar("rm_ep", "Re-mix PAT less a Ke charge on that capital", f"=D{lev.rows['o_l3']+1}-{val.x('ke')}*{lev.a('rm_eq')}", "INR cr",
+               "Economic profit: still positive means the move earns more than its cost of capital", num="cr", kind="calc")
+    lev.r += 1
     lev.section("FY29E RoA bridge")
     lev.scalar("b0", "RoA FY26A, core", f"={md.x('roa_core', 'K')}*{inp.x('bp')}", "bp", "", num="bp", kind="link")
     lev.scalar("b1", "Scenario drift to FY29E (margin, fees, cost, credit, mix)", f"={md.x('roa', 'N')}*{inp.x('bp')}-{lev.a('b0')}", "bp", "", num="bp", kind="calc")
@@ -661,6 +678,24 @@ def build():
     lev.scalar("b4", "RoA FY29E with levers", f"={lev.a('b2')}+{lev.a('b3')}", "bp", "", num="bp", kind="calc")
     lev.scalar("target", "Target", 200, "bp", "Problem statement: 2.0%", num="bp")
     lev.scalar("gap", "Shortfall (-) / headroom (+) to target", f"={lev.a('b4')}-{lev.a('target')}", "bp", "", num="bp", kind="calc")
+    lev.r += 1
+    lev.section("Lever 7, capital return: RoE, not RoA")
+    lev.scalar("cr_tgt", "Tier 1 ratio the bank holds", 0.15, "%", "Assumption: about 5 pp above the 9.90% Tier 1 minimum (S2 Pillar 3, Sep-26)", num="pct1")
+    lev.scalar("cr_ex", "Excess Tier 1 capital, FY29E", f"=MAX(0,{cap.x('t1p', N)}-{lev.a('cr_tgt')})*{cap.x('rwa', N)}", "INR cr", "Capital tab", num="cr", kind="calc")
+    lev.scalar("cr_roe", "RoE if the excess is returned", f"=({md.x('pat', N)}-{lev.a('cr_ex')}*{md.x('y_liq', N)}*(1-{inp.x('tax', N)}))/({md.x('a_eq', N)}-{lev.a('cr_ex')})",
+               "%", "Loses the yield on the cash returned", num="pct1", kind="calc")
+    lev.scalar("cr_uplift", "RoE uplift", f"={lev.a('cr_roe')}-{md.x('roe', N)}", "%", "", num="pct2", kind="calc")
+    lev.scalar("cr_val", "Value effect of returning it", f"={lev.a('cr_ex')}*(1-{val.x('pb_j')})", "INR cr",
+               "Returned at book; kept, it is worth justified P/B. Negative while RoE exceeds Ke", num="cr", kind="calc")
+    lev.r += 1
+    lev.section("Reasonableness: the CASA path")
+    lev.scalar("ct_obs", "Incremental CASA share delivered, Q2 FY26 to Q2 FY27", 0.213, "%", "S1 investor decks via data/tidy/hdfc_quarterly_panel.csv", num="pct1")
+    lev.scalar("ct_path", "Incremental CASA share the path needs, FY27E-FY29E", f"=({md.x('casa', N)}*{md.x('dep', N)}-{md.x('casa', 'K')}*{md.x('dep', 'K')})/({md.x('dep', N)}-{md.x('dep', 'K')})",
+               "%", "", num="pct1", kind="calc")
+    lev.scalar("ct_casa", "CASA ratio FY29E at the delivered share", f"=({md.x('casa', 'K')}*{md.x('dep', 'K')}+{lev.a('ct_obs')}*({md.x('dep', N)}-{md.x('dep', 'K')}))/{md.x('dep', N)}",
+               "%", "", num="pct1", kind="calc")
+    lev.scalar("ct_bp", "FY29E RoA at risk if the delivered share persists", f"=({lev.a('ct_casa')}-{md.x('casa', N)})*{inp.x('spread_td', N)}*{md.x('a_dep', N)}*(1-{inp.x('tax', N)})/{md.x('a_ta', N)}*{inp.x('bp')}",
+               "bp", "Lower CASA priced at the TD premium", num="bp", kind="calc")
     lev.r += 1
     lev.section("Peer anchors: share of the gap to best demonstrated practice that each lever closes")
     hdr = ["Lever", "HDFC Bank", "Benchmark", "Benchmark source", "Gap", "Lever closes", "Share of gap"]

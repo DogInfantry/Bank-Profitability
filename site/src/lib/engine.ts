@@ -18,6 +18,7 @@ export interface ModelData {
   fixed: { matur: Triple; spread_td: Triple; tax: Triple; payout: Triple; fresh0: number; repo_ref: number; b_fresh: number };
   fees: { hlife_bank_reset: number; other_ins_mult: number; pool: number; p2m_g: number; hd_share: number; acq_share: number; mdr_frac: Triple };
   levers: { name: string; size: number; unit: string; mechanism: string; feasibility: number; months: number }[];
+  remix: { ygap: number; ccgap: number };
   valuation: Record<string, number>;
   model_sha256: string;
 }
@@ -116,7 +117,7 @@ export function run(m: ModelData, d: Drivers, leverOn: boolean[] = m.levers.map(
     switch (j) {
       case 0: return s * X.spread_td[2] * N.a_dep;                       // CASA
       case 1: return s * (N.c_bor - N.td_fresh);                         // borrowings retired, replaced at the fresh TD rate
-      case 2: return s * N.a_loans;                                      // asset re-mix (yield)
+      case 2: return s * N.a_loans * (1 - m.remix.ccgap / m.remix.ygap); // asset re-mix, net of the extra credit cost
       case 3: return s * N.opex;                                         // productivity
       case 4: return s * N.fee;                                          // fees
       default: return Math.max(0, s - F.hd_share) * F.pool * Math.pow(1 + F.p2m_g, 2) * F.acq_share; // UPI share target

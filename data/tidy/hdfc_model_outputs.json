@@ -791,7 +791,8 @@ null,
 0.00268382626201311,
 28722.5443728402,
 18.6040440233771,
-0.570476705526959
+0.570476705526959,
+17233.5266237041
 ],
 "Levers|Retire legacy borrowings faster": [
 1418.23978672086,
@@ -800,16 +801,18 @@ null,
 0.0014563632355205,
 15586.1272569239,
 10.0953799175242,
-0.619131955305577
+0.619131955305577,
+12468.9018055391
 ],
 "Levers|Re-mix advances to higher-yield retail and SME": [
-4048.51362024498,
-3029.50274202932,
-5.3021305224676,
-0.00415734098721154,
-44492.2283786891,
-28.8183165359814,
-1.76737684082253
+2024.25681012249,
+1514.75137101466,
+2.6510652612338,
+0.00207867049360577,
+22246.1141893446,
+14.4091582679907,
+0.883688420411266,
+13347.6685136067
 ],
 "Levers|Branch and operations productivity": [
 2901.3265776,
@@ -818,7 +821,8 @@ null,
 0.00297931661586279,
 31884.9080922515,
 20.6523567734652,
-1.2665728417638
+1.2665728417638,
+25507.9264738012
 ],
 "Levers|Protect bancassurance and grow card fees": [
 1456.8210252288,
@@ -827,7 +831,8 @@ null,
 0.00149598156936638,
 16010.1261453663,
 10.3700106704287,
-0.476980933509294
+0.476980933509294,
+9606.07568721979
 ],
 "Levers|Win UPI merchant acquiring share": [
 287.684431264388,
@@ -836,21 +841,104 @@ null,
 0.00029541762475427,
 3161.58536624459,
 2.04780859849232,
-0.0418628373253947
+0.0418628373253947,
+1264.63414649784
+],
+"Levers|Feasibility scale maximum": [
+null,
+"Feasibility / maximum = illustrative probability of delivery",
+5,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: yield gap, target segments over mortgages": [
+"%",
+"Assumption: SME and unsecured retail about 12-13% vs mortgages about 8.5%",
+0.04,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: credit-cost gap": [
+"%",
+"Assumption: cards and personal loans 3-4%, SME about 1%, mortgages under 0.2%",
+0.02,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: risk-weight gap": [
+"x",
+"Unsecured retail 125% (RBI, Nov 2023), SME 75-100%, mortgages 25-50%",
+0.75,
+null,
+null,
+null,
+null,
+null
 ],
 "Levers|All levers": [
-12726.1567621402,
-9522.98310510949,
-16.6667944168032,
-0.0130682462947286,
-139857.519612316,
-90.587916519269,
+10701.8999520177,
+8008.23173409483,
+14.0157291555694,
+0.0109895758011228,
+117611.405422971,
+76.1787582512783,
+null,
+79428.7332503688
+],
+"Levers|Share of the book moved": [
+"%",
+"Yield uplift / yield gap",
+0.025,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra risk-weighted assets": [
+"INR cr",
+null,
+80875.6809651743,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra Tier 1 capital at the projected ratio": [
+"INR cr",
+"Capital tab",
+14138.0630300885,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix PAT less a Ke charge on that capital": [
+"INR cr",
+"Economic profit: still positive means the move earns more than its cost of capital",
+-342.283207987464,
+null,
+null,
+null,
+null,
 null
 ],
 "Levers|RoA FY26A, core": [
 "bp",
 null,
 180.222819069513,
+null,
 null,
 null,
 null,
@@ -863,6 +951,7 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|RoA FY29E, scenario before levers": [
@@ -872,12 +961,14 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Levers": [
 "bp",
 null,
-16.6667944168032,
+14.0157291555694,
+null,
 null,
 null,
 null,
@@ -886,7 +977,8 @@ null
 "Levers|RoA FY29E with levers": [
 "bp",
 null,
-206.078533139201,
+203.427467877967,
+null,
 null,
 null,
 null,
@@ -899,12 +991,104 @@ null
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Shortfall (-) / headroom (+) to target": [
 "bp",
 null,
-6.07853313920069,
+3.4274678779669,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Tier 1 ratio the bank holds": [
+"%",
+"Assumption: about 5 pp above the 9.90% Tier 1 minimum (S2 Pillar 3, Sep-26)",
+0.15,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Excess Tier 1 capital, FY29E": [
+"INR cr",
+"Capital tab",
+109116.120876928,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE if the excess is returned": [
+"%",
+"Loses the yield on the cash returned",
+0.167899509792237,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE uplift": [
+"%",
+null,
+0.0193838930014323,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Value effect of returning it": [
+"INR cr",
+"Returned at book; kept, it is worth justified P/B. Negative while RoE exceeds Ke",
+-36494.8846543937,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share delivered, Q2 FY26 to Q2 FY27": [
+"%",
+"S1 investor decks via data/tidy/hdfc_quarterly_panel.csv",
+0.213,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share the path needs, FY27E-FY29E": [
+"%",
+null,
+0.321951483622243,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|CASA ratio FY29E at the delivered share": [
+"%",
+null,
+0.298948193617739,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|FY29E RoA at risk if the delivered share persists": [
+"bp",
+"Lower CASA priced at the TD premium",
+-8.22668629329917,
+null,
 null,
 null,
 null,
@@ -917,6 +1101,7 @@ null
 0.0417469867105439,
 0.015,
 0.359307369990647,
+null,
 null
 ],
 "Levers|Retire legacy borrowings (share of funding)": [
@@ -926,6 +1111,7 @@ null
 255333.388879679,
 75000,
 0.293733617562028,
+null,
 null
 ],
 "Levers|Re-mix advances (interest earned / average assets)": [
@@ -935,6 +1121,7 @@ null
 0.00136197078474318,
 0.000672907848667848,
 0.494069223955297,
+null,
 null
 ],
 "Levers|Win UPI acquiring (payee share)": [
@@ -944,6 +1131,7 @@ null
 0.122804619962047,
 0.0337735156536747,
 0.275018282407555,
+null,
 null
 ],
 "Tornado|RoA FY29E, Base": [
@@ -3831,7 +4019,8 @@ null,
 0.00268486858308162,
 28733.699384461,
 18.6112692999606,
-0.576841374851638
+0.576841374851638,
+17240.2196306766
 ],
 "Levers|Retire legacy borrowings faster": [
 1249.48978672086,
@@ -3840,16 +4029,18 @@ null,
 0.0012284012524769,
 13146.4580928033,
 8.51516780460663,
-0.527841602239574
+0.527841602239574,
+10517.1664742426
 ],
 "Levers|Re-mix advances to higher-yield retail and SME": [
-4231.6341885144,
-3166.53186326532,
-5.36290714953127,
-0.00416021386684326,
-44522.9741888288,
-28.838231081084,
-1.78763571651042
+2115.8170942572,
+1583.26593163266,
+2.68145357476563,
+0.00208010693342163,
+22261.4870944144,
+14.419115540542,
+0.893817858255212,
+13356.8922566486
 ],
 "Levers|Branch and operations productivity": [
 2822.9166464784,
@@ -3858,7 +4049,8 @@ null,
 0.00277527225994576,
 29701.2074742919,
 19.2379395163084,
-1.19252903185099
+1.19252903185099,
+23760.9659794335
 ],
 "Levers|Protect bancassurance and grow card fees": [
 1536.5097580536,
@@ -3867,7 +4059,8 @@ null,
 0.00151057698213717,
 16166.3275347345,
 10.4711847686074,
-0.486818968730559
+0.486818968730559,
+9699.79652084068
 ],
 "Levers|Win UPI merchant acquiring share": [
 287.684431264388,
@@ -3876,21 +4069,104 @@ null,
 0.000282828975025649,
 3026.86053120507,
 1.96054520254862,
-0.0405103514388574
+0.0405103514388574,
+1210.74421248203
+],
+"Levers|Feasibility scale maximum": [
+null,
+"Feasibility / maximum = illustrative probability of delivery",
+5,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: yield gap, target segments over mortgages": [
+"%",
+"Assumption: SME and unsecured retail about 12-13% vs mortgages about 8.5%",
+0.04,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: credit-cost gap": [
+"%",
+"Assumption: cards and personal loans 3-4%, SME about 1%, mortgages under 0.2%",
+0.02,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: risk-weight gap": [
+"x",
+"Unsecured retail 125% (RBI, Nov 2023), SME 75-100%, mortgages 25-50%",
+0.75,
+null,
+null,
+null,
+null,
+null
 ],
 "Levers|All levers": [
-12859.1957787805,
-9622.53620126143,
-16.2969363387847,
-0.0126421619195104,
-135297.527206325,
-87.6343376731156,
+10743.3786845233,
+8039.27026962877,
+13.6154827640191,
+0.0105620549860887,
+113036.04011191,
+73.2152221325736,
+null,
+75785.7850743241
+],
+"Levers|Share of the book moved": [
+"%",
+"Yield uplift / yield gap",
+0.025,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra risk-weighted assets": [
+"INR cr",
+null,
+85220.410740915,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra Tier 1 capital at the projected ratio": [
+"INR cr",
+"Capital tab",
+15092.9166303668,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix PAT less a Ke charge on that capital": [
+"INR cr",
+"Economic profit: still positive means the move earns more than its cost of capital",
+-399.18866776602,
+null,
+null,
+null,
+null,
 null
 ],
 "Levers|RoA FY26A, core": [
 "bp",
 null,
 180.222819069513,
+null,
 null,
 null,
 null,
@@ -3903,6 +4179,7 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|RoA FY29E, scenario before levers": [
@@ -3912,12 +4189,14 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Levers": [
 "bp",
 null,
-16.2969363387847,
+13.6154827640191,
+null,
 null,
 null,
 null,
@@ -3926,7 +4205,8 @@ null
 "Levers|RoA FY29E with levers": [
 "bp",
 null,
-243.031651361523,
+240.350197786757,
+null,
 null,
 null,
 null,
@@ -3939,12 +4219,104 @@ null
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Shortfall (-) / headroom (+) to target": [
 "bp",
 null,
-43.031651361523,
+40.3501977867574,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Tier 1 ratio the bank holds": [
+"%",
+"Assumption: about 5 pp above the 9.90% Tier 1 minimum (S2 Pillar 3, Sep-26)",
+0.15,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Excess Tier 1 capital, FY29E": [
+"INR cr",
+"Capital tab",
+124178.648330097,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE if the excess is returned": [
+"%",
+"Loses the yield on the cash returned",
+0.202389224323843,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE uplift": [
+"%",
+null,
+0.0265023631062671,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Value effect of returning it": [
+"INR cr",
+"Returned at book; kept, it is worth justified P/B. Negative while RoE exceeds Ke",
+-107762.068894499,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share delivered, Q2 FY26 to Q2 FY27": [
+"%",
+"S1 investor decks via data/tidy/hdfc_quarterly_panel.csv",
+0.213,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share the path needs, FY27E-FY29E": [
+"%",
+null,
+0.392292020765217,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|CASA ratio FY29E at the delivered share": [
+"%",
+null,
+0.294591037639268,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|FY29E RoA at risk if the delivered share persists": [
+"bp",
+"Lower CASA priced at the TD premium",
+-15.0922383103136,
+null,
 null,
 null,
 null,
@@ -3957,6 +4329,7 @@ null
 0.0417469867105439,
 0.015,
 0.359307369990647,
+null,
 null
 ],
 "Levers|Retire legacy borrowings (share of funding)": [
@@ -3966,6 +4339,7 @@ null
 255333.388879679,
 75000,
 0.293733617562028,
+null,
 null
 ],
 "Levers|Re-mix advances (interest earned / average assets)": [
@@ -3975,6 +4349,7 @@ null
 0.00136197078474318,
 0.000672907848667848,
 0.494069223955297,
+null,
 null
 ],
 "Levers|Win UPI acquiring (payee share)": [
@@ -3984,6 +4359,7 @@ null
 0.122804619962047,
 0.0337735156536747,
 0.275018282407555,
+null,
 null
 ],
 "Tornado|RoA FY29E, Base": [
@@ -6871,7 +7247,8 @@ null,
 0.00271243876782463,
 29028.7579230322,
 18.8023833590006,
-0.561567645292126
+0.561567645292126,
+17417.2547538193
 ],
 "Levers|Retire legacy borrowings faster": [
 1296.36478672086,
@@ -6880,16 +7257,18 @@ null,
 0.00141937571884155,
 15190.2836048629,
 9.83898575432886,
-0.587718690404885
+0.587718690404885,
+12152.2268838903
 ],
 "Levers|Re-mix advances to higher-yield retail and SME": [
-3836.01551494302,
-2870.49040983186,
-5.21727689129353,
-0.0042000117056419,
-44948.8941550414,
-29.114106146294,
-1.73909229709784
+1918.00775747151,
+1435.24520491593,
+2.60863844564676,
+0.00210000585282095,
+22474.4470775207,
+14.557053073147,
+0.869546148548921,
+13484.6682465124
 ],
 "Levers|Branch and operations productivity": [
 3062.4755417088,
@@ -6898,7 +7277,8 @@ null,
 0.00335307119413724,
 35884.8624152962,
 23.24319013946,
-1.38840096029054
+1.38840096029054,
+28707.889932237
 ],
 "Levers|Protect bancassurance and grow card fees": [
 1342.5297797736,
@@ -6907,7 +7287,8 @@ null,
 0.0014699212681119,
 15731.2265125004,
 10.1893629889216,
-0.456486005374657
+0.456486005374657,
+9438.73590750025
 ],
 "Levers|Win UPI merchant acquiring share": [
 287.684431264388,
@@ -6916,21 +7297,104 @@ null,
 0.000314982557847999,
 3370.97099857489,
 2.18343096784686,
-0.0434747788391311
+0.0434747788391311,
+1348.38839942996
+],
+"Levers|Feasibility scale maximum": [
+null,
+"Feasibility / maximum = illustrative probability of delivery",
+5,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: yield gap, target segments over mortgages": [
+"%",
+"Assumption: SME and unsecured retail about 12-13% vs mortgages about 8.5%",
+0.04,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: credit-cost gap": [
+"%",
+"Assumption: cards and personal loans 3-4%, SME about 1%, mortgages under 0.2%",
+0.02,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix: risk-weight gap": [
+"x",
+"Unsecured retail 125% (RBI, Nov 2023), SME 75-100%, mortgages 25-50%",
+0.75,
+null,
+null,
+null,
+null,
+null
 ],
 "Levers|All levers": [
-12302.4339109759,
-9205.91129558328,
-16.7322587461834,
-0.0134698012124052,
-144154.995609308,
-93.3714593558519,
+10384.4261535044,
+7770.66609066735,
+14.1236203005366,
+0.0113697953595843,
+121680.548531787,
+78.8144062827049,
+null,
+82549.1641233893
+],
+"Levers|Share of the book moved": [
+"%",
+"Yield uplift / yield gap",
+0.025,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra risk-weighted assets": [
+"INR cr",
+null,
+75996.533786607,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Extra Tier 1 capital at the projected ratio": [
+"INR cr",
+"Capital tab",
+12836.4203652947,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Re-mix PAT less a Ke charge on that capital": [
+"INR cr",
+"Economic profit: still positive means the move earns more than its cost of capital",
+-250.818610065533,
+null,
+null,
+null,
+null,
 null
 ],
 "Levers|RoA FY26A, core": [
 "bp",
 null,
 180.222819069513,
+null,
 null,
 null,
 null,
@@ -6943,6 +7407,7 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|RoA FY29E, scenario before levers": [
@@ -6952,12 +7417,14 @@ null,
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Levers": [
 "bp",
 null,
-16.7322587461834,
+14.1236203005366,
+null,
 null,
 null,
 null,
@@ -6966,7 +7433,8 @@ null
 "Levers|RoA FY29E with levers": [
 "bp",
 null,
-147.879657386081,
+145.271018940434,
+null,
 null,
 null,
 null,
@@ -6979,12 +7447,104 @@ null
 null,
 null,
 null,
+null,
 null
 ],
 "Levers|Shortfall (-) / headroom (+) to target": [
 "bp",
 null,
--52.1203426139193,
+-54.7289810595661,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Tier 1 ratio the bank holds": [
+"%",
+"Assumption: about 5 pp above the 9.90% Tier 1 minimum (S2 Pillar 3, Sep-26)",
+0.15,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Excess Tier 1 capital, FY29E": [
+"INR cr",
+"Capital tab",
+79366.5912447914,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE if the excess is returned": [
+"%",
+"Loses the yield on the cash returned",
+0.11469080791431,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|RoE uplift": [
+"%",
+null,
+0.00911454256959508,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Value effect of returning it": [
+"INR cr",
+"Returned at book; kept, it is worth justified P/B. Negative while RoE exceeds Ke",
+40358.4014154213,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share delivered, Q2 FY26 to Q2 FY27": [
+"%",
+"S1 investor decks via data/tidy/hdfc_quarterly_panel.csv",
+0.213,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|Incremental CASA share the path needs, FY27E-FY29E": [
+"%",
+null,
+0.267020178181168,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|CASA ratio FY29E at the delivered share": [
+"%",
+null,
+0.304430317631548,
+null,
+null,
+null,
+null,
+null
+],
+"Levers|FY29E RoA at risk if the delivered share persists": [
+"bp",
+"Lower CASA priced at the TD premium",
+-3.49737194623909,
+null,
 null,
 null,
 null,
@@ -6997,6 +7557,7 @@ null
 0.0417469867105439,
 0.015,
 0.359307369990647,
+null,
 null
 ],
 "Levers|Retire legacy borrowings (share of funding)": [
@@ -7006,6 +7567,7 @@ null
 255333.388879679,
 75000,
 0.293733617562028,
+null,
 null
 ],
 "Levers|Re-mix advances (interest earned / average assets)": [
@@ -7015,6 +7577,7 @@ null
 0.00136197078474318,
 0.000672907848667848,
 0.494069223955297,
+null,
 null
 ],
 "Levers|Win UPI acquiring (payee share)": [
@@ -7024,6 +7587,7 @@ null
 0.122804619962047,
 0.0337735156536747,
 0.275018282407555,
+null,
 null
 ],
 "Tornado|RoA FY29E, Base": [

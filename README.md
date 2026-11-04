@@ -27,7 +27,7 @@ Why HDFC Bank? It is the largest private bank, and every 10 bp of RoA there is w
 | | Downside | Base | Upside |
 |---|---|---|---|
 | RoA FY29E, before levers | 1.31% | 1.89% | 2.27% |
-| RoA FY29E, with levers | 1.48% | 2.06% | 2.43% |
+| RoA FY29E, with levers | 1.45% | 2.03% | 2.40% |
 | RoE FY29E, before levers | 10.6% | 14.9% | 17.6% |
 | Value per share at 2 Nov 2026, residual income to sum of the parts | ₹254-273 | ₹506-576 | ₹671-781 |
 
@@ -43,13 +43,17 @@ The share price was ₹700 on 2 Nov 2026.
    - The IRDAI caps cost the bank ₹873 cr of fees by FY29E (1.3% of other income).
    - UPI MDR adds ₹564 cr.
    - HDFC Life's value of new business rises by a net ₹279 cr, but only if the bank keeps distributing.
-4. **Six levers add 16.7 bp and about ₹1.4 lakh cr of equity value.** Four carry the plan:
-   - re-mix advances (5.3 bp);
+4. **Six levers add 14.0 bp and about ₹1.2 lakh cr of equity value (₹0.8 lakh cr weighted by feasibility).** That leaves 3 bp of headroom over 2%. The levers:
    - branch and operations productivity (3.8 bp);
    - rebuild CASA (3.4 bp);
-   - retire legacy borrowings faster (1.9 bp: the replacement term deposits cost the fresh rate, not the 4.8% average).
+   - re-mix advances (2.7 bp, net of the extra credit cost; after a cost-of-equity charge on the extra capital it earns slightly less than it costs);
+   - fees (1.9 bp);
+   - retire legacy borrowings faster (1.9 bp: the replacement term deposits cost the fresh rate, not the 4.8% average);
+   - UPI (0.4 bp).
+
+   A seventh option, returning the ₹1.1 lakh cr of Tier 1 above a 15% ratio, lifts FY29E RoE by 1.9 pp to about what the price implies. It does nothing for RoA, though, and costs value while RoE exceeds Ke.
 5. **The market is paying for 16.7% core-bank RoE.** The base case gives 14.9%. At the 13.13% CAPM cost of equity, only the upside case supports ₹700. The conclusion rests on that Ke: at 12.1% or less the base case alone supports the price, and peer prices imply 10.6-11.1%.
-   - The base CASA path needs 37% of new deposits to be CASA in FY28-29; the bank delivered 21% in the last four quarters.
+   - The base CASA path needs 32% of FY27-29 new deposits to be CASA; the bank delivered 21% in the last four quarters. At 21%, FY29E RoA is 8 bp lower, more than the headroom.
 6. **Decisions for the steering committee:**
    - make deposits the binding constraint;
    - retire ₹75,000 cr of borrowings ahead of plan;

@@ -229,12 +229,13 @@ Base,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
 Base,Fees,Years after FY26,FY27E,1.0
 Base,Fees,Years after FY26,FY28E,2.0
 Base,Fees,Years after FY26,FY29E,3.0
-Base,Levers,All levers,C,12726.1567621402
-Base,Levers,All levers,D,9522.98310510949
-Base,Levers,All levers,E,16.6667944168032
-Base,Levers,All levers,F,0.0130682462947286
-Base,Levers,All levers,G,139857.519612316
-Base,Levers,All levers,H,90.587916519269
+Base,Levers,All levers,C,10701.8999520177
+Base,Levers,All levers,D,8008.23173409483
+Base,Levers,All levers,E,14.0157291555694
+Base,Levers,All levers,F,0.0109895758011228
+Base,Levers,All levers,G,117611.405422971
+Base,Levers,All levers,H,76.1787582512783
+Base,Levers,All levers,J,79428.7332503688
 Base,Levers,Branch and operations productivity,C,2901.3265776
 Base,Levers,Branch and operations productivity,D,2171.06267801808
 Base,Levers,Branch and operations productivity,E,3.79971852529141
@@ -242,7 +243,16 @@ Base,Levers,Branch and operations productivity,F,0.00297931661586279
 Base,Levers,Branch and operations productivity,G,31884.9080922515
 Base,Levers,Branch and operations productivity,H,20.6523567734652
 Base,Levers,Branch and operations productivity,I,1.2665728417638
-Base,Levers,Levers,E,16.6667944168032
+Base,Levers,Branch and operations productivity,J,25507.9264738012
+Base,Levers,CASA ratio FY29E at the delivered share,E,0.298948193617739
+Base,Levers,"Excess Tier 1 capital, FY29E",E,109116.120876928
+Base,Levers,Extra Tier 1 capital at the projected ratio,E,14138.0630300885
+Base,Levers,Extra risk-weighted assets,E,80875.6809651743
+Base,Levers,FY29E RoA at risk if the delivered share persists,E,-8.22668629329917
+Base,Levers,Feasibility scale maximum,E,5.0
+Base,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
+Base,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.321951483622243
+Base,Levers,Levers,E,14.0157291555694
 Base,Levers,Protect bancassurance and grow card fees,C,1456.8210252288
 Base,Levers,Protect bancassurance and grow card fees,D,1090.13917317871
 Base,Levers,Protect bancassurance and grow card fees,E,1.90792373403717
@@ -250,18 +260,24 @@ Base,Levers,Protect bancassurance and grow card fees,F,0.00149598156936638
 Base,Levers,Protect bancassurance and grow card fees,G,16010.1261453663
 Base,Levers,Protect bancassurance and grow card fees,H,10.3700106704287
 Base,Levers,Protect bancassurance and grow card fees,I,0.476980933509294
+Base,Levers,Protect bancassurance and grow card fees,J,9606.07568721979
+Base,Levers,Re-mix PAT less a Ke charge on that capital,E,-342.283207987464
 Base,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
 Base,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
 Base,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
 Base,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
 Base,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
-Base,Levers,Re-mix advances to higher-yield retail and SME,C,4048.51362024498
-Base,Levers,Re-mix advances to higher-yield retail and SME,D,3029.50274202932
-Base,Levers,Re-mix advances to higher-yield retail and SME,E,5.3021305224676
-Base,Levers,Re-mix advances to higher-yield retail and SME,F,0.00415734098721154
-Base,Levers,Re-mix advances to higher-yield retail and SME,G,44492.2283786891
-Base,Levers,Re-mix advances to higher-yield retail and SME,H,28.8183165359814
-Base,Levers,Re-mix advances to higher-yield retail and SME,I,1.76737684082253
+Base,Levers,Re-mix advances to higher-yield retail and SME,C,2024.25681012249
+Base,Levers,Re-mix advances to higher-yield retail and SME,D,1514.75137101466
+Base,Levers,Re-mix advances to higher-yield retail and SME,E,2.6510652612338
+Base,Levers,Re-mix advances to higher-yield retail and SME,F,0.00207867049360577
+Base,Levers,Re-mix advances to higher-yield retail and SME,G,22246.1141893446
+Base,Levers,Re-mix advances to higher-yield retail and SME,H,14.4091582679907
+Base,Levers,Re-mix advances to higher-yield retail and SME,I,0.883688420411266
+Base,Levers,Re-mix advances to higher-yield retail and SME,J,13347.6685136067
+Base,Levers,Re-mix: credit-cost gap,E,0.02
+Base,Levers,Re-mix: risk-weight gap,E,0.75
+Base,Levers,"Re-mix: yield gap, target segments over mortgages",E,0.04
 Base,Levers,Rebuild CASA,C,2613.57132108114
 Base,Levers,Rebuild CASA,D,1955.73541956502
 Base,Levers,Rebuild CASA,E,3.42286023316176
@@ -269,6 +285,7 @@ Base,Levers,Rebuild CASA,F,0.00268382626201311
 Base,Levers,Rebuild CASA,G,28722.5443728402
 Base,Levers,Rebuild CASA,H,18.6040440233771
 Base,Levers,Rebuild CASA,I,0.570476705526959
+Base,Levers,Rebuild CASA,J,17233.5266237041
 Base,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
 Base,Levers,Rebuild CASA (CASA ratio),D,0.3832
 Base,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
@@ -286,12 +303,18 @@ Base,Levers,Retire legacy borrowings faster,F,0.0014563632355205
 Base,Levers,Retire legacy borrowings faster,G,15586.1272569239
 Base,Levers,Retire legacy borrowings faster,H,10.0953799175242
 Base,Levers,Retire legacy borrowings faster,I,0.619131955305577
+Base,Levers,Retire legacy borrowings faster,J,12468.9018055391
 Base,Levers,"RoA FY26A, core",E,180.222819069513
-Base,Levers,RoA FY29E with levers,E,206.078533139201
+Base,Levers,RoA FY29E with levers,E,203.427467877967
 Base,Levers,"RoA FY29E, scenario before levers",E,189.411738722397
+Base,Levers,RoE if the excess is returned,E,0.167899509792237
+Base,Levers,RoE uplift,E,0.0193838930014323
 Base,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,9.18891965288475
-Base,Levers,Shortfall (-) / headroom (+) to target,E,6.07853313920069
+Base,Levers,Share of the book moved,E,0.025
+Base,Levers,Shortfall (-) / headroom (+) to target,E,3.4274678779669
 Base,Levers,Target,E,200.0
+Base,Levers,Tier 1 ratio the bank holds,E,0.15
+Base,Levers,Value effect of returning it,E,-36494.8846543937
 Base,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
 Base,Levers,Win UPI acquiring (payee share),D,0.189031104308372
 Base,Levers,Win UPI acquiring (payee share),F,0.122804619962047
@@ -304,6 +327,7 @@ Base,Levers,Win UPI merchant acquiring share,F,0.00029541762475427
 Base,Levers,Win UPI merchant acquiring share,G,3161.58536624459
 Base,Levers,Win UPI merchant acquiring share,H,2.04780859849232
 Base,Levers,Win UPI merchant acquiring share,I,0.0418628373253947
+Base,Levers,Win UPI merchant acquiring share,J,1264.63414649784
 Base,Margin,  Margin effect,FY22A,-3518.43068895691
 Base,Margin,  Margin effect,FY23A,1278.29568990951
 Base,Margin,  Margin effect,FY24A,-7966.68451807764
@@ -1439,12 +1463,13 @@ Downside,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
 Downside,Fees,Years after FY26,FY27E,1.0
 Downside,Fees,Years after FY26,FY28E,2.0
 Downside,Fees,Years after FY26,FY29E,3.0
-Downside,Levers,All levers,C,12302.4339109759
-Downside,Levers,All levers,D,9205.91129558328
-Downside,Levers,All levers,E,16.7322587461834
-Downside,Levers,All levers,F,0.0134698012124052
-Downside,Levers,All levers,G,144154.995609308
-Downside,Levers,All levers,H,93.3714593558519
+Downside,Levers,All levers,C,10384.4261535044
+Downside,Levers,All levers,D,7770.66609066735
+Downside,Levers,All levers,E,14.1236203005366
+Downside,Levers,All levers,F,0.0113697953595843
+Downside,Levers,All levers,G,121680.548531787
+Downside,Levers,All levers,H,78.8144062827049
+Downside,Levers,All levers,J,82549.1641233893
 Downside,Levers,Branch and operations productivity,C,3062.4755417088
 Downside,Levers,Branch and operations productivity,D,2291.6504478607
 Downside,Levers,Branch and operations productivity,E,4.16520288087163
@@ -1452,7 +1477,16 @@ Downside,Levers,Branch and operations productivity,F,0.00335307119413724
 Downside,Levers,Branch and operations productivity,G,35884.8624152962
 Downside,Levers,Branch and operations productivity,H,23.24319013946
 Downside,Levers,Branch and operations productivity,I,1.38840096029054
-Downside,Levers,Levers,E,16.7322587461834
+Downside,Levers,Branch and operations productivity,J,28707.889932237
+Downside,Levers,CASA ratio FY29E at the delivered share,E,0.304430317631548
+Downside,Levers,"Excess Tier 1 capital, FY29E",E,79366.5912447914
+Downside,Levers,Extra Tier 1 capital at the projected ratio,E,12836.4203652947
+Downside,Levers,Extra risk-weighted assets,E,75996.533786607
+Downside,Levers,FY29E RoA at risk if the delivered share persists,E,-3.49737194623909
+Downside,Levers,Feasibility scale maximum,E,5.0
+Downside,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
+Downside,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.267020178181168
+Downside,Levers,Levers,E,14.1236203005366
 Downside,Levers,Protect bancassurance and grow card fees,C,1342.5297797736
 Downside,Levers,Protect bancassurance and grow card fees,D,1004.61503420458
 Downside,Levers,Protect bancassurance and grow card fees,E,1.82594402149863
@@ -1460,18 +1494,24 @@ Downside,Levers,Protect bancassurance and grow card fees,F,0.0014699212681119
 Downside,Levers,Protect bancassurance and grow card fees,G,15731.2265125004
 Downside,Levers,Protect bancassurance and grow card fees,H,10.1893629889216
 Downside,Levers,Protect bancassurance and grow card fees,I,0.456486005374657
+Downside,Levers,Protect bancassurance and grow card fees,J,9438.73590750025
+Downside,Levers,Re-mix PAT less a Ke charge on that capital,E,-250.818610065533
 Downside,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
 Downside,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
 Downside,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
 Downside,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
 Downside,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
-Downside,Levers,Re-mix advances to higher-yield retail and SME,C,3836.01551494302
-Downside,Levers,Re-mix advances to higher-yield retail and SME,D,2870.49040983186
-Downside,Levers,Re-mix advances to higher-yield retail and SME,E,5.21727689129353
-Downside,Levers,Re-mix advances to higher-yield retail and SME,F,0.0042000117056419
-Downside,Levers,Re-mix advances to higher-yield retail and SME,G,44948.8941550414
-Downside,Levers,Re-mix advances to higher-yield retail and SME,H,29.114106146294
-Downside,Levers,Re-mix advances to higher-yield retail and SME,I,1.73909229709784
+Downside,Levers,Re-mix advances to higher-yield retail and SME,C,1918.00775747151
+Downside,Levers,Re-mix advances to higher-yield retail and SME,D,1435.24520491593
+Downside,Levers,Re-mix advances to higher-yield retail and SME,E,2.60863844564676
+Downside,Levers,Re-mix advances to higher-yield retail and SME,F,0.00210000585282095
+Downside,Levers,Re-mix advances to higher-yield retail and SME,G,22474.4470775207
+Downside,Levers,Re-mix advances to higher-yield retail and SME,H,14.557053073147
+Downside,Levers,Re-mix advances to higher-yield retail and SME,I,0.869546148548921
+Downside,Levers,Re-mix advances to higher-yield retail and SME,J,13484.6682465124
+Downside,Levers,Re-mix: credit-cost gap,E,0.02
+Downside,Levers,Re-mix: risk-weight gap,E,0.75
+Downside,Levers,"Re-mix: yield gap, target segments over mortgages",E,0.04
 Downside,Levers,Rebuild CASA,C,2477.36385656525
 Downside,Levers,Rebuild CASA,D,1853.81137386778
 Downside,Levers,Rebuild CASA,E,3.36940587175276
@@ -1479,6 +1519,7 @@ Downside,Levers,Rebuild CASA,F,0.00271243876782463
 Downside,Levers,Rebuild CASA,G,29028.7579230322
 Downside,Levers,Rebuild CASA,H,18.8023833590006
 Downside,Levers,Rebuild CASA,I,0.561567645292126
+Downside,Levers,Rebuild CASA,J,17417.2547538193
 Downside,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
 Downside,Levers,Rebuild CASA (CASA ratio),D,0.3832
 Downside,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
@@ -1496,12 +1537,18 @@ Downside,Levers,Retire legacy borrowings faster,F,0.00141937571884155
 Downside,Levers,Retire legacy borrowings faster,G,15190.2836048629
 Downside,Levers,Retire legacy borrowings faster,H,9.83898575432886
 Downside,Levers,Retire legacy borrowings faster,I,0.587718690404885
+Downside,Levers,Retire legacy borrowings faster,J,12152.2268838903
 Downside,Levers,"RoA FY26A, core",E,180.222819069513
-Downside,Levers,RoA FY29E with levers,E,147.879657386081
+Downside,Levers,RoA FY29E with levers,E,145.271018940434
 Downside,Levers,"RoA FY29E, scenario before levers",E,131.147398639897
+Downside,Levers,RoE if the excess is returned,E,0.11469080791431
+Downside,Levers,RoE uplift,E,0.00911454256959508
 Downside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,-49.0754204296154
-Downside,Levers,Shortfall (-) / headroom (+) to target,E,-52.1203426139193
+Downside,Levers,Share of the book moved,E,0.025
+Downside,Levers,Shortfall (-) / headroom (+) to target,E,-54.7289810595661
 Downside,Levers,Target,E,200.0
+Downside,Levers,Tier 1 ratio the bank holds,E,0.15
+Downside,Levers,Value effect of returning it,E,40358.4014154213
 Downside,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
 Downside,Levers,Win UPI acquiring (payee share),D,0.189031104308372
 Downside,Levers,Win UPI acquiring (payee share),F,0.122804619962047
@@ -1514,6 +1561,7 @@ Downside,Levers,Win UPI merchant acquiring share,F,0.000314982557847999
 Downside,Levers,Win UPI merchant acquiring share,G,3370.97099857489
 Downside,Levers,Win UPI merchant acquiring share,H,2.18343096784686
 Downside,Levers,Win UPI merchant acquiring share,I,0.0434747788391311
+Downside,Levers,Win UPI merchant acquiring share,J,1348.38839942996
 Downside,Margin,  Margin effect,FY22A,-3518.43068895691
 Downside,Margin,  Margin effect,FY23A,1278.29568990951
 Downside,Margin,  Margin effect,FY24A,-7966.68451807764
@@ -2649,12 +2697,13 @@ Upside,Fees,Value effect to HDFC Bank shareholders,E,1642.13645387323
 Upside,Fees,Years after FY26,FY27E,1.0
 Upside,Fees,Years after FY26,FY28E,2.0
 Upside,Fees,Years after FY26,FY29E,3.0
-Upside,Levers,All levers,C,12859.1957787805
-Upside,Levers,All levers,D,9622.53620126143
-Upside,Levers,All levers,E,16.2969363387847
-Upside,Levers,All levers,F,0.0126421619195104
-Upside,Levers,All levers,G,135297.527206325
-Upside,Levers,All levers,H,87.6343376731156
+Upside,Levers,All levers,C,10743.3786845233
+Upside,Levers,All levers,D,8039.27026962877
+Upside,Levers,All levers,E,13.6154827640191
+Upside,Levers,All levers,F,0.0105620549860887
+Upside,Levers,All levers,G,113036.04011191
+Upside,Levers,All levers,H,73.2152221325736
+Upside,Levers,All levers,J,75785.7850743241
 Upside,Levers,Branch and operations productivity,C,2822.9166464784
 Upside,Levers,Branch and operations productivity,D,2112.38852655979
 Upside,Levers,Branch and operations productivity,E,3.57758709555296
@@ -2662,7 +2711,16 @@ Upside,Levers,Branch and operations productivity,F,0.00277527225994576
 Upside,Levers,Branch and operations productivity,G,29701.2074742919
 Upside,Levers,Branch and operations productivity,H,19.2379395163084
 Upside,Levers,Branch and operations productivity,I,1.19252903185099
-Upside,Levers,Levers,E,16.2969363387847
+Upside,Levers,Branch and operations productivity,J,23760.9659794335
+Upside,Levers,CASA ratio FY29E at the delivered share,E,0.294591037639268
+Upside,Levers,"Excess Tier 1 capital, FY29E",E,124178.648330097
+Upside,Levers,Extra Tier 1 capital at the projected ratio,E,15092.9166303668
+Upside,Levers,Extra risk-weighted assets,E,85220.410740915
+Upside,Levers,FY29E RoA at risk if the delivered share persists,E,-15.0922383103136
+Upside,Levers,Feasibility scale maximum,E,5.0
+Upside,Levers,"Incremental CASA share delivered, Q2 FY26 to Q2 FY27",E,0.213
+Upside,Levers,"Incremental CASA share the path needs, FY27E-FY29E",E,0.392292020765217
+Upside,Levers,Levers,E,13.6154827640191
 Upside,Levers,Protect bancassurance and grow card fees,C,1536.5097580536
 Upside,Levers,Protect bancassurance and grow card fees,D,1149.77025195151
 Upside,Levers,Protect bancassurance and grow card fees,E,1.94727587492223
@@ -2670,18 +2728,24 @@ Upside,Levers,Protect bancassurance and grow card fees,F,0.00151057698213717
 Upside,Levers,Protect bancassurance and grow card fees,G,16166.3275347345
 Upside,Levers,Protect bancassurance and grow card fees,H,10.4711847686074
 Upside,Levers,Protect bancassurance and grow card fees,I,0.486818968730559
+Upside,Levers,Protect bancassurance and grow card fees,J,9699.79652084068
+Upside,Levers,Re-mix PAT less a Ke charge on that capital,E,-399.18866776602
 Upside,Levers,Re-mix advances (interest earned / average assets),C,0.0743248099484539
 Upside,Levers,Re-mix advances (interest earned / average assets),D,0.075686780733197
 Upside,Levers,Re-mix advances (interest earned / average assets),F,0.00136197078474318
 Upside,Levers,Re-mix advances (interest earned / average assets),G,0.000672907848667848
 Upside,Levers,Re-mix advances (interest earned / average assets),H,0.494069223955297
-Upside,Levers,Re-mix advances to higher-yield retail and SME,C,4231.6341885144
-Upside,Levers,Re-mix advances to higher-yield retail and SME,D,3166.53186326532
-Upside,Levers,Re-mix advances to higher-yield retail and SME,E,5.36290714953127
-Upside,Levers,Re-mix advances to higher-yield retail and SME,F,0.00416021386684326
-Upside,Levers,Re-mix advances to higher-yield retail and SME,G,44522.9741888288
-Upside,Levers,Re-mix advances to higher-yield retail and SME,H,28.838231081084
-Upside,Levers,Re-mix advances to higher-yield retail and SME,I,1.78763571651042
+Upside,Levers,Re-mix advances to higher-yield retail and SME,C,2115.8170942572
+Upside,Levers,Re-mix advances to higher-yield retail and SME,D,1583.26593163266
+Upside,Levers,Re-mix advances to higher-yield retail and SME,E,2.68145357476563
+Upside,Levers,Re-mix advances to higher-yield retail and SME,F,0.00208010693342163
+Upside,Levers,Re-mix advances to higher-yield retail and SME,G,22261.4870944144
+Upside,Levers,Re-mix advances to higher-yield retail and SME,H,14.419115540542
+Upside,Levers,Re-mix advances to higher-yield retail and SME,I,0.893817858255212
+Upside,Levers,Re-mix advances to higher-yield retail and SME,J,13356.8922566486
+Upside,Levers,Re-mix: credit-cost gap,E,0.02
+Upside,Levers,Re-mix: risk-weight gap,E,0.75
+Upside,Levers,"Re-mix: yield gap, target segments over mortgages",E,0.04
 Upside,Levers,Rebuild CASA,C,2730.96096774883
 Upside,Levers,Rebuild CASA,D,2043.57809216645
 Upside,Levers,Rebuild CASA,E,3.46104824910983
@@ -2689,6 +2753,7 @@ Upside,Levers,Rebuild CASA,F,0.00268486858308162
 Upside,Levers,Rebuild CASA,G,28733.699384461
 Upside,Levers,Rebuild CASA,H,18.6112692999606
 Upside,Levers,Rebuild CASA,I,0.576841374851638
+Upside,Levers,Rebuild CASA,J,17240.2196306766
 Upside,Levers,Rebuild CASA (CASA ratio),C,0.341453013289456
 Upside,Levers,Rebuild CASA (CASA ratio),D,0.3832
 Upside,Levers,Rebuild CASA (CASA ratio),F,0.0417469867105439
@@ -2706,12 +2771,18 @@ Upside,Levers,Retire legacy borrowings faster,F,0.0012284012524769
 Upside,Levers,Retire legacy borrowings faster,G,13146.4580928033
 Upside,Levers,Retire legacy borrowings faster,H,8.51516780460663
 Upside,Levers,Retire legacy borrowings faster,I,0.527841602239574
+Upside,Levers,Retire legacy borrowings faster,J,10517.1664742426
 Upside,Levers,"RoA FY26A, core",E,180.222819069513
-Upside,Levers,RoA FY29E with levers,E,243.031651361523
+Upside,Levers,RoA FY29E with levers,E,240.350197786757
 Upside,Levers,"RoA FY29E, scenario before levers",E,226.734715022738
+Upside,Levers,RoE if the excess is returned,E,0.202389224323843
+Upside,Levers,RoE uplift,E,0.0265023631062671
 Upside,Levers,"Scenario drift to FY29E (margin, fees, cost, credit, mix)",E,46.5118959532256
-Upside,Levers,Shortfall (-) / headroom (+) to target,E,43.031651361523
+Upside,Levers,Share of the book moved,E,0.025
+Upside,Levers,Shortfall (-) / headroom (+) to target,E,40.3501977867574
 Upside,Levers,Target,E,200.0
+Upside,Levers,Tier 1 ratio the bank holds,E,0.15
+Upside,Levers,Value effect of returning it,E,-107762.068894499
 Upside,Levers,Win UPI acquiring (payee share),C,0.0662264843463254
 Upside,Levers,Win UPI acquiring (payee share),D,0.189031104308372
 Upside,Levers,Win UPI acquiring (payee share),F,0.122804619962047
@@ -2724,6 +2795,7 @@ Upside,Levers,Win UPI merchant acquiring share,F,0.000282828975025649
 Upside,Levers,Win UPI merchant acquiring share,G,3026.86053120507
 Upside,Levers,Win UPI merchant acquiring share,H,1.96054520254862
 Upside,Levers,Win UPI merchant acquiring share,I,0.0405103514388574
+Upside,Levers,Win UPI merchant acquiring share,J,1210.74421248203
 Upside,Margin,  Margin effect,FY22A,-3518.43068895691
 Upside,Margin,  Margin effect,FY23A,1278.29568990951
 Upside,Margin,  Margin effect,FY24A,-7966.68451807764

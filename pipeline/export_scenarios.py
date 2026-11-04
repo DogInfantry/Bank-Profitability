@@ -20,7 +20,7 @@ def main():
         for scn in ["Base", "Upside", "Downside"]:
             wb = openpyxl.load_workbook(SRC); wb["Dashboard"]["E5"].value = scn
             x = Path(tmp) / f"scn_{scn}.xlsx"; wb.save(x)
-            subprocess.run([str(ROOT / "pipeline/recalc.sh"), str(x), tmp + "/o", tmp + "/p"], check=True)
+            subprocess.run([sys.executable, "-I", str(ROOT / "pipeline/recalc.py"), str(x), tmp + "/o", tmp + "/p"], check=True)
             r = openpyxl.load_workbook(Path(tmp) / "o" / x.name, data_only=True)
             d = {}
             for name in SHEETS:

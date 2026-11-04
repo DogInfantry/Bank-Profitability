@@ -21,7 +21,7 @@ def add(name, ok, detail=""):
 
 with tempfile.TemporaryDirectory() as tmp:
     for wbname, sheet in [("HDFC_RoA_Path_FY29.xlsx", "Checks"), ("01_Bank_RoA_Benchmark.xlsx", "8_Checks"), ("02_Insurance_Distribution.xlsx", "9_Checks"), ("03_UPI_MDR_Cap.xlsx", "5_Checks")]:
-        subprocess.run([str(ROOT / "pipeline/recalc.sh"), str(ROOT / "models" / wbname), tmp, tmp + "/prof"], check=True)
+        subprocess.run([sys.executable, "-I", str(ROOT / "pipeline/recalc.py"), str(ROOT / "models" / wbname), tmp, tmp + "/prof"], check=True)
         ws = openpyxl.load_workbook(Path(tmp) / wbname, data_only=True)[sheet]
         for row in ws.iter_rows(values_only=True):
             vals = [v for v in row if v is not None]

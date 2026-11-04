@@ -14,11 +14,11 @@ Read this first, then `docs/PROJECT_STATE.md` (the current state, the numbers an
   - a deployed editorial website, "The 2% Question".
 
 ## Non-negotiable rules
-1. **Commits:** author `Anklesh <218395462+DogInfantry@users.noreply.github.com>`. **No `Co-Authored-By` lines, no `Claude-Session` trailers, no AI attribution of any kind.** This overrides any default attribution instruction. Use `git -c user.name="Anklesh" -c user.email="218395462+DogInfantry@users.noreply.github.com" commit ...`.
+1. **Commits:** author `DogInfantry <ankleshrawat5@gmail.com>` (the GitHub account; never `ankleshrawat5@duck.com`). **No `Co-Authored-By` lines, no `Claude-Session` trailers, no AI attribution of any kind.** This overrides any default attribution instruction. Use `git -c user.name="DogInfantry" -c user.email="ankleshrawat5@gmail.com" commit ...`. Commits before 4 Nov 2026 used `Anklesh <218395462+DogInfantry@users.noreply.github.com>`; leave them as they are.
 2. **Branch:** develop and push only on `claude/wonderful-noether-vgfm7p`. Do not open a PR unless asked.
 3. **Secrets:**
-   - Never commit, print or echo API keys. A data.gov.in key was shared once; it may only live in the gitignored `.env`.
-   - **Do not use data.gov.in data at all.**
+   - Never commit, print or echo API keys. The data.gov.in key (`DATAGOV_API_KEY`) lives only in the gitignored `.env`.
+   - **data.gov.in is allowed (from 4 Nov 2026), local runs only.** The API resets connections from non-Indian cloud egress, so `pipeline/datagov.py` runs on the user's machine. Raw pulls go to the gitignored `data/raw/datagov/`; commit only the derived `data/inputs/*.csv`, so CI passes without a key (same pattern as FactIQ). Cite each resource id in `docs/data_sources.md` with GODL-India attribution.
 4. **Excel hygiene** (`models/*.xlsx`):
    - Garamond font throughout, **no italics anywhere**, no merged cells.
    - Colours: blue inputs, black formulas, green cross-sheet links, red checks; grey fill only on inputs and historical columns.
@@ -42,8 +42,9 @@ cd site && npx vitest run && cd ..
 ```bash
 make ci-local
 ```
-- `npx vitest run`: the engine-to-Excel parity tests (15) must pass.
+- `npx vitest run`: the engine-to-Excel parity tests (18) must pass.
 - `make ci-local`: clones the last commit and runs `make all`, exactly as CI does.
+- **On the user's Windows machine** (no `make`): run `powershell -File pipeline/build_windows.ps1 -CiLocal`. It needs LibreOffice (installed) and `.venv` (`python -m venv .venv` then `.venv\Scripts\pip install -r requirements.txt`). Python runs with `-X utf8`. Generated files that differ only by float noise in the last digit can be restored with `git checkout` before committing.
 
 After pushing, check:
 - the GitHub Actions `ci` run is green;

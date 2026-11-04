@@ -13,6 +13,8 @@ __pycache__/
 .DS_Store
 # FactIQ transcript search results (verbatim quotes; regenerate via pipeline/call_topics.py instructions)
 data/raw/factiq/
+# data.gov.in raw pulls (local only; key in .env; derived CSVs go to data/inputs/)
+data/raw/datagov/
 # local DuckDB warehouse (rebuilt by pipeline/warehouse.py)
 data/fs.duckdb
 .ci-local/

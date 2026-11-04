@@ -16,7 +16,7 @@ Every raw file is hashed in `data/raw/manifest.csv` (url, sha256, bytes, fetch t
 | DFS FAQ on MDR (15 Sep 2026) | MDR rules, exemptions | `fetch.py` | primary |
 | PIB release (24 Aug 2026) | FY26 P2M/P2P split | cited | primary |
 | Crunchbase | Funding for UPI apps and insurance distributors | Crunchbase MCP, request id in CSV | secondary |
-| data.gov.in (OGD) | Not used. The same RBI and NPCI series come from FactIQ. `datagov.py` is kept for local use; any key lives only in a gitignored `.env` | not used |
+| data.gov.in (OGD) | Allowed from 4 Nov 2026, no series used yet. RBI and NPCI series still come from FactIQ. `datagov.py` runs locally only (the API resets non-Indian cloud egress); key in a gitignored `.env`; raw pulls in gitignored `data/raw/datagov/`; GODL-India licence | not used yet |
 | HDFC Bank Integrated Annual Report 2025-26 | Schedules 3, 4, 8, 9, 13-16 (pp359-366); maturity pattern (p384); ten-year highlights (p234); stakes (p52); branches (p18); employees (p420) | `fetch_docs.py` (PDF gitignored); extracts in `data/inputs/hdfc_*.csv` | primary |
 | RBI via FactIQ | Policy repo path, 10-year G-sec, Survey of Professional Forecasters round 102 | FactIQ MCP -> `data/inputs/rbi_policy_path.csv` | primary |
 | NPCI via FactIQ | P2M value by ticket band (Apr-25 to Oct-26), payee-bank volumes (Sep-26) | FactIQ MCP -> `data/inputs/npci_p2m_monthly.csv`, `npci_payee_banks_sep26.csv` | primary |

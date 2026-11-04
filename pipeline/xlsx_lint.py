@@ -7,7 +7,7 @@ Fails (exit 1) on, for workbooks passed with --strict:
   * numeric literals inside formulas other than 0, 1 and 2 (hard-codes belong on input rows)
   * a row whose formulas break pattern within the historical block (E-K) or the projection block (L-N)
 Usage: python -I pipeline/xlsx_lint.py --strict models/HDFC_RoA_Path_FY29.xlsx [--advisory other.xlsx ...]
-Recalculation uses pipeline/recalc.sh (LibreOffice headless).
+Recalculation uses pipeline/recalc.py (LibreOffice headless).
 """
 from __future__ import annotations
 
@@ -81,7 +81,7 @@ def lint(path: Path, strict: bool) -> list[str]:
                     if len(pats) > 1:
                         issues.append(f"{ws.title} row {r} ({ws.cell(r, 2).value}): {len(pats)} formula patterns in {block[0]}-{block[-1]}")
     with tempfile.TemporaryDirectory() as tmp:
-        subprocess.run([str(ROOT / "pipeline/recalc.sh"), str(path), tmp, tmp + "/p"], check=True)
+        subprocess.run([sys.executable, "-I", str(ROOT / "pipeline/recalc.py"), str(path), tmp, tmp + "/p"], check=True)
         rc = openpyxl.load_workbook(Path(tmp) / path.name, data_only=True)
         for ws in rc.worksheets:
             for row in ws.iter_rows():

@@ -9,6 +9,7 @@ Output: data/tidy/hdfc_tornado.csv. The model build writes it to a Tornado tab (
 from __future__ import annotations
 
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -35,7 +36,7 @@ def find_rows(ws, label):
 
 
 def roa_fy29(path: Path, tmp: str) -> float:
-    subprocess.run([str(ROOT / "pipeline/recalc.sh"), str(path), tmp + "/o", tmp + "/p"], check=True, capture_output=True)
+    subprocess.run([sys.executable, "-I", str(ROOT / "pipeline/recalc.py"), str(path), tmp + "/o", tmp + "/p"], check=True, capture_output=True)
     ws = openpyxl.load_workbook(Path(tmp) / "o" / path.name, data_only=True)["Model"]
     for r in range(1, ws.max_row + 1):
         if ws.cell(r, 2).value == "Return on average assets":

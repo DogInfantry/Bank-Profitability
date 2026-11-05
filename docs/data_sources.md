@@ -16,7 +16,6 @@ Every raw file is hashed in `data/raw/manifest.csv` (url, sha256, bytes, fetch t
 | NPCI UPI app-wise statistics Dec-20 to Aug-26 | App volumes/values | user upload | primary |
 | DFS FAQ on MDR (15 Sep 2026) | MDR rules, exemptions | `fetch.py` | primary |
 | PIB release (24 Aug 2026) | FY26 P2M/P2P split | cited | primary |
-| Crunchbase | Funding for UPI apps and insurance distributors | Crunchbase MCP, request id in CSV | secondary |
 | data.gov.in (OGD) | Allowed from 4 Nov 2026, no series used yet. RBI and NPCI series still come from FactIQ. `datagov.py` runs locally only (the API resets non-Indian cloud egress); key in a gitignored `.env`; raw pulls in gitignored `data/raw/datagov/`; GODL-India licence | not used yet |
 | HDFC Bank Integrated Annual Report 2025-26 | Schedules 3, 4, 8, 9, 13-16 (pp359-366); maturity pattern (p384); ten-year highlights (p234); stakes (p52); branches (p18); employees (p420); segment reporting FY26 and FY25 (pp445-446), PSLC trades and floating provisions (pp435-436) | `fetch.py --only hdfc_ir26` (PDF gitignored, hashed in the manifest); extracts in `data/inputs/hdfc_*.csv`, segments, Sch 4 and PSLCs in `data/inputs/hdfc_ir26_segments.csv`. Page numbers are PDF pages (printed page = PDF page + 5) | primary |
 | HDFC Bank Basel III Pillar 3, 30 Sep 2026 | Capital requirement by risk type (consolidated), minimum ratios, standalone CET1 (p6) | `fetch.py --only hdfc_pillar3_sep26`; rows in `data/inputs/hdfc_ir26_segments.csv` | primary |

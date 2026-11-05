@@ -77,9 +77,6 @@ def payload() -> dict:
     grid = pd.read_csv(T / "upi_mdr_grid.csv")
     gz = grid.pivot(index="p2m_value_above_2000", columns="exempt_share", values="pool_cr")
     mdr = dict(x=[f"{int(100*v)}% exempt" for v in gz.columns], y=[f"{int(100*v)}% above Rs2k" for v in gz.index], z=[[r(v, 0) for v in row] for row in gz.values])
-    cb = pd.read_csv(T / "crunchbase_fs_landscape.csv").fillna("")
-    cbd = [dict(co=x.company, seg=x.segment, usd=(r(x.total_funding_usd / 1e6, 0) if x.total_funding_usd != "" else None), last=x.last_round_type, date=x.last_round_date, url=x.crunchbase_url, why=x.relevance)
-           for x in cb.itertuples()]
     hd = hdfc_payload()
     return dict(hd=hd, tree=tree, shap=shap, hist=hist, nim=nimt, say=sayd, kpi_bank=kpi_bank,
                 growth=growth, eom=eom, chan=chan, expo=expo, mc=dict(p10=r(mcs["10%"], 0), p50=r(mcs["50%"], 0), p90=r(mcs["90%"], 0)),
@@ -87,7 +84,7 @@ def payload() -> dict:
                 cap=dict(pp=r(cm.loc["phonepe", "share_latest_pct"], 1), gp=r(cm.loc["google_pay", "share_latest_pct"], 1),
                          pp_need=r(cm.loc["phonepe", "required_pp_per_month"], 1), pp_trend=r(cm.loc["phonepe", "trend_pp_per_month"], 2),
                          gp_need=r(cm.loc["google_pay", "required_pp_per_month"], 1), gp_trend=r(cm.loc["google_pay", "trend_pp_per_month"], 2)),
-                mdr=mdr, mdr_range=[r(grid.pool_cr.min(), 0), r(grid.pool_cr.max(), 0)], cb=cbd,
+                mdr=mdr, mdr_range=[r(grid.pool_cr.min(), 0), r(grid.pool_cr.max(), 0)],
                 q2_note=f"Q2 FY27 P&L columns: {', '.join(BANK_NAME[b] for b in q2.index)}. SBI Q2 FY27 NIM is from its 3 Nov 2026 press release; its P&L columns fill when Screener updates.")
 
 
@@ -235,7 +232,6 @@ footer{max-width:1240px;margin:auto;padding:8px 16px 40px;color:var(--text-muted
   <div class="card"><h3>Top-two apps stay far above the 30% cap</h3><p class="note">Share of UPI volume, % (NPCI app-wise). Dashed line = 30% cap.</p><div class="plot" id="p_share"></div></div>
   <div class="card"><h3>MDR pool: Rs <span id="k_mdr"></span> cr a year, depending on two unknowns</h3><p class="note">0.4% on P2M tickets above Rs 2,000 (DFS FAQ, 15 Sep 2026), on trailing-12-month value. Rows and columns are assumptions.</p><div class="plot" id="p_mdr"></div></div>
  </div>
- <div class="card" style="margin-top:16px"><h3>Who is funding the challengers (Crunchbase)</h3><div class="wrap" id="tb_cb"></div></div>
 </section>
 <section id="say"><div class="answer"><b>Management said vs what the P&amp;L did: guidance on margins held for ICICI and Kotak for a few quarters, then broke in Q2 FY27.</b> Paraphrased management claims, each linked to its verbatim quote (FactIQ earnings-call graph), scored against reported NIM from the banks' own decks.</div>
  <div class="card"><div class="wrap" id="tb_say"></div></div></section>
@@ -366,7 +362,6 @@ function draw(){
   base({yaxis:{title:'% of volume',gridcolor:css('--grid')},hovermode:'x unified'}),cfg);
  Plotly.react('p_mdr',[{type:'heatmap',x:D.mdr.x,y:D.mdr.y,z:D.mdr.z,colorscale:[[0,css('--seq-lo')],[1,css('--seq-hi')]],texttemplate:'%{z:,}',textfont:{size:12},hovertemplate:'%{y}, %{x}<br>Rs %{z:,} cr / yr<extra></extra>',showscale:false}],
   base({margin:{l:110,r:16,t:8,b:44}}),cfg);
- table('tb_cb',[['Company',r=>`<a href="${r.url}" target="_blank" rel="noopener">${r.co}</a>`],['Segment',r=>r.seg],['Total funding (US$ mn)',r=>r.usd],['Last round',r=>r.last+(r.date?' ('+r.date+')':'')],['Why it matters',r=>r.why]],D.cb);
  const vc=v=>v.startsWith('Delivered')?'ok':(v==='Missed'?'no':'mid');
  table('tb_say',[['Bank',r=>r.bank],['Call',r=>r.call],['Management said (paraphrase; verbatim at source)',r=>`${r.said} <a href="${r.url}" target="_blank" rel="noopener">source</a>`],['What happened',r=>r.outcome],['Verdict',r=>`<span class="pill ${vc(r.verdict)}">${r.verdict}</span>`]],D.say);
  $('q2note').textContent=D.q2_note;
@@ -376,7 +371,7 @@ $('srcbody').innerHTML=`<ul>
 <li><b>Attribution:</b> Shapley values over RoA = (NII + OI - opex - provisions) x (1 - tax rate); order-independent, sums to the gap.</li>
 <li><b>Insurance:</b> IRDAI Annual Report 2024-25 (Tables I.9-I.14), IRDAI Handbook 2024-25 (T2, T3, T13, T99, T100), IRDAI consultation 'Recalibrating Economics of Insurance Distribution' Part 1 (Box 2, 4A, 4B) and Part 2 (Annexure 3). Caps are proposed, not final. The premium-paying-term mix is an assumption, stress-tested by Monte Carlo.</li>
 <li><b>UPI:</b> NPCI product statistics and app-wise statistics (user-downloaded); DFS MDR FAQ (15 Sep 2026); PIB FY26 P2M/P2P split. App names normalised with our own rules; method credited to koushikxy/upi-payments-dashboard (no files copied).</li>
-<li><b>Market:</b> Crunchbase (request id logged in <code>data/tidy/crunchbase_fs_landscape.csv</code>); FactIQ earnings-call claim graph for management quotes.</li>
+<li><b>Management quotes:</b> FactIQ earnings-call claim graph.</li>
 <li><b>Checks:</b> each workbook has a checks tab: PBT tie, RoA vs reported, AR totals vs Handbook, NPCI app sum vs total, HHI vs reference.</li></ul>`;
 document.querySelectorAll('nav [role=tab]').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav [role=tab]').forEach(x=>x.setAttribute('aria-selected',x===b));document.querySelectorAll('section').forEach(s=>s.classList.toggle('on',s.id===b.dataset.t));window.dispatchEvent(new Event('resize'))});
 $('theme').onclick=()=>{const d=document.documentElement;const dark=d.dataset.theme?d.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;d.dataset.theme=dark?'light':'dark';draw()};
